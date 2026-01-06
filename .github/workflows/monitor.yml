@@ -26,6 +26,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          PYTHONPATH: ${{ github.workspace }}
         run: python main.py
       
       - name: Commit data
@@ -37,3 +38,12 @@ jobs:
             git commit -m "Update tracking data [skip ci]"
             git push
           fi
+```
+
+---
+
+**Обновите файл:** `.github/workflows/monitor.yml`
+
+**Commit message:**
+```
+fix: add PYTHONPATH to resolve module import error
