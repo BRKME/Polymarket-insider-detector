@@ -10,9 +10,9 @@ def detect_insider_trades():
     markets = get_active_markets(limit=50)
     print(f"[{datetime.now()}] Found {len(markets)} markets")
     
-    print(f"[{datetime.now()}] Fetching recent trades...")
-    trades = get_recent_trades(limit=100)
-    print(f"[{datetime.now()}] Found {len(trades)} trades")
+    print(f"[{datetime.now()}] Fetching recent trades (last 35 minutes)...")
+    trades = get_recent_trades(limit=1000, minutes_back=35)
+    print(f"[{datetime.now()}] Found {len(trades)} trades in time window")
     
     processed_count = 0
     filtered_count = 0
@@ -23,32 +23,39 @@ def detect_insider_trades():
             price = float(trade.get("price", 0))
             amount = size * price
             
-            print(f"\n[{datetime.now()}] Trade #{processed_count + 1}: size={size:.2f}, price={price:.4f}, amount=${amount:,.2f}")
+            print(f"\n[{datetime.now()}] Trade #{processed_count + filtered_count + 1}: size={size:.2f}, price={price:.4f}, amount=${amount:,.2f}")
             
             if amount < MIN_BET_SIZE:
                 print(f"  ❌ Filtered: amount ${amount:,.2f} < ${MIN_BET_SIZE:,.0f}")
                 filtered_count += 1
                 continue
             
-            wallet_address = trade.get("user", {}).get("proxyWallet") or trade.get("user", {}).get("address")
+            # Extract wallet from proxyWallet field
+            wallet_address = trade.get("proxyWallet")
             if not wallet_address:
-                print(f"  ❌ Filtered: no wallet address found")
+                print(f"  ❌ Filtered: no proxyWallet found")
                 filtered_count += 1
                 continue
             
             print(f"  ✓ Wallet: {wallet_address[:8]}...{wallet_address[-4:]}")
             
-            condition_id = trade.get("market", {}).get("conditionId")
+            # Extract conditionId
+            condition_id = trade.get("conditionId")
             if not condition_id:
-                print(f"  ❌ Filtered: no condition_id found")
+                print(f"  ❌ Filtered: no conditionId found")
                 filtered_count += 1
                 continue
             
             market = get_market_by_condition_id(condition_id, markets)
             if not market:
-                print(f"  ❌ Filtered: market not found for condition_id={condition_id[:8]}...")
-                filtered_count += 1
-                continue
+                print(f"  ⚠️  Market not in active list, using trade data")
+                # Use trade data as fallback
+                market = {
+                    "question": trade.get("title", "Unknown market"),
+                    "slug": trade.get("slug", ""),
+                    "conditionId": condition_id,
+                    "endDate": None
+                }
             
             print(f"  ✓ Market: {market.get('question', 'Unknown')[:60]}...")
             print(f"  → Fetching wallet activity...")
@@ -87,9 +94,9 @@ def detect_insider_trades():
     
     print(f"\n[{datetime.now()}] ════════════════════════════════")
     print(f"[{datetime.now()}] SUMMARY:")
-    print(f"[{datetime.now()}] Total trades fetched: {len(trades)}")
-    print(f"[{datetime.now()}] Processed: {processed_count}")
-    print(f"[{datetime.now()}] Filtered out: {filtered_count}")
+    print(f"[{datetime.now()}] Total trades in window: {len(trades)}")
+    print(f"[{datetime.now()}] Processed (≥$10k): {processed_count}")
+    print(f"[{datetime.now()}] Filtered out (<$10k): {filtered_count}")
     print(f"[{datetime.now()}] Alerts generated: {len(alerts)}")
     print(f"[{datetime.now()}] ════════════════════════════════")
     
