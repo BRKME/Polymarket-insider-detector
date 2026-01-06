@@ -1,5 +1,6 @@
-from datetime import datetime, timedelta
-from src.config import (
+from datetime import datetime
+from typing import Dict
+from config import (
     MIN_BET_SIZE, NEW_WALLET_DAYS_HIGH, NEW_WALLET_DAYS_LOW,
     LOW_ACTIVITY_THRESHOLD, LOW_ODDS_THRESHOLD, TIME_TO_RESOLVE_HOURS, SCORES
 )
