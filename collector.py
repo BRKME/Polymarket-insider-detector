@@ -2,7 +2,7 @@ import requests
 import time
 from datetime import datetime
 from typing import List, Dict, Optional
-from src.config import GAMMA_API_URL, DATA_API_URL, REQUEST_DELAY
+from config import GAMMA_API_URL, DATA_API_URL, REQUEST_DELAY
 
 def get_active_markets(limit: int = 50) -> List[Dict]:
     url = f"{GAMMA_API_URL}/markets"
