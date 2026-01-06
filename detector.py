@@ -1,7 +1,7 @@
-from src.collector import get_active_markets, get_recent_trades, get_wallet_activity, get_market_by_condition_id
-from src.analyzer import calculate_score
-from src.config import ALERT_THRESHOLD, MIN_BET_SIZE
 from datetime import datetime
+from collector import get_active_markets, get_recent_trades, get_wallet_activity, get_market_by_condition_id
+from analyzer import calculate_score
+from config import ALERT_THRESHOLD, MIN_BET_SIZE
 
 def detect_insider_trades():
     alerts = []
