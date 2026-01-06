@@ -1,7 +1,7 @@
 import requests
 import time
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from typing import List, Dict, Optional
 from config import GAMMA_API_URL, DATA_API_URL, REQUEST_DELAY
 
@@ -23,16 +23,19 @@ def get_active_markets(limit: int = 50) -> List[Dict]:
         print(f"[{datetime.now()}] API Response: {len(data)} markets fetched")
         if data:
             print(f"[{datetime.now()}] Sample market: {data[0].get('question', 'N/A')[:60]}...")
-            print(f"[{datetime.now()}] Market keys: {list(data[0].keys())[:10]}")
         return data
     except Exception as e:
         print(f"[{datetime.now()}] ❌ Error fetching markets: {e}")
         return []
 
-def get_recent_trades(limit: int = 100) -> List[Dict]:
+def get_recent_trades(limit: int = 1000, minutes_back: int = 35) -> List[Dict]:
+    """
+    Fetch recent trades and filter to last N minutes.
+    Uses limit=1000 to maximize coverage, then filters by time.
+    """
     url = f"{DATA_API_URL}/trades"
     params = {
-        "limit": limit,
+        "limit": limit,  # Максимум сколько можем взять
         "sortBy": "TIMESTAMP",
         "sortDirection": "DESC"
     }
@@ -44,48 +47,47 @@ def get_recent_trades(limit: int = 100) -> List[Dict]:
         data = response.json()
         print(f"[{datetime.now()}] API Response: {len(data)} trades fetched")
         
+        if not data:
+            return []
+        
+        # Calculate time cutoff (35 minutes ago to have buffer)
+        cutoff_time = datetime.now() - timedelta(minutes=minutes_back)
+        cutoff_timestamp = int(cutoff_time.timestamp())
+        
+        # Filter trades by time
+        filtered_trades = []
+        for trade in data:
+            trade_ts = trade.get("timestamp")
+            if trade_ts and trade_ts >= cutoff_timestamp:
+                filtered_trades.append(trade)
+        
+        # Time range analysis
         if data:
             first_trade = data[0]
             last_trade = data[-1]
             
-            # Extract timestamps
-            first_ts = first_trade.get("timestamp") or first_trade.get("createdAt") or first_trade.get("time")
-            last_ts = last_trade.get("timestamp") or last_trade.get("createdAt") or last_trade.get("time")
+            first_ts = first_trade.get("timestamp")
+            last_ts = last_trade.get("timestamp")
             
             print(f"[{datetime.now()}] ═══ TIME RANGE ═══")
             if first_ts:
-                if isinstance(first_ts, (int, float)):
-                    first_dt = datetime.fromtimestamp(first_ts)
-                else:
-                    first_dt = datetime.fromisoformat(str(first_ts).replace("Z", "+00:00"))
+                first_dt = datetime.fromtimestamp(first_ts)
                 print(f"  Newest trade: {first_dt} ({first_ts})")
-            else:
-                print(f"  Newest trade: timestamp not found")
             
             if last_ts:
-                if isinstance(last_ts, (int, float)):
-                    last_dt = datetime.fromtimestamp(last_ts)
-                else:
-                    last_dt = datetime.fromisoformat(str(last_ts).replace("Z", "+00:00"))
+                last_dt = datetime.fromtimestamp(last_ts)
                 print(f"  Oldest trade: {last_dt} ({last_ts})")
                 
                 if first_ts:
-                    if isinstance(first_ts, (int, float)) and isinstance(last_ts, (int, float)):
-                        duration_hours = (first_ts - last_ts) / 3600
-                    else:
-                        duration_hours = (first_dt - last_dt).total_seconds() / 3600
-                    print(f"  Time span: {duration_hours:.1f} hours ({duration_hours/24:.1f} days)")
-            else:
-                print(f"  Oldest trade: timestamp not found")
+                    duration_hours = (first_ts - last_ts) / 3600
+                    print(f"  Full span: {duration_hours:.1f} hours ({duration_hours/24:.1f} days)")
             
+            print(f"  Cutoff time: {cutoff_time}")
+            print(f"  Trades after cutoff: {len(filtered_trades)}/{len(data)}")
             print(f"[{datetime.now()}] ═══════════════════")
-            
-            print(f"[{datetime.now()}] Sample trade structure:")
-            print(f"  - Keys: {list(first_trade.keys())}")
-            print(f"  - Size: {first_trade.get('size', 'N/A')}")
-            print(f"  - Price: {first_trade.get('price', 'N/A')}")
-            print(f"  - Full trade (first 500 chars): {json.dumps(first_trade)[:500]}")
-        return data
+        
+        return filtered_trades
+        
     except Exception as e:
         print(f"[{datetime.now()}] ❌ Error fetching trades: {e}")
         import traceback
