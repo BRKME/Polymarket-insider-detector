@@ -25,11 +25,12 @@ SCORES = {
     "low_activity": 10
 }
 
-# API Request Settings
-TRADES_LIMIT = 10000        # Maximum trades per request (API limit)
-MAX_PAGES = 3               # Maximum pagination pages (30k trades total)
-MINUTES_BACK = 20           # Look back period with overlap for reliability
-PAGE_DELAY = 1.0            # Delay between paginated requests (rate limiting)
+# API Request Settings - UPDATED BASED ON REAL DATA
+# Production logs show: limit=10000 returns only 500 trades
+TRADES_LIMIT = 500          # REAL API LIMIT (not 10000!)
+MAX_PAGES = 20              # Up to 10,000 trades (20 × 500)
+MINUTES_BACK = 6            # Look back period for workflow interval
+PAGE_DELAY = 1.0            # Delay between paginated requests
 REQUEST_DELAY = 0.5         # Base delay for API requests
 
 # Retry Configuration
