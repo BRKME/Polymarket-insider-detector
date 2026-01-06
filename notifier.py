@@ -1,6 +1,6 @@
 import requests
 from openai import OpenAI
-from src.config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, OPENAI_API_KEY
+from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, OPENAI_API_KEY
 
 def generate_ai_summary(alert):
     try:
