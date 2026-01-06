@@ -38,12 +38,3 @@ jobs:
             git commit -m "Update tracking data [skip ci]"
             git push
           fi
-```
-
----
-
-**Обновите файл:** `.github/workflows/monitor.yml`
-
-**Commit message:**
-```
-fix: add PYTHONPATH to resolve module import error
