@@ -18,9 +18,13 @@ def get_active_markets(limit: int = 50) -> List[Dict]:
         time.sleep(REQUEST_DELAY)
         response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
-        return response.json()
+        data = response.json()
+        print(f"[{datetime.now()}] API Response: {len(data)} markets fetched")
+        if data:
+            print(f"[{datetime.now()}] Sample market: {data[0].get('question', 'N/A')[:60]}...")
+        return data
     except Exception as e:
-        print(f"Error fetching markets: {e}")
+        print(f"[{datetime.now()}] ❌ Error fetching markets: {e}")
         return []
 
 def get_recent_trades(limit: int = 100) -> List[Dict]:
@@ -35,9 +39,18 @@ def get_recent_trades(limit: int = 100) -> List[Dict]:
         time.sleep(REQUEST_DELAY)
         response = requests.get(url, params=params, timeout=10)
         response.raise_for_status()
-        return response.json()
+        data = response.json()
+        print(f"[{datetime.now()}] API Response: {len(data)} trades fetched")
+        if data:
+            first_trade = data[0]
+            print(f"[{datetime.now()}] Sample trade:")
+            print(f"  - Size: {first_trade.get('size', 'N/A')}")
+            print(f"  - Price: {first_trade.get('price', 'N/A')}")
+            print(f"  - User: {str(first_trade.get('user', {}))[:80]}...")
+            print(f"  - Market: {str(first_trade.get('market', {}))[:80]}...")
+        return data
     except Exception as e:
-        print(f"Error fetching trades: {e}")
+        print(f"[{datetime.now()}] ❌ Error fetching trades: {e}")
         return []
 
 def get_wallet_activity(address: str) -> Dict:
@@ -56,9 +69,11 @@ def get_wallet_activity(address: str) -> Dict:
         activities = response.json()
         
         if not activities:
+            print(f"  ⚠️  No activity found for wallet")
             return {"activities": [], "first_activity_timestamp": None, "total_count": 0}
         
         first_timestamp = activities[0].get("timestamp")
+        print(f"  ✓ Activity found: {len(activities)} records, first activity: {datetime.fromtimestamp(first_timestamp).strftime('%Y-%m-%d') if first_timestamp else 'Unknown'}")
         
         return {
             "activities": activities,
@@ -66,7 +81,7 @@ def get_wallet_activity(address: str) -> Dict:
             "total_count": len(activities)
         }
     except Exception as e:
-        print(f"Error fetching wallet activity for {address}: {e}")
+        print(f"  ❌ Error fetching wallet activity: {e}")
         return {"activities": [], "first_activity_timestamp": None, "total_count": 0}
 
 def get_market_by_condition_id(condition_id: str, markets: List[Dict]) -> Optional[Dict]:
