@@ -1,10 +1,11 @@
-name: Polymarket Insider Detector (Production)
+name: Polymarket Insider Detector (Updated Limits)
 
 on:
   schedule:
-    # Run every 15 minutes (more reliable than */5)
-    # GitHub Actions cron can have delays, so we use conservative interval
-    - cron: '*/15 * * * *'
+    # Run every 2 minutes - based on real API data:
+    # API returns 500 trades = ~16 seconds of market activity
+    # Running every 2 minutes ensures full coverage with overlap
+    - cron: '*/2 * * * *'
   
   # Allow manual triggering for testing
   workflow_dispatch:
@@ -23,8 +24,8 @@ jobs:
   detect-insiders:
     runs-on: ubuntu-latest
     
-    # Maximum execution time: 30 minutes
-    timeout-minutes: 30
+    # Maximum execution time: 10 minutes (should complete in 20-30s)
+    timeout-minutes: 10
     
     steps:
       - name: Checkout repository
