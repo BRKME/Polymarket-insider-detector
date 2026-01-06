@@ -1,16 +1,11 @@
 import json
-import os
-import sys
 from pathlib import Path
 from datetime import datetime
-
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-
-from src.detector import detect_insider_trades
-from src.notifier import send_telegram_alert
+from detector import detect_insider_trades
+from notifier import send_telegram_alert
 
 def load_tracked_wallets():
-    path = Path("data/tracked_wallets.json")
+    path = Path("tracked_wallets.json")
     if path.exists():
         try:
             with open(path, "r") as f:
@@ -20,16 +15,14 @@ def load_tracked_wallets():
     return []
 
 def save_tracked_wallets(wallets):
-    path = Path("data/tracked_wallets.json")
-    path.parent.mkdir(exist_ok=True, parents=True)
-    
+    path = Path("tracked_wallets.json")
     temp_path = path.with_suffix('.tmp')
     with open(temp_path, "w") as f:
         json.dump(wallets, f, indent=2)
     temp_path.replace(path)
 
 def load_alerts():
-    path = Path("data/alerts.json")
+    path = Path("alerts.json")
     if path.exists():
         try:
             with open(path, "r") as f:
@@ -39,9 +32,7 @@ def load_alerts():
     return []
 
 def save_alerts(alerts):
-    path = Path("data/alerts.json")
-    path.parent.mkdir(exist_ok=True, parents=True)
-    
+    path = Path("alerts.json")
     temp_path = path.with_suffix('.tmp')
     with open(temp_path, "w") as f:
         json.dump(alerts, f, indent=2)
