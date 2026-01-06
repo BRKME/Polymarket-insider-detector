@@ -1,7 +1,11 @@
 import json
 import os
+import sys
 from pathlib import Path
 from datetime import datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from src.detector import detect_insider_trades
 from src.notifier import send_telegram_alert
 
