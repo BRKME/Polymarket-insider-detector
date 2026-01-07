@@ -25,11 +25,13 @@ SCORES = {
     "low_activity": 10
 }
 
-# API Request Settings - UPDATED BASED ON REAL DATA
-# Production logs show: limit=10000 returns only 500 trades
-TRADES_LIMIT = 500          # REAL API LIMIT (not 10000!)
+# API Request Settings - OPTIMIZED FOR GITHUB ACTIONS
+# GitHub Actions minimum reliable cron interval = 5 minutes (*/5)
+# */2 and */3 are unreliable and cause ~30 min actual intervals
+TRADES_LIMIT = 500          # Real API limit (not 10000!)
 MAX_PAGES = 20              # Up to 10,000 trades (20 × 500)
-MINUTES_BACK = 6            # Look back period for workflow interval
+MINUTES_BACK = 10           # Look back 10 minutes for */5 frequency
+                            # Provides 2× overlap for reliability
 PAGE_DELAY = 1.0            # Delay between paginated requests
 REQUEST_DELAY = 0.5         # Base delay for API requests
 
