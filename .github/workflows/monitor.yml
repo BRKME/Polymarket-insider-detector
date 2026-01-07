@@ -1,11 +1,11 @@
-name: Polymarket Insider Detector (Updated Limits)
+name: Polymarket Insider Detector (GitHub Actions Optimized)
 
 on:
   schedule:
-    # Run every 2 minutes - based on real API data:
-    # API returns 500 trades = ~16 seconds of market activity
-    # Running every 2 minutes ensures full coverage with overlap
-    - cron: '*/2 * * * *'
+    # Run every 5 minutes - GitHub Actions minimum reliable interval
+    # */2 and */3 are ignored by GitHub and cause unpredictable scheduling
+    # Official docs: "shortest interval is once every 5 minutes"
+    - cron: '*/5 * * * *'
   
   # Allow manual triggering for testing
   workflow_dispatch:
