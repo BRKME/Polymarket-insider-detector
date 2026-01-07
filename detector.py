@@ -21,7 +21,7 @@ def detect_insider_trades():
         print(f"[{datetime.now()}] Found {len(markets)} active markets")
         
         # Fetch trades with pagination
-        trades = get_recent_trades_paginated()
+        trades = get_recent_trades_paginated(markets)
         
         if not trades:
             print(f"[{datetime.now()}] ⚠️  WARNING: No trades fetched")
