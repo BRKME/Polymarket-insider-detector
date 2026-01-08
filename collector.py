@@ -72,8 +72,12 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         price = float(trade.get("price", 0))
         amount = size * price
         
-        # Basic size filter
-        if amount < 10000:
+        # DEBUG: Log first few trades
+        # Uncomment for debugging:
+        # print(f"    DEBUG: amount=${amount:.0f}, price={price:.2f}, volume={market.get('volume24hr', 0)}")
+        
+        # Basic size filter - LOWERED to $5k
+        if amount < 5000:
             return False
         
         # FILTER 1: Extreme odds (high conviction)
@@ -191,6 +195,16 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
             print(f"  Trades after cutoff: {len(recent_trades)}/{len(trades)}")
             if filtered_by_smart > 0:
                 print(f"  Filtered by smart filters: {filtered_by_smart}")
+            
+            # DEBUG: Add stats if nothing passed
+            if len(recent_trades) == 0 and len(trades) > 0:
+                # Sample first 5 trades to understand filtering
+                print(f"  DEBUG: Checking why all trades filtered...")
+                for i, trade in enumerate(trades[:5]):
+                    size = float(trade.get("size", 0))
+                    price = float(trade.get("price", 0))
+                    amount = size * price
+                    print(f"    Trade {i+1}: ${amount:.0f} @ {price:.0%} odds")
             
             all_trades.extend(recent_trades)
             
