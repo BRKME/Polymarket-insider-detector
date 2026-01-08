@@ -125,7 +125,6 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
     
     # Create market lookup for smart filtering
     market_lookup = {m['conditionId']: m for m in markets if 'conditionId' in m}
-    print(f"[{datetime.now()}] 🔍 DEBUG: Created market_lookup with {len(market_lookup)} markets")  # DEBUG
     
     while page < MAX_PAGES:
         print(f"[{datetime.now()}] Fetching page {page + 1}/{MAX_PAGES} (offset={page * TRADES_LIMIT})...")
@@ -168,7 +167,6 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
             recent_trades = []
             filtered_by_time = 0
             filtered_by_smart = 0
-            no_condition_id = 0  # DEBUG
             
             for trade in trades:
                 timestamp = trade.get('timestamp', 0)
@@ -179,15 +177,8 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                     continue
                 
                 # Smart filter to reduce noise
-                condition_id = trade.get('market', {}).get('conditionId')
-                
-                # DEBUG: Check if condition_id exists
-                if not condition_id:
-                    no_condition_id += 1
-                    recent_trades.append(trade)
-                    continue
-                
-                if condition_id in market_lookup:
+                condition_id = trade.get('conditionId')  # FIXED: Direct access!
+                if condition_id and condition_id in market_lookup:
                     market = market_lookup[condition_id]
                     
                     if not is_trade_suspicious(trade, market):
@@ -197,12 +188,8 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                 recent_trades.append(trade)
             
             print(f"  Trades after cutoff: {len(recent_trades)}/{len(trades)}")
-            print(f"  🔍 DEBUG: No condition_id: {no_condition_id}")  # DEBUG
-            print(f"  🔍 DEBUG: Checked against market_lookup: {len(trades) - filtered_by_time - no_condition_id}")  # DEBUG
             if filtered_by_smart > 0:
-                print(f"  ✅ Filtered by smart filters: {filtered_by_smart}")
-            else:
-                print(f"  ⚠️  WARNING: No trades filtered by smart filters!")  # DEBUG
+                print(f"  Filtered by smart filters: {filtered_by_smart}")
             
             all_trades.extend(recent_trades)
             
