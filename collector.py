@@ -77,8 +77,8 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
             return False
         
         # FILTER 1: Extreme odds (high conviction)
-        # Skip "obvious" bets between 40-60%
-        if 0.40 <= price <= 0.60:
+        # Skip only very obvious "coin flip" bets (45-55%)
+        if 0.45 <= price <= 0.55:
             return False
         
         # FILTER 2: Market volume context
