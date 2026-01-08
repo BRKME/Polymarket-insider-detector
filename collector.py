@@ -177,13 +177,20 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                     continue
                 
                 # Smart filter to reduce noise
-                condition_id = trade.get('conditionId')  # FIXED: Direct access!
+                condition_id = trade.get('conditionId')
                 if condition_id and condition_id in market_lookup:
                     market = market_lookup[condition_id]
-                    
-                    if not is_trade_suspicious(trade, market):
-                        filtered_by_smart += 1
-                        continue
+                else:
+                    # Fallback: treat as low-volume "other" category market
+                    # This ensures smart filters still work for trades outside top-50
+                    market = {
+                        'volume24hr': 0,
+                        'groupItemTitle': 'other'
+                    }
+                
+                if not is_trade_suspicious(trade, market):
+                    filtered_by_smart += 1
+                    continue
                 
                 recent_trades.append(trade)
             
