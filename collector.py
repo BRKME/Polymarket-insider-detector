@@ -92,15 +92,9 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
             if amount < 5_000:  # Lower threshold for small markets
                 return False
         
-        # FILTER 3: Market category priority
-        # Focus on high-value categories
-        priority_categories = ['politics', 'economics', 'sports']
-        category = market.get('groupItemTitle', '').lower()
-        
-        if category not in priority_categories:
-            # Higher threshold for other categories
-            if amount < 25_000:
-                return False
+        # FILTER 3: Category priority - REMOVED
+        # Category info not available for most trades (fallback market)
+        # Relying on odds + amount only for now
         
         # Trade passes all filters
         return True
