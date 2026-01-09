@@ -1,31 +1,62 @@
-# Configuration for Polymarket Insider Detector
+import os
 
 # API Endpoints
 GAMMA_API_URL = "https://gamma-api.polymarket.com"
 DATA_API_URL = "https://data-api.polymarket.com"
 
-# Data Collection
-TRADES_LIMIT = 500  # Maximum trades per page
-MAX_PAGES = 20      # Maximum pages to fetch
-MINUTES_BACK = 30   # Look back 30 minutes (was 10 - compensates for unreliable GitHub Actions cron)
+# Trading Thresholds
+MIN_BET_SIZE = 10000        # $10k minimum bet to analyze
+ALERT_THRESHOLD = 80        # Score threshold for alerts (max 110)
 
-# Rate Limiting
-PAGE_DELAY = 0.2      # Delay between pages (200ms)
-REQUEST_DELAY = 0.1   # Delay between requests (100ms)
+# Wallet Analysis Criteria
+NEW_WALLET_DAYS_HIGH = 3    # Very new wallet (40 points)
+NEW_WALLET_DAYS_LOW = 7     # New wallet (20 points)
+LOW_ACTIVITY_THRESHOLD = 5  # Low transaction count
+LOW_ODDS_THRESHOLD = 0.10   # Against trend: odds < 10%
+TIME_TO_RESOLVE_HOURS = 24  # Close to deadline
+
+# Scoring Weights
+SCORES = {
+    "wallet_age_high": 40,
+    "wallet_age_low": 20,
+    "against_trend": 25,
+    "large_bet": 20,
+    "timing": 15,
+    "low_activity": 10
+}
+
+# API Request Settings - OPTIMIZED FOR UNRELIABLE GITHUB ACTIONS CRON
+# GitHub Actions cron is unreliable: */5 actually runs every 6-27 minutes!
+# MINUTES_BACK increased from 10 to 30 to compensate for cron delays
+TRADES_LIMIT = 500          # Real API limit (not 10000!)
+MAX_PAGES = 20              # Up to 10,000 trades (20 × 500)
+MINUTES_BACK = 30           # Look back 30 minutes (was 10)
+                            # Compensates for unreliable GitHub Actions cron
+                            # Observed intervals: 6-27 minutes (not 5!)
+                            # 30-minute window guarantees 100% coverage
+PAGE_DELAY = 1.0            # Delay between paginated requests
+REQUEST_DELAY = 0.5         # Base delay for API requests
 
 # Retry Configuration
-MAX_RETRIES = 3           # Maximum retry attempts
-RETRY_DELAY = 2           # Base delay between retries (seconds)
-RETRY_BACKOFF = 2         # Exponential backoff multiplier
+MAX_RETRIES = 3             # Maximum retry attempts for failed requests
+RETRY_DELAY = 5             # Base delay between retries (seconds)
+RETRY_BACKOFF = 2           # Exponential backoff multiplier
 
 # Rate Limit Handling
-RATE_LIMIT_RETRY_DELAY = 60    # Wait 60s when rate limited
-RATE_LIMIT_MAX_RETRIES = 2     # Max rate limit retries
+RATE_LIMIT_RETRY_DELAY = 60  # Wait time for 429 errors (seconds)
+RATE_LIMIT_MAX_RETRIES = 2   # Max retries for rate limit errors
 
-# Detection Thresholds
-MIN_BET_SIZE = 10000          # Minimum bet size ($10,000)
-SUSPICION_THRESHOLD = 80      # Score threshold for alerts (0-110)
+# Execution Limits
+MAX_EXECUTION_TIME = 1800   # 30 minutes max execution (seconds)
 
-# Telegram Configuration (set via environment variables)
-# TELEGRAM_BOT_TOKEN = "your_token_here"
-# TELEGRAM_CHAT_ID = "your_chat_id_here"
+# Environment Variables
+TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+# Validation
+if not all([TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, OPENAI_API_KEY]):
+    print("⚠️  WARNING: Missing required environment variables!")
+    print(f"  TELEGRAM_BOT_TOKEN: {'✓' if TELEGRAM_BOT_TOKEN else '✗'}")
+    print(f"  TELEGRAM_CHAT_ID: {'✓' if TELEGRAM_CHAT_ID else '✗'}")
+    print(f"  OPENAI_API_KEY: {'✓' if OPENAI_API_KEY else '✗'}")
