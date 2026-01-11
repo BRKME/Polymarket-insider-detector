@@ -6,22 +6,20 @@ def generate_ai_summary(alert):
     try:
         client = OpenAI(api_key=OPENAI_API_KEY)
         
-        prompt = f"""Analyze this suspicious Polymarket trade as potential insider trading.
+        prompt = f"""Analyze this Polymarket trade in MAX 2 SHORT sentences.
 
 Market: {alert['market']}
-Bet amount: ${alert['analysis']['amount']:,.0f}
-Odds: {alert['analysis']['odds']*100:.1f}%
-Wallet age: {alert['analysis']['wallet_age_days']} days
-Total activities: {alert['analysis']['total_activities']}
-Suspicious flags: {', '.join(alert['analysis']['flags'])}
+Bet: ${alert['analysis']['amount']:,.0f} @ {alert['analysis']['odds']*100:.1f}%
+Wallet: {alert['analysis']['wallet_age_days']}d old, {alert['analysis']['total_activities']} activities
+Flags: {', '.join(alert['analysis']['flags'])}
 
-Provide 2-3 sentences explaining why this looks like insider trading."""
+Write ONLY 1-2 concise sentences explaining the main concern. Be brief."""
 
         response = client.chat.completions.create(
             model="gpt-4o-mini",
             messages=[{"role": "user", "content": prompt}],
-            max_tokens=150,
-            temperature=0.7
+            max_tokens=80,  # Reduced from 150
+            temperature=0.5  # Reduced from 0.7 for more focused output
         )
         
         return response.choices[0].message.content.strip()
@@ -41,8 +39,8 @@ def format_alert_message(alert):
 🔍 Suspicious:
 {chr(10).join(['✓ ' + flag for flag in analysis['flags']])}
 
-🔗 Wallet: {alert['wallet'][:6]}...{alert['wallet'][-4:]}
-📍 https://polymarket.com/event/{alert['market_slug']}
+👛 Wallet: `{alert['wallet']}`
+📍 {alert.get('market_url', f"https://polymarket.com/event/{alert['market_slug']}")}
 
 🤖 AI Analysis:
 {generate_ai_summary(alert)}"""
