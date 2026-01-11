@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "market": "Ethereum Up or Down - January 11, 3:15PM-3:30PM ET",
+    "market_slug": "eth-updown-15m-1768162500",
+    "wallet": "0xf0d10a6ca622cc5f700fcf0265c3f59fd3c42b0a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($48,010)"
+      ],
+      "amount": 48010.261368881744,
+      "odds": 0.9798963183673469,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-11T20:26:23.414867",
+    "trade_hash": "0xe35b419142d4c95ac6eff1f1c37a2fde2e4ad8c92fa91261db40bc36357812f9",
+    "trade_timestamp": 1768163072
+  }
+]
