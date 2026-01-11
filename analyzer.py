@@ -25,7 +25,14 @@ def calculate_wallet_age_score(first_activity_timestamp: int) -> int:
     return 0
 
 def calculate_against_trend_score(trade_price: float) -> int:
-    if trade_price < LOW_ODDS_THRESHOLD:
+    """
+    Score trades with extreme odds (both low and high)
+    Low odds (< 10%): Betting against strong favorites (insider info?)
+    High odds (> 95%): Betting with extreme confidence (insider info?)
+    """
+    if trade_price < LOW_ODDS_THRESHOLD:  # < 10%
+        return SCORES["against_trend"]
+    elif trade_price > 0.95:  # > 95% extreme confidence
         return SCORES["against_trend"]
     return 0
 
@@ -74,10 +81,14 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
     against_trend_score = calculate_against_trend_score(trade_price)
     if against_trend_score > 0:
         score += against_trend_score
-        flags.append(f"Against trend ({trade_price*100:.1f}% odds)")
-        print(f"     Against trend: {trade_price*100:.1f}% → +{against_trend_score} pts")
+        if trade_price < LOW_ODDS_THRESHOLD:
+            flags.append(f"Against trend ({trade_price*100:.1f}% odds)")
+            print(f"     Against trend: {trade_price*100:.1f}% → +{against_trend_score} pts (betting underdog)")
+        else:  # > 95%
+            flags.append(f"Extreme confidence ({trade_price*100:.1f}% odds)")
+            print(f"     Extreme confidence: {trade_price*100:.1f}% → +{against_trend_score} pts")
     else:
-        print(f"     Against trend: {trade_price*100:.1f}% → 0 pts (odds too high)")
+        print(f"     Odds: {trade_price*100:.1f}% → 0 pts (middle range)")
     
     size = float(trade.get("size", 0))
     amount = size * trade_price
