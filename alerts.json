@@ -158,5 +158,25 @@
     "timestamp": "2026-01-12T21:55:26.393273",
     "trade_hash": "0x6df7033b03625e822742745b7b63631914e7ef709e61ed34eb6c7cd352f86c42",
     "trade_timestamp": 1768254777
+  },
+  {
+    "market": "Ethereum Up or Down - January 12, 8:30PM-8:45PM ET",
+    "market_slug": "eth-updown-15m-1768267800",
+    "wallet": "0xad889df0366e3216696504acad53b560835290a3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($85,724)"
+      ],
+      "amount": 85723.54,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-13T01:42:17.929144",
+    "trade_hash": "0xb69aa987ef95a5198d235b100f8a4478b1e9e9a6ab215726f6899ac163609ec6",
+    "trade_timestamp": 1768268451
   }
 ]
