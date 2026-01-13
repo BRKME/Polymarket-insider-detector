@@ -198,5 +198,25 @@
     "timestamp": "2026-01-13T10:44:46.386338",
     "trade_hash": "0x1d85069ab36e0b380eaddaf18a1421aa87784a066379d7d53e8366c257be7ea4",
     "trade_timestamp": 1768300907
+  },
+  {
+    "market": "Counter-Strike: Astralis vs fnatic - Map 1 Winner",
+    "market_slug": "cs2-ast10-fnc-2026-01-13-game1",
+    "wallet": "0x5165bc26190cc123f85dda5af461fad28aa8175b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($12,220)"
+      ],
+      "amount": 12219.95781,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-13T18:01:41.593748",
+    "trade_hash": "0x31820435ef2c3aab15bfc9aa03e51d004df3628f85bf552f13b32eb3ec3dd785",
+    "trade_timestamp": 1768327173
   }
 ]
