@@ -7,6 +7,11 @@ DATA_API_URL = "https://data-api.polymarket.com"
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (serious bets only, blocks casual gambling)
 ALERT_THRESHOLD = 80        # Score threshold for alerts (max 110)
+MAX_ODDS_THRESHOLD = 0.95   # Block >95% odds (arbitrage territory)
+
+# Market Filtering
+BLOCK_15MIN_MARKETS = True  # Block HFT/bot markets
+BLOCK_SHORT_PRICE_PREDICTIONS = True  # Block <24h price arbitrage
 
 # Wallet Analysis Criteria
 NEW_WALLET_DAYS_HIGH = 3    # Very new wallet (40 points)
