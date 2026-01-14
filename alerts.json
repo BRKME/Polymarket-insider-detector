@@ -400,5 +400,26 @@
     "timestamp": "2026-01-14T09:44:27.624366",
     "trade_hash": "0x732a61d39fba254dc9634ef436cb7b895a6271c80366302045ae84136fb02461",
     "trade_timestamp": 1768383708
+  },
+  {
+    "market": "Will Saudi Aramco be the second-largest company in the world by market cap on January 31?",
+    "market_slug": "will-saudi-aramco-be-the-second-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x4b72b9fa90f92a93866a18804e05c5ac68b56804",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,063)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1062.87998,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-14T11:50:42.407878",
+    "trade_hash": "0x6437ccb93f9e4c554f46ef30520adaace0be4658c79f9d8b8abb8b6e682129a2",
+    "trade_timestamp": 1768391292
   }
 ]
