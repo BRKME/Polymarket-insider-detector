@@ -589,5 +589,47 @@
     "timestamp": "2026-01-14T14:14:21.677016",
     "trade_hash": "0x189b48a1568ac2ece90a21af051e9fbed8b2c6e9eae61d3f84348f816a2c7378",
     "trade_timestamp": 1768399900
+  },
+  {
+    "market": "Will Galatasaray win the 2025\u201326 Champions League?",
+    "market_slug": "will-galatasaray-win-the-202526-champions-league",
+    "wallet": "0xfbd70192c1b234ab5185f1988ef20b63acefdddb",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,501)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1501.4202,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-14T14:59:50.469723",
+    "trade_hash": "0x23786bbec5026ed8abccc6f1345576213920fe0b1ecb9e3e5b66a871bcd49a3b",
+    "trade_timestamp": 1768402630
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 14?",
+    "market_slug": "bitcoin-above-92k-on-january-14",
+    "wallet": "0x6b7c9517504c68b7765699c82002322c02789077",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,008)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3007.9999980000002,
+      "odds": 0.9979999997047141,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-14T14:59:57.613443",
+    "trade_hash": "0x3da60b251d4c349f7643eba3d722d6d96ffb32e51ad1a7420e3b3829ef4eaa69",
+    "trade_timestamp": 1768402618
   }
 ]
