@@ -547,5 +547,47 @@
     "timestamp": "2026-01-14T13:54:46.328340",
     "trade_hash": "0x0373e8136f0b1f06babb8133e4e878578a8c557e9de24f465df748b80909e407",
     "trade_timestamp": 1768398730
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,500 on January 14?",
+    "market_slug": "ethereum-above-3500-on-january-14",
+    "wallet": "0x60b543a5ac001850960151986b0e8d3a81a32b2a",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,010)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1009.8,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-14T14:14:19.453647",
+    "trade_hash": "0x7090b5d3660232a5204e865b02beb226e3233fecf6548403087e1c57e262fa56",
+    "trade_timestamp": 1768399970
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,500 on January 14?",
+    "market_slug": "ethereum-above-3500-on-january-14",
+    "wallet": "0x97d9e0d188efcc90df9777b6ab73de34616dac99",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,011)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1010.6394,
+      "odds": 0.9908229411764706,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-14T14:14:21.677016",
+    "trade_hash": "0x189b48a1568ac2ece90a21af051e9fbed8b2c6e9eae61d3f84348f816a2c7378",
+    "trade_timestamp": 1768399900
   }
 ]
