@@ -691,5 +691,25 @@
     "timestamp": "2026-01-14T19:42:07.771644",
     "trade_hash": "0x1f1d064c422630f491959333a02848b49eaeb44fc3f8b2c7492caa096ba7f3f4",
     "trade_timestamp": 1768419452
+  },
+  {
+    "market": "Will Donald Trump win the 2028 US Presidential Election?",
+    "market_slug": "will-donald-trump-win-the-2028-us-presidential-election",
+    "wallet": "0x9d134b8d558c1e9e8ccca9b37b501bd6f26d004d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.4% odds)",
+        "Large bet ($1,187)"
+      ],
+      "amount": 1186.999976,
+      "odds": 0.97399999998523,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-14T19:55:09.248397",
+    "trade_hash": "0x003dd56e517360413e2535be92b2fc85ad3694b549d9590c799f68dcf2243bea",
+    "trade_timestamp": 1768420426
   }
 ]
