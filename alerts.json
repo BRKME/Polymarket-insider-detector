@@ -772,5 +772,25 @@
     "timestamp": "2026-01-14T20:43:36.616111",
     "trade_hash": "0x5730386a1ad79ba4599676e58eff899f1b65fb46fb7924e995c4b144880c57cf",
     "trade_timestamp": 1768423272
+  },
+  {
+    "market": "Will Nigeria win on 2026-01-14?",
+    "market_slug": "acn-nga-mar-2026-01-14-nga",
+    "wallet": "0xb28dd396bc02d3c001c5e554a119ad9ca23483e4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($8,034)"
+      ],
+      "amount": 8033.61834,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-14T22:19:58.018887",
+    "trade_hash": "0x553d167534768fe4538784d04b303cfd26b1edee24f96a88d150868d0fe1ec34",
+    "trade_timestamp": 1768429072
   }
 ]
