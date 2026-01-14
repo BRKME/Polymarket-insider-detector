@@ -752,5 +752,25 @@
     "timestamp": "2026-01-14T20:27:54.343224",
     "trade_hash": "0xbab9f8deedf212a01a97f96335e9abe6a4d32f1d4ee9c52c44b752e2774451a1",
     "trade_timestamp": 1768422424
+  },
+  {
+    "market": "Will Robert F. Kennedy Jr. win the 2028 Republican presidential nomination?",
+    "market_slug": "will-robert-f-kennedy-jr-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xabc453ee030c9bf15d36fb2cf3c7df41f6cc860c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,133)"
+      ],
+      "amount": 1132.864,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-14T20:43:36.616111",
+    "trade_hash": "0x5730386a1ad79ba4599676e58eff899f1b65fb46fb7924e995c4b144880c57cf",
+    "trade_timestamp": 1768423272
   }
 ]
