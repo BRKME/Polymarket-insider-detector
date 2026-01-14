@@ -505,5 +505,26 @@
     "timestamp": "2026-01-14T12:29:59.610122",
     "trade_hash": "0x3771267e374cc677c592dca7dbd244f2618d4ed1361deea301861039b7e71cc4",
     "trade_timestamp": 1768393662
+  },
+  {
+    "market": "Bank of Japan increases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "bank-of-japan-increases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x83e8b1813ed9e19224f86cbca1d785e001061214",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,053)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1052.89,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-14T13:22:56.199513",
+    "trade_hash": "0x0a898f3b25a7f628e5bf15c76ff9560060f04dbae1540c75576e1aae072e93d0",
+    "trade_timestamp": 1768396918
   }
 ]
