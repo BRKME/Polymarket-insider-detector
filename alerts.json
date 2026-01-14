@@ -463,5 +463,47 @@
     "timestamp": "2026-01-14T11:57:04.291640",
     "trade_hash": "0xd2ff95f8479b800bb3282217cd14b3fc46383af535accbaca20310960768a705",
     "trade_timestamp": 1768391694
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x15702819c153b42bccb5a2962b7af9c00d3507cd",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,087)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1086.90492,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-14T12:29:56.559206",
+    "trade_hash": "0xc96cc303c40745783e779f118ea0a12d0c6c49f3b21d440e3c9359fd53e8b11f",
+    "trade_timestamp": 1768393674
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0xc37e02797da1477d336b3cfe554907330db64f03",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,083)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1082.91096,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-14T12:29:59.610122",
+    "trade_hash": "0x3771267e374cc677c592dca7dbd244f2618d4ed1361deea301861039b7e71cc4",
+    "trade_timestamp": 1768393662
   }
 ]
