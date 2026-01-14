@@ -421,5 +421,47 @@
     "timestamp": "2026-01-14T11:50:42.407878",
     "trade_hash": "0x6437ccb93f9e4c554f46ef30520adaace0be4658c79f9d8b8abb8b6e682129a2",
     "trade_timestamp": 1768391292
+  },
+  {
+    "market": "Israel nuclear weapon use against Iran by January 31?",
+    "market_slug": "will-israel-nuke-iran-by-january-31",
+    "wallet": "0xf86b2eb1173b240cbc480e5e588c1e1bf08a4df6",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,048)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1047.87936,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-14T11:57:03.598815",
+    "trade_hash": "0xf3fb535ed9d5f4a592e10c07d68e4f4a0de975ce2c0e7fe1173919a1fae32b77",
+    "trade_timestamp": 1768391698
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x4e5ee59c993c3f22298c14d00c7c992e2f03f94c",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,035)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1034.99999,
+      "odds": 0.9969999999990368,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-14T11:57:04.291640",
+    "trade_hash": "0xd2ff95f8479b800bb3282217cd14b3fc46383af535accbaca20310960768a705",
+    "trade_timestamp": 1768391694
   }
 ]
