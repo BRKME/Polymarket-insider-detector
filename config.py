@@ -5,7 +5,7 @@ GAMMA_API_URL = "https://gamma-api.polymarket.com"
 DATA_API_URL = "https://data-api.polymarket.com"
 
 # Trading Thresholds
-MIN_BET_SIZE = 10000        # $10k minimum bet to analyze
+MIN_BET_SIZE = 1000  # $1,000 minimum (serious bets only, blocks casual gambling)
 ALERT_THRESHOLD = 80        # Score threshold for alerts (max 110)
 
 # Wallet Analysis Criteria
@@ -25,15 +25,13 @@ SCORES = {
     "low_activity": 10
 }
 
-# API Request Settings - OPTIMIZED FOR UNRELIABLE GITHUB ACTIONS CRON
-# GitHub Actions cron is unreliable: */5 actually runs every 6-27 minutes!
-# MINUTES_BACK increased from 10 to 30 to compensate for cron delays
+# API Request Settings - OPTIMIZED FOR GITHUB ACTIONS
+# GitHub Actions minimum reliable cron interval = 5 minutes (*/5)
+# */2 and */3 are unreliable and cause ~30 min actual intervals
 TRADES_LIMIT = 500          # Real API limit (not 10000!)
 MAX_PAGES = 20              # Up to 10,000 trades (20 × 500)
-MINUTES_BACK = 30           # Look back 30 minutes (was 10)
-                            # Compensates for unreliable GitHub Actions cron
-                            # Observed intervals: 6-27 minutes (not 5!)
-                            # 30-minute window guarantees 100% coverage
+MINUTES_BACK = 10           # Look back 10 minutes for */5 frequency
+                            # Provides 2× overlap for reliability
 PAGE_DELAY = 1.0            # Delay between paginated requests
 REQUEST_DELAY = 0.5         # Base delay for API requests
 
