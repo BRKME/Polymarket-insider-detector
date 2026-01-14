@@ -72,33 +72,20 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         price = float(trade.get("price", 0))
         amount = size * price
         
-        # DEBUG: Log first few trades
-        # Uncomment for debugging:
-        # print(f"    DEBUG: amount=${amount:.0f}, price={price:.2f}, volume={market.get('volume24hr', 0)}")
+        # FILTER 0: Skip 15-min markets (HFT/bot territory - NO INSIDER VALUE!)
+        market_title = market.get('question', '').lower()
+        if any(term in market_title for term in ['15m', '15 min', '15-min', 'updown', 'up or down']):
+            return False  # Block all HFT markets
         
-        # Basic size filter - LOWERED to $5k
-        if amount < 5000:
+        # FILTER 1: Fixed threshold ($1,000 for serious bets)
+        # Simple, clear, no edge cases
+        if amount < 1000:
             return False
         
-        # FILTER 1: Extreme odds (high conviction)
-        # Skip only very obvious "coin flip" bets (45-55%)
+        # FILTER 2: Extreme odds (high conviction)
+        # Skip middle range 45-55% (coin flip territory)
         if 0.45 <= price <= 0.55:
             return False
-        
-        # FILTER 2: Market volume context
-        # Higher threshold for high-volume markets (more noise)
-        market_volume = float(market.get("volume24hr", 0))
-        
-        if market_volume > 10_000_000:  # $10M+ volume
-            if amount < 50_000:  # Need $50k+ to be interesting
-                return False
-        elif market_volume < 100_000:  # <$100k volume
-            if amount < 5_000:  # Lower threshold for small markets
-                return False
-        
-        # FILTER 3: Category priority - REMOVED
-        # Category info not available for most trades (fallback market)
-        # Relying on odds + amount only for now
         
         # Trade passes all filters
         return True
@@ -175,36 +162,19 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                     continue
                 
                 # Smart filter to reduce noise
-                condition_id = trade.get('conditionId')
-                if condition_id and condition_id in market_lookup:
+                condition_id = trade.get('market', {}).get('conditionId')
+                if condition_id in market_lookup:
                     market = market_lookup[condition_id]
-                else:
-                    # Fallback: treat as low-volume "other" category market
-                    # This ensures smart filters still work for trades outside top-50
-                    market = {
-                        'volume24hr': 0,
-                        'groupItemTitle': 'other'
-                    }
-                
-                if not is_trade_suspicious(trade, market):
-                    filtered_by_smart += 1
-                    continue
+                    
+                    if not is_trade_suspicious(trade, market):
+                        filtered_by_smart += 1
+                        continue
                 
                 recent_trades.append(trade)
             
             print(f"  Trades after cutoff: {len(recent_trades)}/{len(trades)}")
             if filtered_by_smart > 0:
                 print(f"  Filtered by smart filters: {filtered_by_smart}")
-            
-            # DEBUG: Add stats if nothing passed
-            if len(recent_trades) == 0 and len(trades) > 0:
-                # Sample first 5 trades to understand filtering
-                print(f"  DEBUG: Checking why all trades filtered...")
-                for i, trade in enumerate(trades[:5]):
-                    size = float(trade.get("size", 0))
-                    price = float(trade.get("price", 0))
-                    amount = size * price
-                    print(f"    Trade {i+1}: ${amount:.0f} @ {price:.0%} odds")
             
             all_trades.extend(recent_trades)
             
