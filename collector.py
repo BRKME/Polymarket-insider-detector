@@ -77,14 +77,27 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         if any(term in market_title for term in ['15m', '15 min', '15-min', 'updown', 'up or down']):
             return False  # Block all HFT markets
         
+        # FILTER 0.5: Skip short-term price predictions (arbitrage bots)
+        # These are just spot price arbitrage, not insider info
+        price_terms = ['price of', 'reach $', 'above $', 'below $', 'less than $', 'more than $']
+        time_terms = ['today', 'tomorrow', 'january 14', 'january 15', 'january 16', 'this week']
+        
+        has_price = any(term in market_title for term in price_terms)
+        has_short_time = any(term in market_title for term in time_terms)
+        
+        if has_price and has_short_time:
+            return False  # Block short-term price arbitrage
+        
         # FILTER 1: Fixed threshold ($1,000 for serious bets)
         # Simple, clear, no edge cases
         if amount < 1000:
             return False
         
-        # FILTER 2: Extreme odds (high conviction)
-        # Skip middle range 45-55% (coin flip territory)
+        # FILTER 2: Odds filter (conviction without certainty)
+        # Skip coin flips (45-55%) AND near-certain bets (>95% = usually arbs)
         if 0.45 <= price <= 0.55:
+            return False
+        if price > 0.95:  # >95% odds = arbitrage territory
             return False
         
         # Trade passes all filters
