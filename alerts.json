@@ -631,5 +631,25 @@
     "timestamp": "2026-01-14T14:59:57.613443",
     "trade_hash": "0x3da60b251d4c349f7643eba3d722d6d96ffb32e51ad1a7420e3b3829ef4eaa69",
     "trade_timestamp": 1768402618
+  },
+  {
+    "market": "Bitcoin Up or Down - January 14, 2PM ET",
+    "market_slug": "bitcoin-up-or-down-january-14-2pm-et",
+    "wallet": "0x67ebe6df2ebb84f64868f47c2209a0d30c4c7ed0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.9% odds)",
+        "Large bet ($1,500)"
+      ],
+      "amount": 1499.999997,
+      "odds": 0.9591807607179883,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-14T19:29:27.556415",
+    "trade_hash": "0x313cd2a8ce95a3a9058b8ee246a969e01bbc9842f3b288a3a1c1e412e23f4659",
+    "trade_timestamp": 1768418904
   }
 ]
