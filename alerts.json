@@ -298,5 +298,45 @@
     "timestamp": "2026-01-14T06:17:14.108546",
     "trade_hash": "0xa777b83b25a03582dd2d294dd13695447f52608dd953b5dbabdcab44c72c3b45",
     "trade_timestamp": 1768371256
+  },
+  {
+    "market": "Will Frank Donovan be the leader of Venezuela end of 2026?",
+    "market_slug": "will-frank-donovan-be-the-leader-of-venezuela-end-of-2026",
+    "wallet": "0x2e7710851591b18c26347f10ee2c8716feff9d25",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,140)"
+      ],
+      "amount": 1139.5363599999998,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-14T08:19:46.410789",
+    "trade_hash": "0x7249fc57653cf6dc59696a88381447fa1cba637e944508d987d09c89a266e561",
+    "trade_timestamp": 1768378640
+  },
+  {
+    "market": "No change in Fed interest rates after January 2026 meeting?",
+    "market_slug": "no-change-in-fed-interest-rates-after-january-2026-meeting",
+    "wallet": "0xb66582886125a2a2ea966f1ea60ea60b6ecabf8f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.9% odds)",
+        "Large bet ($28,770)"
+      ],
+      "amount": 28770.0,
+      "odds": 0.959,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-14T08:19:47.841906",
+    "trade_hash": "0xd38e39a27088ee723ea18d6e31a5837068b5a5fd8b222e7238b7750492fd6813",
+    "trade_timestamp": 1768378612
   }
 ]
