@@ -338,5 +338,46 @@
     "timestamp": "2026-01-14T08:19:47.841906",
     "trade_hash": "0xd38e39a27088ee723ea18d6e31a5837068b5a5fd8b222e7238b7750492fd6813",
     "trade_timestamp": 1768378612
+  },
+  {
+    "market": "Will the price of XRP be less than $1.70 on January 15?",
+    "market_slug": "will-the-price-of-xrp-be-less-than-1pt70-on-january-15",
+    "wallet": "0x77ad0cf7be0bd295dd0e5d53a04a0d0c95c410e2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,368)"
+      ],
+      "amount": 1367.669961,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-14T09:15:30.647557",
+    "trade_hash": "0xaa4460b0a1bac6f2d92cb1451ecc893ef13f510e913dd4daed5313aadf452310",
+    "trade_timestamp": 1768382056
+  },
+  {
+    "market": "Will the price of Ethereum be less than $2,700 on January 15?",
+    "market_slug": "will-the-price-of-ethereum-be-less-than-2700-on-january-15",
+    "wallet": "0xe262f014b791b58c5b82960a956e878ec8b68ee6",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,011)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1010.72826,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-14T09:16:19.083780",
+    "trade_hash": "0xbec2c3dc8bde5fc45e36256004bcc7021584af76146e0d70cd742ab40f659660",
+    "trade_timestamp": 1768381962
   }
 ]
