@@ -6,14 +6,16 @@ def generate_ai_summary(alert):
     try:
         client = OpenAI(api_key=OPENAI_API_KEY)
         
-        prompt = f"""Analyze this Polymarket trade in MAX 2 SHORT sentences.
+        prompt = f"""Analyze this suspicious Polymarket trade in 1 SHORT sentence (max 15 words).
 
 Market: {alert['market']}
 Bet: ${alert['analysis']['amount']:,.0f} @ {alert['analysis']['odds']*100:.1f}%
 Wallet: {alert['analysis']['wallet_age_days']}d old, {alert['analysis']['total_activities']} activities
-Flags: {', '.join(alert['analysis']['flags'])}
 
-Write ONLY 1-2 concise sentences explaining the main concern. Be brief."""
+Focus on: Why THIS specific bet is suspicious (not generic "new wallet" comments).
+Examples: "Betting against 95% consensus suggests insider info on policy change" or "Extreme confidence on uncertain event indicates potential leak"
+
+Write ONLY ONE critical insight (max 15 words):"""
 
         response = client.chat.completions.create(
             model="gpt-4o-mini",
