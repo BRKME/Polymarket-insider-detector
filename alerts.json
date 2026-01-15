@@ -1218,5 +1218,45 @@
     "timestamp": "2026-01-15T10:00:12.483165",
     "trade_hash": "0x028e201d31cceb1ec83e2b6930dbdf74ea87400d5afa82e65587aeb7cc16ada3",
     "trade_timestamp": 1768471148
+  },
+  {
+    "market": "Will Pete Buttigieg win the 2028 US Presidential Election?",
+    "market_slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
+    "wallet": "0xc4f26ed91f646e30f9c3b293617699ee595067db",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (97.7% odds)",
+        "Large bet ($1,124)"
+      ],
+      "amount": 1123.999972,
+      "odds": 0.9769999999956539,
+      "wallet_age_days": 2,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-15T10:47:56.515591",
+    "trade_hash": "0x151d23a519efc241cbe55ab44532456441b648900d82e7a9bdcb0e7becb37365",
+    "trade_timestamp": 1768474022
+  },
+  {
+    "market": "Will the San Francisco 49ers win Super Bowl 2026?",
+    "market_slug": "will-the-san-francisco-49ers-win-super-bowl-2026",
+    "wallet": "0x3184986e3a6d38f8fa17b30cf01aa56e8d097a58",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.8% odds)",
+        "Large bet ($1,140)"
+      ],
+      "amount": 1140.29782,
+      "odds": 0.958,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-15T10:48:33.376472",
+    "trade_hash": "0x73d814a96ce0cc4b3e8c40a2abb885142bdb3f723b100a1fbff174d75bd2db63",
+    "trade_timestamp": 1768473966
   }
 ]
