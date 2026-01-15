@@ -1198,5 +1198,25 @@
     "timestamp": "2026-01-15T09:55:08.554663",
     "trade_hash": "0x53eda62b1613f4f268a679f8246db20da3d026b51f9623ccbceaad180e2ce666",
     "trade_timestamp": 1768470766
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x6c979ffcc3528a5d2395a2f7c89135711da0988c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($2,101)"
+      ],
+      "amount": 2100.679,
+      "odds": 0.997,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-15T10:00:12.483165",
+    "trade_hash": "0x028e201d31cceb1ec83e2b6930dbdf74ea87400d5afa82e65587aeb7cc16ada3",
+    "trade_timestamp": 1768471148
   }
 ]
