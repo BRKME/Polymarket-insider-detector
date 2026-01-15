@@ -175,7 +175,7 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                     continue
                 
                 # Smart filter to reduce noise
-                condition_id = trade.get('market', {}).get('conditionId')
+                condition_id = trade.get('conditionId')
                 if condition_id in market_lookup:
                     market = market_lookup[condition_id]
                     
