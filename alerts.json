@@ -894,5 +894,66 @@
     "timestamp": "2026-01-15T07:15:04.525176",
     "trade_hash": "0x4c404a21e8394d2171646225d022666f9fafd7e7883d314beb7283be37d61ade",
     "trade_timestamp": 1768461152
+  },
+  {
+    "market": "Will Marcin Tybura be the UFC Heavyweight Champion on December 31, 2026?",
+    "market_slug": "will-marcin-tybura-be-the-ufc-heavyweight-champion-on-december-31-2026",
+    "wallet": "0x420a6b382779573f3de701f07713cfce54751640",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($2,715)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 2714.96061,
+      "odds": 0.997,
+      "wallet_age_days": 1,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-15T07:37:29.263403",
+    "trade_hash": "0x4b6a219b610b2c913926dc1fed0b786f8fd08116a83950a11cfad66f71aa2780",
+    "trade_timestamp": 1768462586
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x652da2306e1fd834bdcc2adb8bc32e9402f5e1a7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,083)"
+      ],
+      "amount": 1082.999998,
+      "odds": 0.9969999993786011,
+      "wallet_age_days": 1,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-15T07:37:34.124166",
+    "trade_hash": "0x148588c822011773ef79696ad64362b02beb64ab912f2db8139f49e4ef7c502f",
+    "trade_timestamp": 1768462506
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 15?",
+    "market_slug": "bitcoin-above-92k-on-january-15",
+    "wallet": "0xc3d33d0b70c3b2077d9cda29633ac9f094d22f64",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,031)"
+      ],
+      "amount": 1030.999938,
+      "odds": 0.996,
+      "wallet_age_days": 1,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-15T07:37:44.670188",
+    "trade_hash": "0x5154c16fd80229b83f39641e9b24aa3afae912ce11895b855e806d67dbe2f929",
+    "trade_timestamp": 1768462540
   }
 ]
