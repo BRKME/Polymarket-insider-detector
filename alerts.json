@@ -1542,5 +1542,25 @@
     "timestamp": "2026-01-15T21:55:31.147396",
     "trade_hash": "0x7faf3fe7b6073ac8344670aa923a8c6cb04dab73bbd5e90656ed8f85989f4d14",
     "trade_timestamp": 1768513828
+  },
+  {
+    "market": "Will FC Barcelona win on 2026-01-15?",
+    "market_slug": "cdr-rrc-fcb-2026-01-15-fcb",
+    "wallet": "0xedf72bd3364959353e9e23562cc26429f48b5ac3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,336)"
+      ],
+      "amount": 1336.5,
+      "odds": 0.99,
+      "wallet_age_days": 1,
+      "total_activities": 61
+    },
+    "timestamp": "2026-01-15T22:11:09.681471",
+    "trade_hash": "0x0d2920f04f40d532cefb78cb1de5fd9172179ca05e204a107fb7b4f73c011229",
+    "trade_timestamp": 1768514870
   }
 ]
