@@ -955,5 +955,45 @@
     "timestamp": "2026-01-15T07:37:44.670188",
     "trade_hash": "0x5154c16fd80229b83f39641e9b24aa3afae912ce11895b855e806d67dbe2f929",
     "trade_timestamp": 1768462540
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xb8474d5b3d057cff7c054379bac4a360a3476879",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,063)"
+      ],
+      "amount": 1062.9312,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-15T07:49:44.106532",
+    "trade_hash": "0x5f0b69ea428a0872afe3fad172d78f1d6730ffed2a106e31253fa12d741555ca",
+    "trade_timestamp": 1768463310
+  },
+  {
+    "market": "Will Elon Musk post 440-459 tweets from January 9 to January 16, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-9-january-16-440-459",
+    "wallet": "0x031a7db2fd4ccfd45b30a6632af080fe96bff0f4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,199)"
+      ],
+      "amount": 1198.7976,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-15T07:49:48.442133",
+    "trade_hash": "0x44be8b5ccdcac7aa381175bdcef1d3f31145c77041451d9ee0f30c602f9af4ed",
+    "trade_timestamp": 1768463272
   }
 ]
