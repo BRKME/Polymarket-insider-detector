@@ -1399,5 +1399,26 @@
     "timestamp": "2026-01-15T15:00:21.895501",
     "trade_hash": "0xf5ad93e771542eb98c3d96e8b3da1b06a6bf03aab2f77e100ad196286476cc9d",
     "trade_timestamp": 1768488916
+  },
+  {
+    "market": "Will Daniel Day-Lewis win Best Actor at the 98th Academy Awards?",
+    "market_slug": "will-daniel-day-lewis-win-best-actor-at-the-98th-academy-awards",
+    "wallet": "0xf22ea5dd314c785b5811d2e2a5f5b0c2deaa5e15",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,101)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1100.78916,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-15T15:50:45.660527",
+    "trade_hash": "0x47ca81ff853c86874677ce30d23697c2c308a8a8ed19deb0bff07e8b91c899a2",
+    "trade_timestamp": 1768492052
   }
 ]
