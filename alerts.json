@@ -1440,5 +1440,46 @@
     "timestamp": "2026-01-15T16:17:59.951100",
     "trade_hash": "0xfd6cf15984daec41353a4dea1ab975ccd7e4775b281f7548905c1fe48fce063f",
     "trade_timestamp": 1768493618
+  },
+  {
+    "market": "Will Jared Polis win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-jared-polis-win-the-2028-democratic-presidential-nomination-837",
+    "wallet": "0x4e8ce1dce4cc592e4d2daa61865aa2310b986d1d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,100)"
+      ],
+      "amount": 1099.999863,
+      "odds": 0.9929999999945837,
+      "wallet_age_days": 1,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-15T17:25:31.104693",
+    "trade_hash": "0xba8d984bbb32711865e4eefe12037143ea80cdcfc4e8b235845638dbe01adb2a",
+    "trade_timestamp": 1768497818
+  },
+  {
+    "market": "US strikes Iran by January 15, 2026?",
+    "market_slug": "us-strikes-iran-by-january-15-2026-652-612",
+    "wallet": "0x38a3279c96465528bfee407b4032cb819e9cb461",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($1,467)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1466.6876,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-15T17:25:37.651838",
+    "trade_hash": "0x4c0cf5961dd3927f69e8a3c67a1ffa986a7f53b251ed8007cc923ec989074c38",
+    "trade_timestamp": 1768497758
   }
 ]
