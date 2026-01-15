@@ -1258,5 +1258,45 @@
     "timestamp": "2026-01-15T10:48:33.376472",
     "trade_hash": "0x73d814a96ce0cc4b3e8c40a2abb885142bdb3f723b100a1fbff174d75bd2db63",
     "trade_timestamp": 1768473966
+  },
+  {
+    "market": "Will Apple be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
+    "wallet": "0x8e8fd507ecac8564e1021a66b8d139a6e47cb6cd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,133)"
+      ],
+      "amount": 1133.0149999999999,
+      "odds": 0.9942652801544469,
+      "wallet_age_days": 2,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-15T10:58:47.768043",
+    "trade_hash": "0x8c45265d78f62d71b24602666b9ffbf4b2c9543e9fd95002cfb557b625390f32",
+    "trade_timestamp": 1768474666
+  },
+  {
+    "market": "Will the price of Bitcoin be above $90,000 on January 15?",
+    "market_slug": "bitcoin-above-90k-on-january-15",
+    "wallet": "0xfbb7a393469fd4f70b4dc130f7b71446932fe957",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,139)"
+      ],
+      "amount": 1138.9499099999998,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-15T10:58:52.794292",
+    "trade_hash": "0x2085545d8a1b687aae60c80bd8c25501df668e8de8ddf7db13fa8ea8a6387fe9",
+    "trade_timestamp": 1768474574
   }
 ]
