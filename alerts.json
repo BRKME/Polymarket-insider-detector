@@ -1298,5 +1298,25 @@
     "timestamp": "2026-01-15T10:58:52.794292",
     "trade_hash": "0x2085545d8a1b687aae60c80bd8c25501df668e8de8ddf7db13fa8ea8a6387fe9",
     "trade_timestamp": 1768474574
+  },
+  {
+    "market": "Will Josh Hawley win the 2028 Republican presidential nomination?",
+    "market_slug": "will-josh-hawley-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xfc376639853a84ed695cf7fc662b9675f56dfb4f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,010)"
+      ],
+      "amount": 1009.95783,
+      "odds": 0.991,
+      "wallet_age_days": 2,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-15T11:35:23.766825",
+    "trade_hash": "0xe0a31d5f99d31f912eebb05288435495d27accd96509383ea67270d7ae9eb970",
+    "trade_timestamp": 1768476870
   }
 ]
