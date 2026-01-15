@@ -1318,5 +1318,25 @@
     "timestamp": "2026-01-15T11:35:23.766825",
     "trade_hash": "0xe0a31d5f99d31f912eebb05288435495d27accd96509383ea67270d7ae9eb970",
     "trade_timestamp": 1768476870
+  },
+  {
+    "market": "Will Miguel D\u00edaz-Canel be the next leader out before 2027?",
+    "market_slug": "will-miguel-daz-canel-be-the-next-leader-out-before-2027-994",
+    "wallet": "0xa1bb0225273b2274b83073c8872c36299ba09c99",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($1,050)"
+      ],
+      "amount": 1049.86856,
+      "odds": 0.988,
+      "wallet_age_days": 2,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-15T11:54:02.618393",
+    "trade_hash": "0x14ba61775c4dd60745854a79b820554bb5740dab113b084e25e3fde8a2cc1392",
+    "trade_timestamp": 1768477982
   }
 ]
