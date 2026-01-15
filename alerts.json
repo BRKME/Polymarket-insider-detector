@@ -1521,5 +1521,26 @@
     "timestamp": "2026-01-15T19:40:46.145194",
     "trade_hash": "0xe436ad9d8c4707e6f463e655c4aac142b8d7c82f4ae4ff3aaf813a7b3b3c7ef0",
     "trade_timestamp": 1768505904
+  },
+  {
+    "market": "Will Newcastle win the 2025\u201326 English Premier League?",
+    "market_slug": "will-newcastle-win-the-202526-english-premier-league",
+    "wallet": "0x0643226a798d0c16a78a7083a1aa5832842e7522",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($2,459)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2459.139864,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-15T21:55:31.147396",
+    "trade_hash": "0x7faf3fe7b6073ac8344670aa923a8c6cb04dab73bbd5e90656ed8f85989f4d14",
+    "trade_timestamp": 1768513828
   }
 ]
