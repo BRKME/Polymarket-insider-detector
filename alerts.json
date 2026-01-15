@@ -812,5 +812,26 @@
     "timestamp": "2026-01-14T23:50:23.295577",
     "trade_hash": "0x03e44f5848adbd62d768ef09d4fae4c7a8d8df5e3706d829c1ba7c97ab2af38e",
     "trade_timestamp": 1768434436
+  },
+  {
+    "market": "Will Sporting win the 2025\u201326 Champions League?",
+    "market_slug": "will-sporting-win-the-202526-champions-league",
+    "wallet": "0x7108bf75c56996f501950570300954e1f8f904c7",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,503)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1502.629879,
+      "odds": 0.9969999999993365,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-15T04:50:33.639736",
+    "trade_hash": "0xe03bf97d1ffbbaef3dad893a6f6ace4b3ffa14444fb48fde7ab1ec5eea124acc",
+    "trade_timestamp": 1768452488
   }
 ]
