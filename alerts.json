@@ -1116,5 +1116,87 @@
     "timestamp": "2026-01-15T09:37:24.525588",
     "trade_hash": "0x8522be0d345d73b0dee5da8e64e1aacbf64c95a31b8f9564e42fe234e4fc06a7",
     "trade_timestamp": 1768469670
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 15?",
+    "market_slug": "bitcoin-above-92k-on-january-15",
+    "wallet": "0xdee69ddbea272e3006187ff65ab3d17e88796559",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,088)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1088.04613,
+      "odds": 0.9971279990469033,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-15T09:53:45.620920",
+    "trade_hash": "0xc091d35af09925de0f07cb2f0fa777b1480d9877fb1604e758a03fe4107a0915",
+    "trade_timestamp": 1768470692
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xba4ad4c891d3abf47e9506443999ce8e2406e944",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,128)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1127.8604400000002,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-15T09:53:46.408854",
+    "trade_hash": "0x4aa28d24e22bb7d6bf3fb11dfa5ac9390cdf9bdd3c4a0c8f5e9e9bf540dd3ac0",
+    "trade_timestamp": 1768470686
+  },
+  {
+    "market": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676",
+    "wallet": "0x0f48617dda36241a9f7b9319cb05084381a92d75",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,139)"
+      ],
+      "amount": 1139.30181,
+      "odds": 0.997,
+      "wallet_age_days": 2,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-15T09:53:47.189457",
+    "trade_hash": "0x6216e8851549e341a86e5b4bda73cb71688ccf9743da44a941fc79dab1685e61",
+    "trade_timestamp": 1768470682
+  },
+  {
+    "market": "Ethereum Up or Down - January 15, 4AM ET",
+    "market_slug": "ethereum-up-or-down-january-15-4am-et",
+    "wallet": "0x858dc5a7ebb6553ab184a85834b9ed42fd3da1bf",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,201)"
+      ],
+      "amount": 1200.87,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-15T09:55:08.554663",
+    "trade_hash": "0x53eda62b1613f4f268a679f8246db20da3d026b51f9623ccbceaad180e2ce666",
+    "trade_timestamp": 1768470766
   }
 ]
