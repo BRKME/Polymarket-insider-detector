@@ -1036,5 +1036,85 @@
     "timestamp": "2026-01-15T09:03:35.997485",
     "trade_hash": "0x514f5665dc756b76afa0cb6bb65afe16e6701b38d2722d524a560582ae9a30df",
     "trade_timestamp": 1768467624
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 15?",
+    "market_slug": "bitcoin-above-92k-on-january-15",
+    "wallet": "0x01133514c6ce364d01a259bd67d2b62f73853ccd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,042)"
+      ],
+      "amount": 1041.95473,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-15T09:37:07.595017",
+    "trade_hash": "0x2ddd881b7900f7e4ab5b357fffb6646c3ad3aa957131f8e075c8c17c0f327a61",
+    "trade_timestamp": 1768469704
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 15?",
+    "market_slug": "bitcoin-above-92k-on-january-15",
+    "wallet": "0xec36e35d003b2906bbb9ec1ce717de9503e9da74",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,126)"
+      ],
+      "amount": 1125.999987,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-15T09:37:09.062166",
+    "trade_hash": "0xcdbcdae4909713947856053e255aa19b3f59041131f799b5672f038eb0c1c6d7",
+    "trade_timestamp": 1768469694
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 15?",
+    "market_slug": "bitcoin-above-92k-on-january-15",
+    "wallet": "0x33ee21d99d086c5d8352c148755fe43c15db12f4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,066)"
+      ],
+      "amount": 1065.999728,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-15T09:37:17.961745",
+    "trade_hash": "0x13bf762a164b49c39de2310059e018ac25122c56923751cc6decc64789c6502c",
+    "trade_timestamp": 1768469682
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 15?",
+    "market_slug": "bitcoin-above-92k-on-january-15",
+    "wallet": "0x3d5cae12bb643767d51799def2aa1d928b86e9d0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,055)"
+      ],
+      "amount": 1054.9997720000001,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-15T09:37:24.525588",
+    "trade_hash": "0x8522be0d345d73b0dee5da8e64e1aacbf64c95a31b8f9564e42fe234e4fc06a7",
+    "trade_timestamp": 1768469670
   }
 ]
