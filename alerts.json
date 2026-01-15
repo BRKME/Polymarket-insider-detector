@@ -1481,5 +1481,25 @@
     "timestamp": "2026-01-15T17:25:37.651838",
     "trade_hash": "0x4c0cf5961dd3927f69e8a3c67a1ffa986a7f53b251ed8007cc923ec989074c38",
     "trade_timestamp": 1768497758
+  },
+  {
+    "market": "Will the total domestic gross for Avatar: Fire and Ash be between 440m and 480m by January 31?",
+    "market_slug": "will-the-total-domestic-gross-for-avatar-fire-and-ash-be-between-440m-and-480m-by-january-31",
+    "wallet": "0x8fabec18e490ec04c4beb31204bccc2f16b0af17",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,044)"
+      ],
+      "amount": 1043.999998,
+      "odds": 0.9989999990852069,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-15T17:54:53.316740",
+    "trade_hash": "0xc921e70d863b915de8b53bfa9f3f5e28926d6ca1ce74ea0a2b7a9647986f6ef2",
+    "trade_timestamp": 1768499472
   }
 ]
