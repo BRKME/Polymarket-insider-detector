@@ -1583,5 +1583,25 @@
     "timestamp": "2026-01-15T23:53:01.534673",
     "trade_hash": "0x689667d209f9e74eb928e06bdfef7c35e2bb7c3eb5d190c929bc71a860982d19",
     "trade_timestamp": 1768520930
+  },
+  {
+    "market": "Fogo FDV above $1B one day after launch?",
+    "market_slug": "fogo-fdv-above-1b-one-day-after-launch-639-288",
+    "wallet": "0x518fd37de703f3881bffa5b6d223bd1715f6b565",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,158)"
+      ],
+      "amount": 1157.529952,
+      "odds": 0.9909999999974316,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-16T04:12:28.200943",
+    "trade_hash": "0x6f566f122ee575a4372991063083a3163338e01589087d6c1ee1106b0d38b77d",
+    "trade_timestamp": 1768536488
   }
 ]
