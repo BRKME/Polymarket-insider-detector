@@ -2619,5 +2619,106 @@
     "timestamp": "2026-01-16T11:52:28.986912",
     "trade_hash": "0xb2d1d57366cd2786eae0fad6d683181426dc8fe55cfae4b8d6b013e42dbc2574",
     "trade_timestamp": 1768564146
+  },
+  {
+    "market": "Will FC Heidenheim win the 2025\u201326 Bundesliga?",
+    "market_slug": "will-fc-heidenheim-win-the-202526-bundesliga",
+    "wallet": "0x3b75d3233b37ff9c1001609ab5be3bedf873fa69",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,957)"
+      ],
+      "amount": 4956.999039,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 33
+    },
+    "timestamp": "2026-01-16T11:58:46.401272",
+    "trade_hash": "0x80d74be6a147633de0bfabcbf1b194e9c98dde570d09a833a8d264fd3c712f5e",
+    "trade_timestamp": 1768564650
+  },
+  {
+    "market": "LoL: LNG Esports vs Oh My God - Game 1 Winner",
+    "market_slug": "lol-lng-omg-2026-01-16-game1",
+    "wallet": "0xafd492974cd531aae7786210438ae46b42047e61",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,142)"
+      ],
+      "amount": 1141.857,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 57
+    },
+    "timestamp": "2026-01-16T11:58:49.235975",
+    "trade_hash": "0x9b95ad2186b01fcacd10d646c0ba64a7507b0b81333c63e2ee1bd7183d60a8f3",
+    "trade_timestamp": 1768564584
+  },
+  {
+    "market": "Will Eintracht Frankfurt win the 2025\u201326 Champions League?",
+    "market_slug": "will-eintracht-frankfurt-win-the-202526-champions-league",
+    "wallet": "0xbe208f274f73971d16ea06255d4d29db8e4c19ab",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,001)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1000.998,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-16T11:59:02.020523",
+    "trade_hash": "0xe3079a03777f67d8ba62f775901b4f93a76b39fec8ef2a1495ebf22714d31e7b",
+    "trade_timestamp": 1768564436
+  },
+  {
+    "market": "Will PNC Financial Services (PNC) beat quarterly earnings?",
+    "market_slug": "pnc-quarterly-earnings-gaap-eps-01-16-2026-4pt16",
+    "wallet": "0xd5bc5fa697c3ef41032ccd7b2e9f40d6df0a8a38",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,328)"
+      ],
+      "amount": 1328.40027,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 40
+    },
+    "timestamp": "2026-01-16T11:59:03.487252",
+    "trade_hash": "0xac003fe6d10d68f4af73c05f43202ccd6c848594c023df69ffc2328066f2562d",
+    "trade_timestamp": 1768564434
+  },
+  {
+    "market": "Will Elon Musk post 40-64 tweets from January 15 to January 17, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-15-january-17-40-64",
+    "wallet": "0x7ead5e64196fe5ef865d3ed199c9177be691b698",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,861)"
+      ],
+      "amount": 1861.27,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 49
+    },
+    "timestamp": "2026-01-16T11:59:05.680396",
+    "trade_hash": "0xaa592b6dad61ea537d88939127681b4cc9b8edc2105b649e82b9cf5f5f702772",
+    "trade_timestamp": 1768564426
   }
 ]
