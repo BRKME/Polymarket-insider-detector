@@ -2415,5 +2415,45 @@
     "timestamp": "2026-01-16T09:51:54.440705",
     "trade_hash": "0x824d278b299415cf4d6997c787af48491b8bb79a8f185b1f0f413c660736500f",
     "trade_timestamp": 1768556902
+  },
+  {
+    "market": "Will Stephen A. Smith win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-stephen-a-smith-win-the-2028-democratic-presidential-nomination-914",
+    "wallet": "0xdef1a6f9dedf9715ae35cdfb84e16fcf80d31bd4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,271)"
+      ],
+      "amount": 1270.6749,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 90
+    },
+    "timestamp": "2026-01-16T09:58:51.164652",
+    "trade_hash": "0xcae7a675479984af1e533ba4819c6184fc1dbed63f49935621b6f16baa2aa135",
+    "trade_timestamp": 1768557314
+  },
+  {
+    "market": "Football.Fun FDV above $1B one day after launch?",
+    "market_slug": "footballfun-fdv-above-1b-one-day-after-launch-116-586-393-244",
+    "wallet": "0x3e21b570f90588c219e833130df6435007eefe9d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,844)"
+      ],
+      "amount": 4843.601549999999,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-16T09:59:05.021587",
+    "trade_hash": "0x8910514a79061f5eb63f48307bb4502c1c4da3c8c0506f806e3c023905186e92",
+    "trade_timestamp": 1768557250
   }
 ]
