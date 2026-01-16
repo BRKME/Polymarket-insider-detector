@@ -3391,5 +3391,25 @@
     "timestamp": "2026-01-16T20:00:01.685988",
     "trade_hash": "0x2eec75df1653690724115edc54da238725073de0cb51c1727c797c5b700f5686",
     "trade_timestamp": 1768593374
+  },
+  {
+    "market": "New \"Stranger Things\" episode released by January 31? ",
+    "market_slug": "new-stranger-things-episode-released-by-january-31-294",
+    "wallet": "0x4a40edf019396ec8cb287fa7cc947929493d1a9b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.9% odds)",
+        "Large bet ($3,585)"
+      ],
+      "amount": 3585.125,
+      "odds": 0.989,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-16T20:20:07.115524",
+    "trade_hash": "0x5d590f4a121565602758ecca4dad7784d6d40571f2abe23224f0b5c924efcf89",
+    "trade_timestamp": 1768594692
   }
 ]
