@@ -2495,5 +2495,25 @@
     "timestamp": "2026-01-16T10:45:48.297052",
     "trade_hash": "0x71dfb4928f1d59789c26ac94f74e8db5d82d5b72ecbae9e990bf8c0af6d83959",
     "trade_timestamp": 1768560090
+  },
+  {
+    "market": "Will Elon Musk post 40-64 tweets from January 15 to January 17, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-15-january-17-40-64",
+    "wallet": "0x6e888a73ab8b26f4ec0de6543900ed89d7950c0c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,234)"
+      ],
+      "amount": 3233.5632,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-16T10:57:01.300294",
+    "trade_hash": "0x9f8090b2d2eae274dbea92a051954de9a9587097b301e39e03388abfc2af7306",
+    "trade_timestamp": 1768560938
   }
 ]
