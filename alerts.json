@@ -2334,5 +2334,86 @@
     "timestamp": "2026-01-16T09:02:56.200118",
     "trade_hash": "0xba8cc8d53a8cbe60a567c4a40148f7a71dcd7dcabfd576fca61f673fadbb1882",
     "trade_timestamp": 1768553970
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xac665da2dd2ae08c49ce327c62eb472e7209ab8b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($5,080)"
+      ],
+      "amount": 5079.6,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 80
+    },
+    "timestamp": "2026-01-16T09:51:40.556855",
+    "trade_hash": "0x41678d4fdd719330bc19d8f55a727c78d0b552427cfe1ad28d8baf9ec92d89c6",
+    "trade_timestamp": 1768556980
+  },
+  {
+    "market": "US strikes Iran by January 16, 2026?",
+    "market_slug": "us-strikes-iran-by-january-16-2026-498-181-173-663",
+    "wallet": "0x3b92716cdb0a5808288ba501c885eb623bbfe122",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (97.9% odds)",
+        "Large bet ($1,188)"
+      ],
+      "amount": 1188.2710399999999,
+      "odds": 0.979,
+      "wallet_age_days": 1,
+      "total_activities": 10
+    },
+    "timestamp": "2026-01-16T09:51:43.990016",
+    "trade_hash": "0xcbe528e3b2bfc5b23616b44fb48aaf30556614f101b08aa11642d94ee2dd534d",
+    "trade_timestamp": 1768556950
+  },
+  {
+    "market": "Fokina vs. Humbert: Total Sets O/U 2.5",
+    "market_slug": "atp-fokina-humbert-2026-01-16-set-totals-2pt5",
+    "wallet": "0x5e59a357ec4cea49061cb4b265f393d410211520",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,110)"
+      ],
+      "amount": 1109.96892,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T09:51:44.832277",
+    "trade_hash": "0x65eae51fa40c12f815f62e7c7e2b6f8542c7572b2cd4a855d1c3ac6a47ab19cb",
+    "trade_timestamp": 1768556950
+  },
+  {
+    "market": "Will Senegal win the 2026 FIFA World Cup?",
+    "market_slug": "will-senegal-win-the-2026-fifa-world-cup",
+    "wallet": "0xf35c58db20ff70c10eeb91c4c4ba6d2a665f7038",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,419)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1419.00458,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-16T09:51:54.440705",
+    "trade_hash": "0x824d278b299415cf4d6997c787af48491b8bb79a8f185b1f0f413c660736500f",
+    "trade_timestamp": 1768556902
   }
 ]
