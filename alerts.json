@@ -3591,5 +3591,25 @@
     "timestamp": "2026-01-16T23:17:13.091762",
     "trade_hash": "0x4cb2a4e0a5da71d83c31f3ab844b1756d1301e56f7d461c74d45cc8e4b7a1f93",
     "trade_timestamp": 1768605358
+  },
+  {
+    "market": "Will the price of XRP be between $1.70 and $1.80 on January 17?",
+    "market_slug": "will-the-price-of-xrp-be-between-1pt70-1pt80-on-january-17",
+    "wallet": "0xbbebafccd12cfd09a6101e701130e7da8afa079c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,662)"
+      ],
+      "amount": 1661.74659,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-16T23:33:44.106796",
+    "trade_hash": "0xb386ea275fa9288b452699f764357669e126ab889403ce97210afc0aebe20e63",
+    "trade_timestamp": 1768606354
   }
 ]
