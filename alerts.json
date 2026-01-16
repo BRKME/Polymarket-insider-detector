@@ -2130,5 +2130,107 @@
     "timestamp": "2026-01-16T07:51:58.916181",
     "trade_hash": "0x2cb34482f33a88aba0e32b1b8109602b9d7e17f61f8cc839528c3c453cad9039",
     "trade_timestamp": 1768549648
+  },
+  {
+    "market": "Will Karen Khachanov win the 2026 Australian Open?",
+    "market_slug": "will-karen-khachanov-win-the-2026-australian-open",
+    "wallet": "0xa0e6080e44490c6e5c2f94f9f8ce404ce6307ed2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,838)"
+      ],
+      "amount": 4837.999158,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 31
+    },
+    "timestamp": "2026-01-16T07:58:20.354028",
+    "trade_hash": "0xbb5bcad09e5f9ff1a0195a1a4654f5828162e623b271470ed8fc36455d80aae0",
+    "trade_timestamp": 1768550184
+  },
+  {
+    "market": "Will Leverkusen win the 2025\u201326 Champions League?",
+    "market_slug": "will-leverkusen-win-the-202526-champions-league",
+    "wallet": "0x8447cfb8960991799586e2be9a4f2511cb361a39",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,229)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1228.76799,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-16T07:58:26.214929",
+    "trade_hash": "0xc595f4ef7c36eb086b5aa82bb4715e32b918f39374964fa83a5627ecd0e39ea3",
+    "trade_timestamp": 1768550090
+  },
+  {
+    "market": "Will Kim Kardashian win the 2028 US Presidential Election?",
+    "market_slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
+    "wallet": "0x80a72403d68d38321d8dc1aad3b90d52656b3e48",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,124)"
+      ],
+      "amount": 1123.9922000000001,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-01-16T07:58:32.569238",
+    "trade_hash": "0xf039fe39b4a19ff9aedf8564e86e4436703aa4e610550ac06ab1374ca1ed9528",
+    "trade_timestamp": 1768550072
+  },
+  {
+    "market": "US strikes Iran by January 16, 2026?",
+    "market_slug": "us-strikes-iran-by-january-16-2026-498-181-173-663",
+    "wallet": "0x8b661351ae6ca5660ff7ae73162d755d5f13741c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.6% odds)",
+        "Large bet ($1,996)"
+      ],
+      "amount": 1996.0,
+      "odds": 0.9758899923605806,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-16T07:58:39.740647",
+    "trade_hash": "0x6eb24219f2481b52e9dc3f32f980a70c5542afb4145f9e6e4075dad2cd83893b",
+    "trade_timestamp": 1768550070
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x5054eba68c99846c48ebc12a1ef92f768db5787b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,994)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1994.0,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T07:58:43.440277",
+    "trade_hash": "0x257c75d2a7c4d4de439c95739983475c241c90014c1d93f716ccfe2e1079dca5",
+    "trade_timestamp": 1768549978
   }
 ]
