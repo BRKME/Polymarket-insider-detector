@@ -3191,5 +3191,25 @@
     "timestamp": "2026-01-16T15:46:29.187172",
     "trade_hash": "0xef0edfb7cc5a11a011a89e99c346a1f5e950c7f9b47d6c566e71e23b237a2dee",
     "trade_timestamp": 1768578226
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0x73b142e14e80b719f3faca5923475d930d7605ce",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,020)"
+      ],
+      "amount": 1019.6799800000001,
+      "odds": 0.9909999999961125,
+      "wallet_age_days": 1,
+      "total_activities": 85
+    },
+    "timestamp": "2026-01-16T15:57:55.807979",
+    "trade_hash": "0x98cd34666dd649d563b62b9c5dbbaa3053507dbe5547e45b5ad16ec980a0d73f",
+    "trade_timestamp": 1768578948
   }
 ]
