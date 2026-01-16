@@ -3111,5 +3111,45 @@
     "timestamp": "2026-01-16T15:01:33.953931",
     "trade_hash": "0x84af206489d528d3660f2048634f8f0ef0bc2d3790245603be845bbdb2699679",
     "trade_timestamp": 1768575594
+  },
+  {
+    "market": "Will the price of XRP be above $2.20 on January 16?",
+    "market_slug": "xrp-above-2pt2-on-january-16",
+    "wallet": "0x4a42d5529dfeaefc57afadef1f72d7e1bf860af1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,929)"
+      ],
+      "amount": 1929.11895,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-16T15:29:20.642416",
+    "trade_hash": "0x854cb51aa0f5da16a4d27915f0fc909301e31ff3ec1cfba8fdf92af6d209b494",
+    "trade_timestamp": 1768577266
+  },
+  {
+    "market": "Ethereum Up or Down - January 16, 10:15AM-10:30AM ET",
+    "market_slug": "eth-updown-15m-1768576500",
+    "wallet": "0xf90b9f6bbbcfda0b2846a5ecca18a7d12070dfce",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($95,941)"
+      ],
+      "amount": 95941.418762,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-16T15:29:28.084849",
+    "trade_hash": "0x557fae513812f2aacdfeee26cc333952fc27c89e2ebefde382cc627ae05ba1b7",
+    "trade_timestamp": 1768577198
   }
 ]
