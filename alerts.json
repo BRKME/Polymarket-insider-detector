@@ -3531,5 +3531,45 @@
     "timestamp": "2026-01-16T22:52:34.464000",
     "trade_hash": "0xd350841ef48bb4a6f772f55733305991a9c9d9073ffac30ee2e34051ef554c51",
     "trade_timestamp": 1768603886
+  },
+  {
+    "market": "Will Paris Saint-Germain FC win on 2026-01-16?",
+    "market_slug": "fl1-psg-lil-2026-01-16-psg",
+    "wallet": "0x32458200e7f472f9ff028b32eb05b20d803584d8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,599)"
+      ],
+      "amount": 2598.76863,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-16T22:58:31.163446",
+    "trade_hash": "0xff29e48b368e448ade8885f7af784115bf1a7e64464c0d3bde43ea190021d472",
+    "trade_timestamp": 1768604210
+  },
+  {
+    "market": "US strikes Iran by January 16, 2026?",
+    "market_slug": "us-strikes-iran-by-january-16-2026-498-181-173-663",
+    "wallet": "0x850946b7d86666e05a94911fc3f0ae674cf9dee2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($3,991)"
+      ],
+      "amount": 3990.8544,
+      "odds": 0.9901488626890557,
+      "wallet_age_days": 0,
+      "total_activities": 14
+    },
+    "timestamp": "2026-01-16T22:58:36.426554",
+    "trade_hash": "0x01e7739ac5f1b5c14e77973d4415bd9f611410577b94ae6186c093a55d27d054",
+    "trade_timestamp": 1768604102
   }
 ]
