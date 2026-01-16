@@ -2294,5 +2294,25 @@
     "timestamp": "2026-01-16T08:24:39.484416",
     "trade_hash": "0x6e345632362809f3ca7290cf3f140e698210868abd1c8f2e82d5c0fed457bb49",
     "trade_timestamp": 1768551728
+  },
+  {
+    "market": "Will Leeds win the 2025\u201326 English Premier League?",
+    "market_slug": "will-leeds-win-the-202526-english-premier-league",
+    "wallet": "0xed1f1741f40515b63a6876503fc3604ac79a67a4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,000)"
+      ],
+      "amount": 1000.4550800000001,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 14
+    },
+    "timestamp": "2026-01-16T08:49:48.866238",
+    "trade_hash": "0x3eba1dcc0996850f7a276b3285eda2fd07f2287aaab79db2820a9d02e8e3f98a",
+    "trade_timestamp": 1768553226
   }
 ]
