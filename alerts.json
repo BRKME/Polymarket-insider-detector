@@ -2720,5 +2720,150 @@
     "timestamp": "2026-01-16T11:59:05.680396",
     "trade_hash": "0xaa592b6dad61ea537d88939127681b4cc9b8edc2105b649e82b9cf5f5f702772",
     "trade_timestamp": 1768564426
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0xcb0ca28b033f22ca91e9e2513da0bc4ebc9776c2",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($3,010)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3009.912,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T12:39:22.430177",
+    "trade_hash": "0x23d3edf88d77decaad054e5be36afb25e1e09a4db118ebbe36c663d746ce2f4a",
+    "trade_timestamp": 1768566962
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0x7d38056a35a8873d186b27c05c952f2f7d96eab8",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($2,988)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2988.0,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T12:39:23.162858",
+    "trade_hash": "0x47bfdbc52df003cbf1b6d2569e2b4b18b5dc45e1253c768e48a3d0ca1f6e433e",
+    "trade_timestamp": 1768566950
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xae4516ecab0eb1bad8cba3a3dafe1d76a06b9fd1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,999)"
+      ],
+      "amount": 1998.99497,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-16T12:39:23.913008",
+    "trade_hash": "0xcd1325d51a5e2877ed78cbe496f663c591d75916559738f90031e0a8dc6bf5aa",
+    "trade_timestamp": 1768566970
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0xdcbf74bff5cabce45d38c673e6892f916ea8bcef",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($3,009)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3008.916,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T12:39:25.976457",
+    "trade_hash": "0x8cc16a9ce9c53025307628c756ae01212b684e1916a8031a47ef3337869ef04d",
+    "trade_timestamp": 1768566936
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0x24b317abbd915b707453bfe3a07170c8ae6c8d08",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($3,002)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3001.944,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T12:39:31.281602",
+    "trade_hash": "0x3c87455c6bcb8341fee47fc70fd4b886fed9f526ab74a86206d6ecc4f202f887",
+    "trade_timestamp": 1768566920
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0x4cd67676d3e97e0d316374247fd75788d6c914af",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($3,000)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2999.9519999999998,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T12:39:34.301277",
+    "trade_hash": "0xc3af1aa39ed638cb170a7302e9456b2cbfeff70de627b1d5aa7d82ad2ec34892",
+    "trade_timestamp": 1768566908
+  },
+  {
+    "market": "LoL: Hanwha Life Esports vs T1 (BO3)",
+    "market_slug": "lol-hle1-t1-2026-01-16",
+    "wallet": "0x2cc52ef9fa35e497181a08112db4751f6072c33b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,036)"
+      ],
+      "amount": 2036.4615,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-16T12:39:35.049356",
+    "trade_hash": "0x3f8c1e095213c3aa2caf55fa833d7340673735f5a8841f11519ad8d2648b8c5e",
+    "trade_timestamp": 1768566902
   }
 ]
