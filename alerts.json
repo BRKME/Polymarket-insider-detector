@@ -1846,5 +1846,46 @@
     "timestamp": "2026-01-16T05:43:10.130255",
     "trade_hash": "0x59deb946e2933825213b10fc066c9d873a1b4ec837ae50a82577a2588d531377",
     "trade_timestamp": 1768541854
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,500 on January 16?",
+    "market_slug": "ethereum-above-3500-on-january-16",
+    "wallet": "0x7c086189551637acf2babc7f35e02094a0c7d284",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,065)"
+      ],
+      "amount": 1064.65,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 26
+    },
+    "timestamp": "2026-01-16T05:59:54.689821",
+    "trade_hash": "0xb4be11a5d5ff15be0e6476256bed050f84e995e1d3990c860b4b53cb0b4dbf39",
+    "trade_timestamp": 1768543064
+  },
+  {
+    "market": "alon called coin FDV above $1M one day after the call?",
+    "market_slug": "alon-called-coin-fdv-above-1m-one-day-after-the-call-547",
+    "wallet": "0xdba27ad2554c10779fbc4f2768c1b408cc85a8d2",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,089)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1088.91,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-16T05:59:57.696993",
+    "trade_hash": "0xe677a676434fb3046a85635519bc1433b8d31fb0df29a93c2385aef382d78f8e",
+    "trade_timestamp": 1768543042
   }
 ]
