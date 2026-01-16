@@ -1726,5 +1726,125 @@
     "timestamp": "2026-01-16T05:14:32.163484",
     "trade_hash": "0x5456a47b7dd849c8aca5a67d2dd77a96b09ff866a6aa66a3dd55d14ed4885ba9",
     "trade_timestamp": 1768540194
+  },
+  {
+    "market": "Machac vs. Paul: Total Sets O/U 2.5",
+    "market_slug": "atp-machac-paul-2026-01-15-set-totals-2pt5",
+    "wallet": "0xbdc3e475821b3512b1ae1a492f89d15323e4c0ea",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,998)"
+      ],
+      "amount": 1997.9300700000001,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 61
+    },
+    "timestamp": "2026-01-16T05:41:50.425241",
+    "trade_hash": "0x3479e56da08bd5a24f8c652e4aca4af40f7608c67d707fcff9e9ee9cce9e4fd8",
+    "trade_timestamp": 1768542040
+  },
+  {
+    "market": "Will the price of Bitcoin be above $100,000 on January 16?",
+    "market_slug": "bitcoin-above-100k-on-january-16",
+    "wallet": "0xd7f363b228cac24e6cad890ea2d40b5b989d0c9c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,022)"
+      ],
+      "amount": 1022.359683,
+      "odds": 0.998,
+      "wallet_age_days": 2,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-16T05:41:52.067505",
+    "trade_hash": "0x89f44f869b903437ac10e919aa7316c1e879afcc0a47aadea2165504e956ebae",
+    "trade_timestamp": 1768542030
+  },
+  {
+    "market": "Ethereum Up or Down - January 16, 12:30AM-12:45AM ET",
+    "market_slug": "eth-updown-15m-1768541400",
+    "wallet": "0x9122da4975f7196f5364e2a06c05b7a82dc96103",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($4,589)"
+      ],
+      "amount": 4589.0029349999995,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T05:41:54.496915",
+    "trade_hash": "0x9dda981773c628e84f0f7e29973dbb13e65de7f08cdd5cc8e6e153b26aebbd00",
+    "trade_timestamp": 1768542012
+  },
+  {
+    "market": "Will the price of Bitcoin be above $100,000 on January 16?",
+    "market_slug": "bitcoin-above-100k-on-january-16",
+    "wallet": "0x6e52feb3a76390afd88eb4ce50f1462fcef9f902",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,097)"
+      ],
+      "amount": 1096.7,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-16T05:42:24.647003",
+    "trade_hash": "0x5b6ed754bbb318779a8254c759ee8798a9f14a74cf7654c7b209ad5c99280363",
+    "trade_timestamp": 1768541980
+  },
+  {
+    "market": "Israel nuclear weapon use against Iran by January 31?",
+    "market_slug": "will-israel-nuke-iran-by-january-31",
+    "wallet": "0xac69b24ece6d02c9a4fd550cfdea72bb829afb3e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($2,982)"
+      ],
+      "amount": 2982.0,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 48
+    },
+    "timestamp": "2026-01-16T05:42:38.957416",
+    "trade_hash": "0xe6c98321455bcd155e4f2b1222c5bc33fc7803a82547f8b5838ed07ad553262d",
+    "trade_timestamp": 1768541854
+  },
+  {
+    "market": "Will the price of Bitcoin be above $90,000 on January 16?",
+    "market_slug": "bitcoin-above-90k-on-january-16",
+    "wallet": "0xaa9ae1ef7719af8694d6811817c6d0c22aa43b3e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,697)"
+      ],
+      "amount": 2697.3,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 40
+    },
+    "timestamp": "2026-01-16T05:43:10.130255",
+    "trade_hash": "0x59deb946e2933825213b10fc066c9d873a1b4ec837ae50a82577a2588d531377",
+    "trade_timestamp": 1768541854
   }
 ]
