@@ -2865,5 +2865,65 @@
     "timestamp": "2026-01-16T12:39:35.049356",
     "trade_hash": "0x3f8c1e095213c3aa2caf55fa833d7340673735f5a8841f11519ad8d2648b8c5e",
     "trade_timestamp": 1768566902
+  },
+  {
+    "market": "Will the price of Ethereum be greater than $3,600 on January 16?",
+    "market_slug": "will-the-price-of-ethereum-be-greater-than-3600-on-january-16",
+    "wallet": "0x7c25b113c2c33ee7b59138defcdeef361fdde930",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,531)"
+      ],
+      "amount": 3530.90556,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-16T13:53:13.861899",
+    "trade_hash": "0x7e15c8042e90f5c691c5d376f0b3f6ccff79cacd829a1add31122db88656062d",
+    "trade_timestamp": 1768571448
+  },
+  {
+    "market": "Will Amazon (AMZN) finish week of January 12 above $215?",
+    "market_slug": "amzn-above-215-on-january-16-2026",
+    "wallet": "0xb32c89a0acb098048e137e7d90dd0aead2905bc1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,172)"
+      ],
+      "amount": 1172.26656,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 51
+    },
+    "timestamp": "2026-01-16T13:53:15.405919",
+    "trade_hash": "0x809103547e2b1fb23a4bacf50ebab86c306772671709f93fa63f1a3cdcd0cfd3",
+    "trade_timestamp": 1768571422
+  },
+  {
+    "market": "Will Amazon (AMZN) finish week of January 12 above $215?",
+    "market_slug": "amzn-above-215-on-january-16-2026",
+    "wallet": "0x0ae00aa0d6ddea308152121a366af6e3ee45575e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,172)"
+      ],
+      "amount": 1172.26656,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 41
+    },
+    "timestamp": "2026-01-16T13:53:39.513771",
+    "trade_hash": "0x9f236089e2cf5e084b3296bb4cd78503a492a5411a68a73f3a0c512d06e3a476",
+    "trade_timestamp": 1768571298
   }
 ]
