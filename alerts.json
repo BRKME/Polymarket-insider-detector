@@ -2925,5 +2925,66 @@
     "timestamp": "2026-01-16T13:53:39.513771",
     "trade_hash": "0x9f236089e2cf5e084b3296bb4cd78503a492a5411a68a73f3a0c512d06e3a476",
     "trade_timestamp": 1768571298
+  },
+  {
+    "market": "Will Denis Shapovalov win the 2026 Australian Open?",
+    "market_slug": "will-denis-shapovalov-win-the-2026-australian-open",
+    "wallet": "0x10b0cfb068aef1947a98ecbed0a85d12ba896de7",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,592)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5592.21219,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-16T14:02:16.991547",
+    "trade_hash": "0xa2b8f02e33b12861d479cd7d9edee4b65047d8889d0cead13d48de5f3024f458",
+    "trade_timestamp": 1768572016
+  },
+  {
+    "market": "Will Tom Brady win the 2028 Republican presidential nomination?",
+    "market_slug": "will-tom-brady-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x3d45c7425df2d7b4760c8f35fe9a8bd4c5ea4186",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,011)"
+      ],
+      "amount": 1010.5817,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 59
+    },
+    "timestamp": "2026-01-16T14:02:20.069235",
+    "trade_hash": "0xa502731f1082df6f8c31740636a2dc52fb8b677a71c482ba94e10f276cef4b6a",
+    "trade_timestamp": 1768572004
+  },
+  {
+    "market": "Bitcoin Up or Down - January 16, 8AM ET",
+    "market_slug": "bitcoin-up-or-down-january-16-8am-et",
+    "wallet": "0x103fe6c103f5c3cd8a3c1b0a9b94a7635d167160",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($1,025)"
+      ],
+      "amount": 1025.2106,
+      "odds": 0.9853341278460696,
+      "wallet_age_days": 2,
+      "total_activities": 92
+    },
+    "timestamp": "2026-01-16T14:02:23.059505",
+    "trade_hash": "0xb48ffdb30bc43bc9d2791868d1a5c7083a4e442114e421e14ed4bcda48ebf53b",
+    "trade_timestamp": 1768572000
   }
 ]
