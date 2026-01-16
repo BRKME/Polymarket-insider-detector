@@ -2232,5 +2232,67 @@
     "timestamp": "2026-01-16T07:58:43.440277",
     "trade_hash": "0x257c75d2a7c4d4de439c95739983475c241c90014c1d93f716ccfe2e1079dca5",
     "trade_timestamp": 1768549978
+  },
+  {
+    "market": "Will the Sacramento Kings win the 2026 NBA Finals?",
+    "market_slug": "will-the-sacramento-kings-win-the-2026-nba-finals",
+    "wallet": "0xca93548ef1761d2068356340f445d5b1560c97f7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,309)"
+      ],
+      "amount": 1308.84984,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 14
+    },
+    "timestamp": "2026-01-16T08:24:36.527598",
+    "trade_hash": "0x4e33b49d14e3fff758e79ea2e0d0c62abf00dcddf720de854d232c2f1cd39be4",
+    "trade_timestamp": 1768551734
+  },
+  {
+    "market": "Will Nikki Haley win the 2028 Republican presidential nomination?",
+    "market_slug": "will-nikki-haley-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x940eee0a3069f188a150dda7d120bb2bb6643ebd",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.9% odds)",
+        "Large bet ($1,029)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1028.54022,
+      "odds": 0.989,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T08:24:38.792420",
+    "trade_hash": "0x4bf06d0b692c2da8c0ebb1bfccdacbf75fed9201bceab449fbc539f1c5cfff30",
+    "trade_timestamp": 1768551730
+  },
+  {
+    "market": "Will Nikki Haley win the 2028 Republican presidential nomination?",
+    "market_slug": "will-nikki-haley-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xc98e80f7d5be3d0b2c42276c42512d77d11cee33",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.9% odds)",
+        "Large bet ($1,002)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1001.5405199999999,
+      "odds": 0.989,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T08:24:39.484416",
+    "trade_hash": "0x6e345632362809f3ca7290cf3f140e698210868abd1c8f2e82d5c0fed457bb49",
+    "trade_timestamp": 1768551728
   }
 ]
