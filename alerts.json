@@ -1685,5 +1685,46 @@
     "timestamp": "2026-01-16T04:51:12.509710",
     "trade_hash": "0xc5d5174fcfa7e2347da54084d1307d7ee27ede8236b5efab14c9753ed31c1c80",
     "trade_timestamp": 1768538782
+  },
+  {
+    "market": "Ethereum Up or Down - January 16, 12:00AM-12:15AM ET",
+    "market_slug": "eth-updown-15m-1768539600",
+    "wallet": "0xaf2ea31ec58a9fd37db6e350a1b99620671a2646",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($78,392)"
+      ],
+      "amount": 78392.470464,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T05:14:21.288855",
+    "trade_hash": "0x7e3b74196fb355850b912fe72dc8ee9d1ac6b0366eba52a5304d1c7cc63e81c6",
+    "trade_timestamp": 1768540276
+  },
+  {
+    "market": "alon called coin FDV above $1M one day after the call?",
+    "market_slug": "alon-called-coin-fdv-above-1m-one-day-after-the-call-547",
+    "wallet": "0xf6d222242ad2e2e21958c4c4943ae6edd67f8344",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,546)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1546.18227,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-16T05:14:32.163484",
+    "trade_hash": "0x5456a47b7dd849c8aca5a67d2dd77a96b09ff866a6aa66a3dd55d14ed4885ba9",
+    "trade_timestamp": 1768540194
   }
 ]
