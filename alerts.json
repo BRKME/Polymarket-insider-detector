@@ -1603,5 +1603,87 @@
     "timestamp": "2026-01-16T04:12:28.200943",
     "trade_hash": "0x6f566f122ee575a4372991063083a3163338e01589087d6c1ee1106b0d38b77d",
     "trade_timestamp": 1768536488
+  },
+  {
+    "market": "Will Hunter Biden win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-person-a-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x5e08940bbf808292ed7fe1453171d70044804e35",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,177)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1177.16438,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-16T04:50:52.531052",
+    "trade_hash": "0x694ce7b00dfe7015a1bbcb9803476c13ba36ee2dc939d3f8ecb5af9bb61e059f",
+    "trade_timestamp": 1768538938
+  },
+  {
+    "market": "Jazz vs. Mavericks",
+    "market_slug": "nba-uta-dal-2026-01-15",
+    "wallet": "0x761fd34dc18c1790b6f9eb17876e8726c2562f8a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,052)"
+      ],
+      "amount": 1051.5773700000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-16T04:51:01.797602",
+    "trade_hash": "0x3384977b0538e0ffc6812179684c5b5c289e6d5589a302ff9dad14e24dd28529",
+    "trade_timestamp": 1768538890
+  },
+  {
+    "market": "Will Bitcoin dip to $88,000 January 12-18?",
+    "market_slug": "will-bitcoin-dip-to-88k-january-12-18",
+    "wallet": "0x5723e9c58634e724c043de9fc77a59fda7491192",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.3% odds)",
+        "Large bet ($1,070)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1070.3,
+      "odds": 0.973,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T04:51:03.281856",
+    "trade_hash": "0xb2eef6673074dca5fc6bf60d98571118c0d39c62a348727660e6b31928261d5c",
+    "trade_timestamp": 1768538884
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x983d6edd3bfe0a414943ad3e2777f388aae22769",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($2,006)"
+      ],
+      "amount": 2005.944,
+      "odds": 0.996,
+      "wallet_age_days": 1,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-16T04:51:12.509710",
+    "trade_hash": "0xc5d5174fcfa7e2347da54084d1307d7ee27ede8236b5efab14c9753ed31c1c80",
+    "trade_timestamp": 1768538782
   }
 ]
