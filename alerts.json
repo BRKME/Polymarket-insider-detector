@@ -3411,5 +3411,25 @@
     "timestamp": "2026-01-16T20:20:07.115524",
     "trade_hash": "0x5d590f4a121565602758ecca4dad7784d6d40571f2abe23224f0b5c924efcf89",
     "trade_timestamp": 1768594692
+  },
+  {
+    "market": "Will Apple (AAPL) finish week of January 12 above $245?",
+    "market_slug": "aapl-above-245-on-january-16-2026",
+    "wallet": "0xf2f46ddf49b3889a36595a901cb4eaebd8e602eb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,628)"
+      ],
+      "amount": 1628.37,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 74
+    },
+    "timestamp": "2026-01-16T20:37:39.896762",
+    "trade_hash": "0x9a06eb0b504f8c2c9f20c9daa0bad2a1450dac532ba9748af6548bbf8457fd26",
+    "trade_timestamp": 1768595802
   }
 ]
