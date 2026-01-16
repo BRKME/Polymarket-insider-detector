@@ -1907,5 +1907,45 @@
     "timestamp": "2026-01-16T06:35:11.911972",
     "trade_hash": "0x96f3f4180357ece2152851d5cb74603a0f2ae7d68631cb72aec3167444c4d16d",
     "trade_timestamp": 1768545116
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xd80a2148fa9d75e1483894268599d7453af14b6a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($3,002)"
+      ],
+      "amount": 3001.98384,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T06:59:34.467400",
+    "trade_hash": "0xd89587e1f19e0a08b5828e2df91dc7d8ca68163f2f91bbe84e4a0d230b7dc5ee",
+    "trade_timestamp": 1768546720
+  },
+  {
+    "market": "Will Bernie Sanders win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-bernie-sanders-win-the-2028-democratic-presidential-nomination-879",
+    "wallet": "0xd43db9be0e1de29d583f09d57a61e41e67b7f788",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($3,186)"
+      ],
+      "amount": 3185.59644,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 20
+    },
+    "timestamp": "2026-01-16T06:59:35.149020",
+    "trade_hash": "0xb2c516835ac3029c48f7b0f620b92d2480539ad33049d63a80afd32b18c21d3c",
+    "trade_timestamp": 1768546714
   }
 ]
