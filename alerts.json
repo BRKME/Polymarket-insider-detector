@@ -3451,5 +3451,45 @@
     "timestamp": "2026-01-16T20:49:24.363373",
     "trade_hash": "0xfd916d1e2c1f93d7efebd9ee6158f23b337307b14bca11283a3cd65d58f85238",
     "trade_timestamp": 1768596322
+  },
+  {
+    "market": "Ethereum Up or Down - January 16, 4:30PM-4:45PM ET",
+    "market_slug": "eth-updown-15m-1768599000",
+    "wallet": "0x3c5373b0bbb3050a8d9c82c309fb3725d6371253",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($96,671)"
+      ],
+      "amount": 96670.933326,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T21:46:12.182829",
+    "trade_hash": "0x27ffa3c7f66c13fea1d461d92377413c6a26eaae24a79dcfe95334e4f600e597",
+    "trade_timestamp": 1768599868
+  },
+  {
+    "market": "Will SV Werder Bremen win on 2026-01-16?",
+    "market_slug": "bun-wer-ein-2026-01-16-wer",
+    "wallet": "0xf873cf92f1443e426528352cc9e81113d3a6f644",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,177)"
+      ],
+      "amount": 1177.08174,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T21:46:40.723186",
+    "trade_hash": "0x65b804dcdcc402b22ef3ff336b460ebb4834dfb4c0981c37806329ca1308354f",
+    "trade_timestamp": 1768599732
   }
 ]
