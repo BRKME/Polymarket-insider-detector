@@ -3151,5 +3151,45 @@
     "timestamp": "2026-01-16T15:29:28.084849",
     "trade_hash": "0x557fae513812f2aacdfeee26cc333952fc27c89e2ebefde382cc627ae05ba1b7",
     "trade_timestamp": 1768577198
+  },
+  {
+    "market": "US strikes Iran by January 16, 2026?",
+    "market_slug": "us-strikes-iran-by-january-16-2026-498-181-173-663",
+    "wallet": "0x0446433d1b9a59babf9ad105b8e0a061417c4c79",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.1% odds)",
+        "Large bet ($1,442)"
+      ],
+      "amount": 1442.0274100000001,
+      "odds": 0.9806308083590047,
+      "wallet_age_days": 0,
+      "total_activities": 26
+    },
+    "timestamp": "2026-01-16T15:46:28.509010",
+    "trade_hash": "0x2f7c0d37369531a448dfee9639400fda3fecfe0a3624f6a21198952c6beaf77f",
+    "trade_timestamp": 1768578230
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xa146f99d17cffaf8e967aefde0ac76951a1ba833",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($6,277)"
+      ],
+      "amount": 6277.112,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 30
+    },
+    "timestamp": "2026-01-16T15:46:29.187172",
+    "trade_hash": "0xef0edfb7cc5a11a011a89e99c346a1f5e950c7f9b47d6c566e71e23b237a2dee",
+    "trade_timestamp": 1768578226
   }
 ]
