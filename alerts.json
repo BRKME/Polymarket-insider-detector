@@ -2455,5 +2455,25 @@
     "timestamp": "2026-01-16T09:59:05.021587",
     "trade_hash": "0x8910514a79061f5eb63f48307bb4502c1c4da3c8c0506f806e3c023905186e92",
     "trade_timestamp": 1768557250
+  },
+  {
+    "market": "LoL: LNG Esports vs Oh My God - Game 2 Winner",
+    "market_slug": "lol-lng-omg-2026-01-16-game2",
+    "wallet": "0x262763d7e5e39d8b049f76549e7e228e8880a461",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($2,524)"
+      ],
+      "amount": 2523.696,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-16T10:21:01.227346",
+    "trade_hash": "0x8a3e66b8e3989d22cbe54a93af18a7da3d1f5f3fc9645f37a49785bd8f90638f",
+    "trade_timestamp": 1768558782
   }
 ]
