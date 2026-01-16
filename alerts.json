@@ -2557,5 +2557,67 @@
     "timestamp": "2026-01-16T11:44:52.994409",
     "trade_hash": "0xd349ca91e5b80bf0a444f790bb2ef0b560465e085ebeb567e3d45f8c2a644546",
     "trade_timestamp": 1768563690
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0xef1f52e43b31adef99b01514b25ce41306ed64de",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($2,948)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2948.16,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T11:52:23.275837",
+    "trade_hash": "0xe853f52cd7480dc29c85399b379037bd84a528804cedd293e57f2e235e98f31e",
+    "trade_timestamp": 1768564284
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 17?",
+    "market_slug": "bitcoin-above-88k-on-january-17",
+    "wallet": "0x41f9bbfa174878eff017f01c695d28fd59c487eb",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($2,963)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2963.1,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T11:52:26.596897",
+    "trade_hash": "0x935b41ddc33811b504a1b235dbd807a7e30a19f515b629747859b3ae34ac249d",
+    "trade_timestamp": 1768564216
+  },
+  {
+    "market": "Will the price of Bitcoin be above $90,000 on January 16?",
+    "market_slug": "bitcoin-above-90k-on-january-16",
+    "wallet": "0x8d63253c4591aeb20b1ced882c583bb859f7ba27",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,500)"
+      ],
+      "amount": 4499.999495999999,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-16T11:52:28.986912",
+    "trade_hash": "0xb2d1d57366cd2786eae0fad6d683181426dc8fe55cfae4b8d6b013e42dbc2574",
+    "trade_timestamp": 1768564146
   }
 ]
