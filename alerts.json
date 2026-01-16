@@ -2048,5 +2048,87 @@
     "timestamp": "2026-01-16T07:25:52.461572",
     "trade_hash": "0xd6c4f8cd969584ff75f08cb29b3b4410fcecf1bb984bf1f0adce1d711c2c19f5",
     "trade_timestamp": 1768548046
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x5d69911064a05acf43191e3d4b84afbb76c855e7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($2,005)"
+      ],
+      "amount": 2005.02682,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-16T07:51:44.694369",
+    "trade_hash": "0x3fb446fe473f69631d428240f22733ad4564d7c371dd9a6e553a0af204d5e07d",
+    "trade_timestamp": 1768549782
+  },
+  {
+    "market": "Will LeBron James win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xde4efb0882e7864537e579a2c4a3dea8d6fd6f7f",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,040)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1040.07232,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T07:51:54.843138",
+    "trade_hash": "0x1a3f1280c31a7d6b9ab49aaccb9db30d14cea2912cbddacc86fbcdd1a4fe6813",
+    "trade_timestamp": 1768549646
+  },
+  {
+    "market": "Will LeBron James win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xd32fa2e8da6bb2896cf7743bf10dc2ec440e3a73",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,023)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1022.7024,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-16T07:51:56.508003",
+    "trade_hash": "0xf974903a795d3c69d905b2647b39fd3c38bf23e6891d93f5d2d492ff86b316b6",
+    "trade_timestamp": 1768549642
+  },
+  {
+    "market": "Will Elche win the 2025\u201326 La Liga?",
+    "market_slug": "will-elche-win-the-202526-la-liga",
+    "wallet": "0x8963fb51aab08ce4904a5da3b22e23db10a492fb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,239)"
+      ],
+      "amount": 1238.6178,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-16T07:51:58.916181",
+    "trade_hash": "0x2cb34482f33a88aba0e32b1b8109602b9d7e17f61f8cc839528c3c453cad9039",
+    "trade_timestamp": 1768549648
   }
 ]
