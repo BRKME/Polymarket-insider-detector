@@ -2314,5 +2314,25 @@
     "timestamp": "2026-01-16T08:49:48.866238",
     "trade_hash": "0x3eba1dcc0996850f7a276b3285eda2fd07f2287aaab79db2820a9d02e8e3f98a",
     "trade_timestamp": 1768553226
+  },
+  {
+    "market": "Will the Charlotte Hornets win the 2026 NBA Finals?",
+    "market_slug": "will-the-charlotte-hornets-win-the-2026-nba-finals",
+    "wallet": "0x97201525907543367aa1cbb4bc295212531c1e9d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,230)"
+      ],
+      "amount": 3229.689078,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-16T09:02:56.200118",
+    "trade_hash": "0xba8cc8d53a8cbe60a567c4a40148f7a71dcd7dcabfd576fca61f673fadbb1882",
+    "trade_timestamp": 1768553970
   }
 ]
