@@ -4037,5 +4037,65 @@
     "timestamp": "2026-01-17T04:48:10.434610",
     "trade_hash": "0x453f05a8ccf146a16f38ac83e1ba6b118043b3247c32f500654163a5e476aefd",
     "trade_timestamp": 1768625116
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,500 on January 17?",
+    "market_slug": "ethereum-above-3500-on-january-17",
+    "wallet": "0xcadb404f4c4bc9d22e1dc3b205fa20f1a5db0582",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,068)"
+      ],
+      "amount": 1067.86,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-17T05:00:15.204700",
+    "trade_hash": "0x2bae43e6af7ca095654c125fd903d01947addf7809786470a1d79f59c0871fe3",
+    "trade_timestamp": 1768625940
+  },
+  {
+    "market": "Will the price of Bitcoin be between $88,000 and $90,000 on January 17?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-88000-90000-on-january-17",
+    "wallet": "0xa0c6edc1f83528ddc8bfedb7cfe8b8bf5552cd1a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,108)"
+      ],
+      "amount": 3107.73915,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 84
+    },
+    "timestamp": "2026-01-17T05:00:30.145065",
+    "trade_hash": "0xefd0925ccdfa15510284965e1806c81ddcf6a63e74f3ff082406e6407c94f387",
+    "trade_timestamp": 1768625790
+  },
+  {
+    "market": "Will the price of Ethereum be between $3,400 and $3,500 on January 17?",
+    "market_slug": "will-the-price-of-ethereum-be-between-3400-3500-on-january-17",
+    "wallet": "0x8949c96c8bca40e5db84cbb59e23213a0eb3fbef",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,070)"
+      ],
+      "amount": 1069.999712,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-17T05:00:30.853176",
+    "trade_hash": "0xe4a9592755e8c4f1093f591d161e183da67f6ea72c328fd1e6688842513ae884",
+    "trade_timestamp": 1768625788
   }
 ]
