@@ -5813,5 +5813,88 @@
     "timestamp": "2026-01-17T12:21:53.246900",
     "trade_hash": "0xf5f504157ef17677c77418572ef270ea11b303b6b82eb4c49fc391ceaad3fab7",
     "trade_timestamp": 1768652458
+  },
+  {
+    "market": "Will Switzerland win the 2026 FIFA World Cup?",
+    "market_slug": "will-switzerland-win-the-2026-fifa-world-cup",
+    "wallet": "0x796d13e21b000b716acdaa7f0935c18f30cf1499",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,503)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1503.47583,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T13:33:55.324215",
+    "trade_hash": "0x7cc95d9fe14f4934a2676941f9078497f54ffe6e35d3ae2b006eee7498c8e87a",
+    "trade_timestamp": 1768656680
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xf5a626966e2f3d0e85c8beb925d52774ccf178f8",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,496)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1496.49,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T13:34:04.351263",
+    "trade_hash": "0xbacc88f1c953834f8ca61ccfe1d1f17b627938cac0c81b62bf32959340e20f42",
+    "trade_timestamp": 1768656628
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xdd2ab450d9d82934bbd86153f46dd5038e01db1b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,464)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1463.5224,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T13:34:09.999558",
+    "trade_hash": "0x51f5ce1d0587062c6c70c8bc3c18922e30c4ab24ae6fba90162b5908084532f4",
+    "trade_timestamp": 1768656600
+  },
+  {
+    "market": "Bitcoin Up or Down - January 17, 8:30AM-8:45AM ET",
+    "market_slug": "btc-updown-15m-1768656600",
+    "wallet": "0x3a144b600319f7e32e2e9e5978fe096599f3ba11",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.7% odds)",
+        "Large bet ($8,371)"
+      ],
+      "amount": 8370.966586681647,
+      "odds": 0.9871728210038438,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-17T13:34:18.052697",
+    "trade_hash": "0x5a605e8d67bd38a209fba6ca6a2633a5a5cc9dc2332a7f7a467fbdba5118727a",
+    "trade_timestamp": 1768656592
   }
 ]
