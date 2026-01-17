@@ -5610,5 +5610,45 @@
     "timestamp": "2026-01-17T10:38:29.321094",
     "trade_hash": "0xad52c8be97e23e49fc98cf7d5ce86ae3afff0150db7351d64881223b1bd90e31",
     "trade_timestamp": 1768646138
+  },
+  {
+    "market": "LoL: Bilibili Gaming vs Anyone's Legend - Game 2 Winner",
+    "market_slug": "lol-blg-al-2026-01-17-game2",
+    "wallet": "0xc3b8968ee6edeeb8a8d72d5b7083e4ddde64b4d8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,801)"
+      ],
+      "amount": 2801.3558399999997,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-17T10:49:03.361257",
+    "trade_hash": "0x3361f3b8bde047d349689609f7b652c8f89716b3c169a50e0debcc592a2c98cf",
+    "trade_timestamp": 1768646824
+  },
+  {
+    "market": "Fed decreases interest rates by 25 bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0x03bbba136fbf5d82d192751b5612e6b45f37a37f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.9% odds)",
+        "Large bet ($4,516)"
+      ],
+      "amount": 4515.58576,
+      "odds": 0.959,
+      "wallet_age_days": 0,
+      "total_activities": 33
+    },
+    "timestamp": "2026-01-17T10:49:16.487036",
+    "trade_hash": "0xf54cbbe2d3e5d105ab85ea3897e829a80eb5e4a55764676201dd85b4a2f2f076",
+    "trade_timestamp": 1768646724
   }
 ]
