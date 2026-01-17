@@ -5998,5 +5998,25 @@
     "timestamp": "2026-01-17T14:54:19.560184",
     "trade_hash": "0xfcc24ae0dec81129c73ed970c3f9da13e76a0b261a84dcf9271f7ab3f4b225f8",
     "trade_timestamp": 1768661474
+  },
+  {
+    "market": "Will Manchester City FC win on 2026-01-17?",
+    "market_slug": "epl-mun-mac-2026-01-17-mac",
+    "wallet": "0x987069e3ba77f73bc43fcad0dd43fa3eced7b9d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,997)"
+      ],
+      "amount": 2997.0,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-17T15:01:04.685470",
+    "trade_hash": "0xf5d861d6c12bab50d25c51ee2761059a32a945c81051dd21e1930f9e0d254691",
+    "trade_timestamp": 1768661732
   }
 ]
