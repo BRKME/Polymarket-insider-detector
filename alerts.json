@@ -6761,5 +6761,66 @@
     "timestamp": "2026-01-17T22:40:44.108696",
     "trade_hash": "0x09783aeef56895a67e79b86a4179765203335ce91ee94b91a317bdcbcadf14c4",
     "trade_timestamp": 1768689446
+  },
+  {
+    "market": "Will Gretchen Whitmer win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-gretchen-whitmer-win-the-2028-democratic-presidential-nomination-676",
+    "wallet": "0x2f0bf33b5b04091b8393138f75b91718a058a3a8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($1,242)"
+      ],
+      "amount": 1241.999962,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 72
+    },
+    "timestamp": "2026-01-17T22:50:06.053035",
+    "trade_hash": "0xbbb81a0fab795332624f17077ba0054805cbc2223c6c7f577fab72f2846d20d9",
+    "trade_timestamp": 1768690036
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0xbb7ca7c024f972f37058963055233d75d660ed3e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($13,502)"
+      ],
+      "amount": 13501.95198,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 94
+    },
+    "timestamp": "2026-01-17T22:50:06.867054",
+    "trade_hash": "0x2e15062d44d2a8880848df483dd5a9a4e5f7689fddde4325dd72f7b1f43b4bf6",
+    "trade_timestamp": 1768690024
+  },
+  {
+    "market": "Will Lu\u00eds Marques Mendes win the 2026 Portugal presidential election?",
+    "market_slug": "will-lus-marques-mendes-win-the-2026-portugal-presidential-election",
+    "wallet": "0xf254a30771b48babefa4d8616c1ed6f6548853c8",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($1,990)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1989.999965,
+      "odds": 0.9849999999975251,
+      "wallet_age_days": 1,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T22:50:08.383837",
+    "trade_hash": "0xaac2fd037d023e5399c2783c5020a6c272c2521ddc3576dc5eb3ac63fd1a4fea",
+    "trade_timestamp": 1768690052
   }
 ]
