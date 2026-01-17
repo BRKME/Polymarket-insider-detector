@@ -6018,5 +6018,85 @@
     "timestamp": "2026-01-17T15:01:04.685470",
     "trade_hash": "0xf5d861d6c12bab50d25c51ee2761059a32a945c81051dd21e1930f9e0d254691",
     "trade_timestamp": 1768661732
+  },
+  {
+    "market": "Israel strikes Iran by January 23, 2026?",
+    "market_slug": "israel-strikes-iran-by-january-23-2026",
+    "wallet": "0x4fdea85431f519093d4d4eee7f793c38594fa324",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Against trend (6.0% odds)",
+        "Large bet ($1,494)"
+      ],
+      "amount": 1493.7192300000002,
+      "odds": 0.0597487692,
+      "wallet_age_days": 1,
+      "total_activities": 64
+    },
+    "timestamp": "2026-01-17T15:35:22.170082",
+    "trade_hash": "0xac60983642d9478f1f51085b9bf555f95662c92ca53aec90922d2814c0797cd8",
+    "trade_timestamp": 1768663990
+  },
+  {
+    "market": "Will the price of Bitcoin be above $94,000 on January 17?",
+    "market_slug": "bitcoin-above-94k-on-january-17",
+    "wallet": "0x9fdfccb9da994cd43598cf974512fc9b9053bfaf",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($10,234)"
+      ],
+      "amount": 10234.25048,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-17T15:35:28.864497",
+    "trade_hash": "0x52f006b51fef2445fd0df70abbc69d3af203491a3277de18e80cd496314d67e1",
+    "trade_timestamp": 1768664020
+  },
+  {
+    "market": "XRP Up or Down on January 17?",
+    "market_slug": "xrp-up-or-down-on-january-17",
+    "wallet": "0x37c0bf15a7799e72493dc0dcc06ccf1d2a155e4c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,094)"
+      ],
+      "amount": 1094.5,
+      "odds": 0.995,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-17T15:35:38.896784",
+    "trade_hash": "0x04e725f2ea3af6ec89116f3bf7aeb4cefa1e3c94e4d8e79e18c284f04fffbba4",
+    "trade_timestamp": 1768663900
+  },
+  {
+    "market": "Will Dwayne 'The Rock' Johnson win the 2028 US Presidential Election?",
+    "market_slug": "will-dwayne-the-rock-johnson-win-the-2028-us-presidential-election",
+    "wallet": "0x1e23d38c04bef4b997525345eb1501db90b5f1d6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.2% odds)",
+        "Large bet ($2,436)"
+      ],
+      "amount": 2435.89028,
+      "odds": 0.982,
+      "wallet_age_days": 1,
+      "total_activities": 74
+    },
+    "timestamp": "2026-01-17T15:35:44.293084",
+    "trade_hash": "0x80fcd9a2254b5ed892fc609e010573d738d49d74ee9cb43b7dad8a6435e9fdda",
+    "trade_timestamp": 1768663982
   }
 ]
