@@ -5753,5 +5753,25 @@
     "timestamp": "2026-01-17T11:35:53.413282",
     "trade_hash": "0x2087a4191c56861f8be7944edaa59bb9d07a8dc83b8e9a3fbc721e689d65e4fe",
     "trade_timestamp": 1768649630
+  },
+  {
+    "market": "Will Zohran Mamdani win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-zohran-mamdani-win-the-2028-democratic-presidential-nomination-445",
+    "wallet": "0x3b071ff5ea3743ea728d0fe74246fb3a4c9e33b8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($3,081)"
+      ],
+      "amount": 3081.4,
+      "odds": 0.994,
+      "wallet_age_days": 2,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-17T11:44:30.294943",
+    "trade_hash": "0x0f876e824f8ace3ce74dceebdeac215e0938ae527b192afa8b6567db088f9852",
+    "trade_timestamp": 1768650024
   }
 ]
