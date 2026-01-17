@@ -4321,5 +4321,45 @@
     "timestamp": "2026-01-17T05:22:19.778247",
     "trade_hash": "0x6d5e2b61d07ed2ad303f13b15610b918c62021ef449855e1de8e67046299f306",
     "trade_timestamp": 1768627008
+  },
+  {
+    "market": "Will Jamie Dimon win the 2028 US Presidential Election?",
+    "market_slug": "will-jamie-dimon-win-the-2028-us-presidential-election",
+    "wallet": "0xe992996d70b21ed25a45c1ec62ca6251ac31fc61",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($2,351)"
+      ],
+      "amount": 2351.04,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 56
+    },
+    "timestamp": "2026-01-17T05:40:40.605442",
+    "trade_hash": "0x7d432b70d33df330db1c6d71495ff7472b0af6e6cb8db88944dfaa1b3fe2b9de",
+    "trade_timestamp": 1768628288
+  },
+  {
+    "market": "Will West Ham win the 2025\u201326 English Premier League?",
+    "market_slug": "will-west-ham-win-the-202526-english-premier-league",
+    "wallet": "0x2b8c1cb53b657905b88af506403e151bda1ff890",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,582)"
+      ],
+      "amount": 1581.999417,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 14
+    },
+    "timestamp": "2026-01-17T05:40:48.588860",
+    "trade_hash": "0xbac1c3de2e0bd99686673cb53d08c9156667d07dc2293de7f807a8cc40be58d0",
+    "trade_timestamp": 1768628248
   }
 ]
