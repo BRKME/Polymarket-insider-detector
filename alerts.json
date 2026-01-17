@@ -5361,5 +5361,47 @@
     "timestamp": "2026-01-17T09:20:59.405975",
     "trade_hash": "0x9b2d3614c111d5c5c4739b0c25674301a00ac4ae858040db19a01e225a8a3f15",
     "trade_timestamp": 1768641476
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x1c1dfbbd9c07bc9a68d0f86efa5b42d5bb1dc6de",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,013)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1013.20092,
+      "odds": 0.996,
+      "wallet_age_days": 1,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T09:36:07.145215",
+    "trade_hash": "0x97f1390b27b6e0f93e18ee613def8a5c7a0aec6056fa1fcac70f79e847b1a3e2",
+    "trade_timestamp": 1768642488
+  },
+  {
+    "market": "Will Mexico win the 2026 FIFA World Cup?",
+    "market_slug": "will-mexico-win-the-2026-fifa-world-cup-529",
+    "wallet": "0x619ecc33aaaa536a05ab73787c6b5b0778311bf0",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,456)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1455.99702,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T09:36:11.514201",
+    "trade_hash": "0x48aa63f6a23c2d585128858c6bebf8fafe9b1bd4faa430c357515c46306f2fff",
+    "trade_timestamp": 1768642466
   }
 ]
