@@ -6138,5 +6138,66 @@
     "timestamp": "2026-01-17T15:58:39.667116",
     "trade_hash": "0x30dddee05f636772d75b32bc84cf51a99cdbe1d98acabc91d7015c7417d058ca",
     "trade_timestamp": 1768665360
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x2102e4ed26d053b7ef9683b7a75289c100e1d0b9",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,528)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1528.4615999999999,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T16:52:38.784059",
+    "trade_hash": "0x1dc3ccfc96ee84d27a574882bea88506885f0cdb92947dd3a86538e5c33157ee",
+    "trade_timestamp": 1768668672
+  },
+  {
+    "market": "Will Chelsea FC win on 2026-01-17?",
+    "market_slug": "epl-che-bre-2026-01-17-che",
+    "wallet": "0x49e6caaf8466f55cf6f7f4fc94815b0fcb82ca53",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,097)"
+      ],
+      "amount": 1096.709998,
+      "odds": 0.998849649362797,
+      "wallet_age_days": 1,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-17T16:52:39.463852",
+    "trade_hash": "0x6e9d091a2f342b8413e9d3fb9232b9cb230937d17787bb31039ea3a358f02ba9",
+    "trade_timestamp": 1768668668
+  },
+  {
+    "market": "Will Tottenham win the 2025\u201326 Champions League?",
+    "market_slug": "will-tottenham-win-the-202526-champions-league",
+    "wallet": "0xba37f13a00874d1e7b7b197d35b5e806c9a143d7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($3,721)"
+      ],
+      "amount": 3721.3896,
+      "odds": 0.984,
+      "wallet_age_days": 2,
+      "total_activities": 38
+    },
+    "timestamp": "2026-01-17T16:52:45.956894",
+    "trade_hash": "0x21e510bc24fa6bfbe25f216370970446d6b01450aa20bd9bade7d0c718245485",
+    "trade_timestamp": 1768668634
   }
 ]
