@@ -5793,5 +5793,25 @@
     "timestamp": "2026-01-17T11:56:38.113135",
     "trade_hash": "0x1ea3281b610e00d7526f745087c1fbfb23b795af63c159984eb60670da82cf39",
     "trade_timestamp": 1768650874
+  },
+  {
+    "market": "Will the price of Bitcoin be above $90,000 on January 17?",
+    "market_slug": "bitcoin-above-90k-on-january-17",
+    "wallet": "0xd6562b0d4f8bd6b0164cc4e8fc0aab6a40e2529b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,053)"
+      ],
+      "amount": 2053.11483,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 70
+    },
+    "timestamp": "2026-01-17T12:21:53.246900",
+    "trade_hash": "0xf5f504157ef17677c77418572ef270ea11b303b6b82eb4c49fc391ceaad3fab7",
+    "trade_timestamp": 1768652458
   }
 ]
