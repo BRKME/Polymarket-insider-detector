@@ -4646,5 +4646,86 @@
     "timestamp": "2026-01-17T07:34:07.420969",
     "trade_hash": "0x647bfda54e9cfbf34e15de698f86604b0e7ef1ff3775e5149e7d2ed11b9ecacc",
     "trade_timestamp": 1768634898
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $4 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-4-million",
+    "wallet": "0xa4343fcddda2622930168bc427041da5d31491f8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($1,098)"
+      ],
+      "amount": 1098.3932,
+      "odds": 0.985,
+      "wallet_age_days": 0,
+      "total_activities": 57
+    },
+    "timestamp": "2026-01-17T07:42:42.056040",
+    "trade_hash": "0x5177f81665ec1cc5c92daf5321d2ddf1f3846525eaa0d3d5beb1563c8a9cebdf",
+    "trade_timestamp": 1768635632
+  },
+  {
+    "market": "Will the price of Bitcoin be above $92,000 on January 17?",
+    "market_slug": "bitcoin-above-92k-on-january-17",
+    "wallet": "0x22c5a8e109ea27c32acdb9299b06a3cb868f6f4a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,737)"
+      ],
+      "amount": 1736.8736999999999,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-17T07:42:46.721422",
+    "trade_hash": "0x9df61959dcf2c19f8e177f7f8817016e55c7339a2a90936a77d8e103570088ba",
+    "trade_timestamp": 1768635610
+  },
+  {
+    "market": "Will Sevilla win the 2025\u201326 La Liga?",
+    "market_slug": "will-sevilla-win-the-202526-la-liga",
+    "wallet": "0x396a555326daab2682da656490abe62fac7a0891",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,189)"
+      ],
+      "amount": 1189.22678,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-17T07:43:12.218233",
+    "trade_hash": "0xb8206798cbfc69614785e1584d0a19f10ff0cc4190f70d6c8d2b5861a18de33a",
+    "trade_timestamp": 1768635490
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xb6e69822e461a0596725a17e16efd1b87c83ea7e",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.3% odds)",
+        "Large bet ($5,051)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5050.9,
+      "odds": 0.953,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T07:43:15.381789",
+    "trade_hash": "0x142d93e38699b63d3c3b136f01da1c8ab2a782f21f96660811232f5cae21613a",
+    "trade_timestamp": 1768635478
   }
 ]
