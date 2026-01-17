@@ -6459,5 +6459,25 @@
     "timestamp": "2026-01-17T17:55:12.040484",
     "trade_hash": "0x459d7df1c6f8f6868ecc35690f46a25d21958aec68984214b61c7c3da2f09b71",
     "trade_timestamp": 1768672258
+  },
+  {
+    "market": "Will the price of Ethereum be above $2,900 on January 18?",
+    "market_slug": "ethereum-above-2900-on-january-18",
+    "wallet": "0xf03e5069d53506ab93f71feb4567336cc659d23c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,021)"
+      ],
+      "amount": 1020.954,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 96
+    },
+    "timestamp": "2026-01-17T18:01:03.574447",
+    "trade_hash": "0x1513862fdb306dc0df79a1ad99531d49162a15039823c5e84e0ff662f487e127",
+    "trade_timestamp": 1768672778
   }
 ]
