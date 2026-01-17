@@ -6741,5 +6741,25 @@
     "timestamp": "2026-01-17T21:55:08.796005",
     "trade_hash": "0x5be2b0a4061d9cb565e213c639c18686bae5bde8a00ddae68386d82d7389c2c9",
     "trade_timestamp": 1768686750
+  },
+  {
+    "market": "Will Real Betis Balompi\u00e9 win on 2026-01-17?",
+    "market_slug": "lal-bet-vil-2026-01-17-bet",
+    "wallet": "0xae4770f40b0d07e06ba2b89105bc50b3d062eba4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,160)"
+      ],
+      "amount": 2159.99784,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-17T22:40:44.108696",
+    "trade_hash": "0x09783aeef56895a67e79b86a4179765203335ce91ee94b91a317bdcbcadf14c4",
+    "trade_timestamp": 1768689446
   }
 ]
