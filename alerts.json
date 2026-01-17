@@ -5712,5 +5712,25 @@
     "timestamp": "2026-01-17T11:09:00.699926",
     "trade_hash": "0x2607bdfdc8e94b3d1bd6a9825f6ade546ce9b887b12e913cfb028cbd1dfd5805",
     "trade_timestamp": 1768647948
+  },
+  {
+    "market": "LoL: Gen.G vs KT Rolster - Game 1 Winner",
+    "market_slug": "lol-gen-kt-2026-01-17-game1",
+    "wallet": "0x17688a5a59419578d734334a913d3b304493e91f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.7% odds)",
+        "Large bet ($1,645)"
+      ],
+      "amount": 1644.999975,
+      "odds": 0.9565141389195081,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-01-17T11:27:04.202308",
+    "trade_hash": "0xaf9a6ba50bc278f6c7c6bab5d62a21b8bb118a40d5ee271a775e7a7cec201e99",
+    "trade_timestamp": 1768648972
   }
 ]
