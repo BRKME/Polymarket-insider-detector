@@ -6519,5 +6519,45 @@
     "timestamp": "2026-01-17T19:27:53.366548",
     "trade_hash": "0xb65a68ce2174ba402f549ab8bba90584fa4fb7180b018e08cb783f5c27713ea3",
     "trade_timestamp": 1768677856
+  },
+  {
+    "market": "Will Bodo Glimt win the 2025\u201326 Champions League?",
+    "market_slug": "will-bodo-glimt-win-the-202526-champions-league",
+    "wallet": "0xada51e609a5f61e93cd16867fb53e6eaadc18796",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,420)"
+      ],
+      "amount": 1419.7288500000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 14
+    },
+    "timestamp": "2026-01-17T19:36:14.796571",
+    "trade_hash": "0x67cd6f74e80790acf75b052ba8edc2a0d12934e713948ae6239fcb8bf40740fe",
+    "trade_timestamp": 1768678390
+  },
+  {
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-01-17?",
+    "market_slug": "bun-lei-bay-2026-01-17-bay",
+    "wallet": "0x6b2abcde91c7720a82920d20e54e45f0af894a00",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,584)"
+      ],
+      "amount": 2583.6137999999996,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 26
+    },
+    "timestamp": "2026-01-17T19:37:21.602587",
+    "trade_hash": "0x16ae2abf831af406f9a928243a999437fc2ac636a6417cbf44faa16bb1f4c93b",
+    "trade_timestamp": 1768678334
   }
 ]
