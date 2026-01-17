@@ -6599,5 +6599,65 @@
     "timestamp": "2026-01-17T19:55:39.708962",
     "trade_hash": "0x7fad8d7f5a4dcd684b6bee87dc51880df05033bc4561137a606851cb653f83f7",
     "trade_timestamp": 1768679422
+  },
+  {
+    "market": "Will the price of Bitcoin be above $100,000 on January 18?",
+    "market_slug": "bitcoin-above-100k-on-january-18",
+    "wallet": "0x0ab4154a0355f639702905fdcf751aad30da1a30",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,028)"
+      ],
+      "amount": 1027.94,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-17T20:45:57.565967",
+    "trade_hash": "0xd93f803ce9540c9535f7f7cc1a9aea823129d300e9b2a93e65c9f15f8cc46e59",
+    "trade_timestamp": 1768682682
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0xa59d5e98b024e59a74bfae791d6e361ee9637c19",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($13,534)"
+      ],
+      "amount": 13534.049402999999,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 92
+    },
+    "timestamp": "2026-01-17T20:46:06.270836",
+    "trade_hash": "0x65c53b50feefd0e82b52ced30f1b69067c5f18ffd1a8f5f8249d2e90b5c8b728",
+    "trade_timestamp": 1768682618
+  },
+  {
+    "market": "Will Napoli win the 2025\u201326 Champions League?",
+    "market_slug": "will-napoli-win-the-202526-champions-league",
+    "wallet": "0x5aee6eecddd0a31c148ca2dd8f41d8c6b3bcf923",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,160)"
+      ],
+      "amount": 1159.999988,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 20
+    },
+    "timestamp": "2026-01-17T20:46:17.820736",
+    "trade_hash": "0x1d90955ed388d7903c8a3b087c8588aee3fc8ec5e0536aee86a0da4e35424118",
+    "trade_timestamp": 1768682510
   }
 ]
