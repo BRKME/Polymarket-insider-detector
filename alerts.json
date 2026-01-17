@@ -6700,5 +6700,25 @@
     "timestamp": "2026-01-17T21:32:43.644939",
     "trade_hash": "0xc5f909d38632c1b392e7a6d5d267b21d5102f40fd0dea7bf044a293772700780",
     "trade_timestamp": 1768685448
+  },
+  {
+    "market": "Will the San Francisco 49ers win Super Bowl 2026?",
+    "market_slug": "will-the-san-francisco-49ers-win-super-bowl-2026",
+    "wallet": "0x4522595a310a45e663ae58b2eeecfaf4e938ea34",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($2,495)"
+      ],
+      "amount": 2494.9999980000002,
+      "odds": 0.9521452957022656,
+      "wallet_age_days": 0,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-17T21:50:19.900883",
+    "trade_hash": "0x4048cc7583ca63f4cc03ef80a02cb61a9063bb30202e5aa7cd6b621fbd75665e",
+    "trade_timestamp": 1768686234
   }
 ]
