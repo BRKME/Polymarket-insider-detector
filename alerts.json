@@ -5896,5 +5896,26 @@
     "timestamp": "2026-01-17T13:34:18.052697",
     "trade_hash": "0x5a605e8d67bd38a209fba6ca6a2633a5a5cc9dc2332a7f7a467fbdba5118727a",
     "trade_timestamp": 1768656592
+  },
+  {
+    "market": "Will Ecuador win the 2026 FIFA World Cup?",
+    "market_slug": "will-ecuador-win-the-2026-fifa-world-cup-986",
+    "wallet": "0x59892c02e9f1a72372eb05637aed83da34d28b1b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,491)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1490.73792,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-17T13:54:16.624602",
+    "trade_hash": "0x5fa747beeb72b19bbab9ad3b3f2b630fc3c6482564f6b9aa3e6ebaf988961126",
+    "trade_timestamp": 1768657964
   }
 ]
