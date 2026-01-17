@@ -5590,5 +5590,25 @@
     "timestamp": "2026-01-17T10:18:19.671342",
     "trade_hash": "0x01ed8bd96ebac8250b74aaf2cec6319d43475bd1a83e7133e7d888c1b66e1a58",
     "trade_timestamp": 1768644806
+  },
+  {
+    "market": "Will the price of Solana be between $150 and $160 on January 17?",
+    "market_slug": "will-the-price-of-solana-be-between-150-160-on-january-17",
+    "wallet": "0x9e75f66458ceaa87f62dbf515e8ba650a38227a3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,628)"
+      ],
+      "amount": 1628.1309099999999,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-17T10:38:29.321094",
+    "trade_hash": "0xad52c8be97e23e49fc98cf7d5ce86ae3afff0150db7351d64881223b1bd90e31",
+    "trade_timestamp": 1768646138
   }
 ]
