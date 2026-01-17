@@ -5403,5 +5403,25 @@
     "timestamp": "2026-01-17T09:36:11.514201",
     "trade_hash": "0x48aa63f6a23c2d585128858c6bebf8fafe9b1bd4faa430c357515c46306f2fff",
     "trade_timestamp": 1768642466
+  },
+  {
+    "market": "Will LeBron James win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xebd3de8456e7efa66de94692252f11bf3ea0f2f4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,984)"
+      ],
+      "amount": 1984.0,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 50
+    },
+    "timestamp": "2026-01-17T09:45:55.358475",
+    "trade_hash": "0xaf10a46b3f667737d1d45ff69ace82c8f74fefef08a95a6c45c69a62b041229e",
+    "trade_timestamp": 1768643032
   }
 ]
