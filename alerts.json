@@ -6118,5 +6118,25 @@
     "timestamp": "2026-01-17T15:52:17.729552",
     "trade_hash": "0xa07f53d71858afc3fb9eef0c1e8008a4d8f7e403f74df3acf57c4f67095546ac",
     "trade_timestamp": 1768665022
+  },
+  {
+    "market": "Will Ron DeSantis win the 2028 US Presidential Election?",
+    "market_slug": "will-ron-desantis-win-the-2028-us-presidential-election",
+    "wallet": "0x4bc2b8e7b8edecc8e4462949e0de35a71ae0d0f6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($1,968)"
+      ],
+      "amount": 1968.4738200000002,
+      "odds": 0.9842418312091561,
+      "wallet_age_days": 1,
+      "total_activities": 37
+    },
+    "timestamp": "2026-01-17T15:58:39.667116",
+    "trade_hash": "0x30dddee05f636772d75b32bc84cf51a99cdbe1d98acabc91d7015c7417d058ca",
+    "trade_timestamp": 1768665360
   }
 ]
