@@ -6199,5 +6199,105 @@
     "timestamp": "2026-01-17T16:52:45.956894",
     "trade_hash": "0x21e510bc24fa6bfbe25f216370970446d6b01450aa20bd9bade7d0c718245485",
     "trade_timestamp": 1768668634
+  },
+  {
+    "market": "Will Tottenham Hotspur FC win on 2026-01-17?",
+    "market_slug": "epl-tot-wes-2026-01-17-tot",
+    "wallet": "0x75229d416e72fdae663e8caf3fea2e3e7bfd5716",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,796)"
+      ],
+      "amount": 1795.6323,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 83
+    },
+    "timestamp": "2026-01-17T16:58:34.172429",
+    "trade_hash": "0x4a37de9960fff7b5ae5c6316554c5259b9f9a6936b8ba78209176c8f7c31d1e6",
+    "trade_timestamp": 1768669046
+  },
+  {
+    "market": "Will Sunderland AFC win on 2026-01-17?",
+    "market_slug": "epl-sun-cry-2026-01-17-sun",
+    "wallet": "0xec9a8fcabb87159c8c04b79b959f08e2785ead34",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,437)"
+      ],
+      "amount": 2436.58098,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-17T16:58:37.324821",
+    "trade_hash": "0x4f4d5999062dd36096dcf1d1e972d48f583c8d4b6826db5bd05171bf835d67ca",
+    "trade_timestamp": 1768669034
+  },
+  {
+    "market": "Will Chelsea FC win on 2026-01-17?",
+    "market_slug": "epl-che-bre-2026-01-17-che",
+    "wallet": "0xe348780913a041f483d0215d62b256346f01a303",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($6,394)"
+      ],
+      "amount": 6393.6,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-17T16:58:39.597541",
+    "trade_hash": "0xce7b766740cfbf8527b407567c795f4133a949a919835171e84c0f1ca4aee687",
+    "trade_timestamp": 1768669026
+  },
+  {
+    "market": "Solana Up or Down on January 17?",
+    "market_slug": "solana-up-or-down-on-january-17",
+    "wallet": "0xe0f9d8e3889a13dd2cf157e62654e507ef321584",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,000)"
+      ],
+      "amount": 1999.999998,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 84
+    },
+    "timestamp": "2026-01-17T16:58:50.381762",
+    "trade_hash": "0x9d69160ffa546a3a7e5cb951c94f943d9a63ad19e171baef389aaca42dc2eef5",
+    "trade_timestamp": 1768669000
+  },
+  {
+    "market": "Bitcoin Up or Down - January 17, 11AM ET",
+    "market_slug": "bitcoin-up-or-down-january-17-11am-et",
+    "wallet": "0x81ae3734b3e46cde642298efa06e3d12ed043615",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,160)"
+      ],
+      "amount": 1159.75822,
+      "odds": 0.9940074737518748,
+      "wallet_age_days": 0,
+      "total_activities": 33
+    },
+    "timestamp": "2026-01-17T16:58:55.802220",
+    "trade_hash": "0x5ed7f3b5035e75826b746ae60f285e132740975fbea6f6fd3cde08c7eb76cd23",
+    "trade_timestamp": 1768668998
   }
 ]
