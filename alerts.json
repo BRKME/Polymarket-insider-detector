@@ -6559,5 +6559,25 @@
     "timestamp": "2026-01-17T19:37:21.602587",
     "trade_hash": "0x16ae2abf831af406f9a928243a999437fc2ac636a6417cbf44faa16bb1f4c93b",
     "trade_timestamp": 1768678334
+  },
+  {
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-01-17?",
+    "market_slug": "bun-lei-bay-2026-01-17-bay",
+    "wallet": "0x4ff0b54e9a91499cdbe54318e5a3ffbdc12c271b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,315)"
+      ],
+      "amount": 1314.684,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 91
+    },
+    "timestamp": "2026-01-17T19:49:29.546212",
+    "trade_hash": "0x739b1e9ae61450c69cabb4fd1f02c8847317bea9ac81b79a257a02c4c5338c2d",
+    "trade_timestamp": 1768679154
   }
 ]
