@@ -4544,5 +4544,26 @@
     "timestamp": "2026-01-17T06:19:14.544648",
     "trade_hash": "0xee8f47f3693aba1af1ffb0bb702ba8b6babc8ae540da915185d56e272a369a90",
     "trade_timestamp": 1768630394
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x5df5b5c2e83611143905c303e997787317991439",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.4% odds)",
+        "Large bet ($5,124)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5123.9800000000005,
+      "odds": 0.9541862197392924,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-17T06:48:38.890863",
+    "trade_hash": "0x98311679b64e14e44723d6cde5fc7ef4fc2c408a017391fdc0b077538ca06368",
+    "trade_timestamp": 1768632346
   }
 ]
