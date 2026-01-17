@@ -6659,5 +6659,25 @@
     "timestamp": "2026-01-17T20:46:17.820736",
     "trade_hash": "0x1d90955ed388d7903c8a3b087c8588aee3fc8ec5e0536aee86a0da4e35424118",
     "trade_timestamp": 1768682510
+  },
+  {
+    "market": "Will PSV win on 2026-01-17?",
+    "market_slug": "ere-sit-psv-2026-01-17-psv",
+    "wallet": "0xc44d84f010efc1d1688a2d837439aee259b88dbb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,737)"
+      ],
+      "amount": 1736.5887,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-17T20:59:53.657637",
+    "trade_hash": "0xe21fb9d411e08e105908f9fe15cbe38db3a358d863037ddde5125999fe0aaab8",
+    "trade_timestamp": 1768683430
   }
 ]
