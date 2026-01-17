@@ -5692,5 +5692,25 @@
     "timestamp": "2026-01-17T10:56:10.229692",
     "trade_hash": "0x1be50c0c86ff2901ce08e48388a066b631d54be8f23153852dd84cf8322b1aaf",
     "trade_timestamp": 1768646990
+  },
+  {
+    "market": "Will Mexico win the 2026 FIFA World Cup?",
+    "market_slug": "will-mexico-win-the-2026-fifa-world-cup-529",
+    "wallet": "0x92fe18bec0b1551e4e2c3641be9e2382ffb57c54",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($2,961)"
+      ],
+      "amount": 2960.619987,
+      "odds": 0.9909999999983263,
+      "wallet_age_days": 0,
+      "total_activities": 30
+    },
+    "timestamp": "2026-01-17T11:09:00.699926",
+    "trade_hash": "0x2607bdfdc8e94b3d1bd6a9825f6ade546ce9b887b12e913cfb028cbd1dfd5805",
+    "trade_timestamp": 1768647948
   }
 ]
