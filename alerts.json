@@ -6098,5 +6098,25 @@
     "timestamp": "2026-01-17T15:35:44.293084",
     "trade_hash": "0x80fcd9a2254b5ed892fc609e010573d738d49d74ee9cb43b7dad8a6435e9fdda",
     "trade_timestamp": 1768663982
+  },
+  {
+    "market": "Will Trump nominate Michelle Bowman as the next Fed chair?",
+    "market_slug": "will-trump-nominate-michelle-bowman-as-the-next-fed-chair",
+    "wallet": "0xb9190df68099de373a3442b978a6703c882f75f7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,251)"
+      ],
+      "amount": 1250.7362999999998,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 62
+    },
+    "timestamp": "2026-01-17T15:52:17.729552",
+    "trade_hash": "0xa07f53d71858afc3fb9eef0c1e8008a4d8f7e403f74df3acf57c4f67095546ac",
+    "trade_timestamp": 1768665022
   }
 ]
