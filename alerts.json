@@ -5650,5 +5650,47 @@
     "timestamp": "2026-01-17T10:49:16.487036",
     "trade_hash": "0xf54cbbe2d3e5d105ab85ea3897e829a80eb5e4a55764676201dd85b4a2f2f076",
     "trade_timestamp": 1768646724
+  },
+  {
+    "market": "Will NVIDIA be the third-largest company in the world by market cap on January 31?",
+    "market_slug": "will-nvidia-be-the-third-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x1e83e7e14165909b0797d18efec01344c8ba2116",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,290)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1289.95944,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T10:56:09.531042",
+    "trade_hash": "0x67d34751e36a82efec23db2ad05bfee5d9a5d57faf4257ff5ddc4d426e20a44d",
+    "trade_timestamp": 1768646990
+  },
+  {
+    "market": "Will NVIDIA be the third-largest company in the world by market cap on January 31?",
+    "market_slug": "will-nvidia-be-the-third-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0xe369e21482f00ebb9d31c774e92d8f4f1cf29da1",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,280)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1279.9596,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T10:56:10.229692",
+    "trade_hash": "0x1be50c0c86ff2901ce08e48388a066b631d54be8f23153852dd84cf8322b1aaf",
+    "trade_timestamp": 1768646990
   }
 ]
