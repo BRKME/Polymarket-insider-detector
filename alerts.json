@@ -5280,5 +5280,86 @@
     "timestamp": "2026-01-17T09:00:20.769287",
     "trade_hash": "0xe7d794ae2e011e3ce751cc819b58e4ae253a0fe770ade5ec8e5a25132e331687",
     "trade_timestamp": 1768640036
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 Republican presidential nomination?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xafddb0b7c2a1a4097d40793c29166124217a25aa",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.9% odds)",
+        "Large bet ($1,038)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1037.6489100000001,
+      "odds": 0.989,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-17T09:20:47.685896",
+    "trade_hash": "0x605645da28c67971ad4aad7b1765453c5ade8f33ce0645bca91a1cff8d3dce85",
+    "trade_timestamp": 1768641600
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x657becd270853441c1e20a0fb024e84713c283b8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($13,518)"
+      ],
+      "amount": 13517.70204,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-17T09:20:49.032205",
+    "trade_hash": "0x6dd2a47d0ac322e4229dd0d435f1b3316a745946946a394d0943c3c6affe61a8",
+    "trade_timestamp": 1768641528
+  },
+  {
+    "market": "US strikes Iran by January 17, 2026?",
+    "market_slug": "us-strikes-iran-by-january-17-2026-625",
+    "wallet": "0x7d73bd596d4f33ad15132aba77a80efb7d0cfb02",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,500)"
+      ],
+      "amount": 1499.999998,
+      "odds": 0.990999999615492,
+      "wallet_age_days": 2,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-17T09:20:51.372009",
+    "trade_hash": "0x093a7bba2ef7b620d54cb82e4874c52799074e64131d376a4a5b313cf63e93a6",
+    "trade_timestamp": 1768641510
+  },
+  {
+    "market": "Will Napoli win the 2025\u201326 Champions League?",
+    "market_slug": "will-napoli-win-the-202526-champions-league",
+    "wallet": "0x6147ca781c48b4a6d012fa2245ad849311f264b5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,242)"
+      ],
+      "amount": 1242.5,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 66
+    },
+    "timestamp": "2026-01-17T09:20:59.405975",
+    "trade_hash": "0x9b2d3614c111d5c5c4739b0c25674301a00ac4ae858040db19a01e225a8a3f15",
+    "trade_timestamp": 1768641476
   }
 ]
