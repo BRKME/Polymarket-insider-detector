@@ -5938,5 +5938,25 @@
     "timestamp": "2026-01-17T14:01:00.740842",
     "trade_hash": "0x22f4db5f662a0ef9ef1fc2f82bc65c5dd3b91bf5d0ca979211a073441f8d2856",
     "trade_timestamp": 1768658170
+  },
+  {
+    "market": "US strikes Iran by January 18, 2026?",
+    "market_slug": "us-strikes-iran-by-january-18-2026-991",
+    "wallet": "0xaadccec80218f8e4a90448549acdcc3aa226d8ef",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.1% odds)",
+        "Large bet ($3,113)"
+      ],
+      "amount": 3113.3900299999996,
+      "odds": 0.9805520480986665,
+      "wallet_age_days": 1,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-17T14:20:18.240935",
+    "trade_hash": "0xaceefac6bf369ee9b0eaa1f3365afda7e8db3f48729e32f76e97e49010ba7613",
+    "trade_timestamp": 1768659354
   }
 ]
