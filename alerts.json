@@ -6579,5 +6579,25 @@
     "timestamp": "2026-01-17T19:49:29.546212",
     "trade_hash": "0x739b1e9ae61450c69cabb4fd1f02c8847317bea9ac81b79a257a02c4c5338c2d",
     "trade_timestamp": 1768679154
+  },
+  {
+    "market": "Will West Ham win the 2025\u201326 English Premier League?",
+    "market_slug": "will-west-ham-win-the-202526-english-premier-league",
+    "wallet": "0x9cf8a7a30d33e30dc2362ed1cb02016ad0f31a03",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,448)"
+      ],
+      "amount": 1447.6389199999999,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-01-17T19:55:39.708962",
+    "trade_hash": "0x7fad8d7f5a4dcd684b6bee87dc51880df05033bc4561137a606851cb653f83f7",
+    "trade_timestamp": 1768679422
   }
 ]
