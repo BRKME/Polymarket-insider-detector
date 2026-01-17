@@ -6679,5 +6679,26 @@
     "timestamp": "2026-01-17T20:59:53.657637",
     "trade_hash": "0xe21fb9d411e08e105908f9fe15cbe38db3a358d863037ddde5125999fe0aaab8",
     "trade_timestamp": 1768683430
+  },
+  {
+    "market": "Islanders vs. Flames",
+    "market_slug": "nhl-nyi-cal-2026-01-17",
+    "wallet": "0x3905d222c54effc29f94c2ef1bbeaf7fe60a82fc",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($6,627)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 6626.999998,
+      "odds": 0.9844128959229048,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T21:32:43.644939",
+    "trade_hash": "0xc5f909d38632c1b392e7a6d5d267b21d5102f40fd0dea7bf044a293772700780",
+    "trade_timestamp": 1768685448
   }
 ]
