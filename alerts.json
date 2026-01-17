@@ -3611,5 +3611,45 @@
     "timestamp": "2026-01-16T23:33:44.106796",
     "trade_hash": "0xb386ea275fa9288b452699f764357669e126ab889403ce97210afc0aebe20e63",
     "trade_timestamp": 1768606354
+  },
+  {
+    "market": "Over $20M committed to the Space public sale?",
+    "market_slug": "over-20m-committed-to-the-space-public-sale",
+    "wallet": "0x3c8af50770099365f6e353853b1d7ad1c5ba80e6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($3,181)"
+      ],
+      "amount": 3181.18415,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 75
+    },
+    "timestamp": "2026-01-16T23:58:35.086446",
+    "trade_hash": "0xe7dd382389152ec69545efc382595e1a1db95a284d5be3fad2f815deaebda52f",
+    "trade_timestamp": 1768607742
+  },
+  {
+    "market": "Will Solana dip to $120 January 12-18?",
+    "market_slug": "will-solana-dip-to-120-january-12-18",
+    "wallet": "0x0ec20a57b846238ed188ebe88cfbed4004b49883",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,102)"
+      ],
+      "amount": 1101.689845,
+      "odds": 0.9937835070870709,
+      "wallet_age_days": 0,
+      "total_activities": 66
+    },
+    "timestamp": "2026-01-16T23:58:39.041611",
+    "trade_hash": "0xa014ec4cf4b45f515cc75ea9f7aeb3d9d0452ece4ed68b076ae7e75e37c972c5",
+    "trade_timestamp": 1768607734
   }
 ]
