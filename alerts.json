@@ -5113,5 +5113,172 @@
     "timestamp": "2026-01-17T08:54:40.141290",
     "trade_hash": "0x6b90af1427d63b302641f8d1cc2f2824891be0204200d6087fdbc6033f6b0204",
     "trade_timestamp": 1768639666
+  },
+  {
+    "market": "Will LeBron James win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xccc4f8bb102da30c4a9ec2b08a0e7a690a3a575d",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,016)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1016.1218499999999,
+      "odds": 0.991,
+      "wallet_age_days": 1,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-17T08:59:54.652695",
+    "trade_hash": "0xd49149eacbdaeb52390a0e58f788c2c438d1911bc1e7982059fc0a64072e0f54",
+    "trade_timestamp": 1768640332
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x9882f6bd70a8ae535f49f5cd05b1ec3792b5aa87",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.3% odds)",
+        "Large bet ($5,052)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5051.599999999999,
+      "odds": 0.9531320754716981,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T08:59:55.342799",
+    "trade_hash": "0xb2117315c092d625a23436d11f2e32bd464752e5958c282ad1c9e7e24b9d3658",
+    "trade_timestamp": 1768640318
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x679bd297cfdf6f950505dd1d6c2aa54cd6beaceb",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.4% odds)",
+        "Large bet ($5,066)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 5065.74,
+      "odds": 0.954,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-17T09:00:02.382921",
+    "trade_hash": "0x34ccf3d82c4d5ea8c720acfbea6af864fb638d35a636ff815dc4e4ff412c7154",
+    "trade_timestamp": 1768640220
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x60eae964cb84455cc4aaf04fbd65d6de2995e4b6",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.1% odds)",
+        "Large bet ($5,078)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5078.34,
+      "odds": 0.951,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T09:00:07.599200",
+    "trade_hash": "0x26968cb425ff8b6e59dc9361e9b098affe9b355b2bc3e2b9b71c596b4c4fa674",
+    "trade_timestamp": 1768640116
+  },
+  {
+    "market": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "market_slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+    "wallet": "0xd331508e2d0a73e594f025598b9b46bbcfda6c69",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($3,555)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3554.5299999999997,
+      "odds": 0.986,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T09:00:08.277134",
+    "trade_hash": "0x67b51f9bf0696a03fc579576648a357fc5601783eb099629f6774fd5b4f2d8f7",
+    "trade_timestamp": 1768640114
+  },
+  {
+    "market": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "market_slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+    "wallet": "0x509873833f241d651a489f79f6ec97955967e10c",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($3,545)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3544.67,
+      "odds": 0.986,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T09:00:11.531111",
+    "trade_hash": "0x2df020af172bc29a1f47be857d3c2e93ec56503554d55b0ba8b25bb4d1fdfe02",
+    "trade_timestamp": 1768640112
+  },
+  {
+    "market": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "market_slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+    "wallet": "0xeab31e7b2a0b251aee3e744651f3f4d15521eaa4",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($3,535)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 3534.81,
+      "odds": 0.986,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T09:00:12.198220",
+    "trade_hash": "0xe3e972bb3c12fb73cccecc41c5a2983a2708839413e355e4af0749cf671ea13b",
+    "trade_timestamp": 1768640110
+  },
+  {
+    "market": "Will Pete Buttigieg win the 2028 US Presidential Election?",
+    "market_slug": "will-pete-buttigieg-win-the-2028-us-presidential-election",
+    "wallet": "0x6a4bf38d6d278368640e19fc389cd8ee87e92e2d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (97.8% odds)",
+        "Large bet ($1,956)"
+      ],
+      "amount": 1956.0,
+      "odds": 0.978,
+      "wallet_age_days": 2,
+      "total_activities": 42
+    },
+    "timestamp": "2026-01-17T09:00:20.769287",
+    "trade_hash": "0xe7d794ae2e011e3ce751cc819b58e4ae253a0fe770ade5ec8e5a25132e331687",
+    "trade_timestamp": 1768640036
   }
 ]
