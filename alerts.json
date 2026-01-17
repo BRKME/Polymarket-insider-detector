@@ -4931,5 +4931,187 @@
     "timestamp": "2026-01-17T08:40:32.898533",
     "trade_hash": "0x62d1b05b4995bd71930f9d2f345a10fce6ac968cfd1ad3aa9821ef63895bde2e",
     "trade_timestamp": 1768638942
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xe6387cda05db1c19e8adcbe64fba580c8eda1b1b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($5,169)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5169.36,
+      "odds": 0.952,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T08:54:12.381535",
+    "trade_hash": "0x4103e45c2907777977784206b2c2d44ff70ab8e26446103e1d535c3d74306983",
+    "trade_timestamp": 1768639910
+  },
+  {
+    "market": "No change in Fed interest rates after January 2026 meeting?",
+    "market_slug": "no-change-in-fed-interest-rates-after-january-2026-meeting",
+    "wallet": "0x9a4a813b04eef3173c11de72d6425d767c694341",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($1,047)"
+      ],
+      "amount": 1047.2,
+      "odds": 0.952,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-17T08:54:13.169878",
+    "trade_hash": "0xe50d0d049e66f146937cd22831532d8d3c12ddb42dc980531cd247bb548b0828",
+    "trade_timestamp": 1768639908
+  },
+  {
+    "market": "Will the price of Bitcoin be above $88,000 on January 18?",
+    "market_slug": "bitcoin-above-88k-on-january-18",
+    "wallet": "0xabc210877d45055913c33faef708f308c0dd3487",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,281)"
+      ],
+      "amount": 1280.839878,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-17T08:54:21.944162",
+    "trade_hash": "0x1f339a41a96117af60f30abb22257745fdb20d67865aef940061b828bef2bda0",
+    "trade_timestamp": 1768639776
+  },
+  {
+    "market": "Will the price of Ethereum be between $3,000 and $3,100 on January 17?",
+    "market_slug": "will-the-price-of-ethereum-be-between-3000-3100-on-january-17",
+    "wallet": "0xfe7cff3e427c70a960d7d9d0177deafe4e35522c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,057)"
+      ],
+      "amount": 1056.82,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-17T08:54:23.589244",
+    "trade_hash": "0x65b8efd1d75bbbd33837f19c53aea06d4a414603800e3deb8ca3bfad90d5f8b2",
+    "trade_timestamp": 1768639772
+  },
+  {
+    "market": "Will the Washington Wizards win the 2026 NBA Finals?",
+    "market_slug": "will-the-washington-wizards-win-the-2026-nba-finals",
+    "wallet": "0x26dced8d5eae1720a069c6437e25c17f597f57b4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,351)"
+      ],
+      "amount": 1350.8927999999999,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-17T08:54:24.377185",
+    "trade_hash": "0xb7d72511637d0f9e0a3105ccf4a6d37c6ac6d30f9d295e2c2962b28c993920d2",
+    "trade_timestamp": 1768639768
+  },
+  {
+    "market": "Will Getafe win the 2025\u201326 La Liga?",
+    "market_slug": "will-getafe-win-the-202526-la-liga",
+    "wallet": "0xba1b53f262d7896f79cfb5434818426d664e00f4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($2,395)"
+      ],
+      "amount": 2395.2,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-17T08:54:27.646180",
+    "trade_hash": "0x08819d75f793b4df49171f5e1d1dd350b7e4bfc96b73aea7a601c6452dde3b34",
+    "trade_timestamp": 1768639790
+  },
+  {
+    "market": "Will the price of Bitcoin be between $90,000 and $92,000 on January 17?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-90000-92000-on-january-17",
+    "wallet": "0xd9551d73ee3769c2c3baa52f63ff1b401d25cefd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,107)"
+      ],
+      "amount": 3107.40274,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 91
+    },
+    "timestamp": "2026-01-17T08:54:28.552500",
+    "trade_hash": "0x35d6ca47e9a820bb1c44be364607aa3ca3bc04f64695a3b1e8bf6b83385dbf60",
+    "trade_timestamp": 1768639788
+  },
+  {
+    "market": "US strikes Iran by January 17, 2026?",
+    "market_slug": "us-strikes-iran-by-january-17-2026-625",
+    "wallet": "0xf9199a9739ff35570b7e971f2e72b241a99d128e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($2,406)"
+      ],
+      "amount": 2406.2246,
+      "odds": 0.988,
+      "wallet_age_days": 0,
+      "total_activities": 27
+    },
+    "timestamp": "2026-01-17T08:54:39.383998",
+    "trade_hash": "0xee54880f5aed08fd4370492c24596daf264b4344ef936a04c558f2d820739d12",
+    "trade_timestamp": 1768639670
+  },
+  {
+    "market": "Will LeBron James win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x35ffb91337f8fc8faa5367f84a97b45a204cc53a",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,502)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1501.99712,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T08:54:40.141290",
+    "trade_hash": "0x6b90af1427d63b302641f8d1cc2f2824891be0204200d6087fdbc6033f6b0204",
+    "trade_timestamp": 1768639666
   }
 ]
