@@ -6479,5 +6479,25 @@
     "timestamp": "2026-01-17T18:01:03.574447",
     "trade_hash": "0x1513862fdb306dc0df79a1ad99531d49162a15039823c5e84e0ff662f487e127",
     "trade_timestamp": 1768672778
+  },
+  {
+    "market": "AFC Ajax vs. Go Ahead Eagles: O/U 2.5",
+    "market_slug": "ere-aja-goa-2026-01-17-total-2pt5",
+    "wallet": "0xea114647bdb1128069f491209cb38ab89da1dc94",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,467)"
+      ],
+      "amount": 1466.532,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 76
+    },
+    "timestamp": "2026-01-17T18:52:01.960478",
+    "trade_hash": "0x1b5167a2b8e16c0b21abe588ccfa8be47f78860d7b3204c68805be8edbeb30de",
+    "trade_timestamp": 1768675804
   }
 ]
