@@ -4768,5 +4768,46 @@
     "timestamp": "2026-01-17T07:49:06.983826",
     "trade_hash": "0x79b7b2fb497a6dd16a50f0bde250350663eb818096ed19aeb765da071bf4508d",
     "trade_timestamp": 1768635918
+  },
+  {
+    "market": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x5e59d4689eb8abd509df2c7d9d44e184bbec43b7",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($5,256)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5255.8247,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-17T07:55:22.036714",
+    "trade_hash": "0x83bbf612f6a49eaad9ef18f217b393458d7a45e5a37bdccc92a37b461ad07df0",
+    "trade_timestamp": 1768636384
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xec6c1df92648043abb1880ebd76a5abecdb06739",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.5% odds)",
+        "Large bet ($5,069)"
+      ],
+      "amount": 5069.139999999999,
+      "odds": 0.955,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-17T07:55:25.473906",
+    "trade_hash": "0xf96253e2322161223588fdce4b50eda35a7a261e5e52e8473b2f054434643a61",
+    "trade_timestamp": 1768636362
   }
 ]
