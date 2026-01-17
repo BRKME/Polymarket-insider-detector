@@ -3937,5 +3937,65 @@
     "timestamp": "2026-01-17T02:59:50.908942",
     "trade_hash": "0x70cf0de3b92be5695e6ddaaa7b855f30bfc83323efb28c9f77963d61b8133ddf",
     "trade_timestamp": 1768618550
+  },
+  {
+    "market": "Will the price of Solana be between $160 and $170 on January 17?",
+    "market_slug": "will-the-price-of-solana-be-between-160-170-on-january-17",
+    "wallet": "0xf5a6decd5fbc5bf9c831cfc9debeff3ee524e744",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,990)"
+      ],
+      "amount": 4990.005,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 57
+    },
+    "timestamp": "2026-01-17T03:55:04.463555",
+    "trade_hash": "0xae0cb266f3a91d7624e05bc37e476e01e3970d18ac0844e3297ed588b45b1ad2",
+    "trade_timestamp": 1768621912
+  },
+  {
+    "market": "Will the price of Solana be between $160 and $170 on January 17?",
+    "market_slug": "will-the-price-of-solana-be-between-160-170-on-january-17",
+    "wallet": "0xa74d9c300a59332f9bb075cc406d0656e1c1a85d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,985)"
+      ],
+      "amount": 4985.01,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 57
+    },
+    "timestamp": "2026-01-17T03:55:06.090881",
+    "trade_hash": "0x8573144d63a26605215f0db551973da4428d0f623fda52e557201ed31403a239",
+    "trade_timestamp": 1768621912
+  },
+  {
+    "market": "Will the price of Solana be between $160 and $170 on January 17?",
+    "market_slug": "will-the-price-of-solana-be-between-160-170-on-january-17",
+    "wallet": "0xfab7c147b340947962a3523521130a52bcd43f62",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,002)"
+      ],
+      "amount": 5001.993,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 58
+    },
+    "timestamp": "2026-01-17T03:55:07.192582",
+    "trade_hash": "0x2f2d71bd2cf9addd3c771d881eeaefb880cb7f32fcbad6960fae775771666769",
+    "trade_timestamp": 1768621912
   }
 ]
