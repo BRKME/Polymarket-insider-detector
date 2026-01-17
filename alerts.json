@@ -3997,5 +3997,25 @@
     "timestamp": "2026-01-17T03:55:07.192582",
     "trade_hash": "0x2f2d71bd2cf9addd3c771d881eeaefb880cb7f32fcbad6960fae775771666769",
     "trade_timestamp": 1768621912
+  },
+  {
+    "market": "Will Croatia win the 2026 FIFA World Cup?",
+    "market_slug": "will-croatia-win-the-2026-fifa-world-cup",
+    "wallet": "0xaa6e51e2b625c6bb5779ed5008e40cd438811840",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,443)"
+      ],
+      "amount": 1442.6874,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 34
+    },
+    "timestamp": "2026-01-17T04:22:41.958250",
+    "trade_hash": "0x603919bb25b7f6bf2d7c3be331b03b4bb7c270b6c8f835b9ef37ad47b3f07a36",
+    "trade_timestamp": 1768623446
   }
 ]
