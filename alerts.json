@@ -5773,5 +5773,25 @@
     "timestamp": "2026-01-17T11:44:30.294943",
     "trade_hash": "0x0f876e824f8ace3ce74dceebdeac215e0938ae527b192afa8b6567db088f9852",
     "trade_timestamp": 1768650024
+  },
+  {
+    "market": "Will Colombia win the 2026 FIFA World Cup?",
+    "market_slug": "will-colombia-win-the-2026-fifa-world-cup-734",
+    "wallet": "0x6f9a3cc365ccfcf2f986b9f4fbefd8f3ed75c496",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($2,029)"
+      ],
+      "amount": 2029.36418,
+      "odds": 0.983,
+      "wallet_age_days": 0,
+      "total_activities": 65
+    },
+    "timestamp": "2026-01-17T11:56:38.113135",
+    "trade_hash": "0x1ea3281b610e00d7526f745087c1fbfb23b795af63c159984eb60670da82cf39",
+    "trade_timestamp": 1768650874
   }
 ]
