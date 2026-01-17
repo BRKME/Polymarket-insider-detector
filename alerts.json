@@ -6299,5 +6299,105 @@
     "timestamp": "2026-01-17T16:58:55.802220",
     "trade_hash": "0x5ed7f3b5035e75826b746ae60f285e132740975fbea6f6fd3cde08c7eb76cd23",
     "trade_timestamp": 1768668998
+  },
+  {
+    "market": "Bitcoin Up or Down - January 17, 12:00PM-12:15PM ET",
+    "market_slug": "btc-updown-15m-1768669200",
+    "wallet": "0xf7514878d6eb82660664d9a632fb4151e2f098e1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.8% odds)",
+        "Large bet ($2,200)"
+      ],
+      "amount": 2199.7534457606243,
+      "odds": 0.9783580927602658,
+      "wallet_age_days": 0,
+      "total_activities": 36
+    },
+    "timestamp": "2026-01-17T17:14:50.627063",
+    "trade_hash": "0xe06f9a952e4e2b4e19b6660fbc7f7e53aab42ccc2faf6c539755d847852ffe12",
+    "trade_timestamp": 1768670040
+  },
+  {
+    "market": "Will Ivanka Trump win the 2028 US Presidential Election?",
+    "market_slug": "will-ivanka-trump-win-the-2028-us-presidential-election",
+    "wallet": "0x83e791d74c18fb3d95323ec1242fece4b155ced3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($1,047)"
+      ],
+      "amount": 1046.9348,
+      "odds": 0.986,
+      "wallet_age_days": 1,
+      "total_activities": 54
+    },
+    "timestamp": "2026-01-17T17:14:56.849587",
+    "trade_hash": "0xe9ac9aea93f1aae4622211470686ae37e808aedd34e8f3263007ee76f10b77db",
+    "trade_timestamp": 1768670030
+  },
+  {
+    "market": "Bitcoin Up or Down - January 17, 12:00PM-12:15PM ET",
+    "market_slug": "btc-updown-15m-1768669200",
+    "wallet": "0xbf0d596773acbd78b10dec68741e7707029cbff4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.0% odds)",
+        "Large bet ($1,200)"
+      ],
+      "amount": 1199.5576319999998,
+      "odds": 0.96,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-17T17:15:14.020542",
+    "trade_hash": "0x7a487345958a505228fe59b3ddbbcd1f4850d658a8a606e6174629219aaf868a",
+    "trade_timestamp": 1768669922
+  },
+  {
+    "market": "US strikes Iran by January 18, 2026?",
+    "market_slug": "us-strikes-iran-by-january-18-2026-991",
+    "wallet": "0x3a22a8ed5bdd3729fe449f00f882962236d2fd07",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.9% odds)",
+        "Large bet ($1,257)"
+      ],
+      "amount": 1256.66903,
+      "odds": 0.9593259513721898,
+      "wallet_age_days": 0,
+      "total_activities": 61
+    },
+    "timestamp": "2026-01-17T17:15:26.247991",
+    "trade_hash": "0x9b9cb1f2f551641f57cbc700a358941be685e5f44db656e8ff1f05cae9d176fa",
+    "trade_timestamp": 1768669876
+  },
+  {
+    "market": "Will Elon Musk post 165-189 tweets from January 15 to January 17, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-15-january-17-165-189",
+    "wallet": "0xf758357238025ccbb27cee120161b36eb62a3731",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,877)"
+      ],
+      "amount": 4877.118,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 47
+    },
+    "timestamp": "2026-01-17T17:16:00.133191",
+    "trade_hash": "0x6aece98b59fd16db63e4372e0e7e0dbe97e99230ab740a7da4a49ed19265da53",
+    "trade_timestamp": 1768669890
   }
 ]
