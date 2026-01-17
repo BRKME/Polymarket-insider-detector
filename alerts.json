@@ -4361,5 +4361,106 @@
     "timestamp": "2026-01-17T05:40:48.588860",
     "trade_hash": "0xbac1c3de2e0bd99686673cb53d08c9156667d07dc2293de7f807a8cc40be58d0",
     "trade_timestamp": 1768628248
+  },
+  {
+    "market": "Will the price of Ethereum be between $2,900 and $3,000 on January 17?",
+    "market_slug": "will-the-price-of-ethereum-be-between-2900-3000-on-january-17",
+    "wallet": "0xd7e6202327c7d3e2e64fe05f676777c01c513bb5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,061)"
+      ],
+      "amount": 1060.938,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-17T05:50:23.721859",
+    "trade_hash": "0xb1bdfa000472cb6b19eecabb9c653ecfa14481af558ea12d21ea7871859658c3",
+    "trade_timestamp": 1768628946
+  },
+  {
+    "market": "Ethereum Up or Down - January 17, 12:30AM-12:45AM ET",
+    "market_slug": "eth-updown-15m-1768627800",
+    "wallet": "0xe87c33afc7dd9311805abe8ed81257c5f7be1a54",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,015)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1014.9040799999999,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-17T05:50:37.301703",
+    "trade_hash": "0xfef7d4a6c39626ecb7d826a252d9c40307e1666a32e2181ccde5739714046b3f",
+    "trade_timestamp": 1768628752
+  },
+  {
+    "market": "Will the price of Ethereum be between $2,900 and $3,000 on January 17?",
+    "market_slug": "will-the-price-of-ethereum-be-between-2900-3000-on-january-17",
+    "wallet": "0x02995ce6ff4fe94e0e46da2ce2a734d39f9053f5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,060)"
+      ],
+      "amount": 1059.939,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-17T05:50:38.818559",
+    "trade_hash": "0x5874e5b17e0a89d4d2d806eb57155a70bdff4150d158447d57f50fefe66fcac3",
+    "trade_timestamp": 1768628752
+  },
+  {
+    "market": "Will the price of Ethereum be between $2,900 and $3,000 on January 17?",
+    "market_slug": "will-the-price-of-ethereum-be-between-2900-3000-on-january-17",
+    "wallet": "0xb37f322422aa7a40b5640f737a2725d8fc817425",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,061)"
+      ],
+      "amount": 1060.938,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-17T05:50:40.357405",
+    "trade_hash": "0xf4423f391e795314626f12bb7e9ea8c857391f02c0c0bc98d694a784b62b144c",
+    "trade_timestamp": 1768628744
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0x3993441ac3f678b2f6f65b5eb60125c41859bbb3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,027)"
+      ],
+      "amount": 1027.323,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-17T05:52:07.630708",
+    "trade_hash": "0xcb73ca90865c32a1952959e3a18205ca9eb5731521da962159b147569fac8873",
+    "trade_timestamp": 1768628694
   }
 ]
