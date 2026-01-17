@@ -4565,5 +4565,86 @@
     "timestamp": "2026-01-17T06:48:38.890863",
     "trade_hash": "0x98311679b64e14e44723d6cde5fc7ef4fc2c408a017391fdc0b077538ca06368",
     "trade_timestamp": 1768632346
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x1392e58379274c3c79bbdada82ffc1c4ced58634",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.5% odds)",
+        "Large bet ($5,081)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5080.599999999999,
+      "odds": 0.955,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-17T07:33:11.972529",
+    "trade_hash": "0xb900d7f4e8cff73c76f2ff33e083f8c43ca40a904c6cd86768e26c5f6bb771f2",
+    "trade_timestamp": 1768635082
+  },
+  {
+    "market": "Will the Dallas Mavericks win the 2026 NBA Finals?",
+    "market_slug": "will-the-dallas-mavericks-win-the-2026-nba-finals",
+    "wallet": "0x8ef446482140de83d8650fd3e302780ff2c300d5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($2,496)"
+      ],
+      "amount": 2495.909677,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 27
+    },
+    "timestamp": "2026-01-17T07:33:16.810893",
+    "trade_hash": "0x0db67e82b4263da5da19af75c436fcd9583981f6d4abbd7baea8f5f62b2fad8e",
+    "trade_timestamp": 1768634992
+  },
+  {
+    "market": "Ethereum Up or Down - January 17, 2:15AM-2:30AM ET",
+    "market_slug": "eth-updown-15m-1768634100",
+    "wallet": "0x8a660ab8f9ed340f5505f339b3b8ca9df13b9c14",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($4,802)"
+      ],
+      "amount": 4801.538909999999,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-17T07:34:02.001361",
+    "trade_hash": "0x233a6ccd0a2bf4af475fff70f80640f6319c2b5194707a010b8c2f6ba4970a55",
+    "trade_timestamp": 1768634948
+  },
+  {
+    "market": "Ethereum Up or Down - January 17, 2:15AM-2:30AM ET",
+    "market_slug": "eth-updown-15m-1768634100",
+    "wallet": "0x9200bc5c1bdd2331ab909994f1f390269a638e59",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($4,801)"
+      ],
+      "amount": 4801.490524604265,
+      "odds": 0.9799902244897959,
+      "wallet_age_days": 0,
+      "total_activities": 12
+    },
+    "timestamp": "2026-01-17T07:34:07.420969",
+    "trade_hash": "0x647bfda54e9cfbf34e15de698f86604b0e7ef1ff3775e5149e7d2ed11b9ecacc",
+    "trade_timestamp": 1768634898
   }
 ]
