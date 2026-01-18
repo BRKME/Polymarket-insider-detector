@@ -7571,5 +7571,45 @@
     "timestamp": "2026-01-18T06:49:52.666116",
     "trade_hash": "0x5f88fed410199bda051a1ad316abb61d872450fc8aa5db729a05686829f81354",
     "trade_timestamp": 1768718766
+  },
+  {
+    "market": "Will NVIDIA be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-january-31-985",
+    "wallet": "0x7e301e96659819dda59012d39ec7a134d54040db",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.0% odds)",
+        "Large bet ($1,210)"
+      ],
+      "amount": 1209.6385,
+      "odds": 0.97,
+      "wallet_age_days": 0,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-18T07:36:23.264421",
+    "trade_hash": "0xecd3080bbd2768b99791e4c527918457cbd784757820b0de7b4420e9c5577833",
+    "trade_timestamp": 1768721608
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x0b1308f36b2c31cbe53d11111cc60680d4f1be31",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.5% odds)",
+        "Large bet ($5,356)"
+      ],
+      "amount": 5355.69545,
+      "odds": 0.9545009793280687,
+      "wallet_age_days": 0,
+      "total_activities": 11
+    },
+    "timestamp": "2026-01-18T07:36:32.605716",
+    "trade_hash": "0x0b194400ba06b0670e75ede2d285f9ea303d619bf1f6d6c87c9ea459f0ea6435",
+    "trade_timestamp": 1768721448
   }
 ]
