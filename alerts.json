@@ -7733,5 +7733,86 @@
     "timestamp": "2026-01-18T07:51:16.417839",
     "trade_hash": "0x5fbba6b9ac78f9585a48c820f8884f1cd9f4f0cad89f66eadf4ce4c7557c45f9",
     "trade_timestamp": 1768722526
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x40929251fc7ca580fe7c261c498df395436d9386",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.5% odds)",
+        "Large bet ($5,321)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 5320.782499999999,
+      "odds": 0.955,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-18T07:57:39.298569",
+    "trade_hash": "0x6ed7941d22d6fef6dc6c3da2d246af105f78b8ba95fa72d36e1687974a92f5c9",
+    "trade_timestamp": 1768722982
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x210cae9523e492e12fa7e4104cbe18e80c782975",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.3% odds)",
+        "Large bet ($5,213)"
+      ],
+      "amount": 5213.12919,
+      "odds": 0.953,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T07:57:40.005853",
+    "trade_hash": "0x07e9e08226b3f78b3983f77df2bdd363d723ce37825aeac195f305599c028a8a",
+    "trade_timestamp": 1768722934
+  },
+  {
+    "market": "Will Wes Moore win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-wes-moore-win-the-2028-democratic-presidential-nomination-714",
+    "wallet": "0xfc9af375514a58812f6f0a8b5d68d825b5cb7ef2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.7% odds)",
+        "Large bet ($3,912)"
+      ],
+      "amount": 3911.908,
+      "odds": 0.977,
+      "wallet_age_days": 0,
+      "total_activities": 45
+    },
+    "timestamp": "2026-01-18T07:57:42.701792",
+    "trade_hash": "0xca363ee27b91a5ef468150e6d7c58c0df3d9537d40a2c6bd665773762414e03e",
+    "trade_timestamp": 1768722872
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,500 on January 18?",
+    "market_slug": "ethereum-above-3500-on-january-18",
+    "wallet": "0x306e463593b632859d7197fa13600e4c9e9906a2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,017)"
+      ],
+      "amount": 1016.9399999999999,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T07:57:45.535667",
+    "trade_hash": "0x000d3dd738144dd77f3d4b5d8a1b5cd2da9e3901a848813f3c9dd8b4de900b24",
+    "trade_timestamp": 1768722762
   }
 ]
