@@ -8843,5 +8843,25 @@
     "timestamp": "2026-01-18T17:46:01.485817",
     "trade_hash": "0x28a306c3df0a87a8da2367d4941731987b13ee9298fd29b6fd73128763a53cdf",
     "trade_timestamp": 1768758040
+  },
+  {
+    "market": "FC Augsburg vs. SC Freiburg: O/U 1.5",
+    "market_slug": "bun-aug-fre-2026-01-18-total-1pt5",
+    "wallet": "0x2507e67469d22fd71fc6df6ec2ec27d6d5d9d5f2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($2,103)"
+      ],
+      "amount": 2102.6708000000003,
+      "odds": 0.9904616283232529,
+      "wallet_age_days": 0,
+      "total_activities": 41
+    },
+    "timestamp": "2026-01-18T17:51:56.522679",
+    "trade_hash": "0xf156697cae906fdd48013654548be7e3422e1ae267d8539e3026a4cd8e425a28",
+    "trade_timestamp": 1768758520
   }
 ]
