@@ -8137,5 +8137,25 @@
     "timestamp": "2026-01-18T10:18:45.112587",
     "trade_hash": "0x38227f21702385fa41a1c43cc39461d8c61d6dcef849d96c79ad3532eec0b2fd",
     "trade_timestamp": 1768731110
+  },
+  {
+    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
+    "wallet": "0x383d70a74d5f22d3a90e526186fd91f937c2ec45",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (97.2% odds)",
+        "Large bet ($3,402)"
+      ],
+      "amount": 3402.0,
+      "odds": 0.972,
+      "wallet_age_days": 2,
+      "total_activities": 68
+    },
+    "timestamp": "2026-01-18T10:41:48.577105",
+    "trade_hash": "0x6b6a4539c64fd873e712ea1a5759508beb7f3c68c66f11a2b58c2a7715e31388",
+    "trade_timestamp": 1768732610
   }
 ]
