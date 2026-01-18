@@ -8017,5 +8017,65 @@
     "timestamp": "2026-01-18T09:33:24.270169",
     "trade_hash": "0xd18b4a23eaf3652d0e1dc259f02ac6d5446487fbef83dfd56c2963a5cd8c585c",
     "trade_timestamp": 1768728638
+  },
+  {
+    "market": "LoL: Top Esports vs Bilibili Gaming (BO3)",
+    "market_slug": "lol-tes-blg-2026-01-18",
+    "wallet": "0xa2cb43cc795da170e421ac1ccba515b1311939c5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.0% odds)",
+        "Large bet ($1,703)"
+      ],
+      "amount": 1702.949977,
+      "odds": 0.969999999994304,
+      "wallet_age_days": 0,
+      "total_activities": 58
+    },
+    "timestamp": "2026-01-18T09:45:32.016445",
+    "trade_hash": "0x6a19b33b12d9fae73c9d6276e2775e5f55e9b61a7c13a790f02bde9aa8f207a4",
+    "trade_timestamp": 1768729366
+  },
+  {
+    "market": "Jerome Powell out as Fed Chair by March 31, 2026?",
+    "market_slug": "jerome-powell-out-as-fed-chair-by-march-31-2026",
+    "wallet": "0x0ed28e295636e61d48776b3782e27be676332b19",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.0% odds)",
+        "Large bet ($2,496)"
+      ],
+      "amount": 2496.0,
+      "odds": 0.96,
+      "wallet_age_days": 0,
+      "total_activities": 76
+    },
+    "timestamp": "2026-01-18T09:45:56.774255",
+    "trade_hash": "0xadc83c5f4e12e0adb476d02df1f7bf22b181b98209d46d4edab0d49d6cba285b",
+    "trade_timestamp": 1768729220
+  },
+  {
+    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
+    "wallet": "0x297a4163190ccc27ae5ba0bc4e8cf8538c3dd7eb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.3% odds)",
+        "Large bet ($2,432)"
+      ],
+      "amount": 2432.5,
+      "odds": 0.973,
+      "wallet_age_days": 0,
+      "total_activities": 88
+    },
+    "timestamp": "2026-01-18T09:46:30.410768",
+    "trade_hash": "0x320ac1b25d892a16df5b1752dd384deab7dabc851f8fe1b42faed10f66645469",
+    "trade_timestamp": 1768729224
   }
 ]
