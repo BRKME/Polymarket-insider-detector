@@ -8702,5 +8702,25 @@
     "timestamp": "2026-01-18T15:56:35.246351",
     "trade_hash": "0x0ab09f219196bb58b7f1b310eb27a0fe8099720193ac20661e9001f0945340bd",
     "trade_timestamp": 1768751642
+  },
+  {
+    "market": "Will Bologna FC 1909 win on 2026-01-18?",
+    "market_slug": "sea-bol-fio-2026-01-18-bol",
+    "wallet": "0x5d0c2108a8d50bafc16a4f8200281a0e822dbceb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,080)"
+      ],
+      "amount": 5079.6552599999995,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 68
+    },
+    "timestamp": "2026-01-18T16:14:58.541666",
+    "trade_hash": "0xf2c4dbfa8d9fe56d512a54560a22f4bed187881cf2978da781a01525d7381595",
+    "trade_timestamp": 1768752712
   }
 ]
