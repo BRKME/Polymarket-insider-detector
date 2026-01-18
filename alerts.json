@@ -9044,5 +9044,25 @@
     "timestamp": "2026-01-18T19:33:38.264717",
     "trade_hash": "0xbae74c33c7a391db59799805f8414449d6c21fb6c3784fa23c13817f02f18482",
     "trade_timestamp": 1768764662
+  },
+  {
+    "market": "Pumas de la UNAM vs. Club Le\u00f3n FC: O/U 1.5",
+    "market_slug": "mex-pum-leo-2026-01-18-total-1pt5",
+    "wallet": "0x5b3956a426604f520705f3138a5e79ebaff9eafb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($11,261)"
+      ],
+      "amount": 11261.2768,
+      "odds": 0.9605057521459667,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-18T19:41:44.996605",
+    "trade_hash": "0x40dffd90cba7034027ddc413f98a972370dc5134516247603f2460fe992982f2",
+    "trade_timestamp": 1768765026
   }
 ]
