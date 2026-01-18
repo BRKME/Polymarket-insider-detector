@@ -7510,5 +7510,66 @@
     "timestamp": "2026-01-18T06:20:40.637796",
     "trade_hash": "0x8f2e2a588d7c33f52514891265e6d5e405b541892c2488db61b8dae8eff929f7",
     "trade_timestamp": 1768716894
+  },
+  {
+    "market": "Will the price of Solana be above $200 on January 21?",
+    "market_slug": "solana-above-200-on-january-21",
+    "wallet": "0x6e46244150be437367ee777ee6ab1180957d24a0",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,113)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1113.3855,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-18T06:49:47.289534",
+    "trade_hash": "0x80a23c51fe56b55a12b70eefc1ed39a20d83e07b0c517724e038fdc93afe6012",
+    "trade_timestamp": 1768718858
+  },
+  {
+    "market": "Will the price of Ethereum be above $2,900 on January 18?",
+    "market_slug": "ethereum-above-2900-on-january-18",
+    "wallet": "0xd85e708c074ad61ad18bcc7811d6c14e421fcdb2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,062)"
+      ],
+      "amount": 1061.937,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 27
+    },
+    "timestamp": "2026-01-18T06:49:48.042185",
+    "trade_hash": "0x6699d3d43d909004dbdf9f41acafb99128d47cc7c348a6703d2697484f9f558d",
+    "trade_timestamp": 1768718820
+  },
+  {
+    "market": "Will the price of Ethereum be above $2,900 on January 18?",
+    "market_slug": "ethereum-above-2900-on-january-18",
+    "wallet": "0x4a80164d8c8e90dc4cc50ff606514449a2e3373e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,059)"
+      ],
+      "amount": 1058.94,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 26
+    },
+    "timestamp": "2026-01-18T06:49:52.666116",
+    "trade_hash": "0x5f88fed410199bda051a1ad316abb61d872450fc8aa5db729a05686829f81354",
+    "trade_timestamp": 1768718766
   }
 ]
