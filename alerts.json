@@ -8117,5 +8117,25 @@
     "timestamp": "2026-01-18T09:58:45.357633",
     "trade_hash": "0xa1c0873fe0d7aac832f32cf62010f83f5e7ea3201f156da4365b47447d835098",
     "trade_timestamp": 1768730194
+  },
+  {
+    "market": "LoL: Top Esports vs Bilibili Gaming (BO3)",
+    "market_slug": "lol-tes-blg-2026-01-18",
+    "wallet": "0x5881585835c0793f417d6cb40c8c81b50dbdcbb7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.8% odds)",
+        "Large bet ($2,386)"
+      ],
+      "amount": 2385.559965,
+      "odds": 0.9678343501153673,
+      "wallet_age_days": 0,
+      "total_activities": 64
+    },
+    "timestamp": "2026-01-18T10:18:45.112587",
+    "trade_hash": "0x38227f21702385fa41a1c43cc39461d8c61d6dcef849d96c79ad3532eec0b2fd",
+    "trade_timestamp": 1768731110
   }
 ]
