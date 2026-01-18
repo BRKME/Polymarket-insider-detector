@@ -8417,5 +8417,25 @@
     "timestamp": "2026-01-18T13:55:26.941164",
     "trade_hash": "0x6d0ba067d7c1390e35b83307ef23ca90865820a750bb90359513b8df3b6e6eba",
     "trade_timestamp": 1768744396
+  },
+  {
+    "market": "Will South Africa win the 2026 FIFA World Cup?",
+    "market_slug": "will-south-africa-win-the-2026-fifa-world-cup",
+    "wallet": "0x501ddb997dfe12962b2fcaa48a55b3c781b57d9e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,611)"
+      ],
+      "amount": 1611.23108,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 59
+    },
+    "timestamp": "2026-01-18T14:09:12.779079",
+    "trade_hash": "0x7ad08497ae2ca535849a9f0ce6ef3cbc7e7673bc53aacfbfd02962593faa7462",
+    "trade_timestamp": 1768745204
   }
 ]
