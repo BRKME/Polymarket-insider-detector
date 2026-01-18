@@ -8642,5 +8642,25 @@
     "timestamp": "2026-01-18T15:31:40.834550",
     "trade_hash": "0x60fc5b8198183571d5f122e091a3c283ea198dabc931bc9569e622544d8e6bd3",
     "trade_timestamp": 1768749988
+  },
+  {
+    "market": "Will Marjorie Taylor Greene win the 2028 Republican presidential nomination?",
+    "market_slug": "will-marjorie-taylor-greene-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x70481b34a12ebead5788df8161d9332ed57a94b4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($2,712)"
+      ],
+      "amount": 2711.5,
+      "odds": 0.986,
+      "wallet_age_days": 0,
+      "total_activities": 84
+    },
+    "timestamp": "2026-01-18T15:42:52.856178",
+    "trade_hash": "0xbc505c10ee0450c5c003334200db91a14a25285fe3923ff464690ef06c7b8279",
+    "trade_timestamp": 1768750912
   }
 ]
