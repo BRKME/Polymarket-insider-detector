@@ -9205,5 +9205,45 @@
     "timestamp": "2026-01-18T20:57:02.650098",
     "trade_hash": "0x1fe1b462e2a4db25b42bcebb7107a5e5f0ab66d7c6681d1031b1e1c8bde01a06",
     "trade_timestamp": 1768769608
+  },
+  {
+    "market": "Will the price of Bitcoin be above $98,000 on January 19?",
+    "market_slug": "bitcoin-above-98k-on-january-19",
+    "wallet": "0x44d2985365391fcc1f19990bbef31e5988920a30",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (97.0% odds)",
+        "Large bet ($1,008)"
+      ],
+      "amount": 1007.749997,
+      "odds": 0.9697110448717128,
+      "wallet_age_days": 2,
+      "total_activities": 12
+    },
+    "timestamp": "2026-01-18T21:30:16.636766",
+    "trade_hash": "0xc95315d14675241b2401b46115553a49f8fd802d5ffe59565289d41f1cf748c8",
+    "trade_timestamp": 1768771548
+  },
+  {
+    "market": "Will Katie Britt win the 2028 Republican presidential nomination?",
+    "market_slug": "will-katie-britt-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xf8e87783b0743ef6a838db00e623e86e6f8fb761",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,210)"
+      ],
+      "amount": 1209.71105,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 13
+    },
+    "timestamp": "2026-01-18T21:30:23.645540",
+    "trade_hash": "0xf7f6a5dbcf8aec022454d53df2e1bc4a0e07d9e3b2037219892dae6a1cec64a2",
+    "trade_timestamp": 1768771538
   }
 ]
