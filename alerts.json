@@ -9305,5 +9305,25 @@
     "timestamp": "2026-01-18T21:53:42.877153",
     "trade_hash": "0x07ef70c5cbc83385aa2c148a389e2d7343bbd79d1e624dfb48107af9e3c93c98",
     "trade_timestamp": 1768773170
+  },
+  {
+    "market": "Will Lu\u00eds Marques Mendes qualify for the second round of the 2026 Portugal presidential election?",
+    "market_slug": "will-lus-marques-mendes-qualify-for-the-second-round-of-the-2026-portugal-presidential-election",
+    "wallet": "0x1f254b479e488fd5a98686aaa1ecbc89b9b721a4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($3,455)"
+      ],
+      "amount": 3454.7489100000003,
+      "odds": 0.9944327608093054,
+      "wallet_age_days": 2,
+      "total_activities": 95
+    },
+    "timestamp": "2026-01-18T21:59:49.084653",
+    "trade_hash": "0x2fd2217cb86214352e0d1d8d29ee25f9ab61a6c697331e9c75e731a7aecdec6e",
+    "trade_timestamp": 1768773516
   }
 ]
