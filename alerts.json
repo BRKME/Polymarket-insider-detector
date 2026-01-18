@@ -8437,5 +8437,66 @@
     "timestamp": "2026-01-18T14:09:12.779079",
     "trade_hash": "0x7ad08497ae2ca535849a9f0ce6ef3cbc7e7673bc53aacfbfd02962593faa7462",
     "trade_timestamp": 1768745204
+  },
+  {
+    "market": "Will the price of Bitcoin be between $90,000 and $92,000 on January 18?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-90000-92000-on-january-18",
+    "wallet": "0x4c05549c819fde44c2d73e4bc216886868324fe8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,742)"
+      ],
+      "amount": 2741.87538,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 84
+    },
+    "timestamp": "2026-01-18T14:56:21.316483",
+    "trade_hash": "0xc9084c32ee256e68513e3e38fabea9a04f3d8133dfe5b4164c8cbc22deeb5e3d",
+    "trade_timestamp": 1768747990
+  },
+  {
+    "market": "Will the price of Solana be between $130 and $140 on January 18?",
+    "market_slug": "will-the-price-of-solana-be-between-130-140-on-january-18",
+    "wallet": "0x7f2cd16909dcc46836d224ae5fc6990777aabd91",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,010)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1009.8,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T14:56:26.076197",
+    "trade_hash": "0x09a391b3730acdfeaa28eb48c964ac0fc461c51374d4712e56152f2de943de52",
+    "trade_timestamp": 1768747980
+  },
+  {
+    "market": "Will Gina Raimondo win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-gina-raimondo-win-the-2028-democratic-presidential-nomination-676",
+    "wallet": "0x0a9cf64a9aa25e8c24453c34c1700eaa2bfec416",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,354)"
+      ],
+      "amount": 1353.8562100000001,
+      "odds": 0.997,
+      "wallet_age_days": 1,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-18T14:56:34.086041",
+    "trade_hash": "0xfa2b167d289bedd47c19ce252b0fe5d7cbecc4f2b15cca28a498e119696c17b1",
+    "trade_timestamp": 1768747948
   }
 ]
