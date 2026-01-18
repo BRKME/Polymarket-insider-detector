@@ -9385,5 +9385,46 @@
     "timestamp": "2026-01-18T23:31:25.013191",
     "trade_hash": "0x50f99e8581f1229b537168ffc93ecf3f57310266db10bb4d474e63cc1978697c",
     "trade_timestamp": 1768778962
+  },
+  {
+    "market": "Will Wolves win the 2025\u201326 English Premier League?",
+    "market_slug": "will-wolves-win-the-202526-english-premier-league",
+    "wallet": "0x119813359dd3dd7dc1a00742691762e3f8483ced",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($5,028)"
+      ],
+      "amount": 5028.26332,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 55
+    },
+    "timestamp": "2026-01-18T23:42:50.226012",
+    "trade_hash": "0xfc63778a4dd181331be193a8a2ddc1679b9f8e8723accd0395ad7adbf9a4a07c",
+    "trade_timestamp": 1768779728
+  },
+  {
+    "market": "Texans vs. Patriots",
+    "market_slug": "nfl-hou-ne-2026-01-18",
+    "wallet": "0xba06d02482e353feab1a187e447270cbaba9a6a9",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,026)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1026.1128600000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-18T23:42:56.456890",
+    "trade_hash": "0xa578d545fe50058c9f1affce73c6f29266a4abfcdf356234ab0306c422afc469",
+    "trade_timestamp": 1768779638
   }
 ]
