@@ -8357,5 +8357,25 @@
     "timestamp": "2026-01-18T12:22:28.750960",
     "trade_hash": "0x014cfa9b122cc3828d0bd9e82a6bcd9ea19d26abe959641858433bae5401c36e",
     "trade_timestamp": 1768738690
+  },
+  {
+    "market": "Will the price of Bitcoin be between $98,000 and $100,000 on January 18?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-98000-100000-on-january-18",
+    "wallet": "0x4b24fa49b51e4a1bb0abd428baaa6e2d9e29e689",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,110)"
+      ],
+      "amount": 3110.4665999999997,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 76
+    },
+    "timestamp": "2026-01-18T13:35:00.516986",
+    "trade_hash": "0x4780bc0f08c7b3880f77a4208d4b59270696e92befeb3aa099f841b776606a3b",
+    "trade_timestamp": 1768743196
   }
 ]
