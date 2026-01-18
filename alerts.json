@@ -8682,5 +8682,25 @@
     "timestamp": "2026-01-18T15:50:10.091139",
     "trade_hash": "0x2a52e88b4a2fac35830c7820b905e6755b3f8ae8c8f5dc34bdb6c82af975bb5d",
     "trade_timestamp": 1768751252
+  },
+  {
+    "market": "Will Google Gemini 3 score at least 70% on the FrontierMath Benchmark?",
+    "market_slug": "will-google-gemini-3-score-at-least-70-on-the-frontiermath-benchmark",
+    "wallet": "0xa8cb1c966c7975466f6e6bd8f6098e5ef0dfea19",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (7.4% odds)",
+        "Large bet ($2,003)"
+      ],
+      "amount": 2002.96293,
+      "odds": 0.07422262790763169,
+      "wallet_age_days": 0,
+      "total_activities": 37
+    },
+    "timestamp": "2026-01-18T15:56:35.246351",
+    "trade_hash": "0x0ab09f219196bb58b7f1b310eb27a0fe8099720193ac20661e9001f0945340bd",
+    "trade_timestamp": 1768751642
   }
 ]
