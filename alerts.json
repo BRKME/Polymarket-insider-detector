@@ -8662,5 +8662,25 @@
     "timestamp": "2026-01-18T15:42:52.856178",
     "trade_hash": "0xbc505c10ee0450c5c003334200db91a14a25285fe3923ff464690ef06c7b8279",
     "trade_timestamp": 1768750912
+  },
+  {
+    "market": "Will Celta Vigo win the 2025\u201326 La Liga?",
+    "market_slug": "will-celta-vigo-win-the-202526-la-liga",
+    "wallet": "0xb5dd6591773a4a29458479734d7f9ce35a42570d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,001)"
+      ],
+      "amount": 1000.994,
+      "odds": 0.998,
+      "wallet_age_days": 2,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-18T15:50:10.091139",
+    "trade_hash": "0x2a52e88b4a2fac35830c7820b905e6755b3f8ae8c8f5dc34bdb6c82af975bb5d",
+    "trade_timestamp": 1768751252
   }
 ]
