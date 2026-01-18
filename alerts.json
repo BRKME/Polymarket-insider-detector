@@ -8964,5 +8964,25 @@
     "timestamp": "2026-01-18T18:46:09.867701",
     "trade_hash": "0xc8d63a584f24cc53ef4631c6d20539f22b5e506dfbcd82da729129c52c8cd022",
     "trade_timestamp": 1768761884
+  },
+  {
+    "market": "Will Bitcoin reach $100,000 January 12-18?",
+    "market_slug": "will-bitcoin-reach-100k-january-12-18",
+    "wallet": "0x687e50164a652221d8582662a8c65d74d3176e58",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,300)"
+      ],
+      "amount": 1299.999998,
+      "odds": 0.9967133499905909,
+      "wallet_age_days": 0,
+      "total_activities": 36
+    },
+    "timestamp": "2026-01-18T18:57:34.017481",
+    "trade_hash": "0xc3a381b75c96386c6fbeb5336698d9070aa2485ed0eede278d37f7f7294450ca",
+    "trade_timestamp": 1768762368
   }
 ]
