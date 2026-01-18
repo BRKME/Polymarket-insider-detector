@@ -8944,5 +8944,25 @@
     "timestamp": "2026-01-18T18:22:12.966120",
     "trade_hash": "0x9632a45560c123d98ba26eb7140cde02a1810f82c1d600228587c8f8b692b9ab",
     "trade_timestamp": 1768760440
+  },
+  {
+    "market": "Will Club Atl\u00e9tico de Madrid win on 2026-01-18?",
+    "market_slug": "lal-mad-ala-2026-01-18-mad",
+    "wallet": "0xaca05b6bdb509612dfbf36d99f60dbf4021d9b86",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,197)"
+      ],
+      "amount": 1196.53227,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 20
+    },
+    "timestamp": "2026-01-18T18:46:09.867701",
+    "trade_hash": "0xc8d63a584f24cc53ef4631c6d20539f22b5e506dfbcd82da729129c52c8cd022",
+    "trade_timestamp": 1768761884
   }
 ]
