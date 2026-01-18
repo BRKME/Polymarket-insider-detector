@@ -6862,5 +6862,88 @@
     "timestamp": "2026-01-17T23:55:57.584010",
     "trade_hash": "0xf4e52197e493f09d6e3f62ca653db80e147082eb482aa9963f8ca4da314af848",
     "trade_timestamp": 1768693992
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,600 on January 18?",
+    "market_slug": "ethereum-above-3600-on-january-18",
+    "wallet": "0x5eed6ca90c9c507054b625c0bd017ee062c1c742",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,499)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2499.498,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T03:04:39.326642",
+    "trade_hash": "0x19320b668ffebad251ff0b6baa103077bd5c3a3644ce088c8e8d670480bb1982",
+    "trade_timestamp": 1768705304
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,600 on January 18?",
+    "market_slug": "ethereum-above-3600-on-january-18",
+    "wallet": "0xfa922176766596d9fc1650009d9425dec8427381",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,498)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2498.499,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T03:04:40.064032",
+    "trade_hash": "0xeee158d128c986c9792a7db4154744d5257fc4ab2414cce8095e1eead10eaae7",
+    "trade_timestamp": 1768705304
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,600 on January 18?",
+    "market_slug": "ethereum-above-3600-on-january-18",
+    "wallet": "0x4b42360faeeacb4126cae4457b4647e3c5319fd9",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,498)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2497.5,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T03:04:40.790909",
+    "trade_hash": "0x5cfdfa43ca04b8f9dbf12eafb89d9d0228abaf2c2af78b1de3ec8ff957a8a120",
+    "trade_timestamp": 1768705304
+  },
+  {
+    "market": "Will the price of Bitcoin be between $86,000 and $88,000 on January 18?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-86000-88000-on-january-18",
+    "wallet": "0x2b3080beb0738dc3b66b48fcd003796a13eb19d5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,067)"
+      ],
+      "amount": 1066.932,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 28
+    },
+    "timestamp": "2026-01-18T03:06:00.850945",
+    "trade_hash": "0xa991f7aa671424a365a3952fcf9fe5aded699b733e471612d6888359b09fa281",
+    "trade_timestamp": 1768705178
   }
 ]
