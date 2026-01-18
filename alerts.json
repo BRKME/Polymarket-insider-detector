@@ -8157,5 +8157,45 @@
     "timestamp": "2026-01-18T10:41:48.577105",
     "trade_hash": "0x6b6a4539c64fd873e712ea1a5759508beb7f3c68c66f11a2b58c2a7715e31388",
     "trade_timestamp": 1768732610
+  },
+  {
+    "market": "LoL: Top Esports vs Bilibili Gaming (BO3)",
+    "market_slug": "lol-tes-blg-2026-01-18",
+    "wallet": "0x05c688ed755ff221ff92744a98718826c2ce90bf",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,309)"
+      ],
+      "amount": 1309.0696200000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-18T10:51:11.107597",
+    "trade_hash": "0xe5f99adc78e6b5f6ed3b997cfb9ac8c5192b343d43b5f5b86113d3998a57c589",
+    "trade_timestamp": 1768733336
+  },
+  {
+    "market": "LoL: Top Esports vs Bilibili Gaming (BO3)",
+    "market_slug": "lol-tes-blg-2026-01-18",
+    "wallet": "0x0657bd350786052d6dec8f60f09a41b2ddba3a78",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,483)"
+      ],
+      "amount": 2483.16435,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-18T10:52:02.945007",
+    "trade_hash": "0xb913072b9f4e3913b33b526b3f78c8f9c632bcdcc7d4666b7fee07eadda30687",
+    "trade_timestamp": 1768733156
   }
 ]
