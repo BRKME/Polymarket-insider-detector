@@ -8217,5 +8217,45 @@
     "timestamp": "2026-01-18T10:56:49.044937",
     "trade_hash": "0x73f4512e0a9fcd8a2861edbe90bc2e25588a79545c3bef6124fca3bd665e805b",
     "trade_timestamp": 1768733728
+  },
+  {
+    "market": "Will Elon Musk post 0-19 tweets from January 20 to January 27, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-20-january-27-0-19",
+    "wallet": "0xf8998de226790cc964836992bc799e7f3ec605f6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,714)"
+      ],
+      "amount": 2713.6836000000003,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T11:11:21.425545",
+    "trade_hash": "0xae28266dc6886dda53c924149c92eb3b7f7c500479ecd1e981c15b41c1047ffb",
+    "trade_timestamp": 1768734362
+  },
+  {
+    "market": "Australian Open Women's: Suzan Lamens vs Anastasia Potapova",
+    "market_slug": "wta-lamens-potapov-2026-01-18",
+    "wallet": "0x92669f1c125aa94ec4219af8c2fd1283c42e8f3c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,182)"
+      ],
+      "amount": 1182.0367800000001,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 75
+    },
+    "timestamp": "2026-01-18T11:11:52.929394",
+    "trade_hash": "0xd254d1f86d22dc60ed477a89cc14be31d1742104205d1a033913f6a26f9af963",
+    "trade_timestamp": 1768734354
   }
 ]
