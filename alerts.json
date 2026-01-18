@@ -8297,5 +8297,25 @@
     "timestamp": "2026-01-18T11:43:43.146591",
     "trade_hash": "0xba4917800886c68cc47703b842b4e41107d2b5d7afce49f54812e7a8a5a0e3d3",
     "trade_timestamp": 1768736472
+  },
+  {
+    "market": "LoL: DRX vs T1 - Game 2 Winner",
+    "market_slug": "lol-drx-t1-2026-01-18-game2",
+    "wallet": "0x8d7870393d83e97c6aff805758db2b82073799b6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,635)"
+      ],
+      "amount": 1635.0033600000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T11:50:01.865389",
+    "trade_hash": "0x4770b653258fde06d09c8f5c0bb98045f6c54010203e394e035968cb76b0dee6",
+    "trade_timestamp": 1768736774
   }
 ]
