@@ -7166,5 +7166,185 @@
     "timestamp": "2026-01-18T05:13:34.265053",
     "trade_hash": "0x78ce15690bd354ec20683c6ed976a8de50932f4389f17e38e26de5d594ea1010",
     "trade_timestamp": 1768712828
+  },
+  {
+    "market": "Blue Jackets vs. Penguins",
+    "market_slug": "nhl-cbj-pit-2026-01-17",
+    "wallet": "0xb8596e2e7c2c26b37785a080849fcf22263ce244",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($25,974)"
+      ],
+      "amount": 25974.0,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T05:36:53.902354",
+    "trade_hash": "0x1ee7f343bb9104b37f449bc7cf4480700203e9e37bab7e4eea49c8d1f4844b35",
+    "trade_timestamp": 1768714544
+  },
+  {
+    "market": "Will LeBron James win the 2028 US Presidential Election?",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "wallet": "0x23f4e97b4b2259eb1e67096d7d26be5982d281f0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,022)"
+      ],
+      "amount": 1021.53184,
+      "odds": 0.992,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T05:36:54.604237",
+    "trade_hash": "0x70399e286ce10244a7a597eb8d73f1badc570f233743b8c7abba51448be6e096",
+    "trade_timestamp": 1768714542
+  },
+  {
+    "market": "Will LeBron James win the 2028 US Presidential Election?",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "wallet": "0xd936c3ae39917c36225c8cc2d9590ba10c986204",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,026)"
+      ],
+      "amount": 1026.4323200000001,
+      "odds": 0.992,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T05:36:55.310092",
+    "trade_hash": "0xfb9182c978a6992d5b4eb04986348dc03ab6d35b1c1d8d6e3c540741360f8d55",
+    "trade_timestamp": 1768714538
+  },
+  {
+    "market": "Will LeBron James win the 2028 US Presidential Election?",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "wallet": "0xdb26a8b89529e0b045bde59001f697d50155858c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,032)"
+      ],
+      "amount": 1032.08672,
+      "odds": 0.992,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T05:36:56.721956",
+    "trade_hash": "0x9dee9be946060f1f0b70347d8274cdf786b3abd766c129bb9b4cd2677574a071",
+    "trade_timestamp": 1768714532
+  },
+  {
+    "market": "Will LeBron James win the 2028 US Presidential Election?",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "wallet": "0x965c1d0241a0f97c39b0c2ef5723a6133aedf475",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,026)"
+      ],
+      "amount": 1025.95616,
+      "odds": 0.992,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T05:36:58.099894",
+    "trade_hash": "0x6db87d7f624c092ee07d900d319a61f11fe8d80bd8a4445ed217398035f40cad",
+    "trade_timestamp": 1768714500
+  },
+  {
+    "market": "Will LeBron James win the 2028 US Presidential Election?",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "wallet": "0xabe34a6f0b857c1ea0b3b4142ef810ea13aa8951",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,009)"
+      ],
+      "amount": 1008.84416,
+      "odds": 0.992,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T05:37:00.286021",
+    "trade_hash": "0xbd865568c7f06b35ce7d33b0e2ab650d843b5f5a5bfe9b53b4b0c0199efb8fb2",
+    "trade_timestamp": 1768714484
+  },
+  {
+    "market": "Will Union Berlin win the 2025\u201326 Bundesliga?",
+    "market_slug": "will-union-berlin-win-the-202526-bundesliga",
+    "wallet": "0x06a8914613823f1cabca4866d3149b176c90a6cc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,796)"
+      ],
+      "amount": 3796.1924000000004,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 52
+    },
+    "timestamp": "2026-01-18T05:37:02.826424",
+    "trade_hash": "0x329c8d08854c0d0055dcec5a8a92fe6e34dc717fad3b38be0ac95bed36880fa5",
+    "trade_timestamp": 1768714460
+  },
+  {
+    "market": "Spread: Trail Blazers (-3.5)",
+    "market_slug": "nba-lal-por-2026-01-17-spread-home-3pt5",
+    "wallet": "0xfc7c59ae1dd9e7602ecd4bd41086e08124223d8c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,216)"
+      ],
+      "amount": 4216.43934,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T05:37:09.902122",
+    "trade_hash": "0x32e6440084fc0feaf492350171ddda527d25e7ab44837097e33f2c6ab1b2c3d9",
+    "trade_timestamp": 1768714358
+  },
+  {
+    "market": "Will the price of Bitcoin be above $90,000 on January 18?",
+    "market_slug": "bitcoin-above-90k-on-january-18",
+    "wallet": "0xe7534f725715f0187ad404da626f38d3b000dfc6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,129)"
+      ],
+      "amount": 1128.87,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 54
+    },
+    "timestamp": "2026-01-18T05:37:30.295534",
+    "trade_hash": "0xf3ab47cd35b8c4610dcc7a58008c5fa232f3e6608a250ed2e6ed50a990223355",
+    "trade_timestamp": 1768714282
   }
 ]
