@@ -7957,5 +7957,25 @@
     "timestamp": "2026-01-18T08:44:31.954059",
     "trade_hash": "0x6d5dd9c1a2d6e72c93ae6ebcca2fc5ec08d39de1302f1420413c5f5a671841cc",
     "trade_timestamp": 1768725660
+  },
+  {
+    "market": "Will Alibaba have the best AI model at the end of January 2026?",
+    "market_slug": "will-alibaba-have-the-best-ai-model-at-the-end-of-january-2026",
+    "wallet": "0x7b8fb4c5564bedee7174c01a9c50dc1ef9778f0e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,496)"
+      ],
+      "amount": 3496.493,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 40
+    },
+    "timestamp": "2026-01-18T09:12:30.376116",
+    "trade_hash": "0x344edc19c6919e600c64bc7f415f14b010a03cb82ee80d9aea00d1bd954e9c3f",
+    "trade_timestamp": 1768727300
   }
 ]
