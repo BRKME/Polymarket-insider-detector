@@ -8984,5 +8984,45 @@
     "timestamp": "2026-01-18T18:57:34.017481",
     "trade_hash": "0xc3a381b75c96386c6fbeb5336698d9070aa2485ed0eede278d37f7f7294450ca",
     "trade_timestamp": 1768762368
+  },
+  {
+    "market": "Magic vs. Grizzlies",
+    "market_slug": "nba-orl-mem-2026-01-18",
+    "wallet": "0xc6fd646b15d976d7c3e9f410f3419f5c2452f43e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($10,587)"
+      ],
+      "amount": 10587.19085,
+      "odds": 0.9802010593424337,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T19:11:28.973529",
+    "trade_hash": "0xa03b45734c02bde661c29a068a3d877336cd19bf52019d43e287abe8feeda253",
+    "trade_timestamp": 1768763210
+  },
+  {
+    "market": "Will AS Roma win on 2026-01-18?",
+    "market_slug": "sea-tor-rom-2026-01-18-rom",
+    "wallet": "0x073fa0a02a127be4ddca1d9863580110343ded92",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,547)"
+      ],
+      "amount": 2547.45,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 28
+    },
+    "timestamp": "2026-01-18T19:11:30.385492",
+    "trade_hash": "0xd638998d796b7563a872d7a8f39ef5da9bbb2672853972fbb68f0def7256d340",
+    "trade_timestamp": 1768763206
   }
 ]
