@@ -8802,5 +8802,26 @@
     "timestamp": "2026-01-18T17:16:56.565071",
     "trade_hash": "0xc39e8896df02fb024f8d263148e99200812f7ee5b271533a4ca048b42e2d3a65",
     "trade_timestamp": 1768756422
+  },
+  {
+    "market": "Will the New Orleans Pelicans win the 2026 NBA Finals?",
+    "market_slug": "will-the-new-orleans-pelicans-win-the-2026-nba-finals",
+    "wallet": "0x10e0ca84d3eabf67b0f7d4b142c16f5083b420f6",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,510)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 2509.9994880000004,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-18T17:33:23.991659",
+    "trade_hash": "0x1b83aaaf555c1fff26081ffdc8bbbe7ee17ad7d7fafb234dc657031219346732",
+    "trade_timestamp": 1768757368
   }
 ]
