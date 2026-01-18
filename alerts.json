@@ -6945,5 +6945,45 @@
     "timestamp": "2026-01-18T03:06:00.850945",
     "trade_hash": "0xa991f7aa671424a365a3952fcf9fe5aded699b733e471612d6888359b09fa281",
     "trade_timestamp": 1768705178
+  },
+  {
+    "market": "Will Mike Pence win the 2028 Republican presidential nomination?",
+    "market_slug": "will-mike-pence-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xb0a9d4b4548df2e00b49394255b267c293f85b92",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($2,373)"
+      ],
+      "amount": 2372.53884,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 38
+    },
+    "timestamp": "2026-01-18T04:11:29.133629",
+    "trade_hash": "0xb3b1c9bc6afbea6775233cd33eb0dca1ed63b3ea574337851ef88a937d68c11a",
+    "trade_timestamp": 1768709396
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x429c4d1b7b94609d990d573058a706f86d3e67d9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,041)"
+      ],
+      "amount": 1040.81004,
+      "odds": 0.996,
+      "wallet_age_days": 1,
+      "total_activities": 21
+    },
+    "timestamp": "2026-01-18T04:11:46.377506",
+    "trade_hash": "0xd34ac3d8a118ef5f5ef613c3da5beb3a5c5a26b319a29b48f1ec2d9f5492ced3",
+    "trade_timestamp": 1768709234
   }
 ]
