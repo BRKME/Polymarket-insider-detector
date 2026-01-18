@@ -9185,5 +9185,25 @@
     "timestamp": "2026-01-18T20:50:40.225406",
     "trade_hash": "0x776c2e04ae013ce3341a4324032afbae9f144ecf825c86cf9405476287749db4",
     "trade_timestamp": 1768769186
+  },
+  {
+    "market": "Will Ant\u00f3nio Jos\u00e9 Seguro win the 1st round of the 2026 Portugal presidential election?",
+    "market_slug": "will-antnio-jos-seguro-win-the-1st-round-of-the-2026-portugal-presidential-election",
+    "wallet": "0x40edcbed259e8cb80775229559a585bbeff44ae2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($3,967)"
+      ],
+      "amount": 3966.7983799999997,
+      "odds": 0.9861941660679258,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-18T20:57:02.650098",
+    "trade_hash": "0x1fe1b462e2a4db25b42bcebb7107a5e5f0ab66d7c6681d1031b1e1c8bde01a06",
+    "trade_timestamp": 1768769608
   }
 ]
