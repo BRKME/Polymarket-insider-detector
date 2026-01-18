@@ -8077,5 +8077,25 @@
     "timestamp": "2026-01-18T09:46:30.410768",
     "trade_hash": "0x320ac1b25d892a16df5b1752dd384deab7dabc851f8fe1b42faed10f66645469",
     "trade_timestamp": 1768729224
+  },
+  {
+    "market": "Will Fran\u00e7ois Hollande win the 2027 French presidential election?",
+    "market_slug": "will-franois-hollande-win-the-2027-french-presidential-election",
+    "wallet": "0x647645942e1ae90eddbd9913eace7df9e6aafc37",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($1,748)"
+      ],
+      "amount": 1747.8,
+      "odds": 0.971,
+      "wallet_age_days": 0,
+      "total_activities": 98
+    },
+    "timestamp": "2026-01-18T09:52:20.863955",
+    "trade_hash": "0xd3e000f78287c7de0c415c994baaa901389a9ca4a4282a21efb6b6c7def8d82c",
+    "trade_timestamp": 1768729844
   }
 ]
