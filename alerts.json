@@ -8257,5 +8257,45 @@
     "timestamp": "2026-01-18T11:11:52.929394",
     "trade_hash": "0xd254d1f86d22dc60ed477a89cc14be31d1742104205d1a033913f6a26f9af963",
     "trade_timestamp": 1768734354
+  },
+  {
+    "market": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288",
+    "wallet": "0x1d1285ea7df8da95207a58e0d017b9d77c2051da",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.2% odds)",
+        "Large bet ($1,944)"
+      ],
+      "amount": 1944.0,
+      "odds": 0.972,
+      "wallet_age_days": 0,
+      "total_activities": 90
+    },
+    "timestamp": "2026-01-18T11:43:32.804282",
+    "trade_hash": "0xc7cf9d51bfaa557672b63c973665a71ff7f6ed5b878766de0ca32f99545db6a5",
+    "trade_timestamp": 1768736522
+  },
+  {
+    "market": "Will J.B. Pritzker win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-jb-pritzker-win-the-2028-democratic-presidential-nomination-288",
+    "wallet": "0x061ab5a26ba2cf15b6811aa0555659321cdfaab1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.2% odds)",
+        "Large bet ($2,527)"
+      ],
+      "amount": 2527.2,
+      "odds": 0.972,
+      "wallet_age_days": 0,
+      "total_activities": 61
+    },
+    "timestamp": "2026-01-18T11:43:43.146591",
+    "trade_hash": "0xba4917800886c68cc47703b842b4e41107d2b5d7afce49f54812e7a8a5a0e3d3",
+    "trade_timestamp": 1768736472
   }
 ]
