@@ -8742,5 +8742,65 @@
     "timestamp": "2026-01-18T17:00:24.139191",
     "trade_hash": "0x3809df77be180afe721c8cfb69e241e92e069c86a323b4fcc55681e99f14fe07",
     "trade_timestamp": 1768755402
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0xb03555b080437cb0590572d12cb16434fbe92ea8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($13,530)"
+      ],
+      "amount": 13529.599857,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 96
+    },
+    "timestamp": "2026-01-18T17:16:36.863892",
+    "trade_hash": "0x74a5ade2d782fabc98f74a390e7b2833652430287ab0e09a1f8358a59c1d831c",
+    "trade_timestamp": 1768756504
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $5 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-5-million",
+    "wallet": "0xc49c564f8af0de0914a7461b86c5c63c729d892c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($2,752)"
+      ],
+      "amount": 2752.4,
+      "odds": 0.983,
+      "wallet_age_days": 0,
+      "total_activities": 71
+    },
+    "timestamp": "2026-01-18T17:16:48.733772",
+    "trade_hash": "0x8f3157e98d69341ac4aee40e5d964a33bf7c0b34148216b5a91f80a11e4c900b",
+    "trade_timestamp": 1768756398
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $5 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-5-million",
+    "wallet": "0x08c17059d6be9904d9b3093da1150f8c28003945",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($2,752)"
+      ],
+      "amount": 2752.4,
+      "odds": 0.983,
+      "wallet_age_days": 0,
+      "total_activities": 57
+    },
+    "timestamp": "2026-01-18T17:16:56.565071",
+    "trade_hash": "0xc39e8896df02fb024f8d263148e99200812f7ee5b271533a4ca048b42e2d3a65",
+    "trade_timestamp": 1768756422
   }
 ]
