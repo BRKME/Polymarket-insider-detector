@@ -8863,5 +8863,66 @@
     "timestamp": "2026-01-18T17:51:56.522679",
     "trade_hash": "0xf156697cae906fdd48013654548be7e3422e1ae267d8539e3026a4cd8e425a28",
     "trade_timestamp": 1768758520
+  },
+  {
+    "market": "FC Augsburg vs. SC Freiburg: O/U 1.5",
+    "market_slug": "bun-aug-fre-2026-01-18-total-1pt5",
+    "wallet": "0x20ad2fa756a28ed4349b9a129ff0c23bd23e307d",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,137)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1137.2147400000001,
+      "odds": 0.9941035875380259,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-18T17:58:16.832381",
+    "trade_hash": "0x866ce0644ac42728a27e12fbb51630c81a45a205145a3d5aa6b27523a4e0a95b",
+    "trade_timestamp": 1768759032
+  },
+  {
+    "market": "Will Leverkusen win the 2025\u201326 Champions League?",
+    "market_slug": "will-leverkusen-win-the-202526-champions-league",
+    "wallet": "0x1364385e20d8c04a595bc4bbacfa820a9b87f116",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($2,709)"
+      ],
+      "amount": 2709.249879,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-18T17:58:26.767264",
+    "trade_hash": "0xa9a0dcf959dd864894143419e92f990d40268b11436f842f8bd650aa3cf7d1f4",
+    "trade_timestamp": 1768758946
+  },
+  {
+    "market": "Will Club Atl\u00e9tico de Madrid win on 2026-01-18?",
+    "market_slug": "lal-mad-ala-2026-01-18-mad",
+    "wallet": "0x155d962a13b79a08fa0195a742cfffb0fd3f2525",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,223)"
+      ],
+      "amount": 5222.5722000000005,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 87
+    },
+    "timestamp": "2026-01-18T17:58:36.603679",
+    "trade_hash": "0x6871dfd1bc1c8647c369cdd1808539c3d0b6138b0e1f1963ded990f0996fa3a8",
+    "trade_timestamp": 1768758908
   }
 ]
