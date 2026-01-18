@@ -7814,5 +7814,88 @@
     "timestamp": "2026-01-18T07:57:45.535667",
     "trade_hash": "0x000d3dd738144dd77f3d4b5d8a1b5cd2da9e3901a848813f3c9dd8b4de900b24",
     "trade_timestamp": 1768722762
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xb6054399cc73cce7a948fb4bbf6228cdbfea37dd",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($6,520)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 6519.816,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-18T08:20:12.253714",
+    "trade_hash": "0x58e0a50e76c11a0e5e83c3198800f298741a224c5a135f1ae58e93a044cb5cf9",
+    "trade_timestamp": 1768724282
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x2085b120e8a38d04cce6fa5f64fa146edd8a2741",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($6,212)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 6211.785,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-18T08:20:12.937117",
+    "trade_hash": "0xbfb113cb0555052f9d68c8d584e2abfa89f0d6e176b0f72c1f097d43fdbc51c8",
+    "trade_timestamp": 1768724280
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xf9b25c8b8f6a175a32022261719c031517964a0d",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($4,346)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 4345.548,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-18T08:20:15.029926",
+    "trade_hash": "0x34cd5d29dffd4e954782677bf74157349f192830d6265adbfa434855641a3ff3",
+    "trade_timestamp": 1768724280
+  },
+  {
+    "market": "Will Trump nominate no one before 2027?",
+    "market_slug": "will-trump-nominate-no-one-before-2027",
+    "wallet": "0xff43d845e614c62b6d8a59932abba4f00131fe5c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($12,335)"
+      ],
+      "amount": 12335.282369999999,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T08:20:20.211977",
+    "trade_hash": "0xe09a4360f4169aeda8a926fcefe4b2cba11fd46f6d1f256e4816d52f4f57cc6a",
+    "trade_timestamp": 1768724290
   }
 ]
