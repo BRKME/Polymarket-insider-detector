@@ -9084,5 +9084,46 @@
     "timestamp": "2026-01-18T20:00:08.891414",
     "trade_hash": "0x7756365afc058dc4f0d6350b92e8ff494ba14afa6c1d7564496db472701262f6",
     "trade_timestamp": 1768766220
+  },
+  {
+    "market": "Will Elon Musk buy Ryanair?",
+    "market_slug": "will-elon-musk-buy-ryanair",
+    "wallet": "0x133185f4230861cafa0a57fe7bf33dcb6556a406",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Against trend (6.4% odds)",
+        "Large bet ($1,126)"
+      ],
+      "amount": 1125.699999,
+      "odds": 0.06403424357215794,
+      "wallet_age_days": 2,
+      "total_activities": 65
+    },
+    "timestamp": "2026-01-18T20:23:46.561092",
+    "trade_hash": "0x988c7092b654499ff9331deaa8ac858a95665b6324c2c1b9c482dea2d9d21a6e",
+    "trade_timestamp": 1768767686
+  },
+  {
+    "market": "Will Sevilla win the 2025\u201326 La Liga?",
+    "market_slug": "will-sevilla-win-the-202526-la-liga",
+    "wallet": "0x708ff87b23680ea6e65563731495329d4d719214",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,090)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1089.5493600000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T20:24:05.654466",
+    "trade_hash": "0x11acd03d4c0b1c64253a90b2ea80cdaade180c19e18bcbaee2c50c30d2d70026",
+    "trade_timestamp": 1768767546
   }
 ]
