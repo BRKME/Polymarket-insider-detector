@@ -8317,5 +8317,25 @@
     "timestamp": "2026-01-18T11:50:01.865389",
     "trade_hash": "0x4770b653258fde06d09c8f5c0bb98045f6c54010203e394e035968cb76b0dee6",
     "trade_timestamp": 1768736774
+  },
+  {
+    "market": "Will Trump nominate Jerome Powell as the next Fed chair?",
+    "market_slug": "will-trump-nominate-jerome-powell-as-the-next-fed-chair",
+    "wallet": "0xd7d8c0371fc137c619d787f24ddf082d88507d6b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,966)"
+      ],
+      "amount": 1966.06,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-18T11:57:46.414922",
+    "trade_hash": "0x6bac5d2b365c591e9fafe7dae1b71d45e6a17c9ada46ec0537c6edb5ab2f6ec2",
+    "trade_timestamp": 1768737112
   }
 ]
