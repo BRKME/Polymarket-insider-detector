@@ -9325,5 +9325,45 @@
     "timestamp": "2026-01-18T21:59:49.084653",
     "trade_hash": "0x2fd2217cb86214352e0d1d8d29ee25f9ab61a6c697331e9c75e731a7aecdec6e",
     "trade_timestamp": 1768773516
+  },
+  {
+    "market": "Texans vs. Patriots",
+    "market_slug": "nfl-hou-ne-2026-01-18",
+    "wallet": "0xb364935a3cf9166d882ce0cec745c169f45df1e3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,879)"
+      ],
+      "amount": 5879.02509,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T23:12:46.961225",
+    "trade_hash": "0x5345fc1224a3f484802978eb56f78eb727a21a0acc119d6e9e9596b516345851",
+    "trade_timestamp": 1768777766
+  },
+  {
+    "market": "Texans vs. Patriots",
+    "market_slug": "nfl-hou-ne-2026-01-18",
+    "wallet": "0xb2ce6114461368e4eafcb13b69dcd320a4e3b596",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,318)"
+      ],
+      "amount": 1318.29039,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 53
+    },
+    "timestamp": "2026-01-18T23:13:02.512147",
+    "trade_hash": "0x2be9720ac0c459aef8d67e5e0c24c8386d9d75723ed6287f55b2357d20b8c44e",
+    "trade_timestamp": 1768777670
   }
 ]
