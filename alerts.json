@@ -8540,5 +8540,107 @@
     "timestamp": "2026-01-18T15:11:49.624266",
     "trade_hash": "0xbf628ff0ea1ada451147d1695f56c4c1dd1c565d6d73d80a287f5e8444b04baa",
     "trade_timestamp": 1768748992
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $5 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-5-million",
+    "wallet": "0x6540da265252cdcb6da898c236752487a6455d43",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.2% odds)",
+        "Large bet ($2,455)"
+      ],
+      "amount": 2455.0,
+      "odds": 0.982,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T15:31:21.868129",
+    "trade_hash": "0x2e9ed584c2516b6185f7b4508951804f9ea40451cfc5fc19d7c5d4faaf6f6922",
+    "trade_timestamp": 1768750166
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 18?",
+    "market_slug": "ethereum-above-3400-on-january-18",
+    "wallet": "0xab6b866541edc344428e3613aea37f08c0988983",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,003)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1002.93,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-18T15:31:22.584593",
+    "trade_hash": "0xefa5c9c50fbbaed8cddde492f35a05b95c12f794ba1d26f548ff17045bf47b81",
+    "trade_timestamp": 1768750164
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $5 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-5-million",
+    "wallet": "0x687b90cfe177a2f8c873068c02104c1f6cc11d59",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($2,458)"
+      ],
+      "amount": 2457.5,
+      "odds": 0.983,
+      "wallet_age_days": 0,
+      "total_activities": 87
+    },
+    "timestamp": "2026-01-18T15:31:35.853271",
+    "trade_hash": "0x49bbcda073fadfd0ed5514ffa9bd648873659efccd5f1db106dd909203af781c",
+    "trade_timestamp": 1768750122
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0x92925efa0081342c86ef5b414efb5d91eac84473",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($13,501)"
+      ],
+      "amount": 13500.97394,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T15:31:39.425305",
+    "trade_hash": "0xb4e6fad287133f8a689f4406be20e3f99e15878d31dae42ab4609543e7e41c61",
+    "trade_timestamp": 1768749996
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 18?",
+    "market_slug": "ethereum-above-3400-on-january-18",
+    "wallet": "0x114f0c3bb0600a497a9dadadbd01f3793cfde8ac",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,013)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1012.86,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T15:31:40.834550",
+    "trade_hash": "0x60fc5b8198183571d5f122e091a3c283ea198dabc931bc9569e622544d8e6bd3",
+    "trade_timestamp": 1768749988
   }
 ]
