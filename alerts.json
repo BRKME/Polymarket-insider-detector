@@ -7611,5 +7611,107 @@
     "timestamp": "2026-01-18T07:36:32.605716",
     "trade_hash": "0x0b194400ba06b0670e75ede2d285f9ea303d619bf1f6d6c87c9ea459f0ea6435",
     "trade_timestamp": 1768721448
+  },
+  {
+    "market": "Will Elon Musk win the 2028 Republican presidential nomination?",
+    "market_slug": "will-elon-musk-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xc0c8cbda22fa84bacd5495bf2b99559e37d1c55f",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,008)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1008.06381,
+      "odds": 0.993,
+      "wallet_age_days": 2,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-18T07:45:22.074479",
+    "trade_hash": "0x7573ef5f2f6f884c0313f794455c6ba6bb84d37af4c033316206a5652a0377da",
+    "trade_timestamp": 1768722044
+  },
+  {
+    "market": "Israel nuclear weapon use against Iran by January 31?",
+    "market_slug": "will-israel-nuke-iran-by-january-31",
+    "wallet": "0xbbc6262f985cad7ba0ad079e4ad9f562b94ccb48",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($4,980)"
+      ],
+      "amount": 4980.0,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 52
+    },
+    "timestamp": "2026-01-18T07:45:23.550348",
+    "trade_hash": "0x3cfac127da31e0b9d02559eef0c75d45dfca504c65d3580c76f276ade3092fd5",
+    "trade_timestamp": 1768722010
+  },
+  {
+    "market": "Will Elon Musk win the 2028 Republican presidential nomination?",
+    "market_slug": "will-elon-musk-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x02f89c7531d2a0e8ba430193e0981bcd36ef3b86",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,032)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1032.2235,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-18T07:45:24.900865",
+    "trade_hash": "0x9be0c2e384e5ecc12f547c7d012f02eb5aa21ea77b78e912f40355bfd968d7e6",
+    "trade_timestamp": 1768721996
+  },
+  {
+    "market": "Will Elon Musk win the 2028 Republican presidential nomination?",
+    "market_slug": "will-elon-musk-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xe4619cd9c76eca1a78aaa30517a2b7ca8f2afac2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,013)"
+      ],
+      "amount": 1012.84014,
+      "odds": 0.993,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T07:45:28.533655",
+    "trade_hash": "0x19b5da5e4fb8fab9371c6b062f9278dd1c9510a17250858ccf799a5447a1698d",
+    "trade_timestamp": 1768721958
+  },
+  {
+    "market": "Will Elon Musk win the 2028 Republican presidential nomination?",
+    "market_slug": "will-elon-musk-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xa22f2a717fc2c1e9e0b1d1e8267606bd881526d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,010)"
+      ],
+      "amount": 1009.52352,
+      "odds": 0.993,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T07:45:29.210724",
+    "trade_hash": "0x3ba541b528212809a53976a0e36be131eefcaaa3207a6cb20482acf0dff74a24",
+    "trade_timestamp": 1768721954
   }
 ]
