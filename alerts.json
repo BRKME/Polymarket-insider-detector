@@ -7897,5 +7897,65 @@
     "timestamp": "2026-01-18T08:20:20.211977",
     "trade_hash": "0xe09a4360f4169aeda8a926fcefe4b2cba11fd46f6d1f256e4816d52f4f57cc6a",
     "trade_timestamp": 1768724290
+  },
+  {
+    "market": "Bitcoin Up or Down - January 18, 3AM ET",
+    "market_slug": "bitcoin-up-or-down-january-18-3am-et",
+    "wallet": "0x4fa8af791ef809d9ca99cc92a099155e3f5ec69c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($2,000)"
+      ],
+      "amount": 1999.99998,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T08:44:19.324962",
+    "trade_hash": "0xed1306541736bf796edb4887b0ad31691d7e4bae7369452849177c77ae685307",
+    "trade_timestamp": 1768725692
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $4 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-4-million",
+    "wallet": "0xe2b1dd3946e45f432137161766640903c38c5e6f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($1,093)"
+      ],
+      "amount": 1093.096,
+      "odds": 0.983,
+      "wallet_age_days": 0,
+      "total_activities": 72
+    },
+    "timestamp": "2026-01-18T08:44:28.232404",
+    "trade_hash": "0x0aa8ddcb6377dfd538487b44ee04b8acf6017914dc5b0480aaf597340406d422",
+    "trade_timestamp": 1768725688
+  },
+  {
+    "market": "Will Logan Paul\u2019s PSA 10 Pok\u00e9mon Illustrator Sale Price be over $4 million?",
+    "market_slug": "will-logan-pauls-psa-10-pokmon-illustrator-sale-price-be-over-4-million",
+    "wallet": "0xdb256434344892deeccc495df023680b1d36c36e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($1,856)"
+      ],
+      "amount": 1855.904,
+      "odds": 0.983,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T08:44:31.954059",
+    "trade_hash": "0x6d5dd9c1a2d6e72c93ae6ebcca2fc5ec08d39de1302f1420413c5f5a671841cc",
+    "trade_timestamp": 1768725660
   }
 ]
