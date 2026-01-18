@@ -8498,5 +8498,47 @@
     "timestamp": "2026-01-18T14:56:34.086041",
     "trade_hash": "0xfa2b167d289bedd47c19ce252b0fe5d7cbecc4f2b15cca28a498e119696c17b1",
     "trade_timestamp": 1768747948
+  },
+  {
+    "market": "Will the price of Solana be between $150 and $160 on January 18?",
+    "market_slug": "will-the-price-of-solana-be-between-150-160-on-january-18",
+    "wallet": "0x4e0efa0af17354312d7b52f6205e8f6418c695eb",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,008)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1007.98,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T15:11:41.401526",
+    "trade_hash": "0x1831788f606d2cdc35df94d8e060921ecf0029dd0c3c16079796b220b1be0852",
+    "trade_timestamp": 1768749022
+  },
+  {
+    "market": "Will the price of Solana be between $150 and $160 on January 18?",
+    "market_slug": "will-the-price-of-solana-be-between-150-160-on-january-18",
+    "wallet": "0x420a825436cbeac03a27203f5d47198458092a7e",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,008)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1007.98,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-18T15:11:49.624266",
+    "trade_hash": "0xbf628ff0ea1ada451147d1695f56c4c1dd1c565d6d73d80a287f5e8444b04baa",
+    "trade_timestamp": 1768748992
   }
 ]
