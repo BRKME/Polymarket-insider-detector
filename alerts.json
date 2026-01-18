@@ -8924,5 +8924,25 @@
     "timestamp": "2026-01-18T17:58:36.603679",
     "trade_hash": "0x6871dfd1bc1c8647c369cdd1808539c3d0b6138b0e1f1963ded990f0996fa3a8",
     "trade_timestamp": 1768758908
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0xbd444257d80ee3ed99b412724ceab2c241c555f0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($13,523)"
+      ],
+      "amount": 13522.559904,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 96
+    },
+    "timestamp": "2026-01-18T18:22:12.966120",
+    "trade_hash": "0x9632a45560c123d98ba26eb7140cde02a1810f82c1d600228587c8f8b692b9ab",
+    "trade_timestamp": 1768760440
   }
 ]
