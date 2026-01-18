@@ -9125,5 +9125,65 @@
     "timestamp": "2026-01-18T20:24:05.654466",
     "trade_hash": "0x11acd03d4c0b1c64253a90b2ea80cdaade180c19e18bcbaee2c50c30d2d70026",
     "trade_timestamp": 1768767546
+  },
+  {
+    "market": "LoL: G2 Esports vs GIANTX (BO1)",
+    "market_slug": "lol-g2-gx-2026-01-18",
+    "wallet": "0x00df668eb4bbf41d80928178bcf6f4d2e5620d23",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,054)"
+      ],
+      "amount": 1053.61533,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-18T20:50:27.720863",
+    "trade_hash": "0x23f72d0d8fc0b3750d1482501bd3232357a528afb61c39db3901cdca6cc65002",
+    "trade_timestamp": 1768769280
+  },
+  {
+    "market": "Counter-Strike: FUT Esports vs FURIA - Map 2 Winner",
+    "market_slug": "cs2-fut-furia-2026-01-18-game2",
+    "wallet": "0xfb6d1f60514a94484237b866feeab365c5ba942c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,816)"
+      ],
+      "amount": 1815.7923899999998,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 98
+    },
+    "timestamp": "2026-01-18T20:50:34.834130",
+    "trade_hash": "0x37b9f8473e6b61718d69cf097fde1d7ee627a534b626a21fc277c1f58d80d08a",
+    "trade_timestamp": 1768769216
+  },
+  {
+    "market": "Will Everton win the 2025\u201326 English Premier League?",
+    "market_slug": "will-everton-win-the-202526-english-premier-league",
+    "wallet": "0x1ce0989ecb863fe471b6d20c032ef23927e642c1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,432)"
+      ],
+      "amount": 1431.90046,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-18T20:50:40.225406",
+    "trade_hash": "0x776c2e04ae013ce3341a4324032afbae9f144ecf825c86cf9405476287749db4",
+    "trade_timestamp": 1768769186
   }
 ]
