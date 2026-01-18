@@ -9245,5 +9245,45 @@
     "timestamp": "2026-01-18T21:30:23.645540",
     "trade_hash": "0xf7f6a5dbcf8aec022454d53df2e1bc4a0e07d9e3b2037219892dae6a1cec64a2",
     "trade_timestamp": 1768771538
+  },
+  {
+    "market": "Wichita State Shockers vs. South Florida Bulls",
+    "market_slug": "cbb-wichst-sfl-2026-01-18",
+    "wallet": "0xb1017673f1a83a3170fd8c7ef647e2f969495024",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,187)"
+      ],
+      "amount": 1187.3267999999998,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 59
+    },
+    "timestamp": "2026-01-18T21:47:33.937273",
+    "trade_hash": "0x4e263ccaba05b1d7687fc55e36952496ddddae8c6c529fd670e705c2a2918802",
+    "trade_timestamp": 1768772694
+  },
+  {
+    "market": "LoL: Movistar KOI vs Karmine Corp (BO1)",
+    "market_slug": "lol-mkoi-kc-2026-01-18",
+    "wallet": "0xd837a6a3b447e30d991c8d5fb576c0aff8dc85d2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,046)"
+      ],
+      "amount": 1045.836,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 27
+    },
+    "timestamp": "2026-01-18T21:47:54.468426",
+    "trade_hash": "0x588a9855959f73b32ff01a3c1b93d50706623da4664b4f9f50755b5b781ca7ed",
+    "trade_timestamp": 1768772566
   }
 ]
