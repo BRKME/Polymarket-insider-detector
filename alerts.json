@@ -7977,5 +7977,45 @@
     "timestamp": "2026-01-18T09:12:30.376116",
     "trade_hash": "0x344edc19c6919e600c64bc7f415f14b010a03cb82ee80d9aea00d1bd954e9c3f",
     "trade_timestamp": 1768727300
+  },
+  {
+    "market": "Will Elon Musk post 100-119 tweets from January 20 to January 27, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-20-january-27-100-119",
+    "wallet": "0x0c0cadb6d71eafa6affb3f3ca77298fa131dc53b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($6,833)"
+      ],
+      "amount": 6832.999998,
+      "odds": 0.9989999999763153,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-18T09:33:19.251626",
+    "trade_hash": "0x36b469e8972b0657bbbbf1f9d99e49a18c80af2acf214786392a4d721c045651",
+    "trade_timestamp": 1768728698
+  },
+  {
+    "market": "Bitcoin Up or Down - January 18, 4:15AM-4:30AM ET",
+    "market_slug": "btc-updown-15m-1768727700",
+    "wallet": "0x3e3c8a8edc8c960aa41bd3a19a89c1eddcefa1a8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,168)"
+      ],
+      "amount": 1168.1406,
+      "odds": 0.99,
+      "wallet_age_days": 1,
+      "total_activities": 51
+    },
+    "timestamp": "2026-01-18T09:33:24.270169",
+    "trade_hash": "0xd18b4a23eaf3652d0e1dc259f02ac6d5446487fbef83dfd56c2963a5cd8c585c",
+    "trade_timestamp": 1768728638
   }
 ]
