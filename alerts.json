@@ -8397,5 +8397,25 @@
     "timestamp": "2026-01-18T13:48:46.676914",
     "trade_hash": "0x0255ac2f43afde5193f425756e1e9d89aedb654f99a9f3fdf58abfc504a6a8b3",
     "trade_timestamp": 1768744030
+  },
+  {
+    "market": "Will NVIDIA be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-january-31-985",
+    "wallet": "0xaab4ca55a3868aabf6c7bdc55fb411094b3cecea",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($4,650)"
+      ],
+      "amount": 4650.17726,
+      "odds": 0.971,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-18T13:55:26.941164",
+    "trade_hash": "0x6d0ba067d7c1390e35b83307ef23ca90865820a750bb90359513b8df3b6e6eba",
+    "trade_timestamp": 1768744396
   }
 ]
