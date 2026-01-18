@@ -7026,5 +7026,145 @@
     "timestamp": "2026-01-18T04:53:51.635681",
     "trade_hash": "0x71a0ccc283ed5565526c6edc49be5468c584ca13b9261f3ef238c445def4d5d1",
     "trade_timestamp": 1768711516
+  },
+  {
+    "market": "Will Tulsi Gabbard win the 2028 US Presidential Election?",
+    "market_slug": "will-tulsi-gabbard-win-the-2028-us-presidential-election",
+    "wallet": "0x28e8c490707abf9f904172ed9b7f4717c90093fa",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($2,123)"
+      ],
+      "amount": 2122.88,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 11
+    },
+    "timestamp": "2026-01-18T05:12:36.276062",
+    "trade_hash": "0x042f072b8cf1b74e40163cae726806bb8af4e96cbc0a15230b329213f22a0d00",
+    "trade_timestamp": 1768713110
+  },
+  {
+    "market": "Will Bitcoin reach $102,000 January 12-18?",
+    "market_slug": "will-bitcoin-reach-102k-january-12-18",
+    "wallet": "0x33f7e8db6d984440d7e214f97916b6aaded0e3e1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,630)"
+      ],
+      "amount": 1629.734,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-18T05:12:45.545336",
+    "trade_hash": "0x7b971705d0941cbc08b33887236a3467724f18e87a9bdb5663a9036d205dc5bb",
+    "trade_timestamp": 1768713014
+  },
+  {
+    "market": "Will Alaves win the 2025\u201326 La Liga?",
+    "market_slug": "will-alaves-win-the-202526-la-liga",
+    "wallet": "0x8036aac854adaaf97e4ee361d767406a14e2ea5d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,265)"
+      ],
+      "amount": 1265.109624,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 87
+    },
+    "timestamp": "2026-01-18T05:12:48.619418",
+    "trade_hash": "0xe9b5de2f0d623b0d15b5c099644d7acf3b59b4dfd762f6a751faa730ac950fc7",
+    "trade_timestamp": 1768712966
+  },
+  {
+    "market": "Will Club Brugge win the 2025\u201326 Champions League?",
+    "market_slug": "will-club-brugge-win-the-202526-champions-league",
+    "wallet": "0x4ed2168a0599b490f1eca1b19ee5b9966bd549dc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,258)"
+      ],
+      "amount": 1257.999741,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 84
+    },
+    "timestamp": "2026-01-18T05:12:51.901806",
+    "trade_hash": "0x94ee52f9f47bb06a8b08b6b91bde4a5f536e89c929d8af72ce2da6f2ac0bd18d",
+    "trade_timestamp": 1768712944
+  },
+  {
+    "market": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+    "market_slug": "will-kristi-noem-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x84792d2f160ed61adf772d02ec07202e2cc51d16",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,233)"
+      ],
+      "amount": 1233.289779,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 62
+    },
+    "timestamp": "2026-01-18T05:12:58.282259",
+    "trade_hash": "0xc12260c24a1c120e8c9b29f9ec247ff7909af3bf107bd3b056e1e11bfb78d351",
+    "trade_timestamp": 1768712932
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0x3a75bb66d51af849b9fe27c91b61b9b0b8fa8a06",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,142)"
+      ],
+      "amount": 2142.139716,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 60
+    },
+    "timestamp": "2026-01-18T05:13:02.764940",
+    "trade_hash": "0x61deb3e831b5a62419654df1b697c9e61ce4c941e6acca4ab7b23838403d4797",
+    "trade_timestamp": 1768712826
+  },
+  {
+    "market": "Will the Denver Broncos win Super Bowl 2026?",
+    "market_slug": "will-the-denver-broncos-win-super-bowl-2026",
+    "wallet": "0x02f5da9b238303282d545be2b6c660c3aeac18a3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (8.1% odds)",
+        "Large bet ($1,028)"
+      ],
+      "amount": 1028.32738,
+      "odds": 0.08144399696187052,
+      "wallet_age_days": 0,
+      "total_activities": 91
+    },
+    "timestamp": "2026-01-18T05:13:34.265053",
+    "trade_hash": "0x78ce15690bd354ec20683c6ed976a8de50932f4389f17e38e26de5d594ea1010",
+    "trade_timestamp": 1768712828
   }
 ]
