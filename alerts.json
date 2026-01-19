@@ -9587,5 +9587,65 @@
     "timestamp": "2026-01-19T04:31:27.564328",
     "trade_hash": "0xd7940ef8028ac0508dda7efdf5356cb87cef38b2bc250ca0dc0a7d5919f56a89",
     "trade_timestamp": 1768797006
+  },
+  {
+    "market": "Will Leeds win the 2025\u201326 English Premier League?",
+    "market_slug": "will-leeds-win-the-202526-english-premier-league",
+    "wallet": "0xd04b4d369466186636221b7fe521df45b00134b9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,300)"
+      ],
+      "amount": 1300.2742400000002,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-19T05:42:57.965149",
+    "trade_hash": "0x237c3e70219613fd89ee20aad2097236438e8b5f74b1c8bd48cde6c670f39124",
+    "trade_timestamp": 1768801234
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0x058d1297c99e34f21851ed7f130a3c011db90343",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($2,997)"
+      ],
+      "amount": 2996.994,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 42
+    },
+    "timestamp": "2026-01-19T05:43:01.450397",
+    "trade_hash": "0x26ea3b260f5df88272b8f233d16a1e219fbd1ba0fe1b310d7e63854000dc1a69",
+    "trade_timestamp": 1768801210
+  },
+  {
+    "market": "Will Trump nominate Jerome Powell as the next Fed chair?",
+    "market_slug": "will-trump-nominate-jerome-powell-as-the-next-fed-chair",
+    "wallet": "0xa4c9e8a0f23c5f54590656dd3e82c6c1728f6ce2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,313)"
+      ],
+      "amount": 2313.169515,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T05:43:05.577754",
+    "trade_hash": "0x7145610525b6f4767f6bde48aee6db4d90e7e668821c7196bf24a390f3377379",
+    "trade_timestamp": 1768801096
   }
 ]
