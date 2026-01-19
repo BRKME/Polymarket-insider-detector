@@ -10413,5 +10413,46 @@
     "timestamp": "2026-01-19T09:02:40.690157",
     "trade_hash": "0x26c57691f5cb0450535a0f1f5d873469d410c85ca54fd4752adacebcc2ba1cb0",
     "trade_timestamp": 1768813184
+  },
+  {
+    "market": "Will Sarah Knafo win the Paris mayor election?",
+    "market_slug": "will-sarah-knafo-win-the-paris-mayor-election",
+    "wallet": "0x5ef3b45fd73c7bbd724ca870d080d1cef4eaadef",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (6.3% odds)",
+        "Large bet ($6,391)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 6391.199999,
+      "odds": 0.06265709275379185,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-19T09:41:43.158234",
+    "trade_hash": "0x14b1be4f0d361402fba835b1511e91378bcd984727c9f7d55baba54d54f80da3",
+    "trade_timestamp": 1768815594
+  },
+  {
+    "market": "Ukraine signs peace deal with Russia by January 31?",
+    "market_slug": "ukraine-signs-peace-deal-with-russia-by-january-31",
+    "wallet": "0x4bd872caa1e8df28272e9260c65475d44463dde0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($1,250)"
+      ],
+      "amount": 1249.999977,
+      "odds": 0.9609999999815488,
+      "wallet_age_days": 2,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-19T09:41:50.520610",
+    "trade_hash": "0xc466038381c2a6b8f339d0be9c35564b89d9397d31804d46eb14d869a669708a",
+    "trade_timestamp": 1768815506
   }
 ]
