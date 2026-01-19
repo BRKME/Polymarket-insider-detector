@@ -10128,5 +10128,105 @@
     "timestamp": "2026-01-19T07:53:14.928119",
     "trade_hash": "0x721a92ceaa2b2df54559bbdd0b88840e58d15db2ee218cf58e70f247de10a608",
     "trade_timestamp": 1768809004
+  },
+  {
+    "market": "Bitcoin Up or Down - January 19, 2:45AM-3:00AM ET",
+    "market_slug": "btc-updown-15m-1768808700",
+    "wallet": "0x0915f3d6f9c632ca32141e8650b52ef717c44a90",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,080)"
+      ],
+      "amount": 1079.786367,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-19T08:01:08.484624",
+    "trade_hash": "0xe5f22196b65c2de96fade0f74bc0359211a735f41f3b1b319c90179c90f952f3",
+    "trade_timestamp": 1768809524
+  },
+  {
+    "market": "Will the price of Bitcoin be greater than $106,000 on January 21?",
+    "market_slug": "will-the-price-of-bitcoin-be-greater-than-106000-on-january-21",
+    "wallet": "0x435dd5581bea9f5fcd02664b5289b664ed21d10f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,283)"
+      ],
+      "amount": 1283.409026,
+      "odds": 0.9985023550298988,
+      "wallet_age_days": 2,
+      "total_activities": 93
+    },
+    "timestamp": "2026-01-19T08:01:10.169766",
+    "trade_hash": "0xdf036c7334bef6cb0b6ca7b54e2d38ddb65cecd9334622ba42c9a7269530c5dc",
+    "trade_timestamp": 1768809510
+  },
+  {
+    "market": "Will the price of Bitcoin be greater than $106,000 on January 21?",
+    "market_slug": "will-the-price-of-bitcoin-be-greater-than-106000-on-january-21",
+    "wallet": "0xcbab60907f4efd4df233ddf2008308d8f5fcff55",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,310)"
+      ],
+      "amount": 1310.1898689999998,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 86
+    },
+    "timestamp": "2026-01-19T08:01:28.271074",
+    "trade_hash": "0x39de299e7be414a210f1d617bb9addd3c08fda7b129a69cf7ea454fce7d3a645",
+    "trade_timestamp": 1768809488
+  },
+  {
+    "market": "Bitcoin Up or Down - January 19, 2AM ET",
+    "market_slug": "bitcoin-up-or-down-january-19-2am-et",
+    "wallet": "0x2c8093960ac1feb06a2f764a84ac125531caee2b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,232)"
+      ],
+      "amount": 1232.3464199999999,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 80
+    },
+    "timestamp": "2026-01-19T08:01:34.377939",
+    "trade_hash": "0x771464720115860f56c1c055c375aad45541f7c7e8deae0199d8fd65b16930d4",
+    "trade_timestamp": 1768809454
+  },
+  {
+    "market": "Will the price of Bitcoin be above $96,000 on January 19?",
+    "market_slug": "bitcoin-above-96k-on-january-19",
+    "wallet": "0xfe60c7f34a6c1605661e9be437aa6c17fe7aa50d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,799)"
+      ],
+      "amount": 1798.91125,
+      "odds": 0.9938736187845304,
+      "wallet_age_days": 2,
+      "total_activities": 27
+    },
+    "timestamp": "2026-01-19T08:01:40.489683",
+    "trade_hash": "0x3897350e579889072fbfbe3e7dbe6b52491cccc9ac6709251fe03efb2dabdb53",
+    "trade_timestamp": 1768809394
   }
 ]
