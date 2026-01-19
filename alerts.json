@@ -10677,5 +10677,25 @@
     "timestamp": "2026-01-19T11:48:09.830454",
     "trade_hash": "0x50a934462f29d0fe15688b9195711f62803f41a177cad311540b2cc76c220eeb",
     "trade_timestamp": 1768822990
+  },
+  {
+    "market": "Will Marseille win the 2025\u201326 Champions League?",
+    "market_slug": "will-marseille-win-the-202526-champions-league",
+    "wallet": "0x6a0556407ed984facbb9947ab5613c962d56ae53",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($3,980)"
+      ],
+      "amount": 3980.0,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 41
+    },
+    "timestamp": "2026-01-19T11:56:19.114557",
+    "trade_hash": "0xe932ee048bbaa0c1f34b9c54477eb11964de4a17b834813068acaf8175aa66f7",
+    "trade_timestamp": 1768823446
   }
 ]
