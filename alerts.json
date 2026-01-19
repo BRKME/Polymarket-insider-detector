@@ -11343,5 +11343,25 @@
     "timestamp": "2026-01-19T22:41:55.412385",
     "trade_hash": "0xaeb917054c1fc70d8fc02646caf1e29a1573d3d1af39b1fc42e83ba0bae3e89d",
     "trade_timestamp": 1768862366
+  },
+  {
+    "market": "Will Glenn Youngkin win the 2028 US Presidential Election?",
+    "market_slug": "will-glenn-youngkin-win-the-2028-us-presidential-election",
+    "wallet": "0x7bcad934bb4922b21936f96dd975adedf4ad5741",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,013)"
+      ],
+      "amount": 1013.029904,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 72
+    },
+    "timestamp": "2026-01-19T22:53:31.739808",
+    "trade_hash": "0x7beabc08c43bdd38781b03f59008aec89b35398a1ec95f2f52dc6d69184d460d",
+    "trade_timestamp": 1768863100
   }
 ]
