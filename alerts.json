@@ -10900,5 +10900,45 @@
     "timestamp": "2026-01-19T15:02:13.642506",
     "trade_hash": "0x855685f1ff6ed360525196dc94f3fac12d46e1cc229591aa628f88842ce7f61a",
     "trade_timestamp": 1768834640
+  },
+  {
+    "market": "Will Ethereum reach $6,000 in January?",
+    "market_slug": "will-ethereum-reach-6000-in-january-2026",
+    "wallet": "0xfdc69191df038c149c085a7c1ab4698a9047cdd3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,035)"
+      ],
+      "amount": 1034.65683,
+      "odds": 0.9989831419992082,
+      "wallet_age_days": 0,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-19T15:33:00.289058",
+    "trade_hash": "0x96be47d90c8bed4d67a6d1adba3e24ae7a62753ca80b32c0e935fc3852e8620e",
+    "trade_timestamp": 1768836700
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0xa2594535a69125266bd02b6765e0469e8e2111a9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,800)"
+      ],
+      "amount": 1799.9997859999999,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-19T15:33:05.572489",
+    "trade_hash": "0x69a06a0dd95e771f26bef6e28dc9925a02f327560ad5471cd1b2804cea73e64f",
+    "trade_timestamp": 1768836572
   }
 ]
