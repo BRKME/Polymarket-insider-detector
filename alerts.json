@@ -9467,5 +9467,45 @@
     "timestamp": "2026-01-18T23:57:25.595985",
     "trade_hash": "0x27877aef958be2ffb2a19b70e7f5e10e5e66daf622f396083fccc64da77fb832",
     "trade_timestamp": 1768780404
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x1909d9896f57ae383a01f63d505aea8a3bd4ba18",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,133)"
+      ],
+      "amount": 1133.439998,
+      "odds": 0.9969999996921319,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-19T01:11:45.968097",
+    "trade_hash": "0x7ed04b0747b5764d4c12a00f8c490b6e42de539701b4a51f7a6301b1ad825ab6",
+    "trade_timestamp": 1768785036
+  },
+  {
+    "market": "Will Sarah Huckabee Sanders win the 2028 Republican presidential nomination?",
+    "market_slug": "will-sarah-huckabee-sanders-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x7c7f3ca60718765ef8b149b64286dab6b9529e34",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($4,986)"
+      ],
+      "amount": 4986.351299999999,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 75
+    },
+    "timestamp": "2026-01-19T01:11:58.754652",
+    "trade_hash": "0xf75ce9ae53a3ab3faf78b827bbc642eddb56926b7482f4a88a939c4fb69b6af9",
+    "trade_timestamp": 1768784854
   }
 ]
