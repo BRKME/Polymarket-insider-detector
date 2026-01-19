@@ -10697,5 +10697,65 @@
     "timestamp": "2026-01-19T11:56:19.114557",
     "trade_hash": "0xe932ee048bbaa0c1f34b9c54477eb11964de4a17b834813068acaf8175aa66f7",
     "trade_timestamp": 1768823446
+  },
+  {
+    "market": "Will Marseille win the 2025\u201326 Champions League?",
+    "market_slug": "will-marseille-win-the-202526-champions-league",
+    "wallet": "0x556eb2e531c5c04b2e6972f9ff3f4a2237b2eb19",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($4,672)"
+      ],
+      "amount": 4671.8,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-19T12:22:16.976097",
+    "trade_hash": "0xe3085765f38e0a8a6d2c97d34614f1afa30f490a765db07a47c32c4773534eb0",
+    "trade_timestamp": 1768825154
+  },
+  {
+    "market": "Will Elon Musk post 660-679 tweets from January 13 to January 20, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-13-january-20-660-679",
+    "wallet": "0x2625296db192edd8aaad63f1c4c12142de732e97",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,056)"
+      ],
+      "amount": 1055.884,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-19T12:22:19.200680",
+    "trade_hash": "0x128bee491930343475e90750ab035ef3355a0285eaaaaa1889ea48ef71ad3edf",
+    "trade_timestamp": 1768825146
+  },
+  {
+    "market": "Will Kim Kardashian win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-kim-kardashian-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xe01455e4e0a4429283444395de8ff2c97501fdb9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($2,142)"
+      ],
+      "amount": 2141.9999230000003,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 21
+    },
+    "timestamp": "2026-01-19T12:22:22.873013",
+    "trade_hash": "0xc3c727399fc5540b385d12a484abb26636d9453f7a7d35fee12b168994f94204",
+    "trade_timestamp": 1768825110
   }
 ]
