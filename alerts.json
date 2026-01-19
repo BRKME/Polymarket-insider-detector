@@ -11162,5 +11162,45 @@
     "timestamp": "2026-01-19T20:41:55.726098",
     "trade_hash": "0xf7f36b49cf605e8bccc51e6cf15c35e7784f52e8d4e7f2ebe2846960d5744566",
     "trade_timestamp": 1768855224
+  },
+  {
+    "market": "Will the price of Bitcoin be less than $84,000 on January 20?",
+    "market_slug": "will-the-price-of-bitcoin-be-less-than-84000-on-january-20",
+    "wallet": "0x4a74dcb34cc298c889c9eb6af3224bcb33eb0e58",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,000)"
+      ],
+      "amount": 1000.0,
+      "odds": 0.999000000000999,
+      "wallet_age_days": 0,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-19T20:53:14.235453",
+    "trade_hash": "0xafa9165664a61fb94937e77776291b72bfdf41a34e77b9ab9d10485daaa2375c",
+    "trade_timestamp": 1768855882
+  },
+  {
+    "market": "Bucks vs. Hawks",
+    "market_slug": "nba-mil-atl-2026-01-19",
+    "wallet": "0x33e6ded3ed442475d0de2a3ed831d1cba572e300",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,081)"
+      ],
+      "amount": 2081.24667,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 75
+    },
+    "timestamp": "2026-01-19T20:53:27.693192",
+    "trade_hash": "0xa58045099f2681d0ff30e40ea045fd0d64c445cd90727794708ca6887891164b",
+    "trade_timestamp": 1768855770
   }
 ]
