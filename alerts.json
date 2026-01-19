@@ -11263,5 +11263,45 @@
     "timestamp": "2026-01-19T21:53:07.859850",
     "trade_hash": "0x2e3438e4f7f1ace0adae7d31daa83cb28a5c6b487b8400411c51f7aadc81770f",
     "trade_timestamp": 1768859436
+  },
+  {
+    "market": "Will Everton win the 2025\u201326 English Premier League?",
+    "market_slug": "will-everton-win-the-202526-english-premier-league",
+    "wallet": "0x392d8a3f8a680c4b48c1c12a3aea57333afd4c2c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,196)"
+      ],
+      "amount": 1195.6738599999999,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-19T21:59:20.751783",
+    "trade_hash": "0x7c0eac0ed40f88a38c601038e2c35d58670d1bd2a6840e4727051d06b8f58174",
+    "trade_timestamp": 1768859804
+  },
+  {
+    "market": "Will the price of Solana be above $110 on January 20?",
+    "market_slug": "solana-above-110-on-january-20",
+    "wallet": "0x883a1ae9f86768ee7fa043c4e808ee90ae1d5431",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,125)"
+      ],
+      "amount": 1125.249624,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 54
+    },
+    "timestamp": "2026-01-19T21:59:23.708496",
+    "trade_hash": "0x72775532e4010d5a187687a2663ec0369cf4298a55cb221424d268b0c831802c",
+    "trade_timestamp": 1768859780
   }
 ]
