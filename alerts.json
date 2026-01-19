@@ -11202,5 +11202,46 @@
     "timestamp": "2026-01-19T20:53:27.693192",
     "trade_hash": "0xa58045099f2681d0ff30e40ea045fd0d64c445cd90727794708ca6887891164b",
     "trade_timestamp": 1768855770
+  },
+  {
+    "market": "Will Como 1907 win on 2026-01-19?",
+    "market_slug": "sea-laz-com-2026-01-19-com",
+    "wallet": "0x1cf505b10a72e2addffdd500e2d04b0c8bf5fa4d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,536)"
+      ],
+      "amount": 1536.209875,
+      "odds": 0.9959939574248061,
+      "wallet_age_days": 1,
+      "total_activities": 69
+    },
+    "timestamp": "2026-01-19T21:18:31.536631",
+    "trade_hash": "0xe0219791174dedd5943ad6fbc0b9eabd527e6868488cee3777f5b2b31a636330",
+    "trade_timestamp": 1768857338
+  },
+  {
+    "market": "Will Liz Cheney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-liz-cheney-win-the-2028-democratic-presidential-nomination-551",
+    "wallet": "0xf5755efe9b512d1d12c93bfd57171e7605600791",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,087)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1086.62092,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-19T21:18:38.884584",
+    "trade_hash": "0xd7574d262e1d98db1c452196d52c03f54e54bfa86ad02c150b3ff36d831cc2e0",
+    "trade_timestamp": 1768857272
   }
 ]
