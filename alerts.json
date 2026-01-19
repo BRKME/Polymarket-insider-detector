@@ -9567,5 +9567,25 @@
     "timestamp": "2026-01-19T03:20:07.993510",
     "trade_hash": "0x70b77d8cf1f4ed8abc31d2e4b51a24b0391dd3cd7ba54cfcb59a58eab82e71a7",
     "trade_timestamp": 1768792346
+  },
+  {
+    "market": "Will Bitcoin dip to $90,000 January 12-18?",
+    "market_slug": "will-bitcoin-dip-to-90k-january-12-18",
+    "wallet": "0x048d9ffa37b9f7413d501f98b9f6e26c4efa9c36",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,203)"
+      ],
+      "amount": 1202.97337,
+      "odds": 0.9983181493775933,
+      "wallet_age_days": 2,
+      "total_activities": 93
+    },
+    "timestamp": "2026-01-19T04:31:27.564328",
+    "trade_hash": "0xd7940ef8028ac0508dda7efdf5356cb87cef38b2bc250ca0dc0a7d5919f56a89",
+    "trade_timestamp": 1768797006
   }
 ]
