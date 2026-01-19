@@ -11081,5 +11081,25 @@
     "timestamp": "2026-01-19T19:25:15.363312",
     "trade_hash": "0xc363c536c2c4d8c2d4789a8aa6a3e2f565a5a8aa7d74e13b995ab36f6b650e0c",
     "trade_timestamp": 1768850466
+  },
+  {
+    "market": "LoL: Team Heretics vs GIANTX (BO1)",
+    "market_slug": "lol-th-gx-2026-01-19",
+    "wallet": "0x5a3c2e8e5e4dea3e41dea2916a34327dbd3238d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,092)"
+      ],
+      "amount": 1091.907,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 94
+    },
+    "timestamp": "2026-01-19T20:21:43.644484",
+    "trade_hash": "0xfc9d5cdbce30d334f23d346855cf34207c14b24bdea69bbffd6eeb9dc4c8de7d",
+    "trade_timestamp": 1768853840
   }
 ]
