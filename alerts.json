@@ -10068,5 +10068,65 @@
     "timestamp": "2026-01-19T07:38:41.575089",
     "trade_hash": "0xc7983599918c09e3f6f0a2f76b553e93e85f640bd3766b95e8d732fccd60501a",
     "trade_timestamp": 1768808032
+  },
+  {
+    "market": "Will Alphabet be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x326e864f18cee73bac75ee1fabbc5c8a37541143",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($1,068)"
+      ],
+      "amount": 1068.1,
+      "odds": 0.971,
+      "wallet_age_days": 0,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-19T07:53:10.220823",
+    "trade_hash": "0x7f4318649a25d9836f3ac6ca5b809343d8bd0a9446143e9854a71bf07da15885",
+    "trade_timestamp": 1768809090
+  },
+  {
+    "market": "Will Alphabet be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x3744101f17bf2f15ae8b3bfedd627d5a7c0f8212",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($1,456)"
+      ],
+      "amount": 1456.5,
+      "odds": 0.971,
+      "wallet_age_days": 0,
+      "total_activities": 79
+    },
+    "timestamp": "2026-01-19T07:53:12.608183",
+    "trade_hash": "0x9e9ce8ef614e97788aa3928eb6016d9fe3908e970f68de611811fffb7276e7e0",
+    "trade_timestamp": 1768809062
+  },
+  {
+    "market": "Will Alphabet be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0xbc0b46528a8c795750c97df66974d4c8da4aea0d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($2,525)"
+      ],
+      "amount": 2524.6,
+      "odds": 0.971,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-19T07:53:14.928119",
+    "trade_hash": "0x721a92ceaa2b2df54559bbdd0b88840e58d15db2ee218cf58e70f247de10a608",
+    "trade_timestamp": 1768809004
   }
 ]
