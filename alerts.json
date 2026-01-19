@@ -10637,5 +10637,45 @@
     "timestamp": "2026-01-19T11:34:37.157311",
     "trade_hash": "0x80a70efbf07e27cf29d1a3c46109d530502b5693a2230dcd91ee6d69e875c91d",
     "trade_timestamp": 1768822230
+  },
+  {
+    "market": "No change in Fed interest rates after January 2026 meeting?",
+    "market_slug": "no-change-in-fed-interest-rates-after-january-2026-meeting",
+    "wallet": "0x750d5c5548cf121ca1f85379f39193c68e1fe4ef",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($1,157)"
+      ],
+      "amount": 1156.50584,
+      "odds": 0.961,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-01-19T11:47:59.036246",
+    "trade_hash": "0x92ffd22a4b5a33e93a481bafd98e4bb5c484df18be3fb3c2e45eaaf81b01734f",
+    "trade_timestamp": 1768823052
+  },
+  {
+    "market": "Will Elon Musk post 20-39 tweets from January 20 to January 27, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-20-january-27-20-39",
+    "wallet": "0x13bd9529931bb4012264056823328b4488d91678",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,939)"
+      ],
+      "amount": 2939.239818,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-19T11:48:09.830454",
+    "trade_hash": "0x50a934462f29d0fe15688b9195711f62803f41a177cad311540b2cc76c220eeb",
+    "trade_timestamp": 1768822990
   }
 ]
