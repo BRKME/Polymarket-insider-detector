@@ -9507,5 +9507,65 @@
     "timestamp": "2026-01-19T01:11:58.754652",
     "trade_hash": "0xf75ce9ae53a3ab3faf78b827bbc642eddb56926b7482f4a88a939c4fb69b6af9",
     "trade_timestamp": 1768784854
+  },
+  {
+    "market": "Rams vs. Bears",
+    "market_slug": "nfl-la-chi-2026-01-18",
+    "wallet": "0x62a1ba2b73246e8ca9c5be13b47a75178b3ebbec",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,574)"
+      ],
+      "amount": 1573.69473,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 13
+    },
+    "timestamp": "2026-01-19T03:17:03.238310",
+    "trade_hash": "0xc180196f6b1bb6b7e8948c8d5cc60696d723358a2643acad960fef17b4970fe5",
+    "trade_timestamp": 1768792488
+  },
+  {
+    "market": "Will the price of Bitcoin be above $96,000 on January 19?",
+    "market_slug": "bitcoin-above-96k-on-january-19",
+    "wallet": "0xdcc7ea6eaf6e6c04f0acab5bd097c49aea1787fc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($1,018)"
+      ],
+      "amount": 1017.64,
+      "odds": 0.988,
+      "wallet_age_days": 1,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-19T03:17:03.964191",
+    "trade_hash": "0x7d8fc53ab0ede8acd231f9475db72ac74bb127e981b6693b7cd8e42c371115a7",
+    "trade_timestamp": 1768792486
+  },
+  {
+    "market": "Will the price of Bitcoin be between $100,000 and $102,000 on January 19?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-100000-102000-on-january-19",
+    "wallet": "0xdd8b99109fc5d3631b486eace8e673be68c8fa51",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,042)"
+      ],
+      "amount": 1041.957,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T03:20:07.993510",
+    "trade_hash": "0x70b77d8cf1f4ed8abc31d2e4b51a24b0391dd3cd7ba54cfcb59a58eab82e71a7",
+    "trade_timestamp": 1768792346
   }
 ]
