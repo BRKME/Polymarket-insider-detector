@@ -10797,5 +10797,25 @@
     "timestamp": "2026-01-19T13:14:47.038050",
     "trade_hash": "0x929d1f43ff37ca210523eca459a2a7eeda1bf571e5fb0a6f4057584588bcf341",
     "trade_timestamp": 1768828286
+  },
+  {
+    "market": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+    "market_slug": "will-kristi-noem-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xbe03c9c560cdc9fa2e7ca9cb23a5de06f6a21bfe",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,244)"
+      ],
+      "amount": 1243.8299490000002,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 92
+    },
+    "timestamp": "2026-01-19T14:16:53.725954",
+    "trade_hash": "0xc169271247ed7e9c5a28b6f379be9f5f97b0b9b2aa4a593fbdbaab8eabce41eb",
+    "trade_timestamp": 1768832120
   }
 ]
