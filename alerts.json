@@ -11303,5 +11303,25 @@
     "timestamp": "2026-01-19T21:59:23.708496",
     "trade_hash": "0x72775532e4010d5a187687a2663ec0369cf4298a55cb221424d268b0c831802c",
     "trade_timestamp": 1768859780
+  },
+  {
+    "market": "Will Kim Kardashian win the 2028 US Presidential Election?",
+    "market_slug": "will-kim-kardashian-win-the-2028-us-presidential-election",
+    "wallet": "0x77a16d7136f6323fe8e815cbe064281d1927489b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,009)"
+      ],
+      "amount": 1008.7099919999999,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 89
+    },
+    "timestamp": "2026-01-19T22:20:13.684549",
+    "trade_hash": "0x619e2b30fd097ede8987bcfb70af387dd10108979a3f4bcbc3d826fe0e14a992",
+    "trade_timestamp": 1768861060
   }
 ]
