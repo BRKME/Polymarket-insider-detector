@@ -10309,5 +10309,109 @@
     "timestamp": "2026-01-19T08:37:59.079167",
     "trade_hash": "0x49411709eda8d87c1c79874ac0530a5b5f924d84e73a6bce20d5f01299147d64",
     "trade_timestamp": 1768811610
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0xc4207633a963025aef18192bbc9c2516dcdd6c19",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($5,028)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5027.999998,
+      "odds": 0.9969999998336351,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-19T09:02:17.833127",
+    "trade_hash": "0xc31b8767750f536dd9eb06b3fe8450770441904072c53034642fcc930e6f5cc7",
+    "trade_timestamp": 1768813282
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x49d84859b0cd24e10bf6827995cd2318a72f862f",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($5,024)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5023.999997999999,
+      "odds": 0.9969999998120702,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-19T09:02:18.558891",
+    "trade_hash": "0x5e054b2b1a4a2557e4556b579658b76d8fe59e504e3d903bdc80e4ca9f56f459",
+    "trade_timestamp": 1768813280
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0x361e24cbca55ae243a17ca9aaf6c02546638a979",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,022)"
+      ],
+      "amount": 5021.999973,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-19T09:02:22.915706",
+    "trade_hash": "0xe48dc17f6af1d154b4172613b70d7d3de44c41a5444886cc5a2202d3637df3d1",
+    "trade_timestamp": 1768813240
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0x0d391cab7446078b9cfe1840e1f5936b8160c690",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,025)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5024.99997,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-19T09:02:39.973185",
+    "trade_hash": "0x22a380aceb6d84f90fadcf27b538143c6432e1c5f40e25438991c6911f8f3456",
+    "trade_timestamp": 1768813186
+  },
+  {
+    "market": "Fed increases interest rates by 25+ bps after January 2026 meeting?",
+    "market_slug": "fed-increases-interest-rates-by-25-bps-after-january-2026-meeting",
+    "wallet": "0xc3c0cd91f2ee841e04e831bf88c3b94d9b2e7ec7",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,024)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5023.999971,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-19T09:02:40.690157",
+    "trade_hash": "0x26c57691f5cb0450535a0f1f5d873469d410c85ca54fd4752adacebcc2ba1cb0",
+    "trade_timestamp": 1768813184
   }
 ]
