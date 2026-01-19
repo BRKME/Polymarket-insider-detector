@@ -11363,5 +11363,25 @@
     "timestamp": "2026-01-19T22:53:31.739808",
     "trade_hash": "0x7beabc08c43bdd38781b03f59008aec89b35398a1ec95f2f52dc6d69184d460d",
     "trade_timestamp": 1768863100
+  },
+  {
+    "market": "Will Andr\u00e9 Ventura win the 2026 Portugal presidential election?",
+    "market_slug": "will-andr-ventura-win-the-2026-portugal-presidential-election",
+    "wallet": "0x03125677799307ad89f04f7289be36d5d3459f6b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.2% odds)",
+        "Large bet ($3,094)"
+      ],
+      "amount": 3094.42692,
+      "odds": 0.962,
+      "wallet_age_days": 0,
+      "total_activities": 11
+    },
+    "timestamp": "2026-01-19T23:36:55.772772",
+    "trade_hash": "0x207cbcef0dd2f79f7b157435f7b5f4f6a6bbc883e8552105649141e51a9e96ea",
+    "trade_timestamp": 1768865746
   }
 ]
