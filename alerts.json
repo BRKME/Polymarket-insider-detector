@@ -10228,5 +10228,86 @@
     "timestamp": "2026-01-19T08:01:40.489683",
     "trade_hash": "0x3897350e579889072fbfbe3e7dbe6b52491cccc9ac6709251fe03efb2dabdb53",
     "trade_timestamp": 1768809394
+  },
+  {
+    "market": "Will the price of Bitcoin be above $84,000 on January 19?",
+    "market_slug": "bitcoin-above-84k-on-january-19",
+    "wallet": "0x0c30fbbed89853d72c5e7fa69992e022a8b6eeca",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,245)"
+      ],
+      "amount": 3244.859892,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 75
+    },
+    "timestamp": "2026-01-19T08:37:50.923131",
+    "trade_hash": "0x51885482b3e7e10085347f44d8ce02e1722a0a22df25b19255b7c834e94a1eeb",
+    "trade_timestamp": 1768811736
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x27a1620c2c6803447700d42038d3b2ceb7e28426",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.7% odds)",
+        "Large bet ($5,200)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5199.99348,
+      "odds": 0.957,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-19T08:37:52.384624",
+    "trade_hash": "0x883c8572617511e2b339037908f600868b1a399b92e1abe55a51aa810edb2d7f",
+    "trade_timestamp": 1768811786
+  },
+  {
+    "market": "Will Elon Musk post 460-479 tweets from January 13 to January 20, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-13-january-20-460-479",
+    "wallet": "0x1dc6c4fb22a2bc20c85921eb552f607e5dd67db4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,517)"
+      ],
+      "amount": 3517.451,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 54
+    },
+    "timestamp": "2026-01-19T08:37:56.854726",
+    "trade_hash": "0xd0738e6cd24b6986d7daad9d9b905d74bb8ba2704e66035d2845e4a72e414956",
+    "trade_timestamp": 1768811686
+  },
+  {
+    "market": "Will Everton win the 2025\u201326 English Premier League?",
+    "market_slug": "will-everton-win-the-202526-english-premier-league",
+    "wallet": "0x93ac37db82d70bc52768f43f4db7926f7cf096d4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,670)"
+      ],
+      "amount": 5669.999325,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 34
+    },
+    "timestamp": "2026-01-19T08:37:59.079167",
+    "trade_hash": "0x49411709eda8d87c1c79874ac0530a5b5f924d84e73a6bce20d5f01299147d64",
+    "trade_timestamp": 1768811610
   }
 ]
