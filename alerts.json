@@ -11101,5 +11101,66 @@
     "timestamp": "2026-01-19T20:21:43.644484",
     "trade_hash": "0xfc9d5cdbce30d334f23d346855cf34207c14b24bdea69bbffd6eeb9dc4c8de7d",
     "trade_timestamp": 1768853840
+  },
+  {
+    "market": "Bucks vs. Hawks",
+    "market_slug": "nba-mil-atl-2026-01-19",
+    "wallet": "0xbcb8f8415c5a5702ee5736fd61687b0f44a63058",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,476)"
+      ],
+      "amount": 4475.709809999999,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-19T20:41:51.347688",
+    "trade_hash": "0x69a824d4a1cd819c7f5665b3b89bf5b4beb9ba9dc21e8f32e3527f8f96657049",
+    "trade_timestamp": 1768855264
+  },
+  {
+    "market": "Will Trove launch a token by March 31, 2026?",
+    "market_slug": "will-trove-launch-a-token-by-march-31-2026",
+    "wallet": "0x6a0de14caac20d6e6aff57528cc1d917b49d1a09",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,167)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1166.8039399999998,
+      "odds": 0.9988904545843678,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-19T20:41:52.102067",
+    "trade_hash": "0x67ebdd120678113b2341d57a1984f20d8e8cb5c66e619247213932e79c3c8747",
+    "trade_timestamp": 1768855262
+  },
+  {
+    "market": "Bucks vs. Hawks",
+    "market_slug": "nba-mil-atl-2026-01-19",
+    "wallet": "0x13de175e181741c70dedfa1efafb551017befb75",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,156)"
+      ],
+      "amount": 1156.4723700000002,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 43
+    },
+    "timestamp": "2026-01-19T20:41:55.726098",
+    "trade_hash": "0xf7f36b49cf605e8bccc51e6cf15c35e7784f52e8d4e7f2ebe2846960d5744566",
+    "trade_timestamp": 1768855224
   }
 ]
