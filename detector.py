@@ -1,6 +1,6 @@
 from datetime import datetime
 from collector import get_active_markets, get_recent_trades_paginated, get_wallet_activity, get_market_by_condition_id
-from analyzer import calculate_score
+from analyzer import calculate_score, should_skip_alert
 from config import ALERT_THRESHOLD, MIN_BET_SIZE
 
 def detect_insider_trades():
@@ -35,6 +35,7 @@ def detect_insider_trades():
         filtered_no_wallet = 0
         filtered_no_condition = 0
         filtered_no_market = 0
+        filtered_by_rules = 0  # NEW: filtered by should_skip_alert
         error_count = 0
         
         for idx, trade in enumerate(trades):
@@ -69,12 +70,12 @@ def detect_insider_trades():
                 # Find market
                 market = get_market_by_condition_id(condition_id, markets)
                 if not market:
-                    # Use trade data as fallback
+                    # FIX BUG #5: Use trade data as fallback WITH endDate
                     market = {
                         "question": trade.get("title", "Unknown market"),
                         "slug": trade.get("slug", ""),
                         "conditionId": condition_id,
-                        "endDate": None
+                        "endDate": trade.get("endDate")  # ← FIXED: was None before
                     }
                     filtered_no_market += 1
                 
@@ -102,17 +103,31 @@ def detect_insider_trades():
                 
                 # Check if alert threshold met
                 if analysis["score"] >= ALERT_THRESHOLD:
-                    alert = {
-                        "market": market.get("question"),
-                        "market_slug": market.get("slug"),
-                        "wallet": wallet_address,
-                        "analysis": analysis,
-                        "timestamp": datetime.now().isoformat(),
-                        "trade_hash": trade.get("transactionHash", ""),
-                        "trade_timestamp": trade.get("timestamp")
-                    }
-                    alerts.append(alert)
-                    print(f"  🚨 ALERT! Score {analysis['score']} >= {ALERT_THRESHOLD}")
+                    # NEW: Apply filters before alerting
+                    should_skip, skip_reason = should_skip_alert(
+                        market_question=market.get("question", ""),
+                        wallet_age_days=analysis['wallet_age_days'],
+                        odds=analysis['odds'],
+                        total_activities=analysis['total_activities'],
+                        end_date_str=market.get("endDate")
+                    )
+                    
+                    if should_skip:
+                        filtered_by_rules += 1
+                        print(f"  🚫 FILTERED: {skip_reason}")
+                        print(f"     (Score was {analysis['score']} >= {ALERT_THRESHOLD}, but filtered out)")
+                    else:
+                        alert = {
+                            "market": market.get("question"),
+                            "market_slug": market.get("slug"),
+                            "wallet": wallet_address,
+                            "analysis": analysis,
+                            "timestamp": datetime.now().isoformat(),
+                            "trade_hash": trade.get("transactionHash", ""),
+                            "trade_timestamp": trade.get("timestamp")
+                        }
+                        alerts.append(alert)
+                        print(f"  🚨 ALERT! Score {analysis['score']} >= {ALERT_THRESHOLD}")
                 else:
                     print(f"  ✓ Below threshold ({analysis['score']} < {ALERT_THRESHOLD})")
                 
@@ -140,6 +155,7 @@ def detect_insider_trades():
         print(f"[{datetime.now()}]   - No wallet address: {filtered_no_wallet}")
         print(f"[{datetime.now()}]   - No condition ID: {filtered_no_condition}")
         print(f"[{datetime.now()}]   - Market not found: {filtered_no_market}")
+        print(f"[{datetime.now()}]   - Arbitrage/Short-term/Absurd: {filtered_by_rules}")  # NEW
         print(f"[{datetime.now()}] ")
         print(f"[{datetime.now()}] Errors encountered: {error_count}")
         print(f"[{datetime.now()}] Alerts generated: {len(alerts)}")
