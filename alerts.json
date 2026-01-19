@@ -11041,5 +11041,45 @@
     "timestamp": "2026-01-19T19:02:30.443073",
     "trade_hash": "0xe875ff67ea5d0fe8d1159687ac872a30b1f6f5f9092da306db8ec70ebac46162",
     "trade_timestamp": 1768849248
+  },
+  {
+    "market": "LoL: Team Heretics vs GIANTX (BO1)",
+    "market_slug": "lol-th-gx-2026-01-19",
+    "wallet": "0x684299e6ac5595ff7f78f1f1edc97e77fea420d0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,858)"
+      ],
+      "amount": 1857.5696,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 74
+    },
+    "timestamp": "2026-01-19T19:25:14.676930",
+    "trade_hash": "0x3cb947d4ed35b5133c588865660e4e6ac6174e16aa711bacd0998fc6840cc421",
+    "trade_timestamp": 1768850468
+  },
+  {
+    "market": "Counter-Strike: Team Nemesis vs FORZE Reload - Map 1 Winner",
+    "market_slug": "cs2-nem-forzer-2026-01-19-game1",
+    "wallet": "0x9187e0753f5d9bff3d943115a2aecb3bb7b5b2e1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,122)"
+      ],
+      "amount": 1121.64723,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-19T19:25:15.363312",
+    "trade_hash": "0xc363c536c2c4d8c2d4789a8aa6a3e2f565a5a8aa7d74e13b995ab36f6b650e0c",
+    "trade_timestamp": 1768850466
   }
 ]
