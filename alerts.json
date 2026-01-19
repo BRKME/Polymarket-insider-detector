@@ -10757,5 +10757,45 @@
     "timestamp": "2026-01-19T12:22:22.873013",
     "trade_hash": "0xc3c727399fc5540b385d12a484abb26636d9453f7a7d35fee12b168994f94204",
     "trade_timestamp": 1768825110
+  },
+  {
+    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
+    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
+    "wallet": "0x59bc71ad52e3ab24bfbabc648f8ae907023b83b8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (7.0% odds)",
+        "Large bet ($1,932)"
+      ],
+      "amount": 1932.0000000000002,
+      "odds": 0.07,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-19T13:14:38.858066",
+    "trade_hash": "0x5289a563cfc935dff53441bc3c7ee8106feac08471ecb5392dea662d91ec0f27",
+    "trade_timestamp": 1768828414
+  },
+  {
+    "market": "Will Microstrategy announce a Bitcoin purchase January 13-19?",
+    "market_slug": "will-microstrategy-announce-a-bitcoin-purchase-january-13-19",
+    "wallet": "0x150cdb452af4fac407828b8b70240ef1fa25add3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($1,852)"
+      ],
+      "amount": 1852.35772,
+      "odds": 0.9800678931022259,
+      "wallet_age_days": 0,
+      "total_activities": 55
+    },
+    "timestamp": "2026-01-19T13:14:47.038050",
+    "trade_hash": "0x929d1f43ff37ca210523eca459a2a7eeda1bf571e5fb0a6f4057584588bcf341",
+    "trade_timestamp": 1768828286
   }
 ]
