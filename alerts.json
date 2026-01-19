@@ -10960,5 +10960,26 @@
     "timestamp": "2026-01-19T16:02:20.877817",
     "trade_hash": "0xb143fa3c50a2963d6af169388ffcb82b43fad0f60c1b101218c58527078ac368",
     "trade_timestamp": 1768838248
+  },
+  {
+    "market": "Will the price of Bitcoin be above $100,000 on January 21?",
+    "market_slug": "bitcoin-above-100k-on-january-21",
+    "wallet": "0xaa3a1a300c591311c1451fdd06cb43434ede8197",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($2,970)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 2970.0,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-19T17:45:13.289516",
+    "trade_hash": "0x090cca4ead5ed5d7c8588210e37aea3abac728de3142b22e3c1406697597e200",
+    "trade_timestamp": 1768844528
   }
 ]
