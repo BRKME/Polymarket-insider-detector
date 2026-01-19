@@ -10048,5 +10048,25 @@
     "timestamp": "2026-01-19T07:05:47.005512",
     "trade_hash": "0xe62ebd9c56e624410f006bd71dc895c77bc147936f74ebaf4b37f3befb1ba85d",
     "trade_timestamp": 1768806112
+  },
+  {
+    "market": "Will Tom Brady win the 2028 Republican presidential nomination?",
+    "market_slug": "will-tom-brady-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x37ee145d7d46c49b01ba1f2a6f0f8b3ecf8ff720",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,488)"
+      ],
+      "amount": 1487.68998,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 30
+    },
+    "timestamp": "2026-01-19T07:38:41.575089",
+    "trade_hash": "0xc7983599918c09e3f6f0a2f76b553e93e85f640bd3766b95e8d732fccd60501a",
+    "trade_timestamp": 1768808032
   }
 ]
