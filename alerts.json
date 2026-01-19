@@ -9647,5 +9647,165 @@
     "timestamp": "2026-01-19T05:43:05.577754",
     "trade_hash": "0x7145610525b6f4767f6bde48aee6db4d90e7e668821c7196bf24a390f3377379",
     "trade_timestamp": 1768801096
+  },
+  {
+    "market": "Fed decreases interest rates by 50+ bps after January 2026 meeting?",
+    "market_slug": "fed-decreases-interest-rates-by-50-bps-after-january-2026-meeting",
+    "wallet": "0x57cde0e21b7c04616fa0851b9780a120ba71e6f4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,020)"
+      ],
+      "amount": 1019.999912,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 87
+    },
+    "timestamp": "2026-01-19T05:58:52.802287",
+    "trade_hash": "0xa20bd70a4dbdcb3c91e55fe9bd24976cb146d576808385826ea0f9b75c200bd0",
+    "trade_timestamp": 1768802244
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0xaa8ac1093f233e9a014926c1b193ce109498851d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,002)"
+      ],
+      "amount": 1002.0285,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:58:55.054680",
+    "trade_hash": "0x5d34bce6086ee8c4a552edad17a144c55d6bccee6217e9bab434fd1c66ee6315",
+    "trade_timestamp": 1768802168
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0x99197db976c43bea79d808461b68129ac34b1318",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,033)"
+      ],
+      "amount": 1032.8571,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:58:55.745463",
+    "trade_hash": "0x75894c7242e72d7c9e139ab52c7fb9082840a8fce893aa985db3d53430db24ee",
+    "trade_timestamp": 1768802164
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0xa405e239122f04212294a824d012c382f5308240",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,036)"
+      ],
+      "amount": 1036.2528,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:58:57.267345",
+    "trade_hash": "0xa9e7b83e65152e9d948ef1bbbeb01dadc2e37e3fca8f4c633308ec1252998b36",
+    "trade_timestamp": 1768802152
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0xeb36420bca09fe166b61bb800f042efe4e1aaa90",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,044)"
+      ],
+      "amount": 1043.7668999999999,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:58:57.936518",
+    "trade_hash": "0x7586bc3453b794488401da28305e30fe6265849beed8722195c8462cfcad8cfa",
+    "trade_timestamp": 1768802148
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0xeae0c34ff762b9bba793adf0ed5cc45f12d336c6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,018)"
+      ],
+      "amount": 1018.215,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:59:02.833901",
+    "trade_hash": "0xacb6ec944e3e207552d9f15170cf2664e880b95b0a1b92e9dfa0afd5168bae7e",
+    "trade_timestamp": 1768802136
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0x75caa6aad9db3f5e4d029bff939ca7c279fc1a5b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,025)"
+      ],
+      "amount": 1025.0064,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:59:04.325309",
+    "trade_hash": "0x0a3c0a23e4281f6295cd451404eeefb1ff9dcd39cbe024e463e4e9e8612431fc",
+    "trade_timestamp": 1768802132
+  },
+  {
+    "market": "Will Vivek Ramaswamy win the 2028 US Presidential Election?",
+    "market_slug": "will-vivek-ramaswamy-win-the-2028-us-presidential-election",
+    "wallet": "0x51e56aaf796a8bb4c1a28c0f7e87d84738432b22",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,046)"
+      ],
+      "amount": 1046.2814999999998,
+      "odds": 0.99,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-19T05:59:05.714195",
+    "trade_hash": "0xea78ba44518f7f0a1a5e865f419aa8aa999f6b59c85e83e70e9aca9150f6f113",
+    "trade_timestamp": 1768802120
   }
 ]
