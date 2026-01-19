@@ -11323,5 +11323,25 @@
     "timestamp": "2026-01-19T22:20:13.684549",
     "trade_hash": "0x619e2b30fd097ede8987bcfb70af387dd10108979a3f4bcbc3d826fe0e14a992",
     "trade_timestamp": 1768861060
+  },
+  {
+    "market": "Clippers vs. Wizards",
+    "market_slug": "nba-lac-was-2026-01-19",
+    "wallet": "0xf30a3dfbea1988cdf8f951385e4d71025b660fa4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,829)"
+      ],
+      "amount": 4828.83633,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 95
+    },
+    "timestamp": "2026-01-19T22:41:55.412385",
+    "trade_hash": "0xaeb917054c1fc70d8fc02646caf1e29a1573d3d1af39b1fc42e83ba0bae3e89d",
+    "trade_timestamp": 1768862366
   }
 ]
