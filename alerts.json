@@ -9807,5 +9807,65 @@
     "timestamp": "2026-01-19T05:59:05.714195",
     "trade_hash": "0xea78ba44518f7f0a1a5e865f419aa8aa999f6b59c85e83e70e9aca9150f6f113",
     "trade_timestamp": 1768802120
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 19?",
+    "market_slug": "ethereum-above-3400-on-january-19",
+    "wallet": "0x7e5f6526801318d21e88fa8f96db58099052305b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,006)"
+      ],
+      "amount": 1005.96,
+      "odds": 0.996,
+      "wallet_age_days": 2,
+      "total_activities": 14
+    },
+    "timestamp": "2026-01-19T06:35:17.365919",
+    "trade_hash": "0x84bb35a82e87104762a5e77e67468d792ac5eecc5348cc928d793e2f81e31fa2",
+    "trade_timestamp": 1768804408
+  },
+  {
+    "market": "Will the price of Bitcoin be above $86,000 on January 19?",
+    "market_slug": "bitcoin-above-86k-on-january-19",
+    "wallet": "0xe54e9cb5d77cffdd53026f75603f8c319f14ed13",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,029)"
+      ],
+      "amount": 1028.97,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 46
+    },
+    "timestamp": "2026-01-19T06:35:31.381156",
+    "trade_hash": "0xc795534e7abea31ba56744c9c2cf0dc2c7c1c34f4bda6947f48a0d0fd9665f76",
+    "trade_timestamp": 1768804260
+  },
+  {
+    "market": "Will the International Court of Justice win the Nobel Peace Prize in 2026?",
+    "market_slug": "will-the-international-court-of-justice-win-the-nobel-peace-prize-in-2026-885",
+    "wallet": "0x6036334bff0afc315433d5f30b22c53fd60ae6c6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.4% odds)",
+        "Large bet ($1,044)"
+      ],
+      "amount": 1044.012,
+      "odds": 0.964,
+      "wallet_age_days": 0,
+      "total_activities": 63
+    },
+    "timestamp": "2026-01-19T06:35:48.817955",
+    "trade_hash": "0x9a633803d028dfba9a4a895d1708d325c3873fc60c7234e37749f513d083a2d4",
+    "trade_timestamp": 1768804256
   }
 ]
