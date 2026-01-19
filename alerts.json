@@ -10817,5 +10817,88 @@
     "timestamp": "2026-01-19T14:16:53.725954",
     "trade_hash": "0xc169271247ed7e9c5a28b6f379be9f5f97b0b9b2aa4a593fbdbaab8eabce41eb",
     "trade_timestamp": 1768832120
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 19?",
+    "market_slug": "ethereum-above-3400-on-january-19",
+    "wallet": "0x71526e9c16d7bba621fc3df606ecccedf5296284",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,008)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1007.98,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-19T15:01:55.667805",
+    "trade_hash": "0x5c6fce8c462522d62b13e384a8bb1ebebb0a6ef95e408cf3de6b2c42ac7358bc",
+    "trade_timestamp": 1768834802
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 19?",
+    "market_slug": "ethereum-above-3400-on-january-19",
+    "wallet": "0x9372a2a47d6a0c7822d1c708f242da12a6518737",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,008)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1007.98,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-19T15:01:57.983944",
+    "trade_hash": "0xf3d45b7e7c0147851f4bc09fb0f740bcfc54c4087bd0a53e20a607973eb91d2a",
+    "trade_timestamp": 1768834836
+  },
+  {
+    "market": "Will the Cleveland Cavaliers win the 2026 NBA Finals?",
+    "market_slug": "will-the-cleveland-cavaliers-win-the-2026-nba-finals",
+    "wallet": "0x8bdb3d197a3e1fc45764ed7abb844eda40742e91",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.6% odds)",
+        "Large bet ($1,207)"
+      ],
+      "amount": 1206.74652,
+      "odds": 0.966,
+      "wallet_age_days": 0,
+      "total_activities": 83
+    },
+    "timestamp": "2026-01-19T15:02:01.242554",
+    "trade_hash": "0x44ebe49a3146f995804fb5493fee2e3c430056bf3227f957ad85186297c296e3",
+    "trade_timestamp": 1768834724
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 19?",
+    "market_slug": "ethereum-above-3400-on-january-19",
+    "wallet": "0xa0f52819c4874a41575bcfc4edb374189e9a3610",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,008)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1007.98,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-19T15:02:13.642506",
+    "trade_hash": "0x855685f1ff6ed360525196dc94f3fac12d46e1cc229591aa628f88842ce7f61a",
+    "trade_timestamp": 1768834640
   }
 ]
