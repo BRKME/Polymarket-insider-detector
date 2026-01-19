@@ -10981,5 +10981,25 @@
     "timestamp": "2026-01-19T17:45:13.289516",
     "trade_hash": "0x090cca4ead5ed5d7c8588210e37aea3abac728de3142b22e3c1406697597e200",
     "trade_timestamp": 1768844528
+  },
+  {
+    "market": "Northeastern Huskies vs. Monmouth Hawks",
+    "market_slug": "cbb-neast-monm-2026-01-19",
+    "wallet": "0xb29aae4cee04a92358df448f4ad1c79ecca57199",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,854)"
+      ],
+      "amount": 2853.65349,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-19T17:55:33.524373",
+    "trade_hash": "0xca1592a257a2c7bb0cb6c524309998612e1765ff03bf7db7408b9c065658b44e",
+    "trade_timestamp": 1768845066
   }
 ]
