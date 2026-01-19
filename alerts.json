@@ -10597,5 +10597,45 @@
     "timestamp": "2026-01-19T11:14:01.257923",
     "trade_hash": "0x35f6f45f65fd2731c2c606b582bd8aebfca9e0c2e83aeb8916be2cbda5af481f",
     "trade_timestamp": 1768820926
+  },
+  {
+    "market": "Will the price of Bitcoin be between $86,000 and $88,000 on January 19?",
+    "market_slug": "will-the-price-of-bitcoin-be-between-86000-88000-on-january-19",
+    "wallet": "0x3d584a7a1378325b700205580ac3e123ad8b0b9f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($2,913)"
+      ],
+      "amount": 2912.96481,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-19T11:34:23.171230",
+    "trade_hash": "0x3652a5eff8d77b2125041d5d53f82ee2badfb5fb96730e3ff15268d660e974f5",
+    "trade_timestamp": 1768822366
+  },
+  {
+    "market": "Will XRP reach $2.80 in January?",
+    "market_slug": "will-xrp-reach-2pt8-in-january-2026",
+    "wallet": "0x5e1f42726653a1d86c59708a5b91824fba8befbc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.8% odds)",
+        "Large bet ($4,829)"
+      ],
+      "amount": 4828.79415,
+      "odds": 0.9675662437433125,
+      "wallet_age_days": 0,
+      "total_activities": 89
+    },
+    "timestamp": "2026-01-19T11:34:37.157311",
+    "trade_hash": "0x80a70efbf07e27cf29d1a3c46109d530502b5693a2230dcd91ee6d69e875c91d",
+    "trade_timestamp": 1768822230
   }
 ]
