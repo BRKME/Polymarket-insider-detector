@@ -9867,5 +9867,186 @@
     "timestamp": "2026-01-19T06:35:48.817955",
     "trade_hash": "0x9a633803d028dfba9a4a895d1708d325c3873fc60c7234e37749f513d083a2d4",
     "trade_timestamp": 1768804256
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x8b737dddc3ea6e411a54b97629ad8a0adc50a97a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,040)"
+      ],
+      "amount": 1039.6556,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-19T07:05:20.281868",
+    "trade_hash": "0xdac014389aea1b084b5f15a5d96d136e75af090b1256a4c96037121ece4957a8",
+    "trade_timestamp": 1768806176
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,400 on January 19?",
+    "market_slug": "ethereum-above-3400-on-january-19",
+    "wallet": "0xd6865ab2ffd913047c46b5611a58b684793fae2b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,007)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1006.97,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-19T07:05:23.572687",
+    "trade_hash": "0x271e9efacc768b6a32eaf55bb653496e4faa8e8d4dfa23efe7ca234e709b5393",
+    "trade_timestamp": 1768806158
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x2c1b2f8e0759f84a6e4a07e809d5515c95affc86",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,014)"
+      ],
+      "amount": 1014.13385,
+      "odds": 0.995,
+      "wallet_age_days": 2,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T07:05:25.096843",
+    "trade_hash": "0xd8a33c0665dbba22a4d8dbcefefa18f7f68189f49ae73663b162971acb7e0f98",
+    "trade_timestamp": 1768806156
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xc10e5420c1655b6b44b10e45ec18d2aa3751f062",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,042)"
+      ],
+      "amount": 1042.0038,
+      "odds": 0.995,
+      "wallet_age_days": 2,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T07:05:27.366269",
+    "trade_hash": "0x5c1bef8c96a024ce542724905cf34d8afbb64a3a7ea0acdd51820b34bf4911ce",
+    "trade_timestamp": 1768806152
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x373970374b1d9624c412e849d5ff36fb6c73d2ca",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,024)"
+      ],
+      "amount": 1023.7555000000001,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-19T07:05:28.145852",
+    "trade_hash": "0x2243477c3a1c069d29d8f61050bc432217debda5c9107e0be6675a43376d413e",
+    "trade_timestamp": 1768806148
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xe4e22e990f20abbabb56a6519470a6c632a52ea1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,001)"
+      ],
+      "amount": 1001.2088,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T07:05:37.628163",
+    "trade_hash": "0xb28cc74f178bf0f8f6e47acfefcdc0f4063d0238a7cc8416f9f1dd0c0f656360",
+    "trade_timestamp": 1768806142
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xe2989969c0065e3a506e89fa7cbdf2dd623d83fb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,018)"
+      ],
+      "amount": 1018.2432,
+      "odds": 0.995,
+      "wallet_age_days": 2,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-19T07:05:40.013847",
+    "trade_hash": "0x77861a62fb4c62caa8bc2cf012b57ff441b19baa818750ae8fc4bc5ce0176885",
+    "trade_timestamp": 1768806128
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x58709e9791128960d877c1cc3232ccf86375b0ed",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,018)"
+      ],
+      "amount": 1017.5069,
+      "odds": 0.995,
+      "wallet_age_days": 2,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T07:05:46.254003",
+    "trade_hash": "0x1914ea6607e7f645f0fec4f418b6c5d67152505d4c0d7e0efcd405a1690f285c",
+    "trade_timestamp": 1768806114
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x6358b1f763ef5ecac6e53eb518731ff0b780efdd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,027)"
+      ],
+      "amount": 1027.1385,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-19T07:05:47.005512",
+    "trade_hash": "0xe62ebd9c56e624410f006bd71dc895c77bc147936f74ebaf4b37f3befb1ba85d",
+    "trade_timestamp": 1768806112
   }
 ]
