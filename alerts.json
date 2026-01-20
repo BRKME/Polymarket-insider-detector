@@ -11744,5 +11744,66 @@
     "timestamp": "2026-01-20T09:57:35.320277",
     "trade_hash": "0x29fcf9af5438493b57f31a91350345a3acb539dc681f092eb206571c74d0b789",
     "trade_timestamp": 1768902944
+  },
+  {
+    "market": "Will Ethereum reach $4,600 in January?",
+    "market_slug": "will-ethereum-reach-4600-in-january-2026",
+    "wallet": "0x619e9e39d7586c6939a1688ff1d887656696f654",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($5,251)"
+      ],
+      "amount": 5251.117,
+      "odds": 0.9930251512859304,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-20T10:50:27.435919",
+    "trade_hash": "0x81603bab26ffbabde17e1e6e6fcaf11ad8451190fe9a0bd0044c3fcdab546115",
+    "trade_timestamp": 1768906106
+  },
+  {
+    "market": "Will Ethereum reach $4,600 in January?",
+    "market_slug": "will-ethereum-reach-4600-in-january-2026",
+    "wallet": "0xe6862e9b4d16a1f3849878e054434e63a3c1f92f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($5,113)"
+      ],
+      "amount": 5112.94707,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-20T10:50:34.276876",
+    "trade_hash": "0xb55d87e28fc0f41bb605459babfdf996fd1d708b634ce250a48204c4bc095fa1",
+    "trade_timestamp": 1768906046
+  },
+  {
+    "market": "Will Ethereum reach $4,600 in January?",
+    "market_slug": "will-ethereum-reach-4600-in-january-2026",
+    "wallet": "0x44f56002cab90d613c45054fe7f74454352c9d96",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($5,064)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 5064.3,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-20T10:50:35.743176",
+    "trade_hash": "0x50bf4ae816d3896cbb74b3972f7945cb955ff24b0d76b9e107c2a3cb205b584e",
+    "trade_timestamp": 1768905994
   }
 ]
