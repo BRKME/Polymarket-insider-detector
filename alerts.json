@@ -11603,5 +11603,45 @@
     "timestamp": "2026-01-20T06:36:24.094224",
     "trade_hash": "0xc01fd67f8e61a9fa66486766e0bd5e548ee7f497ad447a44404680d8800f399a",
     "trade_timestamp": 1768890846
+  },
+  {
+    "market": "Will ETHGAS launch a token by March 31, 2026?",
+    "market_slug": "will-ethgas-launch-a-token-by-march-31-2026",
+    "wallet": "0xdbc17eccb1c854ceac6167fd520416a2de0db478",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($2,500)"
+      ],
+      "amount": 2500.2360400000002,
+      "odds": 0.9962647742079447,
+      "wallet_age_days": 0,
+      "total_activities": 36
+    },
+    "timestamp": "2026-01-20T07:37:17.468672",
+    "trade_hash": "0xb38a78671d5cbcae5f81c5d5420fa733a977de3144ccb51377b54e9f21fae27f",
+    "trade_timestamp": 1768894484
+  },
+  {
+    "market": "Will Saudi Arabia win the 2026 FIFA World Cup?",
+    "market_slug": "will-saudi-arabia-win-the-2026-fifa-world-cup",
+    "wallet": "0x07b33a21456d50b5d4c5c429a4e115afb4c57d10",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,500)"
+      ],
+      "amount": 3499.999972,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 40
+    },
+    "timestamp": "2026-01-20T07:37:28.801711",
+    "trade_hash": "0x0f70ddfbd1403bd510b255f8e05b7f590e141a23144647e35bc9eb1d6c74079b",
+    "trade_timestamp": 1768894428
   }
 ]
