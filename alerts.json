@@ -12293,5 +12293,25 @@
     "timestamp": "2026-01-20T21:59:24.630665",
     "trade_hash": "0xfd9ca76d4e08aa455af2caafa5dfde6bf329565829882b35af976d15a22190f5",
     "trade_timestamp": 1768946206
+  },
+  {
+    "market": "Spread: Arsenal FC (-1.5)",
+    "market_slug": "ucl-int-ars1-2026-01-20-spread-away-1pt5",
+    "wallet": "0x57c86bc10e4ff014f2e3cdeb331b7158c6bae832",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,330)"
+      ],
+      "amount": 3329.99667,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 13
+    },
+    "timestamp": "2026-01-20T22:50:32.073403",
+    "trade_hash": "0x36761c90bc8de9f09ad87ccb3f1b26dbcb4d60bebc1f5f5665842947eb0b3268",
+    "trade_timestamp": 1768949254
   }
 ]
