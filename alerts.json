@@ -12273,5 +12273,25 @@
     "timestamp": "2026-01-20T21:53:19.811634",
     "trade_hash": "0x91eea8bd2871f416573b7f8ab3e111eb898a807f99a51f231d49104c34d356dc",
     "trade_timestamp": 1768945774
+  },
+  {
+    "market": "Villarreal CF vs. AFC Ajax: O/U 3.5",
+    "market_slug": "ucl-vil1-aja-2026-01-20-total-3pt5",
+    "wallet": "0xf6a6fc7bb8e6982ff8e9193c90b6dbce3497a6d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($2,305)"
+      ],
+      "amount": 2304.7398,
+      "odds": 0.99,
+      "wallet_age_days": 2,
+      "total_activities": 61
+    },
+    "timestamp": "2026-01-20T21:59:24.630665",
+    "trade_hash": "0xfd9ca76d4e08aa455af2caafa5dfde6bf329565829882b35af976d15a22190f5",
+    "trade_timestamp": 1768946206
   }
 ]
