@@ -11968,5 +11968,128 @@
     "timestamp": "2026-01-20T13:16:50.823803",
     "trade_hash": "0x797bed4a0c4eba249e40b5b0bc7cd91529455c98b0dcc59dfad1df45ad74598e",
     "trade_timestamp": 1768914724
+  },
+  {
+    "market": "Will Microsoft be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-microsoft-be-the-largest-company-in-the-world-by-market-cap-on-january-31-115",
+    "wallet": "0x6eea557c1d0a3775f2f83a74dd02a99ee92d8f1b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,040)"
+      ],
+      "amount": 1039.999959,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 76
+    },
+    "timestamp": "2026-01-20T13:56:57.366032",
+    "trade_hash": "0x929051f09b23643b6e0cfd35e77d4632c6547e7df64c153e83802c59d322c877",
+    "trade_timestamp": 1768917292
+  },
+  {
+    "market": "Will Melania say \"Career\" during AI talk on Friday?",
+    "market_slug": "will-melania-say-career-during-ai-talk-on-friday",
+    "wallet": "0x0be948931e247281f9c4307b8a18046e72d6170e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,246)"
+      ],
+      "amount": 4245.75,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 12
+    },
+    "timestamp": "2026-01-20T13:57:00.992800",
+    "trade_hash": "0x1703238198153c226613420aaf502e5c83c574489cb712ec92ed2e4077b3d0ad",
+    "trade_timestamp": 1768917352
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x47952af76d4be4ab95f23cfa4bb086a8229048d6",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.3% odds)",
+        "Large bet ($5,244)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5243.996859999999,
+      "odds": 0.953,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-20T13:57:02.610620",
+    "trade_hash": "0x6b242a04191e5b805782f28a0d5d74fdc308a37eef78f338da031576c7cbd10d",
+    "trade_timestamp": 1768917308
+  },
+  {
+    "market": "Will Melania say \"Career\" during AI talk on Friday?",
+    "market_slug": "will-melania-say-career-during-ai-talk-on-friday",
+    "wallet": "0xf707f21856567aaa5e995d26655b8fb016f028e8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,995)"
+      ],
+      "amount": 4995.0,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-01-20T13:57:09.019160",
+    "trade_hash": "0x96acdf4bd307c11cc4b46c14245610e547e80f3e2404a6058a516e4a8e3859e7",
+    "trade_timestamp": 1768917264
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x28e0fc948228becd3a8d57453f46275a1d5033bb",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.3% odds)",
+        "Large bet ($5,150)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5149.992939999999,
+      "odds": 0.953,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-20T13:57:11.445133",
+    "trade_hash": "0x1bf443d1fe0e5cfa5d086884d0f77a3571c3170b696f1d7327a8a89ffde0aea5",
+    "trade_timestamp": 1768917258
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xf4337c29f9688695af8f765ea58aa3c88ac5da15",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($5,235)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5234.52896,
+      "odds": 0.9520233380378006,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-20T13:57:16.432893",
+    "trade_hash": "0x1b74f6fe132bbfb5a035dcd5589d8b26cce93dc6aa4309d08985df1dbc92634f",
+    "trade_timestamp": 1768917182
   }
 ]
