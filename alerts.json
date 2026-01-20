@@ -11403,5 +11403,45 @@
     "timestamp": "2026-01-20T04:00:16.697351",
     "trade_hash": "0x85642e5d226c6162f77c76bbe9fcd6d77f5940412f3f2caf760559eefbc52636",
     "trade_timestamp": 1768881542
+  },
+  {
+    "market": "Will the Washington Wizards win the 2026 NBA Finals?",
+    "market_slug": "will-the-washington-wizards-win-the-2026-nba-finals",
+    "wallet": "0x5783b57d1a503cfd9188110a8f5729d09b5294e3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,027)"
+      ],
+      "amount": 1026.6623100000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-20T05:48:03.615376",
+    "trade_hash": "0x4cc87d6fd94b861769ed48751b060fb40dadddbaf4308daf707f486162e04c97",
+    "trade_timestamp": 1768887796
+  },
+  {
+    "market": "Will the Washington Wizards win the 2026 NBA Finals?",
+    "market_slug": "will-the-washington-wizards-win-the-2026-nba-finals",
+    "wallet": "0xe209488b0752cf5854f5b8361d95a35fbe242740",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,013)"
+      ],
+      "amount": 1012.93605,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-20T05:48:05.094179",
+    "trade_hash": "0x4a35671ff2c7696fef98fda9f61522d33d5af09b0b414d7a071c83f8dbcd833a",
+    "trade_timestamp": 1768887788
   }
 ]
