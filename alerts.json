@@ -12233,5 +12233,45 @@
     "timestamp": "2026-01-20T21:15:27.081440",
     "trade_hash": "0x8c48fa6bfc9719140911c4dd8179904ed1a6f36ffc9704f35990bcd6e3a6b024",
     "trade_timestamp": 1768943614
+  },
+  {
+    "market": "Will Bournemouth win the 2025\u201326 English Premier League?",
+    "market_slug": "will-bournemouth-win-the-202526-english-premier-league",
+    "wallet": "0x2214b473ddd82a260f0d12fded643caaf27086b1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,192)"
+      ],
+      "amount": 1191.59204,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 21
+    },
+    "timestamp": "2026-01-20T21:53:11.411069",
+    "trade_hash": "0xcde0c4270c3c45a16d1a24ffdb54c863438ad7d37f892a5e9fb3668d4d9d0c99",
+    "trade_timestamp": 1768945814
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x7dfe82da2e423022efcddb89c68b29dacb7625d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,026)"
+      ],
+      "amount": 1026.359823,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 76
+    },
+    "timestamp": "2026-01-20T21:53:19.811634",
+    "trade_hash": "0x91eea8bd2871f416573b7f8ab3e111eb898a807f99a51f231d49104c34d356dc",
+    "trade_timestamp": 1768945774
   }
 ]
