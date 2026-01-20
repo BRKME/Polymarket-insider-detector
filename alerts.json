@@ -11443,5 +11443,105 @@
     "timestamp": "2026-01-20T05:48:05.094179",
     "trade_hash": "0x4a35671ff2c7696fef98fda9f61522d33d5af09b0b414d7a071c83f8dbcd833a",
     "trade_timestamp": 1768887788
+  },
+  {
+    "market": "Celtics vs. Pistons",
+    "market_slug": "nba-bos-det-2026-01-19",
+    "wallet": "0xbeb556335598753f5820ba9fe09fb8d28847a395",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,344)"
+      ],
+      "amount": 4343.58207,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-20T06:00:09.051656",
+    "trade_hash": "0x509d7c21f498047adfa9807c46d9d08d157b7e06c6939f219d677e77ee8599d2",
+    "trade_timestamp": 1768888534
+  },
+  {
+    "market": "Celtics vs. Pistons",
+    "market_slug": "nba-bos-det-2026-01-19",
+    "wallet": "0x2ebd799a797dbd72fc7a9da525f5ec6f4d4dba95",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,380)"
+      ],
+      "amount": 4379.59602,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 11
+    },
+    "timestamp": "2026-01-20T06:00:37.312472",
+    "trade_hash": "0x2500683686bc4354ad6c7e77e3cb5cf62c07e1f57d237337079c1629e4d4c6a5",
+    "trade_timestamp": 1768888520
+  },
+  {
+    "market": "Will Espanyol win the 2025\u201326 La Liga?",
+    "market_slug": "will-espanyol-win-the-202526-la-liga",
+    "wallet": "0x09a41fd80fc3dff6420d63b18bef162f171fd49e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,386)"
+      ],
+      "amount": 1385.6731,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-20T06:00:39.578272",
+    "trade_hash": "0x581b86e294672e00531bf4ece82b146982971b419624611ac675859a18f33cd1",
+    "trade_timestamp": 1768888504
+  },
+  {
+    "market": "Celtics vs. Pistons",
+    "market_slug": "nba-bos-det-2026-01-19",
+    "wallet": "0x6be30f20cbeac550cc68fe468b7833d2855006cd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,396)"
+      ],
+      "amount": 4395.6,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 29
+    },
+    "timestamp": "2026-01-20T06:00:45.352948",
+    "trade_hash": "0x2477345562e9966c5a07b4adbcd8f239113da1ceb30abac9a79bf0ac066fc254",
+    "trade_timestamp": 1768888482
+  },
+  {
+    "market": "Celtics vs. Pistons",
+    "market_slug": "nba-bos-det-2026-01-19",
+    "wallet": "0xb1784250211e686cfb166fcbdf69b3202afc21fb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,375)"
+      ],
+      "amount": 4374.61101,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-20T06:01:45.500420",
+    "trade_hash": "0xe79dff3175884195169e6cc030a15d067aa846072e7001d0e9cc2ab429d7eca0",
+    "trade_timestamp": 1768888500
   }
 ]
