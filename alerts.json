@@ -11383,5 +11383,25 @@
     "timestamp": "2026-01-19T23:36:55.772772",
     "trade_hash": "0x207cbcef0dd2f79f7b157435f7b5f4f6a6bbc883e8552105649141e51a9e96ea",
     "trade_timestamp": 1768865746
+  },
+  {
+    "market": "Jets vs. Blackhawks",
+    "market_slug": "nhl-wpg-chi-2026-01-19",
+    "wallet": "0x2ee50331b54018fd66dcb729a7ebc91a253b00fc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($3,458)"
+      ],
+      "amount": 3457.7000000000003,
+      "odds": 0.987632105112825,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-20T04:00:16.697351",
+    "trade_hash": "0x85642e5d226c6162f77c76bbe9fcd6d77f5940412f3f2caf760559eefbc52636",
+    "trade_timestamp": 1768881542
   }
 ]
