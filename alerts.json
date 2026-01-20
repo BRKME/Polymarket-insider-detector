@@ -12313,5 +12313,25 @@
     "timestamp": "2026-01-20T22:50:32.073403",
     "trade_hash": "0x36761c90bc8de9f09ad87ccb3f1b26dbcb4d60bebc1f5f5665842947eb0b3268",
     "trade_timestamp": 1768949254
+  },
+  {
+    "market": "Will George Clooney win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-george-clooney-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x56ffd64550bb73ca74fa63915022ec27a2b811c7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,031)"
+      ],
+      "amount": 1030.669764,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 54
+    },
+    "timestamp": "2026-01-20T22:56:45.055841",
+    "trade_hash": "0x08dce395994c0d93265b9e5ec6b05c652f0f7e7c2de653f249bcab3d2d965d74",
+    "trade_timestamp": 1768949500
   }
 ]
