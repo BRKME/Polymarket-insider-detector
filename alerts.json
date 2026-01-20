@@ -11543,5 +11543,65 @@
     "timestamp": "2026-01-20T06:01:45.500420",
     "trade_hash": "0xe79dff3175884195169e6cc030a15d067aa846072e7001d0e9cc2ab429d7eca0",
     "trade_timestamp": 1768888500
+  },
+  {
+    "market": "Will JB Pritzker win the 2028 US Presidential Election?",
+    "market_slug": "will-jb-pritzker-win-the-2028-us-presidential-election",
+    "wallet": "0x71f0c28175a8486fef939b98ab293c6914809849",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.3% odds)",
+        "Large bet ($2,839)"
+      ],
+      "amount": 2838.7368899999997,
+      "odds": 0.983,
+      "wallet_age_days": 1,
+      "total_activities": 71
+    },
+    "timestamp": "2026-01-20T06:36:21.443407",
+    "trade_hash": "0x0430358f6561946389696e69a50c3481c52496f576d0fe944b900a7696ad7f87",
+    "trade_timestamp": 1768890916
+  },
+  {
+    "market": "Will Andrey Rublev win the 2026 Australian Open?",
+    "market_slug": "will-andrey-rublev-win-the-2026-australian-open",
+    "wallet": "0xa9a29cbe46e7af5e0be6a7cae06c24a646d446ce",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,032)"
+      ],
+      "amount": 1031.999871,
+      "odds": 0.995,
+      "wallet_age_days": 1,
+      "total_activities": 96
+    },
+    "timestamp": "2026-01-20T06:36:22.323405",
+    "trade_hash": "0xb4573dc201b1133aa6a4bfb052aa6ae058deae204b14151d0075777611ed509a",
+    "trade_timestamp": 1768890864
+  },
+  {
+    "market": "Will Bitcoin reach $130,000 in January?",
+    "market_slug": "will-bitcoin-reach-130k-in-january-2026",
+    "wallet": "0x8e9e4e3d3384b91f3ac329f808d3fefcee9972bc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,041)"
+      ],
+      "amount": 1040.999845,
+      "odds": 0.995,
+      "wallet_age_days": 2,
+      "total_activities": 93
+    },
+    "timestamp": "2026-01-20T06:36:24.094224",
+    "trade_hash": "0xc01fd67f8e61a9fa66486766e0bd5e548ee7f497ad447a44404680d8800f399a",
+    "trade_timestamp": 1768890846
   }
 ]
