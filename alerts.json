@@ -11805,5 +11805,25 @@
     "timestamp": "2026-01-20T10:50:35.743176",
     "trade_hash": "0x50bf4ae816d3896cbb74b3972f7945cb955ff24b0d76b9e107c2a3cb205b584e",
     "trade_timestamp": 1768905994
+  },
+  {
+    "market": "Will Trump nominate Scott Bessent as the next Fed chair?",
+    "market_slug": "will-trump-nominate-scott-bessent-as-the-next-fed-chair",
+    "wallet": "0x07476d2b1d0e93b7c5d954aad4a435423dc995d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,324)"
+      ],
+      "amount": 1323.65907,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 74
+    },
+    "timestamp": "2026-01-20T11:03:58.681991",
+    "trade_hash": "0x6f2d69df0dbf8a1d3e2ed97c77b7f19e08264c363abd9cfd04711e5cd9f4c140",
+    "trade_timestamp": 1768906676
   }
 ]
