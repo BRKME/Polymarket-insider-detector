@@ -12213,5 +12213,25 @@
     "timestamp": "2026-01-20T20:57:43.483359",
     "trade_hash": "0x23c9659337719ffd4205227b7efd9f0483968338be1ce0e8035be08c9a7bbc95",
     "trade_timestamp": 1768942234
+  },
+  {
+    "market": "Will Greg Abbott win the 2028 US Presidential Election?",
+    "market_slug": "will-greg-abbott-win-the-2028-us-presidential-election",
+    "wallet": "0xee05ad2c4c2644006d648f65c99a56060ecfc9a1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,015)"
+      ],
+      "amount": 1014.629973,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 59
+    },
+    "timestamp": "2026-01-20T21:15:27.081440",
+    "trade_hash": "0x8c48fa6bfc9719140911c4dd8179904ed1a6f36ffc9704f35990bcd6e3a6b024",
+    "trade_timestamp": 1768943614
   }
 ]
