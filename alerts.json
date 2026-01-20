@@ -11664,5 +11664,25 @@
     "timestamp": "2026-01-20T07:52:39.232077",
     "trade_hash": "0x36cf4d57b31252a9fa2778c9406bb011d612ba70ebd369ab8d3f5a606b196e52",
     "trade_timestamp": 1768895374
+  },
+  {
+    "market": "Will Trump nominate no one before 2027?",
+    "market_slug": "will-trump-nominate-no-one-before-2027",
+    "wallet": "0xb1e258ac6f0da7e394dab795aca62870f6572b0d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,826)"
+      ],
+      "amount": 3825.9991710000004,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 33
+    },
+    "timestamp": "2026-01-20T09:00:40.831089",
+    "trade_hash": "0x2c7d7198ae0cee6f43b63a7a0312f4b62ac31b67c556c48274dbaabcdf275255",
+    "trade_timestamp": 1768899414
   }
 ]
