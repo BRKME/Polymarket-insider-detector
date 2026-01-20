@@ -12133,5 +12133,25 @@
     "timestamp": "2026-01-20T15:18:24.003464",
     "trade_hash": "0x69279ea19571eea6fba88c070e8574bcdaff0f5893386a90968c14838cec34e1",
     "trade_timestamp": 1768922094
+  },
+  {
+    "market": "Trove FDV above $20M one day after launch?",
+    "market_slug": "trove-fdv-above-20m-one-day-after-launch-722-667-974",
+    "wallet": "0x41eed635629ffecd83dd83f953ae0a98cd064469",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($1,386)"
+      ],
+      "amount": 1385.9638400000001,
+      "odds": 0.9899741714285715,
+      "wallet_age_days": 0,
+      "total_activities": 81
+    },
+    "timestamp": "2026-01-20T16:03:56.793588",
+    "trade_hash": "0x5995751bbe99f4bca32cf9ca2736140c06571335cada6d45f485dc399e35d51c",
+    "trade_timestamp": 1768924824
   }
 ]
