@@ -180,24 +180,21 @@ def is_15min_market(market_question: str) -> bool:
 
 def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, total_activities: int, end_date_str: str = None) -> Tuple[bool, str]:
     """
-    Filter out false positives: arbitrage bots, short-term markets, absurd markets.
-    Uses config.py flags: BLOCK_15MIN_MARKETS, BLOCK_SHORT_PRICE_PREDICTIONS, MAX_ODDS_THRESHOLD
+    Filter out false positives: short-term markets, absurd markets, impossible odds.
+    Uses config.py flags: BLOCK_15MIN_MARKETS, BLOCK_SHORT_PRICE_PREDICTIONS
+    
+    NOTE: We do NOT filter by wallet age - insiders intentionally use new wallets!
     
     Returns:
         (should_skip, reason)
     """
     
-    # FILTER 1: ARBITRAGE BOTS
-    # New wallet (<3 days) + extreme odds (≥MAX_ODDS_THRESHOLD) + low activity (≤5 txns) = arbitrage bot
-    if wallet_age_days < 3 and odds >= MAX_ODDS_THRESHOLD and total_activities <= 5:
-        return (True, f"ARBITRAGE_BOT (wallet_age={wallet_age_days}d, odds={odds*100:.1f}%, txns={total_activities})")
-    
-    # FILTER 2: 15-MINUTE HFT MARKETS (if enabled in config)
+    # FILTER 1: 15-MINUTE HFT MARKETS (if enabled in config)
     if BLOCK_15MIN_MARKETS and market_question:
         if is_15min_market(market_question):
             return (True, "HFT_15MIN_MARKET")
     
-    # FILTER 3: SHORT-TERM PRICE PREDICTIONS (if enabled in config)
+    # FILTER 2: SHORT-TERM MARKETS
     # Events happening today or tomorrow (high frequency trading, not insider info)
     event_date = None
     
@@ -239,28 +236,53 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             # General short-term market filter
             return (True, f"SHORT_TERM_MARKET (event on {event_date_only.strftime('%Y-%m-%d')})")
     
-    # FILTER 4: ABSURD MARKETS (blacklist)
+    # FILTER 3: ABSURD MARKETS (blacklist)
     if market_question:
         title_lower = market_question.lower()
         
-        # Celebrity president markets
+        # Celebrity/unlikely president markets
         absurd_patterns = [
             r'kardashian.*president',
             r'kanye.*president', 
             r'elon musk.*president',
             r'taylor swift.*president',
+            r'youngkin.*202[89].*president',  # Glenn Youngkin unlikely presidential candidate
             
             # Impossible sports outcomes
             r'everton.*(win|champion).*premier league',
+            r'wizards.*(win|finals|champion).*(nba|202[6-9])',  # Wizards worst NBA team
+            r'pistons.*(win|finals|champion).*(nba|202[6-9])',   # Pistons worst NBA team
+            r'hornets.*(win|finals|champion).*(nba|202[6-9])',   # Hornets worst NBA team
+            r'blazers.*(win|finals|champion).*(nba|202[6-9])',   # Blazers rebuilding
+            r'spurs.*(win|finals|champion).*(nba|202[6-9])',     # Spurs rebuilding
             r'relegated.*win.*league',
             
             # Political impossibilities
             r'liz cheney.*202[89].*nomination',
+            r'ventura.*202[6-9].*president',  # Andre Ventura unlikely US president
         ]
         
         for pattern in absurd_patterns:
             if re.search(pattern, title_lower):
                 return (True, f"ABSURD_MARKET (matched: {pattern[:30]}...)")
+        
+        # FILTER 4: IMPOSSIBLE ODDS (>99% on unlikely outcomes)
+        # This catches arbitrage bots betting on underdogs at extreme odds
+        if odds > 0.99:
+            # NBA underdogs at 99%+ for championship = arbitrage
+            nba_underdogs = ['wizards', 'pistons', 'hornets', 'blazers', 'spurs', 'raptors', 'nets']
+            for team in nba_underdogs:
+                # Check if market is about team winning finals/championship
+                if team in title_lower:
+                    if any(kw in title_lower for kw in ['finals', 'championship', 'win.*202[6-9]']):
+                        return (True, f"IMPOSSIBLE_ODDS ({team} at {odds*100:.1f}% for championship)")
+            
+            # Political long-shots at 99%+
+            political_longshots = ['youngkin', 'ventura', 'desantis']
+            for candidate in political_longshots:
+                if candidate in title_lower and 'president' in title_lower:
+                    if any(year in title_lower for year in ['2028', '2029', '2030']):
+                        return (True, f"IMPOSSIBLE_ODDS ({candidate} at {odds*100:.1f}% for president)")
     
     # No filters matched - allow alert
     return (False, "")
