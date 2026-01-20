@@ -11825,5 +11825,26 @@
     "timestamp": "2026-01-20T11:03:58.681991",
     "trade_hash": "0x6f2d69df0dbf8a1d3e2ed97c77b7f19e08264c363abd9cfd04711e5cd9f4c140",
     "trade_timestamp": 1768906676
+  },
+  {
+    "market": "Will LeBron James win the 2028 US Presidential Election?",
+    "market_slug": "will-lebron-james-win-the-2028-us-presidential-election",
+    "wallet": "0x902ef32071d9d41598bf82efc4ab2d3ad7bd71df",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($1,997)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1996.98392,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-20T11:30:44.082410",
+    "trade_hash": "0x28a7c26e0b04fd265f89e0d2ff03f3c8c14f6c26ef67023cbd2ae2eed428d1d6",
+    "trade_timestamp": 1768908508
   }
 ]
