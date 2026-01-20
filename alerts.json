@@ -12091,5 +12091,47 @@
     "timestamp": "2026-01-20T13:57:16.432893",
     "trade_hash": "0x1b74f6fe132bbfb5a035dcd5589d8b26cce93dc6aa4309d08985df1dbc92634f",
     "trade_timestamp": 1768917182
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x58314c55e4564e9d667035370d29a822c24fd307",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.4% odds)",
+        "Large bet ($5,215)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5214.91698,
+      "odds": 0.954,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-20T15:18:09.043969",
+    "trade_hash": "0x3da822963f9ac64fb6d86e7948e026199e969f4fefea2cbf554dc959f4359bda",
+    "trade_timestamp": 1768922160
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x20d9583195baefeaa9ca3a2738ed60f5ddd2e1ed",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.4% odds)",
+        "Large bet ($5,197)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5196.51802,
+      "odds": 0.9537292897480651,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-20T15:18:24.003464",
+    "trade_hash": "0x69279ea19571eea6fba88c070e8574bcdaff0f5893386a90968c14838cec34e1",
+    "trade_timestamp": 1768922094
   }
 ]
