@@ -12153,5 +12153,45 @@
     "timestamp": "2026-01-20T16:03:56.793588",
     "trade_hash": "0x5995751bbe99f4bca32cf9ca2736140c06571335cada6d45f485dc399e35d51c",
     "trade_timestamp": 1768924824
+  },
+  {
+    "market": "Will Tim Walz win the 2028 US Presidential Election?",
+    "market_slug": "will-tim-walz-win-the-2028-us-presidential-election",
+    "wallet": "0x0f103d09394d7396e24aa952af4244fff65689dc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($5,023)"
+      ],
+      "amount": 5022.689952000001,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 65
+    },
+    "timestamp": "2026-01-20T20:36:46.022561",
+    "trade_hash": "0x67e56eefbc239dc11bcf9ef1bcacd9b5ecbd5a5c88a8d39be6ad30b0008495ef",
+    "trade_timestamp": 1768941092
+  },
+  {
+    "market": "Valorant: FUT Esports vs Gentle Mates (BO3)",
+    "market_slug": "val-fut1-gm-2026-01-20",
+    "wallet": "0xd604a7491c5446022218bb628a952d763f5bee57",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($9,201)"
+      ],
+      "amount": 9200.58021,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-20T20:36:46.788177",
+    "trade_hash": "0x0e20306dc7363357d50eec3dcddb2c8fd6582975d9f14c8ddd7c20d83fd6d5cd",
+    "trade_timestamp": 1768941078
   }
 ]
