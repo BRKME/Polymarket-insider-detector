@@ -13184,5 +13184,25 @@
     "timestamp": "2026-01-21T16:00:23.250177",
     "trade_hash": "0x1af9c9b03dd4060fe10fd5ed5ac7d81894ffc8f8f0beff64da16e7023f2d8b84",
     "trade_timestamp": 1769011116
+  },
+  {
+    "market": "Will any of Trump\u2019s Greenland Tariffs go into effect by Feb 1?",
+    "market_slug": "will-any-of-trumps-greenland-tariffs-go-into-effect-by-feb-1",
+    "wallet": "0xae44e7eaf3829be5bad4e8e7452f7cbce83ece37",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.0% odds)",
+        "Large bet ($2,128)"
+      ],
+      "amount": 2128.2527999999998,
+      "odds": 0.96,
+      "wallet_age_days": 0,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-21T19:35:44.270785",
+    "trade_hash": "0xfe4ea184b590be8c9394fe9a9200a47ba3d068919b4f1e0a2ab8ca1f8356709f",
+    "trade_timestamp": 1769023956
   }
 ]
