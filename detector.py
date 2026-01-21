@@ -35,8 +35,9 @@ def detect_insider_trades():
         filtered_no_wallet = 0
         filtered_no_condition = 0
         filtered_no_market = 0
-        filtered_by_rules = 0  # NEW: filtered by should_skip_alert
+        filtered_by_rules = 0
         error_count = 0
+        debug_printed = False  # Print trade structure only once
         
         for idx, trade in enumerate(trades):
             try:
@@ -70,12 +71,12 @@ def detect_insider_trades():
                 # Find market
                 market = get_market_by_condition_id(condition_id, markets)
                 if not market:
-                    # FIX BUG #5: Use trade data as fallback WITH endDate
+                    # Use trade data as fallback WITH endDate
                     market = {
                         "question": trade.get("title", "Unknown market"),
                         "slug": trade.get("slug", ""),
                         "conditionId": condition_id,
-                        "endDate": trade.get("endDate")  # ← FIXED: was None before
+                        "endDate": trade.get("endDate")
                     }
                     filtered_no_market += 1
                 
@@ -83,6 +84,16 @@ def detect_insider_trades():
                 print(f"\n[{datetime.now()}] 💰 Large trade: ${amount:,.0f}")
                 print(f"  Wallet: {wallet_address[:8]}...{wallet_address[-4:]}")
                 print(f"  Market: {market.get('question', 'Unknown')[:60]}...")
+                
+                # DEBUG: Print trade structure once
+                if not debug_printed:
+                    print(f"\n  ═══ DEBUG: TRADE OBJECT STRUCTURE ═══")
+                    print(f"  Available keys: {list(trade.keys())}")
+                    print(f"  Full trade data:")
+                    for key, value in trade.items():
+                        print(f"    {key}: {value}")
+                    print(f"  ═══════════════════════════════════════\n")
+                    debug_printed = True
                 
                 # Fetch wallet activity
                 print(f"  → Fetching wallet activity...")
@@ -103,7 +114,7 @@ def detect_insider_trades():
                 
                 # Check if alert threshold met
                 if analysis["score"] >= ALERT_THRESHOLD:
-                    # NEW: Apply filters before alerting
+                    # Apply filters before alerting
                     should_skip, skip_reason = should_skip_alert(
                         market_question=market.get("question", ""),
                         wallet_age_days=analysis['wallet_age_days'],
@@ -117,6 +128,7 @@ def detect_insider_trades():
                         print(f"  🚫 FILTERED: {skip_reason}")
                         print(f"     (Score was {analysis['score']} >= {ALERT_THRESHOLD}, but filtered out)")
                     else:
+                        # Create alert with enhanced trade data
                         alert = {
                             "market": market.get("question"),
                             "market_slug": market.get("slug"),
@@ -124,7 +136,26 @@ def detect_insider_trades():
                             "analysis": analysis,
                             "timestamp": datetime.now().isoformat(),
                             "trade_hash": trade.get("transactionHash", ""),
-                            "trade_timestamp": trade.get("timestamp")
+                            "trade_timestamp": trade.get("timestamp"),
+                            # NEW: Store full trade data for notifier
+                            "trade_data": {
+                                "asset": trade.get("asset"),
+                                "assetId": trade.get("assetId"),
+                                "tokenId": trade.get("tokenId"),
+                                "side": trade.get("side"),
+                                "outcome": trade.get("outcome"),
+                                "market": trade.get("market"),
+                                "type": trade.get("type"),
+                                "status": trade.get("status"),
+                                "maker": trade.get("maker"),
+                                "taker": trade.get("taker"),
+                                "makerAddress": trade.get("makerAddress"),
+                                "takerAddress": trade.get("takerAddress"),
+                                "feeRateBps": trade.get("feeRateBps"),
+                                "price": price,
+                                "size": size,
+                                "amount": amount
+                            }
                         }
                         alerts.append(alert)
                         print(f"  🚨 ALERT! Score {analysis['score']} >= {ALERT_THRESHOLD}")
@@ -155,7 +186,7 @@ def detect_insider_trades():
         print(f"[{datetime.now()}]   - No wallet address: {filtered_no_wallet}")
         print(f"[{datetime.now()}]   - No condition ID: {filtered_no_condition}")
         print(f"[{datetime.now()}]   - Market not found: {filtered_no_market}")
-        print(f"[{datetime.now()}]   - Arbitrage/Short-term/Absurd: {filtered_by_rules}")  # NEW
+        print(f"[{datetime.now()}]   - Arbitrage/Short-term/Absurd: {filtered_by_rules}")
         print(f"[{datetime.now()}] ")
         print(f"[{datetime.now()}] Errors encountered: {error_count}")
         print(f"[{datetime.now()}] Alerts generated: {len(alerts)}")
