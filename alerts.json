@@ -12474,5 +12474,67 @@
     "timestamp": "2026-01-21T04:52:42.082406",
     "trade_hash": "0xc3b45d67fbdf7c0d33a3f1150d88d430450589c769969a6d24bee1a22773b00c",
     "trade_timestamp": 1768970824
+  },
+  {
+    "market": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xa13b3dcc9058ff828b045da93aaac8a617249b48",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,018)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1017.76654,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-21T05:47:29.620212",
+    "trade_hash": "0x35c369e74647099a5a191703a571500bed2978747835b1cb38eb8b66a9d1d09e",
+    "trade_timestamp": 1768974256
+  },
+  {
+    "market": "Lakers vs. Nuggets",
+    "market_slug": "nba-lal-den-2026-01-20",
+    "wallet": "0xc929d48cc23b3278d068dacece452dc338c236c4",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,004)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1004.25474,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-21T05:47:32.584317",
+    "trade_hash": "0xec5b7c29b09a71697c871ef582d5ee27cbe8f9e262975b2aea3497c9596f3e95",
+    "trade_timestamp": 1768974342
+  },
+  {
+    "market": "Will Tim Walz win the 2028 US Presidential Election?",
+    "market_slug": "will-tim-walz-win-the-2028-us-presidential-election",
+    "wallet": "0x2b80d11658bfb1c1040d180c5792630e266a95d2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,038)"
+      ],
+      "amount": 1037.7857,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-21T05:48:16.501313",
+    "trade_hash": "0x778890b36334cbad41085d76af0f8528cbdee36f6232475583d4dc63fe9538d4",
+    "trade_timestamp": 1768974234
   }
 ]
