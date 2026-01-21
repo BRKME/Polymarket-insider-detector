@@ -12720,5 +12720,65 @@
     "timestamp": "2026-01-21T07:54:05.018688",
     "trade_hash": "0xea414637146b7f3bc622a7dcedccd0e5d5821a042f2619a2a9301d1a17188230",
     "trade_timestamp": 1768981870
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0xe2512fd0577720e5cebc8b146331723ac6057117",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,285)"
+      ],
+      "amount": 3284.999834,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-21T08:00:35.951881",
+    "trade_hash": "0xd05d94d997606b95799cdddd15009fd14118c4f23769b55039860873728a2ee6",
+    "trade_timestamp": 1768982268
+  },
+  {
+    "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+    "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xf2e09db4b2bec347b2c169c90e62fe9faa7d8cc8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.3% odds)",
+        "Large bet ($5,838)"
+      ],
+      "amount": 5838.0,
+      "odds": 0.973,
+      "wallet_age_days": 0,
+      "total_activities": 88
+    },
+    "timestamp": "2026-01-21T08:00:41.999523",
+    "trade_hash": "0xab54e31b4d2a595c174cb537c4f951c21d3897f3c91d7a68ea9c3fcedcb5250a",
+    "trade_timestamp": 1768982256
+  },
+  {
+    "market": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+    "market_slug": "will-kristi-noem-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x7113347bff2dd2eccc0069c76d568480734a665e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,279)"
+      ],
+      "amount": 1279.14215,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 21
+    },
+    "timestamp": "2026-01-21T08:00:56.848835",
+    "trade_hash": "0x8ade9891622b47ef0f23c5f494fa7f9097703e44b7df1491fb29f33b027a7866",
+    "trade_timestamp": 1768982148
   }
 ]
