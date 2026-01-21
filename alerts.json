@@ -13064,5 +13064,25 @@
     "timestamp": "2026-01-21T12:33:25.542451",
     "trade_hash": "0x95d3d37b7816fc2b6a3e550257ad666ce23b2d4b264561f8b78c6e9b6f4b5710",
     "trade_timestamp": 1768998678
+  },
+  {
+    "market": "LoL: DRX vs DN Freecs (BO3) - LCK Cup Group Stage",
+    "market_slug": "lol-drx-dnf-2026-01-21",
+    "wallet": "0xf05ba5ce4b05e7d53b79efc22c3bd99ab0e804f1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.4% odds)",
+        "Large bet ($1,254)"
+      ],
+      "amount": 1253.7259999999999,
+      "odds": 0.9540712894192135,
+      "wallet_age_days": 0,
+      "total_activities": 26
+    },
+    "timestamp": "2026-01-21T13:28:13.592540",
+    "trade_hash": "0x1610b921dd0e7ec892cb1b1d256851b90a8a56ac213050dcdb4bcd334f9cf7b2",
+    "trade_timestamp": 1769001942
   }
 ]
