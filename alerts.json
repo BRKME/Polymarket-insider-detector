@@ -12536,5 +12536,65 @@
     "timestamp": "2026-01-21T05:48:16.501313",
     "trade_hash": "0x778890b36334cbad41085d76af0f8528cbdee36f6232475583d4dc63fe9538d4",
     "trade_timestamp": 1768974234
+  },
+  {
+    "market": "Will Mike Pence win the 2028 Republican presidential nomination?",
+    "market_slug": "will-mike-pence-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x33ec50790d94b95d773d15463c9d3bda5e059b3a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($2,333)"
+      ],
+      "amount": 2333.429822,
+      "odds": 0.995,
+      "wallet_age_days": 0,
+      "total_activities": 31
+    },
+    "timestamp": "2026-01-21T05:59:05.047467",
+    "trade_hash": "0x3085bcd050c4306a721837b839df53cc67e3adfcdf7e1dd3beb37f3dfe0260ba",
+    "trade_timestamp": 1768975028
+  },
+  {
+    "market": "New \"Stranger Things\" episode released by January 31? ",
+    "market_slug": "new-stranger-things-episode-released-by-january-31-294",
+    "wallet": "0x18b43bf8498fd71fea183a7331a915303bc69190",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($5,000)"
+      ],
+      "amount": 4999.999998,
+      "odds": 0.9929999998176852,
+      "wallet_age_days": 1,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-21T05:59:05.726545",
+    "trade_hash": "0x0b3a44052f7929d35df54eb9d9399165d3b12514fba359fc3c58f08cb30cb43b",
+    "trade_timestamp": 1768975022
+  },
+  {
+    "market": "Will Tran Cam Tu be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-tran-cam-tu-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0xc7c7c2191a8a2b61dac7fbb3d860e1a9cd26f91a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($1,079)"
+      ],
+      "amount": 1079.1856999999998,
+      "odds": 0.985,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-01-21T05:59:16.986134",
+    "trade_hash": "0x32be0f401bfa497e094428cf1892775eafc841bfc9689ae5677360a5104af7c2",
+    "trade_timestamp": 1768974938
   }
 ]
