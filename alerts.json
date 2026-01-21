@@ -13023,5 +13023,25 @@
     "timestamp": "2026-01-21T11:49:00.704810",
     "trade_hash": "0x424a8e723d5f375b71d46cff3fdeda17826149259a024209811285e40f93e80f",
     "trade_timestamp": 1768995926
+  },
+  {
+    "market": "LoL: LNG Esports vs LGD Gaming (BO3) - LPL Group Nirvana",
+    "market_slug": "lol-lng-lgd-2026-01-21",
+    "wallet": "0x2aa13994496b2c84268afff01687122de4abc691",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,770)"
+      ],
+      "amount": 3770.01621,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 78
+    },
+    "timestamp": "2026-01-21T11:57:37.778416",
+    "trade_hash": "0x724b550a85575ed8b65c43273bec65f5821de64e8d2159585b40b919a6b6c6f2",
+    "trade_timestamp": 1768996342
   }
 ]
