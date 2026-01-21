@@ -13164,5 +13164,25 @@
     "timestamp": "2026-01-21T15:00:48.998561",
     "trade_hash": "0x8c92019a56e942302504eedf7eb25106d4380f9542eff8cbbaf59ee33814d087",
     "trade_timestamp": 1769007470
+  },
+  {
+    "market": "Israel nuclear weapon use against Iran by January 31?",
+    "market_slug": "will-israel-nuke-iran-by-january-31",
+    "wallet": "0xd71ef6fb4b30c222b3e789b97ee1417ab492f150",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($2,438)"
+      ],
+      "amount": 2437.7000399999997,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 33
+    },
+    "timestamp": "2026-01-21T16:00:23.250177",
+    "trade_hash": "0x1af9c9b03dd4060fe10fd5ed5ac7d81894ffc8f8f0beff64da16e7023f2d8b84",
+    "trade_timestamp": 1769011116
   }
 ]
