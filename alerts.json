@@ -12333,5 +12333,26 @@
     "timestamp": "2026-01-20T22:56:45.055841",
     "trade_hash": "0x08dce395994c0d93265b9e5ec6b05c652f0f7e7c2de653f249bcab3d2d965d74",
     "trade_timestamp": 1768949500
+  },
+  {
+    "market": "Xi Jinping out by June 30?",
+    "market_slug": "xi-jinping-out-by",
+    "wallet": "0x4ddcb6e0c9009eeca755b7180c4f0a8a552b0578",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($10,080)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 10079.999998000001,
+      "odds": 0.9849999999076563,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-21T00:57:20.131042",
+    "trade_hash": "0x8959df6bbf61b6d535b12b3c7a48f269a41d11ab4ed3e5d434482165e14f69eb",
+    "trade_timestamp": 1768956908
   }
 ]
