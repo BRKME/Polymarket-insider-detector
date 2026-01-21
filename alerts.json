@@ -13084,5 +13084,65 @@
     "timestamp": "2026-01-21T13:28:13.592540",
     "trade_hash": "0x1610b921dd0e7ec892cb1b1d256851b90a8a56ac213050dcdb4bcd334f9cf7b2",
     "trade_timestamp": 1769001942
+  },
+  {
+    "market": "Will Diosdado Cabello Rond\u00f3n be the leader of Venezuela end of 2026?",
+    "market_slug": "will-diosdado-cabello-rondn-be-the-leader-of-venezuela-end-of-2026",
+    "wallet": "0x8784bd0ff2990abf9b7b257b24f43142473883b2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.9% odds)",
+        "Large bet ($3,237)"
+      ],
+      "amount": 3236.625,
+      "odds": 0.959,
+      "wallet_age_days": 0,
+      "total_activities": 45
+    },
+    "timestamp": "2026-01-21T14:35:39.854647",
+    "trade_hash": "0x873c9084b0d99371ae64f429c1d35e8d46093d56ecbfa57f74b50ce1bf791b5d",
+    "trade_timestamp": 1769005924
+  },
+  {
+    "market": "Will the Logan Paul 1st Edition Charizard sale price be over 500k?",
+    "market_slug": "will-the-logan-paul-1st-edition-charizard-sale-price-be-over-500k",
+    "wallet": "0x7d1922ca7623823d0bcbc454fe3b0d071084655d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($1,080)"
+      ],
+      "amount": 1079.7753200000002,
+      "odds": 0.988,
+      "wallet_age_days": 0,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-21T14:35:49.422917",
+    "trade_hash": "0x88165e774f7ae9d11938888ae99b555f76ea63f12e83b6c53358bf833d6b0b0a",
+    "trade_timestamp": 1769005934
+  },
+  {
+    "market": "Will Khamenei leave Iran by Jan 31?",
+    "market_slug": "will-khamenei-leave-iran-by-jan-31-322",
+    "wallet": "0x110410310f884e6c33f237a9f86c1793b69a7bab",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.4% odds)",
+        "Large bet ($2,172)"
+      ],
+      "amount": 2171.61092,
+      "odds": 0.974,
+      "wallet_age_days": 0,
+      "total_activities": 13
+    },
+    "timestamp": "2026-01-21T14:36:03.524401",
+    "trade_hash": "0xf3abd8a02b5be38343ab3446ac3e9bd96f9e2969b8a27a32099497065008f509",
+    "trade_timestamp": 1769005886
   }
 ]
