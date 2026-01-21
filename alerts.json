@@ -12880,5 +12880,88 @@
     "timestamp": "2026-01-21T10:19:57.998242",
     "trade_hash": "0x71f94ee274558c1c4751234203baa05688ff83a47bf7b57c05f2f1927c3c795b",
     "trade_timestamp": 1768990712
+  },
+  {
+    "market": "LoL: LNG Esports vs LGD Gaming - Game 2 Winner",
+    "market_slug": "lol-lng-lgd-2026-01-21-game2",
+    "wallet": "0xbcf011c5c93f1553d8a8c1f2df8a9cc5b9c0ea00",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,163)"
+      ],
+      "amount": 1162.5363,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 96
+    },
+    "timestamp": "2026-01-21T10:51:18.340903",
+    "trade_hash": "0x97fb8eae0ab6996e9ca2e8fd068208d86d94aa74b2356ea9fc381a019d440680",
+    "trade_timestamp": 1768992502
+  },
+  {
+    "market": "Will Ethereum dip to $2,000 in January?",
+    "market_slug": "will-ethereum-dip-to-2000-in-january-2026-647",
+    "wallet": "0xadf9e07e9a55e932d8657a6ebfa02ba96108ccb1",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($2,488)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2487.53232,
+      "odds": 0.984,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-21T10:51:20.591480",
+    "trade_hash": "0xcf2d168ad5b2c742ff60d41b9cb40862ea2b8a7f4f8bc2357838cca07254c5a4",
+    "trade_timestamp": 1768992468
+  },
+  {
+    "market": "Will Ethereum dip to $2,000 in January?",
+    "market_slug": "will-ethereum-dip-to-2000-in-january-2026-647",
+    "wallet": "0x1df3d00b7d3dfe66e489d872bca9c4a64251a45d",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($2,507)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2507.232,
+      "odds": 0.984,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-21T10:51:21.343869",
+    "trade_hash": "0x6de49fed8bfb82aff513dcdcd00d8751ac1d981fc7d0f9ab1c24d81a3d838400",
+    "trade_timestamp": 1768992466
+  },
+  {
+    "market": "Will Ethereum dip to $2,000 in January?",
+    "market_slug": "will-ethereum-dip-to-2000-in-january-2026-647",
+    "wallet": "0x67476a623708f35cd0a1c0904314244ba909fda4",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($2,511)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2511.168,
+      "odds": 0.984,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-21T10:51:22.020621",
+    "trade_hash": "0xdfc21a14970bfbc4e0757d429aeb35480abccc64ba018c57c6e9c993b887748a",
+    "trade_timestamp": 1768992466
   }
 ]
