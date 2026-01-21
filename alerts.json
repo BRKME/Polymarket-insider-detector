@@ -12354,5 +12354,85 @@
     "timestamp": "2026-01-21T00:57:20.131042",
     "trade_hash": "0x8959df6bbf61b6d535b12b3c7a48f269a41d11ab4ed3e5d434482165e14f69eb",
     "trade_timestamp": 1768956908
+  },
+  {
+    "market": "Spurs vs. Rockets",
+    "market_slug": "nba-sas-hou-2026-01-20",
+    "wallet": "0xa59e59fcdf011256215e3e2579c348047f702b99",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,351)"
+      ],
+      "amount": 4350.76488,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 29
+    },
+    "timestamp": "2026-01-21T04:03:00.601332",
+    "trade_hash": "0xed42193e587030ef542737be28d18d1beed51fa7e0da89e0b5b0895abc3b5ca4",
+    "trade_timestamp": 1768968088
+  },
+  {
+    "market": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xb0762f3c2a1e6714fe7156274dce7285bfb9e113",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($4,269)"
+      ],
+      "amount": 4269.23,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-21T04:03:01.336222",
+    "trade_hash": "0x00dd4efc3c671c445972523185a163fcbc19124e297bc5903139019ba6d954aa",
+    "trade_timestamp": 1768968082
+  },
+  {
+    "market": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0xf80bc408f828e934ec00f55b02346d12ec24843a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($4,459)"
+      ],
+      "amount": 4459.084,
+      "odds": 0.994,
+      "wallet_age_days": 2,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-21T04:03:07.360599",
+    "trade_hash": "0xc1a2343cbff686a22bf88d0ce16a3b591d7ad4c674bf0bd3b08b0a941d4f00c2",
+    "trade_timestamp": 1768968014
+  },
+  {
+    "market": "Will Andrew Yang win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-andrew-yang-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x63d26b000e2a10f4d24bba113f35d9c86edd5e0c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($4,679)"
+      ],
+      "amount": 4678.758,
+      "odds": 0.994,
+      "wallet_age_days": 2,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-21T04:03:09.453273",
+    "trade_hash": "0xb080ab7839099014c437fdf6c075d4ff788846f508fa697bf5c5cfd7614101aa",
+    "trade_timestamp": 1768968060
   }
 ]
