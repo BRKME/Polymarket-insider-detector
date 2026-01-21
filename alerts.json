@@ -12983,5 +12983,25 @@
     "timestamp": "2026-01-21T11:03:31.316468",
     "trade_hash": "0xab45dad5821be3e40f3c5f352588b4f132facee933f89fda1bba8f48c53c7004",
     "trade_timestamp": 1768993318
+  },
+  {
+    "market": "Will Ethereum reach $6,000 in January?",
+    "market_slug": "will-ethereum-reach-6000-in-january-2026",
+    "wallet": "0xe7de27b34884cf21552a37c88e7864876ca22b2f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,015)"
+      ],
+      "amount": 5014.9999800000005,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 38
+    },
+    "timestamp": "2026-01-21T11:33:33.241635",
+    "trade_hash": "0x29cbd2da2e2ba01ad278c9a73ef24a1f37eae62ae8dc70b351b716f74c17c4ee",
+    "trade_timestamp": 1768994992
   }
 ]
