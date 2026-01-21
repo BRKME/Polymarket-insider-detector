@@ -12963,5 +12963,25 @@
     "timestamp": "2026-01-21T10:51:22.020621",
     "trade_hash": "0xdfc21a14970bfbc4e0757d429aeb35480abccc64ba018c57c6e9c993b887748a",
     "trade_timestamp": 1768992466
+  },
+  {
+    "market": "Will the Fed decide differently in the next three decisions (Oct\u2013Dec\u2013Jan)?",
+    "market_slug": "will-the-fed-decide-differently-in-the-next-three-decisions-octdecjan",
+    "wallet": "0xff71238c433968d5582ddb7a3c9c06698ab9a590",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($2,600)"
+      ],
+      "amount": 2599.96663,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-21T11:03:31.316468",
+    "trade_hash": "0xab45dad5821be3e40f3c5f352588b4f132facee933f89fda1bba8f48c53c7004",
+    "trade_timestamp": 1768993318
   }
 ]
