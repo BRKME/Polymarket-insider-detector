@@ -12780,5 +12780,25 @@
     "timestamp": "2026-01-21T08:00:56.848835",
     "trade_hash": "0x8ade9891622b47ef0f23c5f494fa7f9097703e44b7df1491fb29f33b027a7866",
     "trade_timestamp": 1768982148
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x94353164e0b0e4d87441b8c53f6002f9eaffc1e2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($3,322)"
+      ],
+      "amount": 3321.66502,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 37
+    },
+    "timestamp": "2026-01-21T08:35:05.465957",
+    "trade_hash": "0xbce13af705ac08188fe093a1366a076f0bed3cd0a5d22703839cb1fcbc860ec3",
+    "trade_timestamp": 1768984324
   }
 ]
