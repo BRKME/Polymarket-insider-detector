@@ -12638,5 +12638,66 @@
     "timestamp": "2026-01-21T07:03:05.733756",
     "trade_hash": "0x4a80320312dc464415fa4e6c4278844003e3c58be4b54d9cb03e1cbd5887610a",
     "trade_timestamp": 1768978924
+  },
+  {
+    "market": "Will LeBron James win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-lebron-james-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x9a0a15cc28cea995b2427e27903f375a8b8b0f18",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($2,107)"
+      ],
+      "amount": 2106.866,
+      "odds": 0.991,
+      "wallet_age_days": 1,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-21T07:37:58.511801",
+    "trade_hash": "0x3ab55ab070862bd4eb10eab2c93a2989238c8e739b636a98dac695dd854d1034",
+    "trade_timestamp": 1768980896
+  },
+  {
+    "market": "Will Ethereum reach $4,600 in January?",
+    "market_slug": "will-ethereum-reach-4600-in-january-2026",
+    "wallet": "0xee40784a81a617974a451654fdb65b6ecafd8872",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($5,219)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5219.494,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-21T07:38:01.381873",
+    "trade_hash": "0x6ed9f687dbcf3ed8cf22de9a0c45d91130807a4672553aef51d8e5a63c2b385b",
+    "trade_timestamp": 1768980864
+  },
+  {
+    "market": "Will Ethereum reach $4,600 in January?",
+    "market_slug": "will-ethereum-reach-4600-in-january-2026",
+    "wallet": "0x61ab3f2fe0a912cf8caf5d10679f9635c7ff987f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($5,214)"
+      ],
+      "amount": 5213.53,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-21T07:38:02.859995",
+    "trade_hash": "0x5888dfb28e9665234114e8128e9d6a2bc5f1d2538467ec750aa84a5f00dd5ec3",
+    "trade_timestamp": 1768980942
   }
 ]
