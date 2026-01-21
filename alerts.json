@@ -12434,5 +12434,45 @@
     "timestamp": "2026-01-21T04:03:09.453273",
     "trade_hash": "0xb080ab7839099014c437fdf6c075d4ff788846f508fa697bf5c5cfd7614101aa",
     "trade_timestamp": 1768968060
+  },
+  {
+    "market": "Will Sevilla win the 2025\u201326 La Liga?",
+    "market_slug": "will-sevilla-win-the-202526-la-liga",
+    "wallet": "0x71cb9b28c9b1334bdf2a961e3f573da3c4187d3f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($5,022)"
+      ],
+      "amount": 5021.94598,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 54
+    },
+    "timestamp": "2026-01-21T04:52:11.200330",
+    "trade_hash": "0xe6b9b9d5e01e204109eef240ea37cec1fbdb6e31214918e97f14734426898ee9",
+    "trade_timestamp": 1768970838
+  },
+  {
+    "market": "Will Michelle Obama win the 2028 US Presidential Election?",
+    "market_slug": "will-michelle-obama-win-the-2028-us-presidential-election",
+    "wallet": "0x479fe7b4a86cbb1f1bef56ef22f883b52b31ea5d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,528)"
+      ],
+      "amount": 1527.68,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 12
+    },
+    "timestamp": "2026-01-21T04:52:42.082406",
+    "trade_hash": "0xc3b45d67fbdf7c0d33a3f1150d88d430450589c769969a6d24bee1a22773b00c",
+    "trade_timestamp": 1768970824
   }
 ]
