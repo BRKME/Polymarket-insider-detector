@@ -12860,5 +12860,25 @@
     "timestamp": "2026-01-21T09:33:54.488783",
     "trade_hash": "0x7895edafa43a9afd8e205973aed855dafb5c51fea3957b1f803d8b128546b6bb",
     "trade_timestamp": 1768987922
+  },
+  {
+    "market": "LoL: Dplus KIA vs Nongshim Red Force (BO3) - LCK Cup Group Stage",
+    "market_slug": "lol-dk-ns-2026-01-21",
+    "wallet": "0x65b7a4c314a4f0498a756526c29b2079fb7df83c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($3,080)"
+      ],
+      "amount": 3080.3026400000003,
+      "odds": 0.9903491087733738,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-21T10:19:57.998242",
+    "trade_hash": "0x71f94ee274558c1c4751234203baa05688ff83a47bf7b57c05f2f1927c3c795b",
+    "trade_timestamp": 1768990712
   }
 ]
