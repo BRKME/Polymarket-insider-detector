@@ -13204,5 +13204,43 @@
     "timestamp": "2026-01-21T19:35:44.270785",
     "trade_hash": "0xfe4ea184b590be8c9394fe9a9200a47ba3d068919b4f1e0a2ab8ca1f8356709f",
     "trade_timestamp": 1769023956
+  },
+  {
+    "market": "Will Bitcoin dip to $80,000 in January?",
+    "market_slug": "will-bitcoin-dip-to-80k-in-january-2026",
+    "wallet": "0xe89ea370d21cfe36a27c4236f348a884c36b0600",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (7.1% odds)",
+        "Large bet ($2,103)"
+      ],
+      "amount": 2102.95201,
+      "odds": 0.07147321137860459,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-21T22:48:19.878479",
+    "trade_hash": "0xb3768bc5e394d90d0b4505167744b1833f97b87d74b981721453a7fb0bcfa22e",
+    "trade_timestamp": 1769035536,
+    "trade_data": {
+      "asset": "23876986815376127874009957316712352759229210373454136054343758360595212713854",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.07147321137860459,
+      "size": 29422.94,
+      "amount": 2102.95201
+    }
   }
 ]
