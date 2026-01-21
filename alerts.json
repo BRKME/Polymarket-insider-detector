@@ -12596,5 +12596,47 @@
     "timestamp": "2026-01-21T05:59:16.986134",
     "trade_hash": "0x32be0f401bfa497e094428cf1892775eafc841bfc9689ae5677360a5104af7c2",
     "trade_timestamp": 1768974938
+  },
+  {
+    "market": "Will Uzbekistan win the 2026 FIFA World Cup?",
+    "market_slug": "will-uzbekistan-win-the-2026-fifa-world-cup-773",
+    "wallet": "0x51647ec2817155b2eda49b5eb83c82a0976af17c",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,033)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1033.40904,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-21T07:03:04.356748",
+    "trade_hash": "0xa6bd2ad57adce3658d64866370293b0440d0c149c3ddedf914280e84ea76b4c2",
+    "trade_timestamp": 1768978912
+  },
+  {
+    "market": "Will Uzbekistan win the 2026 FIFA World Cup?",
+    "market_slug": "will-uzbekistan-win-the-2026-fifa-world-cup-773",
+    "wallet": "0xce0a5278b3bd264ab160d3600fef0a9d7c5f1887",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,037)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1037.0717000000002,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-21T07:03:05.733756",
+    "trade_hash": "0x4a80320312dc464415fa4e6c4278844003e3c58be4b54d9cb03e1cbd5887610a",
+    "trade_timestamp": 1768978924
   }
 ]
