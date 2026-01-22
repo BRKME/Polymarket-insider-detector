@@ -14006,5 +14006,43 @@
       "size": 3703.7,
       "amount": 3696.2925999999998
     }
+  },
+  {
+    "market": "Will Bitcoin reach $120,000 in January?",
+    "market_slug": "will-bitcoin-reach-120k-in-january-2026",
+    "wallet": "0x293b50be54460f10aa5bb5b5b9a2aa2c47b386f1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,195)"
+      ],
+      "amount": 1195.2,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 30
+    },
+    "timestamp": "2026-01-22T09:49:16.979892",
+    "trade_hash": "0xeb4c051516902ee5cb36bb77c371a337ac0f662c5b2a26cea5dfd49680d9f2c3",
+    "trade_timestamp": 1769075116,
+    "trade_data": {
+      "asset": "2860419625063077226714317780353851281394973476157882993567726556651682073498",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.996,
+      "size": 1200.0,
+      "amount": 1195.2
+    }
   }
 ]
