@@ -14695,5 +14695,81 @@
       "size": 4961.93864,
       "amount": 4847.569998
     }
+  },
+  {
+    "market": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 10+ times during CNBC interview?",
+    "market_slug": "will-trump-say-million-or-billion-or-trillion-10-times-during-cnbc-interview",
+    "wallet": "0x223bffe74010795a830d40cc42dcae607fa81fd7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,336)"
+      ],
+      "amount": 4335.66,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-22T16:24:18.004819",
+    "trade_hash": "0x908e71bd7b6d2efbb3fb57c7424fdf4124027c1e11d29f87672d029eff1e7f6c",
+    "trade_timestamp": 1769098974,
+    "trade_data": {
+      "asset": "38343078892603078225315342373573611758600168647809150107187201241830010754857",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 4340.0,
+      "amount": 4335.66
+    }
+  },
+  {
+    "market": "Will Trump say \"Million\" or \"Billion\" or \"Trillion\" 10+ times during CNBC interview?",
+    "market_slug": "will-trump-say-million-or-billion-or-trillion-10-times-during-cnbc-interview",
+    "wallet": "0xc7e75823edd1a265c292539635205b86dd56adb0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,995)"
+      ],
+      "amount": 4995.0,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-22T16:24:23.650664",
+    "trade_hash": "0x84f6c0d2e5ba4fdcc6ab9aac8f3229e11e8ec0783a2168ca2959e5ea20b236e7",
+    "trade_timestamp": 1769098802,
+    "trade_data": {
+      "asset": "38343078892603078225315342373573611758600168647809150107187201241830010754857",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 5000.0,
+      "amount": 4995.0
+    }
   }
 ]
