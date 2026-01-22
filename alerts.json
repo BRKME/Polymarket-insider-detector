@@ -14083,5 +14083,43 @@
       "size": 1184.53,
       "amount": 1182.16094
     }
+  },
+  {
+    "market": "Will Uzbekistan win the 2026 FIFA World Cup?",
+    "market_slug": "will-uzbekistan-win-the-2026-fifa-world-cup-773",
+    "wallet": "0x3a269fd1bdeac9c623632388f66e83fc0840852f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($5,007)"
+      ],
+      "amount": 5006.864210000001,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 64
+    },
+    "timestamp": "2026-01-22T10:56:19.915707",
+    "trade_hash": "0x336dba6dc00468604c9569344070fc24b0f31c7975cde4e8088fe0614219c2a7",
+    "trade_timestamp": 1769079164,
+    "trade_data": {
+      "asset": "105754735859803813986361714630753276237891536292440584153365249756008425623608",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.997,
+      "size": 5021.93,
+      "amount": 5006.864210000001
+    }
   }
 ]
