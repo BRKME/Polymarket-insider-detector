@@ -14809,5 +14809,82 @@
       "size": 1802.16,
       "amount": 1800.3578400000001
     }
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xc94b3c6b56754c8982fe6f8eb8fea9e9ec6cbfef",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($5,065)"
+      ],
+      "amount": 5064.639999999999,
+      "odds": 0.952,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-22T17:50:04.903790",
+    "trade_hash": "0x0c56c89658b6ff531689fc85d4e6871b038390aa65880eff866a08d7da587580",
+    "trade_timestamp": 1769104112,
+    "trade_data": {
+      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.952,
+      "size": 5320.0,
+      "amount": 5064.639999999999
+    }
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xfe6f7c04e3672f63b979fc4f321c9f1dc5d6441c",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.1% odds)",
+        "Large bet ($5,062)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 5062.316000000001,
+      "odds": 0.9512502466293983,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-22T17:50:12.190044",
+    "trade_hash": "0xadd9c766936c311145c847276e743ac316a8fab98936327f36d0d41875c545be",
+    "trade_timestamp": 1769104020,
+    "trade_data": {
+      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9512502466293983,
+      "size": 5321.75,
+      "amount": 5062.316000000001
+    }
   }
 ]
