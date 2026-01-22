@@ -13508,5 +13508,237 @@
       "size": 1565.762,
       "amount": 1499.9999959999998
     }
+  },
+  {
+    "market": "Will Brentford win the 2025\u201326 English Premier League?",
+    "market_slug": "will-brentford-win-the-202526-english-premier-league",
+    "wallet": "0x1e1bf278ae1d4f178fe06505d5215d59e23fc6bb",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,023)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1022.83614,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-22T06:55:06.811535",
+    "trade_hash": "0x1744fc25a6f77c793912cadf0027b134b7339b0677ad7c734b4c326e6679fe57",
+    "trade_timestamp": 1769064700,
+    "trade_data": {
+      "asset": "114444125124122303566399993657146184596008541183155111894675512718735990103370",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1023.86,
+      "amount": 1022.83614
+    }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x5227a8a3f78a5e5c5563266052b4100f712bd47e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($1,017)"
+      ],
+      "amount": 1016.97988,
+      "odds": 0.997,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T06:55:07.564793",
+    "trade_hash": "0x3e68a858004afc6e489542fefcd26071169e42fe02f5d1e4a5a9b4c5b009c911",
+    "trade_timestamp": 1769064714,
+    "trade_data": {
+      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.997,
+      "size": 1020.04,
+      "amount": 1016.97988
+    }
+  },
+  {
+    "market": "Will Brentford win the 2025\u201326 English Premier League?",
+    "market_slug": "will-brentford-win-the-202526-english-premier-league",
+    "wallet": "0x54fcc6d6aea0f2fefbc261e82915ab7fd6168bd3",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,039)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1038.81015,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-22T06:55:11.647538",
+    "trade_hash": "0xa5df02d084a161fcf84fe4610e29ba95a10eca54494cb5a858b385125fc38c3a",
+    "trade_timestamp": 1769064680,
+    "trade_data": {
+      "asset": "114444125124122303566399993657146184596008541183155111894675512718735990103370",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1039.85,
+      "amount": 1038.81015
+    }
+  },
+  {
+    "market": "Will Brentford win the 2025\u201326 English Premier League?",
+    "market_slug": "will-brentford-win-the-202526-english-premier-league",
+    "wallet": "0xd1c204302ee29a9b4db307cbd107d80df20a616b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,002)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1001.7972,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-22T06:55:13.178856",
+    "trade_hash": "0x17b9e1a189759cb09eba65394e0d518e94e20257f8e5b36048a9d5b3f3e38511",
+    "trade_timestamp": 1769064672,
+    "trade_data": {
+      "asset": "114444125124122303566399993657146184596008541183155111894675512718735990103370",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1002.8,
+      "amount": 1001.7972
+    }
+  },
+  {
+    "market": "Will Brentford win the 2025\u201326 English Premier League?",
+    "market_slug": "will-brentford-win-the-202526-english-premier-league",
+    "wallet": "0x5d948fd6d6b10f873db0b8924c507ccb8510864f",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,029)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1028.68029,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-22T06:55:15.262324",
+    "trade_hash": "0x596b949dc09898499c1d52bdb951996548cd1ddf4d3bee7bdad43ef344e6f12b",
+    "trade_timestamp": 1769064638,
+    "trade_data": {
+      "asset": "114444125124122303566399993657146184596008541183155111894675512718735990103370",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1029.71,
+      "amount": 1028.68029
+    }
+  },
+  {
+    "market": "Will Wolves win the 2025\u201326 English Premier League?",
+    "market_slug": "will-wolves-win-the-202526-english-premier-league",
+    "wallet": "0xb6c5af3879d48c60cb30b60850c99187a2c36620",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,008)"
+      ],
+      "amount": 1007.98998,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T06:55:39.956305",
+    "trade_hash": "0x4e905947d4ec40995aab7cf2ccb6d4a2c38eec5095f5811dde0a441149f39fb7",
+    "trade_timestamp": 1769064710,
+    "trade_data": {
+      "asset": "60828526177642015904409520408115757511306238626287950905759830998657686475336",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 1010.01,
+      "amount": 1007.98998
+    }
   }
 ]
