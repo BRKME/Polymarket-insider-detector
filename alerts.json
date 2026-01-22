@@ -14274,5 +14274,81 @@
       "size": 1003.71,
       "amount": 1001.70258
     }
+  },
+  {
+    "market": "LoL: BNK FEARX vs Gen.G (BO3) - LCK Cup Group Stage",
+    "market_slug": "lol-fox1-gen-2026-01-22",
+    "wallet": "0x7d787c72c8317046fda90814a93c87fc192529a5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($5,731)"
+      ],
+      "amount": 5731.10996,
+      "odds": 0.9876347196832461,
+      "wallet_age_days": 1,
+      "total_activities": 79
+    },
+    "timestamp": "2026-01-22T12:39:30.466618",
+    "trade_hash": "0x4d6a96c24d2b708a1320eb84fb77182ddfd666e78adace6d11fb133067898ba8",
+    "trade_timestamp": 1769085324,
+    "trade_data": {
+      "asset": "100225800564739456242601682162245148333149009710695780621236275218611905792090",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Gen.G",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9876347196832461,
+      "size": 5802.864,
+      "amount": 5731.10996
+    }
+  },
+  {
+    "market": "Will Sevilla win the 2025\u201326 La Liga?",
+    "market_slug": "will-sevilla-win-the-202526-la-liga",
+    "wallet": "0x87625aceaf4957abf7b5c365f3516c531c7d8a1e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,219)"
+      ],
+      "amount": 1219.3065,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-22T12:39:31.956124",
+    "trade_hash": "0xd5ece6345ace77fe3145c903e4d29865b92fe9d2c880d61b493f8479cf642616",
+    "trade_timestamp": 1769085308,
+    "trade_data": {
+      "asset": "109120339759531011772666823213740223748575204265138692382413973296617898824336",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 1221.75,
+      "amount": 1219.3065
+    }
   }
 ]
