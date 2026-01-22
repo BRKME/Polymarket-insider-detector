@@ -14235,5 +14235,44 @@
       "size": 3010.0,
       "amount": 3000.97
     }
+  },
+  {
+    "market": "Will the Sacramento Kings win the 2026 NBA Finals?",
+    "market_slug": "will-the-sacramento-kings-win-the-2026-nba-finals",
+    "wallet": "0xa3f9fc88d7315a9b10c583c28c0d9dfc1eb9462d",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,002)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1001.70258,
+      "odds": 0.998,
+      "wallet_age_days": 2,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-22T11:58:34.975806",
+    "trade_hash": "0xcb5cba5760e88049bac827a9d48a7dc12e418044beb35639096fdfa85655a699",
+    "trade_timestamp": 1769082854,
+    "trade_data": {
+      "asset": "53762656564813978305123954932423338056181879481865210265145699223531340501188",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 1003.71,
+      "amount": 1001.70258
+    }
   }
 ]
