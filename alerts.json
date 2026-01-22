@@ -13470,5 +13470,43 @@
       "size": 2000.0,
       "amount": 1959.93989
     }
+  },
+  {
+    "market": "Will Kamala Harris win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-kamala-harris-win-the-2028-democratic-presidential-nomination-641",
+    "wallet": "0x5fb5d06378353034f0f1b78033827482626f9767",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.8% odds)",
+        "Large bet ($1,500)"
+      ],
+      "amount": 1499.9999959999998,
+      "odds": 0.958,
+      "wallet_age_days": 0,
+      "total_activities": 41
+    },
+    "timestamp": "2026-01-22T05:37:49.309044",
+    "trade_hash": "0x4d269ac519a9ec8e00ba659d1a7357273cee42b729f17d7421ce5ffd88519d68",
+    "trade_timestamp": 1769060172,
+    "trade_data": {
+      "asset": "26930844951471612827925270830087046333229637930899178134435055616497220846773",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.958,
+      "size": 1565.762,
+      "amount": 1499.9999959999998
+    }
   }
 ]
