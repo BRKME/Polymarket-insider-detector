@@ -13356,5 +13356,119 @@
       "size": 1174.64993,
       "amount": 1124.139983
     }
+  },
+  {
+    "market": "Will Raphael Warnock win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-raphael-warnock-win-the-2028-democratic-presidential-nomination-914",
+    "wallet": "0xdbed1ba333569b9ba5b36ba09743c11569558bdf",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($2,050)"
+      ],
+      "amount": 2049.93614,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-22T04:30:05.841081",
+    "trade_hash": "0x32229c2012a0d41a867ea817ad2fc6be86e1a42580abd71abee46c0ae9c280b8",
+    "trade_timestamp": 1769056124,
+    "trade_data": {
+      "asset": "88403451835230950222119400360490338078378790763472355557584611572247419676051",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.994,
+      "size": 2062.31,
+      "amount": 2049.93614
+    }
+  },
+  {
+    "market": "Will the price of Ethereum be above $3,700 on January 24?",
+    "market_slug": "ethereum-above-3700-on-january-24",
+    "wallet": "0x550ed7eeb7a695fd8525048e2fc1b17532bdab08",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,460)"
+      ],
+      "amount": 4459.99554,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-22T04:30:06.599127",
+    "trade_hash": "0xb517031290ac35a7027dbeffc5bd67fd7d5dfdfc4fac3b247c492a39827b0912",
+    "trade_timestamp": 1769056112,
+    "trade_data": {
+      "asset": "85892160330770015983219025938661460463741995791253198300060416564714880752040",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 4464.46,
+      "amount": 4459.99554
+    }
+  },
+  {
+    "market": "Thunder vs. Bucks",
+    "market_slug": "nba-okc-mil-2026-01-21",
+    "wallet": "0x0a4d2a4d3ed984027562c2ff163fbde020b1ce2c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($1,960)"
+      ],
+      "amount": 1959.93989,
+      "odds": 0.979969945,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T04:31:16.899303",
+    "trade_hash": "0x0683d748b293f283a0464c9eac1f9a4cf7e0b249e867a06d384cd8eee6b0a24c",
+    "trade_timestamp": 1769055928,
+    "trade_data": {
+      "asset": "25171384998427926505053526496513189095685459516417423267324964823173161094044",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Thunder",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.979969945,
+      "size": 2000.0,
+      "amount": 1959.93989
+    }
   }
 ]
