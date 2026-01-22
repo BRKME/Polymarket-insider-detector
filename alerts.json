@@ -14924,5 +14924,43 @@
       "size": 1100.0,
       "amount": 1067.0
     }
+  },
+  {
+    "market": "Counter-Strike: Heroic vs FURIA (BO3) - BLAST Bounty Playoffs",
+    "market_slug": "cs2-hero-furia-2026-01-22",
+    "wallet": "0x70c5c900812fc38c1277ca972eb09483671e457f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($9,990)"
+      ],
+      "amount": 9990.019980000001,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T20:42:44.999017",
+    "trade_hash": "0xe746bc13109a3ce68c7e0eeb7ba9341c89fd4e0c767f7201e04a72ba32983f47",
+    "trade_timestamp": 1769114436,
+    "trade_data": {
+      "asset": "38258646551336023520552755289214822922052543292256889845173566298804356902019",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "FURIA",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 10000.02,
+      "amount": 9990.019980000001
+    }
   }
 ]
