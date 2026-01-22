@@ -13740,5 +13740,81 @@
       "size": 1010.01,
       "amount": 1007.98998
     }
+  },
+  {
+    "market": "Bucks vs. Hawks: O/U 230.5",
+    "market_slug": "nba-mil-atl-2026-01-19-total-230pt5",
+    "wallet": "0xb26572db7b240086b7a09087c144952858be3d70",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,119)"
+      ],
+      "amount": 1118.88,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-22T07:44:06.003088",
+    "trade_hash": "0xf92c962f17aeabd79aba825471972ad5f804ce2909f348a8dea985ee90fdeb4d",
+    "trade_timestamp": 1769067698,
+    "trade_data": {
+      "asset": "165665731018223767835736471127433682138427665890281163571304478976402928056",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Under",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1120.0,
+      "amount": 1118.88
+    }
+  },
+  {
+    "market": "Israel nuclear weapon use against Iran by January 31?",
+    "market_slug": "will-israel-nuke-iran-by-january-31",
+    "wallet": "0x6a6740f47f869cd5bbbb482dc96385d5e16fd795",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($3,988)"
+      ],
+      "amount": 3988.0,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 92
+    },
+    "timestamp": "2026-01-22T07:44:09.297622",
+    "trade_hash": "0xc63b0050c6d029272fc5077eaef47cf677670a3c23fff866d0894b0443946b3a",
+    "trade_timestamp": 1769067684,
+    "trade_data": {
+      "asset": "76991668838066073564052126895208474029189798601852224473149596744444915538311",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.997,
+      "size": 4000.0,
+      "amount": 3988.0
+    }
   }
 ]
