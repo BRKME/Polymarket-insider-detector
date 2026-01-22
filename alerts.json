@@ -13892,5 +13892,119 @@
       "size": 1047.0,
       "amount": 1045.953
     }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x15d30a2e0ae97f2c9f6a98dbfb728f73ab1a28de",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($3,496)"
+      ],
+      "amount": 3496.4889700000003,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 44
+    },
+    "timestamp": "2026-01-22T08:51:14.038200",
+    "trade_hash": "0xad861c7be1119ef78126a9e54706819b7066dd395c80785ac64c0e6c93ff04f3",
+    "trade_timestamp": 1769071672,
+    "trade_data": {
+      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.997,
+      "size": 3507.01,
+      "amount": 3496.4889700000003
+    }
+  },
+  {
+    "market": "Will Leeds win the 2025\u201326 English Premier League?",
+    "market_slug": "will-leeds-win-the-202526-english-premier-league",
+    "wallet": "0x402aaacba3bcce50d1e9985df11d02f52f964be0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,546)"
+      ],
+      "amount": 3546.4429,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-22T08:51:16.532310",
+    "trade_hash": "0x82d84e4ad44ff11987e11af8cf126769395c3998c032029edbd4830302bd8167",
+    "trade_timestamp": 1769071662,
+    "trade_data": {
+      "asset": "79742853692640441630014447218057231927327132180925275737649345065452061252209",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 3553.55,
+      "amount": 3546.4429
+    }
+  },
+  {
+    "market": "Will the next Dutch government be VVD + CDA?",
+    "market_slug": "will-the-next-dutch-government-be-vvd-cda",
+    "wallet": "0xadc5e798f6b63165555afd5988184350b41db728",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,696)"
+      ],
+      "amount": 3696.2925999999998,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 42
+    },
+    "timestamp": "2026-01-22T08:51:17.301402",
+    "trade_hash": "0x2dcb9ff265b896f292dfde2d9bb9d507ca71e23b71ae05f38fb496efadefe3fe",
+    "trade_timestamp": 1769071656,
+    "trade_data": {
+      "asset": "5475912822565843617133287560714396163074121364992481974898800473017031268222",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 3703.7,
+      "amount": 3696.2925999999998
+    }
   }
 ]
