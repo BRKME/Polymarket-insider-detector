@@ -14771,5 +14771,43 @@
       "size": 5000.0,
       "amount": 4995.0
     }
+  },
+  {
+    "market": "Counter-Strike: Liquid vs Team Falcons (BO3) - BLAST Bounty Playoffs",
+    "market_slug": "cs2-tl1-fal2-2026-01-22",
+    "wallet": "0xb76f1ca090894b5a18c7ba2e4f4ea4e734f88536",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,800)"
+      ],
+      "amount": 1800.3578400000001,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T17:23:33.982636",
+    "trade_hash": "0x3f1c08c5f671e1b2ff89f5bc6bb55ea26db1a058a9e5dd0d6331828cd3ad1033",
+    "trade_timestamp": 1769102470,
+    "trade_data": {
+      "asset": "62484969071260813330567839528939316750863720349180156210189968419678356881537",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Team Falcons",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1802.16,
+      "amount": 1800.3578400000001
+    }
   }
 ]
