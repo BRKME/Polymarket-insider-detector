@@ -13816,5 +13816,81 @@
       "size": 4000.0,
       "amount": 3988.0
     }
+  },
+  {
+    "market": "Bucks vs. Hawks: O/U 230.5",
+    "market_slug": "nba-mil-atl-2026-01-19-total-230pt5",
+    "wallet": "0xf91282f2838fbd67836c554709403e291d70d178",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,112)"
+      ],
+      "amount": 1111.887,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-22T07:55:18.528416",
+    "trade_hash": "0x6ac0e8cb6eb13cfaea42d3d3f826bb0f8ca8a1e140812cfd31931e9c3b11dd5b",
+    "trade_timestamp": 1769068452,
+    "trade_data": {
+      "asset": "165665731018223767835736471127433682138427665890281163571304478976402928056",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Under",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1113.0,
+      "amount": 1111.887
+    }
+  },
+  {
+    "market": "Bucks vs. Hawks: O/U 230.5",
+    "market_slug": "nba-mil-atl-2026-01-19-total-230pt5",
+    "wallet": "0x9c210ba5d77ce250ad8d19f4d129626d36d583a6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,046)"
+      ],
+      "amount": 1045.953,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-22T07:55:26.225743",
+    "trade_hash": "0x450d8834922ebe7ba694082b4dfe11139f69fb401a4f19a70c5a3e6b3837014c",
+    "trade_timestamp": 1769068388,
+    "trade_data": {
+      "asset": "165665731018223767835736471127433682138427665890281163571304478976402928056",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Under",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1047.0,
+      "amount": 1045.953
+    }
   }
 ]
