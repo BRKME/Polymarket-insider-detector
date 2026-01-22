@@ -13318,5 +13318,43 @@
       "size": 3420.8415,
       "amount": 3413.999817
     }
+  },
+  {
+    "market": "Cavaliers vs. Hornets",
+    "market_slug": "nba-cle-cha-2026-01-21",
+    "wallet": "0x768f4c085c377216ec444d5a29989f1a92d28a9b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (95.7% odds)",
+        "Large bet ($1,124)"
+      ],
+      "amount": 1124.139983,
+      "odds": 0.9569999999914868,
+      "wallet_age_days": 2,
+      "total_activities": 78
+    },
+    "timestamp": "2026-01-22T01:28:30.664090",
+    "trade_hash": "0x89afa4c25a8af0074c90de7fb89463f9fcb20f80cb111654b8daa11f1d11ca28",
+    "trade_timestamp": 1769045098,
+    "trade_data": {
+      "asset": "71024639177808530372627664170029316332458108553814747772617852406937418640923",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Cavaliers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9569999999914868,
+      "size": 1174.64993,
+      "amount": 1124.139983
+    }
   }
 ]
