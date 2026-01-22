@@ -14044,5 +14044,44 @@
       "size": 1200.0,
       "amount": 1195.2
     }
+  },
+  {
+    "market": "Will Union Saint-Gilloise win the 2025\u201326 Champions League?",
+    "market_slug": "will-union-saint-gilloise-win-the-202526-champions-league",
+    "wallet": "0x3b8fff1b7c4b4c7c215c4b8d59f48fa9f4e6a529",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,182)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1182.16094,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-22T10:32:54.609474",
+    "trade_hash": "0x94d8e4e23fe675b6d5a2037875450bc1fe487830da4dcbeb728ddd332d9d6c2f",
+    "trade_timestamp": 1769077806,
+    "trade_data": {
+      "asset": "8530723144410488573227621851575969317510697903783455903927607049155629901235",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 1184.53,
+      "amount": 1182.16094
+    }
   }
 ]
