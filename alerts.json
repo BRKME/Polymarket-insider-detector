@@ -14962,5 +14962,43 @@
       "size": 10000.02,
       "amount": 9990.019980000001
     }
+  },
+  {
+    "market": "ETHGAS FDV above $200M one day after launch?",
+    "market_slug": "ethgas-fdv-above-200m-one-day-after-launch",
+    "wallet": "0xabbeb2bdd30ba5c51cb14168b068103961648f37",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,034)"
+      ],
+      "amount": 1034.47449,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T22:00:07.993030",
+    "trade_hash": "0x9ce7c7c85924421cdf0f1570264b763223106185635e37bbe644a1e4695d146a",
+    "trade_timestamp": 1769119174,
+    "trade_data": {
+      "asset": "18782694643988595091253431646580961651417782353770972610796883510453615655943",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1035.51,
+      "amount": 1034.47449
+    }
   }
 ]
