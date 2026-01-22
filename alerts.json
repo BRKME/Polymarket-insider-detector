@@ -14580,5 +14580,120 @@
       "size": 1467.015688,
       "amount": 1400.999982
     }
+  },
+  {
+    "market": "Will Phan Van Giang be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-phan-van-giang-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0x241178b8817237522efc247b26b40d3851c1a664",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.1% odds)",
+        "Large bet ($1,833)"
+      ],
+      "amount": 1833.11718,
+      "odds": 0.951181600249066,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-22T15:56:50.900053",
+    "trade_hash": "0xdec7abb4891c25c2e77fa448fb5c02b5b10c444033fa541916379978700b48de",
+    "trade_timestamp": 1769097260,
+    "trade_data": {
+      "asset": "97790049399572907096588141288919706823942870675833426831859440416518977970287",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.951181600249066,
+      "size": 1927.2,
+      "amount": 1833.11718
+    }
+  },
+  {
+    "market": "Will Katie Britt win the 2028 Republican presidential nomination?",
+    "market_slug": "will-katie-britt-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x5039feb2d79e55ac68edc24d434ec1f5219432da",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,431)"
+      ],
+      "amount": 1431.4213200000002,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 21
+    },
+    "timestamp": "2026-01-22T15:56:52.389187",
+    "trade_hash": "0xf03cccf9039769b3f1af0eacfbca478a7fa53ca80bb64df6af37178c81b54c6b",
+    "trade_timestamp": 1769097250,
+    "trade_data": {
+      "asset": "16356411122994156106976113515543626616680005491893556174464804958397610666717",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.996,
+      "size": 1437.17,
+      "amount": 1431.4213200000002
+    }
+  },
+  {
+    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0xaa182032fc0354d8ea1b8204ffc28b7c5f55fc3b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.7% odds)",
+        "Large bet ($4,848)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 4847.569998,
+      "odds": 0.9769508149338985,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-22T15:56:58.403490",
+    "trade_hash": "0xf245ba6c5f9f5a9759ef062554a9ca8abd61fb7a2621e2e08e425d0ef3a89024",
+    "trade_timestamp": 1769097224,
+    "trade_data": {
+      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9769508149338985,
+      "size": 4961.93864,
+      "amount": 4847.569998
+    }
   }
 ]
