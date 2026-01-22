@@ -14350,5 +14350,158 @@
       "size": 1221.75,
       "amount": 1219.3065
     }
+  },
+  {
+    "market": "Will Luong Cuong be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-luong-cuong-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0x78fd643b0bdf57e95bfde37c083421568cbb83c9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,198)"
+      ],
+      "amount": 1197.6,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T13:31:29.462649",
+    "trade_hash": "0x45ebf3a67aab5c9c20662ce0007a3251a60c71e0a5d6439f019e23953bfca4b5",
+    "trade_timestamp": 1769088540,
+    "trade_data": {
+      "asset": "19773465193550709412593336098123191117870796508798669033257036910643420764427",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 1200.0,
+      "amount": 1197.6
+    }
+  },
+  {
+    "market": "Will USA win the 2026 FIFA World Cup?",
+    "market_slug": "will-usa-win-the-2026-fifa-world-cup-467",
+    "wallet": "0x91fa63640c890a25ee3ba2f5856c7997caea1e20",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($2,022)"
+      ],
+      "amount": 2022.47424,
+      "odds": 0.984,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-22T13:32:04.599256",
+    "trade_hash": "0x9a4885a6494211c21a27cb9334a16d4592a377d94d29f0dfecc6183038fd5699",
+    "trade_timestamp": 1769088444,
+    "trade_data": {
+      "asset": "45270201343463663182019040935560267543606888663369415494551943549463253748361",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.984,
+      "size": 2055.36,
+      "amount": 2022.47424
+    }
+  },
+  {
+    "market": "Will the Sacramento Kings win the 2026 NBA Finals?",
+    "market_slug": "will-the-sacramento-kings-win-the-2026-nba-finals",
+    "wallet": "0x733ff9ed8d1859656e736d116d800f2f228bfd05",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,463)"
+      ],
+      "amount": 1462.88836,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-22T13:32:05.298814",
+    "trade_hash": "0x494939bec03486fa9e7909515642d255cf3f716fc80cdadc4113d0db650d4a6d",
+    "trade_timestamp": 1769088442,
+    "trade_data": {
+      "asset": "53762656564813978305123954932423338056181879481865210265145699223531340501188",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 1465.82,
+      "amount": 1462.88836
+    }
+  },
+  {
+    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0xe5c029a975060933c1190bb0bf5f1676c19af9ed",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.2% odds)",
+        "Large bet ($2,433)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2432.74452,
+      "odds": 0.9824547066259052,
+      "wallet_age_days": 1,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-22T13:32:05.985287",
+    "trade_hash": "0x6ba77c88ed10fb4aedf86099601d0a52b868f7ef366f4f60e030d0357b9b2cd6",
+    "trade_timestamp": 1769088438,
+    "trade_data": {
+      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9824547066259052,
+      "size": 2476.19,
+      "amount": 2432.74452
+    }
   }
 ]
