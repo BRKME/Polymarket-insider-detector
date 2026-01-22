@@ -14121,5 +14121,81 @@
       "size": 5021.93,
       "amount": 5006.864210000001
     }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0xc365a74944e2372bfc3696b038e30be985c0f6b7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,660)"
+      ],
+      "amount": 3659.999998,
+      "odds": 0.997999999818942,
+      "wallet_age_days": 0,
+      "total_activities": 35
+    },
+    "timestamp": "2026-01-22T11:36:45.628282",
+    "trade_hash": "0x7c775e7db2be4eaabfcbd05adcb704b7f4852e8de68c6e1252ce71a7501590fc",
+    "trade_timestamp": 1769081602,
+    "trade_data": {
+      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.997999999818942,
+      "size": 3667.334668,
+      "amount": 3659.999998
+    }
+  },
+  {
+    "market": "Will Ethereum reach $6,000 in January?",
+    "market_slug": "will-ethereum-reach-6000-in-january-2026",
+    "wallet": "0x6196b913e1316da77d084b93c7123163b23720cd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,996)"
+      ],
+      "amount": 2996.4595409999997,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-22T11:36:50.473411",
+    "trade_hash": "0xa5ec681b29b40552b6de071d85832f51ebcd9032dc5e4c0759a92de2a1a905ef",
+    "trade_timestamp": 1769081630,
+    "trade_data": {
+      "asset": "85314966135663911945383444595070372155331802770649765628594996080163644717023",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 2999.459,
+      "amount": 2996.4595409999997
+    }
   }
 ]
