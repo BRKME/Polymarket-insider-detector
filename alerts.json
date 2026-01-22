@@ -14886,5 +14886,43 @@
       "size": 5321.75,
       "amount": 5062.316000000001
     }
+  },
+  {
+    "market": "Will Ron DeSantis win the 2028 Republican presidential nomination?",
+    "market_slug": "will-ron-desantis-win-the-2028-republican-presidential-nomination",
+    "wallet": "0x7ac6f6ec4b2f41c6ff77b5b1962c30b4c8613149",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.0% odds)",
+        "Large bet ($1,067)"
+      ],
+      "amount": 1067.0,
+      "odds": 0.97,
+      "wallet_age_days": 0,
+      "total_activities": 46
+    },
+    "timestamp": "2026-01-22T20:12:54.835707",
+    "trade_hash": "0x1fc858d41911a55fd19a3dfadb0dc9e293c30912867a82667294667885da0f1e",
+    "trade_timestamp": 1769112558,
+    "trade_data": {
+      "asset": "95344728193244020854716971584323868633691370479151373416918812532794690491367",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.97,
+      "size": 1100.0,
+      "amount": 1067.0
+    }
   }
 ]
