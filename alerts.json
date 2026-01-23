@@ -15764,5 +15764,44 @@
       "size": 18398.5,
       "amount": 1103.9099999999999
     }
+  },
+  {
+    "market": "Will Alphabet be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-alphabet-be-the-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x8622d75830d164cbd85b4c67c5528e73c70bcdc9",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,039)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1038.73,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-23T15:30:28.288191",
+    "trade_hash": "0x0bb2bed8fafa69fa92dc268b6fa1e4c7d9ed7206b6c4b077e3fabf3dc8814506",
+    "trade_timestamp": 1769182090,
+    "trade_data": {
+      "asset": "61190738960312206700680514475290118923329247049461524260111063577525383895217",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.994,
+      "size": 1045.0,
+      "amount": 1038.73
+    }
   }
 ]
