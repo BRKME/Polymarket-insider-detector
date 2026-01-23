@@ -15841,5 +15841,43 @@
       "size": 7342.23,
       "amount": 7334.000029999999
     }
+  },
+  {
+    "market": "Counter-Strike: GamerLegion vs Vitality - Map 2 Winner",
+    "market_slug": "cs2-gl1-vit-2026-01-23-game2",
+    "wallet": "0xd928c724017cd10aa3c070ffefccb22995f07ade",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,062)"
+      ],
+      "amount": 2062.4355,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 15
+    },
+    "timestamp": "2026-01-23T17:27:25.298332",
+    "trade_hash": "0x31d4fc41dbb5530ea85682c53a61ea97fe6482acaf8fcb4368e9cfbd2b2a10dd",
+    "trade_timestamp": 1769189076,
+    "trade_data": {
+      "asset": "101013419382621927053317399475952288619222554449252053718363107094929949076726",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Vitality",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 2064.5,
+      "amount": 2062.4355
+    }
   }
 ]
