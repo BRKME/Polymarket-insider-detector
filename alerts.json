@@ -15497,5 +15497,119 @@
       "size": 3067.89,
       "amount": 3061.75422
     }
+  },
+  {
+    "market": "Will Mark Cuban win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-mark-cuban-win-the-2028-democratic-presidential-nomination-329",
+    "wallet": "0xdffe2806928c8c3ac66f06948778ea358c6d48c4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($2,100)"
+      ],
+      "amount": 2099.87724,
+      "odds": 0.993,
+      "wallet_age_days": 2,
+      "total_activities": 20
+    },
+    "timestamp": "2026-01-23T08:23:52.976070",
+    "trade_hash": "0xb1092d3ad88250dcf86d6c57065db480a387e9dfee277276b6b1bfbe29c759cc",
+    "trade_timestamp": 1769156504,
+    "trade_data": {
+      "asset": "55392527126713018429304496836617506663024188480522297953714346140749923557790",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.993,
+      "size": 2114.68,
+      "amount": 2099.87724
+    }
+  },
+  {
+    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0x04fac58714f780a2b693db17764dd7a9cd2c9e24",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($6,504)"
+      ],
+      "amount": 6503.5307,
+      "odds": 0.997,
+      "wallet_age_days": 2,
+      "total_activities": 88
+    },
+    "timestamp": "2026-01-23T08:24:00.127635",
+    "trade_hash": "0x80e72f60d48f2e3196ebddef3852253029c494fb541a2c17e1582998b2ba618a",
+    "trade_timestamp": 1769156382,
+    "trade_data": {
+      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.997,
+      "size": 6523.1,
+      "amount": 6503.5307
+    }
+  },
+  {
+    "market": "Will Beto O\u2019Rourke win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-beto-orourke-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x080277cfc47f807932d985d85fb8f29c09059fd4",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($2,019)"
+      ],
+      "amount": 2018.999943,
+      "odds": 0.9929999999985245,
+      "wallet_age_days": 2,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-23T08:24:50.308598",
+    "trade_hash": "0x548f1d9b16157a12219975a42711186a6e34bea40db6fa71cc494c796c81f3e7",
+    "trade_timestamp": 1769156440,
+    "trade_data": {
+      "asset": "2426274669138238576933962603416907393958833898063513872892433203206006096668",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9929999999985245,
+      "size": 2033.232571,
+      "amount": 2018.999943
+    }
   }
 ]
