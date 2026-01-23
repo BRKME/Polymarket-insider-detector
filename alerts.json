@@ -15879,5 +15879,43 @@
       "size": 2064.5,
       "amount": 2062.4355
     }
+  },
+  {
+    "market": "U.S. strike on Somalia by January 31?",
+    "market_slug": "us-strike-on-somalia-by-january-31-338",
+    "wallet": "0x535ec2dccf77489cc0d1453f088344a2995fccd9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (97.4% odds)",
+        "Large bet ($1,763)"
+      ],
+      "amount": 1762.87991,
+      "odds": 0.9744244037255064,
+      "wallet_age_days": 1,
+      "total_activities": 42
+    },
+    "timestamp": "2026-01-23T17:55:57.708118",
+    "trade_hash": "0xd8d120517cb1ae0803b36a42632f1327ab547f18f56b9054c4a7a7f5710cf14d",
+    "trade_timestamp": 1769190816,
+    "trade_data": {
+      "asset": "29528844389710526928017985681021162633713395060163164804150436006223818497732",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9744244037255064,
+      "size": 1809.15,
+      "amount": 1762.87991
+    }
   }
 ]
