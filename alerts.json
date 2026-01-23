@@ -15917,5 +15917,43 @@
       "size": 1809.15,
       "amount": 1762.87991
     }
+  },
+  {
+    "market": "Will the US strike Iran next?",
+    "market_slug": "will-the-us-strike-iran-next-433",
+    "wallet": "0x52fb7d07dfba2baf441fa41658186baf98fc6394",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,000)"
+      ],
+      "amount": 1999.998,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 65
+    },
+    "timestamp": "2026-01-23T23:34:10.084420",
+    "trade_hash": "0xbe08d2d6a64d1fc63d7790fd3f3e46e053dbb1270ea3e8498c3b8a28a056b980",
+    "trade_timestamp": 1769210934,
+    "trade_data": {
+      "asset": "112607423994483360803362844687320596074963568534837832901335532750746817516097",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 2002.0,
+      "amount": 1999.998
+    }
   }
 ]
