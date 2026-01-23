@@ -15611,5 +15611,43 @@
       "size": 2033.232571,
       "amount": 2018.999943
     }
+  },
+  {
+    "market": "LoL: Oh My God vs LGD Gaming (BO3) - LPL Group Nirvana",
+    "market_slug": "lol-omg-lgd-2026-01-23",
+    "wallet": "0xf44bf587ab7209418c903f8d0efcea848b60f278",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($13,188)"
+      ],
+      "amount": 13188.3741,
+      "odds": 0.99,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-23T09:45:36.309188",
+    "trade_hash": "0xf3566caef2b9e95d3ef0e4015e24437b8c5a57cbfd9119a743aa7bceeb0f4a9c",
+    "trade_timestamp": 1769161374,
+    "trade_data": {
+      "asset": "78168126192935826043536641576153843518944264490464134377282242603590903093439",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Oh My God",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.99,
+      "size": 13321.59,
+      "amount": 13188.3741
+    }
   }
 ]
