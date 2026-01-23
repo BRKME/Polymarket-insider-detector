@@ -15000,5 +15000,387 @@
       "size": 1035.51,
       "amount": 1034.47449
     }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x0bf2e85fb07f8627b421e1a89456f0d3e0556d2d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,239)"
+      ],
+      "amount": 2238.79896,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-23T05:46:44.144873",
+    "trade_hash": "0x5d6099168b27bb49fcd6be0e160c3328ecbe5745e751b09f2f6a979d5107651a",
+    "trade_timestamp": 1769147082,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 2241.04,
+      "amount": 2238.79896
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0xd681227a8ed17f41c1b19f90990d2f58c2dbbaca",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,042)"
+      ],
+      "amount": 1041.8571000000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-23T05:46:45.512443",
+    "trade_hash": "0x6152eccdc8aef08fa099c1f678f1faa0cbb1bdc4f7ec3e7b8b9a1daaf91a89f2",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1042.9,
+      "amount": 1041.8571000000002
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x8f0571c2b978b81f254ec3e5e9f257f08b5f1a89",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,023)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1022.88609,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-23T05:46:46.201499",
+    "trade_hash": "0x7eef41db312444a3187dcbe6a8a80e8387f44338e5745a364aaa23c61816ba4e",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1023.91,
+      "amount": 1022.88609
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x295ea9b175b68df2dd9005ed165a8ae0574e218a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,072)"
+      ],
+      "amount": 1071.51741,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-23T05:46:46.885578",
+    "trade_hash": "0x2e02cc64e81ed74add76bd368c1a3436bde168f6a4b8ddacb2a380f0c82517aa",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1072.59,
+      "amount": 1071.51741
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x4cb4ccd1f4f50d4a4e95a46400f6262f117e65a0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,079)"
+      ],
+      "amount": 1078.67025,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 11
+    },
+    "timestamp": "2026-01-23T05:46:47.561204",
+    "trade_hash": "0xe027e8e09ecd65b4deda6faf1c363424daf8ff3d56f2c27b778651fb99cf80c4",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1079.75,
+      "amount": 1078.67025
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x1b664981534b83892472ff4a88bae13c21daab40",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,111)"
+      ],
+      "amount": 1111.17771,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 48
+    },
+    "timestamp": "2026-01-23T05:46:48.359873",
+    "trade_hash": "0x44071a45e4faf7308d844ac2244c410ecc8253d116f04683f81ef3a8bde6373b",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1112.29,
+      "amount": 1111.17771
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x1c5677533383bb5f6bdc86b94cd7278480fdc35b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,117)"
+      ],
+      "amount": 1117.16172,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-23T05:46:49.048835",
+    "trade_hash": "0x9367714cd470c57d8fb120484fee1cd87b5ed8233dd21c5e2cc100c2632f7299",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1118.28,
+      "amount": 1117.16172
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x54ed329bc494c648010b43cced5067643091d4b2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,052)"
+      ],
+      "amount": 1051.53741,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-23T05:46:49.743420",
+    "trade_hash": "0xcaa51594769dd59cb454ff005b584847fd1694c184ffc6e8712ca9ae89149fb0",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1052.59,
+      "amount": 1051.53741
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0x128b78fbfbfcf481f0848e7c7dbf76727866eb7f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,110)"
+      ],
+      "amount": 1110.47841,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-23T05:46:50.433054",
+    "trade_hash": "0x51d6de6a6382e3a511159353c575be417dce117130232e3c35d9d2063b1e0295",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1111.59,
+      "amount": 1110.47841
+    }
+  },
+  {
+    "market": "Lakers vs. Clippers",
+    "market_slug": "nba-lal-lac-2026-01-22",
+    "wallet": "0xeace6050bce0926195054bfbc8b77d60e22c492c",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,064)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1063.80513,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-23T05:46:51.129169",
+    "trade_hash": "0xaa7667a8fe0cdc22e432f2f3fffd74d6ca6a581c6ec55e1911d636c07f0fc191",
+    "trade_timestamp": 1769147056,
+    "trade_data": {
+      "asset": "4522626961998347638949299833876955601992495312657575180273017265451490005164",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Clippers",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1064.87,
+      "amount": 1063.80513
+    }
   }
 ]
