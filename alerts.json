@@ -15688,5 +15688,43 @@
       "size": 23794.074,
       "amount": 23770.279926
     }
+  },
+  {
+    "market": "Will the Orlando Magic win the 2026 NBA Finals?",
+    "market_slug": "will-the-orlando-magic-win-the-2026-nba-finals",
+    "wallet": "0x474518d265736322bbe82234f401efa3d92b63b7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.6% odds)",
+        "Large bet ($4,393)"
+      ],
+      "amount": 4392.63,
+      "odds": 0.986,
+      "wallet_age_days": 1,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-23T11:22:37.924144",
+    "trade_hash": "0x68b3788df7dac36b5957f801b00b45958db324d08d22b78d094bdee1d57a1d5c",
+    "trade_timestamp": 1769167170,
+    "trade_data": {
+      "asset": "8332314939688900216478864488824055129773277161185304797159692826491772870785",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.986,
+      "size": 4455.0,
+      "amount": 4392.63
+    }
   }
 ]
