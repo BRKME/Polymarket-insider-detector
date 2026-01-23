@@ -15382,5 +15382,43 @@
       "size": 1064.87,
       "amount": 1063.80513
     }
+  },
+  {
+    "market": "Will Dinorah Figuera be the leader of Venezuela end of 2026?",
+    "market_slug": "will-dinorah-figuera-be-the-leader-of-venezuela-end-of-2026",
+    "wallet": "0xa0551c3f9f6baee852907db87b8f46ebb5882191",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,998)"
+      ],
+      "amount": 1997.996,
+      "odds": 0.998,
+      "wallet_age_days": 1,
+      "total_activities": 86
+    },
+    "timestamp": "2026-01-23T06:56:42.110669",
+    "trade_hash": "0x129db033ccfbfb9cd595d84d3b8ec1eab8ee78065e1487a55781859b1810af70",
+    "trade_timestamp": 1769151174,
+    "trade_data": {
+      "asset": "33003365495633416555003277042690770592485884877233738553310366680953772198557",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 2002.0,
+      "amount": 1997.996
+    }
   }
 ]
