@@ -15459,5 +15459,43 @@
       "size": 5237.77,
       "amount": 5222.05669
     }
+  },
+  {
+    "market": "Will To Lam be elected General Secretary of the Vietnamese Communist Party?",
+    "market_slug": "will-to-lam-be-elected-general-secretary-of-the-vietnamese-communist-party",
+    "wallet": "0x298db43e7934ec5cf392c1c5fbfb45afe32fd998",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($3,062)"
+      ],
+      "amount": 3061.75422,
+      "odds": 0.998,
+      "wallet_age_days": 2,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-23T07:52:00.956368",
+    "trade_hash": "0xe27b6a641eaea12fd1a3fa8cb5d5677c550d9a3e307e8496047a8b78c6044e11",
+    "trade_timestamp": 1769154586,
+    "trade_data": {
+      "asset": "32502880350678995655372695756293563376414484296787693507155481019498489053168",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 3067.89,
+      "amount": 3061.75422
+    }
   }
 ]
