@@ -16992,5 +16992,43 @@
       "size": 3071.375,
       "amount": 3003.8899850000003
     }
+  },
+  {
+    "market": "Will Atalanta win the 2025\u201326 Champions League?",
+    "market_slug": "will-atalanta-win-the-202526-champions-league",
+    "wallet": "0x13a87522d89366d4024f45979942b7836b02354d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($3,515)"
+      ],
+      "amount": 3515.22993,
+      "odds": 0.993,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-24T14:47:51.121744",
+    "trade_hash": "0x522a0c61ff02919d9c85d47ddd76dbfa41f63e97a818c95d152491818b737d1d",
+    "trade_timestamp": 1769265998,
+    "trade_data": {
+      "asset": "21944894353965897951603275348219343854238849215840619102823032771992655122234",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.993,
+      "size": 3540.01,
+      "amount": 3515.22993
+    }
   }
 ]
