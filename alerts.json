@@ -17413,5 +17413,43 @@
       "size": 1605.0,
       "amount": 1592.70741
     }
+  },
+  {
+    "market": "Knicks vs. 76ers",
+    "market_slug": "nba-nyk-phi-2026-01-24",
+    "wallet": "0x68dbe3bd12b8d8e7f1bc8bf1ea78fec2b52fa052",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.0% odds)",
+        "Large bet ($3,233)"
+      ],
+      "amount": 3232.88968,
+      "odds": 0.9902987477638641,
+      "wallet_age_days": 1,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-24T22:33:50.681906",
+    "trade_hash": "0x84379dc212bd53f900ec1cecdbb2427c0c95e435292b07d2b7a979360e7686f1",
+    "trade_timestamp": 1769293914,
+    "trade_data": {
+      "asset": "100839774769010266331661617202208847432106473005501947665369602880398232703155",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Knicks",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9902987477638641,
+      "size": 3264.56,
+      "amount": 3232.88968
+    }
   }
 ]
