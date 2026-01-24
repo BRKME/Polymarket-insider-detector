@@ -16684,5 +16684,122 @@
       "size": 2000.0,
       "amount": 1940.0
     }
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x68607e31902d77f2f7da3b563ea11dfec19b958a",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.4% odds)",
+        "Large bet ($5,165)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5164.99632,
+      "odds": 0.964,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T11:13:22.506461",
+    "trade_hash": "0xd2a08cb7e83c34e320889f683caf6d09fe0da89ff5e2c0cacb40b1aa26705b34",
+    "trade_timestamp": 1769252988,
+    "trade_data": {
+      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.964,
+      "size": 5357.88,
+      "amount": 5164.99632
+    }
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0xe020ba720da04387e6d4e214d11eb85fef276474",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.3% odds)",
+        "Large bet ($5,225)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5224.752530000001,
+      "odds": 0.9625007654315985,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-24T11:13:38.925213",
+    "trade_hash": "0xc6276f2e0df2d618ec283dadd6cf9b87934fb4830ae25a039e4f4cfe26e06044",
+    "trade_timestamp": 1769252884,
+    "trade_data": {
+      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9625007654315985,
+      "size": 5428.31,
+      "amount": 5224.752530000001
+    }
+  },
+  {
+    "market": "Will Bitcoin dip to $15,000 by December 31, 2026?",
+    "market_slug": "will-bitcoin-dip-to-15000-by-december-31-2026",
+    "wallet": "0x38df2c065d78fc2d5ae87661c69bdd0b9f57473c",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.3% odds)",
+        "Large bet ($5,235)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 5235.34806,
+      "odds": 0.9629767079974175,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-24T11:14:02.141069",
+    "trade_hash": "0x1c39325674b159c42adce2d21ff46af157b923af8263930352a42c0cbaf82a81",
+    "trade_timestamp": 1769252776,
+    "trade_data": {
+      "asset": "89977007741727017614798848147688321409996583214301844632616973663289014402184",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9629767079974175,
+      "size": 5436.63,
+      "amount": 5235.34806
+    }
   }
 ]
