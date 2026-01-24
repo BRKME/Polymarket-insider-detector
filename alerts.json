@@ -16340,5 +16340,43 @@
       "size": 5209.69,
       "amount": 5204.48031
     }
+  },
+  {
+    "market": "Will Nottm Forest win the 2025\u201326 English Premier League?",
+    "market_slug": "will-nottm-forest-win-the-202526-english-premier-league",
+    "wallet": "0xd40e2fe8e1a15304fcc8a376e1896edce076729c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,814)"
+      ],
+      "amount": 1813.8843,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 22
+    },
+    "timestamp": "2026-01-24T07:37:17.241304",
+    "trade_hash": "0x873e06211d39e14dfa8af62243e4e6646ec423b38df3aa83f823c25966cf83ce",
+    "trade_timestamp": 1769240000,
+    "trade_data": {
+      "asset": "102416102087761272781501337309783685122716242561431519533791345425115806031628",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1815.7,
+      "amount": 1813.8843
+    }
   }
 ]
