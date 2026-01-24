@@ -17030,5 +17030,44 @@
       "size": 3540.01,
       "amount": 3515.22993
     }
+  },
+  {
+    "market": "Russia x Ukraine ceasefire by February 28, 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-by-february-28-2026",
+    "wallet": "0x59257d7be6cee89c7b4a9fe2df2344edf895d887",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (9.7% odds)",
+        "Large bet ($2,046)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 2045.549999,
+      "odds": 0.09657582425381013,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-24T14:55:52.240407",
+    "trade_hash": "0xffc0d0a71981197af1da73667e7065f236695c7881ee400ccbb7335e2bbc09f5",
+    "trade_timestamp": 1769266228,
+    "trade_data": {
+      "asset": "48542681435247439258666128962898934229410828949745554458943224971747087131816",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.09657582425381013,
+      "size": 21180.766665,
+      "amount": 2045.549999
+    }
   }
 ]
