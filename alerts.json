@@ -15993,5 +15993,43 @@
       "size": 1010.09,
       "amount": 1009.07991
     }
+  },
+  {
+    "market": "Nuggets vs. Bucks",
+    "market_slug": "nba-den-mil-2026-01-23",
+    "wallet": "0x0748d52d106d30ce0662a19610f61044b5c1a31e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($6,660)"
+      ],
+      "amount": 6659.99334,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-24T05:23:24.729368",
+    "trade_hash": "0x87c6fd1c397f531949704600d863dd14cfc3cbdf146ca43f35f1d61484be5c5d",
+    "trade_timestamp": 1769231990,
+    "trade_data": {
+      "asset": "91369545689078304909539644951352215280046945283642895387373198375379734843974",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Nuggets",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 6666.66,
+      "amount": 6659.99334
+    }
   }
 ]
