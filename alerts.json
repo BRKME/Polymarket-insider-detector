@@ -17375,5 +17375,43 @@
       "size": 6000.0,
       "amount": 5879.95
     }
+  },
+  {
+    "market": "Illinois Fighting Illini vs. Purdue Boilermakers",
+    "market_slug": "cbb-ill-pur-2026-01-24",
+    "wallet": "0x4fbe2cb6c34488d68037d4adde952f6a7f01b84f",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($1,593)"
+      ],
+      "amount": 1592.70741,
+      "odds": 0.9923410654205608,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-24T22:10:40.855909",
+    "trade_hash": "0xb58ca9722c4846a00a1bb20d3ff41196e8c7630740bd4817f62239d0b3067f84",
+    "trade_timestamp": 1769292574,
+    "trade_data": {
+      "asset": "41346365814615284636436536383227429712027970253304336547488582394595056008394",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Illinois Fighting Illini",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9923410654205608,
+      "size": 1605.0,
+      "amount": 1592.70741
+    }
   }
 ]
