@@ -17451,5 +17451,82 @@
       "size": 3264.56,
       "amount": 3232.88968
     }
+  },
+  {
+    "market": "Will Ant\u00f3nio Jos\u00e9 Seguro win the 2026 Portugal presidential election?",
+    "market_slug": "will-antnio-jos-seguro-win-the-2026-portugal-presidential-election",
+    "wallet": "0x3dbb2d2f8814396c9cf192a240f1c8df54dc6fd2",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($18,055)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 18055.2064,
+      "odds": 0.98,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T23:00:06.097722",
+    "trade_hash": "0x253f26e9739635ccfc919f8fb0488735d0d5d8eacb6caebc093a6523a2da1e63",
+    "trade_timestamp": 1769295534,
+    "trade_data": {
+      "asset": "16754375222233973989954094649431109282368408854808102040230156977754673841406",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.98,
+      "size": 18423.68,
+      "amount": 18055.2064
+    }
+  },
+  {
+    "market": "Will Alex Honnold free solo Taipei 101?",
+    "market_slug": "will-alex-honnold-free-solo-taipei-101",
+    "wallet": "0x1478ce601ad3033bd1f6e5a7bdeae619285e6167",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (6.9% odds)",
+        "Large bet ($1,660)"
+      ],
+      "amount": 1659.84,
+      "odds": 0.06861977651360983,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-24T23:00:42.224896",
+    "trade_hash": "0xa70d9b8bdc4ce7620e4b766aa48a074ad4a64682fa68eeffacf804506a240158",
+    "trade_timestamp": 1769295306,
+    "trade_data": {
+      "asset": "110181156192693711846310872068146183338589103136220803391073384883714916360200",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.06861977651360983,
+      "size": 24188.945,
+      "amount": 1659.84
+    }
   }
 ]
