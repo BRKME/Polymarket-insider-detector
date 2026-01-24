@@ -16801,5 +16801,44 @@
       "size": 5436.63,
       "amount": 5235.34806
     }
+  },
+  {
+    "market": "Will Elon Musk post 0-19 tweets from January 27 to February 3, 2026?",
+    "market_slug": "elon-musk-of-tweets-january-27-february-3-0-19",
+    "wallet": "0x378e6411b87a5e8107f5ef59e9ddd6c0ffe8db77",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,015)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1014.984,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T11:39:05.643474",
+    "trade_hash": "0x58c765553000351f785da0749ebe7586ae229c271cbc7a8a888eff4ac705e751",
+    "trade_timestamp": 1769254456,
+    "trade_data": {
+      "asset": "15252275695419762825454040558735153583712639255781680468953658361131551316836",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1016.0,
+      "amount": 1014.984
+    }
   }
 ]
