@@ -16646,5 +16646,43 @@
       "size": 1128.34,
       "amount": 1127.21166
     }
+  },
+  {
+    "market": "LoL: Top Esports vs Anyone's Legend - Game 2 Winner",
+    "market_slug": "lol-tes-al-2026-01-24-game2",
+    "wallet": "0x0947a002c043c8812fc1a7a7cf8685b2cae2c1c9",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (97.0% odds)",
+        "Large bet ($1,940)"
+      ],
+      "amount": 1940.0,
+      "odds": 0.97,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-24T10:40:05.554599",
+    "trade_hash": "0x8f34906382b09319bb7f1c04416d9cc7e5bfe3fd7ba35a4a6875f2f62aeda04d",
+    "trade_timestamp": 1769251094,
+    "trade_data": {
+      "asset": "99223110159759434176554309795264991705766121509221548618907051637577768644298",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Top Esports",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.97,
+      "size": 2000.0,
+      "amount": 1940.0
+    }
   }
 ]
