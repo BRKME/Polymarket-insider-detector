@@ -17337,5 +17337,43 @@
       "size": 2040.81,
       "amount": 2038.76919
     }
+  },
+  {
+    "market": "Olympique de Marseille vs. Racing Club de Lens: O/U 2.5",
+    "market_slug": "fl1-olm-rcl-2026-01-24-total-2pt5",
+    "wallet": "0xdd88b8b1c81fd533bafd402e243bef4bb3cd3bb0",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($5,880)"
+      ],
+      "amount": 5879.95,
+      "odds": 0.9799916666666667,
+      "wallet_age_days": 0,
+      "total_activities": 97
+    },
+    "timestamp": "2026-01-24T21:42:50.694419",
+    "trade_hash": "0xbe12ba21dbca9a146c1800d67ef709b0a02681c03c3109f214654d4556bd424a",
+    "trade_timestamp": 1769290892,
+    "trade_data": {
+      "asset": "30763699285463754907538460808917652944918435122905369228519421939496639220978",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Over",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9799916666666667,
+      "size": 6000.0,
+      "amount": 5879.95
+    }
   }
 ]
