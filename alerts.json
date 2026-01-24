@@ -17069,5 +17069,44 @@
       "size": 21180.766665,
       "amount": 2045.549999
     }
+  },
+  {
+    "market": "AFC U23 Final: China vs. Japan",
+    "market_slug": "afc-u23-final-china-vs-japan",
+    "wallet": "0xf8fe97d3d9c72eade3491def132cf86b13dcff12",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,183)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1183.0257900000001,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-24T16:47:16.815186",
+    "trade_hash": "0x5e2708654e9303c210ce14d78c14926683dc9646fe4be5e86b518b764e22c90c",
+    "trade_timestamp": 1769273054,
+    "trade_data": {
+      "asset": "32633627784937800425222620381892177821942626282596460302332787440080250099123",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Japan",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1184.21,
+      "amount": 1183.0257900000001
+    }
   }
 ]
