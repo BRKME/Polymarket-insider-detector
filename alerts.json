@@ -17299,5 +17299,43 @@
       "size": 3000.0,
       "amount": 2953.1043
     }
+  },
+  {
+    "market": "Spread: Charleston Cougars (-3.5)",
+    "market_slug": "cbb-elon-char-2026-01-24-spread-home-3pt5",
+    "wallet": "0xc949b287f5f6b616034ffeafa286d17aa936fa93",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,039)"
+      ],
+      "amount": 2038.76919,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 47
+    },
+    "timestamp": "2026-01-24T19:57:37.823430",
+    "trade_hash": "0xf0c35d06c7919c092ee0710405c85b8ed3f41132e5531aae63529bd5d8639c3e",
+    "trade_timestamp": 1769284378,
+    "trade_data": {
+      "asset": "65027466329461517344861762065501041334781289702649801648585041083568594366795",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Charleston Cougars",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 2040.81,
+      "amount": 2038.76919
+    }
   }
 ]
