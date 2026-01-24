@@ -16031,5 +16031,82 @@
       "size": 6666.66,
       "amount": 6659.99334
     }
+  },
+  {
+    "market": "Pelicans vs. Grizzlies",
+    "market_slug": "nba-nop-mem-2026-01-23",
+    "wallet": "0xe8210b7362b656c3d7cbe43f36dbd2d198368952",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,696)"
+      ],
+      "amount": 3696.28002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-24T05:41:34.254738",
+    "trade_hash": "0x05636c8d205512b59811a70ecefe64fa00948c1cae38957d902474eea23c9463",
+    "trade_timestamp": 1769233208,
+    "trade_data": {
+      "asset": "42083787782761382582930129881516186963211314833820765356097567330907472022763",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Pelicans",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 3699.98,
+      "amount": 3696.28002
+    }
+  },
+  {
+    "market": "Raptors vs. Trail Blazers",
+    "market_slug": "nba-tor-por-2026-01-23",
+    "wallet": "0x1ccc64544c01f0da181f0842eb191376fca7cfa8",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,993)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 3992.75325,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-24T05:41:38.879015",
+    "trade_hash": "0x5aea6ba44a3ad9488de00e202d04dcfefff212c35b4b7af97af216fd91762690",
+    "trade_timestamp": 1769233144,
+    "trade_data": {
+      "asset": "28914134938960030598230107389805111772866646465597278407843780788782873540459",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Raptors",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 3996.75,
+      "amount": 3992.75325
+    }
   }
 ]
