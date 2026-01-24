@@ -16146,5 +16146,82 @@
       "size": 14950.751503,
       "amount": 14920.85
     }
+  },
+  {
+    "market": "Will Michelle Obama win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-michelle-obama-win-the-2028-democratic-presidential-nomination-777",
+    "wallet": "0x9427bd54dc88e8bc621892fa13098bbafb71a9b2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($3,139)"
+      ],
+      "amount": 3138.809892,
+      "odds": 0.992,
+      "wallet_age_days": 1,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-24T06:51:52.344272",
+    "trade_hash": "0x647246653468907544a6cb32033d79ad104d76edf2169ef2bd5eff4331f99e6e",
+    "trade_timestamp": 1769237222,
+    "trade_data": {
+      "asset": "107146110974011455665373243296921398136854344089489911087344946921091914123046",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.992,
+      "size": 3164.122875,
+      "amount": 3138.809892
+    }
+  },
+  {
+    "market": "Will Ethereum reach $6,000 in January?",
+    "market_slug": "will-ethereum-reach-6000-in-january-2026",
+    "wallet": "0x377c2c59e5c07b83f8b097693e856576542098be",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($9,865)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 9864.55136,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-24T06:51:53.164369",
+    "trade_hash": "0xde1b303e92af48ca945b5592c5aff0706bd014ad8d95190f3d1b2162280d619c",
+    "trade_timestamp": 1769237192,
+    "trade_data": {
+      "asset": "85314966135663911945383444595070372155331802770649765628594996080163644717023",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 9884.32,
+      "amount": 9864.55136
+    }
   }
 ]
