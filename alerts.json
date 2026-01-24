@@ -16223,5 +16223,122 @@
       "size": 9884.32,
       "amount": 9864.55136
     }
+  },
+  {
+    "market": "Will Josh Safdie win Best Director at the 98th Academy Awards?",
+    "market_slug": "will-josh-safdie-win-best-director-at-the-98th-academy-awards",
+    "wallet": "0x4342ca51ddfe25ba121668125c785d8d78a5cfb0",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($2,533)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2532.996,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T07:01:28.591256",
+    "trade_hash": "0x405dccc873126d09ad75965ad9f6eebf8745deb6aa61f69bad0127f5db094e12",
+    "trade_timestamp": 1769237936,
+    "trade_data": {
+      "asset": "96034442295193306734398224254296669772681716356178194014225838729384095243517",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.991,
+      "size": 2556.0,
+      "amount": 2532.996
+    }
+  },
+  {
+    "market": "Will Josh Safdie win Best Director at the 98th Academy Awards?",
+    "market_slug": "will-josh-safdie-win-best-director-at-the-98th-academy-awards",
+    "wallet": "0xcb7a0201e7103a8a8051b9d3ee65fe25cb1b6d5b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($2,520)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2520.113,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T07:01:29.283628",
+    "trade_hash": "0xf5861c76de990c4c2b0095840f4db025d552be7ea18dc9646cb793d67fe3bcb8",
+    "trade_timestamp": 1769237932,
+    "trade_data": {
+      "asset": "96034442295193306734398224254296669772681716356178194014225838729384095243517",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.991,
+      "size": 2543.0,
+      "amount": 2520.113
+    }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x5eb6ee40d95b945c30ecb79d381ed9974cbdf625",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,204)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5204.48031,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T07:01:38.676955",
+    "trade_hash": "0x8a9f6f0672342ee482e9aaffdffc6d10b69cf104da5c8affd1002b5f01141dcc",
+    "trade_timestamp": 1769237896,
+    "trade_data": {
+      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 5209.69,
+      "amount": 5204.48031
+    }
   }
 ]
