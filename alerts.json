@@ -16916,5 +16916,81 @@
       "size": 5166.62,
       "amount": 5156.28676
     }
+  },
+  {
+    "market": "Will Trump nominate Jerome Powell as the next Fed chair?",
+    "market_slug": "will-trump-nominate-jerome-powell-as-the-next-fed-chair",
+    "wallet": "0xc296d202be038599177daaf127e96d824413c633",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($2,001)"
+      ],
+      "amount": 2000.86026,
+      "odds": 0.998,
+      "wallet_age_days": 2,
+      "total_activities": 25
+    },
+    "timestamp": "2026-01-24T13:40:10.416782",
+    "trade_hash": "0xb9ef6e335906b77acc0cc4ad64c0d2d67e7ac3c449ff3221fb60415c87b35041",
+    "trade_timestamp": 1769261946,
+    "trade_data": {
+      "asset": "83835245338776946964312557572556765129893211997427807179516406386114613522003",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 2004.87,
+      "amount": 2000.86026
+    }
+  },
+  {
+    "market": "Will there be less than 4 inches of snow in NYC this weekend?",
+    "market_slug": "will-there-be-less-than-4-inches-of-snow-in-nyc-this-weekend",
+    "wallet": "0x5dc475af30e397289c0daa3eec5efe79dc9399ad",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (97.8% odds)",
+        "Large bet ($3,004)"
+      ],
+      "amount": 3003.8899850000003,
+      "odds": 0.9780277514142689,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-24T13:40:13.424276",
+    "trade_hash": "0x2b59c484f39c6b3c8c137e215a66c9ad0f78547990cf1bbceee4b6f5faf70588",
+    "trade_timestamp": 1769261932,
+    "trade_data": {
+      "asset": "12936663251219291220774455255978157118540751836148402940046741671995579157622",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9780277514142689,
+      "size": 3071.375,
+      "amount": 3003.8899850000003
+    }
   }
 ]
