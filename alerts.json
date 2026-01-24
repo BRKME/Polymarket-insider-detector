@@ -16840,5 +16840,43 @@
       "size": 1016.0,
       "amount": 1014.984
     }
+  },
+  {
+    "market": "LoL: Top Esports vs Anyone's Legend (BO3) - LPL Group Ascend",
+    "market_slug": "lol-tes-al-2026-01-24",
+    "wallet": "0x6512d14f281b01691b46c5663ca926bf771e87e5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,029)"
+      ],
+      "amount": 1029.48948,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-24T11:58:28.165973",
+    "trade_hash": "0xb88285d0f42c0020689a08903e47bb861adfd0d5e39b040993781f3bf45a9494",
+    "trade_timestamp": 1769255688,
+    "trade_data": {
+      "asset": "68719078006344649026751398594602845072833758422751254199339749746796132995419",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Anyones Legend",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1030.52,
+      "amount": 1029.48948
+    }
   }
 ]
