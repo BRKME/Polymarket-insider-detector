@@ -17185,5 +17185,43 @@
       "size": 1418.35,
       "amount": 1416.93165
     }
+  },
+  {
+    "market": "Will MrBeast's next video get between 50 and 55 million views on day 1?",
+    "market_slug": "will-mrbeasts-next-video-get-between-50-and-55-million-views-on-day-1-872",
+    "wallet": "0x663ce53cb3331871e5078eec63b865280e0e56e1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,759)"
+      ],
+      "amount": 1758.93428,
+      "odds": 0.9963262453127301,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-24T17:44:52.016048",
+    "trade_hash": "0x2f64b36fd4d37b7d683f09993fa91faf58441bf7e37f0fe29439f0d107fd3e2b",
+    "trade_timestamp": 1769276494,
+    "trade_data": {
+      "asset": "11329644166279394966313899629754958777591704690779153746749471342501751915631",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9963262453127301,
+      "size": 1765.42,
+      "amount": 1758.93428
+    }
   }
 ]
