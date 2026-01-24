@@ -16416,5 +16416,82 @@
       "size": 5197.87,
       "amount": 5187.47426
     }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x664842128f11cc8be84a9a42de6f2f5c0b9c456b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($5,180)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5180.38443,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-24T08:21:12.299634",
+    "trade_hash": "0xde9d5c0e1468fcd1554a4bbc05159a4b07b44d7fdab0686d3631b5e9a2a6d7c5",
+    "trade_timestamp": 1769242646,
+    "trade_data": {
+      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 5185.57,
+      "amount": 5180.38443
+    }
+  },
+  {
+    "market": "Will the Orlando Magic win the 2026 NBA Finals?",
+    "market_slug": "will-the-orlando-magic-win-the-2026-nba-finals",
+    "wallet": "0x56d12abde1eacac2da17ba3157144875ee2c27d2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.7% odds)",
+        "Large bet ($4,915)"
+      ],
+      "amount": 4915.26,
+      "odds": 0.987,
+      "wallet_age_days": 1,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-24T08:21:18.326636",
+    "trade_hash": "0x14106bb15e8ddd64ca8d18a9a488470e8d96f8a30a8ce0ea540878bde6d359f5",
+    "trade_timestamp": 1769242674,
+    "trade_data": {
+      "asset": "8332314939688900216478864488824055129773277161185304797159692826491772870785",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.987,
+      "size": 4980.0,
+      "amount": 4915.26
+    }
   }
 ]
