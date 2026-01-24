@@ -17223,5 +17223,43 @@
       "size": 1765.42,
       "amount": 1758.93428
     }
+  },
+  {
+    "market": "LoL: Natus Vincere vs Karmine Corp Blue (BO1) - LEC Versus Regular Season",
+    "market_slug": "lol-navi-kcb-2026-01-24",
+    "wallet": "0xd2951e072504ba7afc33630d63f5d7e11b7d0fe6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,718)"
+      ],
+      "amount": 1718.19009,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 31
+    },
+    "timestamp": "2026-01-24T17:52:30.942345",
+    "trade_hash": "0xaf6de0448214fac81b8c9d00c52c03d204648435e1062e966195521fcdf5a2d6",
+    "trade_timestamp": 1769276778,
+    "trade_data": {
+      "asset": "3723198023544435355959379067052578578869748782234813085299530992559318241801",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Natus Vincere",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1719.91,
+      "amount": 1718.19009
+    }
   }
 ]
