@@ -16569,5 +16569,82 @@
       "size": 5228.85,
       "amount": 5038.0014
     }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0xed7cf7bcfefa7a7b178c53f49bed09f52ae01b7d",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($5,165)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 5164.7997,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-24T09:52:13.708869",
+    "trade_hash": "0xdbe27ad677f02279a7337f650efcd8fe48871f8a60380ce9fb13b3290af1ffcb",
+    "trade_timestamp": 1769248234,
+    "trade_data": {
+      "asset": "54504735237306435364688890375581221790556858637843718945838566750916495284821",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 5175.15,
+      "amount": 5164.7997
+    }
+  },
+  {
+    "market": "LoL: Top Esports vs Anyone's Legend - Game 1 Winner",
+    "market_slug": "lol-tes-al-2026-01-24-game1",
+    "wallet": "0x9d9346b36bfacf6858ae06c7401a72ad09162cf1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,127)"
+      ],
+      "amount": 1127.21166,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 63
+    },
+    "timestamp": "2026-01-24T09:52:31.521966",
+    "trade_hash": "0x9acd4d695c71c24f55bf9baed858ec5a598b62a4762f8efbc93d286b5aa53950",
+    "trade_timestamp": 1769248038,
+    "trade_data": {
+      "asset": "17793108869013665584922778705200431394571088824361087632517148388816589044687",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Anyones Legend",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1128.34,
+      "amount": 1127.21166
+    }
   }
 ]
