@@ -17682,5 +17682,121 @@
       "size": 4999.0,
       "amount": 4979.004
     }
+  },
+  {
+    "market": "UFC 324: Gaethje vs. Pimblett (Lightweight, Main Card)",
+    "market_slug": "ufc-jus3-pad-2026-01-24",
+    "wallet": "0x6b5d8c0202c0c9bd19f842823441943f9e7a8ebb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($7,053)"
+      ],
+      "amount": 7053.42951,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 8
+    },
+    "timestamp": "2026-01-25T05:38:35.714968",
+    "trade_hash": "0x07a3ee49c458a2a58114c825fc3f39397acdfbbb58fd28e130bb74b6e6f2e531",
+    "trade_timestamp": 1769319356,
+    "trade_data": {
+      "asset": "60383033611346737815653700469552352128982256937312621916490618416556126633272",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Gaethje",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 7060.49,
+      "amount": 7053.42951
+    }
+  },
+  {
+    "market": "UFC 324: Gaethje vs. Pimblett (Lightweight, Main Card)",
+    "market_slug": "ufc-jus3-pad-2026-01-24",
+    "wallet": "0x22489e8348070b70fc920bcd645595abec1acad0",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($4,038)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 4037.58837,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-25T05:38:49.744945",
+    "trade_hash": "0x6288a787468f51347bc5e09335491e8901f8dd81fe9ce5a98c03abeeae5dda39",
+    "trade_timestamp": 1769319296,
+    "trade_data": {
+      "asset": "60383033611346737815653700469552352128982256937312621916490618416556126633272",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Gaethje",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 4041.63,
+      "amount": 4037.58837
+    }
+  },
+  {
+    "market": "UFC 324: Gaethje vs. Pimblett (Lightweight, Main Card)",
+    "market_slug": "ufc-jus3-pad-2026-01-24",
+    "wallet": "0xa70e50fbe0ae95d22cbb1fd9b7551fcdcca8709f",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,991)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1990.93707,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-25T05:38:50.502964",
+    "trade_hash": "0x671883238675fa0b2ee1542911b6a34e7f1f511f09ede77ca39cdf70add5aa65",
+    "trade_timestamp": 1769319286,
+    "trade_data": {
+      "asset": "60383033611346737815653700469552352128982256937312621916490618416556126633272",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Gaethje",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1992.93,
+      "amount": 1990.93707
+    }
   }
 ]
