@@ -18182,5 +18182,44 @@
       "size": 1640.98,
       "amount": 1639.3390200000001
     }
+  },
+  {
+    "market": "Will Tim Walz win the 2028 US Presidential Election?",
+    "market_slug": "will-tim-walz-win-the-2028-us-presidential-election",
+    "wallet": "0x3ad9d69f82ca97a696a20506146eea51c579cf19",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($1,004)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1003.9399999999999,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-25T13:39:00.577294",
+    "trade_hash": "0x3fdb4f014fd93b9c30c333682be22b529b9ddd02fbb2f8d1747924fa417a36f4",
+    "trade_timestamp": 1769348176,
+    "trade_data": {
+      "asset": "31711509411930636383466083293019394636501894118049148509527295292186501260570",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.994,
+      "size": 1010.0,
+      "amount": 1003.9399999999999
+    }
   }
 ]
