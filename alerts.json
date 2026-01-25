@@ -18297,5 +18297,43 @@
       "size": 1692.23,
       "amount": 1684.9179299999998
     }
+  },
+  {
+    "market": "LoL: SK Gaming vs Natus Vincere (BO1) - LEC Versus Regular Season",
+    "market_slug": "lol-sk-navi-2026-01-25",
+    "wallet": "0x2057b969b5921f9c76b7734db10844c2c61014ea",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,473)"
+      ],
+      "amount": 1472.99553,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 23
+    },
+    "timestamp": "2026-01-25T17:32:44.002062",
+    "trade_hash": "0x4790c0b66704e427c127dda82f861f3ed224ad83c0fef545fafdb5c75822f5a0",
+    "trade_timestamp": 1769362294,
+    "trade_data": {
+      "asset": "59068222778627454092830481220798935972330502762228145726877654464611282299226",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Natus Vincere",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1474.47,
+      "amount": 1472.99553
+    }
   }
 ]
