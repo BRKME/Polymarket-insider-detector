@@ -18029,5 +18029,119 @@
       "size": 1112.6804,
       "amount": 1059.4599879999998
     }
+  },
+  {
+    "market": "Will the Miami Heat win the 2026 NBA Finals?",
+    "market_slug": "will-the-miami-heat-win-the-2026-nba-finals",
+    "wallet": "0xefce7670c6378c7082a0843a2a409889cbdbbfad",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($4,925)"
+      ],
+      "amount": 4925.0,
+      "odds": 0.985,
+      "wallet_age_days": 1,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-25T09:54:27.159374",
+    "trade_hash": "0xd96632bbb1e17960b91723648ca4be307a17a85300e7690f9f95b7ec7584a161",
+    "trade_timestamp": 1769334738,
+    "trade_data": {
+      "asset": "15377800909339117478848654529132462257649986576758444132279677343865329475931",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.985,
+      "size": 5000.0,
+      "amount": 4925.0
+    }
+  },
+  {
+    "market": "Will the Miami Heat win the 2026 NBA Finals?",
+    "market_slug": "will-the-miami-heat-win-the-2026-nba-finals",
+    "wallet": "0x136487676c9da47686dab31244fdb30c8cec91c3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($4,831)"
+      ],
+      "amount": 4831.425,
+      "odds": 0.985,
+      "wallet_age_days": 1,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-25T09:54:52.451939",
+    "trade_hash": "0x0c467257c91456742d8e8fdec8c87f11f942ffb3dcf4821018d0566f470c018c",
+    "trade_timestamp": 1769334626,
+    "trade_data": {
+      "asset": "15377800909339117478848654529132462257649986576758444132279677343865329475931",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.985,
+      "size": 4905.0,
+      "amount": 4831.425
+    }
+  },
+  {
+    "market": "Will the Miami Heat win the 2026 NBA Finals?",
+    "market_slug": "will-the-miami-heat-win-the-2026-nba-finals",
+    "wallet": "0xa464f85f415ec7925b2bc11a9ccd064553045a0e",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (98.5% odds)",
+        "Large bet ($4,728)"
+      ],
+      "amount": 4728.0,
+      "odds": 0.985,
+      "wallet_age_days": 1,
+      "total_activities": 19
+    },
+    "timestamp": "2026-01-25T09:55:01.387223",
+    "trade_hash": "0x5f2b9f07264a5db319363418f272ea0864b13976faf21c2b879e867159bd7f3f",
+    "trade_timestamp": 1769334602,
+    "trade_data": {
+      "asset": "15377800909339117478848654529132462257649986576758444132279677343865329475931",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.985,
+      "size": 4800.0,
+      "amount": 4728.0
+    }
   }
 ]
