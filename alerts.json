@@ -17875,5 +17875,44 @@
       "size": 1280.54,
       "amount": 1277.97892
     }
+  },
+  {
+    "market": "Will Trump nominate David Malpass as the next Fed chair?",
+    "market_slug": "will-trump-nominate-david-malpass-as-the-next-fed-chair",
+    "wallet": "0x52b1b26a1d371e0df8646ae0e5eeb11ff91e376b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($5,108)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5108.34284,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-25T06:57:55.404474",
+    "trade_hash": "0x0300836b907a41d1e5451afbd4219f78484bb935018f7676b2f8fe15db41ca01",
+    "trade_timestamp": 1769324110,
+    "trade_data": {
+      "asset": "27491041634908369209134203135375325220141360663598691072412091501664299197925",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.998,
+      "size": 5118.58,
+      "amount": 5108.34284
+    }
   }
 ]
