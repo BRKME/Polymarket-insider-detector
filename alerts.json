@@ -18606,5 +18606,44 @@
       "size": 44887.800974,
       "amount": 1593.999999
     }
+  },
+  {
+    "market": "Will Barack Obama win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-barack-obama-win-the-2028-democratic-presidential-nomination-265",
+    "wallet": "0x96cdd62c61335131376a1510141dca1df2179ea1",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($4,563)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 4563.2,
+      "odds": 0.992,
+      "wallet_age_days": 2,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-25T22:14:29.696446",
+    "trade_hash": "0x04d32c4575492b6a6d00495c53faa7a7de0110ed1c294fb78f38930eae002265",
+    "trade_timestamp": 1769379136,
+    "trade_data": {
+      "asset": "93993883668914241189795812807312922412111034935516092303580333564217329905759",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.992,
+      "size": 4600.0,
+      "amount": 4563.2
+    }
   }
 ]
