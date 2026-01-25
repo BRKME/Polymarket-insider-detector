@@ -18259,5 +18259,43 @@
       "size": 1811.46,
       "amount": 1809.6485400000001
     }
+  },
+  {
+    "market": "Newcastle United FC vs. Aston Villa FC: O/U 1.5",
+    "market_slug": "epl-new-ast-2026-01-25-total-1pt5",
+    "wallet": "0x012a64e1e9447bf3fb4ee701a154bcec23cec01d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,685)"
+      ],
+      "amount": 1684.9179299999998,
+      "odds": 0.9956790329919691,
+      "wallet_age_days": 0,
+      "total_activities": 17
+    },
+    "timestamp": "2026-01-25T15:52:00.151900",
+    "trade_hash": "0x11f675e3e8a7b296e1428617af9e5a24d4f98e3dea4afd12756d06cfcc1f3c87",
+    "trade_timestamp": 1769356200,
+    "trade_data": {
+      "asset": "61890848427932045443943054239853262713341865848254924176722026601055656314825",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Over",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9956790329919691,
+      "size": 1692.23,
+      "amount": 1684.9179299999998
+    }
   }
 ]
