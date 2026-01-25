@@ -18221,5 +18221,43 @@
       "size": 1010.0,
       "amount": 1003.9399999999999
     }
+  },
+  {
+    "market": "Dota 2: Zero Tenacity vs Virtus.pro - Game 2 Winner",
+    "market_slug": "dota2-z10-vp-2026-01-25-game2",
+    "wallet": "0xa6f6a6f3740d8c3208c722240f38b4e0ac2568ea",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,810)"
+      ],
+      "amount": 1809.6485400000001,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 85
+    },
+    "timestamp": "2026-01-25T15:10:34.919875",
+    "trade_hash": "0xc1705d7c404cbdc9d5ea0ffdc780ef2cb05e4713d6a32ab229420c6ab8818c94",
+    "trade_timestamp": 1769353546,
+    "trade_data": {
+      "asset": "98039240826115746846618455348402473930893390270796268984740047536659532059588",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Zero Tenacity",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1811.46,
+      "amount": 1809.6485400000001
+    }
   }
 ]
