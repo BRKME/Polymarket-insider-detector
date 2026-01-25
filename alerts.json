@@ -18645,5 +18645,71 @@
       "size": 4600.0,
       "amount": 4563.2
     }
+  },
+  {
+    "market": "Will the US next strike Iran on January 30, 2026 (ET)?",
+    "market_slug": "will-the-us-next-strike-iran-on-january-30-2026-et-866",
+    "wallet": "0x8575467a6743c81ef0a8d06acc76e99b454a87fe",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (96.6% odds)",
+        "Large bet ($1,050)",
+        "Pre-event latency: 5790m"
+      ],
+      "amount": 1050.042,
+      "odds": 0.966,
+      "wallet_age_days": 99,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-25T23:32:03.935813",
+    "trade_hash": "0x4dc86eb8fdc91d0ce51f4213f1d2aeb62c0353da2f9b4e100a0e51a4373dd3c4",
+    "trade_timestamp": 1769383776,
+    "latency": {
+      "latency_seconds": 347424.0,
+      "latency_minutes": 5790.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-25T23:29:36+00:00",
+      "event_time": "2026-01-30T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.966,
+      "size": 1087.0,
+      "amount": 1050.042
+    }
+  },
+  {
+    "market": "Will Canada win the 2026 FIFA World Cup?",
+    "market_slug": "will-canada-win-the-2026-fifa-world-cup-755",
+    "wallet": "0x50428fbff93b7236161a743ff7aaad50fd4e1b54",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($2,358)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2357.809952,
+      "odds": 0.9969999999991543,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-25T23:32:04.808079",
+    "trade_hash": "0x2de4f16b1069f6d418f445323592ccab3b8f8ded4b878ca5f57361c6e6b70fa0",
+    "trade_timestamp": 1769383776,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9969999999991543,
+      "size": 2364.904666,
+      "amount": 2357.809952
+    }
   }
 ]
