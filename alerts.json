@@ -17952,5 +17952,43 @@
       "size": 3601.63,
       "amount": 3576.41859
     }
+  },
+  {
+    "market": "Australian Open Men's: Alexander Zverev vs Francisco Cerundolo",
+    "market_slug": "atp-zverev-cerundo-2026-01-25",
+    "wallet": "0x83a046a3893cbbff01494654fe8a67c11ef3165d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($9,990)"
+      ],
+      "amount": 9990.0,
+      "odds": 0.999,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-25T08:45:52.026969",
+    "trade_hash": "0x904c147ae8f841bbace1fedcbfb81a5a3beff9fe317272fe89501aac0d5d8b1a",
+    "trade_timestamp": 1769330480,
+    "trade_data": {
+      "asset": "111095414058944870309128929814763982573930624195150566486148122519674659995864",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Zverev",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 10000.0,
+      "amount": 9990.0
+    }
   }
 ]
