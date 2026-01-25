@@ -17990,5 +17990,44 @@
       "size": 10000.0,
       "amount": 9990.0
     }
+  },
+  {
+    "market": "LoL: T1 vs BNK FEARX (BO3) - LCK Cup Group Stage",
+    "market_slug": "lol-t1-fox1-2026-01-25",
+    "wallet": "0x9772c6029eaa741bb85bca698fecbbc49aab4867",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($1,059)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1059.4599879999998,
+      "odds": 0.9521691835319468,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-25T09:17:06.104517",
+    "trade_hash": "0x5e233113980764b9288749b9eddd3f793730d3d0cd3968534c06ec3c5e04011e",
+    "trade_timestamp": 1769332370,
+    "trade_data": {
+      "asset": "35706489463905798377206276908448279262252632810990716119761574211765419066022",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "T1",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9521691835319468,
+      "size": 1112.6804,
+      "amount": 1059.4599879999998
+    }
   }
 ]
