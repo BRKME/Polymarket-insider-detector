@@ -17798,5 +17798,44 @@
       "size": 1992.93,
       "amount": 1990.93707
     }
+  },
+  {
+    "market": "Will Oprah Winfrey win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-oprah-winfrey-win-the-2028-democratic-presidential-nomination",
+    "wallet": "0x221825cd76a0a6483530c1768813ff15671c74ed",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($5,130)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 5129.6364,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-25T06:00:28.690535",
+    "trade_hash": "0xa1fa43472efe40c844c934451ea3c478572177864390552947c22be782c142c3",
+    "trade_timestamp": 1769320584,
+    "trade_data": {
+      "asset": "44046525152074436753629616217525652949736205933417533647338274649282385796755",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.994,
+      "size": 5160.6,
+      "amount": 5129.6364
+    }
   }
 ]
