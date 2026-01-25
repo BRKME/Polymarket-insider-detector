@@ -17914,5 +17914,43 @@
       "size": 5118.58,
       "amount": 5108.34284
     }
+  },
+  {
+    "market": "Will Tulsi Gabbard win the 2028 Republican presidential nomination?",
+    "market_slug": "will-tulsi-gabbard-win-the-2028-republican-presidential-nomination",
+    "wallet": "0xc74d14f0ca97dcad139a346cea4235a9d0d8ad56",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($3,576)"
+      ],
+      "amount": 3576.41859,
+      "odds": 0.993,
+      "wallet_age_days": 2,
+      "total_activities": 29
+    },
+    "timestamp": "2026-01-25T07:58:23.598934",
+    "trade_hash": "0x4543392eb36305b23b82bdc7ab25508bb7b6f7bdfc59ba941166169722e1f44e",
+    "trade_timestamp": 1769327618,
+    "trade_data": {
+      "asset": "72519808073108999474312955064075820476359073658026830985534265136852842710652",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.993,
+      "size": 3601.63,
+      "amount": 3576.41859
+    }
   }
 ]
