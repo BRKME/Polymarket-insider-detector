@@ -17643,5 +17643,44 @@
       "size": 1589.88,
       "amount": 1550.7430000000002
     }
+  },
+  {
+    "market": "Will Napoli win the 2025\u201326 Champions League?",
+    "market_slug": "will-napoli-win-the-202526-champions-league",
+    "wallet": "0x5bed27224f60753726cd9f7c07d7d264b4e5f0d4",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($4,979)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 4979.004,
+      "odds": 0.996,
+      "wallet_age_days": 1,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-25T05:07:00.136136",
+    "trade_hash": "0x06e98c4e5cec192e02c7895f5fce07112165745f148e85cfcde95cb390b68807",
+    "trade_timestamp": 1769317184,
+    "trade_data": {
+      "asset": "113753834420626426489086669834410871414747105447808165698067606682083475322079",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.996,
+      "size": 4999.0,
+      "amount": 4979.004
+    }
   }
 ]
