@@ -18335,5 +18335,122 @@
       "size": 1474.47,
       "amount": 1472.99553
     }
+  },
+  {
+    "market": "LoL: Team Heretics vs Los Ratones (BO1) - LEC Versus Regular Season",
+    "market_slug": "lol-th-lr-2026-01-25",
+    "wallet": "0x6d61747b794daa284141760e0fa2436c043b1938",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,624)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2623.6537200000002,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-25T19:30:55.816076",
+    "trade_hash": "0x2779aa1161f37a2a98ab5ce88b77818a017fe76a7088cf2cda7a72712c9370a5",
+    "trade_timestamp": 1769369326,
+    "trade_data": {
+      "asset": "41431511448041754073260610572966913292047050397104158217478273598869268041965",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Los Ratones",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 2626.28,
+      "amount": 2623.6537200000002
+    }
+  },
+  {
+    "market": "Will the price of Bitcoin be above $96,000 on January 27?",
+    "market_slug": "bitcoin-above-96k-on-january-27",
+    "wallet": "0x6b24d891cb3e264d4181a728aefb43b3e400a5b4",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($2,976)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2976.0,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-25T19:30:58.423130",
+    "trade_hash": "0x241ee3317368b3b80af36eb8558bdca423c762f4bf50a13e75e6710277203180",
+    "trade_timestamp": 1769369300,
+    "trade_data": {
+      "asset": "92300409277859657478155505628077705192344923280130674446259666774449381093528",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.992,
+      "size": 3000.0,
+      "amount": 2976.0
+    }
+  },
+  {
+    "market": "Will the price of Bitcoin be above $96,000 on January 27?",
+    "market_slug": "bitcoin-above-96k-on-january-27",
+    "wallet": "0xd30de8411c3a2b5b058effa6a4c49ac285e659ef",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($2,976)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2976.0,
+      "odds": 0.992,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-25T19:31:00.291891",
+    "trade_hash": "0xec2c976ca22a3f4f94a26a61240cb001e1e5d1930173a5120485aa502603d459",
+    "trade_timestamp": 1769369296,
+    "trade_data": {
+      "asset": "92300409277859657478155505628077705192344923280130674446259666774449381093528",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.992,
+      "size": 3000.0,
+      "amount": 2976.0
+    }
   }
 ]
