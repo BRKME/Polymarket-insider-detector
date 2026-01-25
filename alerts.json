@@ -18143,5 +18143,44 @@
       "size": 4800.0,
       "amount": 4728.0
     }
+  },
+  {
+    "market": "Will Burnley win the 2025\u201326 English Premier League?",
+    "market_slug": "will-burnley-win-the-202526-english-premier-league",
+    "wallet": "0x8253c71cd441f71eb20b6ff788bc6f9d506d5ed1",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,639)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1639.3390200000001,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-25T10:25:08.295844",
+    "trade_hash": "0xdf176ced44bfb747cd006d6a6443d516c154e9191b8d6817e494c091194e5635",
+    "trade_timestamp": 1769336508,
+    "trade_data": {
+      "asset": "92400515758261607421768391685168513952257754843793312002350693517666852938098",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.999,
+      "size": 1640.98,
+      "amount": 1639.3390200000001
+    }
   }
 ]
