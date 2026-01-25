@@ -18530,5 +18530,43 @@
       "size": 3000.0,
       "amount": 2976.0
     }
+  },
+  {
+    "market": "Will Bitcoin reach $100,000 in January?",
+    "market_slug": "will-bitcoin-reach-100k-in-january-2026",
+    "wallet": "0xf9a25b4f8187e069d3a92b6949afa6c9c3be2136",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (96.7% odds)",
+        "Large bet ($1,640)"
+      ],
+      "amount": 1639.9174500000001,
+      "odds": 0.966687367000112,
+      "wallet_age_days": 2,
+      "total_activities": 76
+    },
+    "timestamp": "2026-01-25T21:17:49.544418",
+    "trade_hash": "0xfcbb67e612dde5e7c4a5d98bf701f03aac7c68e44dd8915cae227b6073ff4ccd",
+    "trade_timestamp": 1769375610,
+    "trade_data": {
+      "asset": "5607394821438033480329831490709557904290234461314111313418562435616991179510",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.966687367000112,
+      "size": 1696.43,
+      "amount": 1639.9174500000001
+    }
   }
 ]
