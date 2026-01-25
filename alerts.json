@@ -17567,5 +17567,81 @@
       "size": 10088.17,
       "amount": 10067.99366
     }
+  },
+  {
+    "market": "Will Napoli win the 2025\u201326 Champions League?",
+    "market_slug": "will-napoli-win-the-202526-champions-league",
+    "wallet": "0x2ef00c6d2bf8ea011a66984f44dd06673955299a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($4,880)"
+      ],
+      "amount": 4880.4,
+      "odds": 0.996,
+      "wallet_age_days": 1,
+      "total_activities": 12
+    },
+    "timestamp": "2026-01-25T04:36:23.013610",
+    "trade_hash": "0x2f749aece32bb74a00879c4ba71020952c13abae50c1c83979709588e9956501",
+    "trade_timestamp": 1769315726,
+    "trade_data": {
+      "asset": "113753834420626426489086669834410871414747105447808165698067606682083475322079",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "No",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.996,
+      "size": 4900.0,
+      "amount": 4880.4
+    }
+  },
+  {
+    "market": "Zama auction clearing price above $0.04?",
+    "market_slug": "zama-auction-clearing-price-above-0pt04",
+    "wallet": "0x25689cce25bedd91c4deffe12d19b2dc568451d3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.5% odds)",
+        "Large bet ($1,551)"
+      ],
+      "amount": 1550.7430000000002,
+      "odds": 0.9753836767554784,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-25T04:36:29.066388",
+    "trade_hash": "0xc8708d1e097933ab645908eb0173d56372005286a458568b815b0dc5a4770af7",
+    "trade_timestamp": 1769315658,
+    "trade_data": {
+      "asset": "75708158412677585226677422198604829899112573674583007200556310906275153671201",
+      "assetId": null,
+      "tokenId": null,
+      "side": "SELL",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.9753836767554784,
+      "size": 1589.88,
+      "amount": 1550.7430000000002
+    }
   }
 ]
