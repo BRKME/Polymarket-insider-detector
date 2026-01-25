@@ -18568,5 +18568,43 @@
       "size": 1696.43,
       "amount": 1639.9174500000001
     }
+  },
+  {
+    "market": "Will Donald Trump win the 2028 US Presidential Election?",
+    "market_slug": "will-donald-trump-win-the-2028-us-presidential-election",
+    "wallet": "0xe63ed3c16c2ec22c77ca3facf65330ba229c525a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (3.6% odds)",
+        "Large bet ($1,594)"
+      ],
+      "amount": 1593.999999,
+      "odds": 0.03551076159697107,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-25T21:57:26.135207",
+    "trade_hash": "0x774367900a522c4d21ece4a7906e40f1bd059f2a4fdb0dd9b27954bdb0a7dd2e",
+    "trade_timestamp": 1769378136,
+    "trade_data": {
+      "asset": "11807691644868166983390207408868795383945915035851758101409310535538572683733",
+      "assetId": null,
+      "tokenId": null,
+      "side": "BUY",
+      "outcome": "Yes",
+      "market": null,
+      "type": null,
+      "status": null,
+      "maker": null,
+      "taker": null,
+      "makerAddress": null,
+      "takerAddress": null,
+      "feeRateBps": null,
+      "price": 0.03551076159697107,
+      "size": 44887.800974,
+      "amount": 1593.999999
+    }
   }
 ]
