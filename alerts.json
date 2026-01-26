@@ -19531,5 +19531,34 @@
       "size": 1426.55,
       "amount": 1403.7251999999999
     }
+  },
+  {
+    "market": "Will Sevilla win the 2025\u201326 La Liga?",
+    "market_slug": "will-sevilla-win-the-202526-la-liga",
+    "wallet": "0x58bc17c46d2db492a0802d4820805c712207fb4d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,425)"
+      ],
+      "amount": 2424.999573,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 7
+    },
+    "timestamp": "2026-01-26T16:57:36.817089",
+    "trade_hash": "0x7962352ce73b504d1d3d3afcb30fe75d3340c163ccca49756fae5615011ac6a1",
+    "trade_timestamp": 1769446511,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 2427.427,
+      "amount": 2424.999573
+    }
   }
 ]
