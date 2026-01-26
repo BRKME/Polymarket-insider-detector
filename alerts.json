@@ -19238,5 +19238,34 @@
       "size": 5000.0,
       "amount": 4970.0
     }
+  },
+  {
+    "market": "LoL: Nongshim Esports Academy vs Hanwha Life Esports Challengers (BO5) - LCK Challengers League Kickoff Group Stage",
+    "market_slug": "lol-nsea-hle-2026-01-26",
+    "wallet": "0x38ea376295e8d349547cfb1e8dd3293c655ee61a",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($4,109)"
+      ],
+      "amount": 4108.63626,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 57
+    },
+    "timestamp": "2026-01-26T11:50:00.139278",
+    "trade_hash": "0x3b2460f2d8f0f7001bee0d518619a5aa8e1d27bcd2b9d599f7cab8f7b8ce19d9",
+    "trade_timestamp": 1769428061,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Nongshim Esports Academy",
+      "side": "BUY",
+      "price": 0.998,
+      "size": 4116.87,
+      "amount": 4108.63626
+    }
   }
 ]
