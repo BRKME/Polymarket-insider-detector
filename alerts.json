@@ -19596,5 +19596,34 @@
       "size": 4999.62,
       "amount": 4834.63254
     }
+  },
+  {
+    "market": "Will Silver (SI) hit (HIGH) $110 by end of January?",
+    "market_slug": "si-hit-110-high-jan-2026",
+    "wallet": "0xfa10080e23458cf4334325e41f0fc2b5fe478f6b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($4,535)"
+      ],
+      "amount": 4534.9262,
+      "odds": 0.994,
+      "wallet_age_days": 0,
+      "total_activities": 16
+    },
+    "timestamp": "2026-01-26T18:42:07.859165",
+    "trade_hash": "0x6602972999784f1ecf090a15db34f71d457552266156ae10eac0ba0f805029b2",
+    "trade_timestamp": 1769452783,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.994,
+      "size": 4562.3,
+      "amount": 4534.9262
+    }
   }
 ]
