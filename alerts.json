@@ -19398,5 +19398,42 @@
       "size": 5987.22,
       "amount": 5969.25834
     }
+  },
+  {
+    "market": "Venezuela election scheduled by January 31, 2026?",
+    "market_slug": "venezuela-election-scheduled-by-january-31-2026",
+    "wallet": "0xdb6f1694b47e14c54a39881e9808e6c41c884ce8",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($4,240)",
+        "Low activity (3 txns)",
+        "Pre-event latency: 6301m"
+      ],
+      "amount": 4239.849998,
+      "odds": 0.9917611718640562,
+      "wallet_age_days": 35,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-26T15:03:48.983146",
+    "trade_hash": "0x7d8b557be8cbb7b88953962b3b8ce6b9dd18046078bbc7f235e1a39eecf45a1b",
+    "trade_timestamp": 1769439559,
+    "latency": {
+      "latency_seconds": 378041.0,
+      "latency_minutes": 6300.683333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T14:59:19+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9917611718640562,
+      "size": 4275.071578,
+      "amount": 4239.849998
+    }
   }
 ]
