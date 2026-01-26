@@ -19772,5 +19772,41 @@
       "size": 3660.0,
       "amount": 3656.34
     }
+  },
+  {
+    "market": "Will NVIDIA be the second-largest company in the world by market cap on January 31?",
+    "market_slug": "will-nvidia-be-the-second-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x1584cb3b5a84944bd0db072c43d67189397071b6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,813)",
+        "Pre-event latency: 5926m"
+      ],
+      "amount": 1812.5721,
+      "odds": 0.9981673550305633,
+      "wallet_age_days": 62,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T21:16:31.358472",
+    "trade_hash": "0x4d63674e22d5ee607c139159b8a30a25977b337ebf753d51d416245ec0849470",
+    "trade_timestamp": 1769462033,
+    "latency": {
+      "latency_seconds": 355567.0,
+      "latency_minutes": 5926.116666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T21:13:53+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9981673550305633,
+      "size": 1815.9,
+      "amount": 1812.5721
+    }
   }
 ]
