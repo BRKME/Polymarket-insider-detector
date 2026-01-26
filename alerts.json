@@ -19267,5 +19267,41 @@
       "size": 4116.87,
       "amount": 4108.63626
     }
+  },
+  {
+    "market": "Will MrBeast hit 464 Million subscribers by January 31?",
+    "market_slug": "will-mrbeast-hit-464-million-subscribers-by-january-31",
+    "wallet": "0x128cd861e622eb5951c55b730ec60115a46bad12",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($4,844)",
+        "Pre-event latency: 6486m"
+      ],
+      "amount": 4844.423,
+      "odds": 0.997,
+      "wallet_age_days": 97,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T11:56:07.632817",
+    "trade_hash": "0x4817d9ea6188bf8ae608da3061a64ed85b5cb0370098ba3e476f52e7c9d59d1f",
+    "trade_timestamp": 1769428447,
+    "latency": {
+      "latency_seconds": 389153.0,
+      "latency_minutes": 6485.883333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T11:54:07+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.997,
+      "size": 4859.0,
+      "amount": 4844.423
+    }
   }
 ]
