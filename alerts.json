@@ -19844,5 +19844,34 @@
       "size": 1120.0,
       "amount": 1105.40946
     }
+  },
+  {
+    "market": "Will Everton FC vs. Leeds United FC end in a draw?",
+    "market_slug": "epl-eve-lee-2026-01-26-draw",
+    "wallet": "0x1fbaf202dc0716c6282ddea8534f7128cd5d92e7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,498)"
+      ],
+      "amount": 1498.5,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 31
+    },
+    "timestamp": "2026-01-26T22:00:14.717371",
+    "trade_hash": "0xe1acb4e6621b00c342a402f1be8420daacefab297e8faaaf622ec3ec2408788b",
+    "trade_timestamp": 1769464741,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.999,
+      "size": 1500.0,
+      "amount": 1498.5
+    }
   }
 ]
