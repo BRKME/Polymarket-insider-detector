@@ -19662,5 +19662,79 @@
       "size": 4259.848298,
       "amount": 1999.999997
     }
+  },
+  {
+    "market": "New \"Stranger Things\" episode released by January 31? ",
+    "market_slug": "new-stranger-things-episode-released-by-january-31-294",
+    "wallet": "0x93d44e7cb426a5a1085cc0ce314b8f2befba7345",
+    "analysis": {
+      "score": 135,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($14,955)",
+        "Low activity (1 txns)",
+        "Pre-event latency: 6017m"
+      ],
+      "amount": 14955.0,
+      "odds": 0.997,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-26T19:46:26.695671",
+    "trade_hash": "0x24e40d211b21e5da6f227cd1b0136732d9184b693588baf0f381ad5865c743a5",
+    "trade_timestamp": 1769456601,
+    "latency": {
+      "latency_seconds": 360999.0,
+      "latency_minutes": 6016.65,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T19:43:21+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.997,
+      "size": 15000.0,
+      "amount": 14955.0
+    }
+  },
+  {
+    "market": "Will the US next strike Iran on January 31, 2026 (ET)?",
+    "market_slug": "will-the-us-next-strike-iran-on-january-31-2026-et-836",
+    "wallet": "0x07824f86dc7b6775ee70e30f20a6c2c8b09bb17b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($1,134)",
+        "Pre-event latency: 6018m"
+      ],
+      "amount": 1134.3932300000001,
+      "odds": 0.961,
+      "wallet_age_days": 92,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T19:46:36.978018",
+    "trade_hash": "0xe969976c48de1204ee8279797779b7e2678b7c7cc303dd89cce7f1a045c3b003",
+    "trade_timestamp": 1769456521,
+    "latency": {
+      "latency_seconds": 361079.0,
+      "latency_minutes": 6017.983333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T19:42:01+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.961,
+      "size": 1180.43,
+      "amount": 1134.3932300000001
+    }
   }
 ]
