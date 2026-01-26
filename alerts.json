@@ -18747,5 +18747,149 @@
       "size": 1400.0,
       "amount": 1374.0590499999998
     }
+  },
+  {
+    "market": "Will Apple be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
+    "wallet": "0x81ef7007da744a1dd3d1afd96d82af52ba868eaa",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,111)",
+        "Pre-event latency: 6987m"
+      ],
+      "amount": 1110.68418,
+      "odds": 0.998,
+      "wallet_age_days": 34,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T03:35:09.381006",
+    "trade_hash": "0x779e79fc6b5e90b0d3332dd70fb0ac58d3d9bb2f8b2e260722de9a1fbde5ef31",
+    "trade_timestamp": 1769398404,
+    "latency": {
+      "latency_seconds": 419196.0,
+      "latency_minutes": 6986.6,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T03:33:24+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.998,
+      "size": 1112.91,
+      "amount": 1110.68418
+    }
+  },
+  {
+    "market": "Will NVIDIA be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-january-31-985",
+    "wallet": "0x25a7fcfe11abd6ae873148584fa3e1b6aa98a4c8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.4% odds)",
+        "Large bet ($5,276)",
+        "Pre-event latency: 6987m"
+      ],
+      "amount": 5275.757,
+      "odds": 0.994067914773027,
+      "wallet_age_days": 480,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T03:35:10.446397",
+    "trade_hash": "0x5d7cd46c045756f4311d5971460f6d603f6e13778e74ed9e643c0904457c31df",
+    "trade_timestamp": 1769398390,
+    "latency": {
+      "latency_seconds": 419210.0,
+      "latency_minutes": 6986.833333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T03:33:10+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.994067914773027,
+      "size": 5307.24,
+      "amount": 5275.757
+    }
+  },
+  {
+    "market": "Will Apple be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
+    "wallet": "0x29ad1faec17bbedb955f8fafca860d420048edb3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,111)",
+        "Pre-event latency: 6987m"
+      ],
+      "amount": 1110.68418,
+      "odds": 0.998,
+      "wallet_age_days": 34,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T03:35:13.405013",
+    "trade_hash": "0x9136f9f4621f73f60639270a4b8152b2844943901651528e584470417439a9ab",
+    "trade_timestamp": 1769398378,
+    "latency": {
+      "latency_seconds": 419222.0,
+      "latency_minutes": 6987.033333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T03:32:58+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.998,
+      "size": 1112.91,
+      "amount": 1110.68418
+    }
+  },
+  {
+    "market": "Will Apple be the largest company in the world by market cap on January 31?",
+    "market_slug": "will-apple-be-the-largest-company-in-the-world-by-market-cap-on-january-31-756",
+    "wallet": "0xed0611d23623e8ed2821159a2ddb4e29e6c2c8c1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,111)",
+        "Pre-event latency: 6987m"
+      ],
+      "amount": 1110.68418,
+      "odds": 0.998,
+      "wallet_age_days": 34,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T03:35:18.660992",
+    "trade_hash": "0x0bd87df4b3b5939d71fc5e65eac9ca2922352debb40eab013ca3853d7a752efa",
+    "trade_timestamp": 1769398356,
+    "latency": {
+      "latency_seconds": 419244.0,
+      "latency_minutes": 6987.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T03:32:36+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.998,
+      "size": 1112.91,
+      "amount": 1110.68418
+    }
   }
 ]
