@@ -19873,5 +19873,71 @@
       "size": 1500.0,
       "amount": 1498.5
     }
+  },
+  {
+    "market": "US strikes Iran by January 29, 2026?",
+    "market_slug": "us-strikes-iran-by-january-29-2026-183-883-657-383-499",
+    "wallet": "0xc37c6c989bc5d86b3eb6095020899fedd585cd7e",
+    "analysis": {
+      "score": 105,
+      "flags": [
+        "New wallet (3d old)",
+        "Against trend (6.0% odds)",
+        "Large bet ($1,335)",
+        "Pre-event latency: 2979m"
+      ],
+      "amount": 1335.2899989999999,
+      "odds": 0.05999999995866066,
+      "wallet_age_days": 3,
+      "total_activities": 15
+    },
+    "timestamp": "2026-01-26T22:23:07.285922",
+    "trade_hash": "0x2043c7201ba5b44ec4dc903d65a93833851aea45b4907f2704c67ef0c69cd5d3",
+    "trade_timestamp": 1769466081,
+    "latency": {
+      "latency_seconds": 178719.0,
+      "latency_minutes": 2978.65,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T22:21:21+00:00",
+      "event_time": "2026-01-29T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.05999999995866066,
+      "size": 22254.833332,
+      "amount": 1335.2899989999999
+    }
+  },
+  {
+    "market": "76ers vs. Hornets",
+    "market_slug": "nba-phi-cha-2026-01-26",
+    "wallet": "0x7312902334e3961cdd0cc4b740f913823961dea7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,693)"
+      ],
+      "amount": 1693.05525,
+      "odds": 0.999,
+      "wallet_age_days": 1,
+      "total_activities": 11
+    },
+    "timestamp": "2026-01-26T22:23:10.771930",
+    "trade_hash": "0x973dab3e565428fd3fa4c090f049f4c569bd292bf85a06f4c68eb0d4ac8bc694",
+    "trade_timestamp": 1769466043,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Hornets",
+      "side": "SELL",
+      "price": 0.999,
+      "size": 1694.75,
+      "amount": 1693.05525
+    }
   }
 ]
