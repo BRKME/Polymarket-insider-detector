@@ -19975,5 +19975,34 @@
       "size": 2520.63,
       "amount": 2515.58874
     }
+  },
+  {
+    "market": "Will Juventus win the 2025\u201326 Champions League?",
+    "market_slug": "will-juventus-win-the-202526-champions-league",
+    "wallet": "0x460d609ca50a447dd44491476977e91f6e0b183b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (2d old)",
+        "Extreme confidence (99.2% odds)",
+        "Large bet ($9,920)"
+      ],
+      "amount": 9920.0,
+      "odds": 0.992,
+      "wallet_age_days": 2,
+      "total_activities": 13
+    },
+    "timestamp": "2026-01-26T23:35:28.796177",
+    "trade_hash": "0xc314c8e12815a2bae2a849f2cc0a4749232c539c2d9d9a5452164dbeef173d61",
+    "trade_timestamp": 1769470371,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.992,
+      "size": 10000.0,
+      "amount": 9920.0
+    }
   }
 ]
