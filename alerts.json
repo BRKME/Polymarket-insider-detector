@@ -19435,5 +19435,35 @@
       "size": 4275.071578,
       "amount": 4239.849998
     }
+  },
+  {
+    "market": "Will Celta Vigo win the 2025\u201326 La Liga?",
+    "market_slug": "will-celta-vigo-win-the-202526-la-liga",
+    "wallet": "0xe99b044014bcc8f5d251a6be56c705b33c47b753",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,007)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1007.3113400000001,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-26T15:38:18.420695",
+    "trade_hash": "0x8e0c00dc0dd985bd3b3bb41e9d1d18fa59c31d8d3a44ba1afe7bff45347b61ba",
+    "trade_timestamp": 1769441687,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.998,
+      "size": 1009.33,
+      "amount": 1007.3113400000001
+    }
   }
 ]
