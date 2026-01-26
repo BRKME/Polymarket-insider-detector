@@ -19332,5 +19332,71 @@
       "size": 1824.0,
       "amount": 1816.704
     }
+  },
+  {
+    "market": "Will Newcastle win the 2025\u201326 English Premier League?",
+    "market_slug": "will-newcastle-win-the-202526-english-premier-league",
+    "wallet": "0xe08c670a0bfddcb705dc480d2970829ac58b1e8b",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,003)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1003.289706,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-26T14:49:40.938336",
+    "trade_hash": "0xd598c11bcbaafa3c5ce80a273a074170c85aed1820e541bf7a3f52ed120a96fe",
+    "trade_timestamp": 1769438831,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 1004.294,
+      "amount": 1003.289706
+    }
+  },
+  {
+    "market": "Will Apple release AirTag 2 by June 30?",
+    "market_slug": "will-apple-release-airtag-2-by-june-30",
+    "wallet": "0x6a88c5ecd262e2c42e78bad8e6db7ab3c4e4b859",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.7% odds)",
+        "Large bet ($5,969)",
+        "Pre-event latency: 222314m"
+      ],
+      "amount": 5969.25834,
+      "odds": 0.997,
+      "wallet_age_days": 110,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T14:49:49.133699",
+    "trade_hash": "0x28e7aa3e909de10c47f15d9b1dd83271c19543987d5b8585ef3848020221d033",
+    "trade_timestamp": 1769438773,
+    "latency": {
+      "latency_seconds": 13338827.0,
+      "latency_minutes": 222313.78333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T14:46:13+00:00",
+      "event_time": "2026-06-30T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.997,
+      "size": 5987.22,
+      "amount": 5969.25834
+    }
   }
 ]
