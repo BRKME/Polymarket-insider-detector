@@ -18891,5 +18891,41 @@
       "size": 1112.91,
       "amount": 1110.68418
     }
+  },
+  {
+    "market": "Will the Supreme Court rule on Trump's tarriffs by January 31?",
+    "market_slug": "will-the-supreme-court-rule-on-trumps-tarriffs-by-january-31",
+    "wallet": "0xe5782839ed36a39e81a4ae7517552bc7c2479bc8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.7% odds)",
+        "Large bet ($1,336)",
+        "Pre-event latency: 6920m"
+      ],
+      "amount": 1336.19153,
+      "odds": 0.9867309106752525,
+      "wallet_age_days": 101,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T04:42:50.580374",
+    "trade_hash": "0x005f57635280d47d62cb48aa4e5a5d96f7a76d52983508fa829da3bcd0213855",
+    "trade_timestamp": 1769402426,
+    "latency": {
+      "latency_seconds": 415174.0,
+      "latency_minutes": 6919.566666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T04:40:26+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.9867309106752525,
+      "size": 1354.16,
+      "amount": 1336.19153
+    }
   }
 ]
