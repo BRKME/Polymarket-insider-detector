@@ -19495,5 +19495,41 @@
       "size": 2472.15,
       "amount": 2462.2614
     }
+  },
+  {
+    "market": "Yoon out of custody by March 31?",
+    "market_slug": "yoon-out-of-custody-by-march-31",
+    "wallet": "0xe947b0748c6f37c656c7674636f93b4c527c7a45",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.4% odds)",
+        "Large bet ($1,404)",
+        "Pre-event latency: 91176m"
+      ],
+      "amount": 1403.7251999999999,
+      "odds": 0.984,
+      "wallet_age_days": 590,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-26T16:25:06.268867",
+    "trade_hash": "0x1bc45b9bdfc2443f7ab4fdca6b2b329f936a22ba66ef3f20b57ec3b31924dab8",
+    "trade_timestamp": 1769444655,
+    "latency": {
+      "latency_seconds": 5470545.0,
+      "latency_minutes": 91175.75,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T16:24:15+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.984,
+      "size": 1426.55,
+      "amount": 1403.7251999999999
+    }
   }
 ]
