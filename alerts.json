@@ -18957,5 +18957,149 @@
       "size": 4009.0,
       "amount": 4000.982
     }
+  },
+  {
+    "market": "Will Jim Harbaugh be fired by February 28?",
+    "market_slug": "will-jim-harbaugh-be-fired-by-february-28",
+    "wallet": "0x6f022ea4008541006c56fb166a1649fa38156607",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,741)",
+        "Pre-event latency: 47118m"
+      ],
+      "amount": 1740.69921,
+      "odds": 0.993,
+      "wallet_age_days": 52,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-26T06:42:28.463834",
+    "trade_hash": "0x208411d2e53ed56fd98e71b47fd626384e2c53774550d675e808bfef922f2c36",
+    "trade_timestamp": 1769409698,
+    "latency": {
+      "latency_seconds": 2827102.0,
+      "latency_minutes": 47118.36666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T06:41:38+00:00",
+      "event_time": "2026-02-28T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.993,
+      "size": 1752.97,
+      "amount": 1740.69921
+    }
+  },
+  {
+    "market": "Will Jim Harbaugh be fired by February 28?",
+    "market_slug": "will-jim-harbaugh-be-fired-by-february-28",
+    "wallet": "0xe55bd2c331c5b89ced4d0842e13b038de10ddfe2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,719)",
+        "Pre-event latency: 47118m"
+      ],
+      "amount": 1718.70426,
+      "odds": 0.993,
+      "wallet_age_days": 52,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-26T06:42:29.925199",
+    "trade_hash": "0x3b3a0d3e0ceeb223087aeb04f42e582bd6554b447177a432eb92c8b59d9cadd3",
+    "trade_timestamp": 1769409696,
+    "latency": {
+      "latency_seconds": 2827104.0,
+      "latency_minutes": 47118.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T06:41:36+00:00",
+      "event_time": "2026-02-28T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.993,
+      "size": 1730.82,
+      "amount": 1718.70426
+    }
+  },
+  {
+    "market": "Will Jim Harbaugh be fired by February 28?",
+    "market_slug": "will-jim-harbaugh-be-fired-by-february-28",
+    "wallet": "0x5609992b6b7013b61b06f84336414dbaa7173688",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.3% odds)",
+        "Large bet ($1,668)",
+        "Pre-event latency: 47118m"
+      ],
+      "amount": 1667.71371,
+      "odds": 0.993,
+      "wallet_age_days": 52,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-26T06:42:30.810381",
+    "trade_hash": "0x689a1580d8b93f488db5a625107bb1f13a10e8b1e1e7eb6973d24f2bc2c37704",
+    "trade_timestamp": 1769409696,
+    "latency": {
+      "latency_seconds": 2827104.0,
+      "latency_minutes": 47118.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T06:41:36+00:00",
+      "event_time": "2026-02-28T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.993,
+      "size": 1679.47,
+      "amount": 1667.71371
+    }
+  },
+  {
+    "market": "US strikes Iran by January 31, 2026?",
+    "market_slug": "us-strikes-iran-by-january-31-2026-165",
+    "wallet": "0xb518a1f0ec6b0eb8d6c5ed3f504765f81d09a9e1",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($17,766)",
+        "Pre-event latency: 6801m"
+      ],
+      "amount": 17766.283499999998,
+      "odds": 0.85,
+      "wallet_age_days": 0,
+      "total_activities": 13
+    },
+    "timestamp": "2026-01-26T06:42:58.245989",
+    "trade_hash": "0x7b6db905aff686d58419aa2c0cfdeabb375eae58066c380e7ca3b7ab1ed078c8",
+    "trade_timestamp": 1769409538,
+    "latency": {
+      "latency_seconds": 408062.0,
+      "latency_minutes": 6801.033333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-26T06:38:58+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.85,
+      "size": 20901.51,
+      "amount": 17766.283499999998
+    }
   }
 ]
