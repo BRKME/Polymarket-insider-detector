@@ -19303,5 +19303,34 @@
       "size": 4859.0,
       "amount": 4844.423
     }
+  },
+  {
+    "market": "Will the Chicago Bulls win the 2026 NBA Finals?",
+    "market_slug": "will-the-chicago-bulls-win-the-2026-nba-finals",
+    "wallet": "0xee5260b291c6aba3d3fb4dd00a0a2317e2e8a795",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($1,817)"
+      ],
+      "amount": 1816.704,
+      "odds": 0.996,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-26T14:18:06.538735",
+    "trade_hash": "0x0c6186d77c02feb8849a676f693cdee62f70eb834ff98e67562f1a268e8b7959",
+    "trade_timestamp": 1769436993,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.996,
+      "size": 1824.0,
+      "amount": 1816.704
+    }
   }
 ]
