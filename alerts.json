@@ -20973,5 +20973,101 @@
       "size": 3829.0,
       "amount": 3825.171
     }
+  },
+  {
+    "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
+    "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31-859-245",
+    "wallet": "0x0939df35f48c48fa02a5a7a18cb9879364ffb5a6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.0% odds)",
+        "Large bet ($1,255)",
+        "Pre-event latency: 4681m"
+      ],
+      "amount": 1255.2964,
+      "odds": 0.97,
+      "wallet_age_days": 457,
+      "total_activities": 71
+    },
+    "timestamp": "2026-01-27T18:00:10.638126",
+    "trade_hash": "0xf448afb60b6c3cf65636d86b8c7e0df47bd32ed4b82d10757e7dab7721a1f288",
+    "trade_timestamp": 1769536761,
+    "latency": {
+      "latency_seconds": 280839.0,
+      "latency_minutes": 4680.65,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T17:59:21+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.97,
+      "size": 1294.12,
+      "amount": 1255.2964
+    }
+  },
+  {
+    "market": "Will Espanyol win the 2025\u201326 La Liga?",
+    "market_slug": "will-espanyol-win-the-202526-la-liga",
+    "wallet": "0x6a906a2f9f29daefb0da63a991e62a3c5e7c4869",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,400)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1400.25834,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T18:00:18.824617",
+    "trade_hash": "0xc7834e8440a19fef553958825e61b8a069f1bb2d8abcad4dfe295377fd819a5d",
+    "trade_timestamp": 1769536669,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 1401.66,
+      "amount": 1400.25834
+    }
+  },
+  {
+    "market": "Will the US strike Somalia next?",
+    "market_slug": "will-the-us-strike-somalia-next-737",
+    "wallet": "0x326561306aa31c91f80e65b764b1871581c50bc5",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.1% odds)",
+        "Large bet ($2,738)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2737.5879499999996,
+      "odds": 0.991,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-27T18:00:19.557899",
+    "trade_hash": "0x9cde193651bd11a540338bc3db2d41ab056c2cc7d81fb7be5e2969a9b2a7c730",
+    "trade_timestamp": 1769536669,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.991,
+      "size": 2762.45,
+      "amount": 2737.5879499999996
+    }
   }
 ]
