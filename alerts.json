@@ -20944,5 +20944,34 @@
       "size": 45454.545453,
       "amount": 4999.999999
     }
+  },
+  {
+    "market": "Counter-Strike: Virtus.pro vs Nemiga (BO3) - CCT Europe Series #13 Playoffs",
+    "market_slug": "cs2-vp-nemi1-2026-01-27",
+    "wallet": "0x6941ae4e8697598452a51cd2dc12bece941daee6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($3,825)"
+      ],
+      "amount": 3825.171,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 49
+    },
+    "timestamp": "2026-01-27T17:16:32.093849",
+    "trade_hash": "0xd5a3b868a3a017461be0a581af56f81804152e541c7ea1aa275edeb68fac7278",
+    "trade_timestamp": 1769534021,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Nemiga",
+      "side": "SELL",
+      "price": 0.999,
+      "size": 3829.0,
+      "amount": 3825.171
+    }
   }
 ]
