@@ -20697,5 +20697,41 @@
       "size": 2037.55,
       "amount": 1981.25704
     }
+  },
+  {
+    "market": "Will the Iranian regime fall by March 31?",
+    "market_slug": "will-the-iranian-regime-fall-by-march-31",
+    "wallet": "0x5060b41a1be40a63b7da2075e42479b29157a780",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (3d old)",
+        "Large bet ($3,000)",
+        "Pre-event latency: 90007m"
+      ],
+      "amount": 2999.999998,
+      "odds": 0.8396597724237482,
+      "wallet_age_days": 3,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T11:56:53.977510",
+    "trade_hash": "0xbc0f4771f6e0d8735ed1cf4c889f4ad0d014a18a29837afe62a1dcab9c20809d",
+    "trade_timestamp": 1769514769,
+    "latency": {
+      "latency_seconds": 5400431.0,
+      "latency_minutes": 90007.18333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T11:52:49+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.8396597724237482,
+      "size": 3572.875701,
+      "amount": 2999.999998
+    }
   }
 ]
