@@ -20531,5 +20531,63 @@
       "size": 2222.0,
       "amount": 2210.89
     }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x9a74eb57b2bbd9babe44bd22ff9e60a0c769534b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,550)"
+      ],
+      "amount": 1549.999449,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-27T11:30:58.570499",
+    "trade_hash": "0x9eade1636a1316330bd4b2ddea2dc75fab56e529e7dc97e5ceef11567b31b24a",
+    "trade_timestamp": 1769513201,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 1551.551,
+      "amount": 1549.999449
+    }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0x6147584b5c5efb659af9a7dfd40a5b3d636c4703",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,261)"
+      ],
+      "amount": 2260.999737,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-01-27T11:31:01.216161",
+    "trade_hash": "0x50f139265b22502197151673b39eaafa66c76164c94578505fc0a7dcd9f2fe8d",
+    "trade_timestamp": 1769513201,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 2263.263,
+      "amount": 2260.999737
+    }
   }
 ]
