@@ -21141,5 +21141,41 @@
       "size": 1395.1,
       "amount": 1354.6420999999998
     }
+  },
+  {
+    "market": "Will the total domestic gross for Avatar: Fire and Ash be less than 400m by January 31?",
+    "market_slug": "will-the-total-domestic-gross-for-avatar-fire-and-ash-be-less-than-400m-by-january-31",
+    "wallet": "0x3dca854f147d9b9ecc56d37800f36b347ce23c13",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,194)",
+        "Pre-event latency: 4571m"
+      ],
+      "amount": 1194.0,
+      "odds": 0.995,
+      "wallet_age_days": 94,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T19:52:12.825833",
+    "trade_hash": "0xf748276b6d08379f52caa99f7d425685791b8f306a554ddab3c510f098c79fd4",
+    "trade_timestamp": 1769543327,
+    "latency": {
+      "latency_seconds": 274273.0,
+      "latency_minutes": 4571.216666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T19:48:47+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.995,
+      "size": 1200.0,
+      "amount": 1194.0
+    }
   }
 ]
