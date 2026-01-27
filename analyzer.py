@@ -178,7 +178,8 @@ def is_15min_market(market_question: str) -> bool:
     
     return False
 
-def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, total_activities: int, end_date_str: str = None, amount: float = 0) -> Tuple[bool, str]:
+def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, total_activities: int, 
+                      end_date_str: str = None, amount: float = 0, latency_minutes: float = None) -> Tuple[bool, str]:
     """
     Filter out false positives: short-term markets, absurd markets, impossible odds.
     Uses config.py flags: BLOCK_15MIN_MARKETS, BLOCK_SHORT_PRICE_PREDICTIONS
@@ -188,6 +189,12 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
     Returns:
         (should_skip, reason)
     """
+    
+    # FILTER 0: LONG LEAD TIME (>7 days before event)
+    # Real insiders act hours/days before, not weeks/months
+    if latency_minutes and latency_minutes > 10080:  # 7 days = 10080 minutes
+        days_early = latency_minutes / 1440
+        return (True, f"LONG_LEAD_TIME ({days_early:.0f} days early - speculation, not insider)")
     
     # FILTER 1: 15-MINUTE HFT MARKETS (if enabled in config)
     if BLOCK_15MIN_MARKETS and market_question:
@@ -260,6 +267,13 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             # Political impossibilities
             r'liz cheney.*202[89].*nomination',
             r'ventura.*202[6-9].*president',  # Andre Ventura unlikely US president
+            
+            # Entertainment markets (low insider probability)
+            r'stranger things.*(episode|season)',
+            r'netflix.*(release|premiere)',
+            r'(movie|film).*(release|premiere|oscar)',
+            r'tv.*show.*(episode|season)',
+            r'game of thrones',
         ]
         
         for pattern in absurd_patterns:
