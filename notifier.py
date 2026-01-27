@@ -182,75 +182,95 @@ def generate_ai_summary(alert):
 def format_institutional_alert(alert):
     """
     Format alert in institutional-grade style.
-    FIX ISSUE #24: Check message length to avoid Telegram truncation.
     
-    Style: Hedge fund research desk
+    Style: Terminal/Bloomberg minimalist
+    - No ASCII separators
+    - Minimal emojis
+    - Compact mobile-first layout
+    - Financial terminology
     """
+    from datetime import datetime, timezone
+    
     analysis = alert["analysis"]
     trade_info = format_trade_info(alert)
     wallet_stats = alert.get('wallet_stats')
     latency = alert.get('latency')
     
-    # Header
-    classification = format_wallet_classification(wallet_stats)
-    
-    message = f"""{'='*50}
-🎯 ALPHA SIGNAL: POTENTIAL INSIDER DETECTED
-{'='*50}
-
-📊 Market: {alert['market']}
-
-💰 Trade Details:
-   • Bet Size: {trade_info['amount']}
-   • Position: {trade_info['position']}
-   • Implied Win Probability: {trade_info['implied_prob']}
-   • Potential Profit: {trade_info['profit']}"""
-
-    # Latency Alert (if pre-event)
-    if latency and latency.get('is_pre_event'):
-        message += format_latency_alert(latency)
-    
-    # Wallet Intelligence
-    message += f"\n\n👛 Wallet Intelligence:"
-    message += f"\n   • Address: `{alert['wallet'][:10]}...{alert['wallet'][-8:]}`"
-    message += f"\n   • Classification: {classification}"
-    
-    if wallet_stats and wallet_stats['total_trades'] >= 3:
-        message += f"\n   • Historical Performance:"
-        message += f"\n      - Total Trades: {wallet_stats['total_trades']}"
-        message += f"\n      - Pre-Event Trades: {wallet_stats['pre_event_trades']}"
-        
-        if wallet_stats.get('avg_latency_seconds', 0) > 0:
-            avg_latency_min = wallet_stats['avg_latency_seconds'] / 60
-            message += f"\n      - Avg Pre-Event Latency: {avg_latency_min:.0f} minutes"
+    # Determine signal class from market question
+    market_question = alert['market'].lower()
+    if any(kw in market_question for kw in ['president', 'election', 'nominee', 'senate', 'congress']):
+        signal_class = "Political"
+    elif any(kw in market_question for kw in ['bitcoin', 'ethereum', 'crypto', 'price', 'stock']):
+        signal_class = "Market"
+    elif any(kw in market_question for kw in ['war', 'ceasefire', 'treaty', 'invasion']):
+        signal_class = "Macro"
     else:
-        message += f"\n   • Status: New wallet (first {wallet_stats['total_trades'] if wallet_stats else 0} trades)"
+        signal_class = "Governance"
     
-    # Suspicious Signals
-    message += f"\n\n🔍 Suspicious Signals:"
-    for flag in analysis['flags']:
-        message += f"\n   ✓ {flag}"
+    # Wallet classification (clean format)
+    if wallet_stats and wallet_stats.get('classification'):
+        classification = wallet_stats['classification']
+        insider_score = wallet_stats.get('insider_score', 0)
+        profile = f"{classification} ({insider_score:.0f}/100)"
+    else:
+        profile = "New Participant"
     
-    # Confidence Score
-    message += f"\n\n📈 Analysis:"
-    message += f"\n   • Insider Probability Score: {analysis['score']}/150"
-    message += f"\n   • {generate_ai_summary(alert)}"
+    # Lead time
+    if latency and latency.get('is_pre_event'):
+        lead_time_min = int(latency['latency_minutes'])
+        lead_time = f"{lead_time_min} min"
+    else:
+        lead_time = "N/A"
     
-    # Market Link
-    message += f"\n\n🔗 Market: https://polymarket.com/event/{alert.get('market_slug', '')}"
+    # Build message
+    message = f"""ALPHA SIGNAL — Insider Activity
+Signal Class: {signal_class}
+
+Market: {alert['market']}
+
+Trade Snapshot
+Bet: {trade_info['amount']} | Position: {trade_info['position']}
+Implied Prob: {trade_info['implied_prob']} | Potential PnL: {trade_info['profit']}
+Lead Time: {lead_time}
+
+Wallet Intelligence
+{alert['wallet'][:10]}...{alert['wallet'][-6:]}
+Profile: {profile}"""
     
-    # Footer
-    message += f"\n{'='*50}"
+    # Historical performance (if available)
+    if wallet_stats and wallet_stats.get('total_trades', 0) >= 3:
+        total = wallet_stats['total_trades']
+        pre_event = wallet_stats.get('pre_event_trades', 0)
+        message += f"\nHistory: {total} trades | {pre_event} pre-event"
     
-    # Estimation warning if needed
-    if trade_info['is_estimated']:
-        message += "\n\n⚠️ Note: Position (YES/NO) estimated from odds. Verify on market page."
+    # Suspicion factors (max 4 lines)
+    message += f"\n\nSuspicion Factors"
+    flags = analysis.get('flags', [])[:4]  # Max 4 factors
+    for flag in flags:
+        message += f"\n• {flag}"
     
-    # FIX ISSUE #24: Truncate if too long
+    # Score and interpretation
+    score = analysis.get('score', 0)
+    ai_summary = generate_ai_summary(alert)
+    
+    message += f"\n\nSignal Score: {score}/150"
+    message += f"\nInterpretation: {ai_summary}"
+    
+    # Footer with source and timestamp
+    market_slug = alert.get('market_slug', '')
+    timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
+    
+    message += f"\n\nSource: https://polymarket.com/event/{market_slug}"
+    message += f"\nRadar | {timestamp} UTC"
+    
+    # Estimation warning if needed (compact)
+    if trade_info.get('is_estimated'):
+        message += f"\n\nNote: Position estimated from odds"
+    
+    # Check length (Telegram limit 4096)
     if len(message) > 4000:
-        # Remove wallet history section
-        message = message[:4000]
-        message += "\n\n[Message truncated - see market page for full details]"
+        # Truncate factors if needed
+        message = message[:4000] + "\n\n[Truncated]"
     
     return message
 
