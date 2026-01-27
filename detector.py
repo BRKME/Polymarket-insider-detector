@@ -1,4 +1,5 @@
 from datetime import datetime, timezone
+import re
 from collector import get_active_markets, get_recent_trades_paginated, get_wallet_activity, get_market_by_condition_id
 from analyzer import calculate_score, should_skip_alert
 from event_detector_fixed import detect_pre_event_trade, calculate_latency_score, get_latency_insight
@@ -118,9 +119,15 @@ def detect_insider_trades():
                 # Find market
                 market = get_market_by_condition_id(condition_id, markets)
                 if not market:
+                    # Fallback: create market from trade data
+                    # Clean slug: remove conditionId suffix (e.g. "-859-245")
+                    # Pattern: -XXX-YYY where X,Y are 1-3 digits (not 4+ to preserve dates like -31-2026)
+                    raw_slug = trade.get("slug", "")
+                    clean_slug = re.sub(r'-\d{1,3}-\d{1,3}$', '', raw_slug)
+                    
                     market = {
                         "question": trade.get("title", "Unknown market"),
-                        "slug": trade.get("slug", ""),
+                        "slug": clean_slug,
                         "conditionId": condition_id,
                         "endDate": trade.get("endDate")
                     }
@@ -204,12 +211,17 @@ def detect_insider_trades():
                 # Check if alert threshold met
                 if analysis["score"] >= ALERT_THRESHOLD:
                     # Apply filters before alerting
+                    # Extract latency minutes for filtering
+                    latency_min = latency_data['latency_minutes'] if latency_data else None
+                    
                     should_skip, skip_reason = should_skip_alert(
                         market_question=market.get("question", ""),
                         wallet_age_days=analysis['wallet_age_days'],
                         odds=analysis['odds'],
                         total_activities=analysis['total_activities'],
-                        end_date_str=market.get("endDate")
+                        end_date_str=market.get("endDate"),
+                        amount=amount,
+                        latency_minutes=latency_min
                     )
                     
                     if should_skip:
