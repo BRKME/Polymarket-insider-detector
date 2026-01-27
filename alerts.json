@@ -21069,5 +21069,77 @@
       "size": 2762.45,
       "amount": 2737.5879499999996
     }
+  },
+  {
+    "market": "Will USD reach 1.5M Iranian rials by January 31?",
+    "market_slug": "will-usd-reach-1pt5m-iranian-rials-by-january-31",
+    "wallet": "0xf97fb1ce313ee1a486cdcb55b27e1f172d1e23c3",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($1,259)",
+        "Pre-event latency: 4587m"
+      ],
+      "amount": 1259.41995,
+      "odds": 0.9876565527098502,
+      "wallet_age_days": 81,
+      "total_activities": 90
+    },
+    "timestamp": "2026-01-27T19:36:38.485024",
+    "trade_hash": "0x0c721f1df3fe31089e7670d01da9b8215daa2329acd5d6a35ad8913ff39b1fba",
+    "trade_timestamp": 1769542399,
+    "latency": {
+      "latency_seconds": 275201.0,
+      "latency_minutes": 4586.683333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T19:33:19+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.9876565527098502,
+      "size": 1275.159818,
+      "amount": 1259.41995
+    }
+  },
+  {
+    "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
+    "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31-859-245",
+    "wallet": "0xc550e5ee1011afb6d37c7fbb18fea32e03f9272d",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($1,355)",
+        "Pre-event latency: 4587m"
+      ],
+      "amount": 1354.6420999999998,
+      "odds": 0.971,
+      "wallet_age_days": 354,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T19:36:44.055647",
+    "trade_hash": "0xcbe254178b3b9f98cd526eb10ad9079c6eb773008367f984c0e9306bec36623b",
+    "trade_timestamp": 1769542385,
+    "latency": {
+      "latency_seconds": 275215.0,
+      "latency_minutes": 4586.916666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T19:33:05+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.971,
+      "size": 1395.1,
+      "amount": 1354.6420999999998
+    }
   }
 ]
