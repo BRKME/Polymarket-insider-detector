@@ -178,7 +178,7 @@ def is_15min_market(market_question: str) -> bool:
     
     return False
 
-def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, total_activities: int, end_date_str: str = None) -> Tuple[bool, str]:
+def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, total_activities: int, end_date_str: str = None, amount: float = 0) -> Tuple[bool, str]:
     """
     Filter out false positives: short-term markets, absurd markets, impossible odds.
     Uses config.py flags: BLOCK_15MIN_MARKETS, BLOCK_SHORT_PRICE_PREDICTIONS
@@ -266,10 +266,22 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             if re.search(pattern, title_lower):
                 return (True, f"ABSURD_MARKET (matched: {pattern[:30]}...)")
         
-        # FILTER 4: IMPOSSIBLE ODDS (>99% on unlikely outcomes)
+        # FILTER 4: LOW PROFIT MARGIN (Market Makers)
+        # Extreme odds (>=98% or <=2%) = max 2% ROI = market making, not insider
+        if odds >= 0.98 or odds <= 0.02:
+            # Calculate worst-case max ROI
+            if odds >= 0.98:
+                max_roi = (1 - odds) / odds * 100  # YES position
+            else:
+                max_roi = odds / (1 - odds) * 100  # NO position
+            
+            return (True, f"MARKET_MAKER (max ROI {max_roi:.1f}% at {odds*100:.1f}% odds)")
+        
+        # FILTER 5: IMPOSSIBLE ODDS on specific markets
         # This catches arbitrage bots betting on underdogs at extreme odds
-        if odds > 0.99:
-            # NBA underdogs at 99%+ for championship = arbitrage
+        if odds > 0.98:
+            # NBA underdogs at 98%+ for championship = arbitrage
+            # NBA underdogs at 98%+ for championship = arbitrage
             nba_underdogs = ['wizards', 'pistons', 'hornets', 'blazers', 'spurs', 'raptors', 'nets']
             for team in nba_underdogs:
                 # Check if market is about team winning finals/championship
@@ -277,7 +289,7 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
                     if any(kw in title_lower for kw in ['finals', 'championship', 'win.*202[6-9]']):
                         return (True, f"IMPOSSIBLE_ODDS ({team} at {odds*100:.1f}% for championship)")
             
-            # Political long-shots at 99%+
+            # Political long-shots at 98%+
             political_longshots = ['youngkin', 'ventura', 'desantis']
             for candidate in political_longshots:
                 if candidate in title_lower and 'president' in title_lower:
