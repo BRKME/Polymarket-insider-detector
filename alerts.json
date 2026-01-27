@@ -20112,5 +20112,79 @@
       "size": 4582.4,
       "amount": 4493.85248
     }
+  },
+  {
+    "market": "Cilia Flores released from custody by January 31, 2026?",
+    "market_slug": "cilia-flores-released-from-custody-by-january-31-2026",
+    "wallet": "0x08354f0ec613f7b8a0abc0b7cacf7cee899f0e07",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,943)",
+        "Pre-event latency: 5372m"
+      ],
+      "amount": 1943.235,
+      "odds": 0.995,
+      "wallet_age_days": 96,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T06:32:08.136561",
+    "trade_hash": "0x54eac29aaac2fa988e5c61ad14ce0fc2ab3cc9fd28f3119fa6148d1f0e1f08b9",
+    "trade_timestamp": 1769495257,
+    "latency": {
+      "latency_seconds": 322343.0,
+      "latency_minutes": 5372.383333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T06:27:37+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.995,
+      "size": 1953.0,
+      "amount": 1943.235
+    }
+  },
+  {
+    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
+    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
+    "wallet": "0x7f7bf485545d5ce980c767cdf1ec93046c5c10e7",
+    "analysis": {
+      "score": 135,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (2.7% odds)",
+        "Large bet ($2,346)",
+        "Low activity (1 txns)",
+        "Pre-event latency: 5373m"
+      ],
+      "amount": 2345.999999,
+      "odds": 0.026897419559611228,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T06:32:16.657121",
+    "trade_hash": "0x1b60e4657b24f9ae828af13ca940500fb0ca4d4c632d4a75acab568605aa77ab",
+    "trade_timestamp": 1769495219,
+    "latency": {
+      "latency_seconds": 322381.0,
+      "latency_minutes": 5373.016666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T06:26:59+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.026897419559611228,
+      "size": 87220.262665,
+      "amount": 2345.999999
+    }
   }
 ]
