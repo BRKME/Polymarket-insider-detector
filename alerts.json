@@ -21278,5 +21278,41 @@
       "size": 6366.96,
       "amount": 6360.59304
     }
+  },
+  {
+    "market": "New \"Stranger Things\" episode released by February 28? ",
+    "market_slug": "new-stranger-things-episode-released-by-february-28",
+    "wallet": "0xdf17f4a8dd01a4cfa6fc3da323a2baee5f8697d1",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (96.5% odds)",
+        "Large bet ($2,490)",
+        "Pre-event latency: 44809m"
+      ],
+      "amount": 2490.3947999999996,
+      "odds": 0.965,
+      "wallet_age_days": 414,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T21:11:58.359969",
+    "trade_hash": "0x912f875c7a76f874d51bdc4ce079ea450e015810651c80c27a926d55e32e314d",
+    "trade_timestamp": 1769548231,
+    "latency": {
+      "latency_seconds": 2688569.0,
+      "latency_minutes": 44809.48333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T21:10:31+00:00",
+      "event_time": "2026-02-28T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.965,
+      "size": 2580.72,
+      "amount": 2490.3947999999996
+    }
   }
 ]
