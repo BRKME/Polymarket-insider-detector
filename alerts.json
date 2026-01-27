@@ -20222,5 +20222,79 @@
       "size": 1980.0,
       "amount": 1762.2
     }
+  },
+  {
+    "market": "Will Robert Whittaker be the UFC Middleweight Champion on December 31, 2026?",
+    "market_slug": "will-robert-whittaker-be-the-ufc-middleweight-champion-on-december-31-2026",
+    "wallet": "0xea31ec76fafb93e2f55b1e98cead35165a0ab053",
+    "analysis": {
+      "score": 135,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,618)",
+        "Low activity (1 txns)",
+        "Pre-event latency: 486252m"
+      ],
+      "amount": 1617.63824,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T07:50:52.333665",
+    "trade_hash": "0x629c69eb7b964fcccd375d81e5470ff3536915c845be893ac81ade23d1800e00",
+    "trade_timestamp": 1769500095,
+    "latency": {
+      "latency_seconds": 29175105.0,
+      "latency_minutes": 486251.75,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T07:48:15+00:00",
+      "event_time": "2026-12-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.998,
+      "size": 1620.88,
+      "amount": 1617.63824
+    }
+  },
+  {
+    "market": "Will Alphabet be the second-largest company in the world by market cap on January 31?",
+    "market_slug": "will-alphabet-be-the-second-largest-company-in-the-world-by-market-cap-on-january-31",
+    "wallet": "0x79929dfb11820a017fb7a51faf536a55bdbd48bf",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.8% odds)",
+        "Large bet ($1,235)",
+        "Pre-event latency: 5292m"
+      ],
+      "amount": 1234.74312,
+      "odds": 0.988,
+      "wallet_age_days": 379,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T07:51:00.554201",
+    "trade_hash": "0xdbac08eac4bb22acc221c4a51491cbbdb25b24f04d6a4c295126a6cda0a3007a",
+    "trade_timestamp": 1769500061,
+    "latency": {
+      "latency_seconds": 317539.0,
+      "latency_minutes": 5292.316666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T07:47:41+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.988,
+      "size": 1249.74,
+      "amount": 1234.74312
+    }
   }
 ]
