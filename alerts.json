@@ -20589,5 +20589,113 @@
       "size": 2263.263,
       "amount": 2260.999737
     }
+  },
+  {
+    "market": "Will MrBeast hit 470 Million subscribers by January 31?",
+    "market_slug": "will-mrbeast-hit-470-million-subscribers-by-january-31-634-222-492-335",
+    "wallet": "0x847667d84fc4d81db36689c4f4c5845c8d125418",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.6% odds)",
+        "Large bet ($6,020)",
+        "Pre-event latency: 5056m"
+      ],
+      "amount": 6020.18216,
+      "odds": 0.9959834559249297,
+      "wallet_age_days": 141,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T11:46:26.306798",
+    "trade_hash": "0xcf62fbcde9326298c44b5f7a9b53426a0eb10505e544b78db0e1eb1d64750349",
+    "trade_timestamp": 1769514229,
+    "latency": {
+      "latency_seconds": 303371.0,
+      "latency_minutes": 5056.183333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T11:43:49+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9959834559249297,
+      "size": 6044.46,
+      "amount": 6020.18216
+    }
+  },
+  {
+    "market": "Israel strikes Iran by January 31, 2026?",
+    "market_slug": "israel-strikes-iran-by-january-31-2026-894-994-453",
+    "wallet": "0x5d4721fb7ab7239799ce10e5777e8779a252e488",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Against trend (6.3% odds)",
+        "Large bet ($1,714)",
+        "Pre-event latency: 5057m"
+      ],
+      "amount": 1713.5783000000001,
+      "odds": 0.06325975331484789,
+      "wallet_age_days": 22,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T11:46:33.398904",
+    "trade_hash": "0xf43cff222cc5553ab3e22c153803e0b5cb67ee71af2f9afc865a4f40f7d19c0c",
+    "trade_timestamp": 1769514185,
+    "latency": {
+      "latency_seconds": 303415.0,
+      "latency_minutes": 5056.916666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T11:43:05+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.06325975331484789,
+      "size": 27087.97,
+      "amount": 1713.5783000000001
+    }
+  },
+  {
+    "market": "Caroline Ellison new boyfriend by January 31?",
+    "market_slug": "caroline-ellison-new-boyfriend-by-january-31",
+    "wallet": "0xb10047d6a254b2ebb306d7a7d13bf59171ab6461",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.2% odds)",
+        "Large bet ($1,981)",
+        "Pre-event latency: 5057m"
+      ],
+      "amount": 1981.25704,
+      "odds": 0.9723722313562857,
+      "wallet_age_days": 541,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T11:46:40.629919",
+    "trade_hash": "0xd500e48dc5cc490c20f6efcfb4514373289a657a9d6c6727934e9fc1448638bd",
+    "trade_timestamp": 1769514161,
+    "latency": {
+      "latency_seconds": 303439.0,
+      "latency_minutes": 5057.316666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T11:42:41+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.9723722313562857,
+      "size": 2037.55,
+      "amount": 1981.25704
+    }
   }
 ]
