@@ -20769,5 +20769,144 @@
       "size": 1306.35,
       "amount": 1303.7373
     }
+  },
+  {
+    "market": "Will Ethereum reach $6,000 in January?",
+    "market_slug": "will-ethereum-reach-6000-in-january-2026",
+    "wallet": "0xda223293052113e8a73f76aa3ef1e3709a1db0a9",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($1,002)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1002.209787,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T15:01:48.438588",
+    "trade_hash": "0x29c7d7bc177504bb02ac26f9e74da32bd7229a5e30a6646997dd5eb821e8d33f",
+    "trade_timestamp": 1769525981,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 1003.213,
+      "amount": 1002.209787
+    }
+  },
+  {
+    "market": "Will the price of Bitcoin be above $100,000 on January 29?",
+    "market_slug": "bitcoin-above-100k-on-january-29",
+    "wallet": "0xf67e09f19d4485f297457f9ad6f70a03112ba55c",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($20,104)",
+        "Pre-event latency: 1981m"
+      ],
+      "amount": 20103.876,
+      "odds": 0.999,
+      "wallet_age_days": 106,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T15:01:51.559478",
+    "trade_hash": "0x0e6e4b22d08d661fc81ce91841f21d1ac44c839e665a30dd0c2d3cb69fd8c46b",
+    "trade_timestamp": 1769525969,
+    "latency": {
+      "latency_seconds": 118831.0,
+      "latency_minutes": 1980.5166666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T14:59:29+00:00",
+      "event_time": "2026-01-29T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 20124.0,
+      "amount": 20103.876
+    }
+  },
+  {
+    "market": "Will Russia capture all of Myrnohrad by February 28?",
+    "market_slug": "will-russia-capture-all-of-myrnohrad-by-february-28",
+    "wallet": "0xc65bd3b56d8784fb9fb750297dec537cf5ea7aad",
+    "analysis": {
+      "score": 110,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,620)",
+        "Low activity (3 txns)",
+        "Pre-event latency: 45181m"
+      ],
+      "amount": 1620.0,
+      "odds": 0.54,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-01-27T15:01:57.043623",
+    "trade_hash": "0xa11b48a7908514516fe88c284df3057a4a0a41110b781c90cbe356f2bf6e97f2",
+    "trade_timestamp": 1769525939,
+    "latency": {
+      "latency_seconds": 2710861.0,
+      "latency_minutes": 45181.01666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T14:58:59+00:00",
+      "event_time": "2026-02-28T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.54,
+      "size": 3000.0,
+      "amount": 1620.0
+    }
+  },
+  {
+    "market": "Khamenei out as Supreme Leader of Iran by March 31?",
+    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-march-31",
+    "wallet": "0xde47837413d02344b539537521907c22d44ed724",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (4d old)",
+        "Large bet ($3,600)",
+        "Pre-event latency: 89823m"
+      ],
+      "amount": 3599.999999,
+      "odds": 0.7599999999915555,
+      "wallet_age_days": 4,
+      "total_activities": 24
+    },
+    "timestamp": "2026-01-27T15:02:07.919392",
+    "trade_hash": "0x990ea12c3515f45cd82ddc09aee5f4bfe7673a166136509b5b89fbfcd08c71b2",
+    "trade_timestamp": 1769525823,
+    "latency": {
+      "latency_seconds": 5389377.0,
+      "latency_minutes": 89822.95,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T14:57:03+00:00",
+      "event_time": "2026-03-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.7599999999915555,
+      "size": 4736.842104,
+      "amount": 3599.999999
+    }
   }
 ]
