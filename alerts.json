@@ -21213,5 +21213,70 @@
       "size": 2249.19,
       "amount": 2240.19324
     }
+  },
+  {
+    "market": "Will Trump denaturalize any citizen by June 30?",
+    "market_slug": "will-trump-denaturalize-any-citizen-by-june-30",
+    "wallet": "0x4d0e9b029700163625c551a0073636f3dc5ec45b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.2% odds)",
+        "Large bet ($3,359)",
+        "Pre-event latency: 220520m"
+      ],
+      "amount": 3358.6611,
+      "odds": 0.9822197364496148,
+      "wallet_age_days": 51,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T20:43:36.412896",
+    "trade_hash": "0xc6c1494464d414439a856c1643d605e36c848cfae026fd373130e2fa3a69c4b1",
+    "trade_timestamp": 1769546425,
+    "latency": {
+      "latency_seconds": 13231175.0,
+      "latency_minutes": 220519.58333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T20:40:25+00:00",
+      "event_time": "2026-06-30T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.9822197364496148,
+      "size": 3419.46,
+      "amount": 3358.6611
+    }
+  },
+  {
+    "market": "Alabama State Hornets vs. Texas Southern Tigers",
+    "market_slug": "cbb-alast-txs-2026-01-27",
+    "wallet": "0x7647f7fa87e53d49dbbf58f9a0230de8a926d711",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($6,361)"
+      ],
+      "amount": 6360.59304,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-01-27T20:43:39.674198",
+    "trade_hash": "0x75554dd753bb5cae2be62451e3333dfc630b6052f28b899e0144d5d65c844cda",
+    "trade_timestamp": 1769546405,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Texas Southern Tigers",
+      "side": "SELL",
+      "price": 0.999,
+      "size": 6366.96,
+      "amount": 6360.59304
+    }
   }
 ]
