@@ -20004,5 +20004,77 @@
       "size": 10000.0,
       "amount": 9920.0
     }
+  },
+  {
+    "market": "US strikes Iran by January 29, 2026?",
+    "market_slug": "us-strikes-iran-by-january-29-2026-183-883-657-383-499",
+    "wallet": "0xe7387473b067235436884d16799777cf279edf65",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (96.0% odds)",
+        "Large bet ($4,232)",
+        "Pre-event latency: 2802m"
+      ],
+      "amount": 4232.303999999999,
+      "odds": 0.96,
+      "wallet_age_days": 91,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T01:19:54.192991",
+    "trade_hash": "0x96a8b117d6f6b28fce9cd423e245da28bec2932e833fbb4cc078127dbc541fa1",
+    "trade_timestamp": 1769476665,
+    "latency": {
+      "latency_seconds": 168135.0,
+      "latency_minutes": 2802.25,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T01:17:45+00:00",
+      "event_time": "2026-01-29T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.96,
+      "size": 4408.65,
+      "amount": 4232.303999999999
+    }
+  },
+  {
+    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
+    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
+    "wallet": "0xcf4ce453df47baba44a5b52f77a7745bd386f088",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.1% odds)",
+        "Large bet ($9,813)",
+        "Pre-event latency: 5683m"
+      ],
+      "amount": 9813.24626,
+      "odds": 0.9812912620970887,
+      "wallet_age_days": 104,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T01:19:55.788864",
+    "trade_hash": "0x238ff007e0a0cc6ddb3d8a0e8299bf385ceb7c8af502ab6100b54eedfca0e9b6",
+    "trade_timestamp": 1769476649,
+    "latency": {
+      "latency_seconds": 340951.0,
+      "latency_minutes": 5682.516666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T01:17:29+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.9812912620970887,
+      "size": 10000.34,
+      "amount": 9813.24626
+    }
   }
 ]
