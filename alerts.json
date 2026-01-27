@@ -20459,5 +20459,41 @@
       "size": 3420.610226,
       "amount": 1499.999999
     }
+  },
+  {
+    "market": "Iran Strike on Israel by February 28?",
+    "market_slug": "iran-strike-on-israel-by-february-28",
+    "wallet": "0x6608452251d7471db5efb0e3072028df365ab9b9",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (3d old)",
+        "Large bet ($1,226)",
+        "Pre-event latency: 45515m"
+      ],
+      "amount": 1225.5068000000003,
+      "odds": 0.28,
+      "wallet_age_days": 3,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T09:28:41.888152",
+    "trade_hash": "0xc9e8635190cc8f77a2325c73567fbd433660dcc67d970a190c0fd7f611293824",
+    "trade_timestamp": 1769505929,
+    "latency": {
+      "latency_seconds": 2730871.0,
+      "latency_minutes": 45514.51666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T09:25:29+00:00",
+      "event_time": "2026-02-28T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.28,
+      "size": 4376.81,
+      "amount": 1225.5068000000003
+    }
   }
 ]
