@@ -20495,5 +20495,41 @@
       "size": 4376.81,
       "amount": 1225.5068000000003
     }
+  },
+  {
+    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
+    "wallet": "0xc04327210c95d1addf43285c39fe43406759eb1b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($2,211)",
+        "Pre-event latency: 5148m"
+      ],
+      "amount": 2210.89,
+      "odds": 0.995,
+      "wallet_age_days": 23,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T10:15:23.717701",
+    "trade_hash": "0x2a444331a6dab75bb4602197aa324f6f5d780302e4e0760e0782312275fd581c",
+    "trade_timestamp": 1769508727,
+    "latency": {
+      "latency_seconds": 308873.0,
+      "latency_minutes": 5147.883333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T10:12:07+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.995,
+      "size": 2222.0,
+      "amount": 2210.89
+    }
   }
 ]
