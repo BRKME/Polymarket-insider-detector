@@ -20362,5 +20362,65 @@
       "size": 1266.71,
       "amount": 1260.37645
     }
+  },
+  {
+    "market": "Will Trump nominate David Malpass as the next Fed chair?",
+    "market_slug": "will-trump-nominate-david-malpass-as-the-next-fed-chair",
+    "wallet": "0x1457639f227b60f620775ffaa84dbdd60fd83c40",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($2,856)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 2856.149991,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T08:29:32.688790",
+    "trade_hash": "0x1f8853b937bdaae294724e449653c214bc4b15fd1d5bd8a8db9507fa118c2f5b",
+    "trade_timestamp": 1769502433,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 2859.009,
+      "amount": 2856.149991
+    }
+  },
+  {
+    "market": "Will Bitcoin reach $150,000 in January?",
+    "market_slug": "will-bitcoin-reach-150k-in-january-2026",
+    "wallet": "0xc66b97a1e198db20288f751cc15968e2a4260764",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.9% odds)",
+        "Large bet ($10,077)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 10076.999913,
+      "odds": 0.999,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T08:29:47.636744",
+    "trade_hash": "0x28d2adf9b3e994af27447a904d91848df10492f972a9fc7ed0ad3431b368f1d2",
+    "trade_timestamp": 1769502339,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.999,
+      "size": 10087.087,
+      "amount": 10076.999913
+    }
   }
 ]
