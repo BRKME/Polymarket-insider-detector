@@ -20076,5 +20076,41 @@
       "size": 10000.34,
       "amount": 9813.24626
     }
+  },
+  {
+    "market": "Will xQc beat Forsen's Minecraft speedrun record by January 31?",
+    "market_slug": "will-xqc-beat-forsens-minecraft-speedrun-record-by-january-31",
+    "wallet": "0x48aebd206b99c165fa8b7cbdcb71d1c05782fd6b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (98.1% odds)",
+        "Large bet ($4,494)",
+        "Pre-event latency: 5504m"
+      ],
+      "amount": 4493.85248,
+      "odds": 0.9806766061452514,
+      "wallet_age_days": 41,
+      "total_activities": 18
+    },
+    "timestamp": "2026-01-27T04:17:36.524828",
+    "trade_hash": "0x3d5bc47e19e8e5ac3d201c4859723da7a13e413a7bcad49ea748fa98e525321a",
+    "trade_timestamp": 1769487383,
+    "latency": {
+      "latency_seconds": 330217.0,
+      "latency_minutes": 5503.616666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T04:16:23+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.9806766061452514,
+      "size": 4582.4,
+      "amount": 4493.85248
+    }
   }
 ]
