@@ -20296,5 +20296,71 @@
       "size": 1249.74,
       "amount": 1234.74312
     }
+  },
+  {
+    "market": "Will Bitcoin reach $125,000 in January?",
+    "market_slug": "will-bitcoin-reach-125k-in-january-2026",
+    "wallet": "0xff35a1eac094b29fa306881c0be09e04c08f674a",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (99.8% odds)",
+        "Large bet ($1,200)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1199.9952,
+      "odds": 0.998,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-01-27T07:58:41.352552",
+    "trade_hash": "0x81dafc9afecaaa5d9c5aa8728ef0a28d432a97a40af465803ddd6b5c4e9ddefc",
+    "trade_timestamp": 1769500623,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.998,
+      "size": 1202.4,
+      "amount": 1199.9952
+    }
+  },
+  {
+    "market": "Russia x Ukraine ceasefire by January 31, 2026?",
+    "market_slug": "russia-x-ukraine-ceasefire-by-january-31-2026",
+    "wallet": "0x373559a78c0fdc5adcb7df68601ef1644b8c4282",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (99.5% odds)",
+        "Large bet ($1,260)",
+        "Pre-event latency: 5283m"
+      ],
+      "amount": 1260.37645,
+      "odds": 0.995,
+      "wallet_age_days": 130,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-27T07:58:49.434641",
+    "trade_hash": "0x7ebcce8f6a92cf72679b058ec6d2227eccaac4e791ff8a702e361e4faab7dcce",
+    "trade_timestamp": 1769500605,
+    "latency": {
+      "latency_seconds": 316995.0,
+      "latency_minutes": 5283.25,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-27T07:56:45+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.995,
+      "size": 1266.71,
+      "amount": 1260.37645
+    }
   }
 ]
