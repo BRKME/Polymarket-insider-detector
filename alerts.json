@@ -21458,5 +21458,34 @@
       "size": 1420.97,
       "amount": 1389.70866
     }
+  },
+  {
+    "market": "Will Trump nominate Judy Shelton as the next Fed chair?",
+    "market_slug": "will-trump-nominate-judy-shelton-as-the-next-fed-chair",
+    "wallet": "0xfcc7b3d96de6c072a215caaedefacf4d2d001434",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (97.2% odds)",
+        "Large bet ($8,131)"
+      ],
+      "amount": 8131.349983,
+      "odds": 0.9719048832943848,
+      "wallet_age_days": 1,
+      "total_activities": 20
+    },
+    "timestamp": "2026-01-28T22:28:48.701063",
+    "trade_hash": "0xc8518bbfde0f7337ce1c934568b1ae69f0a8ed6a560f90078700ce15c3d43716",
+    "trade_timestamp": 1769639102,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9719048832943848,
+      "size": 8366.405111,
+      "amount": 8131.349983
+    }
   }
 ]
