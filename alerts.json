@@ -21350,5 +21350,41 @@
       "size": 5846.24,
       "amount": 5708.10516
     }
+  },
+  {
+    "market": "Will the price of Solana be above $130 on January 31?",
+    "market_slug": "solana-above-130-on-january-31",
+    "wallet": "0xe51f25b5cb7a6a584500c506ea9156b9b8e9fc15",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,113)",
+        "Pre-event latency: 3850m"
+      ],
+      "amount": 1113.0562,
+      "odds": 0.37,
+      "wallet_age_days": 1,
+      "total_activities": 10
+    },
+    "timestamp": "2026-01-28T07:50:56.769398",
+    "trade_hash": "0xe79288e4584b0ef304d002269842733b34e8a327e67ab00e248d7aefb7c65134",
+    "trade_timestamp": 1769586599,
+    "latency": {
+      "latency_seconds": 231001.0,
+      "latency_minutes": 3850.016666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-28T07:49:59+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.37,
+      "size": 3008.26,
+      "amount": 1113.0562
+    }
   }
 ]
