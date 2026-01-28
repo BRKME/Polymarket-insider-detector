@@ -21422,5 +21422,41 @@
       "size": 2198.364007,
       "amount": 2149.9999980000002
     }
+  },
+  {
+    "market": "Will Mar\u00eda Corina Machado enter Venezuela by January 31?",
+    "market_slug": "will-mara-corina-machado-enter-venezuela-by-january-31",
+    "wallet": "0xfd076a684f0a2de61598b1de9a8ee2fe520cce86",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.8% odds)",
+        "Large bet ($1,390)",
+        "Pre-event latency: 3486m"
+      ],
+      "amount": 1389.70866,
+      "odds": 0.978,
+      "wallet_age_days": 15,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-28T13:58:10.888549",
+    "trade_hash": "0x42e61f2d700e1956bcc895e4b237a672e82ba0e9fa5f5d3a97ea0a89af32fa83",
+    "trade_timestamp": 1769608437,
+    "latency": {
+      "latency_seconds": 209163.0,
+      "latency_minutes": 3486.05,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-28T13:53:57+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.978,
+      "size": 1420.97,
+      "amount": 1389.70866
+    }
   }
 ]
