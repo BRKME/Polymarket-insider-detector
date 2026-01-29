@@ -21596,5 +21596,41 @@
       "size": 2141.0,
       "amount": 2093.898
     }
+  },
+  {
+    "market": "Will Donald Trump announce a new nominee for Chair of the Federal Reserve by January 31, 2026?",
+    "market_slug": "will-donald-trump-announce-a-new-nominee-for-chair-of-the-federal-reserve-by-january-31-2026-849-849",
+    "wallet": "0xc0bff7089f8536447e3d963fcbaa2d07e3e12032",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.9% odds)",
+        "Large bet ($1,175)",
+        "Pre-event latency: 1661m"
+      ],
+      "amount": 1174.9902,
+      "odds": 0.9791666597221643,
+      "wallet_age_days": 63,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-29T20:21:40.804186",
+    "trade_hash": "0xd422ecdaecba4939f547a9dc1eb75630e7eeb7e000e73962404077c7da43769c",
+    "trade_timestamp": 1769717966,
+    "latency": {
+      "latency_seconds": 99634.0,
+      "latency_minutes": 1660.5666666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-29T20:19:26+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.9791666597221643,
+      "size": 1199.99,
+      "amount": 1174.9902
+    }
   }
 ]
