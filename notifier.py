@@ -49,10 +49,16 @@ def format_trade_info(alert):
     if is_estimated:
         position_display += " ⚠️"
     
+    # Calculate ROI
+    roi_percent = (potential_profit / amount * 100) if amount > 0 else 0
+    roi_multiplier = roi_percent / 100
+    
     return {
         'position': position_display,
         'implied_prob': f"{implied_prob:.1f}%",
         'profit': f"${potential_profit:,.0f}",
+        'roi_percent': roi_percent,
+        'roi_display': f"{roi_multiplier:.1f}x" if roi_multiplier < 100 else f"{roi_multiplier:.0f}x",
         'is_estimated': is_estimated,
         'amount': f"${amount:,.0f}",
         'tokens': f"{tokens_bought:,.0f}"
@@ -215,10 +221,20 @@ def format_institutional_alert(alert):
     else:
         profile = "New Participant"
     
-    # Lead time
+    # Lead time (convert to hours/days for readability)
     if latency and latency.get('is_pre_event'):
         lead_time_min = int(latency['latency_minutes'])
-        lead_time = f"{lead_time_min} min"
+        
+        # Format based on duration
+        if lead_time_min < 120:  # < 2 hours
+            lead_time = f"{lead_time_min}m"
+        elif lead_time_min < 1440:  # < 24 hours
+            hours = lead_time_min / 60
+            lead_time = f"{hours:.0f}h"
+        else:  # >= 24 hours
+            days = lead_time_min / 1440
+            hours = lead_time_min / 60
+            lead_time = f"{days:.1f}d ({hours:.0f}h)"
     else:
         lead_time = "N/A"
     
@@ -230,11 +246,11 @@ Market: {alert['market']}
 
 Trade Snapshot
 Bet: {trade_info['amount']} | Position: {trade_info['position']}
-Implied Prob: {trade_info['implied_prob']} | Potential PnL: {trade_info['profit']}
+Implied Prob: {trade_info['implied_prob']} | Potential PnL: {trade_info['profit']} ({trade_info['roi_display']})
 Lead Time: {lead_time}
 
 Wallet Intelligence
-{alert['wallet'][:10]}...{alert['wallet'][-6:]}
+{alert['wallet'][:10]}...{alert['wallet'][-8:]}
 Profile: {profile}"""
     
     # Historical performance (if available)
