@@ -21668,5 +21668,41 @@
       "size": 3555.22,
       "amount": 3413.0111999999995
     }
+  },
+  {
+    "market": "Khamenei out as Supreme Leader of Iran by January 31?",
+    "market_slug": "khamenei-out-as-supreme-leader-of-iran-by-january-31",
+    "wallet": "0x211e247d8e7f68b78fdace32249ac16c8fd335dd",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.5% odds)",
+        "Large bet ($2,438)",
+        "Pre-event latency: 1548m"
+      ],
+      "amount": 2437.5,
+      "odds": 0.975,
+      "wallet_age_days": 511,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-29T22:15:11.027229",
+    "trade_hash": "0x860e165ba54b265a8c88b1dde005b0e9c0de934e51db948133925beb99f9ba5f",
+    "trade_timestamp": 1769724696,
+    "latency": {
+      "latency_seconds": 92904.0,
+      "latency_minutes": 1548.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-29T22:11:36+00:00",
+      "event_time": "2026-01-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.975,
+      "size": 2500.0,
+      "amount": 2437.5
+    }
   }
 ]
