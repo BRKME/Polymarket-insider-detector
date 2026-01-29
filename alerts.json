@@ -21487,5 +21487,42 @@
       "size": 8366.405111,
       "amount": 8131.349983
     }
+  },
+  {
+    "market": "Will the US next strike Iran on February 1, 2026 (ET)?",
+    "market_slug": "will-the-us-next-strike-iran-on-february-1-2026-et",
+    "wallet": "0x7ca9caad2a9c045cf4c95915c051f36fa59fd002",
+    "analysis": {
+      "score": 110,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,373)",
+        "Low activity (2 txns)",
+        "Pre-event latency: 3430m"
+      ],
+      "amount": 1373.1499999999999,
+      "odds": 0.947,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-01-29T14:52:35.596387",
+    "trade_hash": "0xd7f6dd448bb91ea509d49079a357e1b1d5941c6478b18731b2a7ff890c278753",
+    "trade_timestamp": 1769698202,
+    "latency": {
+      "latency_seconds": 205798.0,
+      "latency_minutes": 3429.9666666666667,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-29T14:50:02+00:00",
+      "event_time": "2026-02-01T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.947,
+      "size": 1450.0,
+      "amount": 1373.1499999999999
+    }
   }
 ]
