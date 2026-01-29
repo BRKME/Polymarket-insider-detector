@@ -53,12 +53,20 @@ def format_trade_info(alert):
     roi_percent = (potential_profit / amount * 100) if amount > 0 else 0
     roi_multiplier = roi_percent / 100
     
+    # Format ROI display
+    if roi_multiplier < 0.1:
+        roi_display = f"{roi_multiplier:.2f}x"  # 0.04x for small ROI
+    elif roi_multiplier < 100:
+        roi_display = f"{roi_multiplier:.1f}x"  # 5.7x for medium ROI
+    else:
+        roi_display = f"{roi_multiplier:.0f}x"  # 200x for large ROI
+    
     return {
         'position': position_display,
         'implied_prob': f"{implied_prob:.1f}%",
         'profit': f"${potential_profit:,.0f}",
         'roi_percent': roi_percent,
-        'roi_display': f"{roi_multiplier:.1f}x" if roi_multiplier < 100 else f"{roi_multiplier:.0f}x",
+        'roi_display': roi_display,
         'is_estimated': is_estimated,
         'amount': f"${amount:,.0f}",
         'tokens': f"{tokens_bought:,.0f}"
@@ -142,7 +150,12 @@ Write ONLY ONE insight (max 20 words):"""
             temperature=0.5
         )
         
-        return response.choices[0].message.content.strip()
+        summary = response.choices[0].message.content.strip()
+        
+        # Remove quotes if AI added them
+        summary = summary.strip('"').strip("'")
+        
+        return summary
         
     except openai.RateLimitError:
         return "⚠️ AI analysis rate limited - high-probability insider signal detected"
