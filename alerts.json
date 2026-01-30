@@ -21799,5 +21799,34 @@
       "size": 1283.0,
       "amount": 1234.2459999999999
     }
+  },
+  {
+    "market": "Will Norway win the 2026 FIFA World Cup?",
+    "market_slug": "will-norway-win-the-2026-fifa-world-cup-893",
+    "wallet": "0x37a245202b72439acb6d6311240773fe8feac105",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.4% odds)",
+        "Large bet ($1,340)"
+      ],
+      "amount": 1340.224,
+      "odds": 0.974,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-01-30T11:55:25.135688",
+    "trade_hash": "0x8572959899fbc52783a03e03c41930ff9faa9dc412f4b35881d11e057fd61826",
+    "trade_timestamp": 1769773998,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.974,
+      "size": 1376.0,
+      "amount": 1340.224
+    }
   }
 ]
