@@ -21740,5 +21740,64 @@
       "size": 4104.52,
       "amount": 1600.7628000000002
     }
+  },
+  {
+    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
+    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
+    "wallet": "0xa9433389c6be6d2f2e8f312a5c975f7ffee6a533",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.2% odds)",
+        "Large bet ($1,250)"
+      ],
+      "amount": 1249.638,
+      "odds": 0.962,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-01-30T11:04:34.669712",
+    "trade_hash": "0x39bd3ce47def64299c3181cf0c9825ef4023e1042067a3a3b62fa41499d3b32e",
+    "trade_timestamp": 1769770778,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.962,
+      "size": 1299.0,
+      "amount": 1249.638
+    }
+  },
+  {
+    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
+    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
+    "wallet": "0x1ae983827e2e74a7fcd93bf23538af5339e04e94",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.2% odds)",
+        "Large bet ($1,234)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1234.2459999999999,
+      "odds": 0.962,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-01-30T11:04:35.472908",
+    "trade_hash": "0x1ef82f2e8cd81280e62741dd08bb57dbe7b1f904deafd4f92c574ad74111a456",
+    "trade_timestamp": 1769770776,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.962,
+      "size": 1283.0,
+      "amount": 1234.2459999999999
+    }
   }
 ]
