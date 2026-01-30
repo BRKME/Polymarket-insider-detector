@@ -21857,5 +21857,92 @@
       "size": 1369.0,
       "amount": 1315.609
     }
+  },
+  {
+    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
+    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
+    "wallet": "0xea0e977c29e4de9ec594e8e48de831c1f734b908",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($1,004)"
+      ],
+      "amount": 1004.245,
+      "odds": 0.961,
+      "wallet_age_days": 0,
+      "total_activities": 30
+    },
+    "timestamp": "2026-01-30T17:41:30.116876",
+    "trade_hash": "0x471d1414626c0b4c1f83641798e1ab6e918f5d0b0cb1616ad58e8cefd8d56b22",
+    "trade_timestamp": 1769794702,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.961,
+      "size": 1045.0,
+      "amount": 1004.245
+    }
+  },
+  {
+    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
+    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
+    "wallet": "0x2a34df2355be39b185699fb5b5e4abb549b0da49",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($1,211)"
+      ],
+      "amount": 1210.86,
+      "odds": 0.961,
+      "wallet_age_days": 0,
+      "total_activities": 36
+    },
+    "timestamp": "2026-01-30T17:41:49.115945",
+    "trade_hash": "0x2f091bbc14961be181cebd552c7d6dd0577ce4cf0074bc08e2d9b9f663ad9585",
+    "trade_timestamp": 1769794658,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.961,
+      "size": 1260.0,
+      "amount": 1210.86
+    }
+  },
+  {
+    "market": "Will Josh Shapiro win the 2028 US Presidential Election?",
+    "market_slug": "will-josh-shapiro-win-the-2028-us-presidential-election",
+    "wallet": "0x2fe67436d7ce99aa55ab0754730277935e627266",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.1% odds)",
+        "Large bet ($1,025)"
+      ],
+      "amount": 1025.387,
+      "odds": 0.961,
+      "wallet_age_days": 0,
+      "total_activities": 37
+    },
+    "timestamp": "2026-01-30T17:41:50.190207",
+    "trade_hash": "0xc8cccd9caed6d08ede1e8d16cbd6c50c14b2caa3bf2a368603af23372b243bb3",
+    "trade_timestamp": 1769794656,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.961,
+      "size": 1067.0,
+      "amount": 1025.387
+    }
   }
 ]
