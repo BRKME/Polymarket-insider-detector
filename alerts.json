@@ -21704,5 +21704,41 @@
       "size": 2500.0,
       "amount": 2437.5
     }
+  },
+  {
+    "market": "Will Manchester United FC win on 2026-02-01?",
+    "market_slug": "epl-mun-ful-2026-02-01-mun",
+    "wallet": "0xa5aa9ed1945d77e5b4e6658e4a4eedf75afd1449",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (4d old)",
+        "Large bet ($1,601)",
+        "Pre-event latency: 2418m"
+      ],
+      "amount": 1600.7628000000002,
+      "odds": 0.39,
+      "wallet_age_days": 4,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-30T07:44:59.583937",
+    "trade_hash": "0xa8329bd91b80bdcaab9a000113ab504cd5fe26cdc20db8ec81ab5e34e0a02e3a",
+    "trade_timestamp": 1769758924,
+    "latency": {
+      "latency_seconds": 145076.0,
+      "latency_minutes": 2417.9333333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-30T07:42:04+00:00",
+      "event_time": "2026-02-01T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.39,
+      "size": 4104.52,
+      "amount": 1600.7628000000002
+    }
   }
 ]
