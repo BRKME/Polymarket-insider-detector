@@ -22002,5 +22002,41 @@
       "size": 2147.770825,
       "amount": 2061.859992
     }
+  },
+  {
+    "market": "Will Elon Musk post 520-539 tweets from February 3 to February 10, 2026?",
+    "market_slug": "elon-musk-of-tweets-february-3-february-10",
+    "wallet": "0x2335fd8ccd69c34c71a819c2c7b51ce09073352b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (97.7% odds)",
+        "Large bet ($1,954)",
+        "Pre-event latency: 3767m"
+      ],
+      "amount": 1953.70558,
+      "odds": 0.97685279,
+      "wallet_age_days": 25,
+      "total_activities": 100
+    },
+    "timestamp": "2026-01-31T09:14:35.142132",
+    "trade_hash": "0xc46cfb5fb9da3e351eca77e50d98f6bce4203d5fc035bb1f2331fa553eacff31",
+    "trade_timestamp": 1769850772,
+    "latency": {
+      "latency_seconds": 226028.0,
+      "latency_minutes": 3767.133333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-01-31T09:12:52+00:00",
+      "event_time": "2026-02-03T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.97685279,
+      "size": 2000.0,
+      "amount": 1953.70558
+    }
   }
 ]
