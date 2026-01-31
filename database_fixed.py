@@ -383,6 +383,46 @@ def mark_alert_sent(wallet: str, market: str, trade_hash: str, insider_score: fl
     except sqlite3.Error as e:
         print(f"[{datetime.now()}] ❌ Database error in mark_alert_sent: {e}")
 
+def get_recent_alerts_for_market(market: str, hours: int = 6) -> List[Dict]:
+    """
+    Get recent alerts for a specific market (for coordinated attack detection).
+    Returns list of alerts within the last N hours.
+    """
+    try:
+        conn = get_db_connection()
+        cursor = conn.cursor()
+        
+        # Calculate cutoff time
+        from datetime import timedelta
+        cutoff = datetime.now(timezone.utc) - timedelta(hours=hours)
+        
+        cursor.execute("""
+            SELECT wallet, market, alert_timestamp, insider_score, latency_seconds
+            FROM alert_history
+            WHERE market LIKE ? AND alert_timestamp >= ? AND sent = 1
+            ORDER BY alert_timestamp DESC
+        """, (f'%{market}%', cutoff))
+        
+        rows = cursor.fetchall()
+        
+        alerts = []
+        for row in rows:
+            # Parse trade_hash to get amount (if stored)
+            # For now, just return basic info
+            alerts.append({
+                'wallet': row[0],
+                'market': row[1],
+                'timestamp': row[2],
+                'score': row[3],
+                'latency': row[4]
+            })
+        
+        return alerts
+        
+    except sqlite3.Error as e:
+        print(f"[{datetime.now()}] ❌ Database error in get_recent_alerts_for_market: {e}")
+        return []
+
 def calculate_insider_score(pre_event_trades: int, total_trades: int, avg_latency: float) -> float:
     """
     Calculate insider probability score (0-100).
