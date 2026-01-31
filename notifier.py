@@ -1,3 +1,8 @@
+# VERSION: 2026-01-31-FINAL
+# Force reload to clear any cached bytecode
+import sys
+sys.dont_write_bytecode = True
+
 import requests
 from openai import OpenAI
 import openai
@@ -132,16 +137,22 @@ def generate_ai_summary_cached(cache_key: str, market: str, position: str, amoun
         if latency_info:
             context += f"Timing: {latency_info}\n"
         
-        prompt = f"""Analyze this suspicious Polymarket trade in 1 sentence (max 20 words).
+        prompt = f"""Analyze this Polymarket trade in ONE concise sentence (max 15 words).
 
 {context}
 
-Focus on WHY this specific combination is suspicious. Be concise and specific.
-Examples:
-- "Pre-event positioning with proven track record suggests insider knowledge"
-- "Extreme confidence 30 minutes before announcement indicates information advantage"
+Focus on the SPECIFIC insight, not generic patterns. Be direct and actionable.
 
-Write ONLY ONE insight (max 20 words):"""
+Good examples:
+- "Unusual pre-event timing suggests advance knowledge of announcement"
+- "Pattern matches previous insider trades from this wallet"
+- "Coordinated timing with other large bets indicates organized group"
+
+Bad examples (too generic):
+- "Large bet suggests potential insider information"
+- "Extreme confidence may indicate knowledge"
+
+Write ONE specific insight (max 15 words):"""
 
         response = client.chat.completions.create(
             model="gpt-4o-mini",
@@ -176,7 +187,7 @@ def generate_ai_summary(alert):
     
     # Build wallet info string
     wallet_info = ""
-    if wallet_stats and wallet_stats['total_trades'] >= 3:
+    if wallet_stats and wallet_stats['total_trades'] >= 1:  # Lowered from 3 to show all wallet history
         wallet_info = f"{wallet_stats['total_trades']} trades, insider score {wallet_stats['insider_score']:.0f}"
     
     # Build latency info string
@@ -217,12 +228,20 @@ def format_institutional_alert(alert):
     
     # Determine signal class from market question
     market_question = alert['market'].lower()
-    if any(kw in market_question for kw in ['president', 'election', 'nominee', 'senate', 'congress']):
+    
+    # Sports markets (check FIRST - highest priority)
+    if any(kw in market_question for kw in ['nba', 'nfl', 'mlb', 'nhl', 'fifa', 'world cup', ' vs.', ' vs ']):
+        signal_class = "Sports"
+    # Political markets
+    elif any(kw in market_question for kw in ['president', 'election', 'nominee', 'senate', 'congress']):
         signal_class = "Political"
+    # Market/Trading
     elif any(kw in market_question for kw in ['bitcoin', 'ethereum', 'crypto', 'price', 'stock']):
         signal_class = "Market"
+    # Macro/Geopolitical
     elif any(kw in market_question for kw in ['war', 'ceasefire', 'treaty', 'invasion']):
         signal_class = "Macro"
+    # Default
     else:
         signal_class = "Governance"
     
@@ -267,7 +286,7 @@ Wallet Intelligence
 Profile: {profile}"""
     
     # Historical performance (if available)
-    if wallet_stats and wallet_stats.get('total_trades', 0) >= 3:
+    if wallet_stats and wallet_stats.get('total_trades', 0) >= 1:  # Lowered from 3 to show all wallet history
         total = wallet_stats['total_trades']
         pre_event = wallet_stats.get('pre_event_trades', 0)
         message += f"\nHistory: {total} trades | {pre_event} pre-event"
