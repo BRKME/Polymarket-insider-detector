@@ -74,6 +74,7 @@ def detect_insider_trades():
         filtered_by_rules = 0
         filtered_duplicate = 0
         filtered_invalid_data = 0
+        filtered_coordinated = 0
         pre_event_detected = 0
         error_count = 0
         debug_printed = False
@@ -229,6 +230,19 @@ def detect_insider_trades():
                         print(f"  🚫 FILTERED: {skip_reason}")
                         print(f"     (Score was {analysis['score']} >= {ALERT_THRESHOLD}, but filtered out)")
                     else:
+                        # Check for coordinated attack (multiple similar trades on same market)
+                        from database_fixed import get_recent_alerts_for_market
+                        recent_alerts = get_recent_alerts_for_market(market.get("question", ""), hours=6)
+                        
+                        if len(recent_alerts) >= 3:
+                            # Coordinated attack detected
+                            filtered_coordinated += 1
+                            print(f"  🚫 FILTERED: COORDINATED_ATTACK")
+                            print(f"     Market: {market.get('question', '')[:60]}")
+                            print(f"     Similar alerts in last 6h: {len(recent_alerts)}")
+                            print(f"     Possible pump & dump or sybil attack")
+                            continue
+                        
                         # Create enhanced alert
                         alert = {
                             "market": market.get("question"),
@@ -317,6 +331,7 @@ def detect_insider_trades():
         print(f"[{datetime.now()}]   - Market not found: {filtered_no_market}")
         print(f"[{datetime.now()}]   - Duplicate alerts: {filtered_duplicate}")
         print(f"[{datetime.now()}]   - Arbitrage/Short-term/Absurd: {filtered_by_rules}")
+        print(f"[{datetime.now()}]   - Coordinated attacks: {filtered_coordinated}")
         print(f"[{datetime.now()}] ")
         print(f"[{datetime.now()}] 🔍 Pre-event trades detected: {pre_event_detected}")
         print(f"[{datetime.now()}] Errors encountered: {error_count}")
