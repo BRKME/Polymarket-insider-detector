@@ -264,6 +264,19 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             r'spurs.*(win|finals|champion).*(nba|202[6-9])',     # Spurs rebuilding
             r'relegated.*win.*league',
             
+            # Impossible World Cup winners (weak national teams)
+            r'norway.*(world cup|fifa)',
+            r'(iceland|albania|malta|luxembourg|liechtenstein).*(world cup|fifa)',
+            
+            # Sports betting / game predictions (not insider markets)
+            r'(nba|nfl|mlb|nhl).*vs\.',  # Individual game betting
+            r'pistons.*vs\.',  # Specific team games
+            r'warriors.*vs\.',
+            
+            # Long-term speculative elections (>18 months = too early for insider info)
+            r'202[89].*(president|presidential).*election',  # 2028, 2029 elections
+            r'(2028|2029).*(win|winner).*president',
+            
             # Political impossibilities
             r'liz cheney.*202[89].*nomination',
             r'ventura.*202[6-9].*president',  # Andre Ventura unlikely US president
