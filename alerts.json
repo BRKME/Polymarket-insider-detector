@@ -21973,5 +21973,34 @@
       "size": 1057.0,
       "amount": 1031.632
     }
+  },
+  {
+    "market": "Pistons vs. Warriors",
+    "market_slug": "nba-det-gsw-2026",
+    "wallet": "0x51b832ff139ff12a9dd33c85be35bb098e3508f7",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (96.0% odds)",
+        "Large bet ($2,062)"
+      ],
+      "amount": 2061.859992,
+      "odds": 0.96,
+      "wallet_age_days": 1,
+      "total_activities": 84
+    },
+    "timestamp": "2026-01-31T05:51:38.105025",
+    "trade_hash": "0x734525e6c2405d884a286ba6d4318d9e81cd45d66522893c3ec05f176a88a33b",
+    "trade_timestamp": 1769838378,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Pistons",
+      "side": "BUY",
+      "price": 0.96,
+      "size": 2147.770825,
+      "amount": 2061.859992
+    }
   }
 ]
