@@ -22074,5 +22074,34 @@
       "size": 18464.7,
       "amount": 17726.112
     }
+  },
+  {
+    "market": "LoL: Hanwha Life Esports vs Gen.G - Game 1 Winner",
+    "market_slug": "lol-hle1-gen-2026-02-01-game1",
+    "wallet": "0x9d2df67ebf4f8cd281b38f80203792bcea4b341b",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.3% odds)",
+        "Large bet ($2,236)"
+      ],
+      "amount": 2236.069969,
+      "odds": 0.9734914381690871,
+      "wallet_age_days": 0,
+      "total_activities": 29
+    },
+    "timestamp": "2026-02-01T08:38:27.774024",
+    "trade_hash": "0xd741b5351283b4f908c005047747717e81883f7991965ed2e0c8d90319655c47",
+    "trade_timestamp": 1769934878,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Gen.G",
+      "side": "BUY",
+      "price": 0.9734914381690871,
+      "size": 2296.95905,
+      "amount": 2236.069969
+    }
   }
 ]
