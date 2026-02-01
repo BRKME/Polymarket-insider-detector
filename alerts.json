@@ -22248,5 +22248,34 @@
       "size": 1490.50775,
       "amount": 1460.199995
     }
+  },
+  {
+    "market": "Will Bitcoin reach $105,000 in February?",
+    "market_slug": "will-bitcoin-reach-105k-in-february-2026",
+    "wallet": "0x1461cc6e1a05e20710c416307db62c28f1d122d8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.5% odds)",
+        "Large bet ($2,411)"
+      ],
+      "amount": 2410.719998,
+      "odds": 0.9749999997168896,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-02-01T17:23:06.505768",
+    "trade_hash": "0x1c1dbc6723293deab3f8069be8a3d5be467be1d2d39e99dda995d52c729f6c0b",
+    "trade_timestamp": 1769966490,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9749999997168896,
+      "size": 2472.533332,
+      "amount": 2410.719998
+    }
   }
 ]
