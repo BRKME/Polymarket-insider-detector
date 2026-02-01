@@ -22211,5 +22211,42 @@
       "size": 11723.437583,
       "amount": 11298.88999
     }
+  },
+  {
+    "market": "Will the price of Solana be above $80 on February 3?",
+    "market_slug": "solana-above-80-on-february-3",
+    "wallet": "0x35385f3ef6c95f83fc18aae11462d3726950eac8",
+    "analysis": {
+      "score": 125,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (98.0% odds)",
+        "Large bet ($1,460)",
+        "Pre-event latency: 1864m"
+      ],
+      "amount": 1460.199995,
+      "odds": 0.9796661540337512,
+      "wallet_age_days": 0,
+      "total_activities": 100
+    },
+    "timestamp": "2026-02-01T16:59:17.732769",
+    "trade_hash": "0x28f058efc06529ab54855f0592a2180fc31c235d03b68d00fbf0f291cdb88a4f",
+    "trade_timestamp": 1769964990,
+    "latency": {
+      "latency_seconds": 111810.0,
+      "latency_minutes": 1863.5,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-01T16:56:30+00:00",
+      "event_time": "2026-02-03T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.9796661540337512,
+      "size": 1490.50775,
+      "amount": 1460.199995
+    }
   }
 ]
