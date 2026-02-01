@@ -22175,5 +22175,41 @@
       "size": 1531.120305,
       "amount": 1475.9999739999998
     }
+  },
+  {
+    "market": "US strikes Iran by February 3, 2026?",
+    "market_slug": "us-strikes-iran-by-february-3-2026",
+    "wallet": "0xf0411ab604bce8a4efe71b77c2e0aa454bdedde5",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (96.4% odds)",
+        "Large bet ($11,299)",
+        "Pre-event latency: 2165m"
+      ],
+      "amount": 11298.88999,
+      "odds": 0.9637864244173884,
+      "wallet_age_days": 40,
+      "total_activities": 13
+    },
+    "timestamp": "2026-02-01T11:59:26.862529",
+    "trade_hash": "0x3999d3b4995648648d0aaeeb09ca32efd5d1e56f9fdaec22c46a93ed69da944c",
+    "trade_timestamp": 1769946924,
+    "latency": {
+      "latency_seconds": 129876.0,
+      "latency_minutes": 2164.6,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-01T11:55:24+00:00",
+      "event_time": "2026-02-03T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.9637864244173884,
+      "size": 11723.437583,
+      "amount": 11298.88999
+    }
   }
 ]
