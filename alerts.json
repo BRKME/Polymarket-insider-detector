@@ -22414,5 +22414,34 @@
       "size": 9300.028433,
       "amount": 8999.99998
     }
+  },
+  {
+    "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
+    "wallet": "0x40c0dd4a4c97ec27b715161643596129f3e2e028",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.7% odds)",
+        "Large bet ($7,956)"
+      ],
+      "amount": 7956.06272,
+      "odds": 0.977,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-02-02T11:49:04.129549",
+    "trade_hash": "0xb7b43f5c565cf5715af9f7669bc6a154df9324ac5618ffec8b15628a5102b71d",
+    "trade_timestamp": 1770032720,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "SELL",
+      "price": 0.977,
+      "size": 8143.36,
+      "amount": 7956.06272
+    }
   }
 ]
