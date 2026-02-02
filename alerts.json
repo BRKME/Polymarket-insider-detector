@@ -22385,5 +22385,34 @@
       "size": 5128.37216,
       "amount": 4999.999965999999
     }
+  },
+  {
+    "market": "Thunder vs. Nuggets",
+    "market_slug": "nba-okc-den-2026",
+    "wallet": "0x6863919db6e128b1c81ad4829b9589e7bfb379fb",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.8% odds)",
+        "Large bet ($9,000)"
+      ],
+      "amount": 8999.99998,
+      "odds": 0.9677389746535198,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-02-02T04:32:04.528479",
+    "trade_hash": "0x1b3a02a390973280feeb314c0b986ad9b54a801b89d478354537ac76f1255562",
+    "trade_timestamp": 1770006388,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Thunder",
+      "side": "BUY",
+      "price": 0.9677389746535198,
+      "size": 9300.028433,
+      "amount": 8999.99998
+    }
   }
 ]
