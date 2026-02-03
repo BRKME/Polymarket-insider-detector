@@ -22655,5 +22655,41 @@
       "size": 2076.011959,
       "amount": 1999.999998
     }
+  },
+  {
+    "market": "Will the price of Ethereum be above $1,900 on February 9?",
+    "market_slug": "ethereum-above-1900-on-february-9",
+    "wallet": "0x51729bf1b339d1c55216a01b087684e4e565ac35",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($3,925)",
+        "Pre-event latency: 7467m"
+      ],
+      "amount": 3925.44,
+      "odds": 0.928,
+      "wallet_age_days": 2,
+      "total_activities": 100
+    },
+    "timestamp": "2026-02-03T19:34:20.402894",
+    "trade_hash": "0xe96a07a58ff64648627468c350391e734e6c52b1382b66c750b1884235b1523f",
+    "trade_timestamp": 1770147156,
+    "latency": {
+      "latency_seconds": 448044.0,
+      "latency_minutes": 7467.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-03T19:32:36+00:00",
+      "event_time": "2026-02-09T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.928,
+      "size": 4230.0,
+      "amount": 3925.44
+    }
   }
 ]
