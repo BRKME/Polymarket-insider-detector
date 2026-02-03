@@ -22547,5 +22547,41 @@
       "size": 1218.536,
       "amount": 1181.12997
     }
+  },
+  {
+    "market": "Will Trump admin release any more Epstein related files by February 6?",
+    "market_slug": "will-trump-admin-release-any-more-epstein-related-files-by-777",
+    "wallet": "0x7131cb618fb195c70e8e629c45199096833c29cc",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (95.9% odds)",
+        "Large bet ($1,706)",
+        "Pre-event latency: 3906m"
+      ],
+      "amount": 1706.061,
+      "odds": 0.959,
+      "wallet_age_days": 241,
+      "total_activities": 100
+    },
+    "timestamp": "2026-02-03T06:58:20.793263",
+    "trade_hash": "0x837bc2dda03efd94ef01c04a652a408af16cf4090e5216554ed23dd280b99e8b",
+    "trade_timestamp": 1770101632,
+    "latency": {
+      "latency_seconds": 234368.0,
+      "latency_minutes": 3906.133333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-03T06:53:52+00:00",
+      "event_time": "2026-02-06T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.959,
+      "size": 1779.0,
+      "amount": 1706.061
+    }
   }
 ]
