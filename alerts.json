@@ -22518,5 +22518,34 @@
       "size": 2485.740931,
       "amount": 2398.7399979999996
     }
+  },
+  {
+    "market": "Gardner-Webb Runnin' Bulldogs vs. Charleston Southern Buccaneers",
+    "market_slug": "cbb-gardwb-chsou-2026",
+    "wallet": "0xf9581df65d2283bc3298bcf4f8a39c832cfd5a02",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (96.9% odds)",
+        "Large bet ($1,181)"
+      ],
+      "amount": 1181.12997,
+      "odds": 0.9693024826513127,
+      "wallet_age_days": 1,
+      "total_activities": 50
+    },
+    "timestamp": "2026-02-03T01:15:59.685886",
+    "trade_hash": "0x1a61686cbaaa51ad8cc6c829315310d43016fe926c1630def60ac119d83bfd23",
+    "trade_timestamp": 1770081028,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Charleston Southern Buccaneers",
+      "side": "BUY",
+      "price": 0.9693024826513127,
+      "size": 1218.536,
+      "amount": 1181.12997
+    }
   }
 ]
