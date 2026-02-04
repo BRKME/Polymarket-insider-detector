@@ -22854,5 +22854,64 @@
       "size": 2581.799591,
       "amount": 2525.0
     }
+  },
+  {
+    "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
+    "wallet": "0xd8753ff3f8955f9373a3ff5eeda633d0d95acec2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.8% odds)",
+        "Large bet ($3,131)"
+      ],
+      "amount": 3130.578,
+      "odds": 0.978,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-02-04T13:15:55.226223",
+    "trade_hash": "0xa7a1763a1e2a3976b183bcb236d203a1a333b71d4bcd94ff7a72a62316563644",
+    "trade_timestamp": 1770210668,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.978,
+      "size": 3201.0,
+      "amount": 3130.578
+    }
+  },
+  {
+    "market": "Will Jon Stewart win the 2028 Democratic presidential nomination?",
+    "market_slug": "will-jon-stewart-win-the-2028-democratic-presidential-nomination-518",
+    "wallet": "0xd70812c70367e97ef7b0481041b6244f6e418399",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.8% odds)",
+        "Large bet ($2,910)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 2909.98032,
+      "odds": 0.978,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-02-04T13:16:00.321099",
+    "trade_hash": "0x76013cf13f0c0ce70ee9792b4464d256b2c0c9b8e1db7fed16dd7bb11bb5f4a5",
+    "trade_timestamp": 1770210710,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.978,
+      "size": 2975.44,
+      "amount": 2909.98032
+    }
   }
 ]
