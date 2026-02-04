@@ -22727,5 +22727,42 @@
       "size": 1823.12,
       "amount": 1786.51831
     }
+  },
+  {
+    "market": "Will the price of Bitcoin be above $76,000 on February 8?",
+    "market_slug": "bitcoin-above-76k-on-february-8",
+    "wallet": "0x5bd881f87bc81fe1ea0e460c86ce6746fb77d455",
+    "analysis": {
+      "score": 110,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,280)",
+        "Low activity (1 txns)",
+        "Pre-event latency: 5341m"
+      ],
+      "amount": 2280.0,
+      "odds": 0.57,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-02-04T07:03:15.654065",
+    "trade_hash": "0x194aca6401307ac114e0baec2684023e5aec3498f8467b37bf78278152913d05",
+    "trade_timestamp": 1770188364,
+    "latency": {
+      "latency_seconds": 320436.0,
+      "latency_minutes": 5340.6,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-04T06:59:24+00:00",
+      "event_time": "2026-02-08T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.57,
+      "size": 4000.0,
+      "amount": 2280.0
+    }
   }
 ]
