@@ -1,7 +1,11 @@
-# VERSION: 2026-01-31-FINAL
+# VERSION: 2026-01-31-HOTFIX-17:15-UTC
+# CRITICAL FIX: NO position calculation
 # Force reload to clear any cached bytecode
 import sys
 sys.dont_write_bytecode = True
+
+# Debug flag - will print calculation details to logs
+DEBUG_CALCULATIONS = True
 
 import requests
 from openai import OpenAI
@@ -27,6 +31,10 @@ def determine_position(trade_data, odds):
 
 def format_trade_info(alert):
     """Format trade information with correct profit calculation"""
+    # Print version to confirm this code is running
+    if DEBUG_CALCULATIONS:
+        print(f"[DEBUG] format_trade_info() called - VERSION: 2026-01-31-HOTFIX-17:15-UTC")
+    
     analysis = alert["analysis"]
     trade_data = alert.get("trade_data", {})
     
@@ -50,6 +58,16 @@ def format_trade_info(alert):
         payout_if_win = tokens_bought * 1.0
         potential_profit = payout_if_win - amount
         position_display = f"NO @ {no_price*100:.1f}¢"
+        
+        # DEBUG: Print calculation details
+        if DEBUG_CALCULATIONS:
+            print(f"[DEBUG] NO POSITION CALCULATION:")
+            print(f"  YES price (odds): {yes_price:.4f} ({yes_price*100:.1f}¢)")
+            print(f"  NO price: {no_price:.4f} ({no_price*100:.1f}¢)")
+            print(f"  Amount: ${amount:,.0f}")
+            print(f"  Tokens bought: {tokens_bought:,.0f}")
+            print(f"  Potential profit: ${potential_profit:,.0f}")
+            print(f"  Position display: {position_display}")
     
     if is_estimated:
         position_display += " ⚠️"
