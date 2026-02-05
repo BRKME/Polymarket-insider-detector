@@ -23072,5 +23072,34 @@
       "size": 1830.0,
       "amount": 1742.1599999999999
     }
+  },
+  {
+    "market": "Will Ethereum reach $2,800 in February?",
+    "market_slug": "will-ethereum-reach-2800-in-february-2026",
+    "wallet": "0x0925cd4208fe6de01aafa972e983e7fd7bdd3160",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (7.3% odds)",
+        "Large bet ($1,018)"
+      ],
+      "amount": 1018.4158,
+      "odds": 0.07267432218544795,
+      "wallet_age_days": 0,
+      "total_activities": 32
+    },
+    "timestamp": "2026-02-05T20:42:51.068338",
+    "trade_hash": "0x116d621cde55c39cf34222273029d6769e63b1c98be07495e1c0e350abde5a4a",
+    "trade_timestamp": 1770323821,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.07267432218544795,
+      "size": 14013.42,
+      "amount": 1018.4158
+    }
   }
 ]
