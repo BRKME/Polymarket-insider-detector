@@ -23014,5 +23014,63 @@
       "size": 3128.258585,
       "amount": 2999.999983
     }
+  },
+  {
+    "market": "Paradex FDV above $1.5B one day after launch?",
+    "market_slug": "paradex-fdv-above-1pt5b-one-day-after-launch",
+    "wallet": "0x7cd9528e633108567ea69b05aeb9192942387ef2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (97.7% odds)",
+        "Large bet ($1,739)"
+      ],
+      "amount": 1739.06,
+      "odds": 0.977,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-02-05T15:56:01.686952",
+    "trade_hash": "0xeac09a2915bc0c96bc4d462d53ec89e602bcc46160a9551ddff474b0dadf93a2",
+    "trade_timestamp": 1770306761,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.977,
+      "size": 1780.0,
+      "amount": 1739.06
+    }
+  },
+  {
+    "market": "Will \"DtMF\" be played first at the Super Bowl halftime show?",
+    "market_slug": "will-dtmf-be-played-first-at-the-super-bowl-halftime-show",
+    "wallet": "0x72ab736811d4a70f23a680ed4684b3ba65a72ee6",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (95.2% odds)",
+        "Large bet ($1,742)"
+      ],
+      "amount": 1742.1599999999999,
+      "odds": 0.952,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-02-05T15:56:10.860071",
+    "trade_hash": "0x75808ba1b5a25f38f40d1aa53474c61c59aa9fe090b7dd79155ca1d83d8aa2f2",
+    "trade_timestamp": 1770306829,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.952,
+      "size": 1830.0,
+      "amount": 1742.1599999999999
+    }
   }
 ]
