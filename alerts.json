@@ -22949,5 +22949,34 @@
       "size": 54865.069089,
       "amount": 2939.9999989999997
     }
+  },
+  {
+    "market": "Will Trump nominate Kevin Warsh as the next Fed chair?",
+    "market_slug": "will-trump-nominate-kevin-warsh-as-the-next-fed-chair",
+    "wallet": "0x48e375943b5cab0aa003bb983844bec80fe7e4c8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (97.1% odds)",
+        "Large bet ($2,913)"
+      ],
+      "amount": 2913.0,
+      "odds": 0.971,
+      "wallet_age_days": 1,
+      "total_activities": 15
+    },
+    "timestamp": "2026-02-05T03:28:24.778502",
+    "trade_hash": "0x71ddcab10e2e10010bb213acdaabd41b332bcd924fa23be031ff2ab2a28760a0",
+    "trade_timestamp": 1770261841,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.971,
+      "size": 3000.0,
+      "amount": 2913.0
+    }
   }
 ]
