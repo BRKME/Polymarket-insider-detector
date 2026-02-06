@@ -23253,5 +23253,41 @@
       "size": 1780.0,
       "amount": 1730.1599999999999
     }
+  },
+  {
+    "market": "US x Iran meeting by February 13, 2026?",
+    "market_slug": "us-x-iran-meeting-by-february-13-2026",
+    "wallet": "0xe8a2057abd53d285f7bea590b8f1dff1f04454c2",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "Extreme confidence (95.4% odds)",
+        "Large bet ($1,547)",
+        "Pre-event latency: 8831m"
+      ],
+      "amount": 1547.1662,
+      "odds": 0.9539926500511783,
+      "wallet_age_days": 7,
+      "total_activities": 100
+    },
+    "timestamp": "2026-02-06T20:52:23.688823",
+    "trade_hash": "0x81495949784422fc50b6d81e8ce94b8b2e121de742a99211cf6e4e9c6c4a1b19",
+    "trade_timestamp": 1770410967,
+    "latency": {
+      "latency_seconds": 529833.0,
+      "latency_minutes": 8830.55,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-06T20:49:27+00:00",
+      "event_time": "2026-02-13T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "BUY",
+      "price": 0.9539926500511783,
+      "size": 1621.78,
+      "amount": 1547.1662
+    }
   }
 ]
