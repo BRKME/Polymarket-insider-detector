@@ -27,15 +27,41 @@ def calculate_wallet_age_score(first_activity_timestamp: int) -> int:
         return SCORES["wallet_age_low"]
     return 0
 
-def calculate_against_trend_score(trade_price: float) -> int:
+# ══════════════════════════════════════════════════════════════════
+# FIX: NO position support — compute effective odds for the trader
+# ══════════════════════════════════════════════════════════════════
+def get_effective_odds(trade_price: float, outcome: str) -> float:
     """
-    Score trades with extreme odds (both low and high)
-    Low odds (< 10%): Betting against strong favorites (insider info?)
-    High odds (> 95%): Betting with extreme confidence (insider info?)
+    Return the effective probability the trader is betting ON.
+    
+    Polymarket API returns YES token price for all trades.
+    - YES buyer at 7¢  → betting event happens at 7% odds  → effective = 0.07
+    - NO buyer at 7¢   → betting event WON'T happen         → effective = 1 - 0.07 = 0.93
+    
+    For scoring, we care about how extreme/contrarian the bet is:
+    - YES at 7¢  = contrarian (low odds)
+    - NO at 93¢  = safe bet (high odds, low payout)
     """
-    if trade_price < LOW_ODDS_THRESHOLD:  # < 10%
+    if outcome and outcome.lower() == "no":
+        return 1 - trade_price
+    return trade_price
+
+
+def calculate_against_trend_score(trade_price: float, outcome: str = "yes") -> int:
+    """
+    Score trades with extreme odds (both low and high).
+    
+    FIX: Account for NO positions.
+    - YES at 7¢ (effective 7%)   → contrarian, score it     ✓
+    - NO  at 7¢ (effective 93%)  → safe bet, don't score     ✓
+    - YES at 96¢ (effective 96%) → extreme confidence, score ✓
+    - NO  at 96¢ (effective 4%)  → contrarian, score it      ✓
+    """
+    effective = get_effective_odds(trade_price, outcome)
+    
+    if effective < LOW_ODDS_THRESHOLD:  # < 10% — contrarian bet
         return SCORES["against_trend"]
-    elif trade_price > 0.95:  # > 95% extreme confidence
+    elif effective > 0.95:  # > 95% — extreme confidence (low payout)
         return SCORES["against_trend"]
     return 0
 
@@ -179,16 +205,23 @@ def is_15min_market(market_question: str) -> bool:
     return False
 
 def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, total_activities: int, 
-                      end_date_str: str = None, amount: float = 0, latency_minutes: float = None) -> Tuple[bool, str]:
+                      end_date_str: str = None, amount: float = 0, latency_minutes: float = None,
+                      outcome: str = "yes") -> Tuple[bool, str]:
     """
     Filter out false positives: short-term markets, absurd markets, impossible odds.
     Uses config.py flags: BLOCK_15MIN_MARKETS, BLOCK_SHORT_PRICE_PREDICTIONS
     
+    FIX: Added `outcome` param for correct NO position filtering.
     NOTE: We do NOT filter by wallet age - insiders intentionally use new wallets!
     
     Returns:
         (should_skip, reason)
     """
+    
+    # ══════════════════════════════════════════════════════════════
+    # FIX: Compute effective odds for NO positions
+    # ══════════════════════════════════════════════════════════════
+    effective_odds = get_effective_odds(odds, outcome)
     
     # FILTER 0: LONG LEAD TIME (>7 days before event)
     # Real insiders act hours/days before, not weeks/months
@@ -202,7 +235,7 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             return (True, "HFT_15MIN_MARKET")
     
     # FILTER 2: SHORT-TERM MARKETS
-    # Events happening today or tomorrow (high frequency trading, not insider info)
+    # Events happening within 3 days (high frequency trading, not insider info)
     event_date = None
     
     # Try to extract date from title
@@ -216,7 +249,7 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
         except:
             pass
     
-    # Check if event is today or tomorrow
+    # Check if event is within short window
     if event_date:
         # Use UTC timezone-aware datetime
         now_utc = datetime.now(timezone.utc)
@@ -227,20 +260,25 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
         event_date_only = event_date.date() if event_date.tzinfo else event_date.date()
         tomorrow_date_only = tomorrow.date()
         
-        if event_date_only <= tomorrow_date_only:
-            # If BLOCK_SHORT_PRICE_PREDICTIONS enabled, block crypto price markets <24h
-            if BLOCK_SHORT_PRICE_PREDICTIONS and market_question:
-                title_lower = market_question.lower()
-                crypto_keywords = ['bitcoin', 'ethereum', 'solana', 'btc', 'eth', 'sol', 'price']
-                price_keywords = ['above', 'below', 'less than', 'more than', 'price']
-                
-                has_crypto = any(kw in title_lower for kw in crypto_keywords)
-                has_price = any(kw in title_lower for kw in price_keywords)
-                
-                if has_crypto and has_price:
-                    return (True, f"SHORT_CRYPTO_PRICE (event on {event_date_only.strftime('%Y-%m-%d')})")
+        # ══════════════════════════════════════════════════════════
+        # FIX: Expand crypto price filter to 3 days (was 1 day)
+        # Short-term crypto price markets are not insider activity
+        # ══════════════════════════════════════════════════════════
+        if BLOCK_SHORT_PRICE_PREDICTIONS and market_question:
+            title_lower = market_question.lower()
+            crypto_keywords = ['bitcoin', 'ethereum', 'solana', 'btc', 'eth', 'sol', 'price']
+            price_keywords = ['above', 'below', 'less than', 'more than', 'price']
             
-            # General short-term market filter
+            has_crypto = any(kw in title_lower for kw in crypto_keywords)
+            has_price = any(kw in title_lower for kw in price_keywords)
+            
+            if has_crypto and has_price:
+                crypto_cutoff = (today + timedelta(days=3)).date()  # 3 days instead of 1
+                if event_date_only <= crypto_cutoff:
+                    return (True, f"SHORT_CRYPTO_PRICE (event on {event_date_only.strftime('%Y-%m-%d')}, <3d)")
+        
+        # General short-term market filter (today/tomorrow only)
+        if event_date_only <= tomorrow_date_only:
             return (True, f"SHORT_TERM_MARKET (event on {event_date_only.strftime('%Y-%m-%d')})")
     
     # FILTER 3: ABSURD MARKETS (blacklist)
@@ -257,11 +295,11 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             
             # Impossible sports outcomes
             r'everton.*(win|champion).*premier league',
-            r'wizards.*(win|finals|champion).*(nba|202[6-9])',  # Wizards worst NBA team
-            r'pistons.*(win|finals|champion).*(nba|202[6-9])',   # Pistons worst NBA team
-            r'hornets.*(win|finals|champion).*(nba|202[6-9])',   # Hornets worst NBA team
-            r'blazers.*(win|finals|champion).*(nba|202[6-9])',   # Blazers rebuilding
-            r'spurs.*(win|finals|champion).*(nba|202[6-9])',     # Spurs rebuilding
+            r'wizards.*(win|finals|champion).*(nba|202[6-9])',
+            r'pistons.*(win|finals|champion).*(nba|202[6-9])',
+            r'hornets.*(win|finals|champion).*(nba|202[6-9])',
+            r'blazers.*(win|finals|champion).*(nba|202[6-9])',
+            r'spurs.*(win|finals|champion).*(nba|202[6-9])',
             r'relegated.*win.*league',
             
             # Impossible World Cup winners (weak national teams)
@@ -269,17 +307,24 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
             r'(iceland|albania|malta|luxembourg|liechtenstein).*(world cup|fifa)',
             
             # Sports betting / game predictions (not insider markets)
-            r'(nba|nfl|mlb|nhl).*vs\.',  # Individual game betting
-            r'pistons.*vs\.',  # Specific team games
+            r'(nba|nfl|mlb|nhl).*vs\.',
+            r'pistons.*vs\.',
             r'warriors.*vs\.',
             
-            # Long-term speculative elections (>18 months = too early for insider info)
-            r'202[89].*(president|presidential).*election',  # 2028, 2029 elections
-            r'(2028|2029).*(win|winner).*president',
+            # ══════════════════════════════════════════════════════
+            # FIX: 2028 election regex — match both word orders
+            # Old: r'202[89].*(president|presidential).*election'
+            # Failed on: "Will Ron DeSantis win the 2028 Republican presidential nomination?"
+            # because "win" comes before "2028" in some titles
+            # ══════════════════════════════════════════════════════
+            r'202[89].*(president|presidential|nomination)',  # "2028...presidential nomination"
+            r'(president|presidential|nomination).*202[89]',  # "presidential...2028" (reversed)
+            r'(win|winner).*202[89].*(president|nomination)',  # "win the 2028...nomination"
+            r'202[89].*(win|winner).*(president|nomination)',  # "2028...win...president"
             
             # Political impossibilities
             r'liz cheney.*202[89].*nomination',
-            r'ventura.*202[6-9].*president',  # Andre Ventura unlikely US president
+            r'ventura.*202[6-9].*president',
             
             # Entertainment markets (low insider probability)
             r'stranger things.*(episode|season)',
@@ -291,37 +336,40 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
         
         for pattern in absurd_patterns:
             if re.search(pattern, title_lower):
-                return (True, f"ABSURD_MARKET (matched: {pattern[:30]}...)")
+                return (True, f"ABSURD_MARKET (matched: {pattern[:40]}...)")
         
-        # FILTER 4: LOW PROFIT MARGIN (Market Makers)
-        # Extreme odds (>=98% or <=2%) = max 2% ROI = market making, not insider
-        if odds >= 0.98 or odds <= 0.02:
+        # ══════════════════════════════════════════════════════════
+        # FIX: MARKET_MAKER filter — use effective_odds + lowered threshold
+        # Old: odds >= 0.98 or odds <= 0.02 (missed 0.976)
+        # New: effective_odds >= 0.97 or effective_odds <= 0.03
+        # ══════════════════════════════════════════════════════════
+        if effective_odds >= 0.97 or effective_odds <= 0.03:
             # Calculate worst-case max ROI
-            if odds >= 0.98:
-                max_roi = (1 - odds) / odds * 100  # YES position
+            if effective_odds >= 0.97:
+                max_roi = (1 - effective_odds) / effective_odds * 100
             else:
-                max_roi = odds / (1 - odds) * 100  # NO position
+                max_roi = effective_odds / (1 - effective_odds) * 100
             
-            return (True, f"MARKET_MAKER (max ROI {max_roi:.1f}% at {odds*100:.1f}% odds)")
+            return (True, f"MARKET_MAKER (max ROI {max_roi:.1f}% at {effective_odds*100:.1f}% effective odds)")
         
-        # FILTER 5: IMPOSSIBLE ODDS on specific markets
-        # This catches arbitrage bots betting on underdogs at extreme odds
-        if odds > 0.98:
-            # NBA underdogs at 98%+ for championship = arbitrage
-            # NBA underdogs at 98%+ for championship = arbitrage
+        # ══════════════════════════════════════════════════════════
+        # FIX: IMPOSSIBLE_ODDS — moved OUTSIDE the old `if odds > 0.98` block
+        # Now uses effective_odds > 0.95 as threshold
+        # Previously political_longshots and nba_underdogs were unreachable
+        # ══════════════════════════════════════════════════════════
+        if effective_odds > 0.95:
+            # NBA underdogs at extreme confidence for championship = arbitrage
             nba_underdogs = ['wizards', 'pistons', 'hornets', 'blazers', 'spurs', 'raptors', 'nets']
             for team in nba_underdogs:
-                # Check if market is about team winning finals/championship
                 if team in title_lower:
-                    if any(kw in title_lower for kw in ['finals', 'championship', 'win.*202[6-9]']):
-                        return (True, f"IMPOSSIBLE_ODDS ({team} at {odds*100:.1f}% for championship)")
+                    if any(kw in title_lower for kw in ['finals', 'championship']):
+                        return (True, f"IMPOSSIBLE_ODDS ({team} at {effective_odds*100:.1f}% effective for championship)")
             
-            # Political long-shots at 98%+
+            # Political long-shots at extreme confidence
             political_longshots = ['youngkin', 'ventura', 'desantis']
             for candidate in political_longshots:
-                if candidate in title_lower and 'president' in title_lower:
-                    if any(year in title_lower for year in ['2028', '2029', '2030']):
-                        return (True, f"IMPOSSIBLE_ODDS ({candidate} at {odds*100:.1f}% for president)")
+                if candidate in title_lower and ('president' in title_lower or 'nomination' in title_lower):
+                    return (True, f"IMPOSSIBLE_ODDS ({candidate} at {effective_odds*100:.1f}% effective for president/nomination)")
     
     # No filters matched - allow alert
     return (False, "")
@@ -330,7 +378,17 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
     score = 0
     flags = []
     
+    # ══════════════════════════════════════════════════════════════
+    # FIX: Determine outcome for correct NO position handling
+    # ══════════════════════════════════════════════════════════════
+    outcome = trade.get("outcome", "Yes")
+    trade_price = float(trade.get("price", 0))
+    effective = get_effective_odds(trade_price, outcome)
+    is_no = outcome and outcome.lower() == "no"
+    
     print(f"     ── Score Breakdown ──")
+    if is_no:
+        print(f"     ⚠️  NO position: raw price={trade_price:.4f}, effective odds={effective:.4f}")
     
     wallet_age_score = calculate_wallet_age_score(wallet_data.get("first_activity_timestamp"))
     if wallet_age_score > 0:
@@ -342,21 +400,26 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
         age_days = calculate_wallet_age_days(wallet_data.get("first_activity_timestamp"))
         print(f"     Wallet age: {age_days}d → 0 pts (too old)")
     
-    trade_price = float(trade.get("price", 0))
-    against_trend_score = calculate_against_trend_score(trade_price)
+    # FIX: Use outcome-aware against_trend scoring
+    against_trend_score = calculate_against_trend_score(trade_price, outcome)
     if against_trend_score > 0:
         score += against_trend_score
-        if trade_price < LOW_ODDS_THRESHOLD:
-            flags.append(f"Against trend ({trade_price*100:.1f}% odds)")
-            print(f"     Against trend: {trade_price*100:.1f}% → +{against_trend_score} pts (betting underdog)")
+        if effective < LOW_ODDS_THRESHOLD:
+            flags.append(f"Against trend ({effective*100:.1f}% effective odds)")
+            print(f"     Against trend: {effective*100:.1f}% effective → +{against_trend_score} pts (contrarian)")
         else:  # > 95%
-            flags.append(f"Extreme confidence ({trade_price*100:.1f}% odds)")
-            print(f"     Extreme confidence: {trade_price*100:.1f}% → +{against_trend_score} pts")
+            flags.append(f"Extreme confidence ({effective*100:.1f}% effective odds)")
+            print(f"     Extreme confidence: {effective*100:.1f}% effective → +{against_trend_score} pts")
     else:
-        print(f"     Odds: {trade_price*100:.1f}% → 0 pts (middle range)")
+        print(f"     Odds: {effective*100:.1f}% effective → 0 pts (middle range)")
     
+    # FIX: For NO positions, amount is calculated in detector.py with correct formula
     size = float(trade.get("size", 0))
-    amount = size * trade_price
+    if is_no:
+        amount = size * (1 - trade_price)  # NO token cost
+    else:
+        amount = size * trade_price         # YES token cost
+    
     bet_size_score = calculate_bet_size_score(amount)
     if bet_size_score > 0:
         score += bet_size_score
@@ -399,11 +462,24 @@ def calculate_score(trade: Dict, wallet_data: Dict, market: Dict) -> Dict:
     print(f"     ────────────────────")
     print(f"     TOTAL: {score} pts")
     
+    # FIX: Calculate correct PnL for both YES and NO
+    if is_no:
+        no_price = 1 - trade_price  # cost of NO token
+        potential_pnl = amount * (trade_price / (1 - trade_price))  # profit if NO wins
+        pnl_multiplier = trade_price / (1 - trade_price)
+    else:
+        potential_pnl = amount * ((1 - trade_price) / trade_price)  # profit if YES wins
+        pnl_multiplier = (1 - trade_price) / trade_price
+    
     return {
         "score": score,
         "flags": flags,
         "amount": amount,
-        "odds": trade_price,
+        "odds": effective,               # FIX: effective odds, not raw price
+        "raw_price": trade_price,         # keep raw price for reference
+        "outcome": outcome,               # YES or NO
+        "potential_pnl": potential_pnl,    # FIX: correct PnL
+        "pnl_multiplier": pnl_multiplier,  # FIX: correct multiplier
         "wallet_age_days": calculate_wallet_age_days(wallet_data.get("first_activity_timestamp")),
         "total_activities": total_activities
     }
