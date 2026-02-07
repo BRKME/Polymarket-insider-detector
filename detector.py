@@ -12,18 +12,10 @@ from config import ALERT_THRESHOLD, MIN_BET_SIZE
 def detect_insider_trades():
     """
     Main detection function with event latency and wallet tracking.
-    Phase 1 enhancements:
-    - Pre-event trade detection
-    - Historical wallet performance tracking
-    - Enhanced insider scoring
     
-    All critical bugs fixed:
-    - BUG #1-8: Fixed
-    - ISSUE #9: Database indexes added
-    - ISSUE #11: Batch operations (wallet stats cache)
-    - ISSUE #15: Thread-safe database
-    - ISSUE #16: Data validation
-    - ISSUE #20: Database backup
+    FIXES applied:
+    - NO positions: correct amount, PnL, effective odds
+    - Filters: crypto 3d window, market maker 0.97, political longshots accessible, 2028 regex
     """
     # Initialize database on first run (with backup)
     init_database()
@@ -49,7 +41,7 @@ def detect_insider_trades():
         
         print(f"[{datetime.now()}] Analyzing {len(trades)} trades...")
         
-        # FIX ISSUE #11: Pre-fetch wallet stats for all unique wallets (batch operation)
+        # Pre-fetch wallet stats for all unique wallets (batch operation)
         print(f"[{datetime.now()}] Pre-fetching wallet stats for batch processing...")
         unique_wallets = set()
         for trade in trades:
@@ -84,9 +76,21 @@ def detect_insider_trades():
                 # Extract basic trade info
                 size = float(trade.get("size", 0))
                 price = float(trade.get("price", 0))
-                amount = size * price
+                outcome = trade.get("outcome", "Yes")
                 
-                # FIX ISSUE #16: Validate data before processing
+                # ══════════════════════════════════════════════════
+                # FIX: Correct amount calculation for NO positions
+                # API returns YES token price for all trades.
+                # YES: cost = size * price
+                # NO:  cost = size * (1 - price)
+                # ══════════════════════════════════════════════════
+                is_no = outcome and outcome.lower() == "no"
+                if is_no:
+                    amount = size * (1 - price)  # NO token cost
+                else:
+                    amount = size * price         # YES token cost
+                
+                # Validate data before processing
                 if amount <= 0:
                     filtered_invalid_data += 1
                     continue
@@ -120,9 +124,6 @@ def detect_insider_trades():
                 # Find market
                 market = get_market_by_condition_id(condition_id, markets)
                 if not market:
-                    # Fallback: create market from trade data
-                    # Clean slug: remove conditionId suffix (e.g. "-859-245")
-                    # Pattern: -XXX-YYY where X,Y are 1-3 digits (not 4+ to preserve dates like -31-2026)
                     raw_slug = trade.get("slug", "")
                     clean_slug = re.sub(r'-\d{1,3}-\d{1,3}$', '', raw_slug)
                     
@@ -140,10 +141,13 @@ def detect_insider_trades():
                     filtered_duplicate += 1
                     continue
                 
-                # Log high-value trades
-                print(f"\n[{datetime.now()}] 💰 Large trade: ${amount:,.0f}")
+                # Log high-value trades (show position type)
+                position_label = "NO" if is_no else "YES"
+                effective_odds = (1 - price) if is_no else price
+                print(f"\n[{datetime.now()}] 💰 Large trade: ${amount:,.0f} ({position_label})")
                 print(f"  Wallet: {wallet_address[:8]}...{wallet_address[-4:]}")
                 print(f"  Market: {market.get('question', 'Unknown')[:60]}...")
+                print(f"  Position: {position_label} @ {effective_odds*100:.1f}% effective odds (raw price: {price:.4f})")
                 
                 # DEBUG: Print trade structure once
                 if not debug_printed:
@@ -180,7 +184,7 @@ def detect_insider_trades():
                     print(f"  ⚠️  No wallet activity found, skipping")
                     continue
                 
-                # Calculate base suspicion score
+                # Calculate base suspicion score (now NO-aware)
                 analysis = calculate_score(trade, wallet_data, market)
                 
                 # Add Latency Score
@@ -193,7 +197,6 @@ def detect_insider_trades():
                 # Add Wallet History Score
                 history_score = 0
                 if wallet_stats and wallet_stats['total_trades'] >= 3:
-                    # Bonus for proven insiders
                     if wallet_stats['insider_score'] >= 70:
                         history_score = 20
                         analysis['flags'].append(f"Known insider (score: {wallet_stats['insider_score']:.0f})")
@@ -207,22 +210,25 @@ def detect_insider_trades():
                 print(f"     Flags: {', '.join(analysis['flags']) if analysis['flags'] else 'None'}")
                 print(f"     Wallet age: {analysis['wallet_age_days']} days")
                 print(f"     Activities: {analysis['total_activities']}")
-                print(f"     Odds: {analysis['odds']*100:.1f}%")
+                print(f"     Effective odds: {analysis['odds']*100:.1f}%")
+                if is_no:
+                    print(f"     ⚠️  NO position — real bet: ${amount:,.0f}, potential profit: ${analysis.get('potential_pnl', 0):,.0f} ({analysis.get('pnl_multiplier', 0):.1f}x)")
                 
                 # Check if alert threshold met
                 if analysis["score"] >= ALERT_THRESHOLD:
                     # Apply filters before alerting
-                    # Extract latency minutes for filtering
                     latency_min = latency_data['latency_minutes'] if latency_data else None
                     
+                    # FIX: Pass outcome to should_skip_alert for correct NO filtering
                     should_skip, skip_reason = should_skip_alert(
                         market_question=market.get("question", ""),
                         wallet_age_days=analysis['wallet_age_days'],
-                        odds=analysis['odds'],
+                        odds=price,  # raw price — should_skip_alert computes effective internally
                         total_activities=analysis['total_activities'],
                         end_date_str=market.get("endDate"),
                         amount=amount,
-                        latency_minutes=latency_min
+                        latency_minutes=latency_min,
+                        outcome=outcome
                     )
                     
                     if should_skip:
@@ -230,12 +236,11 @@ def detect_insider_trades():
                         print(f"  🚫 FILTERED: {skip_reason}")
                         print(f"     (Score was {analysis['score']} >= {ALERT_THRESHOLD}, but filtered out)")
                     else:
-                        # Check for coordinated attack (multiple similar trades on same market)
+                        # Check for coordinated attack
                         from database_fixed import get_recent_alerts_for_market
                         recent_alerts = get_recent_alerts_for_market(market.get("question", ""), hours=6)
                         
                         if len(recent_alerts) >= 3:
-                            # Coordinated attack detected
                             filtered_coordinated += 1
                             print(f"  🚫 FILTERED: COORDINATED_ATTACK")
                             print(f"     Market: {market.get('question', '')[:60]}")
@@ -243,7 +248,7 @@ def detect_insider_trades():
                             print(f"     Possible pump & dump or sybil attack")
                             continue
                         
-                        # Create enhanced alert
+                        # Create enhanced alert with correct NO data
                         alert = {
                             "market": market.get("question"),
                             "market_slug": market.get("slug"),
@@ -256,13 +261,19 @@ def detect_insider_trades():
                             "latency": latency_data,
                             # Wallet stats
                             "wallet_stats": wallet_stats,
-                            # Trade data for notifier
+                            # ══════════════════════════════════════════
+                            # FIX: Trade data with correct NO handling
+                            # ══════════════════════════════════════════
                             "trade_data": {
-                                "outcome": trade.get("outcome"),
+                                "outcome": outcome,
                                 "side": trade.get("side"),
-                                "price": price,
+                                "price": price,                              # raw YES price from API
+                                "effective_price": effective_odds,            # what the trader actually pays per token
                                 "size": size,
-                                "amount": amount
+                                "amount": amount,                            # correct cost (YES or NO)
+                                "potential_pnl": analysis.get("potential_pnl", 0),
+                                "pnl_multiplier": analysis.get("pnl_multiplier", 0),
+                                "is_no": is_no
                             }
                         }
                         alerts.append(alert)
@@ -280,16 +291,15 @@ def detect_insider_trades():
                     print(f"  ✓ Below threshold ({analysis['score']} < {ALERT_THRESHOLD})")
                 
                 # Save Trade to History
-                # FIX BUG #8: Use timezone-aware timestamps
                 trade_record = {
                     'wallet': wallet_address,
                     'market': market.get('question'),
                     'trade_timestamp': datetime.fromtimestamp(trade.get('timestamp'), tz=timezone.utc),
                     'event_timestamp': datetime.fromisoformat(latency_data['event_time']) if latency_data else None,
                     'latency_seconds': latency_data['latency_seconds'] if latency_data else None,
-                    'position': trade.get('outcome', 'Unknown'),
-                    'size': amount,
-                    'odds': price,
+                    'position': outcome,  # FIX: use actual outcome, not trade.get('outcome', 'Unknown')
+                    'size': amount,       # FIX: correct amount for NO positions
+                    'odds': effective_odds,  # FIX: effective odds
                     'is_pre_event': latency_data is not None,
                     'trade_hash': trade_hash
                 }
@@ -297,7 +307,7 @@ def detect_insider_trades():
                 
                 # Update Wallet Stats
                 update_wallet_stats(wallet_address, {
-                    'size': amount,
+                    'size': amount,  # FIX: correct amount
                     'is_pre_event': latency_data is not None,
                     'latency_seconds': latency_data['latency_seconds'] if latency_data else None
                 })
