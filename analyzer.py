@@ -339,6 +339,16 @@ def should_skip_alert(market_question: str, wallet_age_days: int, odds: float, t
                 return (True, f"ABSURD_MARKET (matched: {pattern[:40]}...)")
         
         # ══════════════════════════════════════════════════════════
+        # FIX: LOW ROI filter — catch safe bets with tiny profit potential
+        # Thai election YES @ 96¢: $2,230 bet → $93 profit (0.04x = 4% ROI)
+        # Insiders risk jail/sanctions — they need >10% ROI to justify it
+        # ══════════════════════════════════════════════════════════
+        if effective_odds >= 0.90:
+            pnl_mult = (1 - effective_odds) / effective_odds
+            if pnl_mult < 0.10:  # Less than 10% potential return
+                return (True, f"LOW_ROI (effective {effective_odds*100:.1f}%, max return {pnl_mult*100:.1f}%, not worth insider risk)")
+        
+        # ══════════════════════════════════════════════════════════
         # FIX: MARKET_MAKER filter — use effective_odds + lowered threshold
         # Old: odds >= 0.98 or odds <= 0.02 (missed 0.976)
         # New: effective_odds >= 0.97 or effective_odds <= 0.03
