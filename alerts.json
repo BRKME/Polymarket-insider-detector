@@ -23449,5 +23449,42 @@
       "size": 21180.69,
       "amount": 1482.6483
     }
+  },
+  {
+    "market": "76ers vs. Suns",
+    "market_slug": "nba-phi-phx-2026",
+    "wallet": "0x94807f36a7a1c57e8e19d7531e75f1b48bd17456",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Extreme confidence (96.9% effective odds)",
+        "Large bet ($6,152)"
+      ],
+      "amount": 6151.929977999999,
+      "odds": 0.9685138998912362,
+      "raw_price": 0.9685138998912362,
+      "outcome": "76ers",
+      "potential_pnl": 199.99742200000003,
+      "pnl_multiplier": 0.03250970390027415,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-02-08T04:08:08.200965",
+    "trade_hash": "0x96ed7cf03a3ff41fa7d1aa8470624e3081792bfcfb01f5d0841cbd5704c8204b",
+    "trade_timestamp": 1770523449,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "76ers",
+      "side": "BUY",
+      "price": 0.9685138998912362,
+      "effective_price": 0.9685138998912362,
+      "size": 6351.9274,
+      "amount": 6151.929977999999,
+      "potential_pnl": 199.99742200000003,
+      "pnl_multiplier": 0.03250970390027415,
+      "is_no": false
+    }
   }
 ]
