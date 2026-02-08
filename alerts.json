@@ -23486,5 +23486,42 @@
       "pnl_multiplier": 0.03250970390027415,
       "is_no": false
     }
+  },
+  {
+    "market": "LoL: DRX vs Nongshim Red Force - Game 3 Winner",
+    "market_slug": "lol-drx-ns-2026-02-08-game3",
+    "wallet": "0x5db56d12501f3c52300e194999da136530f05df8",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (1d old)",
+        "Extreme confidence (96.0% effective odds)",
+        "Large bet ($1,036)"
+      ],
+      "amount": 1035.5232,
+      "odds": 0.96,
+      "raw_price": 0.96,
+      "outcome": "DRX",
+      "potential_pnl": 43.14680000000004,
+      "pnl_multiplier": 0.041666666666666706,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-02-08T10:20:36.222229",
+    "trade_hash": "0x3342dbcd27846955bc681c9627f4ec660af3970063ac75e524777e2cb2351c4c",
+    "trade_timestamp": 1770545719,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "DRX",
+      "side": "SELL",
+      "price": 0.96,
+      "effective_price": 0.96,
+      "size": 1078.67,
+      "amount": 1035.5232,
+      "potential_pnl": 43.14680000000004,
+      "pnl_multiplier": 0.041666666666666706,
+      "is_no": false
+    }
   }
 ]
