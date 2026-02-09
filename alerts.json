@@ -23560,5 +23560,49 @@
       "pnl_multiplier": 0.04166666685351269,
       "is_no": false
     }
+  },
+  {
+    "market": "Another US government shutdown by February 14?",
+    "market_slug": "another-us-government-shutdown-by-february-14",
+    "wallet": "0xfd9bf631ab106c4a4ec9a51073d9e3ef2802934e",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,103)",
+        "Pre-event latency: 6952m"
+      ],
+      "amount": 1103.137931,
+      "odds": 0.7102639821564334,
+      "raw_price": 0.28973601784356656,
+      "outcome": "No",
+      "potential_pnl": 449.99999900000006,
+      "pnl_multiplier": 0.40792722863955266,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-02-09T04:12:24.810579",
+    "trade_hash": "0xdb2296238e6ebaab03c170e4d9b9f081f821808fbdfb708a637a6ed8663917bc",
+    "trade_timestamp": 1770610065,
+    "latency": {
+      "latency_seconds": 417135.0,
+      "latency_minutes": 6952.25,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-02-09T04:07:45+00:00",
+      "event_time": "2026-02-14T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "No",
+      "side": "BUY",
+      "price": 0.28973601784356656,
+      "effective_price": 0.7102639821564334,
+      "size": 1553.13793,
+      "amount": 1103.137931,
+      "potential_pnl": 449.99999900000006,
+      "pnl_multiplier": 0.40792722863955266,
+      "is_no": true
+    }
   }
 ]
