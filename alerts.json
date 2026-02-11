@@ -23604,5 +23604,42 @@
       "pnl_multiplier": 0.40792722863955266,
       "is_no": true
     }
+  },
+  {
+    "market": "Will the next Prime Minister of Hungary be Istv\u00e1n Kapit\u00e1ny?",
+    "market_slug": "will-the-next-prime-minister-of-hungary-be-istvn-kapitny",
+    "wallet": "0x8de4df81dd97012c7c7b4bd5a2c4fc6752820427",
+    "analysis": {
+      "score": 85,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (5.8% effective odds)",
+        "Large bet ($1,039)"
+      ],
+      "amount": 1038.78,
+      "odds": 0.058,
+      "raw_price": 0.058,
+      "outcome": "Yes",
+      "potential_pnl": 16871.219999999998,
+      "pnl_multiplier": 16.241379310344826,
+      "wallet_age_days": 0,
+      "total_activities": 14
+    },
+    "timestamp": "2026-02-11T03:52:48.104166",
+    "trade_hash": "0x8a8cdccb67fec391634786a8f573186d2bb731bd51e806908796a26fc7cc362f",
+    "trade_timestamp": 1770781651,
+    "latency": null,
+    "wallet_stats": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "side": "SELL",
+      "price": 0.058,
+      "effective_price": 0.058,
+      "size": 17910.0,
+      "amount": 1038.78,
+      "potential_pnl": 16871.219999999998,
+      "pnl_multiplier": 16.241379310344826,
+      "is_no": false
+    }
   }
 ]
