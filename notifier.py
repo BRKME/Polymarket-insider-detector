@@ -229,13 +229,13 @@ def generate_ai_summary(alert):
 
 def format_institutional_alert(alert):
     """
-    Format alert in institutional-grade style.
+    Format alert in institutional-grade style with irrationality analysis.
     
-    Style: Terminal/Bloomberg minimalist
-    - No ASCII separators
-    - Minimal emojis
-    - Compact mobile-first layout
-    - Financial terminology
+    Signal types:
+    - 🔥 ALPHA: Insider NO + mispricing confirmed
+    - ⚠️ CONFLICT: Insider YES + market overpriced
+    - 🚨 INSIDER_CONFIRMED: Insider YES + market underpriced
+    - 👁️ INSIDER_ONLY: Insider activity without clear mispricing
     """
     from datetime import datetime, timezone
     
@@ -244,26 +244,36 @@ def format_institutional_alert(alert):
     wallet_stats = alert.get('wallet_stats')
     latency = alert.get('latency')
     
-    # Determine signal class from market question
-    market_question = alert['market'].lower()
+    # Get irrationality data (new)
+    combined_signal = alert.get('combined_signal', {})
+    irrationality = alert.get('irrationality', {})
+    mispricing = alert.get('mispricing', {})
     
-    # Sports markets (check FIRST - highest priority)
-    if any(kw in market_question for kw in ['nba', 'nfl', 'mlb', 'nhl', 'fifa', 'world cup', ' vs.', ' vs ']):
-        signal_class = "Sports"
-    # Political markets
-    elif any(kw in market_question for kw in ['president', 'election', 'nominee', 'senate', 'congress']):
-        signal_class = "Political"
-    # Market/Trading
-    elif any(kw in market_question for kw in ['bitcoin', 'ethereum', 'crypto', 'price', 'stock']):
-        signal_class = "Market"
-    # Macro/Geopolitical
-    elif any(kw in market_question for kw in ['war', 'ceasefire', 'treaty', 'invasion']):
-        signal_class = "Macro"
-    # Default
+    signal_type = combined_signal.get('signal_type', 'INSIDER_ONLY')
+    signal_emoji = combined_signal.get('signal_emoji', '👁️')
+    signal_strength = combined_signal.get('signal_strength', analysis.get('score', 0))
+    
+    # Determine header based on signal type
+    if signal_type == "ALPHA":
+        header = f"{signal_emoji} ALPHA SIGNAL — Insider + Mispricing Aligned"
+    elif signal_type == "CONFLICT":
+        header = f"{signal_emoji} CONFLICT — Insider vs Statistics"
+    elif signal_type == "INSIDER_CONFIRMED":
+        header = f"{signal_emoji} INSIDER CONFIRMED — Real Information Likely"
+    elif signal_type == "CONTRARIAN_INSIDER":
+        header = f"{signal_emoji} CONTRARIAN — Unusual Insider Behavior"
     else:
-        signal_class = "Governance"
+        header = f"{signal_emoji} INSIDER ACTIVITY"
     
-    # Wallet classification (clean format)
+    # Market category
+    category = irrationality.get('category', 'other')
+    category_display = category.replace('_', ' ').title()
+    
+    # Get YES price for display
+    yes_price = alert.get('trade_data', {}).get('price', 0)
+    no_price = 1 - yes_price
+    
+    # Wallet classification
     if wallet_stats and wallet_stats.get('classification'):
         classification = wallet_stats['classification']
         insider_score = wallet_stats.get('insider_score', 0)
@@ -271,71 +281,96 @@ def format_institutional_alert(alert):
     else:
         profile = "New Participant"
     
-    # Lead time (convert to hours/days for readability)
+    # Lead time
     if latency and latency.get('is_pre_event'):
         lead_time_min = int(latency['latency_minutes'])
-        
-        # Format based on duration
-        if lead_time_min < 120:  # < 2 hours
+        if lead_time_min < 120:
             lead_time = f"{lead_time_min}m"
-        elif lead_time_min < 1440:  # < 24 hours
-            hours = lead_time_min / 60
-            lead_time = f"{hours:.0f}h"
-        else:  # >= 24 hours
-            days = lead_time_min / 1440
-            hours = lead_time_min / 60
-            lead_time = f"{days:.1f}d ({hours:.0f}h)"
+        elif lead_time_min < 1440:
+            lead_time = f"{lead_time_min/60:.0f}h"
+        else:
+            lead_time = f"{lead_time_min/1440:.1f}d"
     else:
         lead_time = "N/A"
     
     # Build message
-    message = f"""ALPHA SIGNAL — Insider Activity
-Signal Class: {signal_class}
+    message = f"""{header}
+Category: {category_display}
 
 Market: {alert['market']}
+YES: {yes_price*100:.0f}¢ | NO: {no_price*100:.0f}¢
 
-Trade Snapshot
-Bet: {trade_info['amount']} | Position: {trade_info['position']}
-Implied Prob: {trade_info['implied_prob']} | Potential PnL: {trade_info['profit']} ({trade_info['roi_display']})
+INSIDER ACTIVITY
+Wallet: {alert['wallet'][:10]}...{alert['wallet'][-8:]}
+Bet: {trade_info['amount']} {trade_info['position']}
 Lead Time: {lead_time}
-
-Wallet Intelligence
-{alert['wallet'][:10]}...{alert['wallet'][-8:]}
 Profile: {profile}"""
     
-    # Historical performance (if available)
-    if wallet_stats and wallet_stats.get('total_trades', 0) >= 1:  # Lowered from 3 to show all wallet history
+    # Historical performance
+    if wallet_stats and wallet_stats.get('total_trades', 0) >= 1:
         total = wallet_stats['total_trades']
         pre_event = wallet_stats.get('pre_event_trades', 0)
         message += f"\nHistory: {total} trades | {pre_event} pre-event"
     
-    # Suspicion factors (max 4 lines)
-    message += f"\n\nSuspicion Factors"
-    flags = analysis.get('flags', [])[:4]  # Max 4 factors
-    for flag in flags:
+    # Irrationality analysis section
+    irr_score = irrationality.get('irrationality_score', 0)
+    irr_flags = irrationality.get('flags', [])
+    
+    message += f"\n\nIRRATIONALITY ANALYSIS"
+    message += f"\nScore: {irr_score}/100"
+    
+    for flag in irr_flags[:3]:  # Max 3 flags
         message += f"\n• {flag}"
     
-    # Score and interpretation
-    score = analysis.get('score', 0)
-    ai_summary = generate_ai_summary(alert)
+    # Mispricing analysis section  
+    edge = mispricing.get('edge_percent', 0)
+    rational_est = mispricing.get('rational_estimate', 0)
+    edge_quality = mispricing.get('edge_quality', 'NONE')
+    is_mispriced = mispricing.get('is_mispriced', False)
     
-    message += f"\n\nSignal Score: {score}/150"
-    message += f"\nInterpretation: {ai_summary}"
+    message += f"\n\nMISPRICING ANALYSIS"
     
-    # Footer with source and timestamp
+    if is_mispriced:
+        message += f"\n✅ CONFIRMED"
+    else:
+        message += f"\n❌ NOT CONFIRMED"
+    
+    message += f"\nRational estimate: ~{rational_est*100:.0f}%"
+    message += f"\nMarket price: {yes_price*100:.0f}%"
+    message += f"\nEdge: {edge:+.1f}% ({edge_quality})"
+    
+    # Combined signal interpretation
+    interpretation = combined_signal.get('interpretation', '')
+    action = combined_signal.get('action_suggestion', '')
+    
+    message += f"\n\nSIGNAL"
+    message += f"\nType: {signal_type}"
+    message += f"\nStrength: {signal_strength}/250"
+    message += f"\n{interpretation}"
+    
+    if action:
+        message += f"\n\n💡 {action}"
+    
+    # Suspicion factors from insider analysis
+    flags = analysis.get('flags', [])[:3]
+    if flags:
+        message += f"\n\nINSIDER FLAGS"
+        for flag in flags:
+            message += f"\n• {flag}"
+    
+    # Footer
     market_slug = alert.get('market_slug', '')
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
     message += f"\n\nSource: https://polymarket.com/event/{market_slug}"
     message += f"\nRadar | {timestamp} UTC"
     
-    # Estimation warning if needed (compact)
+    # Estimation warning
     if trade_info.get('is_estimated'):
-        message += f"\n\nNote: Position estimated from odds"
+        message += f"\n\n⚠️ Position estimated from odds"
     
-    # Check length (Telegram limit 4096)
+    # Truncate if needed
     if len(message) > 4000:
-        # Truncate factors if needed
         message = message[:4000] + "\n\n[Truncated]"
     
     return message

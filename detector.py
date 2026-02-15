@@ -248,6 +248,24 @@ def detect_insider_trades():
                             print(f"     Possible pump & dump or sybil attack")
                             continue
                         
+                        # ══════════════════════════════════════════
+                        # IRRATIONALITY ANALYSIS (Methodology v2)
+                        # ══════════════════════════════════════════
+                        from irrationality import analyze_market_irrationality
+                        
+                        irrationality_analysis = analyze_market_irrationality(
+                            market_question=market.get("question", ""),
+                            yes_price=price,  # raw YES price
+                            end_date=market.get("endDate"),
+                            insider_score=analysis['score'],
+                            insider_position=outcome
+                        )
+                        
+                        combined_signal = irrationality_analysis['combined_signal']
+                        print(f"  📊 Combined Signal: {combined_signal['signal_type']} (strength: {combined_signal['signal_strength']})")
+                        print(f"     Irrationality: {irrationality_analysis['irrationality']['irrationality_score']}/100")
+                        print(f"     Mispricing: edge {irrationality_analysis['mispricing']['edge_percent']:+.1f}% ({irrationality_analysis['mispricing']['edge_quality']})")
+                        
                         # Create enhanced alert with correct NO data
                         alert = {
                             "market": market.get("question"),
@@ -274,7 +292,14 @@ def detect_insider_trades():
                                 "potential_pnl": analysis.get("potential_pnl", 0),
                                 "pnl_multiplier": analysis.get("pnl_multiplier", 0),
                                 "is_no": is_no
-                            }
+                            },
+                            # ══════════════════════════════════════════
+                            # NEW: Irrationality analysis data
+                            # ══════════════════════════════════════════
+                            "irrationality": irrationality_analysis['irrationality'],
+                            "mispricing": irrationality_analysis['mispricing'],
+                            "factors": irrationality_analysis['factors'],
+                            "combined_signal": combined_signal
                         }
                         alerts.append(alert)
                         print(f"  🚨 ALERT! Score {analysis['score']} >= {ALERT_THRESHOLD}")
