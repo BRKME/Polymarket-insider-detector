@@ -9,6 +9,11 @@ MIN_BET_SIZE = 1000  # $1,000 minimum (serious bets only, blocks casual gambling
 ALERT_THRESHOLD = 80        # Score threshold for alerts (max 110)
 MAX_ODDS_THRESHOLD = 0.95   # Block >95% odds (arbitrage territory)
 
+# Combined signal gating
+COMBINED_SIGNAL_MIN_STRENGTH = 80      # Minimum combined signal strength to allow alert
+CONFLICT_MIN_INSIDER_SCORE = 100       # Minimum insider score for CONFLICT signals
+INSIDER_ONLY_REQUIRES_PRE_EVENT = True # Require latency evidence for INSIDER_ONLY
+
 # Market Filtering
 BLOCK_15MIN_MARKETS = True  # Block HFT/bot markets
 BLOCK_SHORT_PRICE_PREDICTIONS = True  # Block <24h price arbitrage

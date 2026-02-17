@@ -7,7 +7,13 @@ from database_fixed import (
     init_database, get_wallet_stats, update_wallet_stats, 
     save_trade, is_alert_sent, mark_alert_sent
 )
-from config import ALERT_THRESHOLD, MIN_BET_SIZE
+from config import (
+    ALERT_THRESHOLD,
+    MIN_BET_SIZE,
+    COMBINED_SIGNAL_MIN_STRENGTH,
+    CONFLICT_MIN_INSIDER_SCORE,
+    INSIDER_ONLY_REQUIRES_PRE_EVENT,
+)
 
 def detect_insider_trades():
     """
@@ -67,6 +73,7 @@ def detect_insider_trades():
         filtered_duplicate = 0
         filtered_invalid_data = 0
         filtered_coordinated = 0
+        filtered_weak_signal = 0
         pre_event_detected = 0
         error_count = 0
         debug_printed = False
@@ -265,6 +272,25 @@ def detect_insider_trades():
                         print(f"  📊 Combined Signal: {combined_signal['signal_type']} (strength: {combined_signal['signal_strength']})")
                         print(f"     Irrationality: {irrationality_analysis['irrationality']['irrationality_score']}/100")
                         print(f"     Mispricing: edge {irrationality_analysis['mispricing']['edge_percent']:+.1f}% ({irrationality_analysis['mispricing']['edge_quality']})")
+
+                        # Additional signal-quality gating (post-score, post-rules)
+                        signal_type = combined_signal.get('signal_type', 'INSIDER_ONLY')
+                        signal_strength = combined_signal.get('signal_strength', 0)
+
+                        if signal_strength < COMBINED_SIGNAL_MIN_STRENGTH:
+                            filtered_weak_signal += 1
+                            print(f"  🚫 FILTERED: WEAK_COMBINED_SIGNAL (strength {signal_strength} < {COMBINED_SIGNAL_MIN_STRENGTH})")
+                            continue
+
+                        if signal_type == "CONFLICT" and analysis['score'] < CONFLICT_MIN_INSIDER_SCORE:
+                            filtered_weak_signal += 1
+                            print(f"  🚫 FILTERED: CONFLICT_LOW_CONFIDENCE (insider score {analysis['score']} < {CONFLICT_MIN_INSIDER_SCORE})")
+                            continue
+
+                        if signal_type == "INSIDER_ONLY" and INSIDER_ONLY_REQUIRES_PRE_EVENT and latency_data is None:
+                            filtered_weak_signal += 1
+                            print("  🚫 FILTERED: INSIDER_ONLY_WITHOUT_PRE_EVENT")
+                            continue
                         
                         # Create enhanced alert with correct NO data
                         alert = {
@@ -367,6 +393,7 @@ def detect_insider_trades():
         print(f"[{datetime.now()}]   - Duplicate alerts: {filtered_duplicate}")
         print(f"[{datetime.now()}]   - Arbitrage/Short-term/Absurd: {filtered_by_rules}")
         print(f"[{datetime.now()}]   - Coordinated attacks: {filtered_coordinated}")
+        print(f"[{datetime.now()}]   - Weak combined signals: {filtered_weak_signal}")
         print(f"[{datetime.now()}] ")
         print(f"[{datetime.now()}] 🔍 Pre-event trades detected: {pre_event_detected}")
         print(f"[{datetime.now()}] Errors encountered: {error_count}")
