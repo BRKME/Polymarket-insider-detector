@@ -10,7 +10,7 @@ from config import (
 )
 
 def make_request_with_retry(url: str, params: dict, max_retries: int = MAX_RETRIES) -> Optional[requests.Response]:
-    """Make HTTP request with exponential backoff retry logic"""
+    """Make HTTP request with exponential backoff retry logic."""
     for attempt in range(max_retries):
         try:
             response = requests.get(url, params=params, timeout=30)
@@ -27,7 +27,22 @@ def make_request_with_retry(url: str, params: dict, max_retries: int = MAX_RETRI
             
             response.raise_for_status()
             return response
-            
+
+        except requests.exceptions.HTTPError as e:
+            # Deterministic client errors should not be retried repeatedly.
+            status_code = e.response.status_code if e.response is not None else None
+            if status_code == 400:
+                print(f"  ❌ Bad request (400), not retrying: {e}")
+                return None
+
+            if attempt < max_retries - 1:
+                delay = RETRY_DELAY * (RETRY_BACKOFF ** attempt)
+                print(f"  ⚠️  Request failed (attempt {attempt + 1}/{max_retries}), retrying in {delay}s...")
+                time.sleep(delay)
+            else:
+                print(f"  ❌ Request failed after {max_retries} attempts: {e}")
+                return None
+
         except requests.exceptions.RequestException as e:
             if attempt < max_retries - 1:
                 delay = RETRY_DELAY * (RETRY_BACKOFF ** attempt)
@@ -120,6 +135,7 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
     
     all_trades = []
     page = 0
+    pages_fetched = 0
     
     # Create market lookup for smart filtering
     market_lookup = {m['conditionId']: m for m in markets if 'conditionId' in m}
@@ -142,7 +158,8 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
         
         try:
             trades = response.json()
-            
+            pages_fetched += 1
+
             if not trades:
                 print(f"  ℹ️  No more trades available")
                 break
@@ -213,7 +230,7 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
     
     print(f"[{datetime.now()}] ═══════════════════════════════")
     print(f"[{datetime.now()}] COLLECTION SUMMARY:")
-    print(f"[{datetime.now()}] Total pages fetched: {page}")
+    print(f"[{datetime.now()}] Total pages fetched: {pages_fetched}")
     print(f"[{datetime.now()}] Total trades collected: {len(all_trades)}")
     print(f"[{datetime.now()}] Time window: {MINUTES_BACK} minutes")
     print(f"[{datetime.now()}] ═══════════════════════════════")
