@@ -214,11 +214,17 @@ def update_wallet_stats(wallet: str, trade_data: Dict):
     FIX BUG #4: Add transaction locks to prevent race conditions.
     FIX BUG #5: Remove outcome/profit tracking (Phase 1 doesn't know outcomes).
     """
+    conn = None
     try:
         conn = get_db_connection()
-        
-        # FIX BUG #4: Use exclusive transaction to prevent race conditions
-        conn.execute("BEGIN EXCLUSIVE")
+
+        # If previous operation left transaction open, clean it first.
+        # This prevents: sqlite3.OperationalError: cannot start a transaction within a transaction
+        if conn.in_transaction:
+            conn.rollback()
+
+        # Use IMMEDIATE lock (sufficient for single-writer semantics, less brittle than EXCLUSIVE)
+        conn.execute("BEGIN IMMEDIATE")
         
         cursor = conn.cursor()
         
@@ -236,11 +242,12 @@ def update_wallet_stats(wallet: str, trade_data: Dict):
             total_trades = row[0] + 1
             pre_event_trades = row[1] + (1 if trade_data.get('is_pre_event') else 0)
             total_volume = row[2] + trade_data.get('size', 0)
-            old_avg_latency = row[3]
+            old_avg_latency = row[3] if row[3] is not None else 0
+            latency_seconds = trade_data.get('latency_seconds')
             
             # Update latency average
-            if trade_data.get('latency_seconds') and trade_data['latency_seconds'] > 0:
-                avg_latency = (old_avg_latency * row[0] + trade_data['latency_seconds']) / total_trades
+            if latency_seconds is not None and latency_seconds > 0:
+                avg_latency = (old_avg_latency * row[0] + latency_seconds) / total_trades
             else:
                 avg_latency = old_avg_latency
             
@@ -278,7 +285,7 @@ def update_wallet_stats(wallet: str, trade_data: Dict):
                 wallet,
                 1 if trade_data.get('is_pre_event') else 0,
                 trade_data.get('size', 0),
-                trade_data.get('latency_seconds', 0),
+                trade_data.get('latency_seconds') or 0,
                 datetime.now(timezone.utc),
                 datetime.now(timezone.utc)
             ))
@@ -287,11 +294,14 @@ def update_wallet_stats(wallet: str, trade_data: Dict):
         
     except sqlite3.Error as e:
         print(f"[{datetime.now()}] ❌ Database error in update_wallet_stats: {e}")
-        conn.rollback()
+        if conn is not None and conn.in_transaction:
+            conn.rollback()
         raise
     except Exception as e:
         print(f"[{datetime.now()}] ❌ Error in update_wallet_stats: {e}")
-        conn.rollback()
+        if conn is not None and conn.in_transaction:
+            conn.rollback()
+        raise
 
 def save_trade(trade_data: Dict) -> bool:
     """
@@ -300,6 +310,7 @@ def save_trade(trade_data: Dict) -> bool:
     FIX BUG #8: Use timezone-aware timestamps.
     FIX ISSUE #16: Validate data before saving.
     """
+    conn = None
     try:
         # FIX ISSUE #16: Validate data
         if trade_data.get('size', 0) <= 0:
@@ -337,9 +348,13 @@ def save_trade(trade_data: Dict) -> bool:
         
     except sqlite3.IntegrityError:
         # Trade already exists (duplicate)
+        if conn is not None and conn.in_transaction:
+            conn.rollback()
         return False
     except sqlite3.Error as e:
         print(f"[{datetime.now()}] ❌ Database error in save_trade: {e}")
+        if conn is not None and conn.in_transaction:
+            conn.rollback()
         return False
 
 def is_alert_sent(wallet: str, trade_hash: str) -> bool:
