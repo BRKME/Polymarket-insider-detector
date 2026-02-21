@@ -62,13 +62,14 @@ CATEGORY_KEYWORDS = {
 }
 
 # Bias strength by category (how much longshots are typically overpriced)
+# v2: Geopolitics and Macro upgraded — war/crisis markets are VERY emotional
 CATEGORY_BIAS = {
     'meme': {'strength': 'very_high', 'typical_overpricing': 0.07, 'min_edge': 0.03},
     'conspiracy': {'strength': 'very_high', 'typical_overpricing': 0.06, 'min_edge': 0.04},
     'politics_far': {'strength': 'high', 'typical_overpricing': 0.05, 'min_edge': 0.05},
     'politics_near': {'strength': 'medium', 'typical_overpricing': 0.02, 'min_edge': 0.03},
-    'geopolitics': {'strength': 'low', 'typical_overpricing': 0.02, 'min_edge': 0.08},
-    'macro': {'strength': 'low', 'typical_overpricing': 0.02, 'min_edge': 0.10},
+    'geopolitics': {'strength': 'high', 'typical_overpricing': 0.05, 'min_edge': 0.05},  # UPGRADED from low!
+    'macro': {'strength': 'high', 'typical_overpricing': 0.04, 'min_edge': 0.06},       # UPGRADED from low!
     'sports': {'strength': 'medium', 'typical_overpricing': 0.03, 'min_edge': 0.05},
     'crypto': {'strength': 'medium', 'typical_overpricing': 0.03, 'min_edge': 0.05},
     'other': {'strength': 'medium', 'typical_overpricing': 0.03, 'min_edge': 0.05}
@@ -132,11 +133,14 @@ def calculate_irrationality_score(
     yes_price: float,
     volume_24h: float = 0,
     volume_avg_30d: float = 0,
-    price_change_24h: float = 0
+    price_change_24h: float = 0,
+    edge_percent: float = 0  # NEW: edge from mispricing analysis
 ) -> Dict:
     """
     Step 1 from Methodology v2: Is there evidence that market participants
     are pricing based on emotion rather than probability?
+    
+    v2.1: Added edge-based irrationality and expanded longshot thresholds
     
     Returns:
         Dict with irrationality_score (0-100), flags, and category
@@ -147,8 +151,15 @@ def calculate_irrationality_score(
     category = classify_category(market_question)
     category_info = CATEGORY_BIAS.get(category, CATEGORY_BIAS['other'])
     
-    # 1. Longshot in high-bias category (biggest signal)
-    if yes_price < 0.15:
+    # 1. Longshot detection with CATEGORY-SPECIFIC thresholds
+    # Geopolitics/macro: expand threshold to 30% (fear-driven markets have higher "longshots")
+    longshot_threshold = 0.15  # default
+    if category in ['geopolitics', 'macro']:
+        longshot_threshold = 0.30  # war/crisis markets: 30% is still a "longshot"
+    elif category in ['meme', 'conspiracy']:
+        longshot_threshold = 0.25  # meme markets: 25% threshold
+    
+    if yes_price < longshot_threshold:
         if category_info['strength'] == 'very_high':
             score += 35
             flags.append(f"Longshot ({yes_price*100:.0f}%) in very high bias category ({category})")
@@ -192,24 +203,47 @@ def calculate_irrationality_score(
     elif abs(price_change_24h) > 0.05:
         score += 8
     
-    # 5. Meme/conspiracy keywords boost
+    # 5. Meme/conspiracy/crisis keywords boost
     question_lower = market_question.lower()
     meme_boosters = ['meme', 'viral', 'trending', 'hype', 'moon', 'crazy']
+    crisis_boosters = ['war', 'strike', 'attack', 'invasion', 'nuclear', 'collapse', 'crash']
+    
     for booster in meme_boosters:
         if booster in question_lower:
             score += 5
             flags.append(f"Meme language detected ('{booster}')")
             break
     
+    # NEW: Crisis keywords get extra points (fear-driven pricing)
+    for booster in crisis_boosters:
+        if booster in question_lower:
+            score += 10
+            flags.append(f"Crisis keyword detected ('{booster}')")
+            break
+    
+    # 6. NEW: Edge-based irrationality boost
+    # If edge is large, the market IS irrational by definition
+    if edge_percent > 0:
+        if edge_percent >= 15:
+            score += 25
+            flags.append(f"Large mispricing edge (+{edge_percent:.1f}%)")
+        elif edge_percent >= 10:
+            score += 15
+            flags.append(f"Significant mispricing edge (+{edge_percent:.1f}%)")
+        elif edge_percent >= 5:
+            score += 8
+            flags.append(f"Moderate mispricing edge (+{edge_percent:.1f}%)")
+    
     # Cap at 100
     score = min(score, 100)
     
+    # Lower threshold for "irrational" classification
     return {
         'irrationality_score': score,
         'flags': flags,
         'category': category,
         'category_info': category_info,
-        'is_irrational': score >= 40  # Threshold for "irrational market"
+        'is_irrational': score >= 30  # Lowered from 40
     }
 
 
@@ -515,23 +549,26 @@ def analyze_market_irrationality(
 ) -> Dict:
     """
     Full analysis pipeline: Irrationality → Factors → Mispricing → Combined Signal
+    
+    v2.1: Two-pass irrationality calculation — first without edge, then with edge
     """
     logger.info(f"Analyzing market irrationality: {market_question[:60]}...")
     
-    # Step 1: Irrationality Detection
-    irrationality = calculate_irrationality_score(
+    # Step 1a: Initial Irrationality Detection (without edge)
+    irrationality_initial = calculate_irrationality_score(
         market_question=market_question,
         yes_price=yes_price,
         volume_24h=volume_24h,
         volume_avg_30d=volume_avg_30d,
-        price_change_24h=price_change_24h
+        price_change_24h=price_change_24h,
+        edge_percent=0  # First pass without edge
     )
     
     # Get factors (Claude or fallback)
     factors = get_factors_with_fallback(
         market_question=market_question,
         yes_price=yes_price,
-        category=irrationality['category']
+        category=irrationality_initial['category']
     )
     
     # Step 2: Mispricing Confirmation
@@ -540,6 +577,20 @@ def analyze_market_irrationality(
         yes_price=yes_price,
         factors=factors
     )
+    
+    # Step 1b: RECALCULATE Irrationality WITH edge (if edge exists)
+    edge_percent = mispricing.get('edge_percent', 0)
+    if edge_percent > 0:
+        irrationality = calculate_irrationality_score(
+            market_question=market_question,
+            yes_price=yes_price,
+            volume_24h=volume_24h,
+            volume_avg_30d=volume_avg_30d,
+            price_change_24h=price_change_24h,
+            edge_percent=edge_percent  # Second pass WITH edge
+        )
+    else:
+        irrationality = irrationality_initial
     
     # Combined Signal
     combined = get_combined_signal(

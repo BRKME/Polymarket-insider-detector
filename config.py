@@ -6,13 +6,13 @@ DATA_API_URL = "https://data-api.polymarket.com"
 
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (serious bets only, blocks casual gambling)
-ALERT_THRESHOLD = 80        # Score threshold for alerts (max 110)
+ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)
 MAX_ODDS_THRESHOLD = 0.95   # Block >95% odds (arbitrage territory)
 
-# Combined signal gating
-COMBINED_SIGNAL_MIN_STRENGTH = 80      # Minimum combined signal strength to allow alert
-CONFLICT_MIN_INSIDER_SCORE = 100       # Minimum insider score for CONFLICT signals
-INSIDER_ONLY_REQUIRES_PRE_EVENT = True # Require latency evidence for INSIDER_ONLY
+# Combined signal gating (RELAXED for more signals)
+COMBINED_SIGNAL_MIN_STRENGTH = 50      # Lowered from 80 (was too strict)
+CONFLICT_MIN_INSIDER_SCORE = 60        # Lowered from 100 (was almost impossible)
+INSIDER_ONLY_REQUIRES_PRE_EVENT = False # Allow INSIDER_ONLY without latency (was True)
 
 # Market Filtering
 BLOCK_15MIN_MARKETS = True  # Block HFT/bot markets
