@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x694f7b72027c3f6227b14c1afb528959ada98c12ba221876bf57f3e1a209ae09",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775002,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6d3c5bd13984b2de47c3a88ddc455309aab3d294",
-      "side": "SELL",
-      "asset": "16837684648635772950321658735457479320416455305373033538332622156443877105197",
-      "conditionId": "0xb76c2f1129b705f1a880df0050f8650b46970ff7d05f4a865c33b2491412ff50",
-      "size": 3000,
-      "price": 0.54,
-      "timestamp": 1774390989,
-      "title": "Hurricanes vs. Canadiens",
-      "slug": "nhl-car-mon-2026-03-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-car-mon-2026-03-24",
-      "outcome": "Hurricanes",
-      "outcomeIndex": 0,
-      "name": "VeryLucky888",
-      "pseudonym": "Scornful-West",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3980992-50a3f24e-e4d8-4388-86ae-d9c063867f3e.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x694f7b72027c3f6227b14c1afb528959ada98c12ba221876bf57f3e1a209ae09",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hurricanes vs. Canadiens",
-    "market_slug": "nhl-car-mon-2026-03-24",
-    "amount": 1620.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449560+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xebc6a66e5652de0f38e89b63e18ab5618c2326fa3a913334d10f460c5baa7492",
     "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
     "trader": {
@@ -32490,5 +32438,115 @@
     "ai_context": "\u2705 COPY \u2014 Carreno Busta has a recent win over Wawrinka and a strong record against lower-ranked opponents.\nHe defeated Wawrinka 7-5, 6-4 in their last encounter in July 2022. (tennisratio.com) In the past 52 weeks, Carreno Busta holds a 30-12 record against opponents ranked outside the top 100. (tennisratio.com)",
     "ai_verdict": "COPY",
     "resolution_last_check": "2026-05-05T07:55:11.522334+00:00"
+  },
+  {
+    "market": "Arsenal FC vs. Club Atl\u00e9tico de Madrid: Both Teams to Score",
+    "market_slug": "ucl-ars-atm1-2026-05-05-btts",
+    "event_slug": "ucl-ars-atm1-2026-05-05-btts",
+    "wallet": "0xa0493b62dd6385b01613a1e6886d74135075b1b1",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($2,690)",
+        "Low activity (19 txns)"
+      ],
+      "amount": 2689.9389,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Yes",
+      "potential_pnl": 2584.4511,
+      "pnl_multiplier": 0.9607843137254902,
+      "wallet_age_days": 1,
+      "total_activities": 19
+    },
+    "timestamp": "2026-05-05T16:15:57.300612",
+    "trade_hash": "0x4cedd450136670f7fc1076c0f3bc844e83e4d86d75c031b857b29c056e63bc43",
+    "trade_timestamp": 1777997394,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 5274.39,
+      "amount": 2689.9389,
+      "potential_pnl": 2584.4511,
+      "pnl_multiplier": 0.9607843137254902,
+      "is_no": false,
+      "conditionId": "0xf191692a30f7e88de566bce7fe4c8926cf9cae2e5735f2b4a51006040bf89c6c",
+      "slug": "ucl-ars-atm1-2026-05-05-btts",
+      "eventSlug": "ucl-ars-atm1-2026-05-05-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Arsenal's attacking form",
+          "Atl\u00e9tico's defensive vulnerabilities",
+          "Matchday conditions (weather, pitch)"
+        ],
+        "weakest_link": "Atl\u00e9tico's defensive vulnerabilities"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent form of both teams",
+        "Historical head-to-head results"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head statistics indicate a high likelihood of both teams scoring.\nIn the last five encounters between Arsenal and Atl\u00e9tico Madrid, three matches featured both teams scoring. (footystats.org) Additionally, Arsenal's key creative player, Martin \u00d8degaard, is available for selection, enhancing their offensive capabilities. (si.",
+    "ai_verdict": "COPY"
   }
 ]
