@@ -1,128 +1,5 @@
 [
   {
-    "market": "Kings vs. Hornets",
-    "market_slug": "nba-sac-cha-2026",
-    "event_slug": "nba-sac-cha-2026",
-    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-    "analysis": {
-      "score": 75,
-      "flags": [
-        "Against trend (7.0% effective odds)",
-        "Large bet ($3,305)",
-        "Top trader #36 ($2,352,325 profit)"
-      ],
-      "amount": 3304.9674000000005,
-      "odds": 0.07,
-      "raw_price": 0.07,
-      "outcome": "Kings",
-      "potential_pnl": 43908.8526,
-      "pnl_multiplier": 13.285714285714283,
-      "wallet_age_days": 22,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-24T23:17:57.802172",
-    "trade_hash": "0x4187deecd912ff2eb147282751488b06c3737917375fdd83c6576ec542323bae",
-    "trade_timestamp": 1774394031,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": {
-      "rank": 36,
-      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
-      "profit": 2352325.0223185676,
-      "volume": 201431643.29081097,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade_data": {
-      "outcome": "Kings",
-      "side": "BUY",
-      "price": 0.07,
-      "effective_price": 0.07,
-      "size": 47213.82,
-      "amount": 3304.9674000000005,
-      "potential_pnl": 43908.8526,
-      "pnl_multiplier": 13.285714285714283,
-      "is_no": false,
-      "slug": "nba-sac-cha-2026",
-      "eventSlug": "nba-sac-cha-2026-03-24"
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Longshot (7%) in medium bias category (sports)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.034,
-      "market_price": 0.07,
-      "edge": 0.036000000000000004,
-      "edge_percent": 3.6000000000000005,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Kings must significantly improve their performance",
-          "Hornets must underperform relative to expectations",
-          "Injuries to key players on the Hornets"
-        ],
-        "weakest_link": "Kings must significantly improve their performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team dynamics and player performance",
-        "injuries affecting team outcomes"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 75,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 75,
-      "insider_position": "KINGS",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": false,
-      "edge": 0.036000000000000004,
-      "edge_percent": 3.6000000000000005
-    },
-    "financial_analyst": {
-      "signal_quality": 30.4,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 3.6,
-      "signal_strength": 75.0,
-      "insider_score": 75.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449580+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Golden Knights vs. Jets: O/U 5.5",
     "market_slug": "nhl-las-wpg-2026-03-24-total-5pt5",
     "event_slug": "nhl-las-wpg-2026-03-24-total-5pt5",
@@ -32541,6 +32418,52 @@
     "market_slug": "atp-cina-blockx-2026-05-06",
     "amount": 3538.8663,
     "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated strong recent form, including a semifinal finish in Madrid and a career-high ATP ranking of No. 36.\nIn April 2026, Blockx reached the semifinals in Madrid, defeating the defending champion, Casper Ruud. (elpais.com) He achieved a career-high ATP singles ranking of No. 36 on May 4, 2026. (en.wikipedia.org) Federico Cina, currently ranked No. 225, has not faced Blockx in recorded matches. (tennisratio.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x89d4ae4c759fbd6472353c7e414b5ad7621bc47ee2b23170cd0503cb5fbd5df0",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf0f7f99300c5fa7ebedd7b7d806b97528c580c5a",
+      "side": "BUY",
+      "asset": "74337260583420719107801330037691011117016393387840418649332438279776079642294",
+      "conditionId": "0x118a61cee23dd6674c5666e673103fc7a3eac2fa857779ef205f60254dbc5834",
+      "size": 6766.84,
+      "price": 0.49,
+      "timestamp": 1778007798,
+      "title": "Arsenal FC vs. Club Atl\u00e9tico de Madrid: O/U 2.5",
+      "slug": "ucl-ars-atm1-2026-05-05-total-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-ars-atm1-2026-05-05-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "us291",
+      "pseudonym": "Unconscious-Dish",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x89d4ae4c759fbd6472353c7e414b5ad7621bc47ee2b23170cd0503cb5fbd5df0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Arsenal FC vs. Club Atl\u00e9tico de Madrid: O/U 2.5",
+    "market_slug": "ucl-ars-atm1-2026-05-05-more-markets",
+    "amount": 3315.7516,
+    "ai_context": "\u2705 COPY \u2014 Recent matches between Arsenal and Atl\u00e9tico Madrid have seen a total of 2 or more goals, supporting the Over 2.5 bet.\nIn their last five encounters, four matches had over 1.5 goals, and one had over 2.5 goals. (footystats.org) In their most recent match on April 29, 2026, Arsenal and Atl\u00e9tico Madrid drew 1-1, totaling 2 goals. (skysports.com) Arsenal's recent form includes a 3-0 win against Fulham and a 1-0 win against Newcastle United, both at home. (skysports.",
     "ai_verdict": "COPY"
   }
 ]
