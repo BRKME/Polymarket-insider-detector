@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xebc6a66e5652de0f38e89b63e18ab5618c2326fa3a913334d10f460c5baa7492",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 14,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 4955661.636137511,
-      "volume": 529047708.505991,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
-      "side": "BUY",
-      "asset": "12418350741378781744860560828146316728362490721342422717268337544338667097601",
-      "conditionId": "0x3e15bfe9a5daabca8e5a56e96e390480015e478fc0ba39241cf0bd6c6d16a89f",
-      "size": 11990.9,
-      "price": 0.55,
-      "timestamp": 1774393089,
-      "title": "Blackhawks vs. Islanders: O/U 6.5",
-      "slug": "nhl-chi-nyi-2026-03-24-total-6pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-chi-nyi-2026-03-24",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "CemeterySun",
-      "pseudonym": "Pale-Bend",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xebc6a66e5652de0f38e89b63e18ab5618c2326fa3a913334d10f460c5baa7492",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Blackhawks vs. Islanders: O/U 6.5",
-    "market_slug": "nhl-chi-nyi-2026-03-24",
-    "amount": 6594.995,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449570+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Kings vs. Hornets",
     "market_slug": "nba-sac-cha-2026",
     "event_slug": "nba-sac-cha-2026",
@@ -32547,6 +32495,52 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head statistics indicate a high likelihood of both teams scoring.\nIn the last five encounters between Arsenal and Atl\u00e9tico Madrid, three matches featured both teams scoring. (footystats.org) Additionally, Arsenal's key creative player, Martin \u00d8degaard, is available for selection, enhancing their offensive capabilities. (si.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc4b65e206663f8a0691d09e8310b87bc11c089b9fa73cff56a88a9265783a987",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4f7582a61cccfc53718941d229f0b9247d9daf7e",
+      "side": "SELL",
+      "asset": "64701956722947251492972133346952581977819422571157419930937530139847495051526",
+      "conditionId": "0xa8c61b755ace38e650a228a62a85a49235fe83f761bd91badcc7dadaaca2c19c",
+      "size": 4560.04,
+      "price": 0.7760603635055833,
+      "timestamp": 1778003356,
+      "title": "Internazionali BNL d'Italia: Federico Cina vs Alexander Blockx",
+      "slug": "atp-cina-blockx-2026-05-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-cina-blockx-2026-05-06",
+      "outcome": "Alexander Blockx",
+      "outcomeIndex": 1,
+      "name": "WynnWaldorf",
+      "pseudonym": "Unlined-Suburb",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc4b65e206663f8a0691d09e8310b87bc11c089b9fa73cff56a88a9265783a987",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Federico Cina vs Alexander Blockx",
+    "market_slug": "atp-cina-blockx-2026-05-06",
+    "amount": 3538.8663,
+    "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated strong recent form, including a semifinal finish in Madrid and a career-high ATP ranking of No. 36.\nIn April 2026, Blockx reached the semifinals in Madrid, defeating the defending champion, Casper Ruud. (elpais.com) He achieved a career-high ATP singles ranking of No. 36 on May 4, 2026. (en.wikipedia.org) Federico Cina, currently ranked No. 225, has not faced Blockx in recorded matches. (tennisratio.",
     "ai_verdict": "COPY"
   }
 ]
