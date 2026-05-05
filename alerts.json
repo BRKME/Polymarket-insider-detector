@@ -1,118 +1,5 @@
 [
   {
-    "market": "Golden Knights vs. Jets: O/U 5.5",
-    "market_slug": "nhl-las-wpg-2026-03-24-total-5pt5",
-    "event_slug": "nhl-las-wpg-2026-03-24-total-5pt5",
-    "wallet": "0xe61e53d178e357eab709a37ae03c739240a3f5f7",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,334)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1333.86,
-      "odds": 0.47,
-      "raw_price": 0.47,
-      "outcome": "Under",
-      "potential_pnl": 1504.14,
-      "pnl_multiplier": 1.1276595744680853,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-25T00:02:50.397394",
-    "trade_hash": "0xe8246979c77ce32685f5c85c90973f041291dd912fe67536b507f51955fc728d",
-    "trade_timestamp": 1774396681,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.47,
-      "effective_price": 0.47,
-      "size": 2838.0,
-      "amount": 1333.86,
-      "potential_pnl": 1504.14,
-      "pnl_multiplier": 1.1276595744680853,
-      "is_no": false,
-      "slug": "nhl-las-wpg-2026-03-24-total-5pt5",
-      "eventSlug": "nhl-las-wpg-2026-03-24"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+23.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23399999999999999,
-      "market_price": 0.47,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Goalies perform below average",
-          "Game goes into overtime"
-        ],
-        "weakest_link": "Goalies perform below average"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury status of key offensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.236,
-      "edge_percent": 23.599999999999998
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 23.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449589+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xb71a260eb470c75c7f20718eb32c792353cf058022656b5ca4cb00d32702ca85",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
@@ -32464,6 +32351,52 @@
     "market_slug": "ucl-ars-atm1-2026-05-05-more-markets",
     "amount": 3315.7516,
     "ai_context": "\u2705 COPY \u2014 Recent matches between Arsenal and Atl\u00e9tico Madrid have seen a total of 2 or more goals, supporting the Over 2.5 bet.\nIn their last five encounters, four matches had over 1.5 goals, and one had over 2.5 goals. (footystats.org) In their most recent match on April 29, 2026, Arsenal and Atl\u00e9tico Madrid drew 1-1, totaling 2 goals. (skysports.com) Arsenal's recent form includes a 3-0 win against Fulham and a 1-0 win against Newcastle United, both at home. (skysports.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd2f1eaa75e678eb7c6f679e4f8a50ef0e4acdd4c9e96ae3dcef3b694d0927b3a",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7a496671c81b436111eab24ceddf8eb680d9d9f5",
+      "side": "BUY",
+      "asset": "109097593723834860977466902606780660853528686081320280860347028728942311685209",
+      "conditionId": "0x069189619c7ae96da2abd767071f659190af6cadf9ef1c0b875f99268b5b4ebe",
+      "size": 1672,
+      "price": 0.72,
+      "timestamp": 1778011736,
+      "title": "Will Arsenal FC win on 2026-05-05?",
+      "slug": "ucl-ars-atm1-2026-05-05-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-ars-atm1-2026-05-05",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Car-c",
+      "pseudonym": "Flowery-Overclocking",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd2f1eaa75e678eb7c6f679e4f8a50ef0e4acdd4c9e96ae3dcef3b694d0927b3a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-05-05?",
+    "market_slug": "ucl-ars-atm1-2026-05-05",
+    "amount": 1203.84,
+    "ai_context": "\u2705 COPY \u2014 Arsenal is leading Atl\u00e9tico Madrid 1-0 in the second leg of the Champions League semi-final at halftime.\nIn the first leg, Arsenal drew 1-1 with Atl\u00e9tico Madrid, with both goals coming from penalties. (fourfourtwo.com)\nArsenal's recent form includes a 1-0 victory over Atl\u00e9tico Madrid in the second leg of the Champions League semi-final, with Bukayo Saka scoring the decisive goal. (elpais.",
     "ai_verdict": "COPY"
   }
 ]
