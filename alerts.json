@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb71a260eb470c75c7f20718eb32c792353cf058022656b5ca4cb00d32702ca85",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
-      "side": "BUY",
-      "asset": "23233394988453138676453756568931964683203148302915027263468721213424953033444",
-      "conditionId": "0xbd4c47f29092f81f777211bb56e17a6658e80992fb87db766f679160be3241c3",
-      "size": 3403.36,
-      "price": 0.8687263469042358,
-      "timestamp": 1774414401,
-      "title": "Nuggets vs. Suns",
-      "slug": "nba-den-phx-2026-03-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-den-phx-2026-03-24",
-      "outcome": "Nuggets",
-      "outcomeIndex": 0,
-      "name": "knedloveprovelo",
-      "pseudonym": "Weighty-Rifle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb71a260eb470c75c7f20718eb32c792353cf058022656b5ca4cb00d32702ca85",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Nuggets vs. Suns",
-    "market_slug": "nba-den-phx-2026-03-24",
-    "amount": 2956.5885,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449599+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-24 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "US x Iran ceasefire by March 31?",
     "market_slug": "us-x-iran-ceasefire-by-march-31",
     "event_slug": "us-x-iran-ceasefire-by-march-31",
@@ -32398,5 +32346,51 @@
     "amount": 1203.84,
     "ai_context": "\u2705 COPY \u2014 Arsenal is leading Atl\u00e9tico Madrid 1-0 in the second leg of the Champions League semi-final at halftime.\nIn the first leg, Arsenal drew 1-1 with Atl\u00e9tico Madrid, with both goals coming from penalties. (fourfourtwo.com)\nArsenal's recent form includes a 1-0 victory over Atl\u00e9tico Madrid in the second leg of the Champions League semi-final, with Bukayo Saka scoring the decisive goal. (elpais.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1e7a95d72cc6f7dc93696ffd5bc3f6bd0bf1d44a404cacfb4082990c1a9ea12a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc408cf3d54aedccbb5c604fc887a1a8a8d93c1ef",
+      "side": "BUY",
+      "asset": "10517639650340042170162963943507666530457679359623098740380403740275054315713",
+      "conditionId": "0x14b96a831bcbfd220cf671f5decba81e3f920d24cd7ade51103b1112d2a190e5",
+      "size": 4300,
+      "price": 0.49,
+      "timestamp": 1778015412,
+      "title": "Cavaliers vs. Pistons: O/U 215.5",
+      "slug": "nba-cle-det-2026-05-05-total-215pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-det-2026-05-05",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "GeorgeIII",
+      "pseudonym": "Trivial-Pop",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1e7a95d72cc6f7dc93696ffd5bc3f6bd0bf1d44a404cacfb4082990c1a9ea12a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Pistons: O/U 215.5",
+    "market_slug": "nba-cle-det-2026-05-05",
+    "amount": 2107.0,
+    "ai_context": "\u274c SKIP \u2014 Recent matchups between the Cavaliers and Pistons have consistently exceeded the 215.5 point total.\nIn their last three encounters, the games ended with scores of 113-109, 122-119, and 128-121, all surpassing the 215.5 point threshold. (landofbasketball.com) Additionally, the most recent game on March 3, 2026, ended with a total of 222 points. (youtube.",
+    "ai_verdict": "SKIP"
   }
 ]
