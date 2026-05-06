@@ -1,231 +1,5 @@
 [
   {
-    "market": "Hawks vs. Pistons: O/U 228.5",
-    "market_slug": "nba-atl-det-2026-03-25-total-228pt5",
-    "event_slug": "nba-atl-det-2026-03-25-total-228pt5",
-    "wallet": "0x0aa71d328fdafccca7a14d73f339e61685b8aa68",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,080)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1079.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1079.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-25T18:36:34.518926",
-    "trade_hash": "0xaa1327fc15f13d032abba8cb11bce4b5c54b3e90fcfd2f54067129c413f8dce1",
-    "trade_timestamp": 1774463545,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2159.0,
-      "amount": 1079.5,
-      "potential_pnl": 1079.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-atl-det-2026-03-25-total-228pt5",
-      "eventSlug": "nba-atl-det-2026-03-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring games",
-          "Key players are healthy and performing well",
-          "Defensive weaknesses are exploited"
-        ],
-        "weakest_link": "Defensive weaknesses are exploited"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449640+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Hawks vs. Pistons: O/U 228.5",
-    "market_slug": "nba-atl-det-2026-03-25-total-228pt5",
-    "event_slug": "nba-atl-det-2026-03-25-total-228pt5",
-    "wallet": "0x0e2d7e5fae80ff89c5ddf1f03829f5ab2d3ac099",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,490)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1490.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1490.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-25T18:36:37.518799",
-    "trade_hash": "0x45fe0e33ef13d295daff7a1b27177d1bb053b109d99773921b73bcd1a08582d2",
-    "trade_timestamp": 1774463545,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2981.0,
-      "amount": 1490.5,
-      "potential_pnl": 1490.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-atl-det-2026-03-25-total-228pt5",
-      "eventSlug": "nba-atl-det-2026-03-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong offensive performances",
-          "Defensive weaknesses from both teams",
-          "Game pace is fast with high possessions"
-        ],
-        "weakest_link": "Defensive weaknesses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injuries affecting key defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449650+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x70c2bdae14f629cc16e48f5f93e4fda1ac33c2cb58c5dabe182f294ddb1db5b8",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -32153,5 +31927,161 @@
     "amount": 1243.999999,
     "ai_context": "\u2705 COPY \u2014 Alexandra Eala has a strong recent record and is facing an opponent with a losing streak.\nEala has a 5-5 record in her last 10 matches, while Frech has lost her last 4 matches. (tennisratio.com)",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Will Finland be in the top 3 at Eurovision 2026?",
+    "market_slug": "will-finland-be-in-the-top-3-at-eurovision-2026",
+    "event_slug": "will-finland-be-in-the-top-3-at-eurovision-2026",
+    "wallet": "0x39214566cef8c29fa355d7dddf8636d242cd3368",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,292)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1291.719998,
+      "odds": 0.7294995745127028,
+      "raw_price": 0.7294995745127028,
+      "outcome": "Yes",
+      "potential_pnl": 478.973287,
+      "pnl_multiplier": 0.3708027186554404,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-05-06T17:53:01.899089",
+    "trade_hash": "0x649b976aff527d2758165c908afb8b0ef4728101c01b4b02e0e2a7c845b90f4f",
+    "trade_timestamp": 1778089731,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.7294995745127028,
+      "effective_price": 0.7294995745127028,
+      "size": 1770.693285,
+      "amount": 1291.719998,
+      "potential_pnl": 478.973287,
+      "pnl_multiplier": 0.3708027186554404,
+      "is_no": false,
+      "conditionId": "0xefb4d37ec67929c1bbffb16454c5bb8bf574ed367f52c54495a28f0717a1e005",
+      "slug": "will-finland-be-in-the-top-3-at-eurovision-2026",
+      "eventSlug": "eurovision-2026-top-3"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+52.4%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.20589991490254056,
+      "market_price": 0.7294995745127028,
+      "edge": 0.5235996596101622,
+      "edge_percent": 52.35996596101622,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Finland submits a strong and competitive entry",
+          "The competition field is less competitive than usual",
+          "Public and jury voting aligns favorably for Finland"
+        ],
+        "weakest_link": "The competition field is less competitive than usual"
+      },
+      "category": "other",
+      "narrative_drivers": [
+        "Finland's recent performance trends in Eurovision",
+        "Cultural and musical shifts influencing public taste"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5235996596101622,
+      "edge_percent": 52.35996596101622
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 52.36,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Finland's entry \"Liekinheitin\" is leading the Eurovision 2026 betting odds with a 35.6% win probability.\nThe song \"Liekinheitin\" by Linda Lampenius and Pete Parkkonen won Finland's national selection, Uuden Musiikin Kilpailu 2026, and is currently the favorite to win Eurovision 2026 with a 35.6% win probability. (eurovisioncentral.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0631630f9e0a9396b71f3aaeb00335b5630071b048ae05cea141dd1beb563186",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "35152226557771314113301586118235582163025780118636790446811882601553415707633",
+      "conditionId": "0xe7f37f5ee1423ce2c3b43cbb9eedd67a6da1c6f4dea1483e1410af3831a1f743",
+      "size": 1480.62,
+      "price": 0.78,
+      "timestamp": 1778090473,
+      "title": "Timberwolves vs. Spurs",
+      "slug": "nba-min-sas-2026-05-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-sas-2026-05-06",
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0631630f9e0a9396b71f3aaeb00335b5630071b048ae05cea141dd1beb563186",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Spurs",
+    "market_slug": "nba-min-sas-2026-05-06",
+    "amount": 1154.8836,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Timberwolves, and the Spurs have struggled in their recent matchups.\nIn the 2025-2026 season, the Timberwolves lead the series 2-1, including a 126-123 victory on January 17, 2026. (champsorchumps.us) Additionally, the Spurs have a 22-60 record over the past two seasons, indicating a period of underperformance. (en.wikipedia.org) However, the trader may have access to insider information or analysis not publicly available.",
+    "ai_verdict": "SKIP"
   }
 ]
