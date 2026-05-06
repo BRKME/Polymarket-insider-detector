@@ -1,30 +1,30 @@
 {
-  "last_run": "2026-05-05T07:55:11.522347+00:00",
-  "total_checked": 885,
-  "total_resolved": 539,
+  "last_run": "2026-05-06T08:08:32.311292+00:00",
+  "total_checked": 952,
+  "total_resolved": 544,
   "total_unresolved": 0,
-  "insider_wins": 93,
+  "insider_wins": 95,
   "insider_losses": 139,
   "model_correct": 37,
   "model_wrong": 7,
-  "model_na": 495,
-  "total_pnl": -97328.98,
+  "model_na": 500,
+  "total_pnl": -96397.08,
   "by_signal_type": {
     "TOP_TRADER": {
-      "total": 186,
-      "insider_wins": 69,
+      "total": 190,
+      "insider_wins": 71,
       "insider_losses": 102,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 186
+      "model_na": 190
     },
     "CONFLICT": {
-      "total": 35,
+      "total": 36,
       "insider_wins": 10,
       "insider_losses": 24,
       "model_correct": 20,
       "model_wrong": 4,
-      "model_na": 11
+      "model_na": 12
     },
     "ALPHA": {
       "total": 19,
@@ -45,12 +45,12 @@
   },
   "by_category": {
     "unknown": {
-      "total": 186,
-      "insider_wins": 69,
+      "total": 190,
+      "insider_wins": 71,
       "insider_losses": 102,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 186
+      "model_na": 190
     },
     "politics_near": {
       "total": 9,
@@ -77,12 +77,12 @@
       "model_na": 2
     },
     "sports": {
-      "total": 14,
+      "total": 15,
       "insider_wins": 6,
       "insider_losses": 6,
       "model_correct": 0,
       "model_wrong": 0,
-      "model_na": 14
+      "model_na": 15
     },
     "crypto": {
       "total": 2,
@@ -95,20 +95,20 @@
   },
   "by_ai_verdict": {
     "SKIP": {
-      "total": 47,
+      "total": 48,
       "insider_wins": 21,
       "insider_losses": 25,
       "model_correct": 4,
       "model_wrong": 0,
-      "model_na": 43
+      "model_na": 44
     },
     "COPY": {
-      "total": 97,
-      "insider_wins": 40,
+      "total": 101,
+      "insider_wins": 42,
       "insider_losses": 45,
       "model_correct": 2,
       "model_wrong": 1,
-      "model_na": 94
+      "model_na": 98
     },
     "LEAN_COPY": {
       "total": 4,
@@ -226,6 +226,16 @@
       "still_open": 59,
       "total_resolved": 539,
       "insider_wins": 93,
+      "insider_losses": 139,
+      "model_correct": 37,
+      "model_wrong": 7
+    },
+    {
+      "date": "2026-05-06",
+      "newly_resolved": 5,
+      "still_open": 62,
+      "total_resolved": 544,
+      "insider_wins": 95,
       "insider_losses": 139,
       "model_correct": 37,
       "model_wrong": 7

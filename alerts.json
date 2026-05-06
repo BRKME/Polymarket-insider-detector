@@ -31859,7 +31859,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head statistics indicate a high likelihood of both teams scoring.\nIn the last five encounters between Arsenal and Atl\u00e9tico Madrid, three matches featured both teams scoring. (footystats.org) Additionally, Arsenal's key creative player, Martin \u00d8degaard, is available for selection, enhancing their offensive capabilities. (si.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Club Atl\u00e9tico de Madrid",
+      "checked_at": "2026-05-06T08:08:25.716726+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31905,7 +31912,8 @@
     "market_slug": "atp-cina-blockx-2026-05-06",
     "amount": 3538.8663,
     "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated strong recent form, including a semifinal finish in Madrid and a career-high ATP ranking of No. 36.\nIn April 2026, Blockx reached the semifinals in Madrid, defeating the defending champion, Casper Ruud. (elpais.com) He achieved a career-high ATP singles ranking of No. 36 on May 4, 2026. (en.wikipedia.org) Federico Cina, currently ranked No. 225, has not faced Blockx in recorded matches. (tennisratio.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-06T08:08:26.608248+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31951,7 +31959,14 @@
     "market_slug": "ucl-ars-atm1-2026-05-05-more-markets",
     "amount": 3315.7516,
     "ai_context": "\u2705 COPY \u2014 Recent matches between Arsenal and Atl\u00e9tico Madrid have seen a total of 2 or more goals, supporting the Over 2.5 bet.\nIn their last five encounters, four matches had over 1.5 goals, and one had over 2.5 goals. (footystats.org) In their most recent match on April 29, 2026, Arsenal and Atl\u00e9tico Madrid drew 1-1, totaling 2 goals. (skysports.com) Arsenal's recent form includes a 3-0 win against Fulham and a 1-0 win against Newcastle United, both at home. (skysports.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Club Atl\u00e9tico de Madrid",
+      "checked_at": "2026-05-06T08:08:27.742704+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31997,7 +32012,14 @@
     "market_slug": "ucl-ars-atm1-2026-05-05",
     "amount": 1203.84,
     "ai_context": "\u2705 COPY \u2014 Arsenal is leading Atl\u00e9tico Madrid 1-0 in the second leg of the Champions League semi-final at halftime.\nIn the first leg, Arsenal drew 1-1 with Atl\u00e9tico Madrid, with both goals coming from penalties. (fourfourtwo.com)\nArsenal's recent form includes a 1-0 victory over Atl\u00e9tico Madrid in the second leg of the Champions League semi-final, with Bukayo Saka scoring the decisive goal. (elpais.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-06T08:08:29.006588+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 468.16
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32043,7 +32065,14 @@
     "market_slug": "nba-cle-det-2026-05-05",
     "amount": 2107.0,
     "ai_context": "\u274c SKIP \u2014 Recent matchups between the Cavaliers and Pistons have consistently exceeded the 215.5 point total.\nIn their last three encounters, the games ended with scores of 113-109, 122-119, and 128-121, all surpassing the 215.5 point threshold. (landofbasketball.com) Additionally, the most recent game on March 3, 2026, ended with a total of 222 points. (youtube.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-05-06T08:08:30.245143+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32089,7 +32118,14 @@
     "market_slug": "nba-cle-det-2026-05-05",
     "amount": 1644.1853999999998,
     "ai_context": "\u2705 COPY \u2014 Pistons have a strong recent record and favorable head-to-head against the Cavaliers.\nIn their last five matchups, the Pistons have won three games, including a 133-122 victory on March 28, 2025. (basketballstats.net) Additionally, the Pistons have won nine of their last 11 games, demonstrating strong form. (foxsports.com)\nGiven these factors, the trader's bet on the Pistons is supported by recent performance and head-to-head history.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-05-06T08:08:31.409938+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 463.74
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -32135,7 +32171,8 @@
     "market_slug": "nba-playoffs-who-will-win-series-spurs-vs-timberwolves",
     "amount": 1351.9114000000002,
     "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head record favor the Timberwolves.\nThe Timberwolves have won two of their last three matchups against the Spurs, including a 104-103 victory on January 11, 2026. However, star player Anthony Edwards is out with a knee injury, and Donte DiVincenzo is out for the season with a torn Achilles. (axios.com)\nThe Spurs have a strong season record of 62-20, while the Timberwolves are 49-33. (espn.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-06T08:08:32.311260+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -32181,6 +32218,7 @@
     "market_slug": "2026-fifa-world-cup-winner-595",
     "amount": 24960.0,
     "ai_context": "\u274c SKIP \u2014 France is among the favorites to win the 2026 FIFA World Cup, with a strong squad and favorable odds.\nFrance is currently priced at 8/1 to win the World Cup, placing them alongside top contenders like Brazil and Argentina. (squawka.com) Their squad includes key players such as Kylian Mbapp\u00e9, Ousmane Demb\u00e9l\u00e9, and Michael Olise. (fifa.com) Additionally, France has a strong track record in recent World Cups, reaching the final four on four occasions in the last seven tournaments. (squawka.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-06T08:08:32.311288+00:00"
   }
 ]
