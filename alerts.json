@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x70c2bdae14f629cc16e48f5f93e4fda1ac33c2cb58c5dabe182f294ddb1db5b8",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
-      "side": "BUY",
-      "asset": "50181829773967147829359812554458694670840538126923475302035540013208537232772",
-      "conditionId": "0x582c66d505843a09b656d6d120d5616d1004150f9de25e3158b0037ee5104c0d",
-      "size": 4010,
-      "price": 0.45,
-      "timestamp": 1774477125,
-      "title": "Rangers vs. Maple Leafs",
-      "slug": "nhl-nyr-tor-2026-03-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-nyr-tor-2026-03-25",
-      "outcome": "Maple Leafs",
-      "outcomeIndex": 1,
-      "name": "elkmonkey",
-      "pseudonym": "Unconscious-Penguin",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x70c2bdae14f629cc16e48f5f93e4fda1ac33c2cb58c5dabe182f294ddb1db5b8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Rangers vs. Maple Leafs",
-    "market_slug": "nhl-nyr-tor-2026-03-25",
-    "amount": 1804.5,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449658+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Russia x Ukraine ceasefire by end of 2026?",
     "market_slug": "russia-x-ukraine-ceasefire-before-2027",
     "event_slug": "russia-x-ukraine-ceasefire-before-2027",
@@ -32083,5 +32031,51 @@
     "amount": 1154.8836,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Timberwolves, and the Spurs have struggled in their recent matchups.\nIn the 2025-2026 season, the Timberwolves lead the series 2-1, including a 126-123 victory on January 17, 2026. (champsorchumps.us) Additionally, the Spurs have a 22-60 record over the past two seasons, indicating a period of underperformance. (en.wikipedia.org) However, the trader may have access to insider information or analysis not publicly available.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x67512d3bdb96d0029f43dc32d48bd712f2cde30cb1aee283efbc1112431e1e50",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84f820558e744c1debe52f499a919c115c3b0ff2",
+      "side": "BUY",
+      "asset": "46036307473347147486878725188057240439237346445231099615680388314304154599904",
+      "conditionId": "0x80ebf0a88a44bf737d4047b3accd7108285c69b84257e5c684bdc4c715c81139",
+      "size": 2000,
+      "price": 0.76,
+      "timestamp": 1778094624,
+      "title": "Will the U.S. invade Cuba in 2026?",
+      "slug": "will-the-us-invade-cuba-in-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-strike-on-cuba-by-EstR5MqlPUOe.jpg",
+      "eventSlug": "will-the-us-invade-cuba-in-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "OneBadBet",
+      "pseudonym": "Immaculate-Hassock",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/tat7_d14a8b29-554f-478c-879b-00d567a33d5e_1738620118748.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x67512d3bdb96d0029f43dc32d48bd712f2cde30cb1aee283efbc1112431e1e50",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the U.S. invade Cuba in 2026?",
+    "market_slug": "will-the-us-invade-cuba-in-2026",
+    "amount": 1520.0,
+    "ai_context": "\u2705 COPY \u2014 Recent U.S. military activities near Cuba are routine exercises, not preparations for invasion.\nIn March 2026, General Francis Donovan confirmed that the U.S. military is not rehearsing to invade Cuba or actively preparing to militarily take over the island. (ksl.com) Additionally, in April 2026, U.S. State Department officials engaged in high-level talks with Cuban government representatives in Havana, marking a potential thaw in U.S.-Cuba relations. (axios.",
+    "ai_verdict": "COPY"
   }
 ]
