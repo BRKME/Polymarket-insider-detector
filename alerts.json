@@ -3,119 +3,6 @@
     "market": "Bucks vs. Trail Blazers: O/U 225.5",
     "market_slug": "nba-mil-por-2026-03-25-total-225pt5",
     "event_slug": "nba-mil-por-2026-03-25-total-225pt5",
-    "wallet": "0xdc764e559fce0fa1d0c5bb8c79215a282928fd50",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,416)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1415.76,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Over",
-      "potential_pnl": 1360.24,
-      "pnl_multiplier": 0.9607843137254902,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-25T14:54:14.475118",
-    "trade_hash": "0x7792e6a3f399b0467bec8bcdacaee73040ab5cffdacdab6d7c4c09acfb180bac",
-    "trade_timestamp": 1774450079,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2776.0,
-      "amount": 1415.76,
-      "potential_pnl": 1360.24,
-      "pnl_multiplier": 0.9607843137254902,
-      "is_no": false,
-      "slug": "nba-mil-por-2026-03-25-total-225pt5",
-      "eventSlug": "nba-mil-por-2026-03-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are ineffective",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive strategies are ineffective"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449622+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Bucks vs. Trail Blazers: O/U 225.5",
-    "market_slug": "nba-mil-por-2026-03-25-total-225pt5",
-    "event_slug": "nba-mil-por-2026-03-25-total-225pt5",
     "wallet": "0xe72381757595ffd1f9f0cbb13547b57e42563d61",
     "analysis": {
       "score": 70,
@@ -32249,5 +32136,51 @@
     "amount": 1351.9114000000002,
     "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head record favor the Timberwolves.\nThe Timberwolves have won two of their last three matchups against the Spurs, including a 104-103 victory on January 11, 2026. However, star player Anthony Edwards is out with a knee injury, and Donte DiVincenzo is out for the season with a torn Achilles. (axios.com)\nThe Spurs have a strong season record of 62-20, while the Timberwolves are 49-33. (espn.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x157df672e06aef78ac4ad0d05c2466ad4da28a7a13a8a8b48eb053d488574b37",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xccc1afdec8b8a8d7770eeabc0041b610c621889d",
+      "side": "SELL",
+      "asset": "32270411694523539495262303868629477861017829722282576458031815333486368239544",
+      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "size": 30000,
+      "price": 0.832,
+      "timestamp": 1778035190,
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "slug": "will-france-win-the-2026-fifa-world-cup-924",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
+      "eventSlug": "2026-fifa-world-cup-winner-595",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "66601",
+      "pseudonym": "Complex-Assembly",
+      "bio": "it shows fake PNL here lol",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7025696-80c9c660-7d48-4af8-9b57-121d2d1cf9fa.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x157df672e06aef78ac4ad0d05c2466ad4da28a7a13a8a8b48eb053d488574b37",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will France win the 2026 FIFA World Cup?",
+    "market_slug": "2026-fifa-world-cup-winner-595",
+    "amount": 24960.0,
+    "ai_context": "\u274c SKIP \u2014 France is among the favorites to win the 2026 FIFA World Cup, with a strong squad and favorable odds.\nFrance is currently priced at 8/1 to win the World Cup, placing them alongside top contenders like Brazil and Argentina. (squawka.com) Their squad includes key players such as Kylian Mbapp\u00e9, Ousmane Demb\u00e9l\u00e9, and Michael Olise. (fifa.com) Additionally, France has a strong track record in recent World Cups, reaching the final four on four occasions in the last seven tournaments. (squawka.",
+    "ai_verdict": "SKIP"
   }
 ]
