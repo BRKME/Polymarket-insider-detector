@@ -1,118 +1,5 @@
 [
   {
-    "market": "Bucks vs. Trail Blazers: O/U 225.5",
-    "market_slug": "nba-mil-por-2026-03-25-total-225pt5",
-    "event_slug": "nba-mil-por-2026-03-25-total-225pt5",
-    "wallet": "0xe72381757595ffd1f9f0cbb13547b57e42563d61",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,478)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1477.84,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Under",
-      "potential_pnl": 1538.16,
-      "pnl_multiplier": 1.0408163265306123,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-25T14:54:19.103117",
-    "trade_hash": "0x591d32ae169cc45914391798ccdbeb2d76a379a3fb9927d1a3b83adb0f9ca635",
-    "trade_timestamp": 1774450291,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 3016.0,
-      "amount": 1477.84,
-      "potential_pnl": 1538.16,
-      "pnl_multiplier": 1.0408163265306123,
-      "is_no": false,
-      "slug": "nba-mil-por-2026-03-25-total-225pt5",
-      "eventSlug": "nba-mil-por-2026-03-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high offensive efficiency",
-          "Both teams have low defensive efficiency",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Both teams have low defensive efficiency"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449631+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Hawks vs. Pistons: O/U 228.5",
     "market_slug": "nba-atl-det-2026-03-25-total-228pt5",
     "event_slug": "nba-atl-det-2026-03-25-total-228pt5",
@@ -32220,5 +32107,51 @@
     "ai_context": "\u274c SKIP \u2014 France is among the favorites to win the 2026 FIFA World Cup, with a strong squad and favorable odds.\nFrance is currently priced at 8/1 to win the World Cup, placing them alongside top contenders like Brazil and Argentina. (squawka.com) Their squad includes key players such as Kylian Mbapp\u00e9, Ousmane Demb\u00e9l\u00e9, and Michael Olise. (fifa.com) Additionally, France has a strong track record in recent World Cups, reaching the final four on four occasions in the last seven tournaments. (squawka.",
     "ai_verdict": "SKIP",
     "resolution_last_check": "2026-05-06T08:08:32.311288+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x540d0d7d381dddcd83fc4553cb06ed237c853c4bbca1d26647ac6ec262af82f8",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde9d5da7d602ac4e76f2058168d054a0bb869688",
+      "side": "BUY",
+      "asset": "24877781728668334936598152269952680298188392702534804211772638851946006886393",
+      "conditionId": "0xa93a394daef4630e705cded4d854b20d8e035a53f8a1d7afc2122db78b18e730",
+      "size": 2704.347825,
+      "price": 0.4599999998151125,
+      "timestamp": 1778062802,
+      "title": "Internazionali BNL d'Italia: Alexandra Eala vs Magdalena Frech",
+      "slug": "wta-eala-frech-2026-05-05",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-eala-frech-2026-05-05",
+      "outcome": "Alexandra Eala",
+      "outcomeIndex": 0,
+      "name": "Dim703",
+      "pseudonym": "Uniform-Flight",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x540d0d7d381dddcd83fc4553cb06ed237c853c4bbca1d26647ac6ec262af82f8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Alexandra Eala vs Magdalena Frech",
+    "market_slug": "wta-eala-frech-2026-05-05",
+    "amount": 1243.999999,
+    "ai_context": "\u2705 COPY \u2014 Alexandra Eala has a strong recent record and is facing an opponent with a losing streak.\nEala has a 5-5 record in her last 10 matches, while Frech has lost her last 4 matches. (tennisratio.com)",
+    "ai_verdict": "COPY"
   }
 ]
