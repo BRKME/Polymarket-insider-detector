@@ -1,162 +1,5 @@
 [
   {
-    "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-    "event_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-    "wallet": "0xc6c1645421c076d26bf117f8960553ede1fc3a9d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($4,001)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 4000.959999,
-      "odds": 0.38221443099849767,
-      "raw_price": 0.38221443099849767,
-      "outcome": "Yes",
-      "potential_pnl": 6466.881282,
-      "pnl_multiplier": 1.6163324011278124,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-26T21:16:47.024644",
-    "trade_hash": "0x8acaa07487b74ddb432331f8604454134f4621474877bfc48d93d5f7749587bc",
-    "trade_timestamp": 1774559481,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.38221443099849767,
-      "effective_price": 0.38221443099849767,
-      "size": 10467.841281,
-      "amount": 4000.959999,
-      "potential_pnl": 6466.881282,
-      "pnl_multiplier": 1.6163324011278124,
-      "is_no": false,
-      "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-      "eventSlug": "next-prime-minister-of-hungary"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+16.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.21644288619969954,
-      "market_price": 0.38221443099849767,
-      "edge": 0.16577154479879813,
-      "edge_percent": 16.577154479879812,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Viktor Orb\u00e1n secures the nomination from his party",
-          "Orb\u00e1n maintains significant public support leading up to the next election",
-          "No major political scandals or crises arise that undermine his position"
-        ],
-        "weakest_link": "Orb\u00e1n's public support could wane due to economic issues or political scandals"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Orb\u00e1n's long-standing leadership and political experience",
-        "The current political climate and opposition strength"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.16577154479879813,
-      "edge_percent": 16.577154479879812
-    },
-    "financial_analyst": {
-      "signal_quality": 45.9,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 16.58,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:16.121133+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -4000.96
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x8f4f6abd7ab34d0bc56c1129f26cbc0df352910632eca5f2c4a16d18fb89d645",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7b02b2bac2a30ed5e40b7094e734f4c3dc2a4991",
-      "side": "BUY",
-      "asset": "95949957895141858444199258452803633110472396604599808168788254125381075552218",
-      "conditionId": "0x9352c559e9648ab4cab236087b64ca85c5b7123a4c7d9d7d4efde4a39c18056f",
-      "size": 69420,
-      "price": 0.78,
-      "timestamp": 1774560257,
-      "title": "Will the Iranian regime fall by June 30?",
-      "slug": "will-the-iranian-regime-fall-by-june-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-iranian-regime-fall-in-2025-YLXIniTmQs4q.png",
-      "eventSlug": "will-the-iranian-regime-fall-by-june-30",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "foodenjoyer",
-      "pseudonym": "Similar-Balloonist",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5560611-d85e5215-b379-4aef-a93c-e95b42d9dcbd.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8f4f6abd7ab34d0bc56c1129f26cbc0df352910632eca5f2c4a16d18fb89d645",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the Iranian regime fall by June 30?",
-    "market_slug": "will-the-iranian-regime-fall-by-june-30",
-    "amount": 15272.399999999998,
-    "resolution_last_check": "2026-04-26T07:40:16.826718+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xf212972a4b596bdecf1f0c0d3ddaab2e47d84d4935b82352dcef75d2374cb35b",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
@@ -31517,5 +31360,97 @@
     "amount": 1736.024,
     "ai_context": "\u2705 COPY \u2014 Ethan Quinn has a higher ATP ranking and recent match wins compared to Pablo Llamas Ruiz.\nQuinn is currently ranked No. 48, while Llamas Ruiz is No. 139. (en.wikipedia.org) In his last 10 matches, Quinn has a 5-5 record, whereas Llamas Ruiz has a 7-3 record. (matchstat.com)",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x474ba844ba6d919013880d8c3cfde4eb312d416d64427e8fc3027f996200656c",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764626998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcd6be6693e2bc11150d397caa9e6f7c6744b68f5",
+      "side": "BUY",
+      "asset": "31867385211987925701696042012772036156561382644688734856312468506547392739862",
+      "conditionId": "0x6114a8a3f9ac214f48a7e20d169f1c7a5c84082cb6f7058ed9fe1137b11fd0e7",
+      "size": 5000,
+      "price": 0.54,
+      "timestamp": 1778180483,
+      "title": "US x Iran permanent peace deal by June 30, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-june-30-2026-837-641-896-877",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "AlfredTheShiller",
+      "pseudonym": "Artistic-Tire",
+      "bio": "Varta \u2764\ufe0f",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-617982-3aa77d2f-ebaa-4683-8fc7-c4d2764b94bb.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x474ba844ba6d919013880d8c3cfde4eb312d416d64427e8fc3027f996200656c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by June 30, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 2700.0,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent diplomatic developments indicate potential progress toward a US-Iran peace deal by June 30, 2026.\nPresident Trump expressed optimism about ongoing talks with Iran, noting \"good talks\" had occurred within the last 24 hours and suggesting a deal could be within reach soon. The U.S. is awaiting Iran\u2019s response to a 14-point memorandum of understanding aimed at ending the conflict and establishing a foundation for future nuclear negotiations. (axios.",
+    "ai_verdict": "LEAN_COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe74086fc5e72a7a65cf43bef2f3083955cb7c532fce0137e6973cf84bcf146f6",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc84f7e76ec28ef20e7773b7b4926bfb7378be0c5",
+      "side": "BUY",
+      "asset": "34141894076461090122188007837560653115836547685839714096383156529096483178653",
+      "conditionId": "0xa1d97efb8a19de58d995edf58b882c4f99ef356c8a564af8daf888a7610edea1",
+      "size": 25000,
+      "price": 0.05,
+      "timestamp": 1778180780,
+      "title": "Kharg Island no longer under Iranian control by May 31?",
+      "slug": "kharg-island-no-longer-under-iranian-control-by-may-31-689",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/kharg-island-no-longer-under-iranian-control-by-march-31-j0_GAJMNgJ_G.jpg",
+      "eventSlug": "kharg-island-no-longer-under-iranian-control-by-march-31",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "BrightStars",
+      "pseudonym": "Foolish-Propane",
+      "bio": "Believe in something",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe74086fc5e72a7a65cf43bef2f3083955cb7c532fce0137e6973cf84bcf146f6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Kharg Island no longer under Iranian control by May 31?",
+    "market_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
+    "amount": 1250.0,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent developments indicate increased U.S. pressure on Kharg Island, but Iran maintains control for now.\nDespite U.S. efforts, including a blockade targeting Iran's oil exports, satellite data shows Iran continues oil loading at Kharg Island, maintaining control. (cryptobriefing.com) Kharg Island remains a critical oil export hub, handling approximately 90% of Iran's crude exports. (cfr.org) While U.S.",
+    "ai_verdict": "LEAN_COPY"
   }
 ]
