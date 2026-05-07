@@ -1,579 +1,5 @@
 [
   {
-    "market": "US forces enter Iran by March 31?",
-    "market_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-    "event_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-    "wallet": "0x0318fc68851009a84c16dcf7bdb579eca8576390",
-    "analysis": {
-      "score": 110,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,045)",
-        "Low activity (1 txns)",
-        "Pre-event latency: 7061m"
-      ],
-      "amount": 1045.0,
-      "odds": 0.19,
-      "raw_price": 0.19,
-      "outcome": "Yes",
-      "potential_pnl": 4455.0,
-      "pnl_multiplier": 4.2631578947368425,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-26T02:27:04.884369",
-    "trade_hash": "0x730778bc0ba71b19808d9f60a24cff1327ddc4fb987340ebf003a719d2790389",
-    "trade_timestamp": 1774491563,
-    "latency": {
-      "latency_seconds": 423637.0,
-      "latency_minutes": 7060.616666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-26T02:19:23+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.19,
-      "effective_price": 0.19,
-      "size": 5500.0,
-      "amount": 1045.0,
-      "potential_pnl": 4455.0,
-      "pnl_multiplier": 4.2631578947368425,
-      "is_no": false,
-      "slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-      "eventSlug": "us-forces-enter-iran-by"
-    },
-    "irrationality": {
-      "irrationality_score": 55,
-      "flags": [
-        "Longshot (19%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Significant mispricing edge (+12.8%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.062000000000000006,
-      "market_price": 0.19,
-      "edge": 0.128,
-      "edge_percent": 12.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Significant escalation of tensions between the US and Iran",
-          "Political support within the US government for military action",
-          "Mobilization of military resources and logistics for deployment"
-        ],
-        "weakest_link": "Political support within the US government for military action"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising regional threats perceived by the US",
-        "Influence of domestic political pressures on foreign policy decisions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 110,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 110,
-      "insider_position": "YES",
-      "irrationality_score": 55,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.128,
-      "edge_percent": 12.8
-    },
-    "financial_analyst": {
-      "signal_quality": 50.2,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 12.8,
-      "signal_strength": 110.0,
-      "insider_score": 110.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:14.607340+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1045.0
-    }
-  },
-  {
-    "market": "Pelicans vs. Pistons: O/U 225.5",
-    "market_slug": "nba-nop-det-2026-03-26-total-225pt5",
-    "event_slug": "nba-nop-det-2026-03-26-total-225pt5",
-    "wallet": "0x08f6aa11e4b14523712699549a3b88e4e75f7501",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,604)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1604.4080000000001,
-      "odds": 0.52,
-      "raw_price": 0.52,
-      "outcome": "Over",
-      "potential_pnl": 1480.992,
-      "pnl_multiplier": 0.923076923076923,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-26T08:10:00.163205",
-    "trade_hash": "0x2f462867988011b9a5bffc76efc66fd5bc41d85b21ebada2bb7d0b3602cc8541",
-    "trade_timestamp": 1774512353,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.52,
-      "effective_price": 0.52,
-      "size": 3085.4,
-      "amount": 1604.4080000000001,
-      "potential_pnl": 1480.992,
-      "pnl_multiplier": 0.923076923076923,
-      "is_no": false,
-      "slug": "nba-nop-det-2026-03-26-total-225pt5",
-      "eventSlug": "nba-nop-det-2026-03-26"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+27.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.244,
-      "market_price": 0.52,
-      "edge": 0.276,
-      "edge_percent": 27.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive weaknesses are exploited",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive weaknesses are exploited"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.276,
-      "edge_percent": 27.6
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 27.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449685+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Pelicans vs. Pistons: O/U 225.5",
-    "market_slug": "nba-nop-det-2026-03-26-total-225pt5",
-    "event_slug": "nba-nop-det-2026-03-26-total-225pt5",
-    "wallet": "0xea65e51817ee0ae7b20de0a750b268abbb3c152b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,191)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1191.32,
-      "odds": 0.52,
-      "raw_price": 0.52,
-      "outcome": "Over",
-      "potential_pnl": 1099.68,
-      "pnl_multiplier": 0.9230769230769231,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-26T08:10:04.471286",
-    "trade_hash": "0x03a32ab68a28a283f825cf54553f3d9508fa8859bc60ff31aa69e20d14448227",
-    "trade_timestamp": 1774512427,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.52,
-      "effective_price": 0.52,
-      "size": 2291.0,
-      "amount": 1191.32,
-      "potential_pnl": 1099.68,
-      "pnl_multiplier": 0.9230769230769231,
-      "is_no": false,
-      "slug": "nba-nop-det-2026-03-26-total-225pt5",
-      "eventSlug": "nba-nop-det-2026-03-26"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+27.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.244,
-      "market_price": 0.52,
-      "edge": 0.276,
-      "edge_percent": 27.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive weaknesses are exploited",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive weaknesses are exploited"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent offensive performances",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.276,
-      "edge_percent": 27.6
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 27.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449694+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Knicks vs. Hornets: O/U 223.5",
-    "market_slug": "nba-nyk-cha-2026-03-26-total-223pt5",
-    "event_slug": "nba-nyk-cha-2026-03-26-total-223pt5",
-    "wallet": "0xd571c3f87ac6521ae06acc54217bd873aab4464f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,724)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1723.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1723.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-26T08:10:07.582706",
-    "trade_hash": "0x3c0e0f807a082b2137c535098864450c09b2e5e7c2cfb3d7bc839da0a72d5df1",
-    "trade_timestamp": 1774512427,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 3447.0,
-      "amount": 1723.5,
-      "potential_pnl": 1723.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-nyk-cha-2026-03-26-total-223pt5",
-      "eventSlug": "nba-nyk-cha-2026-03-26"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive weaknesses on both sides",
-          "Favorable game pace"
-        ],
-        "weakest_link": "Defensive weaknesses on both sides"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injuries affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449703+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Knicks vs. Hornets: O/U 223.5",
-    "market_slug": "nba-nyk-cha-2026-03-26-total-223pt5",
-    "event_slug": "nba-nyk-cha-2026-03-26-total-223pt5",
-    "wallet": "0x7d47970f2153c3ce229e9258eba44a1de61e367e",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,739)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1739.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1739.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-26T08:10:11.377995",
-    "trade_hash": "0xdccde596c8ead45cb7361cf402277ef4d3487f04af0243f77c94fa411930e7df",
-    "trade_timestamp": 1774512427,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 3478.0,
-      "amount": 1739.0,
-      "potential_pnl": 1739.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-nyk-cha-2026-03-26-total-223pt5",
-      "eventSlug": "nba-nyk-cha-2026-03-26"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive weaknesses are exploited",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive weaknesses are exploited"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449712+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Pelicans vs. Pistons: O/U 225.5",
     "market_slug": "nba-nop-det-2026-03-26-total-225pt5",
     "event_slug": "nba-nop-det-2026-03-26-total-225pt5",
@@ -32010,5 +31436,235 @@
     "amount": 2284.409996,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Canadiens, and no recent injuries are reported for either team.\nIn the last 10 meetings, the Canadiens lead 6-4, including a 4-2 win on January 23, 2026, and a 4-2 win on February 1, 2026. (rantsports.com) Both teams have no current injuries listed. (hockey-reference.com) However, the trader may have access to insider information or other factors influencing their decision.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb765ccc18e986ccd7ed2a14294d1f9b62d38848cb903a6217d1a4aa199d5a8a0",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
+      "side": "BUY",
+      "asset": "26104816692143190673703252988694101728161888777222466355318686994630337690105",
+      "conditionId": "0x0fb23b9a75c931152a17dcc8f659fd401c6e911f47a0e4088d5394581be0b3bd",
+      "size": 2314.153845,
+      "price": 0.6499999998919691,
+      "timestamp": 1778112478,
+      "title": "76ers vs. Knicks",
+      "slug": "nba-phi-nyk-2026-05-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-nyk-2026-05-06",
+      "outcome": "Knicks",
+      "outcomeIndex": 1,
+      "name": "neutralwave23",
+      "pseudonym": "Monstrous-Dew",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb765ccc18e986ccd7ed2a14294d1f9b62d38848cb903a6217d1a4aa199d5a8a0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "76ers vs. Knicks",
+    "market_slug": "nba-phi-nyk-2026-05-06",
+    "amount": 1504.1999989999997,
+    "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the 76ers, including a decisive 138-89 victory on February 11, 2026. (oddsshark.com)\nIn their most recent game on May 6, 2026, the Knicks were leading the 76ers 58-57 at halftime. The Knicks have demonstrated strong performance against the 76ers in recent matchups.\nGiven the Knicks' recent form and head-to-head advantage, copying the trader's bet appears to be a reasonable decision.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x47eac01db4ff8870568d1770f08e2cb7413802166fa3c20b49083fce5b855938",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 8473751.32797555,
+      "volume": 510247874.9789579,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4a2be7a7e6e3b41dc2de00706b4c09660ca9af20",
+      "side": "BUY",
+      "asset": "88304163265734087403223321042172792808390195323159743956352682998398711353447",
+      "conditionId": "0x1db02ba50e2312a62b4104de691cc7a76065d8d0da40decf93eb1b914a3217b7",
+      "size": 8121.54,
+      "price": 0.151,
+      "timestamp": 1778112495,
+      "title": "US x Iran permanent peace deal by May 15, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-may-15-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "troim",
+      "pseudonym": "Optimal-Miss",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x47eac01db4ff8870568d1770f08e2cb7413802166fa3c20b49083fce5b855938",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by May 15, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1226.3525399999999,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate significant progress toward a U.S.-Iran peace deal by May 15, 2026.\nAs of May 6, 2026, U.S. and Iranian officials are reportedly close to finalizing a 14-point memorandum of understanding (MOU) aimed at ending the ongoing conflict and laying the groundwork for future nuclear negotiations. Key issues, such as the duration of a moratorium on uranium enrichment, are being negotiated, with a 15-year compromise emerging as a likely outcome.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8bf679b54e1184cc6f412f2d759367a8117097936774d585f35adaebd6508ab2",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 8473751.32797555,
+      "volume": 510247874.9789579,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x38c2734df152fcd3a27469770b5b08a0e62fd3a7",
+      "side": "BUY",
+      "asset": "26104816692143190673703252988694101728161888777222466355318686994630337690105",
+      "conditionId": "0x0fb23b9a75c931152a17dcc8f659fd401c6e911f47a0e4088d5394581be0b3bd",
+      "size": 8461.53846,
+      "price": 0.65,
+      "timestamp": 1778112494,
+      "title": "76ers vs. Knicks",
+      "slug": "nba-phi-nyk-2026-05-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-nyk-2026-05-06",
+      "outcome": "Knicks",
+      "outcomeIndex": 1,
+      "name": "Bigboybandi",
+      "pseudonym": "Ready-Dissonance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8bf679b54e1184cc6f412f2d759367a8117097936774d585f35adaebd6508ab2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "76ers vs. Knicks",
+    "market_slug": "nba-phi-nyk-2026-05-06",
+    "amount": 5499.999999,
+    "ai_context": "\u2705 COPY \u2014 Knicks have dominated recent matchups against the 76ers, including a decisive 137-98 victory in Game 1 of the Eastern Conference Semifinals.\nIn their last three games against the 76ers, the Knicks have won two and lost one, with an average of 113.3 points scored per game. In contrast, the 76ers have averaged 105.0 points per game in those matchups. (landofbasketball.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x839e7c9fe2ab869390b41eb113e31ed3707eecdc879841f3d8114e6594bdbace",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd1ed12197b7dc22dede923727e9b714024dbd7cb",
+      "side": "BUY",
+      "asset": "44392251743100304727748425899319496884238220968052430797034987021330564282108",
+      "conditionId": "0xeecb65b0273b431cc53a93f2b8af4bf35fff895837a53ca7c198c939be3b7f68",
+      "size": 3750,
+      "price": 0.88,
+      "timestamp": 1778112756,
+      "title": "76ers vs. Knicks: O/U 214.5",
+      "slug": "nba-phi-nyk-2026-05-06-total-214pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-nyk-2026-05-06",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "curie",
+      "pseudonym": "Illiterate-Counterforce",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x839e7c9fe2ab869390b41eb113e31ed3707eecdc879841f3d8114e6594bdbace",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "76ers vs. Knicks: O/U 214.5",
+    "market_slug": "nba-phi-nyk-2026-05-06",
+    "amount": 3300.0,
+    "ai_context": "\u274c SKIP \u2014 Recent matchups and injuries suggest a low-scoring trend.\nIn their last three games, the 76ers averaged 104.0 points, while the Knicks averaged 123.0 points, resulting in total scores of 227, 215, and 196. In Game 1 of the current series, the Knicks defeated the 76ers 137-98, a total of 235 points. Additionally, Joel Embiid, the 76ers' leading scorer, is sidelined due to a sprained right ankle and right hip soreness. (cbsnews.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe9b27dbe292b17aa17723abd3277595f2d348d07e5d1d38c423f13e267a3c03e",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x32ed517a571c01b6e9adecf61ba81ca48ff2f960",
+      "side": "BUY",
+      "asset": "26104816692143190673703252988694101728161888777222466355318686994630337690105",
+      "conditionId": "0x0fb23b9a75c931152a17dcc8f659fd401c6e911f47a0e4088d5394581be0b3bd",
+      "size": 1956.28,
+      "price": 0.64,
+      "timestamp": 1778112756,
+      "title": "76ers vs. Knicks",
+      "slug": "nba-phi-nyk-2026-05-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-phi-nyk-2026-05-06",
+      "outcome": "Knicks",
+      "outcomeIndex": 1,
+      "name": "sportmaster777",
+      "pseudonym": "Grateful-Wrap",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe9b27dbe292b17aa17723abd3277595f2d348d07e5d1d38c423f13e267a3c03e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "76ers vs. Knicks",
+    "market_slug": "nba-phi-nyk-2026-05-06",
+    "amount": 1252.0192,
+    "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the 76ers, including a decisive 138-89 victory on February 11, 2026. (oddsshark.com)\nIn their most recent game on May 4, 2026, the Knicks defeated the 76ers 137-98. \nThe Knicks have demonstrated strong performance against the 76ers in recent matchups, indicating a favorable outlook for their upcoming game.",
+    "ai_verdict": "COPY"
   }
 ]
