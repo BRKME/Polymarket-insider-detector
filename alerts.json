@@ -1,170 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x0e0809517d0fdb94a06073096931c7342e9de7894b59215a5afe5e717ea08f42",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x9564e90a1b86222cfde0cae901ea009f02ef3a32",
-      "side": "BUY",
-      "asset": "43119954654172091737076568754752961536657693797313151491966940954651062056130",
-      "conditionId": "0xcbb539ff4f83cf45713ac7188ccb85a8ae7b3af2d183ecd25547e2bc75c4b3e1",
-      "size": 6605.12,
-      "price": 0.21762590233031345,
-      "timestamp": 1774565659,
-      "title": "EdgeX FDV above $300M one day after launch?",
-      "slug": "edgex-fdv-above-300m-one-day-after-launch-839",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-edgex-launch-a-token-in-2025-HYxLQtBesCT8.jpg",
-      "eventSlug": "edgex-fdv-above-one-day-after-launch",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Armin-1Q",
-      "pseudonym": "Icky-Bootie",
-      "bio": "Data Researcher",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3333348-62526834-deee-402e-9218-1e74d8271785.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0e0809517d0fdb94a06073096931c7342e9de7894b59215a5afe5e717ea08f42",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "EdgeX FDV above $300M one day after launch?",
-    "market_slug": "edgex-fdv-above-one-day-after-launch",
-    "amount": 5167.6748,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:18.076352+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 18578.0
-    }
-  },
-  {
-    "market": "Knicks vs. Hornets",
-    "market_slug": "nba-nyk-cha-2026",
-    "event_slug": "nba-nyk-cha-2026",
-    "wallet": "0x8718865882e085b764825b637788043c16185040",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($9,200)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 9199.989998000001,
-      "odds": 0.719340481345369,
-      "raw_price": 0.719340481345369,
-      "outcome": "Hornets",
-      "potential_pnl": 3589.4890269999996,
-      "pnl_multiplier": 0.3901622749351166,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-03-26T23:25:34.984907",
-    "trade_hash": "0xcd52c4c5024401afabdd0648cad2a7d159d922b391bc3d6d75e4376fe3d073b2",
-    "trade_timestamp": 1774567331,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Hornets",
-      "side": "BUY",
-      "price": 0.719340481345369,
-      "effective_price": 0.719340481345369,
-      "size": 12789.479025,
-      "amount": 9199.989998000001,
-      "potential_pnl": 3589.4890269999996,
-      "pnl_multiplier": 0.3901622749351166,
-      "is_no": false,
-      "slug": "nba-nyk-cha-2026",
-      "eventSlug": "nba-nyk-cha-2026-03-26"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+43.5%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2838680962690738,
-      "market_price": 0.719340481345369,
-      "edge": 0.4354723850762952,
-      "edge_percent": 43.54723850762952,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Knicks maintain current roster health",
-          "Hornets underperform relative to expectations",
-          "Key players for Knicks exceed performance metrics"
-        ],
-        "weakest_link": "Hornets underperform relative to expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Knicks' recent performance trends",
-        "Injuries or roster changes for the Hornets"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "HORNETS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.4354723850762952,
-      "edge_percent": 43.54723850762952
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 43.55,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449782+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xed90726882e6524c411d9b8fde68c9617145e298da5d904c1db66ec038df7b43",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
     "trader": {
@@ -31498,5 +31334,97 @@
     "amount": 12875.8392,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a strong possibility of the U.S. obtaining Iran's enriched uranium by May 31.\nAs of May 6, 2026, the U.S. and Iran are reportedly close to finalizing a 14-point memorandum of understanding (MOU) aimed at ending the ongoing conflict and setting the stage for more detailed nuclear negotiations. Key aspects of the proposed agreement include Iran committing to a moratorium on nuclear enrichment and the U.S.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x12bafb23221774a02e96e276dc716e08c04d3bd53c7d9d482879d81e0e6fffbb",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf0411ab604bce8a4efe71b77c2e0aa454bdedde5",
+      "side": "SELL",
+      "asset": "69557396880692800435491220215511028412570890876245963531969289196295609389532",
+      "conditionId": "0xeda0e0633f131b761cbe6c6e5e16ae347c48d9448a08c5826bfc2c794b63758e",
+      "size": 17108.92,
+      "price": 0.14,
+      "timestamp": 1778192553,
+      "title": "Will Crude Oil (CL) hit (HIGH) $150 by end of June?",
+      "slug": "will-crude-oil-cl-hit-high-150-by-end-of-june-788-691",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "cl-hit-jun-2026",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "CiaoBilly",
+      "pseudonym": "Envious-Pennant",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x12bafb23221774a02e96e276dc716e08c04d3bd53c7d9d482879d81e0e6fffbb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Crude Oil (CL) hit (HIGH) $150 by end of June?",
+    "market_slug": "cl-hit-jun-2026",
+    "amount": 2395.2488,
+    "ai_context": "\u274c SKIP \u2014 Crude oil prices have been below $100 per barrel recently, making $150 unlikely by June.\nAs of May 7, 2026, crude oil prices are hovering around $95 per barrel. (marketwatch.com) However, geopolitical tensions or supply disruptions could drive prices higher.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0f59f61644397fccceaf67395c7350ee63ba8621338afcbfca780ab2adaff097",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 20,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 3883691.3212155723,
+      "volume": 217505017.31925595,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4478d7bd8a295691ac84f60a5ec2b47e122102a4",
+      "side": "BUY",
+      "asset": "53886837528295918199173213040710747917684350390439332312874024244950707854931",
+      "conditionId": "0xc5331256bff341491df0656772c4245a99a483c58eeda2faa70fa6bb8b7b0405",
+      "size": 30000,
+      "price": 0.048504595,
+      "timestamp": 1778192700,
+      "title": "US x Iran permanent peace deal by May 8, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-may-8-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Warren-Buffett",
+      "pseudonym": "Hateful-Generation",
+      "bio": "Freak the fuck out and sell everything right now. Its fucking over.",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3416479-d3d86a2e-e805-4958-9ddb-29768f8a9601.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0f59f61644397fccceaf67395c7350ee63ba8621338afcbfca780ab2adaff097",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by May 8, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1455.1378499999998,
+    "ai_context": "\u274c SKIP \u2014 Recent events indicate significant obstacles to a permanent peace deal by May 8, 2026.\nOn May 7, 2026, the U.S. and Iran exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval destroyers, prompting retaliatory U.S. strikes on Iranian military sites. While the U.S. military intercepted the attacks and no American vessels were damaged, the situation remains tense. (axios.",
+    "ai_verdict": "SKIP"
   }
 ]
