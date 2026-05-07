@@ -1,246 +1,5 @@
 [
   {
-    "market": "US forces enter Iran by March 31?",
-    "market_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-    "event_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-    "wallet": "0x4fd867bf2c76c1e5ade8383a828ba532626cde98",
-    "analysis": {
-      "score": 80,
-      "flags": [
-        "New wallet (3d old)",
-        "Large bet ($1,742)",
-        "Pre-event latency: 6596m"
-      ],
-      "amount": 1741.6655999999998,
-      "odds": 0.24,
-      "raw_price": 0.24,
-      "outcome": "Yes",
-      "potential_pnl": 5515.2744,
-      "pnl_multiplier": 3.166666666666667,
-      "wallet_age_days": 3,
-      "total_activities": 6
-    },
-    "timestamp": "2026-03-26T10:11:07.863679",
-    "trade_hash": "0x7b6708ad19235dab7444cf0bb3803a3e5ede97633061837afb864fccca39f715",
-    "trade_timestamp": 1774519463,
-    "latency": {
-      "latency_seconds": 395737.0,
-      "latency_minutes": 6595.616666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-26T10:04:23+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.24,
-      "effective_price": 0.24,
-      "size": 7256.94,
-      "amount": 1741.6655999999998,
-      "potential_pnl": 5515.2744,
-      "pnl_multiplier": 3.166666666666667,
-      "is_no": false,
-      "slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-      "eventSlug": "us-forces-enter-iran-by"
-    },
-    "irrationality": {
-      "irrationality_score": 65,
-      "flags": [
-        "Longshot (24%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+16.8%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.07200000000000001,
-      "market_price": 0.24,
-      "edge": 0.16799999999999998,
-      "edge_percent": 16.799999999999997,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of regional tensions necessitating military intervention",
-          "Political consensus within the US government for military action",
-          "Support from key allies or international coalitions"
-        ],
-        "weakest_link": "Political consensus within the US government for military action"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Rising threats from Iran's nuclear program",
-        "Influence of domestic political pressures on military decisions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 80,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 80,
-      "insider_position": "YES",
-      "irrationality_score": 65,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.16799999999999998,
-      "edge_percent": 16.799999999999997
-    },
-    "financial_analyst": {
-      "signal_quality": 54.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 16.8,
-      "signal_strength": 80.0,
-      "insider_score": 80.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:14.607394+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1741.67
-    }
-  },
-  {
-    "market": "Kharg Island no longer under Iranian control by March 31?",
-    "market_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
-    "event_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
-    "wallet": "0xd61e22734b257afc0710f6b530a0abc244eac34f",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (7.0% effective odds)",
-        "Large bet ($1,282)",
-        "Pre-event latency: 6489m"
-      ],
-      "amount": 1281.8750000000002,
-      "odds": 0.07,
-      "raw_price": 0.07,
-      "outcome": "Yes",
-      "potential_pnl": 17030.625,
-      "pnl_multiplier": 13.285714285714283,
-      "wallet_age_days": 70,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-26T11:58:18.997186",
-    "trade_hash": "0x2c85e0a45b2250a37a4c91587bf6d9f17bb897c4a3334b214f34c086582ef020",
-    "trade_timestamp": 1774525871,
-    "latency": {
-      "latency_seconds": 389329.0,
-      "latency_minutes": 6488.816666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-26T11:51:11+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.07,
-      "effective_price": 0.07,
-      "size": 18312.5,
-      "amount": 1281.8750000000002,
-      "potential_pnl": 17030.625,
-      "pnl_multiplier": 13.285714285714283,
-      "is_no": false,
-      "slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
-      "eventSlug": "kharg-island-no-longer-under-iranian-control-by-march-31"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Longshot (7%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.038000000000000006,
-      "market_price": 0.07,
-      "edge": 0.032,
-      "edge_percent": 3.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Significant internal unrest within Iran",
-          "International military intervention or support for opposition forces",
-          "Economic sanctions leading to a weakening of Iranian control"
-        ],
-        "weakest_link": "International military intervention or support for opposition forces"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased tensions between Iran and Western nations",
-        "Emergence of a viable opposition movement within Iran"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 85,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 85,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": false,
-      "edge": 0.032,
-      "edge_percent": 3.2
-    },
-    "financial_analyst": {
-      "signal_quality": 34.8,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 3.2,
-      "signal_strength": 85.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:14.607421+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1281.88
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x08d553d45adc5361a092922f6617860fb5b71a0c1dae63ca6b1937a1b919a514",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
@@ -31671,5 +31430,97 @@
       "model_correct": null,
       "pnl": 144.0
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd26c9b1300d44241c90fdc5807305be38de51c47c25fecb4cc7d89cf395781b3",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 14,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 5028389.524085797,
+      "volume": 403400853.9135559,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x19d8b01c0e003f2199b1eb200146784fa5ec1691",
+      "side": "BUY",
+      "asset": "5518911566251899781889104128835691764907233834499578638252776650915687151064",
+      "conditionId": "0x1641148849a1d6adcc05d8767da224ba9c3bb271ab4d3eeca88b582defaacb11",
+      "size": 5000,
+      "price": 0.5565421,
+      "timestamp": 1778153181,
+      "title": "LoL: HANJIN BRION vs BNK FEARX - Game 2 Winner",
+      "slug": "lol-bro2-fox1-2026-05-07-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-bro2-fox1-2026-05-07",
+      "outcome": "BNK FEARX",
+      "outcomeIndex": 1,
+      "name": "hlzz",
+      "pseudonym": "Imaginary-Setback",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd26c9b1300d44241c90fdc5807305be38de51c47c25fecb4cc7d89cf395781b3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: HANJIN BRION vs BNK FEARX - Game 2 Winner",
+    "market_slug": "lol-bro2-fox1-2026-05-07",
+    "amount": 2782.7105,
+    "ai_context": "\u274c SKIP \u2014 BNK FEARX has a 0-8 record against Hanwha Life Esports, including a 1-2 loss on April 10, 2026. (tips.gg) Their recent form shows 5 wins and 12 losses in the 2026 season. (proforge.gg) Additionally, Hanwha Life Esports has a 16-4 record in the 2026 season. (proforge.gg) Given these factors, the bet on BNK FEARX is not supported by the available data.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcae022ddcc386c234bb0c9465a611fceb94f798a886b36f57e49b80e297bf12b",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 14,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 5028389.524085797,
+      "volume": 403400853.9135559,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4d5f6506f6a05537a3fd2e3424586888af0489d7",
+      "side": "SELL",
+      "asset": "114266735877811876021362945683127542532778925409590599016489267644246881997088",
+      "conditionId": "0x79afea6a94f0b3dffb5e0886fa1dbd740d688029f7aba351dc46911bcb1b1f95",
+      "size": 5060.47,
+      "price": 0.45808782583435925,
+      "timestamp": 1778153181,
+      "title": "Will NVIDIA be the largest company in the world by market cap on June 30?",
+      "slug": "will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-june-30-824",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-nvidia-be-the-largest-company-in-the-world-by-market-cap-on-december-31-g6lIgsIlD7lN.jpg",
+      "eventSlug": "largest-company-end-of-june-712",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x4d5f6506f6A05537a3fd2e3424586888Af0489D7-1758109338239",
+      "pseudonym": "Unkempt-Argument",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcae022ddcc386c234bb0c9465a611fceb94f798a886b36f57e49b80e297bf12b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will NVIDIA be the largest company in the world by market cap on June 30?",
+    "market_slug": "largest-company-end-of-june-712",
+    "amount": 2318.1397,
+    "ai_context": "\u2705 COPY \u2014 NVIDIA's market cap is currently the highest globally, indicating strong potential to maintain this position by June 30.\nAs of April 15, 2026, NVIDIA's market cap was $4.8 trillion, leading the global market. (stockanalysis.com) Analysts have set a price target of $352 for NVIDIA's stock, reflecting confidence in its growth trajectory. (marketbeat.",
+    "ai_verdict": "COPY"
   }
 ]
