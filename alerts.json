@@ -31028,7 +31028,14 @@
     "market_slug": "wta-eala-frech-2026-05-05",
     "amount": 1243.999999,
     "ai_context": "\u2705 COPY \u2014 Alexandra Eala has a strong recent record and is facing an opponent with a losing streak.\nEala has a 5-5 record in her last 10 matches, while Frech has lost her last 4 matches. (tennisratio.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Eala",
+      "checked_at": "2026-05-07T08:16:30.716568+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1460.35
+    }
   },
   {
     "market": "Will Finland be in the top 3 at Eurovision 2026?",
@@ -31138,7 +31145,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Finland's entry \"Liekinheitin\" is leading the Eurovision 2026 betting odds with a 35.6% win probability.\nThe song \"Liekinheitin\" by Linda Lampenius and Pete Parkkonen won Finland's national selection, Uuden Musiikin Kilpailu 2026, and is currently the favorite to win Eurovision 2026 with a 35.6% win probability. (eurovisioncentral.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-07T08:16:31.736370+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31184,7 +31192,14 @@
     "market_slug": "nba-min-sas-2026-05-06",
     "amount": 1154.8836,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Timberwolves, and the Spurs have struggled in their recent matchups.\nIn the 2025-2026 season, the Timberwolves lead the series 2-1, including a 126-123 victory on January 17, 2026. (champsorchumps.us) Additionally, the Spurs have a 22-60 record over the past two seasons, indicating a period of underperformance. (en.wikipedia.org) However, the trader may have access to insider information or analysis not publicly available.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Spurs",
+      "checked_at": "2026-05-07T08:16:33.292742+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 325.74
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31230,7 +31245,8 @@
     "market_slug": "will-the-us-invade-cuba-in-2026",
     "amount": 1520.0,
     "ai_context": "\u2705 COPY \u2014 Recent U.S. military activities near Cuba are routine exercises, not preparations for invasion.\nIn March 2026, General Francis Donovan confirmed that the U.S. military is not rehearsing to invade Cuba or actively preparing to militarily take over the island. (ksl.com) Additionally, in April 2026, U.S. State Department officials engaged in high-level talks with Cuban government representatives in Havana, marking a potential thaw in U.S.-Cuba relations. (axios.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-07T08:16:34.148671+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31276,7 +31292,14 @@
     "market_slug": "nba-phi-nyk-2026-05-06",
     "amount": 1627.995,
     "ai_context": "\u2705 COPY \u2014 Knicks have dominated recent matchups against the 76ers, including a decisive playoff victory.\nIn their last three games, the Knicks have won two, including a 137-98 victory in Game 1 of the Eastern Conference Semifinals on May 4, 2026. (as.com)\nThe Knicks have a strong home-court advantage, with a 2-0 record against the 76ers at Madison Square Garden this season. (champsorchumps.us)\nThe 76ers have struggled in recent matchups, losing two of the last three games against the Knicks.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-07T08:16:35.707963+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1627.99
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31322,7 +31345,14 @@
     "market_slug": "nhl-mon-buf-2026-05-06",
     "amount": 2284.409996,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Canadiens, and no recent injuries are reported for either team.\nIn the last 10 meetings, the Canadiens lead 6-4, including a 4-2 win on January 23, 2026, and a 4-2 win on February 1, 2026. (rantsports.com) Both teams have no current injuries listed. (hockey-reference.com) However, the trader may have access to insider information or other factors influencing their decision.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Sabres",
+      "checked_at": "2026-05-07T08:16:37.242087+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 467.89
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31368,7 +31398,14 @@
     "market_slug": "nba-phi-nyk-2026-05-06",
     "amount": 1504.1999989999997,
     "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the 76ers, including a decisive 138-89 victory on February 11, 2026. (oddsshark.com)\nIn their most recent game on May 6, 2026, the Knicks were leading the 76ers 58-57 at halftime. The Knicks have demonstrated strong performance against the 76ers in recent matchups.\nGiven the Knicks' recent form and head-to-head advantage, copying the trader's bet appears to be a reasonable decision.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-07T08:16:37.242143+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1504.2
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31414,7 +31451,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 1226.3525399999999,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate significant progress toward a U.S.-Iran peace deal by May 15, 2026.\nAs of May 6, 2026, U.S. and Iranian officials are reportedly close to finalizing a 14-point memorandum of understanding (MOU) aimed at ending the ongoing conflict and laying the groundwork for future nuclear negotiations. Key issues, such as the duration of a moratorium on uranium enrichment, are being negotiated, with a 15-year compromise emerging as a likely outcome.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-07T08:16:38.652650+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1226.35
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31460,7 +31504,14 @@
     "market_slug": "nba-phi-nyk-2026-05-06",
     "amount": 5499.999999,
     "ai_context": "\u2705 COPY \u2014 Knicks have dominated recent matchups against the 76ers, including a decisive 137-98 victory in Game 1 of the Eastern Conference Semifinals.\nIn their last three games against the 76ers, the Knicks have won two and lost one, with an average of 113.3 points scored per game. In contrast, the 76ers have averaged 105.0 points per game in those matchups. (landofbasketball.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-07T08:16:38.652720+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5500.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31506,7 +31557,14 @@
     "market_slug": "nba-phi-nyk-2026-05-06",
     "amount": 3300.0,
     "ai_context": "\u274c SKIP \u2014 Recent matchups and injuries suggest a low-scoring trend.\nIn their last three games, the 76ers averaged 104.0 points, while the Knicks averaged 123.0 points, resulting in total scores of 227, 215, and 196. In Game 1 of the current series, the Knicks defeated the 76ers 137-98, a total of 235 points. Additionally, Joel Embiid, the 76ers' leading scorer, is sidelined due to a sprained right ankle and right hip soreness. (cbsnews.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-07T08:16:39.886207+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31552,7 +31610,14 @@
     "market_slug": "nba-phi-nyk-2026-05-06",
     "amount": 1252.0192,
     "ai_context": "\u2705 COPY \u2014 Knicks have won 2 of the last 3 matchups against the 76ers, including a decisive 138-89 victory on February 11, 2026. (oddsshark.com)\nIn their most recent game on May 4, 2026, the Knicks defeated the 76ers 137-98. \nThe Knicks have demonstrated strong performance against the 76ers in recent matchups, indicating a favorable outlook for their upcoming game.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "76ers",
+      "checked_at": "2026-05-07T08:16:39.886258+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1252.02
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31598,6 +31663,13 @@
     "market_slug": "nhl-ana-las-2026-05-06",
     "amount": 1056.0,
     "ai_context": "\u2705 COPY \u2014 Ducks have won 3 consecutive games against the Golden Knights this season.\nIn the 2025-26 season, the Ducks defeated the Golden Knights 4-3 in overtime on February 1, 4-3 in overtime on November 22, and 4-3 on November 8. (champsorchumps.us)\nThe Golden Knights have struggled recently, losing 4 consecutive games leading up to their February 1 matchup against the Ducks. (foxsports.com)\nThe Ducks have a strong home record of 27-13-4 this season. (covers.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Ducks",
+      "checked_at": "2026-05-07T08:16:41.485217+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 144.0
+    }
   }
 ]
