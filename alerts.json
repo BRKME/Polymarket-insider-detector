@@ -1,162 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xf212972a4b596bdecf1f0c0d3ddaab2e47d84d4935b82352dcef75d2374cb35b",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6b09bc94d5742e2e76bc8e49605f101264692c43",
-      "side": "BUY",
-      "asset": "73468542564971447011632749901887590248473823547291538411904156367732432599020",
-      "conditionId": "0x5f0200e04c4d30da580bb997a8437e4f25675b7c93c8aba4ca6da0fe11a0a816",
-      "size": 4368.91,
-      "price": 0.52,
-      "timestamp": 1774560257,
-      "title": "Poland vs. Albania: O/U 3.5",
-      "slug": "uef-pol-alb-2026-03-26-total-3pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uef.png",
-      "eventSlug": "uef-pol-alb-2026-03-26-more-markets",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "us98",
-      "pseudonym": "Giant-Effort",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf212972a4b596bdecf1f0c0d3ddaab2e47d84d4935b82352dcef75d2374cb35b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Poland vs. Albania: O/U 3.5",
-    "market_slug": "uef-pol-alb-2026-03-26-more-markets",
-    "amount": 2271.8332,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449749+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x22d98ed7a790e3d9aeff7696918d5a56694c8b8f8199aa035a7167d2ac08c5c8",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
-      "side": "BUY",
-      "asset": "73468542564971447011632749901887590248473823547291538411904156367732432599020",
-      "conditionId": "0x5f0200e04c4d30da580bb997a8437e4f25675b7c93c8aba4ca6da0fe11a0a816",
-      "size": 5788.192306,
-      "price": 0.5199999999792682,
-      "timestamp": 1774560257,
-      "title": "Poland vs. Albania: O/U 3.5",
-      "slug": "uef-pol-alb-2026-03-26-total-3pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uef.png",
-      "eventSlug": "uef-pol-alb-2026-03-26-more-markets",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
-      "pseudonym": "Vigilant-Environment",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x22d98ed7a790e3d9aeff7696918d5a56694c8b8f8199aa035a7167d2ac08c5c8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Poland vs. Albania: O/U 3.5",
-    "market_slug": "uef-pol-alb-2026-03-26-more-markets",
-    "amount": 3009.8599990000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449759+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x43572e98c1926ae8be22cedf7103ea0f1ae531ec399ebaa06694eee60a279402",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x492442eab586f242b53bda933fd5de859c8a3782",
-      "side": "BUY",
-      "asset": "54793039760028198288051345521020406655409246693562841156667902241978115290567",
-      "conditionId": "0x65cbd09f2cfe2efb582aa3a65a6d3425493befabcd4fa30a5ee0293c359fac00",
-      "size": 62341.26,
-      "price": 0.5197625344755624,
-      "timestamp": 1774564461,
-      "title": "Blackhawks vs. Flyers: O/U 5.5",
-      "slug": "nhl-chi-phi-2026-03-26-total-5pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-chi-phi-2026-03-26",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "0x492442EaB586F242B53bDa933fD5dE859c8A3782-1766317541188",
-      "pseudonym": "Multicolored-Self",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x43572e98c1926ae8be22cedf7103ea0f1ae531ec399ebaa06694eee60a279402",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Blackhawks vs. Flyers: O/U 5.5",
-    "market_slug": "nhl-chi-phi-2026-03-26",
-    "amount": 32402.6513,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449768+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0e0809517d0fdb94a06073096931c7342e9de7894b59215a5afe5e717ea08f42",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31452,5 +31296,207 @@
     "amount": 1250.0,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent developments indicate increased U.S. pressure on Kharg Island, but Iran maintains control for now.\nDespite U.S. efforts, including a blockade targeting Iran's oil exports, satellite data shows Iran continues oil loading at Kharg Island, maintaining control. (cryptobriefing.com) Kharg Island remains a critical oil export hub, handling approximately 90% of Iran's crude exports. (cfr.org) While U.S.",
     "ai_verdict": "LEAN_COPY"
+  },
+  {
+    "market": "Cavaliers vs. Pistons: O/U 215.5",
+    "market_slug": "nba-cle-det-2026-05-07-total-215pt5",
+    "event_slug": "nba-cle-det-2026-05-07-total-215pt5",
+    "wallet": "0xf4218246dfefc5bdce904a73b2ec4d8366f5cff4",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($3,998)",
+        "Low activity (11 txns)"
+      ],
+      "amount": 3998.41,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "Over",
+      "potential_pnl": 3998.41,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 2,
+      "total_activities": 11
+    },
+    "timestamp": "2026-05-07T21:15:10.908829",
+    "trade_hash": "0x6d14075d347125a430031e340d06c6e3033c5c9ed794be94e9a55c8e9fb50b88",
+    "trade_timestamp": 1778188279,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 7996.82,
+      "amount": 3998.41,
+      "potential_pnl": 3998.41,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "conditionId": "0xe62b4b02fea10b62160e41f6183bce2491c3d3d6b11530a2ecad6916a6cacffb",
+      "slug": "nba-cle-det-2026-05-07-total-215pt5",
+      "eventSlug": "nba-cle-det-2026-05-07"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Both teams have strong offensive performances",
+          "Defensive weaknesses on both sides",
+          "Game pace favors high scoring"
+        ],
+        "weakest_link": "Defensive weaknesses on both sides"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent scoring trends of both teams",
+        "Injury reports affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Cavaliers and Pistons have consistently exceeded the 215.5 total points line.\nIn their last three games, the combined scores were 225, 227, and 222 points, all surpassing the 215.5 line. (landofbasketball.com)\nAdditionally, the Pistons' injury report lists Kevin Huerter as day-to-day with an adductor issue, which could impact their scoring capacity. (covers.com)\nGiven these factors, the Over bet appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2809f2a18cd3506e795d94704935d3f33831bdc9af4e6809ac858c013111102a",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12329947.71450738,
+      "volume": 289023838.380107,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcbc5d8509552a47be7a2386311e43a05cee3e175",
+      "side": "SELL",
+      "asset": "50695023145691301603922788825368914198264161400847524093421970663965842794854",
+      "conditionId": "0x416e3cbe25a60b8210f4e67c056ea2b03f4d511e7b969826d69ef90b753ff214",
+      "size": 1672.23,
+      "price": 0.75290127554224,
+      "timestamp": 1778188594,
+      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+      "slug": "will-wti-reach-120-in-may-2026-592-217",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
+      "eventSlug": "what-price-will-wti-hit-in-may-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "larkspur",
+      "pseudonym": "Petty-Buck",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2809f2a18cd3506e795d94704935d3f33831bdc9af4e6809ac858c013111102a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+    "market_slug": "what-price-will-wti-hit-in-may-2026",
+    "amount": 1259.0240999999999,
+    "ai_context": "\u2705 COPY \u2014 Recent forecasts and market trends indicate WTI Crude Oil prices are expected to remain below $120 in May 2026.\nAs of May 1, 2026, WTI Crude Oil is priced at $58.00 per barrel, with a forecasted range of $54.00 to $64.00 for June 2026. (oilpriceapi.com) Additionally, on April 24, 2026, WTI futures opened at $97.03 per barrel, with a 52-week range from a low of $54.97 to a high of $119.47. (forbes.com) While geopolitical tensions have caused temporary spikes, such as reaching $104.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4e87058c9ab2336a60aaa7c4a3083b753c9b750850bcc74f048a9b4df89214ae",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 13,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x74471a007ddcc488f6d57b5e86dfb35a8d48a16d",
+      "side": "BUY",
+      "asset": "99787107393065498256888522570939526464960671564345515510320748534859284179297",
+      "conditionId": "0xbcacd5a055f5a9ced6f69f122216c073dd6987d08253fc07bbcc168fa5b81d55",
+      "size": 160947.99,
+      "price": 0.08,
+      "timestamp": 1778188776,
+      "title": "US obtains Iranian enriched uranium by May 31?",
+      "slug": "us-obtains-iranian-enriched-uranium-by-may-31-396",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-obtains-iranian-enriched-uranium-by-may-31-bmDm36-gxJBm.jpg",
+      "eventSlug": "us-obtains-iranian-enriched-uranium-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "tetrose",
+      "pseudonym": "Bulky-Antler",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2739522-d03810e0-d01b-4e53-bef5-827a096c0446.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4e87058c9ab2336a60aaa7c4a3083b753c9b750850bcc74f048a9b4df89214ae",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US obtains Iranian enriched uranium by May 31?",
+    "market_slug": "us-obtains-iranian-enriched-uranium-by",
+    "amount": 12875.8392,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a strong possibility of the U.S. obtaining Iran's enriched uranium by May 31.\nAs of May 6, 2026, the U.S. and Iran are reportedly close to finalizing a 14-point memorandum of understanding (MOU) aimed at ending the ongoing conflict and setting the stage for more detailed nuclear negotiations. Key aspects of the proposed agreement include Iran committing to a moratorium on nuclear enrichment and the U.S.",
+    "ai_verdict": "COPY"
   }
 ]
