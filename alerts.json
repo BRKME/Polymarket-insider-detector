@@ -1,56 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x08d553d45adc5361a092922f6617860fb5b71a0c1dae63ca6b1937a1b919a514",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 6391199.149937169,
-      "volume": 318202550.753841,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-      "side": "BUY",
-      "asset": "91234452361450605263734013436205650165110345459845371466629272470861583403438",
-      "conditionId": "0x81b06cb917c9a2aabc67a7765bc3c640e88a699bbf451b29915049c0766cde04",
-      "size": 9570.01,
-      "price": 0.64,
-      "timestamp": 1774550653,
-      "title": "US x Iran ceasefire by June 30?",
-      "slug": "us-x-iran-ceasefire-by-june-30-752-741-257",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
-      "eventSlug": "us-x-iran-ceasefire-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "MisTKy",
-      "pseudonym": "Grounded-Depression",
-      "bio": "Follow on X for more",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x08d553d45adc5361a092922f6617860fb5b71a0c1dae63ca6b1937a1b919a514",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran ceasefire by June 30?",
-    "market_slug": "us-x-iran-ceasefire-by",
-    "amount": 6124.8064,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:15.652985+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -6124.81
-    }
-  },
-  {
     "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
     "market_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
     "event_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
@@ -31521,6 +31470,52 @@
     "market_slug": "largest-company-end-of-june-712",
     "amount": 2318.1397,
     "ai_context": "\u2705 COPY \u2014 NVIDIA's market cap is currently the highest globally, indicating strong potential to maintain this position by June 30.\nAs of April 15, 2026, NVIDIA's market cap was $4.8 trillion, leading the global market. (stockanalysis.com) Analysts have set a price target of $352 for NVIDIA's stock, reflecting confidence in its growth trajectory. (marketbeat.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6259847df4b02f2f8793538a1df3e4697169eb1330dffa88bf549d363d811e29",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc181a8adf3ad0ce96f00f2a6d1feb758e3ba0992",
+      "side": "SELL",
+      "asset": "13802962605217110400958739675511397078333169640391338580518339886440330628850",
+      "conditionId": "0x9a6d50d0150fa74b8c14666e46e30108b5e8931f01be06c215047fa899101889",
+      "size": 2169.73,
+      "price": 0.8001106128412291,
+      "timestamp": 1778167591,
+      "title": "Internazionali BNL d'Italia: Ethan Quinn vs Pablo Llamas Ruiz",
+      "slug": "atp-quinn-ruiz-2026-05-07",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-quinn-ruiz-2026-05-07",
+      "outcome": "Ethan Quinn",
+      "outcomeIndex": 0,
+      "name": "Joking22",
+      "pseudonym": "Harmful-Animal",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6259847df4b02f2f8793538a1df3e4697169eb1330dffa88bf549d363d811e29",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Ethan Quinn vs Pablo Llamas Ruiz",
+    "market_slug": "atp-quinn-ruiz-2026-05-07",
+    "amount": 1736.024,
+    "ai_context": "\u2705 COPY \u2014 Ethan Quinn has a higher ATP ranking and recent match wins compared to Pablo Llamas Ruiz.\nQuinn is currently ranked No. 48, while Llamas Ruiz is No. 139. (en.wikipedia.org) In his last 10 matches, Quinn has a 5-5 record, whereas Llamas Ruiz has a 7-3 record. (matchstat.com)",
     "ai_verdict": "COPY"
   }
 ]
