@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x9c04ad2ca39682b6dd675dc252ed1f3155c8beb34aa328b20c059561dc2302cc",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa38a455bbdd4b68486548b7e19da99903f4f821d",
-      "side": "BUY",
-      "asset": "8407769013236185519523211059555999620435865750175863777492373951715898856141",
-      "conditionId": "0xe96bab86f43e9ae8647eedb5ed680747a8875571c027d11f1f2bae39867d4209",
-      "size": 6359.77,
-      "price": 0.34,
-      "timestamp": 1774569261,
-      "title": "Nebraska Cornhuskers vs. Iowa Hawkeyes",
-      "slug": "cbb-nebr-iowa-2026-03-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-nebr-iowa-2026-03-26",
-      "outcome": "Iowa Hawkeyes",
-      "outcomeIndex": 1,
-      "name": "takeormake",
-      "pseudonym": "Scary-Fannypack",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9c04ad2ca39682b6dd675dc252ed1f3155c8beb34aa328b20c059561dc2302cc",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Nebraska Cornhuskers vs. Iowa Hawkeyes",
-    "market_slug": "cbb-nebr-iowa-2026-03-26",
-    "amount": 2162.3218,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449805+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0f0f310a56ca3c68d321d058f5d5c32485b4eaabede0df123ae71a08b5f7c1b9",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -31410,5 +31358,51 @@
     "amount": 1106.3812,
     "ai_context": "\u2705 COPY \u2014 Peyton Stearns has a 2-0 head-to-head record against Madison Keys, including a recent win on clay.\nIn their most recent encounter at the 2025 Italian Open, Stearns defeated Keys 2-6, 6-2, 7-6(3) in the third round. (tennisexplorer.com) Stearns has demonstrated strong performance on clay courts, with a 66.7% win rate over the past 52 weeks. (tennisratio.com) Keys has a 44.4% win rate against top 50 players in the last 52 weeks. (tennisratio.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xded542e278732baa1ef155b12c11eaec1288eab8d05c38bc8c418c5cd8d880e1",
+    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+    "trader": {
+      "rank": 14,
+      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "username": "GamblingIsAllYouNeed",
+      "profit": 5008167.1462744735,
+      "volume": 405796966.8667109,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+      "side": "BUY",
+      "asset": "80654515271169585015080953166349105085865961717014830075009718249098492153850",
+      "conditionId": "0x413c4f428155faf5e0465b1eee9e11dadbbdf31024efe031f4815208ae83a0d3",
+      "size": 2671.868851,
+      "price": 0.6099999999588304,
+      "timestamp": 1778266925,
+      "title": "Pistons vs. Cavaliers",
+      "slug": "nba-det-cle-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-cle-2026-05-09",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 1,
+      "name": "Herdonia",
+      "pseudonym": "Unkempt-Image",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xded542e278732baa1ef155b12c11eaec1288eab8d05c38bc8c418c5cd8d880e1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Cavaliers",
+    "market_slug": "nba-det-cle-2026-05-09",
+    "amount": 1629.8399990000003,
+    "ai_context": "\u274c SKIP \u2014 Recent games show the Pistons winning both matchups against the Cavaliers.\nIn the most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97. In the previous game on May 5, 2026, the Pistons won 111-101. Additionally, the Pistons have won 3 of the last 5 meetings between the two teams. (landofbasketball.com)\nHowever, the trader may have access to insider information or advanced analytics that suggest the Cavaliers will perform better in the upcoming game.",
+    "ai_verdict": "SKIP"
   }
 ]
