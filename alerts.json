@@ -1,127 +1,5 @@
 [
   {
-    "market": "Will Saudi Arabia strike Iran by March 31?",
-    "market_slug": "will-saudi-arabia-strike-iran-by-march-31",
-    "event_slug": "will-saudi-arabia-strike-iran-by-march-31",
-    "wallet": "0x23ebd66eb7eac485e01bdac08f89a0b3e11948d8",
-    "analysis": {
-      "score": 125,
-      "flags": [
-        "New wallet (0d old)",
-        "Against trend (7.4% effective odds)",
-        "Large bet ($1,000)",
-        "Pre-event latency: 5775m"
-      ],
-      "amount": 1000.0,
-      "odds": 0.07396409767905839,
-      "raw_price": 0.07396409767905839,
-      "outcome": "Yes",
-      "potential_pnl": 12520.073,
-      "pnl_multiplier": 12.520073,
-      "wallet_age_days": 0,
-      "total_activities": 6
-    },
-    "timestamp": "2026-03-26T23:53:47.983894",
-    "trade_hash": "0x39edec8a01a4fc3c97c83380ad4b3c94eec149bfc49c30194b8a38e6f3ced714",
-    "trade_timestamp": 1774568719,
-    "latency": {
-      "latency_seconds": 346481.0,
-      "latency_minutes": 5774.683333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-26T23:45:19+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.07396409767905839,
-      "effective_price": 0.07396409767905839,
-      "size": 13520.073,
-      "amount": 1000.0,
-      "potential_pnl": 12520.073,
-      "pnl_multiplier": 12.520073,
-      "is_no": false,
-      "slug": "will-saudi-arabia-strike-iran-by-march-31",
-      "eventSlug": "which-countries-will-strike-iran-by-march-31"
-    },
-    "irrationality": {
-      "irrationality_score": 50,
-      "flags": [
-        "Longshot (7%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('strike')"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.03879281953581168,
-      "market_price": 0.07396409767905839,
-      "edge": 0.035171278143246706,
-      "edge_percent": 3.5171278143246707,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of regional tensions between Saudi Arabia and Iran",
-          "Support or acquiescence from key allies, such as the United States",
-          "Internal political stability within Saudi Arabia"
-        ],
-        "weakest_link": "Internal political stability within Saudi Arabia"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased military posturing in the region",
-        "Influence of external powers on Saudi decision-making"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 125,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 125,
-      "insider_position": "YES",
-      "irrationality_score": 50,
-      "is_irrational": true,
-      "is_mispriced": false,
-      "edge": 0.035171278143246706,
-      "edge_percent": 3.5171278143246707
-    },
-    "financial_analyst": {
-      "signal_quality": 40.3,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 3.52,
-      "signal_strength": 125.0,
-      "insider_score": 125.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:20.010317+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1000.0
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x9c04ad2ca39682b6dd675dc252ed1f3155c8beb34aa328b20c059561dc2302cc",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
@@ -31486,5 +31364,51 @@
       "model_correct": null,
       "pnl": 471.08
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc7be0705ea177f11a072f13bf543a6bd4381f2265917e04050035e96bc9ade03",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x56c9fbdeccf198f1f5ad95ace39b24f5f7fb0d9e",
+      "side": "BUY",
+      "asset": "105612187302811150251764760552565559407938418858292454918480647154669139854503",
+      "conditionId": "0xb4aed87b2c4a3bfd5e6d42f0eb0dbc1f1f0e35beb50a87b2afa58622e64d73dc",
+      "size": 1907.64,
+      "price": 0.5799737896039084,
+      "timestamp": 1778240384,
+      "title": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+      "slug": "wta-keys-stearns-2026-05-08",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-keys-stearns-2026-05-08",
+      "outcome": "Peyton Stearns",
+      "outcomeIndex": 1,
+      "name": "redvinny",
+      "pseudonym": "Wrathful-Row",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc7be0705ea177f11a072f13bf543a6bd4381f2265917e04050035e96bc9ade03",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Madison Keys vs Peyton Stearns",
+    "market_slug": "wta-keys-stearns-2026-05-08",
+    "amount": 1106.3812,
+    "ai_context": "\u2705 COPY \u2014 Peyton Stearns has a 2-0 head-to-head record against Madison Keys, including a recent win on clay.\nIn their most recent encounter at the 2025 Italian Open, Stearns defeated Keys 2-6, 6-2, 7-6(3) in the third round. (tennisexplorer.com) Stearns has demonstrated strong performance on clay courts, with a 66.7% win rate over the past 52 weeks. (tennisratio.com) Keys has a 44.4% win rate against top 50 players in the last 52 weeks. (tennisratio.",
+    "ai_verdict": "COPY"
   }
 ]
