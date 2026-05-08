@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xed90726882e6524c411d9b8fde68c9617145e298da5d904c1db66ec038df7b43",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 8,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde0463ea7f611b065e8ab06bbfbddad75e6dfa37",
-      "side": "BUY",
-      "asset": "107907338415976933532550388925205335990876677187021977689507641894936360729790",
-      "conditionId": "0xeb2456400fb4d6de5f8bf556449b86880cf4fba96291d4d1bd9158e8f62e9020",
-      "size": 2007.08,
-      "price": 0.7543716742730733,
-      "timestamp": 1774567761,
-      "title": "Texas Longhorns vs. Purdue Boilermakers",
-      "slug": "cbb-tx-pur-2026-03-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-tx-pur-2026-03-26",
-      "outcome": "Purdue Boilermakers",
-      "outcomeIndex": 1,
-      "name": "mwenya",
-      "pseudonym": "Honest-Similarity",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xed90726882e6524c411d9b8fde68c9617145e298da5d904c1db66ec038df7b43",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Texas Longhorns vs. Purdue Boilermakers",
-    "market_slug": "cbb-tx-pur-2026-03-26",
-    "amount": 1514.0842999999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449792+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will Saudi Arabia strike Iran by March 31?",
     "market_slug": "will-saudi-arabia-strike-iran-by-march-31",
     "event_slug": "will-saudi-arabia-strike-iran-by-march-31",
@@ -31426,5 +31374,51 @@
     "amount": 1455.1378499999998,
     "ai_context": "\u274c SKIP \u2014 Recent events indicate significant obstacles to a permanent peace deal by May 8, 2026.\nOn May 7, 2026, the U.S. and Iran exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval destroyers, prompting retaliatory U.S. strikes on Iranian military sites. While the U.S. military intercepted the attacks and no American vessels were damaged, the situation remains tense. (axios.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xacad934f96d7197e43fb343ebffb940dfbbced30c8da03f82073011dddcbcbce",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6de7882ae06f9d3345d0369da67427345765416e",
+      "side": "BUY",
+      "asset": "22817168877277624955004240103109458034353639927329914272148829764226513755495",
+      "conditionId": "0x19b188fef4fd6dfe1f1fb0a4aa861208fd886e76c1533d5fc3b3bf97a3433c9e",
+      "size": 2771.084335,
+      "price": 0.8299999999819565,
+      "timestamp": 1778199029,
+      "title": "Cavaliers vs. Pistons",
+      "slug": "nba-cle-det-2026-05-07",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-det-2026-05-07",
+      "outcome": "Pistons",
+      "outcomeIndex": 1,
+      "name": "uuuuuhhfhfjd",
+      "pseudonym": "Shiny-Mattock",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xacad934f96d7197e43fb343ebffb940dfbbced30c8da03f82073011dddcbcbce",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Pistons",
+    "market_slug": "nba-cle-det-2026-05-07",
+    "amount": 2299.999998,
+    "ai_context": "\u2705 COPY \u2014 Pistons have won 3 of their last 5 games against the Cavaliers, including a recent victory.\nIn their most recent matchup on May 5, 2026, the Pistons defeated the Cavaliers 111-101.  Additionally, the Pistons have shown resilience in the playoffs, overcoming a 3-1 deficit to advance to the conference semifinals. (elpais.com)\nGiven the Pistons' recent success against the Cavaliers and their strong playoff performance, the trader's bet on the Pistons is supported by current facts.",
+    "ai_verdict": "COPY"
   }
 ]
