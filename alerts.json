@@ -29855,7 +29855,14 @@
     "amount": 3538.8663,
     "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated strong recent form, including a semifinal finish in Madrid and a career-high ATP ranking of No. 36.\nIn April 2026, Blockx reached the semifinals in Madrid, defeating the defending champion, Casper Ruud. (elpais.com) He achieved a career-high ATP singles ranking of No. 36 on May 4, 2026. (en.wikipedia.org) Federico Cina, currently ranked No. 225, has not faced Blockx in recorded matches. (tennisratio.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-06T08:08:26.608248+00:00"
+    "resolution_last_check": "2026-05-06T08:08:26.608248+00:00",
+    "resolution": {
+      "outcome": "Cina",
+      "checked_at": "2026-05-08T07:16:56.016059+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3538.87
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30895,7 +30902,14 @@
     "market_slug": "lol-bro2-fox1-2026-05-07",
     "amount": 2782.7105,
     "ai_context": "\u274c SKIP \u2014 BNK FEARX has a 0-8 record against Hanwha Life Esports, including a 1-2 loss on April 10, 2026. (tips.gg) Their recent form shows 5 wins and 12 losses in the 2026 season. (proforge.gg) Additionally, Hanwha Life Esports has a 16-4 record in the 2026 season. (proforge.gg) Given these factors, the bet on BNK FEARX is not supported by the available data.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "HANJIN BRION",
+      "checked_at": "2026-05-08T07:17:00.194986+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2782.71
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30941,7 +30955,8 @@
     "market_slug": "largest-company-end-of-june-712",
     "amount": 2318.1397,
     "ai_context": "\u2705 COPY \u2014 NVIDIA's market cap is currently the highest globally, indicating strong potential to maintain this position by June 30.\nAs of April 15, 2026, NVIDIA's market cap was $4.8 trillion, leading the global market. (stockanalysis.com) Analysts have set a price target of $352 for NVIDIA's stock, reflecting confidence in its growth trajectory. (marketbeat.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-08T07:17:01.525808+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30987,7 +31002,14 @@
     "market_slug": "atp-quinn-ruiz-2026-05-07",
     "amount": 1736.024,
     "ai_context": "\u2705 COPY \u2014 Ethan Quinn has a higher ATP ranking and recent match wins compared to Pablo Llamas Ruiz.\nQuinn is currently ranked No. 48, while Llamas Ruiz is No. 139. (en.wikipedia.org) In his last 10 matches, Quinn has a 5-5 record, whereas Llamas Ruiz has a 7-3 record. (matchstat.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Pablo Llamas Ruiz",
+      "checked_at": "2026-05-08T07:17:03.031713+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1736.02
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31033,7 +31055,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 2700.0,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent diplomatic developments indicate potential progress toward a US-Iran peace deal by June 30, 2026.\nPresident Trump expressed optimism about ongoing talks with Iran, noting \"good talks\" had occurred within the last 24 hours and suggesting a deal could be within reach soon. The U.S. is awaiting Iran\u2019s response to a 14-point memorandum of understanding aimed at ending the conflict and establishing a foundation for future nuclear negotiations. (axios.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-08T07:17:04.366006+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2700.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31079,7 +31108,14 @@
     "market_slug": "kharg-island-no-longer-under-iranian-control-by-march-31",
     "amount": 1250.0,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent developments indicate increased U.S. pressure on Kharg Island, but Iran maintains control for now.\nDespite U.S. efforts, including a blockade targeting Iran's oil exports, satellite data shows Iran continues oil loading at Kharg Island, maintaining control. (cryptobriefing.com) Kharg Island remains a critical oil export hub, handling approximately 90% of Iran's crude exports. (cfr.org) While U.S.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-08T07:17:05.691153+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1250.0
+    }
   },
   {
     "market": "Cavaliers vs. Pistons: O/U 215.5",
@@ -31189,7 +31225,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Cavaliers and Pistons have consistently exceeded the 215.5 total points line.\nIn their last three games, the combined scores were 225, 227, and 222 points, all surpassing the 215.5 line. (landofbasketball.com)\nAdditionally, the Pistons' injury report lists Kevin Huerter as day-to-day with an adductor issue, which could impact their scoring capacity. (covers.com)\nGiven these factors, the Over bet appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-05-08T07:17:07.837371+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31235,7 +31278,8 @@
     "market_slug": "what-price-will-wti-hit-in-may-2026",
     "amount": 1259.0240999999999,
     "ai_context": "\u2705 COPY \u2014 Recent forecasts and market trends indicate WTI Crude Oil prices are expected to remain below $120 in May 2026.\nAs of May 1, 2026, WTI Crude Oil is priced at $58.00 per barrel, with a forecasted range of $54.00 to $64.00 for June 2026. (oilpriceapi.com) Additionally, on April 24, 2026, WTI futures opened at $97.03 per barrel, with a 52-week range from a low of $54.97 to a high of $119.47. (forbes.com) While geopolitical tensions have caused temporary spikes, such as reaching $104.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-08T07:17:09.310747+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31281,7 +31325,8 @@
     "market_slug": "us-obtains-iranian-enriched-uranium-by",
     "amount": 12875.8392,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a strong possibility of the U.S. obtaining Iran's enriched uranium by May 31.\nAs of May 6, 2026, the U.S. and Iran are reportedly close to finalizing a 14-point memorandum of understanding (MOU) aimed at ending the ongoing conflict and setting the stage for more detailed nuclear negotiations. Key aspects of the proposed agreement include Iran committing to a moratorium on nuclear enrichment and the U.S.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-08T07:17:10.625989+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31327,7 +31372,14 @@
     "market_slug": "cl-hit-jun-2026",
     "amount": 2395.2488,
     "ai_context": "\u274c SKIP \u2014 Crude oil prices have been below $100 per barrel recently, making $150 unlikely by June.\nAs of May 7, 2026, crude oil prices are hovering around $95 per barrel. (marketwatch.com) However, geopolitical tensions or supply disruptions could drive prices higher.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-08T07:17:12.111083+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 14713.67
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31373,7 +31425,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 1455.1378499999998,
     "ai_context": "\u274c SKIP \u2014 Recent events indicate significant obstacles to a permanent peace deal by May 8, 2026.\nOn May 7, 2026, the U.S. and Iran exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval destroyers, prompting retaliatory U.S. strikes on Iranian military sites. While the U.S. military intercepted the attacks and no American vessels were damaged, the situation remains tense. (axios.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-08T07:17:13.284803+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1455.14
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31419,6 +31478,13 @@
     "market_slug": "nba-cle-det-2026-05-07",
     "amount": 2299.999998,
     "ai_context": "\u2705 COPY \u2014 Pistons have won 3 of their last 5 games against the Cavaliers, including a recent victory.\nIn their most recent matchup on May 5, 2026, the Pistons defeated the Cavaliers 111-101.  Additionally, the Pistons have shown resilience in the playoffs, overcoming a 3-1 deficit to advance to the conference semifinals. (elpais.com)\nGiven the Pistons' recent success against the Cavaliers and their strong playoff performance, the trader's bet on the Pistons is supported by current facts.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Pistons",
+      "checked_at": "2026-05-08T07:17:14.325207+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 471.08
+    }
   }
 ]
