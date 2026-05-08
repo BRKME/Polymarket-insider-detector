@@ -1,386 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0f0f310a56ca3c68d321d058f5d5c32485b4eaabede0df123ae71a08b5f7c1b9",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc257ea7e3a81ca8e16df8935d44d513959fa358e",
-      "side": "BUY",
-      "asset": "23138276531714290702025315283784371330732889711674327429046468121059683679512",
-      "conditionId": "0x2a7be326158a8ce78c4f38304fd489cf60ed7483a4ef5865c6303134a86898e1",
-      "size": 9316,
-      "price": 0.56,
-      "timestamp": 1774569261,
-      "title": "Penguins vs. Senators",
-      "slug": "nhl-pit-ott-2026-03-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-pit-ott-2026-03-26",
-      "outcome": "Senators",
-      "outcomeIndex": 1,
-      "name": "YT-JuicySlots",
-      "pseudonym": "Weepy-Frosting",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0f0f310a56ca3c68d321d058f5d5c32485b4eaabede0df123ae71a08b5f7c1b9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Penguins vs. Senators",
-    "market_slug": "nhl-pit-ott-2026-03-26",
-    "amount": 5216.960000000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449815+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2c2858514b138a78fdd147a5aa2f1fcb2f04b93448ae58b0c8b47c0eb25afffc",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0071071c8df695b72fa46e47b0b806ff4e619e4d",
-      "side": "BUY",
-      "asset": "42681689509474313921994466296825751144460520075266714195393481209429064869806",
-      "conditionId": "0xa5ce8b5f517edb201d50dd020a358f8e3662097d7b406ed7ae87ea0a7bab7f1e",
-      "size": 3102.378489,
-      "price": 0.9669999997218264,
-      "timestamp": 1774573763,
-      "title": "Kings vs. Magic",
-      "slug": "nba-sac-orl-2026-03-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-sac-orl-2026-03-26",
-      "outcome": "Magic",
-      "outcomeIndex": 1,
-      "name": "sakee.e",
-      "pseudonym": "Previous-Altitude",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2c2858514b138a78fdd147a5aa2f1fcb2f04b93448ae58b0c8b47c0eb25afffc",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Kings vs. Magic",
-    "market_slug": "nba-sac-orl-2026-03-26",
-    "amount": 2999.9999980000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449845+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x0056a98f58365580b4f4c365d783245afdd482ea96eb98dc129d5d5f4a165755",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 10662148.786190014,
-      "volume": 262628667.78799492,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde0463ea7f611b065e8ab06bbfbddad75e6dfa37",
-      "side": "BUY",
-      "asset": "32808458875366467745777044160603661512817861173859925631005519080722962618453",
-      "conditionId": "0x742cccb8094536132d2afee783308a6eb3498a094f2082dc26dd13bfd0bf3c2b",
-      "size": 2000.36,
-      "price": 0.9384760343138235,
-      "timestamp": 1774583667,
-      "title": "Illinois Fighting Illini vs. Houston Cougars",
-      "slug": "cbb-ill-hou-2026-03-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-ill-hou-2026-03-26",
-      "outcome": "Illinois Fighting Illini",
-      "outcomeIndex": 0,
-      "name": "mwenya",
-      "pseudonym": "Honest-Similarity",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0056a98f58365580b4f4c365d783245afdd482ea96eb98dc129d5d5f4a165755",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Illinois Fighting Illini vs. Houston Cougars",
-    "market_slug": "cbb-ill-hou-2026-03-26",
-    "amount": 1877.28992,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449856+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Lakers (-16.5)",
-    "market_slug": "nba-bkn-lal-2026-03-27-spread-home-16pt5",
-    "event_slug": "nba-bkn-lal-2026-03-27-spread-home-16pt5",
-    "wallet": "0x59f0d813b79133a40d0b58902f0b50bf30776ca0",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($5,970)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 5970.0,
-      "odds": 0.4920382523889199,
-      "raw_price": 0.4920382523889199,
-      "outcome": "Lakers",
-      "potential_pnl": 6163.2029999999995,
-      "pnl_multiplier": 1.032362311557789,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-27T06:44:09.882901",
-    "trade_hash": "0xf98e732a0cc5dc8909752627adc6af9c2732f70a4b1902ad82fa2e3b4ad17caa",
-    "trade_timestamp": 1774593397,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Lakers",
-      "side": "BUY",
-      "price": 0.4920382523889199,
-      "effective_price": 0.4920382523889199,
-      "size": 12133.203,
-      "amount": 5970.0,
-      "potential_pnl": 6163.2029999999995,
-      "pnl_multiplier": 1.032362311557789,
-      "is_no": false,
-      "slug": "nba-bkn-lal-2026-03-27-spread-home-16pt5",
-      "eventSlug": "nba-bkn-lal-2026-03-27"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23840765047778398,
-      "market_price": 0.4920382523889199,
-      "edge": 0.25363060191113596,
-      "edge_percent": 25.363060191113597,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Lakers perform exceptionally well in the game",
-          "Opponent team underperforms significantly",
-          "Key players for the Lakers remain healthy"
-        ],
-        "weakest_link": "Opponent team underperforms significantly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Lakers' recent performance trends",
-        "Injury reports of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "LAKERS",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.25363060191113596,
-      "edge_percent": 25.363060191113597
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.36,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449866+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Based FDV above $75M one day after launch?",
-    "market_slug": "based-fdv-above-75m-one-day-after-launch",
-    "event_slug": "based-fdv-above-75m-one-day-after-launch",
-    "wallet": "0x39a98b55cc1b8323e0c05191878149f597234c83",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($4,619)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 4619.2899959999995,
-      "odds": 0.7680624254025464,
-      "raw_price": 0.7680624254025464,
-      "outcome": "Yes",
-      "potential_pnl": 1394.9216660000002,
-      "pnl_multiplier": 0.30197750459657446,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-27T08:31:32.811938",
-    "trade_hash": "0x3bbb2340ecd13a4cf060aa138d14120695e4b1199b67fed4c146771c99500298",
-    "trade_timestamp": 1774599689,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.7680624254025464,
-      "effective_price": 0.7680624254025464,
-      "size": 6014.211662,
-      "amount": 4619.2899959999995,
-      "potential_pnl": 1394.9216660000002,
-      "pnl_multiplier": 0.30197750459657446,
-      "is_no": false,
-      "slug": "based-fdv-above-75m-one-day-after-launch",
-      "eventSlug": "based-fdv-above-one-day-after-launch"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+59.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.1736124850805093,
-      "market_price": 0.7680624254025464,
-      "edge": 0.5944499403220371,
-      "edge_percent": 59.44499403220371,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Strong initial demand for the token post-launch",
-          "Effective marketing and community engagement",
-          "Positive sentiment in the broader crypto market"
-        ],
-        "weakest_link": "Positive sentiment in the broader crypto market"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Speculation on future utility and adoption of the token",
-        "Influence of social media and community hype"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5944499403220371,
-      "edge_percent": 59.44499403220371
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 59.44,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:21.806530+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -4619.29
-    }
-  },
-  {
     "market": "Game Handicap: TOR (-1.5) vs Vancouver Surge (+1.5)",
     "market_slug": "codmw-tor-van-2026-03-27-game-handicap-away-1pt5",
     "event_slug": "codmw-tor-van-2026-03-27-game-handicap-away-1pt5",
@@ -31404,5 +31023,235 @@
     "amount": 1629.8399990000003,
     "ai_context": "\u274c SKIP \u2014 Recent games show the Pistons winning both matchups against the Cavaliers.\nIn the most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97. In the previous game on May 5, 2026, the Pistons won 111-101. Additionally, the Pistons have won 3 of the last 5 meetings between the two teams. (landofbasketball.com)\nHowever, the trader may have access to insider information or advanced analytics that suggest the Cavaliers will perform better in the upcoming game.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x38fb8b9e8e95dc9f57049ca4fcef7348b31f167b74d393248bd4c1aec4e52007",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867005,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa5ea13a81d2b7e8e424b182bdc1db08e756bd96a",
+      "side": "BUY",
+      "asset": "24801319640263872643012377685051750534076210417460024075461054995078127636011",
+      "conditionId": "0x7d14190f8d9762f2651010055481b2261aac06592dceee91b3c9284cf33aeaa5",
+      "size": 131376.39,
+      "price": 0.41,
+      "timestamp": 1778270654,
+      "title": "Los Angeles Angels vs. Toronto Blue Jays",
+      "slug": "mlb-laa-tor-2026-05-08",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-laa-tor-2026-05-08",
+      "outcome": "Los Angeles Angels",
+      "outcomeIndex": 0,
+      "name": "bossoskil1",
+      "pseudonym": "Intent-Noodle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x38fb8b9e8e95dc9f57049ca4fcef7348b31f167b74d393248bd4c1aec4e52007",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Los Angeles Angels vs. Toronto Blue Jays",
+    "market_slug": "mlb-laa-tor-2026-05-08",
+    "amount": 53864.3199,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Blue Jays, and the Angels have struggled in their recent games.\nIn the last three matchups, the Blue Jays won two games, including a 7-3 victory on April 23, 2026. The Angels have a 9-10 record in their last 20 games, indicating inconsistent performance. (baseball-reference.com) However, the trader may have access to insider information or analysis not yet public.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x873a126467097e08c5e96b4a2d31bb65123d3e68a66f9f4e4a168f62a119623d",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6815040a7176c958e6ff8818bfe188e80dbd9edb",
+      "side": "BUY",
+      "asset": "35251964493333363103181834249976440288497253524440846150873804259808083823898",
+      "conditionId": "0x842e10672d8f4c10d7f7d2b3f2381131754b940a44ecea5617bc096a27704077",
+      "size": 4455.926468,
+      "price": 0.6799999999461391,
+      "timestamp": 1778270670,
+      "title": "Will US Sassuolo Calcio win on 2026-05-08?",
+      "slug": "sea-tor-sas-2026-05-08-sas",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-tor-sas-2026-05-08",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "pilotbaby",
+      "pseudonym": "Cylindrical-Ambulance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x873a126467097e08c5e96b4a2d31bb65123d3e68a66f9f4e4a168f62a119623d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will US Sassuolo Calcio win on 2026-05-08?",
+    "market_slug": "sea-tor-sas-2026-05-08",
+    "amount": 3030.0299979999995,
+    "ai_context": "\u2705 COPY \u2014 Sassuolo's recent form and head-to-head record support a win against Torino.\nSassuolo secured a 2-0 victory over AC Milan on May 3, 2026, with goals from Berardi and Laurient\u00e9. (sassuolocalcio.it) Their upcoming match is against Torino on May 8, 2026, at 20:45. (sassuolocalcio.it) While specific head-to-head statistics are not available, Sassuolo's recent performance suggests they are in strong form.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb500c37a69e44e395fb5f41c485953811f3b9651ad3e3c5ab7726ab619e42911",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 20,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 3883689.1393961357,
+      "volume": 217505017.31925607,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "37111424467305463813938595355152633122706849772594342649885504774499516477436",
+      "conditionId": "0x10d98ad569fcce8e55ea63a73d4da1afee3298d18b545e9f9e3cbefb6b420a7c",
+      "size": 7673.34,
+      "price": 0.53,
+      "timestamp": 1778270973,
+      "title": "Colorado Rockies vs. Philadelphia Phillies: O/U 7.5",
+      "slug": "mlb-col-phi-2026-05-08-total-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-col-phi-2026-05-08",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb500c37a69e44e395fb5f41c485953811f3b9651ad3e3c5ab7726ab619e42911",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Colorado Rockies vs. Philadelphia Phillies: O/U 7.5",
+    "market_slug": "mlb-col-phi-2026-05-08",
+    "amount": 4066.8702000000003,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Rockies and Phillies have consistently gone under the 7.5 run total.\nIn their last three games, the total runs scored were 11, 3, and 5, all under the 7.5 line. (oddsshark.com)\nAdditionally, the Rockies have struggled offensively, averaging only 3.5 runs per game in their last four contests. (oddsshark.com)\nGiven these trends, the under bet appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x90dbc331cf0a021219a9233695107271b35339f67d3b9c0b4c20898b0a20da46",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 20,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 3883689.1393961357,
+      "volume": 217505017.31925607,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "side": "BUY",
+      "asset": "37111424467305463813938595355152633122706849772594342649885504774499516477436",
+      "conditionId": "0x10d98ad569fcce8e55ea63a73d4da1afee3298d18b545e9f9e3cbefb6b420a7c",
+      "size": 5009.43,
+      "price": 0.53,
+      "timestamp": 1778270973,
+      "title": "Colorado Rockies vs. Philadelphia Phillies: O/U 7.5",
+      "slug": "mlb-col-phi-2026-05-08-total-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-col-phi-2026-05-08",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "HomeRunHazard",
+      "pseudonym": "Powerless-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x90dbc331cf0a021219a9233695107271b35339f67d3b9c0b4c20898b0a20da46",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Colorado Rockies vs. Philadelphia Phillies: O/U 7.5",
+    "market_slug": "mlb-col-phi-2026-05-08",
+    "amount": 2654.9979000000003,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Rockies and Phillies have consistently stayed under the 7.5-run total.\nIn their last three games, the total runs were 11.5, 10, and 10.5, all exceeding the 7.5-run line. (oddsshark.com)\nAdditionally, the Rockies have struggled offensively, scoring only 1 run in their most recent game against the Phillies. (espn.com)\nGiven these trends, betting on the under appears to be a reasonable choice.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x79a67c6cd2852628d284b2886f68d1ecc8fc80841f037fa6bac9355cc6876da3",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 20,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 3883689.1393961357,
+      "volume": 217505017.31925607,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "side": "BUY",
+      "asset": "37111424467305463813938595355152633122706849772594342649885504774499516477436",
+      "conditionId": "0x10d98ad569fcce8e55ea63a73d4da1afee3298d18b545e9f9e3cbefb6b420a7c",
+      "size": 2486.79,
+      "price": 0.53,
+      "timestamp": 1778270973,
+      "title": "Colorado Rockies vs. Philadelphia Phillies: O/U 7.5",
+      "slug": "mlb-col-phi-2026-05-08-total-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-col-phi-2026-05-08",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "HomeRunHazard",
+      "pseudonym": "Powerless-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x79a67c6cd2852628d284b2886f68d1ecc8fc80841f037fa6bac9355cc6876da3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Colorado Rockies vs. Philadelphia Phillies: O/U 7.5",
+    "market_slug": "mlb-col-phi-2026-05-08",
+    "amount": 1317.9987,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Rockies and Phillies have consistently gone under the 7.5 run total.\nIn their last three games, the total runs scored were 11, 3, and 5, all under the 7.5 line. (oddsshark.com)\nAdditionally, the Rockies have a 3-7 record in their last 10 games, and the Phillies have a 5-5 record in their last 10 games, indicating a trend towards lower-scoring games. (365scores.com)\nGiven these recent trends and the trader's confidence, it is reasonable to follow this bet.",
+    "ai_verdict": "COPY"
   }
 ]
