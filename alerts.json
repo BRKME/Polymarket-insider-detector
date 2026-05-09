@@ -1,228 +1,5 @@
 [
   {
-    "market": "US x Iran ceasefire by March 31?",
-    "market_slug": "us-x-iran-ceasefire-by-march-31",
-    "event_slug": "us-x-iran-ceasefire-by-march-31",
-    "wallet": "0x3b8de6b527425e9c19fb2634f9c3d2e7dfaf2ce6",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (3.2% effective odds)",
-        "Large bet ($1,046)",
-        "Pre-event latency: 4515m"
-      ],
-      "amount": 1045.9452199999994,
-      "odds": 0.032453059124751604,
-      "raw_price": 0.9675469408752484,
-      "outcome": "No",
-      "potential_pnl": 31183.534780000005,
-      "pnl_multiplier": 29.813736115166744,
-      "wallet_age_days": 80,
-      "total_activities": 68
-    },
-    "timestamp": "2026-03-27T20:51:29.162547",
-    "trade_hash": "0xee30872afdbc8a08a36a7acaf8611cd995c8ceb8e944ee7a53a8cab5e9e170c4",
-    "trade_timestamp": 1774644307,
-    "latency": {
-      "latency_seconds": 270893.0,
-      "latency_minutes": 4514.883333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-27T20:45:07+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "side": "SELL",
-      "price": 0.9675469408752484,
-      "effective_price": 0.032453059124751604,
-      "size": 32229.48,
-      "amount": 1045.9452199999994,
-      "potential_pnl": 31183.534780000005,
-      "pnl_multiplier": 29.813736115166744,
-      "is_no": true,
-      "slug": "us-x-iran-ceasefire-by-march-31",
-      "eventSlug": "us-x-iran-ceasefire-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+75.0%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2175093881750497,
-      "market_price": 0.9675469408752484,
-      "edge": 0.7500375527001987,
-      "edge_percent": 75.00375527001987,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mutual agreement on terms of ceasefire",
-          "Reduction in military hostilities",
-          "International pressure for de-escalation"
-        ],
-        "weakest_link": "Mutual agreement on terms of ceasefire"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased diplomatic efforts from third-party nations",
-        "Domestic pressures within Iran and the US for peace"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 125,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.7500375527001987,
-      "edge_percent": 75.00375527001987
-    },
-    "financial_analyst": {
-      "signal_quality": 85.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 75.0,
-      "signal_strength": 125.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:23.100526+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 31183.53
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x71850ab678e525e196cfca757a91f697e5a04764bd4a8381f713568fff2eeec3",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb517cf918d88602c084a040037cc3ffe1355434b",
-      "side": "BUY",
-      "asset": "64652068338076333237704520096230219844404902021272479562664081446392177295672",
-      "conditionId": "0x8a01e84afd1ebddfff4ad3d677ec24ddfd439eb8247bc56a9cc021899c9adca8",
-      "size": 4178.333941,
-      "price": 0.6371008242971836,
-      "timestamp": 1774644589,
-      "title": "Dota 2: Team Spirit vs Xtreme Gaming - Game 2 Winner",
-      "slug": "dota2-ts8-xtreme-2026-03-27-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-ts8-xtreme-2026-03-27",
-      "outcome": "Team Spirit",
-      "outcomeIndex": 0,
-      "name": "dadada22",
-      "pseudonym": "Calculating-Millennium",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x71850ab678e525e196cfca757a91f697e5a04764bd4a8381f713568fff2eeec3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Team Spirit vs Xtreme Gaming - Game 2 Winner",
-    "market_slug": "dota2-ts8-xtreme-2026-03-27",
-    "amount": 2662.0199979999998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449959+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x705b2514524e982fa2325d6be3db761b5904027a1e51325e9473fdd62de3c5d7",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5f8ec8b9c07547d93ac7206ef75c1b625e6021b7",
-      "side": "BUY",
-      "asset": "63586620628756015058616403521099137018911742768824051367331188904593189743777",
-      "conditionId": "0x36e8ca24d2a13435f519f15580d42b45cdbe3bc425fb39a7c2733260357af0fa",
-      "size": 2000,
-      "price": 0.964,
-      "timestamp": 1774644589,
-      "title": "Will there be no change in Fed interest rates after the April 2026 meeting?",
-      "slug": "will-there-be-no-change-in-fed-interest-rates-after-the-april-2026-meeting",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/jerome+powell+glasses1.png",
-      "eventSlug": "fed-decision-in-april",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "1234ab",
-      "pseudonym": "Offbeat-Pole",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x705b2514524e982fa2325d6be3db761b5904027a1e51325e9473fdd62de3c5d7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will there be no change in Fed interest rates after the April 2026 meeting?",
-    "market_slug": "fed-decision-in-april",
-    "amount": 1928.0,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:24.324685+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1928.0
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x29f0f90723ef5d105441703c89692c8bc117fdf3bb0f2a0a5de1d2c56cdfc0ea",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
@@ -31155,6 +30932,144 @@
     "market_slug": "bun-wol-bay-2026-05-09",
     "amount": 4999.999999,
     "ai_context": "\u2705 COPY \u2014 Bayern Munich has a strong recent record against Wolfsburg, including a decisive 8-1 victory in January 2026.\nIn their most recent encounter on January 11, 2026, Bayern Munich defeated VfL Wolfsburg 8-1. (rationalodds.com) Additionally, Bayern Munich has been in good form, with a 3-1 win over 1. FC Heidenheim on May 2, 2026, and a 1-1 draw against Paris Saint-Germain on May 6, 2026. (statmuse.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd63113088754ff64ed75c5c56ac3dfd7eb8a99b3557ef58a8122420238f50a21",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12427729.432740668,
+      "volume": 289734180.62419903,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf9c1190aa8184bcbe418e6f5321c53b0bfbc39e2",
+      "side": "BUY",
+      "asset": "74106961297441804122404565448852295289442372706468216938279361169799682393163",
+      "conditionId": "0x1db02ba50e2312a62b4104de691cc7a76065d8d0da40decf93eb1b914a3217b7",
+      "size": 40234.48,
+      "price": 0.8734974459717139,
+      "timestamp": 1778350232,
+      "title": "US x Iran permanent peace deal by May 15, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-may-15-2026-144-885-839",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "AdrianCronauer",
+      "pseudonym": "Sentimental-Down",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd63113088754ff64ed75c5c56ac3dfd7eb8a99b3557ef58a8122420238f50a21",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by May 15, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 35144.715520000005,
+    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a potential peace deal, but no final agreement is in place yet.\nOn May 8, 2026, U.S. Vice President Vance met with Qatari Prime Minister Sheikh Mohammed Bin Abdul Rahman al-Thani to discuss a draft peace agreement with Iran. The U.S. is awaiting Iran's response to a one-page memorandum of understanding aimed at ending the war and establishing a framework for future nuclear negotiations. (axios.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x808c05f3af0985362dd05251b479d46bf43ac2a9e9fe789ecf5b61637b7982fc",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 8,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4bff30af91642dc7d2b19a8664378fe55c45fc26",
+      "side": "BUY",
+      "asset": "112205748806845878448479265096329775220942920855820195075973084023877006874928",
+      "conditionId": "0x56a5d64f88df4f30074b7f2a931cf2a49b640ca0865bcb3407ce6de1c5c161e3",
+      "size": 4518.9,
+      "price": 0.58,
+      "timestamp": 1778350544,
+      "title": "UFC 328: Grant Dawson vs. Mateusz Rebecki (Lightweight, Prelims)",
+      "slug": "ufc-gra-mat13-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
+      "eventSlug": "ufc-gra-mat13-2026-05-09",
+      "outcome": "Grant Dawson",
+      "outcomeIndex": 0,
+      "name": "Sassy-Bucket",
+      "pseudonym": "Unwieldy-Collagen",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x808c05f3af0985362dd05251b479d46bf43ac2a9e9fe789ecf5b61637b7982fc",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "UFC 328: Grant Dawson vs. Mateusz Rebecki (Lightweight, Prelims)",
+    "market_slug": "ufc-gra-mat13-2026-05-09",
+    "amount": 2620.9619999999995,
+    "ai_context": "\u2705 COPY \u2014 Grant Dawson has a strong UFC record and is favored to win against Mateusz Rebecki.\nDawson holds a 23-3-1 professional record, with 11 wins by submission and 5 by knockout. (ufc.com) He is currently favored with odds of -170, indicating a higher probability of victory. (sherdog.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7ee3427657b4ae75bbb6a1fa5f1203bc8394fca0078d31cf769be283bbc6da86",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 18,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046413329,
+      "volume": 185491941.63208294,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbfe3a02c3447a58a0593d07a6c40a006c396c693",
+      "side": "SELL",
+      "asset": "91438283905116230788314266729521809421496169660781741088883181398113363363600",
+      "conditionId": "0x5449b9d032e6996235217427249af1124d1840bb7e874def4f3b8f9b9abcb34d",
+      "size": 2206.45,
+      "price": 0.56,
+      "timestamp": 1778350918,
+      "title": "Will Rodez Aveyron Football win on 2026-05-09?",
+      "slug": "fr2-fca-raf-2026-05-09-raf",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ligue-2-9d570c4759.jpg",
+      "eventSlug": "fr2-fca-raf-2026-05-09",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Dcgoogol",
+      "pseudonym": "Unfit-Inclusion",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7ee3427657b4ae75bbb6a1fa5f1203bc8394fca0078d31cf769be283bbc6da86",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Rodez Aveyron Football win on 2026-05-09?",
+    "market_slug": "fr2-fca-raf-2026-05-09",
+    "amount": 1235.612,
+    "ai_context": "\u2705 COPY \u2014 Rodez Aveyron Football has a strong head-to-head record against Annecy and is in good form.\nIn their last five encounters, Rodez Aveyron won three times and drew twice, including a 2-1 victory on October 28, 2025. (espn.com) Recently, they secured a 2-1 win against AS Saint-Etienne on May 2, 2026. (azscore.com) Overall, Rodez Aveyron has 14 wins, 13 draws, and 6 losses this season, placing them 5th in Ligue 2. (footystats.",
     "ai_verdict": "COPY"
   }
 ]
