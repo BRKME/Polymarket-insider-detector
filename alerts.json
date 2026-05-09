@@ -1,161 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xcb9f146ff985e71f0c01cc59bdf912278e99efb5585e322431aafcf856cdb159",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x716d9e45e96fea7715387c8240a2b43e32a64206",
-      "side": "SELL",
-      "asset": "112493481455469093769281852159558847572704253342416714876781522096078968514094",
-      "conditionId": "0x36912c9832f0fd104d734b579fb9b3a1b31bbdc946a67356723407e3bdc96dbc",
-      "size": 7130.21,
-      "price": 0.7024883376506442,
-      "timestamp": 1774648189,
-      "title": "Will Bitcoin dip to $65,000 in March?",
-      "slug": "will-bitcoin-dip-to-65k-in-march-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "what-price-will-bitcoin-hit-in-march-2026",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "0x716D9E45E96FeA7715387C8240a2b43e32a64206-1766378794699",
-      "pseudonym": "Ready-Duckling",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcb9f146ff985e71f0c01cc59bdf912278e99efb5585e322431aafcf856cdb159",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Bitcoin dip to $65,000 in March?",
-    "market_slug": "what-price-will-bitcoin-hit-in-march-2026",
-    "amount": 5008.88937,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:25.597961+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -5008.89
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb7e1e807d66a10bff5df24dfa38f7277cca6990c801bb9bed211caadc6bed504",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 12,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5598959.766941265,
-      "volume": 599513927.3644903,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0fded0ed829a00c35dcd2d550983e92108ed8ab1",
-      "side": "BUY",
-      "asset": "12140363270813721013935821508234774830862117498614233251879688391015459761132",
-      "conditionId": "0x5b84fbae5daa65b4660a32fb55e8ee4f17cc2a51a85ce1917b92e1a681e869c4",
-      "size": 1763.06314,
-      "price": 0.95,
-      "timestamp": 1774652391,
-      "title": "Bulls vs. Thunder",
-      "slug": "nba-chi-okc-2026-03-27",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-chi-okc-2026-03-27",
-      "outcome": "Thunder",
-      "outcomeIndex": 1,
-      "name": "Telepath-One",
-      "pseudonym": "Mature-Equipment",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3347556-f46ab150-679e-4e76-ae9c-d7e7ed35fd7c.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb7e1e807d66a10bff5df24dfa38f7277cca6990c801bb9bed211caadc6bed504",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bulls vs. Thunder",
-    "market_slug": "nba-chi-okc-2026-03-27",
-    "amount": 1674.909983,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449986+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x3b01d9f93bee353a0e909d4f863c6d399a9ef0e3600983e7e9055bb8c55838ea",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.905154,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf9fe29004c5a905c7b78bbb930ac57feea67366b",
-      "side": "BUY",
-      "asset": "65503641970158136703516259292243467669354193972901151416267326116001014725196",
-      "conditionId": "0x891e9e5612fb38538cfc8e972e8298f51112d78817f73fbfa73d55f5a2a9b477",
-      "size": 2318,
-      "price": 0.76,
-      "timestamp": 1774653593,
-      "title": "St. John's Red Storm vs. Duke Blue Devils",
-      "slug": "cbb-stjohn-duke-2026-03-27",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-stjohn-duke-2026-03-27",
-      "outcome": "Duke Blue Devils",
-      "outcomeIndex": 1,
-      "name": "CanadianGoose",
-      "pseudonym": "Blond-Alliance",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3b01d9f93bee353a0e909d4f863c6d399a9ef0e3600983e7e9055bb8c55838ea",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "St. John's Red Storm vs. Duke Blue Devils",
-    "market_slug": "cbb-stjohn-duke-2026-03-27",
-    "amount": 1761.68,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449996+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xea1ab0982b591b48eb43fdaed5a15708aae6e8ad959c4d52082624b77d67f76f",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -31128,6 +30973,144 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Astros have dominated recent matchups against the Reds, including a 10-0 victory on May 8, 2026.\nIn their last 10 encounters, the Astros have won 9, with the most recent being a 10-0 win on May 8, 2026. (si.com)\nThe Astros' recent form and strong head-to-head record against the Reds support the trader's bet.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5edb287cd830ea77a866c36ba7e5c4849a388fb399b8fb611551fe7d16af5fb0",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 14,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6db568e61e5e3de7d87f831431b673f38ce2e279",
+      "side": "BUY",
+      "asset": "90737935106161020035220432139140306134470228936913180373221117832087617414061",
+      "conditionId": "0x413c4f428155faf5e0465b1eee9e11dadbbdf31024efe031f4815208ae83a0d3",
+      "size": 10142.14,
+      "price": 0.4229221347762898,
+      "timestamp": 1778362862,
+      "title": "Pistons vs. Cavaliers",
+      "slug": "nba-det-cle-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-cle-2026-05-09",
+      "outcome": "Pistons",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5edb287cd830ea77a866c36ba7e5c4849a388fb399b8fb611551fe7d16af5fb0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Cavaliers",
+    "market_slug": "nba-det-cle-2026-05-09",
+    "amount": 4289.3355,
+    "ai_context": "\u2705 COPY \u2014 Pistons have won 3 of the last 5 matchups against the Cavaliers, including a recent home victory.\nIn their most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97 at home. (champsorchumps.us)\nAdditionally, the Pistons have shown strong performance in the playoffs, overcoming a 3-1 deficit to advance to the conference semifinals. (elpais.com)\nGiven these factors, the trader's bet on the Pistons appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x878195f3b83378c04ae7b14c82419a751d21bb1aa7c6ac0178f27a9c1dc21c74",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
+      "side": "BUY",
+      "asset": "90737935106161020035220432139140306134470228936913180373221117832087617414061",
+      "conditionId": "0x413c4f428155faf5e0465b1eee9e11dadbbdf31024efe031f4815208ae83a0d3",
+      "size": 5237.02,
+      "price": 0.46673976803602046,
+      "timestamp": 1778362878,
+      "title": "Pistons vs. Cavaliers",
+      "slug": "nba-det-cle-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-cle-2026-05-09",
+      "outcome": "Pistons",
+      "outcomeIndex": 0,
+      "name": "WOWZERSS",
+      "pseudonym": "Self-Reliant-Camp",
+      "bio": "We are not here to make money  We are here to make history",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x878195f3b83378c04ae7b14c82419a751d21bb1aa7c6ac0178f27a9c1dc21c74",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Cavaliers",
+    "market_slug": "nba-det-cle-2026-05-09",
+    "amount": 2444.3255,
+    "ai_context": "\u2705 COPY \u2014 Pistons have won 3 of the last 5 matchups against the Cavaliers, including a recent home victory.\nIn their most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97 at home. Additionally, the Pistons have a 3-2 record against the Cavaliers this season. (champsorchumps.us)\nThe Pistons have demonstrated strong performance against the Cavaliers recently, with a 3-2 record this season and a home victory on May 7, 2026.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf2c0348b893a6c583a733852cc003c48febae926f0fdd5edd22525f21541cd71",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcdb1f1ef8213c06911e4ba6a884176c5571e276c",
+      "side": "BUY",
+      "asset": "65577178421762899668650938810870278811740563702830688564129701563405499558177",
+      "conditionId": "0xbf1d0865f793f94d78413696946f89327bda5ae44d82bf54f9ebb3edfb57bf56",
+      "size": 1861.29,
+      "price": 0.7087486635612935,
+      "timestamp": 1778363021,
+      "title": "Israel closes its airspace by May 31?",
+      "slug": "israel-closes-its-airspace-by-may-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-closes-its-airspace-by-F65UW1ZQCDQ_.jpg",
+      "eventSlug": "israel-closes-its-airspace-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Ahpo",
+      "pseudonym": "Nice-Perennial",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3301411-2b450922-932e-49df-8260-92c09d129773.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf2c0348b893a6c583a733852cc003c48febae926f0fdd5edd22525f21541cd71",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Israel closes its airspace by May 31?",
+    "market_slug": "israel-closes-its-airspace-by",
+    "amount": 1319.1868,
+    "ai_context": "\u2705 COPY \u2014 Recent developments indicate Israel's airspace remains open, supporting the trader's bet on \"No.\"\nAs of May 5, 2026, the ceasefire between Israel and Iran is holding, and Ben Gurion Airport has resumed operations without any new escalation catalysts before May 31. (lines.com) The airspace reopened gradually starting on March 4, 2026, with initial flights to repatriate Israelis, and has since returned to near-normal operations. (ndtv.",
     "ai_verdict": "COPY"
   }
 ]
