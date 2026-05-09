@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xea1ab0982b591b48eb43fdaed5a15708aae6e8ad959c4d52082624b77d67f76f",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4453886425fdbcc900525755515244a66659dd3b",
-      "side": "BUY",
-      "asset": "90527368220056094499787958638375970410413722308601684454359395969617817547528",
-      "conditionId": "0x946833228cae9572bc293e26a19d7333d162bec248b18df7ba0166c7ec76690b",
-      "size": 18642.740296,
-      "price": 0.6661509950157168,
-      "timestamp": 1774655687,
-      "title": "Clippers vs. Pacers",
-      "slug": "nba-lac-ind-2026-03-27",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lac-ind-2026-03-27",
-      "outcome": "Pacers",
-      "outcomeIndex": 1,
-      "name": "MasonFree",
-      "pseudonym": "Necessary-Alpenglow",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xea1ab0982b591b48eb43fdaed5a15708aae6e8ad959c4d52082624b77d67f76f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Clippers vs. Pacers",
-    "market_slug": "nba-lac-ind-2026-03-27",
-    "amount": 12418.879998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450005+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x790847b721cbbf5543db079da83cc6f8cce79a28b8cf280c6216a56f88a9f0cb",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x70e96fe9d8b5d4a0404660d6fbf94b31fc01c6ef",
-      "side": "BUY",
-      "asset": "12140363270813721013935821508234774830862117498614233251879688391015459761132",
-      "conditionId": "0x5b84fbae5daa65b4660a32fb55e8ee4f17cc2a51a85ce1917b92e1a681e869c4",
-      "size": 3793.61052,
-      "price": 0.95,
-      "timestamp": 1774656287,
-      "title": "Bulls vs. Thunder",
-      "slug": "nba-chi-okc-2026-03-27",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-chi-okc-2026-03-27",
-      "outcome": "Thunder",
-      "outcomeIndex": 1,
-      "name": "0x7D7",
-      "pseudonym": "Shy-Return",
-      "bio": "\ud83c\udf86",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5571702-18077944-7f9a-4ee0-b084-eef541a90ec4.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x790847b721cbbf5543db079da83cc6f8cce79a28b8cf280c6216a56f88a9f0cb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bulls vs. Thunder",
-    "market_slug": "nba-chi-okc-2026-03-27",
-    "amount": 3603.929994,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450015+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa23fba2b56b1117dbc86e19fd96a083b423df2a316704bec0cd0a52b7a77a6fb",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -31112,5 +31008,97 @@
     "amount": 1319.1868,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate Israel's airspace remains open, supporting the trader's bet on \"No.\"\nAs of May 5, 2026, the ceasefire between Israel and Iran is holding, and Ben Gurion Airport has resumed operations without any new escalation catalysts before May 31. (lines.com) The airspace reopened gradually starting on March 4, 2026, with initial flights to repatriate Israelis, and has since returned to near-normal operations. (ndtv.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x299fda04f45032364a34253d01507eba562364022a1df875a1a4565e3d0c85b4",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6eb7ce9c35d25a04e98568ea5166ba1397f2a0f1",
+      "side": "BUY",
+      "asset": "112835643075135879623001418171457701547739913912935214218400996530502278234677",
+      "conditionId": "0x8bef90cc7dbb0dae5d380169049e70f9d0ba3dfafb927aa2f5d347b53ffb4ec0",
+      "size": 4000,
+      "price": 0.38,
+      "timestamp": 1778364334,
+      "title": "Colorado Rockies vs. Philadelphia Phillies",
+      "slug": "mlb-col-phi-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-col-phi-2026-05-09",
+      "outcome": "Colorado Rockies",
+      "outcomeIndex": 0,
+      "name": "greek404",
+      "pseudonym": "Stiff-Eraser",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x299fda04f45032364a34253d01507eba562364022a1df875a1a4565e3d0c85b4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Colorado Rockies vs. Philadelphia Phillies",
+    "market_slug": "mlb-col-phi-2026-05-09",
+    "amount": 1520.0,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups and head-to-head record favor the Rockies.\nIn their last five encounters, the Rockies have won three games, including a 4-1 victory on April 6, 2026. (m.aiscore.com) Historically, the Rockies have a 43.6% win rate against the Phillies. (m.aiscore.com)\nThe Rockies' recent form includes a 9-7 win over the Phillies on May 8, 2026. (baseball-reference.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd883fc3b15a7f27871f5a258217a39930383378e32d9b6f12757efb1ba2ab14d",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 19,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x26b46988d027c6c03cfa12a7c0c6d778be49b8a9",
+      "side": "BUY",
+      "asset": "38704732043317780255207541322393339230425824037842138241201786829675898473577",
+      "conditionId": "0x5c953cc3126d68b6c8fde1b98aae5f7f69643ba3529188168faac4bd850a97ef",
+      "size": 8110.47016,
+      "price": 0.616487071694004,
+      "timestamp": 1778365233,
+      "title": "Washington Nationals vs. Miami Marlins",
+      "slug": "mlb-wsh-mia-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-wsh-mia-2026-05-09",
+      "outcome": "Miami Marlins",
+      "outcomeIndex": 1,
+      "name": "kkookkoo",
+      "pseudonym": "Snappy-Basketball",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd883fc3b15a7f27871f5a258217a39930383378e32d9b6f12757efb1ba2ab14d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Washington Nationals vs. Miami Marlins",
+    "market_slug": "mlb-wsh-mia-2026-05-09",
+    "amount": 4999.999999,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and current form do not favor the Marlins.\nIn their last three matchups, the Nationals have won two games, including a 10-5 victory on September 3, 2025. (espn.com) Additionally, the Marlins have a 47.6% win rate against the Nationals historically. (m.aiscore.com) Currently, the Marlins are 17-21, while the Nationals are 18-20. (foxsports.com) The Marlins' recent form and historical performance against the Nationals do not support the bet.",
+    "ai_verdict": "SKIP"
   }
 ]
