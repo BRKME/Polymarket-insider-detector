@@ -1,109 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa23fba2b56b1117dbc86e19fd96a083b423df2a316704bec0cd0a52b7a77a6fb",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde17f7144fbd0eddb2679132c10ff5e74b120988",
-      "side": "BUY",
-      "asset": "22209024300745847508417343126312124060740884994461270403670085540458878059143",
-      "conditionId": "0x9d7ed4bebb29bf3ce7e5216fcc57bff467f3ec6593ad1e086c071879b92a4314",
-      "size": 2295.21,
-      "price": 0.7098126533084118,
-      "timestamp": 1774676699,
-      "title": "Bitcoin Up or Down on March 28?",
-      "slug": "bitcoin-up-or-down-on-march-28-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/BTC+fullsize.png",
-      "eventSlug": "bitcoin-up-or-down-on-march-28-2026",
-      "outcome": "Up",
-      "outcomeIndex": 0,
-      "name": "0xdE17f7144fbD0eddb2679132C10ff5e74B120988-1772205225932",
-      "pseudonym": "Attentive-Silica",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa23fba2b56b1117dbc86e19fd96a083b423df2a316704bec0cd0a52b7a77a6fb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bitcoin Up or Down on March 28?",
-    "market_slug": "bitcoin-up-or-down-on-march-28-2026",
-    "amount": 1629.1690999999998,
-    "resolution": {
-      "outcome": "Up",
-      "checked_at": "2026-04-26T07:40:26.958220+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 666.04
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x656185323ae91ea62bedf722c60cc35949349c09bbf8736fe1a7fce4163aa644",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764626998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc2faed5b54219199713e18cc20d59752603d1217",
-      "side": "BUY",
-      "asset": "90854034464391541010766258546740793932292078284306768851778388546538417975321",
-      "conditionId": "0x0d7b4fb6f799384c3ba3250c2a2327b97e1143ff8e4b2c6af293e26c5d2730d8",
-      "size": 4949,
-      "price": 0.53,
-      "timestamp": 1774679997,
-      "title": "Spread: Spurs (-19.5)",
-      "slug": "nba-sas-mil-2026-03-28-spread-away-19pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-sas-mil-2026-03-28",
-      "outcome": "Bucks",
-      "outcomeIndex": 1,
-      "name": "CBNVFHGK",
-      "pseudonym": "Clear-Ink",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x656185323ae91ea62bedf722c60cc35949349c09bbf8736fe1a7fce4163aa644",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Spurs (-19.5)",
-    "market_slug": "nba-sas-mil-2026-03-28",
-    "amount": 2622.9700000000003,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450027+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x3d523798ea937343367f41c482d8b4ca6e06b3bb1857c69377084f7b5360dc41",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31099,6 +30996,98 @@
     "market_slug": "mlb-wsh-mia-2026-05-09",
     "amount": 4999.999999,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and current form do not favor the Marlins.\nIn their last three matchups, the Nationals have won two games, including a 10-5 victory on September 3, 2025. (espn.com) Additionally, the Marlins have a 47.6% win rate against the Nationals historically. (m.aiscore.com) Currently, the Marlins are 17-21, while the Nationals are 18-20. (foxsports.com) The Marlins' recent form and historical performance against the Nationals do not support the bet.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9394a659d2fd7c38bda8506dfbe940316f6bc46c588a0015569ceaa777837d2f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf93ed6fee70411e912453db79f13f2514c758693",
+      "side": "BUY",
+      "asset": "3043114217411681673088135147371645486248759546264099005085283208702824300126",
+      "conditionId": "0xdb80cb224aaad81b579dd475129a43112827b1661fee3feec79122523ae5b933",
+      "size": 3507.231705,
+      "price": 0.8199999999714875,
+      "timestamp": 1778367333,
+      "title": "UFC 328: Sean Strickland vs. Khamzat Chimaev (Middleweight, Main Card)",
+      "slug": "ufc-sea2-kha7-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
+      "eventSlug": "ufc-sea2-kha7-2026-05-09",
+      "outcome": "Khamzat Chimaev",
+      "outcomeIndex": 1,
+      "name": "mercutio",
+      "pseudonym": "Narrow-Burn",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9394a659d2fd7c38bda8506dfbe940316f6bc46c588a0015569ceaa777837d2f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "UFC 328: Sean Strickland vs. Khamzat Chimaev (Middleweight, Main Card)",
+    "market_slug": "ufc-sea2-kha7-2026-05-09",
+    "amount": 2875.9299980000005,
+    "ai_context": "\u2705 COPY \u2014 Chimaev's dominant performance against Du Plessis and his undefeated record support the bet.\nChimaev won the middleweight title by unanimous decision over Dricus Du Plessis in August 2025, extending his undefeated record to 15-0. (apnews.com)\nChimaev's recent form, including his dominant victory over Du Plessis, indicates strong performance leading up to this fight.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb0dde1f5b60af8eb71aed0120d7e0c8ee80e48f5ff993ec5787bfb10c4d81b5f",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x540dc6de6e398f277c07f6c0b1c3136bead6122b",
+      "side": "BUY",
+      "asset": "98720268412185959523314331648899768695016317325666977121948651561010855922465",
+      "conditionId": "0xd3f8b4d1c18bf141736eef231b343d75bb98b3ae3cabba516e8993734e92d6c6",
+      "size": 10000,
+      "price": 0.53101586,
+      "timestamp": 1778367939,
+      "title": "LoL: Disguised vs Dignitas - Game 2 Winner",
+      "slug": "lol-dsg-dig-2026-05-09-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-dsg-dig-2026-05-09",
+      "outcome": "Dignitas",
+      "outcomeIndex": 1,
+      "name": "sanuxo",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/venonat_160424_1719535767096.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb0dde1f5b60af8eb71aed0120d7e0c8ee80e48f5ff993ec5787bfb10c4d81b5f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Disguised vs Dignitas - Game 2 Winner",
+    "market_slug": "lol-dsg-dig-2026-05-09",
+    "amount": 5310.1586,
+    "ai_context": "\u274c SKIP \u2014 Dignitas has a 0% win rate over the past 30 days and a 7-match losing streak.\nThey have lost their last 5 matches, including a 0-2 defeat to Disguised on April 16, 2026. (tips.gg) However, the trader may have access to insider information or anticipate a significant improvement in Dignitas's performance.",
     "ai_verdict": "SKIP"
   }
 ]
