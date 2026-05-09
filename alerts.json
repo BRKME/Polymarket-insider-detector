@@ -1,126 +1,5 @@
 [
   {
-    "market": "US x Iran ceasefire by March 31?",
-    "market_slug": "us-x-iran-ceasefire-by-march-31",
-    "event_slug": "us-x-iran-ceasefire-by-march-31",
-    "wallet": "0x0b6d597962e5af2c5b193111791d5e3d58f845ff",
-    "analysis": {
-      "score": 105,
-      "flags": [
-        "New wallet (5d old)",
-        "Against trend (3.5% effective odds)",
-        "Large bet ($1,756)",
-        "Pre-event latency: 4836m"
-      ],
-      "amount": 1755.9260499999998,
-      "odds": 0.0347963347770325,
-      "raw_price": 0.0347963347770325,
-      "outcome": "Yes",
-      "potential_pnl": 48707.03395,
-      "pnl_multiplier": 27.738659011294924,
-      "wallet_age_days": 5,
-      "total_activities": 21
-    },
-    "timestamp": "2026-03-27T15:30:24.052007",
-    "trade_hash": "0x2c28ecf934f0c66d06695eca2540e0e3a686e6232c2eea2a4e85c429507fd7d1",
-    "trade_timestamp": 1774625063,
-    "latency": {
-      "latency_seconds": 290137.0,
-      "latency_minutes": 4835.616666666667,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-27T15:24:23+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "SELL",
-      "price": 0.0347963347770325,
-      "effective_price": 0.0347963347770325,
-      "size": 50462.96,
-      "amount": 1755.9260499999998,
-      "potential_pnl": 48707.03395,
-      "pnl_multiplier": 27.738659011294924,
-      "is_no": false,
-      "slug": "us-x-iran-ceasefire-by-march-31",
-      "eventSlug": "us-x-iran-ceasefire-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Longshot (3%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.0309592669554065,
-      "market_price": 0.0347963347770325,
-      "edge": 0.0038370678216259994,
-      "edge_percent": 0.38370678216259996,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Diplomatic negotiations between the US and Iran show significant progress.",
-          "Both parties agree to a mutual cessation of hostilities.",
-          "External pressures (e.g., from allies or international organizations) encourage a ceasefire."
-        ],
-        "weakest_link": "Diplomatic negotiations between the US and Iran show significant progress."
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Escalating regional tensions prompting a need for de-escalation.",
-        "International pressure for stability in the Middle East."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 105,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 105,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": false,
-      "edge": 0.0038370678216259994,
-      "edge_percent": 0.38370678216259996
-    },
-    "financial_analyst": {
-      "signal_quality": 33.6,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 0.38,
-      "signal_strength": 105.0,
-      "insider_score": 105.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:23.100491+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1755.93
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xd1753c18945e5283ea3a6830ebe5f3ff8ddfce10567256db262b7fb5a8b0b4a7",
     "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
@@ -31254,6 +31133,52 @@
     "market_slug": "lol-ns-bro2-2026-05-09",
     "amount": 1533.1965000000002,
     "ai_context": "\u2705 COPY \u2014 Nongshim Red Force has a strong head-to-head record against HANJIN BRION and recent match victories.\nThey have won 5 out of 5 matches against HANJIN BRION since February 2025, including a 2-0 victory in the LCK Cup 2025 Group Stage on January 17, 2025. (strafe.com) In their most recent match on April 3, 2025, they secured a 2-0 win in the LCK 2025 Rounds 1-2. (strafe.com) Their recent form includes a 2-0 victory over BFX in the LCK 2026 Rounds 1-2 on April 5, 2026. (gol.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xce1c858d015fadeb0a5bd3891d589d8df9bb6c6f19b4c4bf8b6589943db25722",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe9d31c24fc8d6a4beb58ee1808fdbefd0e72079f",
+      "side": "SELL",
+      "asset": "14837948390423483065317480778660524053931155965189297080099581560797170363357",
+      "conditionId": "0xf6e73ab362d8df80c32b5da6d7f417d8700d0fc3376a4b4e42cb18b233867bc4",
+      "size": 2457,
+      "price": 0.5626088726088726,
+      "timestamp": 1778325909,
+      "title": "Internazionali BNL d'Italia: Corentin Moutet vs Pablo Llamas Ruiz",
+      "slug": "atp-moutet-ruiz-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-moutet-ruiz-2026-05-09",
+      "outcome": "Corentin Moutet",
+      "outcomeIndex": 0,
+      "name": "phredmoz",
+      "pseudonym": "Luminous-Collision",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xce1c858d015fadeb0a5bd3891d589d8df9bb6c6f19b4c4bf8b6589943db25722",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Corentin Moutet vs Pablo Llamas Ruiz",
+    "market_slug": "atp-moutet-ruiz-2026-05-09",
+    "amount": 1382.33,
+    "ai_context": "\u2705 COPY \u2014 Moutet has a strong recent record against lower-ranked opponents and is favored to win.\nIn the past 52 weeks, Moutet has a 75% win rate against players ranked outside the top 100. (tennisratio.com) Additionally, he is currently favored to win against Llamas Ruiz, with a 56% chance of victory. (dimers.com)",
     "ai_verdict": "COPY"
   }
 ]
