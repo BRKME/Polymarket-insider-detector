@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x29f0f90723ef5d105441703c89692c8bc117fdf3bb0f2a0a5de1d2c56cdfc0ea",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4fe7306c7d9939224f2bc6e776373336ffbb2f3c",
-      "side": "BUY",
-      "asset": "17787443776067708614603896056430546769149251046527206847526290753247018244570",
-      "conditionId": "0xc1fbe3cccad749c3a0d0a00b37239b9620e82488d004407ee546add491c58685",
-      "size": 6000,
-      "price": 0.5,
-      "timestamp": 1774646987,
-      "title": "Spread: Iowa State Cyclones (-3.5)",
-      "slug": "cbb-tenn-iowast-2026-03-27-spread-home-3pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ncaa-c14995df96.png",
-      "eventSlug": "cbb-tenn-iowast-2026-03-27",
-      "outcome": "Tennessee Volunteers",
-      "outcomeIndex": 1,
-      "name": "estebanxoxooo",
-      "pseudonym": "Mixed-Consistency",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x29f0f90723ef5d105441703c89692c8bc117fdf3bb0f2a0a5de1d2c56cdfc0ea",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Iowa State Cyclones (-3.5)",
-    "market_slug": "cbb-tenn-iowast-2026-03-27",
-    "amount": 3000.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449972+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xcb9f146ff985e71f0c01cc59bdf912278e99efb5585e322431aafcf856cdb159",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31070,6 +31018,116 @@
     "market_slug": "fr2-fca-raf-2026-05-09",
     "amount": 1235.612,
     "ai_context": "\u2705 COPY \u2014 Rodez Aveyron Football has a strong head-to-head record against Annecy and is in good form.\nIn their last five encounters, Rodez Aveyron won three times and drew twice, including a 2-1 victory on October 28, 2025. (espn.com) Recently, they secured a 2-1 win against AS Saint-Etienne on May 2, 2026. (azscore.com) Overall, Rodez Aveyron has 14 wins, 13 draws, and 6 losses this season, placing them 5th in Ligue 2. (footystats.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Houston Astros vs. Cincinnati Reds",
+    "market_slug": "mlb-hou-cin-2026",
+    "event_slug": "mlb-hou-cin-2026",
+    "wallet": "0x5c20bf65929f64ee1e84e1a15ec332f5c6c266a9",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (2d old)",
+        "Large bet ($1,065)",
+        "Low activity (11 txns)"
+      ],
+      "amount": 1065.4644,
+      "odds": 0.39,
+      "raw_price": 0.39,
+      "outcome": "Houston Astros",
+      "potential_pnl": 1666.4956,
+      "pnl_multiplier": 1.5641025641025639,
+      "wallet_age_days": 2,
+      "total_activities": 11
+    },
+    "timestamp": "2026-05-09T20:56:20.961233",
+    "trade_hash": "0xee420c1abaaf42dc7e935709d9df8a232f9ab0e16632ae7b69cc29381b47ade9",
+    "trade_timestamp": 1778359750,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Houston Astros",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.39,
+      "effective_price": 0.39,
+      "size": 2731.96,
+      "amount": 1065.4644,
+      "potential_pnl": 1666.4956,
+      "pnl_multiplier": 1.5641025641025639,
+      "is_no": false,
+      "conditionId": "0xb38a8e90ddde78681a6c25e43336bf96a68ac13c90a0c1bb67f2c5c6e189d3b6",
+      "slug": "mlb-hou-cin-2026",
+      "eventSlug": "mlb-hou-cin-2026-05-09"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+17.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.218,
+      "market_price": 0.39,
+      "edge": 0.17200000000000001,
+      "edge_percent": 17.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Astros maintain strong performance throughout the season",
+          "Reds underperform relative to expectations",
+          "Injuries or other significant disruptions affect the Astros"
+        ],
+        "weakest_link": "Injuries or other significant disruptions affect the Astros"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Astros' recent playoff success",
+        "Reds' inconsistent performance"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.17200000000000001,
+      "edge_percent": 17.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 17.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Astros have dominated recent matchups against the Reds, including a 10-0 victory on May 8, 2026.\nIn their last 10 encounters, the Astros have won 9, with the most recent being a 10-0 win on May 8, 2026. (si.com)\nThe Astros' recent form and strong head-to-head record against the Reds support the trader's bet.",
     "ai_verdict": "COPY"
   }
 ]
