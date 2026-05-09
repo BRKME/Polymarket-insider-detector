@@ -1,166 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8ad81a3443efd3a616111ae674bf78571113f50c575818e16b863d9ed32f22b6",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf40f825520148a438e494192d0f214372d0ec3bc",
-      "side": "SELL",
-      "asset": "107903187097064440993665243047237103234187359771702998268137476819081108572677",
-      "conditionId": "0x8cf61b7b84b6ac2e0c619867dd6966e688b43e4fd4c866423da2f757c58f0a9f",
-      "size": 2213.87,
-      "price": 0.29,
-      "timestamp": 1774609175,
-      "title": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
-      "slug": "gc-hit-4200-low-jun-2026-737-562-112-239",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/gold-logo-0d00c80498.png",
-      "eventSlug": "gc-hit-jun-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "l0xxen",
-      "pseudonym": "Sizzling-Safari",
-      "bio": "Actively trade",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8ad81a3443efd3a616111ae674bf78571113f50c575818e16b863d9ed32f22b6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
-    "market_slug": "gc-hit-jun-2026",
-    "amount": 1571.8476999999998,
-    "resolution_last_check": "2026-04-26T07:40:23.100450+00:00"
-  },
-  {
-    "market": "Wizards vs. Warriors: O/U 232.5",
-    "market_slug": "nba-was-gsw-2026-03-27-total-232pt5",
-    "event_slug": "nba-was-gsw-2026-03-27-total-232pt5",
-    "wallet": "0x9021b6258bf128be8d82f8de94254dfe73d73a8c",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,324)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1324.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1324.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-27T14:40:50.197220",
-    "trade_hash": "0xd5a0df5b9ae4988c7607111fdaf4d9cb47029fafeb855adb0a180129e2849083",
-    "trade_timestamp": 1774622045,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2649.0,
-      "amount": 1324.5,
-      "potential_pnl": 1324.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-was-gsw-2026-03-27-total-232pt5",
-      "eventSlug": "nba-was-gsw-2026-03-27"
-    },
-    "irrationality": {
-      "irrationality_score": 50,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Crisis keyword detected ('war')",
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams maintain high offensive efficiency",
-          "Defensive strategies are ineffective against opposing offenses",
-          "Game pace is fast, leading to more possessions"
-        ],
-        "weakest_link": "Defensive strategies are ineffective against opposing offenses"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury status of key players affecting scoring"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 50,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 54.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.449893+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-27 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x9cae858b0f64c60b8082f64c8713bf6aa01746d2df8784f88df48e64250d91e6",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31186,5 +31026,161 @@
     "amount": 1020.6999999999999,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent head-to-head results favor the Reds, but their current form is concerning.\nIn their last three matchups, the Reds won two games, including a 10-3 victory on June 17, 2023. (espn.com) However, the Reds have a 2-8 record in their last 10 games, while the Astros are 5-5 in their last 10. (baseball-reference.com) Additionally, the Reds have a 10-8 home record this season. (baseball-reference.",
     "ai_verdict": "LEAN_COPY"
+  },
+  {
+    "market": "UFC 328: Sean Strickland vs. Khamzat Chimaev (Middleweight, Main Card)",
+    "market_slug": "ufc-sea2-kha7-2026",
+    "event_slug": "ufc-sea2-kha7-2026",
+    "wallet": "0xab5c0e1ad051fa81602b237d1b52ce713d1413b7",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,431)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 3430.7699979999998,
+      "odds": 0.8199999998470314,
+      "raw_price": 0.8199999998470314,
+      "outcome": "Khamzat Chimaev",
+      "potential_pnl": 753.0958540000001,
+      "pnl_multiplier": 0.21951219534944766,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-05-09T00:06:20.448841",
+    "trade_hash": "0xf556bdfffdbc77c9db3066d2ac3ee5943404a83e90084805f6f20c57716e5206",
+    "trade_timestamp": 1778284597,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Khamzat Chimaev",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.8199999998470314,
+      "effective_price": 0.8199999998470314,
+      "size": 4183.865852,
+      "amount": 3430.7699979999998,
+      "potential_pnl": 753.0958540000001,
+      "pnl_multiplier": 0.21951219534944766,
+      "is_no": false,
+      "conditionId": "0xdb80cb224aaad81b579dd475129a43112827b1661fee3feec79122523ae5b933",
+      "slug": "ufc-sea2-kha7-2026",
+      "eventSlug": "ufc-sea2-kha7-2026-05-09"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+51.6%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.3039999999694063,
+      "market_price": 0.8199999998470314,
+      "edge": 0.5159999998776251,
+      "edge_percent": 51.599999987762516,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Sean Strickland successfully defends against Khamzat Chimaev's grappling",
+          "Strickland maintains striking accuracy throughout the fight",
+          "Chimaev fails to capitalize on his wrestling advantage"
+        ],
+        "weakest_link": "Chimaev fails to capitalize on his wrestling advantage"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Strickland's striking prowess and experience in the octagon",
+        "Chimaev's reputation as a dominant grappler and rising star"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5159999998776251,
+      "edge_percent": 51.599999987762516
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 51.6,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Khamzat Chimaev is undefeated with a dominant record and has recently defended his middleweight title.\nHe holds a 15-0 record, including a unanimous decision victory over Dricus Du Plessis at UFC 319, where he showcased superior grappling and control. (apnews.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd1cd8cbd87c5ce054a0ebb776aa6747fe783d0df6df7b2e7c3320be4f8afa719",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7a8885c8dc075f0578b648f29fa233408a7d41cc",
+      "side": "BUY",
+      "asset": "47900715155215802928617186071675730502530782891697884401716048984636524200472",
+      "conditionId": "0xffa0e7dd2c65be6d416cc5ac5f8c711be98fb4304bcf1265a28918fe0ecc4a21",
+      "size": 21111,
+      "price": 0.55,
+      "timestamp": 1778285561,
+      "title": "New York Mets vs. Arizona Diamondbacks",
+      "slug": "mlb-nym-ari-2026-05-08",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nym-ari-2026-05-08",
+      "outcome": "New York Mets",
+      "outcomeIndex": 0,
+      "name": "stackingsats",
+      "pseudonym": "Whirlwind-Pie",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd1cd8cbd87c5ce054a0ebb776aa6747fe783d0df6df7b2e7c3320be4f8afa719",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Mets vs. Arizona Diamondbacks",
+    "market_slug": "mlb-nym-ari-2026-05-08",
+    "amount": 11611.050000000001,
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Mets, and they have a strong home record this season.\nIn their last 10 matchups, the Mets have won 6 games against the Diamondbacks, including a 7-1 victory on April 9, 2026. (statmuse.com) At home this season, the Mets have a 4-2 record, while the Diamondbacks are 5-2 on the road. (espn.com) Injuries for the Mets include Juan Soto on the 10-Day IL (calf) and Jorge Polanco day-to-day (thumb). (espn.",
+    "ai_verdict": "COPY"
   }
 ]
