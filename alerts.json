@@ -25051,7 +25051,14 @@
     "amount": 15653.762100000002,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a ceasefire by June 30, 2026.\nDespite a 32-hour Orthodox Easter truce in April 2026, both Russia and Ukraine reported violations, with ongoing military operations. (apnews.com) Additionally, Russian advances and Ukrainian counterattacks have diminished hopes for a ceasefire by June 30, 2026. (cryptobriefing.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-01T08:02:42.032770+00:00"
+    "resolution_last_check": "2026-05-01T08:02:42.032770+00:00",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-09T07:43:39.924519+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -15653.76
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28387,7 +28394,14 @@
     "amount": 8058.434,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a low likelihood of Iran closing its airspace by May 8, 2026.\nAs of April 18, 2026, Iran partially reopened its airspace to international flights crossing the eastern part of its territory, while the western airspace remained closed to civilian aircraft. (bssnews.net) Additionally, Iranian authorities have extended the closure of their airspace to Russian airlines until May 15, 2026. (caliber.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-04T08:18:28.596282+00:00"
+    "resolution_last_check": "2026-05-04T08:18:28.596282+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-09T07:43:43.853166+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1792.57
+    }
   },
   {
     "market": "LoL: FlyQuest vs Shopify Rebellion (BO3) - LCS Regular Season",
@@ -28551,7 +28565,14 @@
     "amount": 8090.7363000000005,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate a significant likelihood of Iran maintaining its airspace closure beyond May 8, 2026.\nAs of April 23, 2026, Iranian international civilian airspace remains closed to commercial aviation, with domestic flights resuming on April 22. (iranwarlive.com) On April 18, 2026, Iran announced the closure of the Strait of Hormuz, further escalating tensions with the United States. (axios.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-05T07:55:03.778069+00:00"
+    "resolution_last_check": "2026-05-05T07:55:03.778069+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-09T07:43:43.853231+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4509.26
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30703,7 +30724,14 @@
     "market_slug": "wta-keys-stearns-2026-05-08",
     "amount": 1106.3812,
     "ai_context": "\u2705 COPY \u2014 Peyton Stearns has a 2-0 head-to-head record against Madison Keys, including a recent win on clay.\nIn their most recent encounter at the 2025 Italian Open, Stearns defeated Keys 2-6, 6-2, 7-6(3) in the third round. (tennisexplorer.com) Stearns has demonstrated strong performance on clay courts, with a 66.7% win rate over the past 52 weeks. (tennisratio.com) Keys has a 44.4% win rate against top 50 players in the last 52 weeks. (tennisratio.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Madison Keys",
+      "checked_at": "2026-05-09T07:43:56.019826+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1106.38
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30749,7 +30777,8 @@
     "market_slug": "nba-det-cle-2026-05-09",
     "amount": 1629.8399990000003,
     "ai_context": "\u274c SKIP \u2014 Recent games show the Pistons winning both matchups against the Cavaliers.\nIn the most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97. In the previous game on May 5, 2026, the Pistons won 111-101. Additionally, the Pistons have won 3 of the last 5 meetings between the two teams. (landofbasketball.com)\nHowever, the trader may have access to insider information or advanced analytics that suggest the Cavaliers will perform better in the upcoming game.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-09T07:43:57.080398+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30795,7 +30824,14 @@
     "market_slug": "mlb-laa-tor-2026-05-08",
     "amount": 53864.3199,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor the Blue Jays, and the Angels have struggled in their recent games.\nIn the last three matchups, the Blue Jays won two games, including a 7-3 victory on April 23, 2026. The Angels have a 9-10 record in their last 20 games, indicating inconsistent performance. (baseball-reference.com) However, the trader may have access to insider information or analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Toronto Blue Jays",
+      "checked_at": "2026-05-09T07:43:58.977748+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -53864.32
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30841,7 +30877,14 @@
     "market_slug": "sea-tor-sas-2026-05-08",
     "amount": 3030.0299979999995,
     "ai_context": "\u2705 COPY \u2014 Sassuolo's recent form and head-to-head record support a win against Torino.\nSassuolo secured a 2-0 victory over AC Milan on May 3, 2026, with goals from Berardi and Laurient\u00e9. (sassuolocalcio.it) Their upcoming match is against Torino on May 8, 2026, at 20:45. (sassuolocalcio.it) While specific head-to-head statistics are not available, Sassuolo's recent performance suggests they are in strong form.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-09T07:44:00.475272+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1425.9
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30887,7 +30930,14 @@
     "market_slug": "mlb-col-phi-2026-05-08",
     "amount": 4066.8702000000003,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Rockies and Phillies have consistently gone under the 7.5 run total.\nIn their last three games, the total runs scored were 11, 3, and 5, all under the 7.5 line. (oddsshark.com)\nAdditionally, the Rockies have struggled offensively, averaging only 3.5 runs per game in their last four contests. (oddsshark.com)\nGiven these trends, the under bet appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Colorado Rockies",
+      "checked_at": "2026-05-09T07:44:02.280033+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30933,7 +30983,14 @@
     "market_slug": "mlb-col-phi-2026-05-08",
     "amount": 2654.9979000000003,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Rockies and Phillies have consistently stayed under the 7.5-run total.\nIn their last three games, the total runs were 11.5, 10, and 10.5, all exceeding the 7.5-run line. (oddsshark.com)\nAdditionally, the Rockies have struggled offensively, scoring only 1 run in their most recent game against the Phillies. (espn.com)\nGiven these trends, betting on the under appears to be a reasonable choice.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Colorado Rockies",
+      "checked_at": "2026-05-09T07:44:02.280104+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30979,7 +31036,14 @@
     "market_slug": "mlb-col-phi-2026-05-08",
     "amount": 1317.9987,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Rockies and Phillies have consistently gone under the 7.5 run total.\nIn their last three games, the total runs scored were 11, 3, and 5, all under the 7.5 line. (oddsshark.com)\nAdditionally, the Rockies have a 3-7 record in their last 10 games, and the Phillies have a 5-5 record in their last 10 games, indicating a trend towards lower-scoring games. (365scores.com)\nGiven these recent trends and the trader's confidence, it is reasonable to follow this bet.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Colorado Rockies",
+      "checked_at": "2026-05-09T07:44:02.280129+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31025,7 +31089,14 @@
     "market_slug": "mlb-hou-cin-2026-05-08",
     "amount": 1020.6999999999999,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent head-to-head results favor the Reds, but their current form is concerning.\nIn their last three matchups, the Reds won two games, including a 10-3 victory on June 17, 2023. (espn.com) However, the Reds have a 2-8 record in their last 10 games, while the Astros are 5-5 in their last 10. (baseball-reference.com) Additionally, the Reds have a 10-8 home record this season. (baseball-reference.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "Houston Astros",
+      "checked_at": "2026-05-09T07:44:04.071852+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1020.7
+    }
   },
   {
     "market": "UFC 328: Sean Strickland vs. Khamzat Chimaev (Middleweight, Main Card)",
@@ -31135,7 +31206,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Khamzat Chimaev is undefeated with a dominant record and has recently defended his middleweight title.\nHe holds a 15-0 record, including a unanimous decision victory over Dricus Du Plessis at UFC 319, where he showcased superior grappling and control. (apnews.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-09T07:44:06.503202+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31181,6 +31253,13 @@
     "market_slug": "mlb-nym-ari-2026-05-08",
     "amount": 11611.050000000001,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Mets, and they have a strong home record this season.\nIn their last 10 matchups, the Mets have won 6 games against the Diamondbacks, including a 7-1 victory on April 9, 2026. (statmuse.com) At home this season, the Mets have a 4-2 record, while the Diamondbacks are 5-2 on the road. (espn.com) Injuries for the Mets include Juan Soto on the 10-Day IL (calf) and Jorge Polanco day-to-day (thumb). (espn.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "New York Mets",
+      "checked_at": "2026-05-09T07:44:08.092316+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 9499.95
+    }
   }
 ]
