@@ -1,396 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x3d523798ea937343367f41c482d8b4ca6e06b3bb1857c69377084f7b5360dc41",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc2647bc6db13887aede7cc9c69c6262910f6fbe8",
-      "side": "BUY",
-      "asset": "29950489035650776944637857495608923659285559520543605944359984119443817993935",
-      "conditionId": "0x9259cfbeb7ac18ea27b792052ec228e8880e03c6e450f688684a84c4f749b75d",
-      "size": 3945.55,
-      "price": 0.95,
-      "timestamp": 1774695005,
-      "title": "Spurs vs. Bucks",
-      "slug": "nba-sas-mil-2026-03-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-sas-mil-2026-03-28",
-      "outcome": "Spurs",
-      "outcomeIndex": 0,
-      "name": "sadasd231dsa",
-      "pseudonym": "Arid-Knife",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3d523798ea937343367f41c482d8b4ca6e06b3bb1857c69377084f7b5360dc41",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spurs vs. Bucks",
-    "market_slug": "nba-sas-mil-2026-03-28",
-    "amount": 3748.2725,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450036+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spurs vs. Bucks: O/U 226.5",
-    "market_slug": "nba-sas-mil-2026-03-28-total-226pt5",
-    "event_slug": "nba-sas-mil-2026-03-28-total-226pt5",
-    "wallet": "0x9d5e9f3843db2a9906a348d215904d191719749d",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,040)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1039.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1039.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-28T11:43:21.137814",
-    "trade_hash": "0xcb3ed4698c3741e849b8a969091080d8550ed9486ae760ecd8bad9af773d73fd",
-    "trade_timestamp": 1774698071,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2079.0,
-      "amount": 1039.5,
-      "potential_pnl": 1039.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-sas-mil-2026-03-28-total-226pt5",
-      "eventSlug": "nba-sas-mil-2026-03-28"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams score efficiently",
-          "Defensive lapses from both teams",
-          "Game pace is fast"
-        ],
-        "weakest_link": "Defensive lapses from both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injury status of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450045+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spurs vs. Bucks: O/U 226.5",
-    "market_slug": "nba-sas-mil-2026-03-28-total-226pt5",
-    "event_slug": "nba-sas-mil-2026-03-28-total-226pt5",
-    "wallet": "0x0d8fd4fbcd46d505daaa4822a759c5997b6200e8",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,628)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1627.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Under",
-      "potential_pnl": 1627.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-28T11:43:26.339325",
-    "trade_hash": "0x99dd0a8a1154b884f9d3be66450374289a8c956b03b5d81efe5bf7d48d670104",
-    "trade_timestamp": 1774698071,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 3255.0,
-      "amount": 1627.5,
-      "potential_pnl": 1627.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-sas-mil-2026-03-28-total-226pt5",
-      "eventSlug": "nba-sas-mil-2026-03-28"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams maintain high offensive efficiency",
-          "Defensive strategies are less effective than usual",
-          "Game pace is significantly faster than average"
-        ],
-        "weakest_link": "Defensive strategies are less effective than usual"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent scoring trends of both teams",
-        "Injuries affecting player performance"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "UNDER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450054+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spurs vs. Bucks: O/U 226.5",
-    "market_slug": "nba-sas-mil-2026-03-28-total-226pt5",
-    "event_slug": "nba-sas-mil-2026-03-28-total-226pt5",
-    "wallet": "0xa5f8e96d5a9df29683a4a75f83f8efb06ddb52fb",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,216)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2215.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 2215.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-28T11:43:29.818959",
-    "trade_hash": "0xccaa51f6398c2eb8c3d650ba143808a12263d54c60b08de72271096984efd8a1",
-    "trade_timestamp": 1774698071,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 4431.0,
-      "amount": 2215.5,
-      "potential_pnl": 2215.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-sas-mil-2026-03-28-total-226pt5",
-      "eventSlug": "nba-sas-mil-2026-03-28"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive strategies are less effective than usual",
-          "Game pace is fast with many possessions"
-        ],
-        "weakest_link": "Defensive strategies are less effective than usual"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports affecting key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 70,
-      "insider_position": "OVER",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "financial_analyst": {
-      "signal_quality": 51.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450063+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
     "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
     "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
@@ -31089,5 +30698,189 @@
     "amount": 5310.1586,
     "ai_context": "\u274c SKIP \u2014 Dignitas has a 0% win rate over the past 30 days and a 7-match losing streak.\nThey have lost their last 5 matches, including a 0-2 defeat to Disguised on April 16, 2026. (tips.gg) However, the trader may have access to insider information or anticipate a significant improvement in Dignitas's performance.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1b4de00e6b73294d7bfd4c5a906507f4b26bec1fec5ee1a52f0798ea9f439f83",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x38c2734df152fcd3a27469770b5b08a0e62fd3a7",
+      "side": "BUY",
+      "asset": "114886885062537727045112911049317387318882826828602490349110745308639960191418",
+      "conditionId": "0x66b33aedaaf2f989b3a1dee58017ac5c3eeb672ecfb67297adbe1f7265438ede",
+      "size": 25547.349,
+      "price": 0.39143004622514843,
+      "timestamp": 1778370646,
+      "title": "Seattle Mariners vs. Chicago White Sox",
+      "slug": "mlb-sea-cws-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-sea-cws-2026-05-09",
+      "outcome": "Seattle Mariners",
+      "outcomeIndex": 0,
+      "name": "Bigboybandi",
+      "pseudonym": "Ready-Dissonance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1b4de00e6b73294d7bfd4c5a906507f4b26bec1fec5ee1a52f0798ea9f439f83",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Seattle Mariners vs. Chicago White Sox",
+    "market_slug": "mlb-sea-cws-2026-05-09",
+    "amount": 9999.999999999998,
+    "ai_context": "\u2705 COPY \u2014 Mariners have won 7 of the last 10 matchups against the White Sox.\nIn their most recent game on May 8, 2026, the Mariners defeated the White Sox 12-8. (foxsports.com)\nMLB Schedule\nMariners (SEA) @ White Sox (CWS) on Friday, May 08, 2026 at 04:40 PM PDT. Final score: SEA 12 - CWS 8\nMariners (SEA) @ White Sox (CWS) on Saturday, May 09, 2026 at 04:10 PM PDT.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x389378b2353a79033047511765f871c380fcf78e27d05b9907637025a9b745b2",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8ed60f68df7d88b05b9ffb633732baeb7eecb4b4",
+      "side": "BUY",
+      "asset": "42918220085288219341491829385501246298233444593663440094436147850542032590016",
+      "conditionId": "0x0e4a0c937b8934c2475613b6322b3f8edc8dedc24762e01e42b0e6f87424a089",
+      "size": 2722.222221,
+      "price": 0.7199999999559183,
+      "timestamp": 1778370644,
+      "title": "US x Iran permanent peace deal by May 31, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "hectorubi",
+      "pseudonym": "Kosher-Incense",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x389378b2353a79033047511765f871c380fcf78e27d05b9907637025a9b745b2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by May 31, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1959.999999,
+    "ai_context": "\u274c SKIP \u2014 Recent U.S. airstrikes on Iran and ongoing military exchanges suggest a permanent peace deal by May 31, 2026, is unlikely. On May 7, 2026, U.S. forces conducted airstrikes on Iranian military sites in response to Iranian attacks on U.S. naval vessels in the Strait of Hormuz. (en.wikipedia.org) Additionally, on May 9, 2026, U.S.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x59bf14691a6e5ff6c231391e876fd8c2125e323bc77ad95caa8310c3c7175af9",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x058f48b0fe2901214215aa53edf2ead7505c4883",
+      "side": "BUY",
+      "asset": "104718292808309433767402444061650910790437726449955521731268760928480423099204",
+      "conditionId": "0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27",
+      "size": 6381.200252,
+      "price": 0.7835516519690628,
+      "timestamp": 1778371558,
+      "title": "US x Iran permanent peace deal by December 31, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-december-31-2026-961-587",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x058f48b0FE2901214215aA53eDF2EAd7505c4883-1777603428724",
+      "pseudonym": "Circular-Sandpaper-Larder",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x59bf14691a6e5ff6c231391e876fd8c2125e323bc77ad95caa8310c3c7175af9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by December 31, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 4999.999999,
+    "ai_context": "\u274c SKIP \u2014 Recent military exchanges and escalating tensions suggest a permanent peace deal by December 31, 2026, is unlikely.\nOn May 7, 2026, U.S. and Iranian forces exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval vessels, prompting U.S. retaliatory strikes. (axios.com) Additionally, the U.S. initiated \"Project Freedom,\" a military operation to secure maritime passage through the Strait of Hormuz, leading to further confrontations. (lemonde.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7273aa22928864cc2517b397fd9a06071ab0d970f8ae15b4853dda218349a759",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5e6e2c3f06686f2607b86c90e35f536e81a1be00",
+      "side": "BUY",
+      "asset": "30099499648464590491165256619946776430752610924985161276134900683986977188455",
+      "conditionId": "0xa653d6685d1c799be965cfc78f28f1ade624bc9a1409812a605c5e0b2358f848",
+      "size": 2032.18,
+      "price": 0.56,
+      "timestamp": 1778371556,
+      "title": "Counter-Strike: Monte vs magic (BO3) - PGL Astana Group Stage",
+      "slug": "cs2-mnte-mgc-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-mnte-mgc-2026-05-10",
+      "outcome": "Monte",
+      "outcomeIndex": 0,
+      "name": "lebronstan23",
+      "pseudonym": "Infatuated-Deficit",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4356336-03dd44de-c654-4a47-a551-6982a28714f4.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7273aa22928864cc2517b397fd9a06071ab0d970f8ae15b4853dda218349a759",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Monte vs magic (BO3) - PGL Astana Group Stage",
+    "market_slug": "cs2-mnte-mgc-2026-05-10",
+    "amount": 1138.0208000000002,
+    "ai_context": "\u2705 COPY \u2014 Monte's recent form and head-to-head record support the bet.\nMonte recently clinched the CCT Season 3 Global Finals title with a 3-1 victory over HEROIC, including a 2-1 win against Ninjas in Pyjamas. (bo3.gg) In their most recent match on May 9, 2026, Monte faced FURIA in the PGL Astana Group Stage, but the outcome is not specified in the available sources. (polymarket.com) However, their recent championship win indicates strong performance. No injuries have been reported for Monte.",
+    "ai_verdict": "COPY"
   }
 ]
