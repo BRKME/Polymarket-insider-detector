@@ -1,57 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa011d30f264bfc59430fb48feb35b6321d4d2f2724b9fd7e3e9dbfdd81cedd00",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764627,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb4b0a3146e00b8058e6aa157ed1ec9c2dafd2dbf",
-      "side": "BUY",
-      "asset": "104541240974841983035828519351497425800987761775196913338910951667428089233967",
-      "conditionId": "0xe5c04e52c0b77dc45e3f005cc930ef0bf7e07ff2a5b9a73e3d41f640ddbe48de",
-      "size": 2503.650908,
-      "price": 0.19970835287073496,
-      "timestamp": 1774731110,
-      "title": "Over $10M committed to the P2P Protocol public sale?",
-      "slug": "over-10m-committed-to-the-p2p-protocol-public-sale-675-612-397",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-metadao-proposal-to-engage-in-a-6m-otc-deal-with-dba-and-variant-pass-BANaFgVoXCFN.jpg",
-      "eventSlug": "total-commitments-for-the-p2p-protocol-public-sale-on-metadao",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "eewfwewf",
-      "pseudonym": "Low-Catamaran",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa011d30f264bfc59430fb48feb35b6321d4d2f2724b9fd7e3e9dbfdd81cedd00",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Over $10M committed to the P2P Protocol public sale?",
-    "market_slug": "total-commitments-for-the-p2p-protocol-public-sale-on-metadao",
-    "amount": 2003.650909,
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:40:30.121431+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2003.65
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0e1a18633a8890449904c069b02985231361de4552c7db7e0b0092aa285f23f3",
     "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
     "trader": {
@@ -30970,5 +30919,122 @@
     "amount": 1045.4145,
     "ai_context": "\u274c SKIP \u2014 Recent U.S.-Iran tensions and ongoing military exchanges make a permanent peace deal by May 31, 2026, unlikely.\nOn May 7, 2026, U.S. and Iranian military forces exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval vessels, prompting U.S. retaliatory strikes on Iranian sites. (axios.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Will El Gouna SC win on 2026-05-12?",
+    "market_slug": "egy1-egs-kif-2026-05-12-egs",
+    "event_slug": "egy1-egs-kif-2026-05-12-egs",
+    "wallet": "0xfc557bbcadfd261e6afb29d36b0f034e971ddd71",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($2,210)",
+        "Pre-event latency: 1948m"
+      ],
+      "amount": 2210.12,
+      "odds": 0.43999999999999995,
+      "raw_price": 0.56,
+      "outcome": "No",
+      "potential_pnl": 2812.88,
+      "pnl_multiplier": 1.272727272727273,
+      "wallet_age_days": 1,
+      "total_activities": 100
+    },
+    "timestamp": "2026-05-10T15:35:54.095070",
+    "trade_hash": "0xaf36836fc01d6ef001c7d5ff86e38305a75ca204523b371370e42e752c5be2a2",
+    "trade_timestamp": 1778427097,
+    "latency": {
+      "latency_seconds": 116903.0,
+      "latency_minutes": 1948.3833333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-10T15:31:37+00:00",
+      "event_time": "2026-05-12T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.56,
+      "effective_price": 0.43999999999999995,
+      "size": 5023.0,
+      "amount": 2210.12,
+      "potential_pnl": 2812.88,
+      "pnl_multiplier": 1.272727272727273,
+      "is_no": true,
+      "conditionId": "0xc95b056c04e84396782ed71fbc8c67b9ccd1014840255fbe3b31f61569da5a1d",
+      "slug": "egy1-egs-kif-2026-05-12-egs",
+      "eventSlug": "egy1-egs-kif-2026-05-12"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+30.8%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.252,
+      "market_price": 0.56,
+      "edge": 0.30800000000000005,
+      "edge_percent": 30.800000000000004,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "team performance leading up to the match",
+          "opponent's form and injuries",
+          "home advantage"
+        ],
+        "weakest_link": "opponent's form and injuries"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent match outcomes",
+        "fan support and attendance"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 135,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 100,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.30800000000000005,
+      "edge_percent": 30.800000000000004
+    },
+    "financial_analyst": {
+      "signal_quality": 87.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 30.8,
+      "signal_strength": 135.0,
+      "insider_score": 100.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 El Gouna SC's recent form and home advantage suggest a potential win.\nEl Gouna SC has been inconsistent recently, with a record of 1 win, 3 draws, and 1 loss in their last five matches. Their most recent match was a 2-2 draw against ZED on May 3, 2026. (betexplorer.com) However, they have a slight edge over Kahrabaa Ismailia FC, having secured a 1-0 victory in their previous encounter in August 2025. (polymarket.",
+    "ai_verdict": "LEAN_COPY"
   }
 ]
