@@ -1,172 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb87dfbb383777e394117fe9cd58a93d1b477d87f12b39088e4fcf9713d70f570",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x66fbe4344c1a9f6029a4e40ffd5ca7848e189f72",
-      "side": "BUY",
-      "asset": "98837326371445854502148454046144343204430522102119267065134485523643192081778",
-      "conditionId": "0x116ac25a35e4d82319ca49acd4db983c9e6bcfd58d4c889b742069e16aedbeab",
-      "size": 34482.758619,
-      "price": 0.57999999999942,
-      "timestamp": 1774786032,
-      "title": "Dota 2: Team Yandex vs Xtreme Gaming - Game 2 Winner",
-      "slug": "dota2-ty-xtreme-2026-03-29-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-ty-xtreme-2026-03-29",
-      "outcome": "Team Yandex",
-      "outcomeIndex": 0,
-      "name": "bobbythedestroyer",
-      "pseudonym": "Incredible-Integer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb87dfbb383777e394117fe9cd58a93d1b477d87f12b39088e4fcf9713d70f570",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Team Yandex vs Xtreme Gaming - Game 2 Winner",
-    "market_slug": "dota2-ty-xtreme-2026-03-29",
-    "amount": 19999.999999,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450197+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Nuggets (-12.5)",
-    "market_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
-    "event_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
-    "wallet": "0xa2fd3b7d017a0f092ba85e5c9fbce8ba1b3ba779",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,086)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1086.3,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Warriors",
-      "potential_pnl": 1043.7,
-      "pnl_multiplier": 0.9607843137254902,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-29T14:24:48.820188",
-    "trade_hash": "0xcfaa557700a0586f6aa1cdbcdc9893ef56fa27dfd720f8895f7e7d1c343a2d35",
-    "trade_timestamp": 1774793922,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Warriors",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 2130.0,
-      "amount": 1086.3,
-      "potential_pnl": 1043.7,
-      "pnl_multiplier": 0.9607843137254902,
-      "is_no": false,
-      "slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
-      "eventSlug": "nba-gsw-den-2026-03-29"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Nuggets maintain a strong offensive performance",
-          "Nuggets' defense effectively limits opponent scoring",
-          "Key players remain healthy and perform well"
-        ],
-        "weakest_link": "Nuggets' defense effectively limits opponent scoring"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Nuggets' recent performance trends",
-        "Injury reports of key players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 26.8,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450206+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: Nuggets (-12.5)",
     "market_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
     "event_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
@@ -30773,6 +30606,98 @@
     "market_slug": "arg-riv-slo-2026-05-10-more-markets",
     "amount": 3663.9948,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head matches between River Plate and San Lorenzo have consistently ended with under 1.5 goals.\nIn their last three encounters, all matches concluded with a total of 0 or 1 goal:\nJuly 28, 2025: River Plate 0-0 San Lorenzo\nFebruary 2, 2025: San Lorenzo 0-0 River Plate\nDecember 5, 2024: River Plate 1-1 San Lorenzo\nThis trend suggests a strong likelihood of a low-scoring game.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4363d4950388df48ed1c5d778bbb56bd2be36c66a2ffa8832d688bc9bc8e998f",
+    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+    "trader": {
+      "rank": 4,
+      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
+      "username": "Len9311238",
+      "profit": 8709972.988069998,
+      "volume": 16402744.764627,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "side": "BUY",
+      "asset": "103254211854879104584190698095324959716211672200581114960154301918359476366811",
+      "conditionId": "0xff5a361b64ce8c838b956bf07381fd067b77c6abd8c8aa3fbde051b2f43a4ce9",
+      "size": 1475.47,
+      "price": 0.7,
+      "timestamp": 1778444636,
+      "title": "Internazionali BNL d'Italia: Matteo Arnaldi vs Rafael Jodar",
+      "slug": "atp-arnaldi-jodar-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-arnaldi-jodar-2026-05-10",
+      "outcome": "Rafael Jodar",
+      "outcomeIndex": 1,
+      "name": "HomeRunHazard",
+      "pseudonym": "Powerless-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4363d4950388df48ed1c5d778bbb56bd2be36c66a2ffa8832d688bc9bc8e998f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Matteo Arnaldi vs Rafael Jodar",
+    "market_slug": "atp-arnaldi-jodar-2026-05-10",
+    "amount": 1032.829,
+    "ai_context": "\u2705 COPY \u2014 Rafael J\u00f3dar has demonstrated strong recent form, including a notable victory over Nuno Borges in Rome.\nJ\u00f3dar defeated Nuno Borges 7-6(4), 6-4 in the second round of the Rome Masters, showcasing his resilience and mental strength. (elpais.com)\nAdditionally, J\u00f3dar has achieved a 10-6 singles record in 2026, including a title at the Barcelona Open. (espn.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5a38b416c74eec82c9cc0abea4a8e9761f7b6954908954608db43dac1a667cbb",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x323448bda09fe48d58af9ce1a858c91f79e08b1a",
+      "side": "BUY",
+      "asset": "108404978919790224219547536715231120510293159864146347287999005916224693174602",
+      "conditionId": "0xcbb320d8c838e59251997c4e76413863dff4d2466a7d9029dd8f4132cc1d2716",
+      "size": 2889.51,
+      "price": 0.6202423940391277,
+      "timestamp": 1778445112,
+      "title": "Spread: FC Barcelona (-2.5)",
+      "slug": "lal-bar-rea-2026-05-10-spread-home-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-bar-rea-2026-05-10-more-markets",
+      "outcome": "Real Madrid CF",
+      "outcomeIndex": 1,
+      "name": "7777xexexe",
+      "pseudonym": "Ugly-Harmonica",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5a38b416c74eec82c9cc0abea4a8e9761f7b6954908954608db43dac1a667cbb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: FC Barcelona (-2.5)",
+    "market_slug": "lal-bar-rea-2026-05-10-more-markets",
+    "amount": 1792.1966000000002,
+    "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head statistics favor Real Madrid CF.\nIn their last five matches, Real Madrid CF has secured four wins and one loss, while FC Barcelona has achieved three wins and two losses. Historically, Real Madrid CF has won 19 out of 58 encounters against FC Barcelona, with 8 matches ending in a draw. (footystats.org)\nGiven Real Madrid CF's superior recent performance and favorable head-to-head record, the trader's bet appears well-supported.",
     "ai_verdict": "COPY"
   }
 ]
