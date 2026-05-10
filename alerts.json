@@ -3,121 +3,6 @@
     "market": "Spread: Nuggets (-12.5)",
     "market_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
     "event_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
-    "wallet": "0x425ad361189efcf9de9b9f3cc6a83fcf0041dcd4",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,015)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1015.41,
-      "odds": 0.51,
-      "raw_price": 0.51,
-      "outcome": "Warriors",
-      "potential_pnl": 975.59,
-      "pnl_multiplier": 0.9607843137254902,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-29T14:24:53.295658",
-    "trade_hash": "0x86082e1c6faec07c2a869f0782ed7adcf44af41a3d9319d0e249924d9c8314df",
-    "trade_timestamp": 1774793922,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Warriors",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.51,
-      "effective_price": 0.51,
-      "size": 1991.0,
-      "amount": 1015.41,
-      "potential_pnl": 975.59,
-      "pnl_multiplier": 0.9607843137254902,
-      "is_no": false,
-      "slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
-      "eventSlug": "nba-gsw-den-2026-03-29"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.242,
-      "market_price": 0.51,
-      "edge": 0.268,
-      "edge_percent": 26.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Nuggets maintain a strong offensive performance",
-          "Nuggets' defense effectively limits opponent scoring",
-          "Key players remain healthy and perform well"
-        ],
-        "weakest_link": "Nuggets' defense effectively limits opponent scoring"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance trends",
-        "injury reports"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.268,
-      "edge_percent": 26.8
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 26.8,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450215+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Nuggets (-12.5)",
-    "market_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
-    "event_slug": "nba-gsw-den-2026-03-29-spread-home-12pt5",
     "wallet": "0xf9f2ffaaa45acbd0f47bf488403b3b8136774476",
     "analysis": {
       "score": 70,
@@ -30698,6 +30583,52 @@
     "market_slug": "lal-bar-rea-2026-05-10-more-markets",
     "amount": 1792.1966000000002,
     "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head statistics favor Real Madrid CF.\nIn their last five matches, Real Madrid CF has secured four wins and one loss, while FC Barcelona has achieved three wins and two losses. Historically, Real Madrid CF has won 19 out of 58 encounters against FC Barcelona, with 8 matches ending in a draw. (footystats.org)\nGiven Real Madrid CF's superior recent performance and favorable head-to-head record, the trader's bet appears well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3b9bd0e1e2423cffffdaeb7ea996a06296ecd53dc4730ccece5524c1af98171c",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12422252.631647626,
+      "volume": 289760862.100017,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd3d22e6e50f2f25b021371b503c6f119494efe85",
+      "side": "BUY",
+      "asset": "23551925389693000575150860433381878466684655580199662888891896782370808860259",
+      "conditionId": "0xc3de6edc1105fc34cca6f3c8848e87a3dd0028e9389f2987cb703f30a8aafa39",
+      "size": 2795.09,
+      "price": 0.625710227577645,
+      "timestamp": 1778450488,
+      "title": "LoL: Cloud9 vs FlyQuest (BO3) - LCS Regular Season",
+      "slug": "lol-c9-fly-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-c9-fly-2026-05-10",
+      "outcome": "Cloud9",
+      "outcomeIndex": 0,
+      "name": "sidekicks1",
+      "pseudonym": "Gleeful-Chaise",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3b9bd0e1e2423cffffdaeb7ea996a06296ecd53dc4730ccece5524c1af98171c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Cloud9 vs FlyQuest (BO3) - LCS Regular Season",
+    "market_slug": "lol-c9-fly-2026-05-10",
+    "amount": 1748.9164,
+    "ai_context": "\u2705 COPY \u2014 Cloud9 has a strong recent record and a favorable head-to-head against FlyQuest.\nIn their last 10 meetings, Cloud9 leads with 7 wins to FlyQuest's 3, including a 2-0 victory on January 25, 2026. (sportsbook.dexwin.bet) Additionally, Cloud9 has won 6 of their last 10 matches, while FlyQuest has won 6 of their last 10. (strafe.com)\nGiven Cloud9's recent form and historical advantage over FlyQuest, the trader's bet on Cloud9 at 63% odds is supported by the available data.",
     "ai_verdict": "COPY"
   }
 ]
