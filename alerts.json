@@ -3,122 +3,6 @@
     "market": "Wizards vs. Trail Blazers: O/U 237.5",
     "market_slug": "nba-was-por-2026-03-29-total-237pt5",
     "event_slug": "nba-was-por-2026-03-29-total-237pt5",
-    "wallet": "0x42cb365e9eb08172df9c035ec31b7bbd36d2f905",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,478)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1477.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1477.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-29T14:56:32.783725",
-    "trade_hash": "0xf36d204eb1f56855c564c030a1a2f818bee3dfd95f8c0fc0391992ca9ff5b0e3",
-    "trade_timestamp": 1774795836,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2955.0,
-      "amount": 1477.5,
-      "potential_pnl": 1477.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-was-por-2026-03-29-total-237pt5",
-      "eventSlug": "nba-was-por-2026-03-29"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "high-scoring performances from both teams",
-          "defensive weaknesses exploited",
-          "favorable game pace"
-        ],
-        "weakest_link": "defensive weaknesses exploited"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "recent offensive trends of both teams",
-        "injuries affecting defensive capabilities"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450233+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Wizards vs. Trail Blazers: O/U 237.5",
-    "market_slug": "nba-was-por-2026-03-29-total-237pt5",
-    "event_slug": "nba-was-por-2026-03-29-total-237pt5",
     "wallet": "0x107321c60ca5d443807d8fb9e6dea8cb8c6fa93a",
     "analysis": {
       "score": 70,
@@ -30560,6 +30444,52 @@
     "market_slug": "nba-sas-min-2026-05-10",
     "amount": 11675.0,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Spurs and Timberwolves have consistently exceeded the 218.5 point total.\nIn their last three games, the total points were 206, 228, and 223, all surpassing the 218.5 line. Additionally, the Spurs' defense has allowed an average of 110.6 points per game this season, indicating a tendency towards higher-scoring games. (athlonsports.com)\nGiven these trends, the bet on the Over is supported by recent performance data.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x95a033a0b8e797c274b170191e515d3436685e39c89845683e0ad6fb457b7ba3",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12422151.867931798,
+      "volume": 289760862.1000171,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9a8c93d5f11dc64b4ceef882f151a54c7079ba13",
+      "side": "BUY",
+      "asset": "108794095374752182813239182451803766485115728493487444047977340756291530445354",
+      "conditionId": "0x89f6956bb5b4a57271f4b7d784fd311041446b0a61c8d1b0e72c7de2450a2784",
+      "size": 1759.268835,
+      "price": 0.8516890472853741,
+      "timestamp": 1778456294,
+      "title": "Pittsburgh Pirates vs. San Francisco Giants",
+      "slug": "mlb-pit-sf-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-pit-sf-2026-05-10",
+      "outcome": "San Francisco Giants",
+      "outcomeIndex": 1,
+      "name": "MilesY",
+      "pseudonym": "Favorable-Neuron",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x95a033a0b8e797c274b170191e515d3436685e39c89845683e0ad6fb457b7ba3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pittsburgh Pirates vs. San Francisco Giants",
+    "market_slug": "mlb-pit-sf-2026-05-10",
+    "amount": 1498.3499980000001,
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the San Francisco Giants.\nIn their last 10 matchups against the Pittsburgh Pirates, the Giants have a 5-5 record, indicating a balanced performance. (statmuse.com) Additionally, in the 2025 season, the Giants won 2 out of 3 games against the Pirates, including a decisive 8-1 victory on August 5, 2025. (champsorchumps.",
     "ai_verdict": "COPY"
   }
 ]
