@@ -1,117 +1,5 @@
 [
   {
-    "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
-    "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-    "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-    "wallet": "0x55d711f71db4b192bfc5e49c514b8746e50f906f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($8,816)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 8815.699999,
-      "odds": 0.6598107919007601,
-      "raw_price": 0.6598107919007601,
-      "outcome": "Yes",
-      "potential_pnl": 4545.251515000002,
-      "pnl_multiplier": 0.5155860017373082,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-28T11:58:06.118613",
-    "trade_hash": "0x94ca9ad922780be04fc5ceebfdf290772ceddb46038ddc04ee98ed66c96a968f",
-    "trade_timestamp": 1774698775,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "side": "BUY",
-      "price": 0.6598107919007601,
-      "effective_price": 0.6598107919007601,
-      "size": 13360.951514,
-      "amount": 8815.699999,
-      "potential_pnl": 4545.251515000002,
-      "pnl_multiplier": 0.5155860017373082,
-      "is_no": false,
-      "slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-      "eventSlug": "hungary-parliamentary-election-winner"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+38.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.27196215838015203,
-      "market_price": 0.6598107919007601,
-      "edge": 0.38784863352060805,
-      "edge_percent": 38.7848633520608,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "TISZA gains significant public support leading up to the election",
-          "TISZA successfully mobilizes voters on election day",
-          "Opposition parties fail to unify or present a strong alternative"
-        ],
-        "weakest_link": "Opposition parties fail to unify or present a strong alternative"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment shifts towards TISZA's platform",
-        "Increased media coverage and visibility for TISZA"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.38784863352060805,
-      "edge_percent": 38.7848633520608
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 38.78,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:28.767712+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -8815.7
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x8fc5613663c2269da7430c20011e959903f6f8cfb0358f7310a3f0da82fe1ddb",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -30881,6 +30769,52 @@
     "market_slug": "cs2-mnte-mgc-2026-05-10",
     "amount": 1138.0208000000002,
     "ai_context": "\u2705 COPY \u2014 Monte's recent form and head-to-head record support the bet.\nMonte recently clinched the CCT Season 3 Global Finals title with a 3-1 victory over HEROIC, including a 2-1 win against Ninjas in Pyjamas. (bo3.gg) In their most recent match on May 9, 2026, Monte faced FURIA in the PGL Astana Group Stage, but the outcome is not specified in the available sources. (polymarket.com) However, their recent championship win indicates strong performance. No injuries have been reported for Monte.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2feef535a85b887134b337a4b4acc2ec8def9fe8c7615b3db4d9c96ae0850f4c",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 14,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc8b0c7331a0c879a033003d81501f51b318f6815",
+      "side": "BUY",
+      "asset": "70896429838088512678061827508142046507537916713744949134983808501022536132541",
+      "conditionId": "0xa1ef064e524ea0fa7ea5f0bb34acf52807680d74c36d891f832d60ad97ee213e",
+      "size": 11985.140118,
+      "price": 0.8343665489551851,
+      "timestamp": 1778378516,
+      "title": "UFC 328: Joaquin Buckley vs. Sean Brady (Welterweight, Main Card)",
+      "slug": "ufc-joa3-sea4-2026-05-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
+      "eventSlug": "ufc-joa3-sea4-2026-05-09",
+      "outcome": "Sean Brady",
+      "outcomeIndex": 1,
+      "name": "Annon12",
+      "pseudonym": "Dual-Former",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2feef535a85b887134b337a4b4acc2ec8def9fe8c7615b3db4d9c96ae0850f4c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "UFC 328: Joaquin Buckley vs. Sean Brady (Welterweight, Main Card)",
+    "market_slug": "ufc-joa3-sea4-2026-05-09",
+    "amount": 9999.999999,
+    "ai_context": "\u2705 COPY \u2014 Sean Brady has a strong recent record and a favorable head-to-head against Joaquin Buckley.\nBrady is 8-2 in the UFC, with his most recent fight being a win over Michael Morales on November 15, 2025. (ufc.com) Buckley has a 21-7 record, with his last fight being a loss to Kamaru Usman on June 14, 2025. (ufc.com) Brady's grappling skills, averaging 3.53 takedowns every 15 minutes, may give him an advantage over Buckley. (pickswise.com)",
     "ai_verdict": "COPY"
   }
 ]
