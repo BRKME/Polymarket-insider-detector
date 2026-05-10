@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8fc5613663c2269da7430c20011e959903f6f8cfb0358f7310a3f0da82fe1ddb",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x554b0975cc71514bcfb52598310dc4e9291b8216",
-      "side": "BUY",
-      "asset": "34146692331503177603782853463663889667346777354917338693542546006951588245370",
-      "conditionId": "0x3dd276f10193bb8c36b4647af3400e2fcb116ccb7683d8d834739d111512c907",
-      "size": 5000,
-      "price": 0.51,
-      "timestamp": 1774712409,
-      "title": "Dota 2: Team Yandex vs Tundra Esports - Game 1 Winner",
-      "slug": "dota2-ty-tundra-2026-03-28-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-ty-tundra-2026-03-28",
-      "outcome": "Team Yandex",
-      "outcomeIndex": 0,
-      "name": "sd908787",
-      "pseudonym": "Linear-Octagon",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8fc5613663c2269da7430c20011e959903f6f8cfb0358f7310a3f0da82fe1ddb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Team Yandex vs Tundra Esports - Game 1 Winner",
-    "market_slug": "dota2-ty-tundra-2026-03-28",
-    "amount": 2550.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450081+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x462f81fb307d43369abf1d0d59718aa603e7a3f09b3eaf1a81906c94959d797c",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
     "trader": {
@@ -30999,5 +30947,51 @@
       "model_correct": null,
       "pnl": 1985.14
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd2990fffa971c8d053cc25b7480ff8fdab38526bf8dfc557ddff78a11a3477f2",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 14,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7ea571c40408f340c1c8fc8eaacebab53c1bde7b",
+      "side": "BUY",
+      "asset": "91143685105937854361310312297974842267813113286823558937899462024235653833042",
+      "conditionId": "0xac7d098fda0c9d789d88592a201fc91b14b01ebbe34f7ab6d5a60bdc73947e6f",
+      "size": 3755.74,
+      "price": 0.4,
+      "timestamp": 1778409881,
+      "title": "Will RCD Mallorca win on 2026-05-10?",
+      "slug": "lal-mal-vil-2026-05-10-mal",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-mal-vil-2026-05-10",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Cannae",
+      "pseudonym": "Infamous-Ocelot",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd2990fffa971c8d053cc25b7480ff8fdab38526bf8dfc557ddff78a11a3477f2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will RCD Mallorca win on 2026-05-10?",
+    "market_slug": "lal-mal-vil-2026-05-10",
+    "amount": 1502.296,
+    "ai_context": "\u2705 COPY \u2014 RCD Mallorca has shown strong recent form, winning three of their last five matches.\nThey secured victories against Real Madrid (2-1), Rayo Vallecano (3-0), and Girona (1-0). (statmuse.com) Their upcoming opponent, Villarreal, is third in the league with 68 points, indicating a challenging match ahead. (as.com)\nGiven Mallorca's recent positive momentum, they are well-positioned to secure a win against Villarreal.",
+    "ai_verdict": "COPY"
   }
 ]
