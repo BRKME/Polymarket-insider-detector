@@ -1,171 +1,5 @@
 [
   {
-    "market": "Will Crude Oil (CL) hit (HIGH) $105 by end of March?",
-    "market_slug": "will-crude-oil-cl-hit-high-105-by-end-of-march-881",
-    "event_slug": "will-crude-oil-cl-hit-high-105-by-end-of-march-881",
-    "wallet": "0x5782cc3ae4dcf9f7e322cbdc5bde781883758ce5",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,067)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1067.4102,
-      "odds": 0.46267516294803845,
-      "raw_price": 0.5373248370519615,
-      "outcome": "No",
-      "potential_pnl": 1239.629999,
-      "pnl_multiplier": 1.1613435949928153,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-29T09:24:02.456433",
-    "trade_hash": "0xe03c7576470188788014b333e7198e7752e77e63ea80d65961021dfceab896c6",
-    "trade_timestamp": 1774775910,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.5373248370519615,
-      "effective_price": 0.46267516294803845,
-      "size": 2307.040199,
-      "amount": 1067.4102,
-      "potential_pnl": 1239.629999,
-      "pnl_multiplier": 1.1613435949928153,
-      "is_no": true,
-      "slug": "will-crude-oil-cl-hit-high-105-by-end-of-march-881",
-      "eventSlug": "will-crude-oil-cl-hit-by-end-of-march"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+35.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.1794649674103923,
-      "market_price": 0.5373248370519615,
-      "edge": 0.35785986964156924,
-      "edge_percent": 35.785986964156926,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Geopolitical tensions affecting oil supply",
-          "Significant increase in global demand for oil",
-          "Major disruptions in oil production or distribution"
-        ],
-        "weakest_link": "Significant increase in global demand for oil"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "OPEC production decisions",
-        "Global economic recovery post-pandemic"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.35785986964156924,
-      "edge_percent": 35.785986964156926
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 35.79,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:33.710336+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 1239.63
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xa6234084389c57f1232dcb387e4934c949698c6a4c54ddcac873660c55e9eb8b",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 18,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4550622.476932838,
-      "volume": 60068570.023648,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6e6120c3538399e82c00ce3f02ad8c1a0fe2915",
-      "side": "SELL",
-      "asset": "22773076837574351470018298754278146416270756670327468699308924981573510364392",
-      "conditionId": "0x2247cce190c9ca22ed6c31d36287b4d13921c7deb0a4cdaad568bcfd740aa297",
-      "size": 2374.95,
-      "price": 0.13071609928630076,
-      "timestamp": 1774783932,
-      "title": "Counter-Strike: G2 vs CarritoSpain (BO1) - Roman Imperium Cup Group D",
-      "slug": "cs2-g2-car-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-g2-car-2026-03-29",
-      "outcome": "CarritoSpain",
-      "outcomeIndex": 1,
-      "name": "hunting10c",
-      "pseudonym": "Separate-Bush",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa6234084389c57f1232dcb387e4934c949698c6a4c54ddcac873660c55e9eb8b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: G2 vs CarritoSpain (BO1) - Roman Imperium Cup Group D",
-    "market_slug": "cs2-g2-car-2026-03-29",
-    "amount": 2064.5058,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450187+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xb87dfbb383777e394117fe9cd58a93d1b477d87f12b39088e4fcf9713d70f570",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
@@ -30848,5 +30682,97 @@
     "amount": 1063.9986,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 AJ Auxerre's recent form is mixed, but they have a home advantage against OGC Nice.\nIn their last five matches, AJ Auxerre has one win, two draws, and two losses. Their most recent match was a 0-0 draw against Nantes on April 11, 2026. (espn.com) They are scheduled to play against OGC Nice on May 10, 2026. (footlive.com) Historically, home teams have a slight advantage, but recent form suggests a closely contested match.",
     "ai_verdict": "LEAN_COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa12256d4548f881f9136d001c06ea7e1425eaa6b7a57330323080f280fbf22bb",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "BUY",
+      "asset": "55297441786017085969636905582063725290032450865351029055580704018493906917875",
+      "conditionId": "0xd88ef3bc17039ccc958f7dc58bbf0047007683d8510f1fae99859fe53dd326ef",
+      "size": 4295,
+      "price": 0.66,
+      "timestamp": 1778442389,
+      "title": "Knicks vs. 76ers",
+      "slug": "nba-nyk-phi-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-phi-2026-05-10",
+      "outcome": "Knicks",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa12256d4548f881f9136d001c06ea7e1425eaa6b7a57330323080f280fbf22bb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. 76ers",
+    "market_slug": "nba-nyk-phi-2026-05-10",
+    "amount": 2834.7000000000003,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups and current form favor the Knicks.\nThe Knicks have won 3 of the last 4 games against the 76ers, including a decisive 137-98 victory in Game 1 of the current series. In Game 2, the Knicks secured a 108-102 win, taking a 2-0 series lead. (nba.com) Additionally, the 76ers are missing star center Joel Embiid due to injury. (apnews.com)\nGiven the Knicks' recent dominance and the 76ers' injury issues, the trader's bet on the Knicks is well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3432107b557fe6de4d937c266b0ee157f229aaac7f95e6c293e2cf97e614f537",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4064f0122a3703e9159ca5dbd4bfeb7b980df741",
+      "side": "BUY",
+      "asset": "102999847456747923021023656198596470984491723764254286755933316790533371310747",
+      "conditionId": "0x58d7d5963356b4a984314b7a9580de6bc9be6e9dbab396530401417b8f588033",
+      "size": 9660.91,
+      "price": 0.37925980057779235,
+      "timestamp": 1778442389,
+      "title": "CA River Plate vs. CA San Lorenzo de Almagro: O/U 1.5",
+      "slug": "arg-riv-slo-2026-05-10-total-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "eventSlug": "arg-riv-slo-2026-05-10-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "qix7",
+      "pseudonym": "Mean-Pickaxe",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3432107b557fe6de4d937c266b0ee157f229aaac7f95e6c293e2cf97e614f537",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "CA River Plate vs. CA San Lorenzo de Almagro: O/U 1.5",
+    "market_slug": "arg-riv-slo-2026-05-10-more-markets",
+    "amount": 3663.9948,
+    "ai_context": "\u2705 COPY \u2014 Recent head-to-head matches between River Plate and San Lorenzo have consistently ended with under 1.5 goals.\nIn their last three encounters, all matches concluded with a total of 0 or 1 goal:\nJuly 28, 2025: River Plate 0-0 San Lorenzo\nFebruary 2, 2025: San Lorenzo 0-0 River Plate\nDecember 5, 2024: River Plate 1-1 San Lorenzo\nThis trend suggests a strong likelihood of a low-scoring game.",
+    "ai_verdict": "COPY"
   }
 ]
