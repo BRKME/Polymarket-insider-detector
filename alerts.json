@@ -4932,7 +4932,14 @@
     "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
     "market_slug": "next-prime-minister-of-hungary",
     "amount": 2389.3451999999997,
-    "resolution_last_check": "2026-04-26T07:40:41.679805+00:00"
+    "resolution_last_check": "2026-04-26T07:40:41.679805+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:57:27.483387+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4638.14
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -9018,7 +9025,14 @@
     "market_slug": "next-prime-minister-of-hungary",
     "amount": 4900.0,
     "ai_context": "\u274c SKIP  \nThe odds seem high for a potentially uncertain political outcome; the market may not fully reflect the dynamics of Hungarian politics.",
-    "resolution_last_check": "2026-04-26T07:40:56.649861+00:00"
+    "resolution_last_check": "2026-04-26T07:40:56.649861+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:57:27.907679+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -4900.0
+    }
   },
   {
     "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
@@ -10720,7 +10734,14 @@
     "market_slug": "next-prime-minister-of-hungary",
     "amount": 1887.2634999999998,
     "ai_context": "\u274c SKIP  \nThe odds are too low for a significant return, and Orb\u00e1n's incumbency suggests he remains a strong favorite.",
-    "resolution_last_check": "2026-04-26T07:41:02.736975+00:00"
+    "resolution_last_check": "2026-04-26T07:41:02.736975+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:57:29.848639+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 333.05
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29257,7 +29278,14 @@
     "amount": 1629.8399990000003,
     "ai_context": "\u274c SKIP \u2014 Recent games show the Pistons winning both matchups against the Cavaliers.\nIn the most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97. In the previous game on May 5, 2026, the Pistons won 111-101. Additionally, the Pistons have won 3 of the last 5 meetings between the two teams. (landofbasketball.com)\nHowever, the trader may have access to insider information or advanced analytics that suggest the Cavaliers will perform better in the upcoming game.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-09T07:43:57.080398+00:00"
+    "resolution_last_check": "2026-05-09T07:43:57.080398+00:00",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-10T07:57:52.496524+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1042.03
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29686,7 +29714,14 @@
     },
     "ai_context": "\u2705 COPY \u2014 Khamzat Chimaev is undefeated with a dominant record and has recently defended his middleweight title.\nHe holds a 15-0 record, including a unanimous decision victory over Dricus Du Plessis at UFC 319, where he showcased superior grappling and control. (apnews.com)",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-09T07:44:06.503202+00:00"
+    "resolution_last_check": "2026-05-09T07:44:06.503202+00:00",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-10T07:57:54.545006+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3430.77
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29785,7 +29820,14 @@
     "market_slug": "lol-ns-bro2-2026-05-09",
     "amount": 1533.1965000000002,
     "ai_context": "\u2705 COPY \u2014 Nongshim Red Force has a strong head-to-head record against HANJIN BRION and recent match victories.\nThey have won 5 out of 5 matches against HANJIN BRION since February 2025, including a 2-0 victory in the LCK Cup 2025 Group Stage on January 17, 2025. (strafe.com) In their most recent match on April 3, 2025, they secured a 2-0 win in the LCK 2025 Rounds 1-2. (strafe.com) Their recent form includes a 2-0 victory over BFX in the LCK 2026 Rounds 1-2 on April 5, 2026. (gol.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Odd",
+      "checked_at": "2026-05-10T07:57:55.655138+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1533.2
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29831,7 +29873,14 @@
     "market_slug": "atp-moutet-ruiz-2026-05-09",
     "amount": 1382.33,
     "ai_context": "\u2705 COPY \u2014 Moutet has a strong recent record against lower-ranked opponents and is favored to win.\nIn the past 52 weeks, Moutet has a 75% win rate against players ranked outside the top 100. (tennisratio.com) Additionally, he is currently favored to win against Llamas Ruiz, with a 56% chance of victory. (dimers.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Ruiz",
+      "checked_at": "2026-05-10T07:57:56.902854+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1382.33
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29877,7 +29926,14 @@
     "market_slug": "epl-sun-mun-2026-05-09",
     "amount": 2866.4,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head record favor Manchester United.\nManchester United has won their last three matches, including a 3-2 victory over Liverpool on May 3. (mykhel.com) They have also secured Champions League qualification. (fourfourtwo.com) Sunderland, on the other hand, is mid-table and has not been in strong form recently. (as.com) Given Manchester United's superior form and head-to-head record, the trader's bet on \"No\" may not be well-supported by current data.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:57:58.100627+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 716.6
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29923,7 +29979,14 @@
     "market_slug": "wta-sabalen-cirstea-2026-05-09",
     "amount": 1918.68634,
     "ai_context": "\u274c SKIP \u2014 Aryna Sabalenka has dominated their recent encounters, including a decisive win in January 2026.\nIn their last three meetings, Sabalenka leads 2-1, with the most recent match in January 2026 where she won 6-3, 6-3. (tennisratio.com) Additionally, Sabalenka has been in strong form, winning 86.1% of her matches in the last 12 months. (tennisstats.com) While Cirstea has a solid record, her recent form and head-to-head history suggest Sabalenka is the stronger contender.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Cirstea",
+      "checked_at": "2026-05-10T07:57:59.444662+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4081.31
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29969,7 +30032,14 @@
     "market_slug": "bun-wol-bay-2026-05-09",
     "amount": 1499.999998,
     "ai_context": "\u2705 COPY \u2014 Bayern Munich is set to play against VfL Wolfsburg on May 9, 2026, and has a strong chance of winning.\nThe match is scheduled for 5:30 PM local time at Volkswagen Arena in Wolfsburg. Bayern Munich is currently leading the Bundesliga with a 3-3 draw against 1. FC Heidenheim on May 2, 2026. (sofascore.com) VfL Wolfsburg is ranked 16th in the league, indicating a significant disparity in form. (sofascore.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:00.651830+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1500.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30015,7 +30085,14 @@
     "market_slug": "bun-wol-bay-2026-05-09",
     "amount": 4999.999999,
     "ai_context": "\u2705 COPY \u2014 Bayern Munich has a strong recent record against Wolfsburg, including a decisive 8-1 victory in January 2026.\nIn their most recent encounter on January 11, 2026, Bayern Munich defeated VfL Wolfsburg 8-1. (rationalodds.com) Additionally, Bayern Munich has been in good form, with a 3-1 win over 1. FC Heidenheim on May 2, 2026, and a 1-1 draw against Paris Saint-Germain on May 6, 2026. (statmuse.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:00.651893+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 8888.89
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30061,7 +30138,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 35144.715520000005,
     "ai_context": "\u274c SKIP \u2014 Recent developments indicate a potential peace deal, but no final agreement is in place yet.\nOn May 8, 2026, U.S. Vice President Vance met with Qatari Prime Minister Sheikh Mohammed Bin Abdul Rahman al-Thani to discuss a draft peace agreement with Iran. The U.S. is awaiting Iran's response to a one-page memorandum of understanding aimed at ending the war and establishing a framework for future nuclear negotiations. (axios.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:01.949180+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 5089.76
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30107,7 +30191,14 @@
     "market_slug": "ufc-gra-mat13-2026-05-09",
     "amount": 2620.9619999999995,
     "ai_context": "\u2705 COPY \u2014 Grant Dawson has a strong UFC record and is favored to win against Mateusz Rebecki.\nDawson holds a 23-3-1 professional record, with 11 wins by submission and 5 by knockout. (ufc.com) He is currently favored with odds of -170, indicating a higher probability of victory. (sherdog.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Grant Dawson",
+      "checked_at": "2026-05-10T07:58:03.142217+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1897.94
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30153,7 +30244,14 @@
     "market_slug": "fr2-fca-raf-2026-05-09",
     "amount": 1235.612,
     "ai_context": "\u2705 COPY \u2014 Rodez Aveyron Football has a strong head-to-head record against Annecy and is in good form.\nIn their last five encounters, Rodez Aveyron won three times and drew twice, including a 2-1 victory on October 28, 2025. (espn.com) Recently, they secured a 2-1 win against AS Saint-Etienne on May 2, 2026. (azscore.com) Overall, Rodez Aveyron has 14 wins, 13 draws, and 6 losses this season, placing them 5th in Ligue 2. (footystats.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:04.357585+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1235.61
+    }
   },
   {
     "market": "Houston Astros vs. Cincinnati Reds",
@@ -30263,7 +30361,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Astros have dominated recent matchups against the Reds, including a 10-0 victory on May 8, 2026.\nIn their last 10 encounters, the Astros have won 9, with the most recent being a 10-0 win on May 8, 2026. (si.com)\nThe Astros' recent form and strong head-to-head record against the Reds support the trader's bet.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Cincinnati Reds",
+      "checked_at": "2026-05-10T07:58:06.400156+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1065.46
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30309,7 +30414,14 @@
     "market_slug": "nba-det-cle-2026-05-09",
     "amount": 4289.3355,
     "ai_context": "\u2705 COPY \u2014 Pistons have won 3 of the last 5 matchups against the Cavaliers, including a recent home victory.\nIn their most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97 at home. (champsorchumps.us)\nAdditionally, the Pistons have shown strong performance in the playoffs, overcoming a 3-1 deficit to advance to the conference semifinals. (elpais.com)\nGiven these factors, the trader's bet on the Pistons appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-10T07:58:06.400236+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -4289.34
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30355,7 +30467,14 @@
     "market_slug": "nba-det-cle-2026-05-09",
     "amount": 2444.3255,
     "ai_context": "\u2705 COPY \u2014 Pistons have won 3 of the last 5 matchups against the Cavaliers, including a recent home victory.\nIn their most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97 at home. Additionally, the Pistons have a 3-2 record against the Cavaliers this season. (champsorchumps.us)\nThe Pistons have demonstrated strong performance against the Cavaliers recently, with a 3-2 record this season and a home victory on May 7, 2026.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-10T07:58:06.400265+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2444.33
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30401,7 +30520,14 @@
     "market_slug": "israel-closes-its-airspace-by",
     "amount": 1319.1868,
     "ai_context": "\u2705 COPY \u2014 Recent developments indicate Israel's airspace remains open, supporting the trader's bet on \"No.\"\nAs of May 5, 2026, the ceasefire between Israel and Iran is holding, and Ben Gurion Airport has resumed operations without any new escalation catalysts before May 31. (lines.com) The airspace reopened gradually starting on March 4, 2026, with initial flights to repatriate Israelis, and has since returned to near-normal operations. (ndtv.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:07.641275+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 542.1
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30447,7 +30573,14 @@
     "market_slug": "mlb-col-phi-2026-05-09",
     "amount": 1520.0,
     "ai_context": "\u2705 COPY \u2014 Recent matchups and head-to-head record favor the Rockies.\nIn their last five encounters, the Rockies have won three games, including a 4-1 victory on April 6, 2026. (m.aiscore.com) Historically, the Rockies have a 43.6% win rate against the Phillies. (m.aiscore.com)\nThe Rockies' recent form includes a 9-7 win over the Phillies on May 8, 2026. (baseball-reference.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Philadelphia Phillies",
+      "checked_at": "2026-05-10T07:58:08.858097+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1520.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30493,7 +30626,14 @@
     "market_slug": "mlb-wsh-mia-2026-05-09",
     "amount": 4999.999999,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and current form do not favor the Marlins.\nIn their last three matchups, the Nationals have won two games, including a 10-5 victory on September 3, 2025. (espn.com) Additionally, the Marlins have a 47.6% win rate against the Nationals historically. (m.aiscore.com) Currently, the Marlins are 17-21, while the Nationals are 18-20. (foxsports.com) The Marlins' recent form and historical performance against the Nationals do not support the bet.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Miami Marlins",
+      "checked_at": "2026-05-10T07:58:10.112046+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 3110.47
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30539,7 +30679,14 @@
     "market_slug": "ufc-sea2-kha7-2026-05-09",
     "amount": 2875.9299980000005,
     "ai_context": "\u2705 COPY \u2014 Chimaev's dominant performance against Du Plessis and his undefeated record support the bet.\nChimaev won the middleweight title by unanimous decision over Dricus Du Plessis in August 2025, extending his undefeated record to 15-0. (apnews.com)\nChimaev's recent form, including his dominant victory over Du Plessis, indicates strong performance leading up to this fight.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-10T07:58:10.112104+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2875.93
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30585,7 +30732,14 @@
     "market_slug": "lol-dsg-dig-2026-05-09",
     "amount": 5310.1586,
     "ai_context": "\u274c SKIP \u2014 Dignitas has a 0% win rate over the past 30 days and a 7-match losing streak.\nThey have lost their last 5 matches, including a 0-2 defeat to Disguised on April 16, 2026. (tips.gg) However, the trader may have access to insider information or anticipate a significant improvement in Dignitas's performance.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:11.371601+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30631,7 +30785,14 @@
     "market_slug": "mlb-sea-cws-2026-05-09",
     "amount": 9999.999999999998,
     "ai_context": "\u2705 COPY \u2014 Mariners have won 7 of the last 10 matchups against the White Sox.\nIn their most recent game on May 8, 2026, the Mariners defeated the White Sox 12-8. (foxsports.com)\nMLB Schedule\nMariners (SEA) @ White Sox (CWS) on Friday, May 08, 2026 at 04:40 PM PDT. Final score: SEA 12 - CWS 8\nMariners (SEA) @ White Sox (CWS) on Saturday, May 09, 2026 at 04:10 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Chicago White Sox",
+      "checked_at": "2026-05-10T07:58:12.549671+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -10000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30677,7 +30838,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 1959.999999,
     "ai_context": "\u274c SKIP \u2014 Recent U.S. airstrikes on Iran and ongoing military exchanges suggest a permanent peace deal by May 31, 2026, is unlikely. On May 7, 2026, U.S. forces conducted airstrikes on Iranian military sites in response to Iranian attacks on U.S. naval vessels in the Strait of Hormuz. (en.wikipedia.org) Additionally, on May 9, 2026, U.S.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:13.656413+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 762.22
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30723,7 +30891,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 4999.999999,
     "ai_context": "\u274c SKIP \u2014 Recent military exchanges and escalating tensions suggest a permanent peace deal by December 31, 2026, is unlikely.\nOn May 7, 2026, U.S. and Iranian forces exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval vessels, prompting U.S. retaliatory strikes. (axios.com) Additionally, the U.S. initiated \"Project Freedom,\" a military operation to secure maritime passage through the Strait of Hormuz, leading to further confrontations. (lemonde.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-10T07:58:14.666108+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30769,7 +30944,8 @@
     "market_slug": "cs2-mnte-mgc-2026-05-10",
     "amount": 1138.0208000000002,
     "ai_context": "\u2705 COPY \u2014 Monte's recent form and head-to-head record support the bet.\nMonte recently clinched the CCT Season 3 Global Finals title with a 3-1 victory over HEROIC, including a 2-1 win against Ninjas in Pyjamas. (bo3.gg) In their most recent match on May 9, 2026, Monte faced FURIA in the PGL Astana Group Stage, but the outcome is not specified in the available sources. (polymarket.com) However, their recent championship win indicates strong performance. No injuries have been reported for Monte.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-10T07:58:15.542123+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30815,6 +30991,13 @@
     "market_slug": "ufc-joa3-sea4-2026-05-09",
     "amount": 9999.999999,
     "ai_context": "\u2705 COPY \u2014 Sean Brady has a strong recent record and a favorable head-to-head against Joaquin Buckley.\nBrady is 8-2 in the UFC, with his most recent fight being a win over Michael Morales on November 15, 2025. (ufc.com) Buckley has a 21-7 record, with his last fight being a loss to Kamaru Usman on June 14, 2025. (ufc.com) Brady's grappling skills, averaging 3.53 takedowns every 15 minutes, may give him an advantage over Buckley. (pickswise.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Sean Brady",
+      "checked_at": "2026-05-10T07:58:16.418452+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1985.14
+    }
   }
 ]
