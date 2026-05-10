@@ -1,127 +1,5 @@
 [
   {
-    "market": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
-    "market_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-    "event_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-    "wallet": "0x055b79c4b94353876ae68c63508fc5c1a3aaa9a4",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,135)",
-        "Pre-event latency: 2400m"
-      ],
-      "amount": 2135.248,
-      "odds": 0.904,
-      "raw_price": 0.096,
-      "outcome": "No",
-      "potential_pnl": 226.75199999999995,
-      "pnl_multiplier": 0.1061946902654867,
-      "wallet_age_days": 0,
-      "total_activities": 31
-    },
-    "timestamp": "2026-03-29T08:04:55.202315",
-    "trade_hash": "0x339755e4daee1040af97e24d63d737095faed220e5aba2cecb0dbbba6fcc05bc",
-    "trade_timestamp": 1774771228,
-    "latency": {
-      "latency_seconds": 143972.0,
-      "latency_minutes": 2399.5333333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-29T08:00:28+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.096,
-      "effective_price": 0.904,
-      "size": 2362.0,
-      "amount": 2135.248,
-      "potential_pnl": 226.75199999999995,
-      "pnl_multiplier": 0.1061946902654867,
-      "is_no": true,
-      "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-      "eventSlug": "avg-of-ships-transiting-strait-of-hormuz-end-of-march"
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (10%) in medium bias category (other)",
-        "Moderate mispricing edge (+5.3%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.0432,
-      "market_price": 0.096,
-      "edge": 0.0528,
-      "edge_percent": 5.28,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Regional geopolitical stability",
-          "Economic factors affecting shipping",
-          "Weather conditions conducive to transit"
-        ],
-        "weakest_link": "Regional geopolitical stability, as tensions in the area can significantly disrupt transit"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Potential military conflicts affecting shipping lanes",
-        "Economic sanctions impacting trade routes"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 133,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 100,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.0528,
-      "edge_percent": 5.28
-    },
-    "financial_analyst": {
-      "signal_quality": 69.5,
-      "stance": "SELECTIVE",
-      "edge_percent": 5.28,
-      "signal_strength": 133.0,
-      "insider_score": 100.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:31.902687+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 226.75
-    }
-  },
-  {
     "market": "Will Crude Oil (CL) hit (HIGH) $105 by end of March?",
     "market_slug": "will-crude-oil-cl-hit-high-105-by-end-of-march-881",
     "event_slug": "will-crude-oil-cl-hit-high-105-by-end-of-march-881",
@@ -30924,5 +30802,51 @@
     "amount": 2899.999999,
     "ai_context": "\u2705 COPY \u2014 Tommy Paul has a 2-0 head-to-head record against Luciano Darderi and is in strong recent form.\nPaul defeated Darderi 6-4, 7-6(2) in their last encounter in August 2024. (stevegtennis.com) In his last 10 matches, Paul has won 7, indicating solid performance. (matchstat.com)",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf383235c355e434abd56c30c42be96e1b3d580bf20e2f7df4240179a0f26aa54",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 8,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4a8d0340b8f8bd53dcf8a666e613c6ded7d031ea",
+      "side": "BUY",
+      "asset": "39744473687131175004694636078809404220653971857311331825807612258126215720897",
+      "conditionId": "0xfb7f57b0468c34ffa0333c4df7fb9bf5ca26e1f4c5fb32ac9f248d9a8c73abe1",
+      "size": 2533.33,
+      "price": 0.42,
+      "timestamp": 1778438038,
+      "title": "Will AJ Auxerre win on 2026-05-10?",
+      "slug": "fl1-aja-ogc-2026-05-10-aja",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-aja-ogc-2026-05-10",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "xhisaidhwaih80921dhxmtest1",
+      "pseudonym": "Avaricious-Dynamite",
+      "bio": "xhisaidhwaih80921dhxmtest12",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf383235c355e434abd56c30c42be96e1b3d580bf20e2f7df4240179a0f26aa54",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will AJ Auxerre win on 2026-05-10?",
+    "market_slug": "fl1-aja-ogc-2026-05-10",
+    "amount": 1063.9986,
+    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 AJ Auxerre's recent form is mixed, but they have a home advantage against OGC Nice.\nIn their last five matches, AJ Auxerre has one win, two draws, and two losses. Their most recent match was a 0-0 draw against Nantes on April 11, 2026. (espn.com) They are scheduled to play against OGC Nice on May 10, 2026. (footlive.com) Historically, home teams have a slight advantage, but recent form suggests a closely contested match.",
+    "ai_verdict": "LEAN_COPY"
   }
 ]
