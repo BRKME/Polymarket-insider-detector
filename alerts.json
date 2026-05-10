@@ -1,353 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x6f8d8236143d46a27980841b7594544bf7b4a83fce8d17af36dda164110f393f",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 18,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4552026.639442839,
-      "volume": 60068570.023648,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb55216ed55337cf9443139e4e5cace56426694a8",
-      "side": "BUY",
-      "asset": "8315118855769906914031029123329030363204850099913487464661726710285931120780",
-      "conditionId": "0xabffa266a98370e4fa5ab03fcda6c805000304c036fb9df728908e043d214416",
-      "size": 5000,
-      "price": 0.49978314,
-      "timestamp": 1774735612,
-      "title": "Spread: Hornets (-6.5)",
-      "slug": "nba-phi-cha-2026-03-28-spread-home-6pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-phi-cha-2026-03-28",
-      "outcome": "76ers",
-      "outcomeIndex": 1,
-      "name": "KirksCousin",
-      "pseudonym": "Acceptable-Dare",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6f8d8236143d46a27980841b7594544bf7b4a83fce8d17af36dda164110f393f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Hornets (-6.5)",
-    "market_slug": "nba-phi-cha-2026-03-28",
-    "amount": 2501.0843,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450147+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xa1d7279a0a08afbaf175509935591d36fa29dbde89ff74ae77853d3a2370bf33",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 12,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "side": "BUY",
-      "asset": "95411093744734370915792410998151956108686985086137534199369379281549794538611",
-      "conditionId": "0x17dafc4d9c1128c17f936e35f6772d02c0eb2f637b883b95f8dc891740d2d6cc",
-      "size": 2510,
-      "price": 0.66,
-      "timestamp": 1774737414,
-      "title": "Pistons vs. Timberwolves",
-      "slug": "nba-det-min-2026-03-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-det-min-2026-03-28",
-      "outcome": "Pistons",
-      "outcomeIndex": 0,
-      "name": "RN1",
-      "pseudonym": "Scary-Edible",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa1d7279a0a08afbaf175509935591d36fa29dbde89ff74ae77853d3a2370bf33",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Pistons vs. Timberwolves",
-    "market_slug": "nba-det-min-2026-03-28",
-    "amount": 1656.6000000000001,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450155+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
-    "market_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-    "event_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-    "wallet": "0xa939a62b9a1507904e7563eb9b8930adaf572ba7",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,055)",
-        "Pre-event latency: 2400m"
-      ],
-      "amount": 1054.968,
-      "odds": 0.904,
-      "raw_price": 0.904,
-      "outcome": "Yes",
-      "potential_pnl": 112.03199999999993,
-      "pnl_multiplier": 0.10619469026548664,
-      "wallet_age_days": 0,
-      "total_activities": 29
-    },
-    "timestamp": "2026-03-29T08:04:45.905178",
-    "trade_hash": "0x3cc4369203a259cd958760ae714849a667b873c69212885638b7e04ab056816b",
-    "trade_timestamp": 1774771230,
-    "latency": {
-      "latency_seconds": 143970.0,
-      "latency_minutes": 2399.5,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-29T08:00:30+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.904,
-      "effective_price": 0.904,
-      "size": 1167.0,
-      "amount": 1054.968,
-      "potential_pnl": 112.03199999999993,
-      "pnl_multiplier": 0.10619469026548664,
-      "is_no": false,
-      "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-      "eventSlug": "avg-of-ships-transiting-strait-of-hormuz-end-of-march"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+55.5%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.3488,
-      "market_price": 0.904,
-      "edge": 0.5552,
-      "edge_percent": 55.52,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Geopolitical stability in the region",
-          "Operational capacity of vessels transiting the strait",
-          "Weather conditions favorable for maritime transit"
-        ],
-        "weakest_link": "Geopolitical stability in the region"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased military presence in the region",
-        "Economic implications of oil transit through the Strait"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 100,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 100,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5552,
-      "edge_percent": 55.52
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 52.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 55.52,
-      "signal_strength": 100.0,
-      "insider_score": 100.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:31.902604+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1054.97
-    }
-  },
-  {
-    "market": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
-    "market_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-    "event_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-    "wallet": "0xd704fcf6c2a79785c14886bca9dcbafc5c37469a",
-    "analysis": {
-      "score": 100,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,501)",
-        "Pre-event latency: 2400m"
-      ],
-      "amount": 1500.64,
-      "odds": 0.904,
-      "raw_price": 0.096,
-      "outcome": "No",
-      "potential_pnl": 159.3599999999999,
-      "pnl_multiplier": 0.10619469026548665,
-      "wallet_age_days": 0,
-      "total_activities": 39
-    },
-    "timestamp": "2026-03-29T08:04:50.889368",
-    "trade_hash": "0x2dd1024c8339e86ee70d7f7af86c0541e11df09f780d17e4138fc7cfb69742d6",
-    "trade_timestamp": 1774771228,
-    "latency": {
-      "latency_seconds": 143972.0,
-      "latency_minutes": 2399.5333333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-29T08:00:28+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.096,
-      "effective_price": 0.904,
-      "size": 1660.0,
-      "amount": 1500.64,
-      "potential_pnl": 159.3599999999999,
-      "pnl_multiplier": 0.10619469026548665,
-      "is_no": true,
-      "slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
-      "eventSlug": "avg-of-ships-transiting-strait-of-hormuz-end-of-march"
-    },
-    "irrationality": {
-      "irrationality_score": 33,
-      "flags": [
-        "Longshot (10%) in medium bias category (other)",
-        "Moderate mispricing edge (+5.3%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.0432,
-      "market_price": 0.096,
-      "edge": 0.0528,
-      "edge_percent": 5.28,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "MODERATE",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Geopolitical stability in the region on March 31",
-          "Operational capacity of vessels transiting the Strait",
-          "Weather conditions allowing safe passage"
-        ],
-        "weakest_link": "Geopolitical stability in the region on March 31"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Tensions between regional powers affecting shipping routes",
-        "Economic implications of oil transport through the Strait"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 133,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 100,
-      "insider_position": "NO",
-      "irrationality_score": 33,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.0528,
-      "edge_percent": 5.28
-    },
-    "financial_analyst": {
-      "signal_quality": 69.5,
-      "stance": "SELECTIVE",
-      "edge_percent": 5.28,
-      "signal_strength": 133.0,
-      "insider_score": 100.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:31.902659+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 159.36
-    }
-  },
-  {
     "market": "Will there be between 0 and 10 average daily transits of the Strait of Hormuz on March 31?",
     "market_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
     "event_slug": "will-there-be-between-0-and-10-average-daily-transits-of-the-strait-of-hormuz-on-march-31",
@@ -31023,6 +30675,254 @@
     "market_slug": "epl-wes-ars-2026-05-10",
     "amount": 4102.92,
     "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head statistics favor Arsenal over West Ham United.\nIn their last five matches, West Ham United has secured two wins, one draw, and suffered two losses, including a 3-0 defeat to Brentford on May 2, 2026. (theguardian.com) Arsenal, on the other hand, has been in strong form, securing a spot in the Champions League final and maintaining a competitive position in the Premier League. (fourfourtwo.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Game Handicap: T1.A (-1.5) vs Gen.G Global Academy (+1.5)",
+    "market_slug": "lol-t1a-genga-2026-05-11-game-handicap-away-1pt5",
+    "event_slug": "lol-t1a-genga-2026-05-11-game-handicap-away-1pt5",
+    "wallet": "0xc787f365272c8b02bbf637c050bb1753f40764e8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,000)",
+        "Low activity (9 txns)"
+      ],
+      "amount": 2000.3999999999999,
+      "odds": 0.6,
+      "raw_price": 0.6,
+      "outcome": "T1 Academy",
+      "potential_pnl": 1333.6000000000001,
+      "pnl_multiplier": 0.6666666666666667,
+      "wallet_age_days": 0,
+      "total_activities": 9
+    },
+    "timestamp": "2026-05-10T17:30:26.721677",
+    "trade_hash": "0x5222ba707f6ed8c2d2ffe68cd6a2a23de75e778db521785caf8f57c48f136245",
+    "trade_timestamp": 1778433915,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "T1 Academy",
+      "outcomeIndex": 0,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.6,
+      "effective_price": 0.6,
+      "size": 3334.0,
+      "amount": 2000.3999999999999,
+      "potential_pnl": 1333.6000000000001,
+      "pnl_multiplier": 0.6666666666666667,
+      "is_no": false,
+      "conditionId": "0x55b5238aa91086bf12a6fc130e352b6420d80690741c95c17e478ea37439a38c",
+      "slug": "lol-t1a-genga-2026-05-11-game-handicap-away-1pt5",
+      "eventSlug": "lol-t1a-genga-2026-05-11"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+34.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.26,
+      "market_price": 0.6,
+      "edge": 0.33999999999999997,
+      "edge_percent": 34.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "T1.A maintains consistent performance",
+          "Gen.G Global Academy shows significant improvement",
+          "External factors (e.g., player injuries, meta changes) do not favor T1.A"
+        ],
+        "weakest_link": "Gen.G Global Academy shows significant improvement"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "T1.A's recent performance trends",
+        "Gen.G Global Academy's potential for upsets"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.33999999999999997,
+      "edge_percent": 34.0
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 34.0,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 T1 Academy has a strong recent record and a favorable head-to-head history against Gen.G Global Academy.\nT1 Academy has won 5 consecutive matches against Gen.G Global Academy from March to August 2025. (bo3.gg) In their most recent match on April 15, 2026, T1 Academy lost 0-3 to Gen.G Global Academy. (vlr.gg) However, T1 Academy's earlier victories and overall performance suggest they have the potential to cover the -1.5 handicap.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x12b42f36d3f13027eeb9c916996693a4f8f2ba63dcdf6b9248b326cd1535b6ad",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa565aaa97984bd27ce2193799f75526e33ba0892",
+      "side": "BUY",
+      "asset": "16544903167926447398130738149106386260458667161829943981076084751520558505357",
+      "conditionId": "0x5b4aca795bb3693815954c6127fa2ad77b36d20b56b56b189ac77c217bee66ae",
+      "size": 2261.194027,
+      "price": 0.669999999960198,
+      "timestamp": 1778433963,
+      "title": "LoL: Movistar KOI vs G2 Esports - Game 2 Winner",
+      "slug": "lol-mkoi-g2-2026-05-10-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-mkoi-g2-2026-05-10",
+      "outcome": "G2 Esports",
+      "outcomeIndex": 1,
+      "name": "LucaReese07",
+      "pseudonym": "Second-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x12b42f36d3f13027eeb9c916996693a4f8f2ba63dcdf6b9248b326cd1535b6ad",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Movistar KOI vs G2 Esports - Game 2 Winner",
+    "market_slug": "lol-mkoi-g2-2026-05-10",
+    "amount": 1514.999998,
+    "ai_context": "\u2705 COPY \u2014 G2 Esports has a strong head-to-head record against Movistar KOI, winning 10 out of 12 matches.\nIn their most recent encounter on February 23, 2026, G2 Esports secured a 3-0 victory. (tips.gg)\nGiven G2 Esports' consistent dominance over Movistar KOI, copying the bet appears to be a prudent decision.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x313831e9560f2148a9f48cde199e8994218ef7327b413529f35087a9200fcd90",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12422542.436750254,
+      "volume": 289760862.10001695,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "79827668478884412998763497054405955007354099889382155313742174919556739356522",
+      "conditionId": "0xb93d6d258dba111e5a7e64aea7082d80d4e66191de67c9195d22126aeed25988",
+      "size": 2425,
+      "price": 0.42,
+      "timestamp": 1778434269,
+      "title": "Will 1. FSV Mainz 05 win on 2026-05-10?",
+      "slug": "bun-mai-uni-2026-05-10-mai",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-mai-uni-2026-05-10",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x313831e9560f2148a9f48cde199e8994218ef7327b413529f35087a9200fcd90",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will 1. FSV Mainz 05 win on 2026-05-10?",
+    "market_slug": "bun-mai-uni-2026-05-10",
+    "amount": 1018.5,
+    "ai_context": "\u2705 COPY \u2014 Mainz 05 has been in strong form recently, winning 3 of their last 5 matches.\nThey secured victories against FC St. Pauli (2-1) on May 3, 2026, and against TSG Hoffenheim (2-1) on April 4, 2026. (gioscore.com) Their upcoming match is against 1. FC Union Berlin on May 10, 2026. (sofascore.com)\nGiven Mainz 05's recent strong performance, the trader's bet on \"No\" appears to be against the current trend.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1c2bc36fe092087d419b78c25a1ecfb15ece5073e21237f0b62eeb495c34bd36",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2b85928c0de8e5521e2dc79369d6190abd7abf37",
+      "side": "BUY",
+      "asset": "15370016696841942070913723203902615545735730239686031205075905693890188899951",
+      "conditionId": "0x06f0e7af592c2e26f19b39285ff15151ce36cd3cf4a54f197227e537f1d8b288",
+      "size": 4222.101448,
+      "price": 0.6868617523090838,
+      "timestamp": 1778434570,
+      "title": "Internazionali BNL d'Italia: Tommy Paul vs Luciano Darderi",
+      "slug": "atp-paul-darderi-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-paul-darderi-2026-05-10",
+      "outcome": "Tommy Paul",
+      "outcomeIndex": 0,
+      "name": "kingdomofheaven",
+      "pseudonym": "Fluffy-Blackboard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1c2bc36fe092087d419b78c25a1ecfb15ece5073e21237f0b62eeb495c34bd36",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Tommy Paul vs Luciano Darderi",
+    "market_slug": "atp-paul-darderi-2026-05-10",
+    "amount": 2899.999999,
+    "ai_context": "\u2705 COPY \u2014 Tommy Paul has a 2-0 head-to-head record against Luciano Darderi and is in strong recent form.\nPaul defeated Darderi 6-4, 7-6(2) in their last encounter in August 2024. (stevegtennis.com) In his last 10 matches, Paul has won 7, indicating solid performance. (matchstat.com)",
     "ai_verdict": "COPY"
   }
 ]
