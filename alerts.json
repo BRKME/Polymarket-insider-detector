@@ -1,284 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x462f81fb307d43369abf1d0d59718aa603e7a3f09b3eaf1a81906c94959d797c",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324997,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc0eeaa237f21de3e95d859f604989428a46f1686",
-      "side": "BUY",
-      "asset": "8110181234290531578434481130562650569021983344806109560925184291893518018647",
-      "conditionId": "0x74e3d59c8574b12acfe1c596869bca1c1226e60db837c8bb638fc11685466f10",
-      "size": 3000,
-      "price": 0.12,
-      "timestamp": 1774716011,
-      "title": "Indian Premier League: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
-      "slug": "cricipl-roy-sun-2026-03-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
-      "eventSlug": "cricipl-roy-sun-2026-03-28",
-      "outcome": "Sunrisers Hyderabad",
-      "outcomeIndex": 1,
-      "name": "Sachinvikash",
-      "pseudonym": "Mysterious-Labor",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x462f81fb307d43369abf1d0d59718aa603e7a3f09b3eaf1a81906c94959d797c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Indian Premier League: Royal Challengers Bengaluru vs Sunrisers Hyderabad",
-    "market_slug": "cricipl-roy-sun-2026-03-28",
-    "amount": 2640.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450090+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4d89d25bf2c459b59d606ba4473ae385629052a7e33102950426d6a328fed16c",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324993,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x098c8fe3e2e915715e8b4c013ad43b433ca21c67",
-      "side": "SELL",
-      "asset": "108589600470325504740081423193161239818019538756696798339090302191901142024805",
-      "conditionId": "0x61938e68cfbc53ce2a4ecf35438ad9a7cc83c1ba1b5d24b07b7d1691840030af",
-      "size": 3115.21,
-      "price": 0.34,
-      "timestamp": 1774719707,
-      "title": "LoL: Karmine Corp vs Team Vitality (BO3) - LEC Group Stage",
-      "slug": "lol-kc-vit-2026-03-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-kc-vit-2026-03-28",
-      "outcome": "Team Vitality",
-      "outcomeIndex": 1,
-      "name": "D.Dantes",
-      "pseudonym": "Rusty-Statue",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2722604-03f40c5a-6d28-4d5e-8efc-3f970066d875.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4d89d25bf2c459b59d606ba4473ae385629052a7e33102950426d6a328fed16c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Karmine Corp vs Team Vitality (BO3) - LEC Group Stage",
-    "market_slug": "lol-kc-vit-2026-03-28",
-    "amount": 2056.0386,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450099+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "US forces enter Iran by March 31?",
-    "market_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-    "event_slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-    "wallet": "0x414198c25890a37c917722b8b69e475a30b28b6c",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (9.0% effective odds)",
-        "Large bet ($1,454)",
-        "Pre-event latency: 3126m"
-      ],
-      "amount": 1454.0012999999994,
-      "odds": 0.08999999999999997,
-      "raw_price": 0.91,
-      "outcome": "No",
-      "potential_pnl": 14701.5687,
-      "pnl_multiplier": 10.111111111111114,
-      "wallet_age_days": 543,
-      "total_activities": 93
-    },
-    "timestamp": "2026-03-28T19:56:27.080495",
-    "trade_hash": "0xd95163d4fcdd1f372769b1a6477f50092254c35536c3d871369746c610331829",
-    "trade_timestamp": 1774727636,
-    "latency": {
-      "latency_seconds": 187564.0,
-      "latency_minutes": 3126.0666666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-28T19:53:56+00:00",
-      "event_time": "2026-03-31T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "SELL",
-      "price": 0.91,
-      "effective_price": 0.08999999999999997,
-      "size": 16155.57,
-      "amount": 1454.0012999999994,
-      "potential_pnl": 14701.5687,
-      "pnl_multiplier": 10.111111111111114,
-      "is_no": true,
-      "slug": "us-forces-enter-iran-by-march-31-222-191-243-517-878",
-      "eventSlug": "us-forces-enter-iran-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+70.4%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.20600000000000002,
-      "market_price": 0.91,
-      "edge": 0.704,
-      "edge_percent": 70.39999999999999,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of tensions between the US and Iran",
-          "Political support within the US government for military action",
-          "Mobilization of military resources and logistics for deployment"
-        ],
-        "weakest_link": "Political support within the US government for military action"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased regional instability in the Middle East",
-        "US foreign policy shifts towards a more aggressive stance"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 125,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.704,
-      "edge_percent": 70.39999999999999
-    },
-    "financial_analyst": {
-      "signal_quality": 85.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 70.4,
-      "signal_strength": 125.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:28.767768+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 14701.57
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x9bb8ad965538f455ce311d39ddf141687651cb519c6f57ad5bbdb8a872ce109d",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324997,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb45a797faa52b0fd8adc56d30382022b7b12192c",
-      "side": "BUY",
-      "asset": "80723719687098639628655921677225153814253138487910196921454923719642394314404",
-      "conditionId": "0xee71cea6884d94105da19d637f6dcc8665b711206d219b834167c51bc3ca9022",
-      "size": 5228.59,
-      "price": 0.52,
-      "timestamp": 1774728110,
-      "title": "Minnesota Twins vs. Baltimore Orioles: O/U 7.5",
-      "slug": "mlb-min-bal-2026-03-28-total-7pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-min-bal-2026-03-28",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "bcda",
-      "pseudonym": "Pesky-Fedora",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9bb8ad965538f455ce311d39ddf141687651cb519c6f57ad5bbdb8a872ce109d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Minnesota Twins vs. Baltimore Orioles: O/U 7.5",
-    "market_slug": "mlb-min-bal-2026-03-28",
-    "amount": 2718.8668000000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450113+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-28 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa011d30f264bfc59430fb48feb35b6321d4d2f2724b9fd7e3e9dbfdd81cedd00",
     "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
     "trader": {
@@ -30993,5 +30715,260 @@
     "amount": 1502.296,
     "ai_context": "\u2705 COPY \u2014 RCD Mallorca has shown strong recent form, winning three of their last five matches.\nThey secured victories against Real Madrid (2-1), Rayo Vallecano (3-0), and Girona (1-0). (statmuse.com) Their upcoming opponent, Villarreal, is third in the league with 68 points, indicating a challenging match ahead. (as.com)\nGiven Mallorca's recent positive momentum, they are well-positioned to secure a win against Villarreal.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Will El Gouna SC win on 2026-05-12?",
+    "market_slug": "egy1-egs-kif-2026-05-12-egs",
+    "event_slug": "egy1-egs-kif-2026-05-12-egs",
+    "wallet": "0x2fc35b65db80e16b09b1599d24b940cbdf5ac9e7",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($2,209)",
+        "Pre-event latency: 2003m"
+      ],
+      "amount": 2209.2400000000002,
+      "odds": 0.44,
+      "raw_price": 0.44,
+      "outcome": "Yes",
+      "potential_pnl": 2811.7600000000007,
+      "pnl_multiplier": 1.272727272727273,
+      "wallet_age_days": 1,
+      "total_activities": 97
+    },
+    "timestamp": "2026-05-10T14:41:28.226325",
+    "trade_hash": "0x667d033554508d7f893d6494b4ddb57972198d2911d15e448857accd78292468",
+    "trade_timestamp": 1778423844,
+    "latency": {
+      "latency_seconds": 120156.0,
+      "latency_minutes": 2002.6,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-10T14:37:24+00:00",
+      "event_time": "2026-05-12T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.44,
+      "effective_price": 0.44,
+      "size": 5021.0,
+      "amount": 2209.2400000000002,
+      "potential_pnl": 2811.7600000000007,
+      "pnl_multiplier": 1.272727272727273,
+      "is_no": false,
+      "conditionId": "0xc95b056c04e84396782ed71fbc8c67b9ccd1014840255fbe3b31f61569da5a1d",
+      "slug": "egy1-egs-kif-2026-05-12-egs",
+      "eventSlug": "egy1-egs-kif-2026-05-12"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+21.2%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.22799999999999998,
+      "market_price": 0.44,
+      "edge": 0.21200000000000002,
+      "edge_percent": 21.200000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "team performance leading up to the match",
+          "injury status of key players",
+          "opponent's strength and form"
+        ],
+        "weakest_link": "injury status of key players"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team's recent form",
+        "historical performance against opponents"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 100,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 100,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.21200000000000002,
+      "edge_percent": 21.200000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 52.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 21.2,
+      "signal_strength": 100.0,
+      "insider_score": 100.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u274c SKIP \u2014 El Gouna SC has been inconsistent recently, with only one win in their last five matches.\nTheir recent form includes a 1-0 victory over Pharco FC on April 24, 2026, but also includes a 1-1 draw against Haras El Hodood on April 29, 2026, and a 2-2 draw against ZED on May 3, 2026. (betexplorer.com)\nHowever, the trader may have access to insider information or analysis not yet public.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb4955cc9d8afded84575d447f3e2528dd066087d35e5e865325a90470587e111",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692185,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x330fc1e09e2afaef969e66174a428463945bd4b1",
+      "side": "BUY",
+      "asset": "5394387119720374859102823616728155239860117980563720254262894202664026156690",
+      "conditionId": "0x910f3915ea9740c8b3a415abd6ac9cbecb718a172e84487389ab9508aa5e3dae",
+      "size": 10982.959375,
+      "price": 0.1510685729910569,
+      "timestamp": 1778424588,
+      "title": "Will West Ham United FC win on 2026-05-10?",
+      "slug": "epl-wes-ars-2026-05-10-wes",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-wes-ars-2026-05-10",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x330fc1e09E2AfAef969e66174A428463945Bd4b1-1773177657219",
+      "pseudonym": "Present-Decency",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb4955cc9d8afded84575d447f3e2528dd066087d35e5e865325a90470587e111",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will West Ham United FC win on 2026-05-10?",
+    "market_slug": "epl-wes-ars-2026-05-10",
+    "amount": 1659.18,
+    "ai_context": "\u274c SKIP \u2014 West Ham United has been in poor form recently, losing their last two matches.\nThey lost 3-0 to Brentford on May 2, 2026, and 2-1 to Everton on April 25, 2026. (extratime.com) However, the trader may have insider information about lineup changes or other factors not yet public.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbe9e268ed2213720012c23d02481b0642cddbc5c7f06efeed61b7da177ea0a82",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692185,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "4580419457194333121702905040348323613135695601398636506823328640098914444976",
+      "conditionId": "0x24bfeb8b7d2e9dc96ded8f8dc6375112cd5e8b012ba9fa1b695bbdad73cbda0c",
+      "size": 3664,
+      "price": 0.77,
+      "timestamp": 1778424588,
+      "title": "Spread: Athletic Club (-1.5)",
+      "slug": "lal-bil-val-2026-05-10-spread-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-bil-val-2026-05-10-more-markets",
+      "outcome": "Valencia CF",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbe9e268ed2213720012c23d02481b0642cddbc5c7f06efeed61b7da177ea0a82",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Athletic Club (-1.5)",
+    "market_slug": "lal-bil-val-2026-05-10-more-markets",
+    "amount": 2821.28,
+    "ai_context": "\u274c SKIP \u2014 Athletic Club's recent form and Valencia CF's away performance suggest a challenging match for the latter.\nAthletic Club has shown improvement, securing a 4-2 victory over Deportivo Alav\u00e9s on May 2, 2026, with Nico Williams scoring twice. (cadenaser.com) Valencia CF's away form is poor, with only 3 wins, 4 draws, and 10 losses in 17 matches. (footystats.org) However, the trader may have access to insider information or analysis not yet public.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc5c4da961ad3466f33300361d3d3aea73d20bdc746cb2eecd114cc0c7aa646fd",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692185,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3d72d680e655d6f0dd722221b4c4bb7acf59b643",
+      "side": "SELL",
+      "asset": "42918220085288219341491829385501246298233444593663440094436147850542032590016",
+      "conditionId": "0x0e4a0c937b8934c2475613b6322b3f8edc8dedc24762e01e42b0e6f87424a089",
+      "size": 1520,
+      "price": 0.6877726973684211,
+      "timestamp": 1778424588,
+      "title": "US x Iran permanent peace deal by May 31, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-may-31-2026-333-871-241-192",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x3D72d680E655D6F0dD722221B4c4Bb7ACF59B643-1770131189633",
+      "pseudonym": "Impossible-Snail",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc5c4da961ad3466f33300361d3d3aea73d20bdc746cb2eecd114cc0c7aa646fd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by May 31, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1045.4145,
+    "ai_context": "\u274c SKIP \u2014 Recent U.S.-Iran tensions and ongoing military exchanges make a permanent peace deal by May 31, 2026, unlikely.\nOn May 7, 2026, U.S. and Iranian military forces exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval vessels, prompting U.S. retaliatory strikes on Iranian sites. (axios.",
+    "ai_verdict": "SKIP"
   }
 ]
