@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x51b29a144237f62fd8b2a75bfc7a87f729532c5721c2c1a7ae31b00914b334b8",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 14,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 4955869.669732175,
-      "volume": 529047708.505991,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x84dbb7103982e3617704a2ed7d5b39691952aeeb",
-      "side": "BUY",
-      "asset": "12035465076229752781908256263963783360216277908549884664476516616806440930892",
-      "conditionId": "0x0f667610ed65264e96d55ec467e22f93bfc6e58ffc7cafae55f2d570c14692d3",
-      "size": 5803.69,
-      "price": 0.52,
-      "timestamp": 1774819944,
-      "title": "Spread: Trail Blazers (-16.5)",
-      "slug": "nba-was-por-2026-03-29-spread-home-16pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-was-por-2026-03-29",
-      "outcome": "Trail Blazers",
-      "outcomeIndex": 0,
-      "name": "ShucksIt69",
-      "pseudonym": "Grim-Icon",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x51b29a144237f62fd8b2a75bfc7a87f729532c5721c2c1a7ae31b00914b334b8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Trail Blazers (-16.5)",
-    "market_slug": "nba-was-por-2026-03-29",
-    "amount": 3017.9188,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450305+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xf289547448f5eeabec3dd1ca9804a772d54992ffa0b0367d766d0444bcde205f",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7e3a1f95c558f39a51ff334d789e3e039b553246",
-      "side": "BUY",
-      "asset": "30737869522084583250787348761921807424436212950877429392167290854319537675093",
-      "conditionId": "0xdf99b42652984acb2679ce1729acca79ca93cbb1eb6e512cf7153eedcd0b630e",
-      "size": 46111.62,
-      "price": 0.34,
-      "timestamp": 1774822344,
-      "title": "Heat vs. Pacers",
-      "slug": "nba-mia-ind-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mia-ind-2026-03-29",
-      "outcome": "Pacers",
-      "outcomeIndex": 1,
-      "name": "KaneAnalytics",
-      "pseudonym": "Smart-Elbow",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf289547448f5eeabec3dd1ca9804a772d54992ffa0b0367d766d0444bcde205f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Heat vs. Pacers",
-    "market_slug": "nba-mia-ind-2026-03-29",
-    "amount": 30433.669199999997,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450315+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x94ee8abf90a9226062ea1c2a6a64398bc887dad963ae1b1e49e796161540c408",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30485,6 +30381,162 @@
     "market_slug": "mlb-nyy-bal-2026-05-11",
     "amount": 1161.1599999999999,
     "ai_context": "\u2705 COPY \u2014 Yankees have dominated recent matchups against the Orioles, winning 9 of the last 10 games.\nIn their most recent series from May 1 to May 4, 2026, the Yankees swept the Orioles with scores of 7-2, 9-4, 11-3, and 12-1. \nThe Yankees have a strong track record against the Orioles, winning 9 of their last 10 encounters. (statmuse.com)\nGiven the Yankees' recent dominance over the Orioles, the trader's bet on the Yankees is well-supported.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Spread: Cavaliers (-3.5)",
+    "market_slug": "nba-det-cle-2026-05-11-spread-home-3pt5",
+    "event_slug": "nba-det-cle-2026-05-11-spread-home-3pt5",
+    "wallet": "0x04e6840687847a98f9ecfbb512a8c8b98d073914",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,785)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 1785.0,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Pistons",
+      "potential_pnl": 1715.0,
+      "pnl_multiplier": 0.9607843137254902,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-05-11T22:36:08.670710",
+    "trade_hash": "0xd5ec8303cefd69a59ded6fcf081d4c186eee6c227861f0ca4106b79345ade274",
+    "trade_timestamp": 1778538705,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Pistons",
+      "outcomeIndex": 1,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 3500.0,
+      "amount": 1785.0,
+      "potential_pnl": 1715.0,
+      "pnl_multiplier": 0.9607843137254902,
+      "is_no": false,
+      "conditionId": "0x12ce853e432d32351f5cc5bb6b527d6d9d406a162c6d54f632df8bac53ffd920",
+      "slug": "nba-det-cle-2026-05-11-spread-home-3pt5",
+      "eventSlug": "nba-det-cle-2026-05-11"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Cavaliers maintain a strong home court advantage",
+          "Cavaliers' key players perform at or above expectations",
+          "Opponent's performance is below average"
+        ],
+        "weakest_link": "Opponent's performance is below average"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Cavaliers' recent performance trends",
+        "Injury status of key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Pistons have won 2 of the last 3 matchups against the Cavaliers, including a recent 107-97 victory.\nNBA Schedule\nCavaliers (CLE) @ Pistons (DET) on Tuesday, May 05, 2026 at 04:00 PM PDT. Final score: CLE 101 - DET 111\nCavaliers (CLE) @ Pistons (DET) on Thursday, May 07, 2026 at 04:00 PM PDT. Final score: CLE 97 - DET 107\nPistons (DET) @ Cavaliers (CLE) on Saturday, May 09, 2026 at 12:00 PM PDT.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x786d06141104dad3c72940b432a8e62bcde357af187b88ae02bd2e0b5d41d878",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x44a55289103a02e6fd97f40a90dc68ef9bc3d2ee",
+      "side": "SELL",
+      "asset": "13795751811519869239213937198950927458459889241833853031577017327053982913703",
+      "conditionId": "0x61c020db75fac30d0b3ee73acb481e94d6aee3790828650aa9f0b50d43fedca5",
+      "size": 4670,
+      "price": 0.3102591006423983,
+      "timestamp": 1778539204,
+      "title": "Will SpaceX's market cap be greater than $2.0T at market close on IPO day?",
+      "slug": "will-spacexs-market-cap-be-greater-than-2pt0t-at-market-close-on-ipo-day-277",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spacex-ipo-closing-market-cap-eMcPLOPUo_Il.png",
+      "eventSlug": "spacex-ipo-closing-market-cap-higher-strikes",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x44a55289103A02e6fd97F40a90dC68eF9BC3d2ee-1758655209229",
+      "pseudonym": "Notable-Dueling",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x786d06141104dad3c72940b432a8e62bcde357af187b88ae02bd2e0b5d41d878",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will SpaceX's market cap be greater than $2.0T at market close on IPO day?",
+    "market_slug": "spacex-ipo-closing-market-cap-higher-strikes",
+    "amount": 1448.91,
+    "ai_context": "\u2705 COPY \u2014 Recent valuations and projections indicate SpaceX's IPO market cap will exceed $2.0 trillion.\nAs of April 2026, SpaceX is targeting an IPO valuation above $2 trillion, according to sources familiar with the matter. (business-standard.com) This valuation is supported by recent secondary market transactions placing the company at approximately $350 billion, with expectations of a 10\u201320% premium at IPO, suggesting an opening market cap between $380 billion and $430 billion.",
     "ai_verdict": "COPY"
   }
 ]
