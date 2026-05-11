@@ -427,10 +427,60 @@ Source: SSRN #6443103 (April 2026) — 1.4M users, $20B volume, 70M trades.
 
 ---
 
+## 71x Engineer Insights — Smart Wallet Tracking (May 2026)
+
+Source: Anthropic engineer case study, 86M trades analysis.
+
+### Key Findings Applied
+
+**1. Leaderboard ≠ Edge — CONFIRMED by our data**
+- Theo4 (#1, $22M profit): only 42% WR in our 241 resolved TOP_TRADER trades
+- GamblingIsAllYouNeed: 17% WR. RepTrump: 0% WR.
+- Top PnL = lucky survivors, not consistent edge
+- RULE: Filter out traders with WR < 35% on 5+ resolved trades
+
+**2. Category Specialization — CONFIRMED**
+- Our ALPHA on sports = 83% WR
+- Our ALPHA on non-sport = 40% WR
+- Best traders focus on 1-2 categories
+- RULE: Skip trader in category where their WR < 30% on 3+ trades
+
+**3. Consistency > Absolute PnL**
+- ~8-10K meaningful wallets out of millions after filtering
+- Need: 200+ trades, 70%+ WR, low drawdown
+- Reality: No trader in our data meets all criteria
+- RULE: Weight consistency (trade count × WR) over raw PnL
+
+**4. Convergence (Multiple Smart Wallets)**
+- Signal: when multiple sharp wallets enter same market
+- Already implemented: Whale Watch module
+- STATUS: ✅ ACTIVE
+
+**5. Hold Time (~1.6 days for best traders)**
+- Best traders exit quickly, don't hold to resolution
+- Not yet tracked in our system
+- STATUS: PLANNED
+
+**6. Maker Execution**
+- Early copy + limit orders = edge preservation
+- SSRN research confirms: maker vs taker = #1 factor
+- STATUS: PLANNED (CLOB API ready from Polycashmashine)
+
+### Implementation: trader_stats.py
+
+| Filter | Threshold | Effect |
+|--------|-----------|--------|
+| Bad trader overall | WR < 35% on 5+ trades | Skip all signals |
+| Bad category | WR < 30% in category on 3+ trades | Skip that category |
+| Trader quality indicator | Shown in alert | Informational |
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.1 | 2026-05 | 71x engineer insights: trader filtering, category specialization, per-trader WR |
 | 3.0 | 2026-04 | Research-backed rules: maker execution, MAX_ODDS 0.90, validated WR data |
 | 2.5 | 2026-04 | Resolution tracker fix, AI web search, Whale Watch, filter audit |
 | 2.4 | 2026-02 | Hardened backtest: cluster-robust SE, stress tests, rolling WF, config hash |

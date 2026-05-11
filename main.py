@@ -264,6 +264,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
         tt_small = 0
         tt_crypto = 0
         tt_low_roi = 0
+        tt_bad_trader = 0
         
         for address, trader_info in list(top_wallets.items())[:20]:  # Limit to top 20 to avoid rate limits
             trades = fetch_trader_recent_trades(address, minutes_back=60)  # Increased to 60 min
@@ -323,6 +324,22 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     continue
                 market_slug = trade.get('eventSlug', '') or trade.get('slug', '') or trade.get('market', {}).get('slug', '')
                 
+                # Skip traders with proven bad track record
+                try:
+                    from trader_stats import build_trader_stats, should_skip_trader
+                    if not hasattr(scan_top_traders, '_trader_stats'):
+                        scan_top_traders._trader_stats = build_trader_stats()
+                    skip_reason = should_skip_trader(
+                        trader_info.get('username', ''),
+                        market_name,
+                        scan_top_traders._trader_stats
+                    )
+                    if skip_reason:
+                        tt_bad_trader += 1
+                        continue
+                except Exception:
+                    pass
+                
                 alert = {
                     'type': 'TOP_TRADER',
                     'trade_hash': trade_hash,
@@ -337,7 +354,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${cost:,.0f} {outcome} @ {effective_odds*100:.0f}% on {market_name[:50]}")
         
         print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
-        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1.5K)={tt_small}, crypto={tt_crypto}, low_roi(>93%)={tt_low_roi}")
+        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1K)={tt_small}, crypto={tt_crypto}, low_roi={tt_low_roi}, bad_trader={tt_bad_trader}")
         return alerts
         
     except Exception as e:

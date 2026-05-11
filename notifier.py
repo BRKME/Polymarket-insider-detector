@@ -715,16 +715,27 @@ def format_top_trader_alert(alert: Dict) -> str:
     if wr_text:
         header += f" · {wr_text}"
     
+    # Individual trader quality
+    trader_wr = ""
+    try:
+        from trader_stats import build_trader_stats, format_trader_quality
+        ts = build_trader_stats()
+        trader_wr = format_trader_quality(username, ts)
+    except Exception:
+        pass
+    
+    trader_line = f"{username} #{rank} · ${amount:,.0f}"
+    if trader_wr:
+        trader_line += f" · {trader_wr}"
+    
     message = f"""{header}
 
 {market}"""
 
-    # Recommendation right after market name
     if rec_text:
         message += f"\n{rec_text}"
 
-    # Trader info
-    message += f"\n{username} #{rank} · ${amount:,.0f}\n{position}"
+    message += f"\n{trader_line}\n{position}"
 
     # AI reasoning
     if ai_reason:
