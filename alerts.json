@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x94ee8abf90a9226062ea1c2a6a64398bc887dad963ae1b1e49e796161540c408",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6c16abad96d6989efe1b0333cb9af9158f548bfa",
-      "side": "BUY",
-      "asset": "30737869522084583250787348761921807424436212950877429392167290854319537675093",
-      "conditionId": "0xdf99b42652984acb2679ce1729acca79ca93cbb1eb6e512cf7153eedcd0b630e",
-      "size": 7800,
-      "price": 0.23,
-      "timestamp": 1774823844,
-      "title": "Heat vs. Pacers",
-      "slug": "nba-mia-ind-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mia-ind-2026-03-29",
-      "outcome": "Pacers",
-      "outcomeIndex": 1,
-      "name": "XPredicter1",
-      "pseudonym": "Happy-Bottle",
-      "bio": "BET ON YOUR BELIEFS",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3213213-9f8b7631-e046-4d06-ab23-61e8e23df953.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x94ee8abf90a9226062ea1c2a6a64398bc887dad963ae1b1e49e796161540c408",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Heat vs. Pacers",
-    "market_slug": "nba-mia-ind-2026-03-29",
-    "amount": 6006.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450324+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7eed9c41c41331b078aba91c6c620d9cb67a6f402cfe22107e5f899d97f77fba",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
     "trader": {
@@ -30537,6 +30485,52 @@
     "market_slug": "spacex-ipo-closing-market-cap-higher-strikes",
     "amount": 1448.91,
     "ai_context": "\u2705 COPY \u2014 Recent valuations and projections indicate SpaceX's IPO market cap will exceed $2.0 trillion.\nAs of April 2026, SpaceX is targeting an IPO valuation above $2 trillion, according to sources familiar with the matter. (business-standard.com) This valuation is supported by recent secondary market transactions placing the company at approximately $350 billion, with expectations of a 10\u201320% premium at IPO, suggesting an opening market cap between $380 billion and $430 billion.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xaebad71de068f4389386fe20e4bd7f643f04c99998b8be8319a1989a173aba2b",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
+      "side": "BUY",
+      "asset": "57412940763264379879744550530590190368873063906839354927556618677151005038270",
+      "conditionId": "0x4c7aee76714c3a69885cbf6a09c754529b255d038b9547d5cec1836906a0aecb",
+      "size": 24095.180717,
+      "price": 0.8299999999954347,
+      "timestamp": 1778542450,
+      "title": "Thunder vs. Lakers",
+      "slug": "nba-okc-lal-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-lal-2026-05-11",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "NiFengFanPan",
+      "pseudonym": "Orderly-Venture",
+      "bio": "Wen Zhong Qiu Sheng",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3358711-e85e8a4d-0015-4638-8326-28b28b4859ed.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xaebad71de068f4389386fe20e4bd7f643f04c99998b8be8319a1989a173aba2b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Lakers",
+    "market_slug": "nba-okc-lal-2026-05-11",
+    "amount": 19998.999995,
+    "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by an average margin of 20.4 points.\nIn their most recent game on May 9, 2026, the Thunder defeated the Lakers 131-108.  Over the past five games, the Thunder have outscored the Lakers by an average of 20.4 points. Additionally, the Thunder have a strong home record of 34-7 this season. (espn.",
     "ai_verdict": "COPY"
   }
 ]
