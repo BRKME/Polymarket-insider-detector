@@ -1,173 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xf33d76eca1f954901ceb1c0813c36072e09419dbc3e5c6c973616d5ab00daff8",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x37c1874a60d348903594a96703e0507c518fc53a",
-      "side": "BUY",
-      "asset": "103532622044166510194203290959104019976251609570170234013973788160436106686017",
-      "conditionId": "0x175710d3ed7ab79444b3cdf648bbaed8c948f0e086a7ceaec7e9db5fe45798d3",
-      "size": 5197.72,
-      "price": 0.44,
-      "timestamp": 1774806740,
-      "title": "Pittsburgh Pirates vs. New York Mets",
-      "slug": "mlb-pit-nym-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-pit-nym-2026-03-29",
-      "outcome": "Pittsburgh Pirates",
-      "outcomeIndex": 0,
-      "name": "CemeterySun",
-      "pseudonym": "Pale-Bend",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf33d76eca1f954901ceb1c0813c36072e09419dbc3e5c6c973616d5ab00daff8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Pittsburgh Pirates vs. New York Mets",
-    "market_slug": "mlb-pit-nym-2026-03-29",
-    "amount": 2286.9968000000003,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450269+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Llaneros FC vs. Once Caldas: O/U 2.5",
-    "market_slug": "col1-llf-onc-2026-03-29-total-2pt5",
-    "event_slug": "col1-llf-onc-2026-03-29-total-2pt5",
-    "wallet": "0x18193a72f22fe19b90243df46f3dd216e4d04d77",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,024)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1024.1,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Under",
-      "potential_pnl": 1065.9,
-      "pnl_multiplier": 1.0408163265306125,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-29T18:22:28.190335",
-    "trade_hash": "0xace8884a05a3f11ecb9dac0a49340587813edad58bc743cb6481e5f68f274bf9",
-    "trade_timestamp": 1774808182,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 2090.0,
-      "amount": 1024.1,
-      "potential_pnl": 1065.9,
-      "pnl_multiplier": 1.0408163265306125,
-      "is_no": false,
-      "slug": "col1-llf-onc-2026-03-29-total-2pt5",
-      "eventSlug": "col1-llf-onc-2026-03-29-more-markets"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "both teams have strong attacking players",
-          "defensive weaknesses in both teams",
-          "recent matches have shown high-scoring trends"
-        ],
-        "weakest_link": "defensive weaknesses in both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team form and player injuries",
-        "historical matchups between the teams"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 25.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450278+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x916368392620bfe3898790c91cf1fdb63341dee65e368d324912b783d4ace22c",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30572,6 +30405,98 @@
     "market_slug": "wta-gauff-jovic-2026-05-11",
     "amount": 1044.2006999999999,
     "ai_context": "\u2705 COPY \u2014 Coco Gauff has a strong recent record and is a top-ranked player.\nGauff has a 7-3 record in her last 10 matches and holds a 75.4% win rate over the past 52 weeks. (tennisratio.com) Iva Jovic, on the other hand, has a 5-5 record in her last 10 matches and a 68.1% win rate over the past 52 weeks. (tennisratio.com) Additionally, Gauff has a higher career singles ranking at No. 4, compared to Jovic's No. 17. (tennisstats.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7528d92995c08dcd5d005bb0d75d6fae3d1cff6adcd21782d32d5667c8fb9343",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 16,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa565aaa97984bd27ce2193799f75526e33ba0892",
+      "side": "BUY",
+      "asset": "32853647266593189463607474790603932864344188060616452361800440094474865259837",
+      "conditionId": "0xf1902c70e99ba7f8a849b08cad397c2aac5f150bcdba2c9468026eb26e1cfc42",
+      "size": 3927.394365,
+      "price": 0.7099108823516377,
+      "timestamp": 1778518180,
+      "title": "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend",
+      "slug": "lol-tes-nip-2026-05-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-tes-nip-2026-05-12",
+      "outcome": "Top Esports",
+      "outcomeIndex": 0,
+      "name": "LucaReese07",
+      "pseudonym": "Second-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7528d92995c08dcd5d005bb0d75d6fae3d1cff6adcd21782d32d5667c8fb9343",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend",
+    "market_slug": "lol-tes-nip-2026-05-12",
+    "amount": 2788.099999,
+    "ai_context": "\u2705 COPY \u2014 Top Esports has a dominant head-to-head record against Ninjas in Pyjamas.\nIn their last five encounters, Top Esports secured four victories, including a 3-1 win in the LPL Split 3 2025 Playoffs. (egamersworld.com)\nTop Esports has shown strong recent form, winning three of their last five matches, including victories over JD Gaming and Team WE. (egamersworld.com)\nNinjas in Pyjamas have struggled recently, losing four of their last five matches, including a 3-0 defeat to JD Gaming.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc2dcb20861aaba736869e12e5b4fdc234a5565be0c451504028147487908bb9c",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 18,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046413317,
+      "volume": 185491941.63208285,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5d1d9cfd66ee3068c2a8a57dedf1e1b006dcafd2",
+      "side": "BUY",
+      "asset": "8527018663582447242883916974748806246590588183662291391061588716763194177343",
+      "conditionId": "0x5985b270ef3fcd4f34ddc5c8748651c79553d9dc8533d61f1e4d879bd89a4f4b",
+      "size": 21267.395832,
+      "price": 0.4799999999830727,
+      "timestamp": 1778518204,
+      "title": "Pistons vs. Cavaliers: O/U 212.5",
+      "slug": "nba-det-cle-2026-05-11-total-212pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-cle-2026-05-11",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc2dcb20861aaba736869e12e5b4fdc234a5565be0c451504028147487908bb9c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Cavaliers: O/U 212.5",
+    "market_slug": "nba-det-cle-2026-05-11",
+    "amount": 10208.349999,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Pistons and Cavaliers have consistently exceeded the 212.5 total points line.\nIn their last three games, the total points were 224, 241, and 222, all surpassing the 212.5 line. (statmuse.com)\nAdditionally, the Pistons have been scoring over 100 points in recent games, indicating a high-scoring trend. (statmuse.com)\nGiven these trends, the trader's bet on the Under appears to be at odds with recent performance data.",
     "ai_verdict": "COPY"
   }
 ]
