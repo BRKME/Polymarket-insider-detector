@@ -1,173 +1,5 @@
 [
   {
-    "market": "Wizards vs. Trail Blazers: O/U 237.5",
-    "market_slug": "nba-was-por-2026-03-29-total-237pt5",
-    "event_slug": "nba-was-por-2026-03-29-total-237pt5",
-    "wallet": "0x107321c60ca5d443807d8fb9e6dea8cb8c6fa93a",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,080)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1080.5,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1080.5,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-29T14:56:38.007338",
-    "trade_hash": "0x4535eebb8e26c9bb2236bee29bc700f22852e4791c65d54b67822c3e620474db",
-    "trade_timestamp": 1774795834,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2161.0,
-      "amount": 1080.5,
-      "potential_pnl": 1080.5,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "nba-was-por-2026-03-29-total-237pt5",
-      "eventSlug": "nba-was-por-2026-03-29"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have high-scoring offenses",
-          "Defensive weaknesses on both sides",
-          "Recent trends indicate high-scoring games"
-        ],
-        "weakest_link": "Defensive weaknesses on both sides"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance of key players",
-        "Historical matchups between the teams"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450242+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xd1484597d209fa49ad299bc4f62556a9ff2f358c566afe91b7d5c6eb70b55cfd",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
-      "side": "BUY",
-      "asset": "99648458241687962958135230811349049411166919876276983100886228118044860481389",
-      "conditionId": "0xdf34f0264e86ed8a996f432bae70de4e7d196c96e440cf3565e681e85f695008",
-      "size": 4126.27,
-      "price": 0.38,
-      "timestamp": 1774799230,
-      "title": "SHL: Luleaa vs. Froelunda HC",
-      "slug": "shl-lul-fro-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hockey-shl-5ebf2bfd88.png",
-      "eventSlug": "shl-lul-fro-2026-03-29",
-      "outcome": "Froelunda HC",
-      "outcomeIndex": 1,
-      "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
-      "pseudonym": "Vigilant-Environment",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd1484597d209fa49ad299bc4f62556a9ff2f358c566afe91b7d5c6eb70b55cfd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "SHL: Luleaa vs. Froelunda HC",
-    "market_slug": "shl-lul-fro-2026-03-29",
-    "amount": 2558.2874,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450251+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xb24087175331ccf0dfdf5791f2ae55001235efa09b083307affb4b05357ef77b",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -30490,6 +30322,98 @@
     "market_slug": "mlb-pit-sf-2026-05-10",
     "amount": 1498.3499980000001,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the San Francisco Giants.\nIn their last 10 matchups against the Pittsburgh Pirates, the Giants have a 5-5 record, indicating a balanced performance. (statmuse.com) Additionally, in the 2025 season, the Giants won 2 out of 3 games against the Pirates, including a decisive 8-1 victory on August 5, 2025. (champsorchumps.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x45c58e34dd59d28c2f2d4ed3a699252df252d26a98bc1c6f45ac132415a71961",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 14,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x161a7f666ca49d592848cf415b42f49a84714103",
+      "side": "BUY",
+      "asset": "101188040667990187674766990439683216076855477073279541893182108993377334081401",
+      "conditionId": "0xc08fcbc2b39d3bc3bf011e54e4c89440d45a8d80a3e1e31ebc8a3749606f0675",
+      "size": 1511.144925,
+      "price": 0.6899338248447613,
+      "timestamp": 1778463307,
+      "title": "Spread: Spurs (-5.5)",
+      "slug": "nba-sas-min-2026-05-10-spread-away-5pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-min-2026-05-10",
+      "outcome": "Timberwolves",
+      "outcomeIndex": 1,
+      "name": "torta.tech",
+      "pseudonym": "Imaginary-Gallery",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x45c58e34dd59d28c2f2d4ed3a699252df252d26a98bc1c6f45ac132415a71961",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Spurs (-5.5)",
+    "market_slug": "nba-sas-min-2026-05-10",
+    "amount": 1042.589998,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head matchups favor the Spurs, with the Timberwolves losing two of the last three games against them.\nIn the most recent game on May 10, 2026, the Spurs led 86-80 in the fourth quarter.  Additionally, the Timberwolves have been inconsistent, with a 3-2 record in their last five games. (basketball-reference.com) However, the trader may have access to insider information or analysis not reflected in these statistics.",
+    "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x78d9148332899a7724a8bddadb6a62b7053fa560f3fbdca78beaca9ad0f0d0a5",
+    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+    "trader": {
+      "rank": 14,
+      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
+      "username": "mikatrade77",
+      "profit": 5147998.544602999,
+      "volume": 10884765.388775,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x65503c7f9e142ac88b1ce09df3363ff77f188451",
+      "side": "BUY",
+      "asset": "86255069788054401001410235574609972397532509074163607443298886063446696622457",
+      "conditionId": "0xd343b2f246e33cfc1acfe4812958e4f19486dcb74e82889ba585408d06470ff1",
+      "size": 2145,
+      "price": 0.52,
+      "timestamp": 1778463307,
+      "title": "Spurs vs. Timberwolves",
+      "slug": "nba-sas-min-2026-05-10",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-min-2026-05-10",
+      "outcome": "Spurs",
+      "outcomeIndex": 0,
+      "name": "oieshfn345",
+      "pseudonym": "Subtle-Trumpet",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7382016-6ecaffc2-c115-43ef-8089-d55c7420a1b5.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x78d9148332899a7724a8bddadb6a62b7053fa560f3fbdca78beaca9ad0f0d0a5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spurs vs. Timberwolves",
+    "market_slug": "nba-sas-min-2026-05-10",
+    "amount": 1115.4,
+    "ai_context": "\u2705 COPY \u2014 Spurs have a strong recent head-to-head record against the Timberwolves.\nIn their last five matchups, the Spurs have won four, including a decisive 133-95 victory on May 6, 2026. (aiscore.com) Additionally, the Spurs have a 62.07% win rate against the Timberwolves historically. (basketballstats.net)\nGiven the Spurs' recent dominance over the Timberwolves, copying the trader's bet appears to be a sound decision.",
     "ai_verdict": "COPY"
   }
 ]
