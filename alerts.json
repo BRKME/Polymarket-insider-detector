@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x165c4729a8b9a9a1056fbf4664132b540e86bb72bd858d95982dd10262d3ca87",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2ca1084475eb6d8103617a460400e7c93bcfddcd",
-      "side": "BUY",
-      "asset": "24851410807574450898610185678064061655189007873790070435566556838352148061088",
-      "conditionId": "0xdd4f30764e94968a041d4379d3c7aeeefb696d1f6a796831054570f6e4df0a81",
-      "size": 5000,
-      "price": 0.34,
-      "timestamp": 1774814242,
-      "title": "Colorado Rockies vs. Miami Marlins",
-      "slug": "mlb-col-mia-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-col-mia-2026-03-29",
-      "outcome": "Miami Marlins",
-      "outcomeIndex": 1,
-      "name": "Thebigshot",
-      "pseudonym": "Known-Curl",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x165c4729a8b9a9a1056fbf4664132b540e86bb72bd858d95982dd10262d3ca87",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Colorado Rockies vs. Miami Marlins",
-    "market_slug": "mlb-col-mia-2026-03-29",
-    "amount": 3299.9999999999995,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450296+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x51b29a144237f62fd8b2a75bfc7a87f729532c5721c2c1a7ae31b00914b334b8",
     "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
     "trader": {
@@ -30492,5 +30440,51 @@
     "amount": 2099.999999,
     "ai_context": "\u274c SKIP \u2014 Tottenham's recent form and current league position raise concerns about their ability to secure a win.\nTottenham Hotspur is currently 17th in the Premier League, narrowly avoiding relegation with just three games to go. They have suffered 16 defeats, 10 draws, and only 9 victories this season, including a recent 1-0 loss to Aston Villa on May 3, 2026. (theguardian.com) Additionally, they have been eliminated from the Champions League by Atl\u00e9tico de Madrid. (fourfourtwo.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2e31561498a38b20cd965084e53a7186c35f91517e3acf7e562da38abb032b2b",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324993,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+      "side": "BUY",
+      "asset": "73274882141063078669327733608212614262609914987505148435178749946187500744380",
+      "conditionId": "0x85812ed4a9cda6f0c63b7bc6e97856918be5b4903cae00b630aa1b0c5fdc0e7f",
+      "size": 2002,
+      "price": 0.58,
+      "timestamp": 1778535846,
+      "title": "New York Yankees vs. Baltimore Orioles",
+      "slug": "mlb-nyy-bal-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nyy-bal-2026-05-11",
+      "outcome": "New York Yankees",
+      "outcomeIndex": 0,
+      "name": "Herdonia",
+      "pseudonym": "Unkempt-Image",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2e31561498a38b20cd965084e53a7186c35f91517e3acf7e562da38abb032b2b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Yankees vs. Baltimore Orioles",
+    "market_slug": "mlb-nyy-bal-2026-05-11",
+    "amount": 1161.1599999999999,
+    "ai_context": "\u2705 COPY \u2014 Yankees have dominated recent matchups against the Orioles, winning 9 of the last 10 games.\nIn their most recent series from May 1 to May 4, 2026, the Yankees swept the Orioles with scores of 7-2, 9-4, 11-3, and 12-1. \nThe Yankees have a strong track record against the Orioles, winning 9 of their last 10 encounters. (statmuse.com)\nGiven the Yankees' recent dominance over the Orioles, the trader's bet on the Yankees is well-supported.",
+    "ai_verdict": "COPY"
   }
 ]
