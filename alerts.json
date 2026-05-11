@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x916368392620bfe3898790c91cf1fdb63341dee65e368d324912b783d4ace22c",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0936b3de292b05f115c199a0d79331a62fc06c02",
-      "side": "BUY",
-      "asset": "36462471735172848345401380504641680352665475010452944512866299426065312183175",
-      "conditionId": "0xccd66c63cdc20bf1146a57582ec352adb5af4689893823819cb6f3d625c4b985",
-      "size": 4081.632652,
-      "price": 0.4899999998824,
-      "timestamp": 1774808538,
-      "title": "Celtics vs. Hornets: O/U 215.5",
-      "slug": "nba-bos-cha-2026-03-29-total-215pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-bos-cha-2026-03-29",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "menghuan168",
-      "pseudonym": "Corny-Edition",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x916368392620bfe3898790c91cf1fdb63341dee65e368d324912b783d4ace22c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Celtics vs. Hornets: O/U 215.5",
-    "market_slug": "nba-bos-cha-2026-03-29",
-    "amount": 2081.6326529999997,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450287+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x165c4729a8b9a9a1056fbf4664132b540e86bb72bd858d95982dd10262d3ca87",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30498,5 +30446,51 @@
     "amount": 10208.349999,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Pistons and Cavaliers have consistently exceeded the 212.5 total points line.\nIn their last three games, the total points were 224, 241, and 222, all surpassing the 212.5 line. (statmuse.com)\nAdditionally, the Pistons have been scoring over 100 points in recent games, indicating a high-scoring trend. (statmuse.com)\nGiven these trends, the trader's bet on the Under appears to be at odds with recent performance data.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfe16cab0bf0d9e4b2b6a6d96650e852b981fea961af7e4ea328873859c2b36e0",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 8,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x26cf9067526fba66a30d240a9a6798b6e2891351",
+      "side": "BUY",
+      "asset": "73743377542069964453715067579756349621464364076494441273132538249288540943745",
+      "conditionId": "0x883ea143cf3c0b585bd48b6edf31c8925b52b24b15337c56ffaa5c74842299e5",
+      "size": 3818.181817,
+      "price": 0.5499999999083334,
+      "timestamp": 1778523834,
+      "title": "Will Tottenham Hotspur FC win on 2026-05-11?",
+      "slug": "epl-tot-lee-2026-05-11-tot",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-tot-lee-2026-05-11",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Rockies2103",
+      "pseudonym": "Anguished-Bustle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfe16cab0bf0d9e4b2b6a6d96650e852b981fea961af7e4ea328873859c2b36e0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Tottenham Hotspur FC win on 2026-05-11?",
+    "market_slug": "epl-tot-lee-2026-05-11",
+    "amount": 2099.999999,
+    "ai_context": "\u274c SKIP \u2014 Tottenham's recent form and current league position raise concerns about their ability to secure a win.\nTottenham Hotspur is currently 17th in the Premier League, narrowly avoiding relegation with just three games to go. They have suffered 16 defeats, 10 draws, and only 9 victories this season, including a recent 1-0 loss to Aston Villa on May 3, 2026. (theguardian.com) Additionally, they have been eliminated from the Champions League by Atl\u00e9tico de Madrid. (fourfourtwo.",
+    "ai_verdict": "SKIP"
   }
 ]
