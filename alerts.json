@@ -5538,7 +5538,14 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
-    "resolution_last_check": "2026-04-26T07:40:49.446479+00:00"
+    "resolution_last_check": "2026-04-26T07:40:49.446479+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:58:56.059704+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -9580.58
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -9702,7 +9709,14 @@
     "market_slug": "peru-presidential-election-winner",
     "amount": 2243.209999,
     "ai_context": "\u274c SKIP  \nThe odds seem low for a presidential candidate; market may undervalue stronger opponents or incumbents.",
-    "resolution_last_check": "2026-04-26T07:41:05.012805+00:00"
+    "resolution_last_check": "2026-04-26T07:41:05.012805+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:58:58.064716+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2243.21
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -10449,7 +10463,14 @@
     "market_slug": "peru-presidential-election-winner",
     "amount": 1923.324,
     "ai_context": "\u274c SKIP\nRafael L\u00f3pez Aliaga is currently in third place with 11.1% support, trailing Keiko Fujimori at 17.1% and Roberto S\u00e1nchez at 12.1%. The election is expected to go to a runoff, making his chances of winning uncertain. (en.wikipedia.org)",
-    "resolution_last_check": "2026-04-26T07:41:07.571410+00:00"
+    "resolution_last_check": "2026-04-26T07:41:07.571410+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:58:59.403312+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1923.32
+    }
   },
   {
     "type": "WHALE_FLOW",
@@ -29143,7 +29164,14 @@
     "amount": 1138.0208000000002,
     "ai_context": "\u2705 COPY \u2014 Monte's recent form and head-to-head record support the bet.\nMonte recently clinched the CCT Season 3 Global Finals title with a 3-1 victory over HEROIC, including a 2-1 win against Ninjas in Pyjamas. (bo3.gg) In their most recent match on May 9, 2026, Monte faced FURIA in the PGL Astana Group Stage, but the outcome is not specified in the available sources. (polymarket.com) However, their recent championship win indicates strong performance. No injuries have been reported for Monte.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-10T07:58:15.542123+00:00"
+    "resolution_last_check": "2026-05-10T07:58:15.542123+00:00",
+    "resolution": {
+      "outcome": "Monte",
+      "checked_at": "2026-05-11T08:59:19.912070+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 894.16
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29242,7 +29270,14 @@
     "market_slug": "lal-mal-vil-2026-05-10",
     "amount": 1502.296,
     "ai_context": "\u2705 COPY \u2014 RCD Mallorca has shown strong recent form, winning three of their last five matches.\nThey secured victories against Real Madrid (2-1), Rayo Vallecano (3-0), and Girona (1-0). (statmuse.com) Their upcoming opponent, Villarreal, is third in the league with 68 points, indicating a challenging match ahead. (as.com)\nGiven Mallorca's recent positive momentum, they are well-positioned to secure a win against Villarreal.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:59:21.261380+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1502.3
+    }
   },
   {
     "market": "Will El Gouna SC win on 2026-05-12?",
@@ -29359,7 +29394,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u274c SKIP \u2014 El Gouna SC has been inconsistent recently, with only one win in their last five matches.\nTheir recent form includes a 1-0 victory over Pharco FC on April 24, 2026, but also includes a 1-1 draw against Haras El Hodood on April 29, 2026, and a 2-2 draw against ZED on May 3, 2026. (betexplorer.com)\nHowever, the trader may have access to insider information or analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution_last_check": "2026-05-11T08:59:22.061221+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29405,7 +29441,14 @@
     "market_slug": "epl-wes-ars-2026-05-10",
     "amount": 1659.18,
     "ai_context": "\u274c SKIP \u2014 West Ham United has been in poor form recently, losing their last two matches.\nThey lost 3-0 to Brentford on May 2, 2026, and 2-1 to Everton on April 25, 2026. (extratime.com) However, the trader may have insider information about lineup changes or other factors not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:59:23.317889+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1659.18
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29451,7 +29494,14 @@
     "market_slug": "lal-bil-val-2026-05-10-more-markets",
     "amount": 2821.28,
     "ai_context": "\u274c SKIP \u2014 Athletic Club's recent form and Valencia CF's away performance suggest a challenging match for the latter.\nAthletic Club has shown improvement, securing a 4-2 victory over Deportivo Alav\u00e9s on May 2, 2026, with Nico Williams scoring twice. (cadenaser.com) Valencia CF's away form is poor, with only 3 wins, 4 draws, and 10 losses in 17 matches. (footystats.org) However, the trader may have access to insider information or analysis not yet public.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Valencia CF",
+      "checked_at": "2026-05-11T08:59:24.779040+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 842.72
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29497,7 +29547,14 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 1045.4145,
     "ai_context": "\u274c SKIP \u2014 Recent U.S.-Iran tensions and ongoing military exchanges make a permanent peace deal by May 31, 2026, unlikely.\nOn May 7, 2026, U.S. and Iranian military forces exchanged fire in the Strait of Hormuz, with Iran launching missiles and drones targeting U.S. naval vessels, prompting U.S. retaliatory strikes on Iranian sites. (axios.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:59:26.022442+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 474.59
+    }
   },
   {
     "market": "Will El Gouna SC win on 2026-05-12?",
@@ -29614,7 +29671,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 El Gouna SC's recent form and home advantage suggest a potential win.\nEl Gouna SC has been inconsistent recently, with a record of 1 win, 3 draws, and 1 loss in their last five matches. Their most recent match was a 2-2 draw against ZED on May 3, 2026. (betexplorer.com) However, they have a slight edge over Kahrabaa Ismailia FC, having secured a 1-0 victory in their previous encounter in August 2025. (polymarket.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution_last_check": "2026-05-11T08:59:26.022493+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29660,7 +29718,14 @@
     "market_slug": "epl-wes-ars-2026-05-10",
     "amount": 2593.8,
     "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and upcoming fixtures support a win against West Ham United.\nArsenal has won their last two matches, including a 3-0 victory over Fulham on May 2 and a 1-0 win against Atl\u00e9tico Madrid on May 5. (footi.team) They are scheduled to play West Ham United on May 10 at 4:30 PM BST. (skysports.com)\nEPL Schedule\nArsenal FC (ARS) @ West Ham United (WHU) on Sunday, May 10, 2026 at 08:30 AM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:59:27.129796+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2593.8
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29706,7 +29771,14 @@
     "market_slug": "epl-wes-ars-2026-05-10",
     "amount": 4102.92,
     "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head statistics favor Arsenal over West Ham United.\nIn their last five matches, West Ham United has secured two wins, one draw, and suffered two losses, including a 3-0 defeat to Brentford on May 2, 2026. (theguardian.com) Arsenal, on the other hand, has been in strong form, securing a spot in the Champions League final and maintaining a competitive position in the Premier League. (fourfourtwo.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:59:27.129883+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 613.08
+    }
   },
   {
     "market": "Game Handicap: T1.A (-1.5) vs Gen.G Global Academy (+1.5)",
@@ -29816,7 +29888,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 T1 Academy has a strong recent record and a favorable head-to-head history against Gen.G Global Academy.\nT1 Academy has won 5 consecutive matches against Gen.G Global Academy from March to August 2025. (bo3.gg) In their most recent match on April 15, 2026, T1 Academy lost 0-3 to Gen.G Global Academy. (vlr.gg) However, T1 Academy's earlier victories and overall performance suggest they have the potential to cover the -1.5 handicap.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-11T08:59:28.012491+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29862,7 +29935,14 @@
     "market_slug": "lol-mkoi-g2-2026-05-10",
     "amount": 1514.999998,
     "ai_context": "\u2705 COPY \u2014 G2 Esports has a strong head-to-head record against Movistar KOI, winning 10 out of 12 matches.\nIn their most recent encounter on February 23, 2026, G2 Esports secured a 3-0 victory. (tips.gg)\nGiven G2 Esports' consistent dominance over Movistar KOI, copying the bet appears to be a prudent decision.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Under",
+      "checked_at": "2026-05-11T08:59:29.186317+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1515.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29908,7 +29988,14 @@
     "market_slug": "bun-mai-uni-2026-05-10",
     "amount": 1018.5,
     "ai_context": "\u2705 COPY \u2014 Mainz 05 has been in strong form recently, winning 3 of their last 5 matches.\nThey secured victories against FC St. Pauli (2-1) on May 3, 2026, and against TSG Hoffenheim (2-1) on April 4, 2026. (gioscore.com) Their upcoming match is against 1. FC Union Berlin on May 10, 2026. (sofascore.com)\nGiven Mainz 05's recent strong performance, the trader's bet on \"No\" appears to be against the current trend.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-11T08:59:30.517292+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1406.5
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29954,7 +30041,14 @@
     "market_slug": "atp-paul-darderi-2026-05-10",
     "amount": 2899.999999,
     "ai_context": "\u2705 COPY \u2014 Tommy Paul has a 2-0 head-to-head record against Luciano Darderi and is in strong recent form.\nPaul defeated Darderi 6-4, 7-6(2) in their last encounter in August 2024. (stevegtennis.com) In his last 10 matches, Paul has won 7, indicating solid performance. (matchstat.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-11T08:59:31.659586+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2900.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30000,7 +30094,14 @@
     "market_slug": "fl1-aja-ogc-2026-05-10",
     "amount": 1063.9986,
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 AJ Auxerre's recent form is mixed, but they have a home advantage against OGC Nice.\nIn their last five matches, AJ Auxerre has one win, two draws, and two losses. Their most recent match was a 0-0 draw against Nantes on April 11, 2026. (espn.com) They are scheduled to play against OGC Nice on May 10, 2026. (footlive.com) Historically, home teams have a slight advantage, but recent form suggests a closely contested match.",
-    "ai_verdict": "LEAN_COPY"
+    "ai_verdict": "LEAN_COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-11T08:59:32.813226+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1469.33
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30046,7 +30147,14 @@
     "market_slug": "nba-nyk-phi-2026-05-10",
     "amount": 2834.7000000000003,
     "ai_context": "\u2705 COPY \u2014 Recent matchups and current form favor the Knicks.\nThe Knicks have won 3 of the last 4 games against the 76ers, including a decisive 137-98 victory in Game 1 of the current series. In Game 2, the Knicks secured a 108-102 win, taking a 2-0 series lead. (nba.com) Additionally, the 76ers are missing star center Joel Embiid due to injury. (apnews.com)\nGiven the Knicks' recent dominance and the 76ers' injury issues, the trader's bet on the Knicks is well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-05-11T08:59:34.054067+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1460.3
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30092,7 +30200,14 @@
     "market_slug": "arg-riv-slo-2026-05-10-more-markets",
     "amount": 3663.9948,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head matches between River Plate and San Lorenzo have consistently ended with under 1.5 goals.\nIn their last three encounters, all matches concluded with a total of 0 or 1 goal:\nJuly 28, 2025: River Plate 0-0 San Lorenzo\nFebruary 2, 2025: San Lorenzo 0-0 River Plate\nDecember 5, 2024: River Plate 1-1 San Lorenzo\nThis trend suggests a strong likelihood of a low-scoring game.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "CA San Lorenzo de Almagro",
+      "checked_at": "2026-05-11T08:59:35.395382+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30138,7 +30253,14 @@
     "market_slug": "atp-arnaldi-jodar-2026-05-10",
     "amount": 1032.829,
     "ai_context": "\u2705 COPY \u2014 Rafael J\u00f3dar has demonstrated strong recent form, including a notable victory over Nuno Borges in Rome.\nJ\u00f3dar defeated Nuno Borges 7-6(4), 6-4 in the second round of the Rome Masters, showcasing his resilience and mental strength. (elpais.com)\nAdditionally, J\u00f3dar has achieved a 10-6 singles record in 2026, including a title at the Barcelona Open. (espn.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over 2.5",
+      "checked_at": "2026-05-11T08:59:36.556459+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1032.83
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30184,7 +30306,14 @@
     "market_slug": "lal-bar-rea-2026-05-10-more-markets",
     "amount": 1792.1966000000002,
     "ai_context": "\u2705 COPY \u2014 Recent form and head-to-head statistics favor Real Madrid CF.\nIn their last five matches, Real Madrid CF has secured four wins and one loss, while FC Barcelona has achieved three wins and two losses. Historically, Real Madrid CF has won 19 out of 58 encounters against FC Barcelona, with 8 matches ending in a draw. (footystats.org)\nGiven Real Madrid CF's superior recent performance and favorable head-to-head record, the trader's bet appears well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "FC Barcelona",
+      "checked_at": "2026-05-11T08:59:37.777525+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1792.2
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30230,7 +30359,14 @@
     "market_slug": "lol-c9-fly-2026-05-10",
     "amount": 1748.9164,
     "ai_context": "\u2705 COPY \u2014 Cloud9 has a strong recent record and a favorable head-to-head against FlyQuest.\nIn their last 10 meetings, Cloud9 leads with 7 wins to FlyQuest's 3, including a 2-0 victory on January 25, 2026. (sportsbook.dexwin.bet) Additionally, Cloud9 has won 6 of their last 10 matches, while FlyQuest has won 6 of their last 10. (strafe.com)\nGiven Cloud9's recent form and historical advantage over FlyQuest, the trader's bet on Cloud9 at 63% odds is supported by the available data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Cloud9",
+      "checked_at": "2026-05-11T08:59:39.015966+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1046.17
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30276,7 +30412,14 @@
     "market_slug": "nba-sas-min-2026-05-10",
     "amount": 11675.0,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Spurs and Timberwolves have consistently exceeded the 218.5 point total.\nIn their last three games, the total points were 206, 228, and 223, all surpassing the 218.5 line. Additionally, the Spurs' defense has allowed an average of 110.6 points per game this season, indicating a tendency towards higher-scoring games. (athlonsports.com)\nGiven these trends, the bet on the Over is supported by recent performance data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-05-11T08:59:40.188549+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30322,7 +30465,14 @@
     "market_slug": "mlb-pit-sf-2026-05-10",
     "amount": 1498.3499980000001,
     "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the San Francisco Giants.\nIn their last 10 matchups against the Pittsburgh Pirates, the Giants have a 5-5 record, indicating a balanced performance. (statmuse.com) Additionally, in the 2025 season, the Giants won 2 out of 3 games against the Pirates, including a decisive 8-1 victory on August 5, 2025. (champsorchumps.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "San Francisco Giants",
+      "checked_at": "2026-05-11T08:59:41.543705+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 260.92
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30368,7 +30518,14 @@
     "market_slug": "nba-sas-min-2026-05-10",
     "amount": 1042.589998,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head matchups favor the Spurs, with the Timberwolves losing two of the last three games against them.\nIn the most recent game on May 10, 2026, the Spurs led 86-80 in the fourth quarter.  Additionally, the Timberwolves have been inconsistent, with a 3-2 record in their last five games. (basketball-reference.com) However, the trader may have access to insider information or analysis not reflected in these statistics.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-05-11T08:59:42.659554+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 468.55
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30414,6 +30571,13 @@
     "market_slug": "nba-sas-min-2026-05-10",
     "amount": 1115.4,
     "ai_context": "\u2705 COPY \u2014 Spurs have a strong recent head-to-head record against the Timberwolves.\nIn their last five matchups, the Spurs have won four, including a decisive 133-95 victory on May 6, 2026. (aiscore.com) Additionally, the Spurs have a 62.07% win rate against the Timberwolves historically. (basketballstats.net)\nGiven the Spurs' recent dominance over the Timberwolves, copying the trader's bet appears to be a sound decision.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Timberwolves",
+      "checked_at": "2026-05-11T08:59:43.776878+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1115.4
+    }
   }
 ]
