@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xb24087175331ccf0dfdf5791f2ae55001235efa09b083307affb4b05357ef77b",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb04ba0fc0e014b16fb24e3e3673f0853b7f8e2d4",
-      "side": "BUY",
-      "asset": "13772360416273644123340345783611620804271489141423342593354677324348990385026",
-      "conditionId": "0xa14b41c3278643ff5d3c984e4b34c9b2892c83e2da045eed4e44243bbc6ad4a2",
-      "size": 4000,
-      "price": 0.52646,
-      "timestamp": 1774803138,
-      "title": "Dota 2: Tundra Esports vs Team Yandex - Game 2 Winner",
-      "slug": "dota2-tundra-ty-2026-03-29-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-tundra-ty-2026-03-29",
-      "outcome": "Tundra Esports",
-      "outcomeIndex": 0,
-      "name": "llllllllllllllldssssssssssssey",
-      "pseudonym": "Outstanding-Crazy",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb24087175331ccf0dfdf5791f2ae55001235efa09b083307affb4b05357ef77b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Tundra Esports vs Team Yandex - Game 2 Winner",
-    "market_slug": "dota2-tundra-ty-2026-03-29",
-    "amount": 2105.84,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450260+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xf33d76eca1f954901ceb1c0813c36072e09419dbc3e5c6c973616d5ab00daff8",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -30579,5 +30527,51 @@
       "model_correct": null,
       "pnl": -1115.4
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x56e3e8ac3ffccec160126d997767f749a21164fe1cdca82b137614d23b63d55f",
+    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+    "trader": {
+      "rank": 7,
+      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
+      "username": "zxgngl",
+      "profit": 7807265.589240883,
+      "volume": 40551790.62184699,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xeaf34ea3f75a2eb1e1c34c36eb0a7a6fe855e802",
+      "side": "BUY",
+      "asset": "34189360782189653044043979386775882389996638349372722603512110648509526151921",
+      "conditionId": "0x23b6218d75114cf691c7f16c96ca6b24c9a898f5d172592f91c2b4bb0c213826",
+      "size": 2000,
+      "price": 0.52210035,
+      "timestamp": 1778500106,
+      "title": "Internazionali BNL d'Italia: Coco Gauff vs Iva Jovic",
+      "slug": "wta-gauff-jovic-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-gauff-jovic-2026-05-11",
+      "outcome": "Coco Gauff",
+      "outcomeIndex": 0,
+      "name": "DCAETH",
+      "pseudonym": "Urban-Racing",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x56e3e8ac3ffccec160126d997767f749a21164fe1cdca82b137614d23b63d55f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Coco Gauff vs Iva Jovic",
+    "market_slug": "wta-gauff-jovic-2026-05-11",
+    "amount": 1044.2006999999999,
+    "ai_context": "\u2705 COPY \u2014 Coco Gauff has a strong recent record and is a top-ranked player.\nGauff has a 7-3 record in her last 10 matches and holds a 75.4% win rate over the past 52 weeks. (tennisratio.com) Iva Jovic, on the other hand, has a 5-5 record in her last 10 matches and a 68.1% win rate over the past 52 weeks. (tennisratio.com) Additionally, Gauff has a higher career singles ranking at No. 4, compared to Jovic's No. 17. (tennisstats.",
+    "ai_verdict": "COPY"
   }
 ]
