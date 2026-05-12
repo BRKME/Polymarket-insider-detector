@@ -1,51 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x839e374c96bbb13eef13ba57a024228119b76e62e15f3356610eeaa822dedc0e",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324997,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0c9075f0d9a0dfffef8a1baf03c65c41bad05bac",
-      "side": "BUY",
-      "asset": "50759309991894829382859889375171259001219178302633732845644106567427462327460",
-      "conditionId": "0xbc8cb64b9776884fc7de2fc9bf0ca5aaa1c7e64bee609596fa4f47b286d96b97",
-      "size": 2000,
-      "price": 0.23951995,
-      "timestamp": 1774952299,
-      "title": "Betmoar FDV above $20M one day after launch?",
-      "slug": "betmoar-fdv-above-20m-one-day-after-launch",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-betmoar-launch-a-token-by-fbpu0dp2LXUk.jpg",
-      "eventSlug": "betmoar-fdv-above-one-day-after-launch",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "tombac",
-      "pseudonym": "Paltry-Baker",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6214887-f6f54b68-eab8-46be-9060-4604b95fc523.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x839e374c96bbb13eef13ba57a024228119b76e62e15f3356610eeaa822dedc0e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Betmoar FDV above $20M one day after launch?",
-    "market_slug": "betmoar-fdv-above-one-day-after-launch",
-    "amount": 1520.9601,
-    "resolution_last_check": "2026-04-26T07:40:35.122463+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1c6eb3692cd7238118b70a6040dc9fe28b5a7681c76edcf18f79de95ca6db921",
     "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
     "trader": {
@@ -30505,6 +30460,53 @@
     "market_slug": "cs2-bb3-vit-2026-05-12",
     "amount": 3000.0,
     "ai_context": "[GPT] \u274c SKIP \u2014 Vitality's superior recent form and head-to-head record suggest a likely win.\nVitality has won 5 of their last 5 matches and is ranked 1, while BetBoom has won 3 of their last 5 matches and is ranked 17. (strafe.com) Additionally, Vitality holds a 3-0 head-to-head record against BetBoom. (hltv.org) However, BetBoom's recent qualification for IEM Atlanta 2026 and their victory over B8 in the upper bracket final indicate potential for an upset. (esportsinsider.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd294cdb5f88ffc71896b31fcf82eb6c7d1568894a8deec2c0004dfa35d8e57ec",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 19,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 4062132.8696627785,
+      "volume": 218023719.25925595,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5a616cb7a3c591ecc6547f12046f8fc7fb525781",
+      "side": "BUY",
+      "asset": "72120578718905225805766942009553255133672167545615886159850914808677085262608",
+      "conditionId": "0x64c212ec52ec6aa456a6b2ac09a31a5387fe0f9823b379bfac33ff3624980e72",
+      "size": 1544.329541,
+      "price": 0.8799999999481976,
+      "timestamp": 1778617849,
+      "title": "Counter-Strike: BetBoom Team vs Vitality (BO3) - IEM Atlanta Group A",
+      "slug": "cs2-bb3-vit-2026-05-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-bb3-vit-2026-05-12",
+      "outcome": "BetBoom Team",
+      "outcomeIndex": 0,
+      "name": "lockfolio",
+      "pseudonym": "Scarce-Fishbone",
+      "bio": "betmoar-852710163194314762",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/xmEZTGKV_400x400_f65c59fb-6d1f-4325-9165-156ee62b9a45_1729390303280.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd294cdb5f88ffc71896b31fcf82eb6c7d1568894a8deec2c0004dfa35d8e57ec",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: BetBoom Team vs Vitality (BO3) - IEM Atlanta Group A",
+    "market_slug": "cs2-bb3-vit-2026-05-12",
+    "amount": 1359.009996,
+    "ai_context": "[GPT] \u274c SKIP \u2014 Vitality has a flawless 3-0 head-to-head record against BetBoom Team.\nIn their most recent encounter, Vitality dominated with a 2-0 sweep, including a 13-7 victory on Mirage and a 13-10 win on Dust2. (polymarket.com)\nWhile BetBoom Team has shown resilience, their recent roster changes, including the return of Alexander \"zorte\" Zagodyrenko, may impact team cohesion. (hawk.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT"
   }
