@@ -1,302 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xbb1d3928ed3cd39e79bf66fdd5c3eb392fb43f6b944abdf58c32483330b81ae6",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcf6087abd66e16b59a122d45bfcdc05d4b7247ce",
-      "side": "BUY",
-      "asset": "96607708577930898304892895402933700014749452957641953014266812695355871136232",
-      "conditionId": "0x79354560913f9df90fcb765db309452006cad33c731dfbca2672e1fd9acde0ac",
-      "size": 29000,
-      "price": 0.54,
-      "timestamp": 1774991017,
-      "title": "Devils vs. Rangers",
-      "slug": "nhl-nj-nyr-2026-03-31",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-nj-nyr-2026-03-31",
-      "outcome": "Devils",
-      "outcomeIndex": 0,
-      "name": "steeplejack",
-      "pseudonym": "Violet-Transmission",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbb1d3928ed3cd39e79bf66fdd5c3eb392fb43f6b944abdf58c32483330b81ae6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Devils vs. Rangers",
-    "market_slug": "nhl-nj-nyr-2026-03-31",
-    "amount": 15660.000000000002,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450449+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-31 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "US x Iran ceasefire by April 7?",
-    "market_slug": "us-x-iran-ceasefire-by-april",
-    "event_slug": "us-x-iran-ceasefire-by-april",
-    "wallet": "0x7c3db723f1d4d8cb9c550095203b686cb11e5c6b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (10.0% effective odds)",
-        "Large bet ($1,033)",
-        "Pre-event latency: 8764m"
-      ],
-      "amount": 1032.7869999999998,
-      "odds": 0.09999999999999998,
-      "raw_price": 0.9,
-      "outcome": "No",
-      "potential_pnl": 9295.083,
-      "pnl_multiplier": 9.000000000000002,
-      "wallet_age_days": 781,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-31T22:00:13.701959",
-    "trade_hash": "0xf641692b0e9755cc4023081516f8f895b742a9f93ee08d345d76d363b76e0a11",
-    "trade_timestamp": 1774994167,
-    "latency": {
-      "latency_seconds": 525833.0,
-      "latency_minutes": 8763.883333333333,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-31T21:56:07+00:00",
-      "event_time": "2026-04-07T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.9,
-      "effective_price": 0.09999999999999998,
-      "size": 10327.87,
-      "amount": 1032.7869999999998,
-      "potential_pnl": 9295.083,
-      "pnl_multiplier": 9.000000000000002,
-      "is_no": true,
-      "slug": "us-x-iran-ceasefire-by-april",
-      "eventSlug": "us-x-iran-ceasefire-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+64.8%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.252,
-      "market_price": 0.9,
-      "edge": 0.648,
-      "edge_percent": 64.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mutual willingness to negotiate from both the US and Iran",
-          "Reduction in hostilities or provocations leading up to the deadline",
-          "Involvement of third-party mediators to facilitate discussions"
-        ],
-        "weakest_link": "Reduction in hostilities or provocations leading up to the deadline"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Desire for stability in the region",
-        "Pressure from international allies for a ceasefire"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 125,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.648,
-      "edge_percent": 64.8
-    },
-    "financial_analyst": {
-      "signal_quality": 85.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 64.8,
-      "signal_strength": 125.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:37.775888+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 9295.08
-    }
-  },
-  {
-    "market": "US x Iran ceasefire by April 7?",
-    "market_slug": "us-x-iran-ceasefire-by-april",
-    "event_slug": "us-x-iran-ceasefire-by-april",
-    "wallet": "0xde7be6d489bce070a959e0cb813128ae659b5f4b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (9.0% effective odds)",
-        "Large bet ($3,671)",
-        "Pre-event latency: 8764m"
-      ],
-      "amount": 3670.6913999999997,
-      "odds": 0.09,
-      "raw_price": 0.09,
-      "outcome": "Yes",
-      "potential_pnl": 37114.768599999996,
-      "pnl_multiplier": 10.11111111111111,
-      "wallet_age_days": 37,
-      "total_activities": 100
-    },
-    "timestamp": "2026-03-31T22:00:20.500750",
-    "trade_hash": "0x9e75a61cabe8bc4dcf5c351200b22bf057b1cf76ce215fc83f0be0f125abf53d",
-    "trade_timestamp": 1774994175,
-    "latency": {
-      "latency_seconds": 525825.0,
-      "latency_minutes": 8763.75,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-03-31T21:56:15+00:00",
-      "event_time": "2026-04-07T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "SELL",
-      "price": 0.09,
-      "effective_price": 0.09,
-      "size": 40785.46,
-      "amount": 3670.6913999999997,
-      "potential_pnl": 37114.768599999996,
-      "pnl_multiplier": 10.11111111111111,
-      "is_no": false,
-      "slug": "us-x-iran-ceasefire-by-april",
-      "eventSlug": "us-x-iran-ceasefire-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Longshot (9%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.041999999999999996,
-      "market_price": 0.09,
-      "edge": 0.048,
-      "edge_percent": 4.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mutual agreement on ceasefire terms",
-          "Reduction of hostilities and military actions",
-          "International pressure or mediation to facilitate ceasefire"
-        ],
-        "weakest_link": "Mutual agreement on ceasefire terms"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased diplomatic efforts by third-party nations",
-        "Escalation of conflict leading to greater urgency for a ceasefire"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 85,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 85,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": false,
-      "edge": 0.048,
-      "edge_percent": 4.8
-    },
-    "financial_analyst": {
-      "signal_quality": 37.2,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 4.8,
-      "signal_strength": 85.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:37.775940+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -3670.69
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x3c074c9ca62afa02374a021f70cff05db1666367649ee3ba94e9a00f30cad966",
     "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
     "trader": {
@@ -30495,5 +30199,146 @@
     "ai_context": "[Grok] \u2705 LEAN COPY \u2014 The trader may have insider knowledge of potential political shifts or economic events that could lead to Powell's early exit.\nRecent reports indicate Powell has not announced any plans to resign and is actively fulfilling his duties, with his last public statement in October 2023 reaffirming commitment to his term (reuters.com). However, the upcoming 2024 US election could introduce uncertainty, as a change in administration might affect his position.",
     "ai_verdict": "LEAN_COPY",
     "ai_model": "Grok"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x88e4e39c623f28e59b47076dd6b8077278c4b0b9a203117716072b5a6a1e7e9f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "side": "BUY",
+      "asset": "88092801361106730901721864297994106171505835043458032541523827725692947870626",
+      "conditionId": "0xd388a49e45c5ac286f552c3cf8c6c23aaefc787644dad7f97f7d099c1be43379",
+      "size": 2881.81,
+      "price": 0.56,
+      "timestamp": 1778629273,
+      "title": "Detroit Tigers vs. New York Mets: O/U 7.5",
+      "slug": "mlb-det-nym-2026-05-12-total-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-det-nym-2026-05-12",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "ferrariChampions2026",
+      "pseudonym": "Glaring-Salt",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x88e4e39c623f28e59b47076dd6b8077278c4b0b9a203117716072b5a6a1e7e9f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Detroit Tigers vs. New York Mets: O/U 7.5",
+    "market_slug": "mlb-det-nym-2026-05-12",
+    "amount": 1613.8136000000002,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Tigers and Mets have consistently exceeded 7.5 total runs.\nIn their last three encounters, the games ended with scores of 8-10, 5-12, and 6-2, all surpassing the 7.5-run mark. (aiscore.com)\nAdditionally, the Mets' recent games have seen high-scoring outcomes, with totals of 11, 9.5, and 10.5 runs in their last three matches. (lineups.com)\nGiven these trends, betting on the Over appears to be a favorable choice.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xedd97416e2242eb1ddc02020d70cd5823a68f242fbe2857aadb260a9ae862c0a",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x779a9702c5043ab56bcb7dc90b4a1f27ad77b689",
+      "side": "BUY",
+      "asset": "51470467763973925043312804335058706155723778381746913031260377513766225418264",
+      "conditionId": "0xe9e3d24aaeb9a3cadc276f2696b916d8c9b47b6737c0112d9699899880acda1d",
+      "size": 2540,
+      "price": 0.79,
+      "timestamp": 1778629572,
+      "title": "Timberwolves vs. Spurs",
+      "slug": "nba-min-sas-2026-05-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-sas-2026-05-12",
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "name": "leohe",
+      "pseudonym": "Astonishing-Trading",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xedd97416e2242eb1ddc02020d70cd5823a68f242fbe2857aadb260a9ae862c0a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Spurs",
+    "market_slug": "nba-min-sas-2026-05-12",
+    "amount": 2006.6000000000001,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups and head-to-head record favor the Spurs.\nIn the last five games, the Spurs have won three, including a decisive 133-95 victory on May 6, 2026. Historically, the Spurs lead the Timberwolves 96-46 in their all-time series. (statmuse.com)\nGiven the Spurs' recent form and strong historical performance against the Timberwolves, the trader's bet appears well-supported.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc6cf3075425e2964f549e549f92f5afd031ef1a7b8ac8d19855a928892c59173",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 19,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4296456.430515829,
+      "volume": 474159944.19754106,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4c0abbdc0f4c19e7e9af8c6399e67192be8ea9be",
+      "side": "BUY",
+      "asset": "81218061980619251525700003348273530645485495553213808515777705958935913256478",
+      "conditionId": "0xb865a4a9d49f5892a04e2dfe8bb879913d19fdecc38c2743313ec0d16678e694",
+      "size": 22000,
+      "price": 0.52,
+      "timestamp": 1778629875,
+      "title": "Timberwolves vs. Spurs: O/U 217.5",
+      "slug": "nba-min-sas-2026-05-12-total-217pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-sas-2026-05-12",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "kokony",
+      "pseudonym": "Velvety-Terminology",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc6cf3075425e2964f549e549f92f5afd031ef1a7b8ac8d19855a928892c59173",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Spurs: O/U 217.5",
+    "market_slug": "nba-min-sas-2026-05-12",
+    "amount": 11440.0,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Timberwolves and Spurs have consistently exceeded the 217.5 point total.\nIn their last three games, the combined scores were 265, 228, and 227 points, all surpassing the 217.5 line. (landofbasketball.com) Additionally, the most recent game on May 10, 2026, ended with a total of 223 points. (statmuse.com) Both teams have been scoring efficiently, with the Timberwolves averaging 119.7 points and the Spurs 108.7 points in their last three encounters.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
   }
 ]
