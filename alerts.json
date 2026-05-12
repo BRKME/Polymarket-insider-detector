@@ -1,120 +1,5 @@
 [
   {
-    "market": "Spread: 76ers (-1.5)",
-    "market_slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
-    "event_slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
-    "wallet": "0x0daa0d3fd576c5b6bbbef56167ae8ae7eadac9da",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,978)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2977.5090039016495,
-      "odds": 0.4899999999640667,
-      "raw_price": 0.4899999999640667,
-      "outcome": "Heat",
-      "potential_pnl": 3099.039984098351,
-      "pnl_multiplier": 1.0408163266802721,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-30T22:52:30.199597",
-    "trade_hash": "0xdb673c527a986a05c35610bdc14e6cd4b043b0f93b66430f5c724bd9f2ee0695",
-    "trade_timestamp": 1774911005,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Heat",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.4899999999640667,
-      "effective_price": 0.4899999999640667,
-      "size": 6076.5489880000005,
-      "amount": 2977.5090039016495,
-      "potential_pnl": 3099.039984098351,
-      "pnl_multiplier": 1.0408163266802721,
-      "is_no": false,
-      "slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
-      "eventSlug": "nba-phi-mia-2026-03-30"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23799999999281332,
-      "market_price": 0.4899999999640667,
-      "edge": 0.25199999997125333,
-      "edge_percent": 25.19999999712533,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "76ers maintain key player health",
-          "76ers perform well in away games",
-          "Opposing team has injuries or underperformance"
-        ],
-        "weakest_link": "Opposing team has injuries or underperformance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "76ers recent performance trends",
-        "Public sentiment towards team dynamics"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.25199999997125333,
-      "edge_percent": 25.19999999712533
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 25.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450380+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: 76ers (-2.5)",
     "market_slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
     "event_slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
@@ -30534,5 +30419,51 @@
       "model_correct": null,
       "pnl": 289.23
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd14fe07ca1d163a18364c44621b5910535a0db98e3d2aba324d1f8881062e82a",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.74869217,
+      "volume": 529047708.5059911,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x20ba9c4397d9946f1c6a246847876349918c6c2a",
+      "side": "BUY",
+      "asset": "17602685084896779446298832870405694559922698830932287027652815684611126475057",
+      "conditionId": "0xa3d35253ddde86cf7e88080da44b9b346615745ac579cf3ab6067f24aba053b5",
+      "size": 3000,
+      "price": 0.43,
+      "timestamp": 1778587970,
+      "title": "LoL: Invictus Gaming vs Bilibili Gaming - Game 1 Winner",
+      "slug": "lol-ig1-blg-2026-05-12-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-ig1-blg-2026-05-12",
+      "outcome": "Invictus Gaming",
+      "outcomeIndex": 0,
+      "name": "Linda1972",
+      "pseudonym": "Yearly-Disaster-Axis",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd14fe07ca1d163a18364c44621b5910535a0db98e3d2aba324d1f8881062e82a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Invictus Gaming vs Bilibili Gaming - Game 1 Winner",
+    "market_slug": "lol-ig1-blg-2026-05-12",
+    "amount": 1290.0,
+    "ai_context": "\u274c SKIP \u2014 Invictus Gaming has a 33% win rate over the past 30 days and a 33% win rate in their last 10 matches against Bilibili Gaming.\nIn their last 10 encounters, Bilibili Gaming won 8 times, while Invictus Gaming won 2 times. (tips.gg)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the current statistics, it is advisable to SKIP this bet.",
+    "ai_verdict": "SKIP"
   }
 ]
