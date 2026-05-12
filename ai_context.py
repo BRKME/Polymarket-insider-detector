@@ -1,19 +1,23 @@
 """
-AI Context Layer v4 — Web-search-powered trade analysis.
+AI Context Layer v5 — A/B test: GPT vs Grok.
 
-Uses gpt-4o-mini-search-preview: GPT searches the web before answering.
-For sports: checks current form, standings, injuries.
-For politics: checks latest polls, news.
+GPT: gpt-4o-mini-search-preview (web search)
+Grok: grok-3-mini-fast (xAI, real-time X/Twitter data)
 
-Cost: ~$0.025 per search call + token costs. Only for alerts passing all filters.
+A/B: alternates by minute (even=GPT, odd=Grok).
+Model name tagged in response for WR tracking.
 """
 
+import os
 import re
 import logging
 from typing import Optional
+from datetime import datetime
 
 from openai import OpenAI
 from config import OPENAI_API_KEY
+
+XAI_API_KEY = os.getenv("XAI_API_KEY", "")
 
 logger = logging.getLogger(__name__)
 
@@ -165,18 +169,39 @@ def generate_trade_context(
     )
 
     try:
-        client = OpenAI(api_key=OPENAI_API_KEY)
-        response = client.chat.completions.create(
-            model="gpt-4o-mini-search-preview",
-            web_search_options={
-                "search_context_size": "low",  # minimize cost
-            },
-            messages=[
-                {"role": "system", "content": SYSTEM},
-                {"role": "user", "content": prompt},
-            ],
-            max_tokens=400,
-        )
+        # A/B test: even minute = GPT, odd minute = Grok
+        use_grok = XAI_API_KEY and (datetime.utcnow().minute % 2 == 1)
+        
+        if use_grok:
+            # Grok via xAI API (OpenAI-compatible)
+            client = OpenAI(
+                api_key=XAI_API_KEY,
+                base_url="https://api.x.ai/v1"
+            )
+            response = client.chat.completions.create(
+                model="grok-3-mini-fast",
+                messages=[
+                    {"role": "system", "content": SYSTEM},
+                    {"role": "user", "content": prompt},
+                ],
+                max_tokens=400,
+            )
+            model_tag = "[Grok]"
+        else:
+            # GPT with web search
+            client = OpenAI(api_key=OPENAI_API_KEY)
+            response = client.chat.completions.create(
+                model="gpt-4o-mini-search-preview",
+                web_search_options={
+                    "search_context_size": "low",
+                },
+                messages=[
+                    {"role": "system", "content": SYSTEM},
+                    {"role": "user", "content": prompt},
+                ],
+                max_tokens=400,
+            )
+            model_tag = "[GPT]"
 
         text = response.choices[0].message.content.strip()
         text = text.strip('"').strip("'").strip()
@@ -202,8 +227,8 @@ def generate_trade_context(
             else:
                 text = text[:497] + "..."
 
-        logger.info(f"  AI [{market_type}]: {text[:80]}")
-        return text
+        logger.info(f"  AI {model_tag} [{market_type}]: {text[:80]}")
+        return f"{model_tag} {text}"
 
     except Exception as e:
         logger.warning(f"AI context failed: {e}")

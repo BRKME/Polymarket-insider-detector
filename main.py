@@ -27,6 +27,17 @@ def extract_ai_verdict(ai_context: str) -> str:
     return "UNCLEAR"
 
 
+def extract_ai_model(ai_context: str) -> str:
+    """Extract model tag [GPT] or [Grok] from AI response."""
+    if not ai_context:
+        return "NONE"
+    if ai_context.startswith("[Grok]"):
+        return "Grok"
+    elif ai_context.startswith("[GPT]"):
+        return "GPT"
+    return "UNKNOWN"
+
+
 def send_heartbeat(stats: Dict) -> None:
     """
     Send a lightweight status ping to Telegram after each cycle.
@@ -424,6 +435,7 @@ def main():
             if context:
                 alert['ai_context'] = context
                 alert['ai_verdict'] = extract_ai_verdict(context)
+                alert['ai_model'] = extract_ai_model(context)
                 print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
             print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")
@@ -469,6 +481,7 @@ def main():
             if context:
                 alert['ai_context'] = context
                 alert['ai_verdict'] = extract_ai_verdict(context)
+                alert['ai_model'] = extract_ai_model(context)
                 print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
             print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")

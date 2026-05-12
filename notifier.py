@@ -613,9 +613,18 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     # === AI verdict (compute FIRST — affects recommendation) ===
     ai_context = alert.get('ai_context')
-    ai_verdict = "NONE"  # COPY, SKIP, LEAN_COPY, LEAN_SKIP, NONE
+    ai_verdict = "NONE"
     ai_reason = ""
+    ai_model_label = ""
     if ai_context:
+        # Strip model tag [GPT] / [Grok]
+        if ai_context.startswith("[Grok] "):
+            ai_model_label = "Grok"
+            ai_context = ai_context[7:]
+        elif ai_context.startswith("[GPT] "):
+            ai_model_label = "GPT"
+            ai_context = ai_context[6:]
+        
         ai_upper = ai_context.upper()
         if "LEAN COPY" in ai_upper:
             ai_verdict = "LEAN_COPY"
@@ -649,13 +658,15 @@ def format_top_trader_alert(alert: Dict) -> str:
         if len(rest) > 200:
             rest = rest[:197] + "..."
         
-        ai_reason = f"🤖 {ai_emoji} {first_sentence}"
+        model_prefix = f" {ai_model_label}" if ai_model_label else ""
+        ai_reason = f"🤖{model_prefix} {ai_emoji} {first_sentence}"
         if rest:
             ai_reason += f"\n{rest}"
     
-    # === Compute recommendation (uses AI verdict) ===
+    # === Compute recommendation (contrarian ALWAYS active, AI = info only) ===
     wr_text = ""
     rec_text = ""
+    rec_emoji = ""
     try:
         from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
@@ -671,12 +682,8 @@ def format_top_trader_alert(alert: Dict) -> str:
             outcome_str = str(trade.get('outcome', 'Yes'))
             contra = contrarian_check("TOP_TRADER", outcome_str, stats)
             
-            # KEY LOGIC: AI overrides contrarian
-            # If AI says COPY → trust the trader, don't reverse
-            ai_agrees = ai_verdict in ("COPY", "LEAN_COPY")
-            
-            if contra and not ai_agrees:
-                # Contrarian + AI confirms skip → reverse bet
+            if contra:
+                # Contrarian: reverse the bet (AI does NOT override)
                 opp = contra["opposite_outcome"]
                 opp_wr = contra["opposite_wr"]
                 opp_odds = 1 - effective_odds
@@ -691,30 +698,23 @@ def format_top_trader_alert(alert: Dict) -> str:
                 else:
                     opponent = opp
                 
+                rec_emoji = "🔄"
                 if k["action"] == "BET":
-                    rec_text = f"Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"СТАВЬ НА {opponent.upper()} · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
                 else:
-                    rec_text = f"Рекомендация: ставь на {opponent}"
-            elif ai_agrees:
-                # AI confirms → copy the trader
-                k = kelly_size(effective_odds, max(wr, 0.55), 200)  # Use at least 55% WR when AI agrees
-                if k["action"] == "BET":
-                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
-                else:
-                    rec_text = f"Рекомендация: копируй"
+                    rec_text = f"СТАВЬ НА {opponent.upper()}"
             else:
-                # No AI or unclear → use raw stats
+                # Signal is profitable — copy
                 k = kelly_size(effective_odds, wr, 200)
+                rec_emoji = "✅"
                 if k["action"] == "BET":
-                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"КОПИРУЙ · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
+                else:
+                    rec_text = f"КОПИРУЙ"
     except Exception:
         pass
     
     # === Build message ===
-    header = "👑 TOP TRADER"
-    if wr_text:
-        header += f" · {wr_text}"
-    
     # Individual trader quality
     trader_wr = ""
     try:
@@ -724,20 +724,26 @@ def format_top_trader_alert(alert: Dict) -> str:
     except Exception:
         pass
     
+    # === RECOMMENDATION FIRST (biggest, clearest) ===
+    message = ""
+    if rec_text:
+        message += f"{rec_emoji} {rec_text}\n\n"
+    
+    # Header
+    header = "👑 TOP TRADER"
+    if wr_text:
+        header += f" · {wr_text}"
+    
     trader_line = f"{username} #{rank} · ${amount:,.0f}"
     if trader_wr:
         trader_line += f" · {trader_wr}"
     
-    message = f"""{header}
+    message += f"""{header}
+{market}
+{trader_line}
+{position}"""
 
-{market}"""
-
-    if rec_text:
-        message += f"\n{rec_text}"
-
-    message += f"\n{trader_line}\n{position}"
-
-    # AI reasoning
+    # AI reasoning (informational only, does NOT affect recommendation)
     if ai_reason:
         message += f"\n\n{ai_reason}"
 
@@ -833,7 +839,16 @@ def format_institutional_alert(alert):
     ai_context = alert.get('ai_context')
     ai_verdict = "NONE"
     ai_reason = ""
+    ai_model_label = ""
     if ai_context:
+        # Strip model tag [GPT] / [Grok]
+        if ai_context.startswith("[Grok] "):
+            ai_model_label = "Grok"
+            ai_context = ai_context[7:]
+        elif ai_context.startswith("[GPT] "):
+            ai_model_label = "GPT"
+            ai_context = ai_context[6:]
+        
         ai_upper = ai_context.upper()
         if "LEAN COPY" in ai_upper:
             ai_verdict = "LEAN_COPY"
@@ -864,12 +879,14 @@ def format_institutional_alert(alert):
         if len(rest) > 200:
             rest = rest[:197] + "..."
         
-        ai_reason = f"🤖 {ai_emoji} {first_sentence}"
+        model_prefix = f" {ai_model_label}" if ai_model_label else ""
+        ai_reason = f"🤖{model_prefix} {ai_emoji} {first_sentence}"
         if rest:
             ai_reason += f"\n{rest}"
 
-    # Update recommendation with AI awareness
-    ai_agrees = ai_verdict in ("COPY", "LEAN_COPY")
+    # Recommendation — contrarian ALWAYS active, AI = info only
+    rec_text = ""
+    rec_emoji = ""
     try:
         from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
@@ -883,7 +900,7 @@ def format_institutional_alert(alert):
             
             contra = contrarian_check(signal_type, outcome_pos, stats)
             
-            if contra and not ai_agrees:
+            if contra:
                 opp = contra["opposite_outcome"]
                 opp_wr = contra["opposite_wr"]
                 k = kelly_size(1 - eff_odds, opp_wr, 200)
@@ -893,20 +910,18 @@ def format_institutional_alert(alert):
                     opponent = _extract_opponent_name(bet_team, market_title) or opp
                 else:
                     opponent = opp
+                rec_emoji = "🔄"
                 if k["action"] == "BET":
-                    rec_text = f"Рекомендация: ставь на {opponent} ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"СТАВЬ НА {opponent.upper()} · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
                 else:
-                    rec_text = f"Рекомендация: ставь на {opponent}"
-            elif ai_agrees:
-                k = kelly_size(eff_odds, max(wr, 0.55), 200)
-                if k["action"] == "BET":
-                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
-                else:
-                    rec_text = f"Рекомендация: копируй"
+                    rec_text = f"СТАВЬ НА {opponent.upper()}"
             else:
                 k = kelly_size(eff_odds, wr, 200)
+                rec_emoji = "✅"
                 if k["action"] == "BET":
-                    rec_text = f"Рекомендация: копируй ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}% банка)"
+                    rec_text = f"КОПИРУЙ · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
+                else:
+                    rec_text = f"КОПИРУЙ"
     except Exception:
         pass
     
@@ -927,18 +942,17 @@ def format_institutional_alert(alert):
     if wr_text:
         header += f" · {wr_text}"
     
-    # Build message: header → market → recommendation → trade → AI
+    # Build: RECOMMENDATION FIRST
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     url = build_polymarket_url(trade_data, alert)
     
-    message = f"""{header}
-
-{market}"""
-
+    message = ""
     if rec_text:
-        message += f"\n{rec_text}"
-
-    message += f"\n${amount:,.0f} on {trade_info['position']} · {profile}"
+        message += f"{rec_emoji} {rec_text}\n\n"
+    
+    message += f"""{header}
+{market}
+${amount:,.0f} on {trade_info['position']} · {profile}"""
 
     if ai_reason:
         message += f"\n\n{ai_reason}"
