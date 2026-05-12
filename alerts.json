@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7874e3f146b4ea0e3f6ddc6253be4f69fe647dd00ee3bfdfd5f7da29984a65e1",
-    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-    "trader": {
-      "rank": 19,
-      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-      "username": "beachboy4",
-      "profit": 4141852.968866816,
-      "volume": 199137316.59853497,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6966eb1ae7b52320ba7ab1016680198c9e08a49",
-      "side": "BUY",
-      "asset": "51759907851946476798459406565393737772551997792655053440600013885668931375484",
-      "conditionId": "0x318fcd38de59d70dbf5977cb465ab7744cbfdb5b3986a834c6a349a74c8e1081",
-      "size": 4939.15148,
-      "price": 0.49,
-      "timestamp": 1774913581,
-      "title": "Suns vs. Grizzlies: O/U 227.5",
-      "slug": "nba-phx-mem-2026-03-30-total-227pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-phx-mem-2026-03-30",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "EIf",
-      "pseudonym": "Short-Term-Valance",
-      "bio": "You know who I am",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2970187-7a242ca5-ce20-4cbd-a772-b93edd01736c.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7874e3f146b4ea0e3f6ddc6253be4f69fe647dd00ee3bfdfd5f7da29984a65e1",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Suns vs. Grizzlies: O/U 227.5",
-    "market_slug": "nba-phx-mem-2026-03-30",
-    "amount": 2518.9672548000003,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450415+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x839e374c96bbb13eef13ba57a024228119b76e62e15f3356610eeaa822dedc0e",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
     "trader": {
@@ -30512,5 +30460,52 @@
     "amount": 4385.9802,
     "ai_context": "\u2705 COPY \u2014 Recent matchups and head-to-head record favor the Timberwolves.\nIn the last five games, the Timberwolves have won three, including a 104-102 victory on May 4, 2026. Historically, the Timberwolves lead the series 19-13 across 32 meetings. (trendlinelabs.ai) However, the Timberwolves are currently without star player Anthony Edwards due to a knee injury. (axios.com)\nGiven the Timberwolves' recent form and favorable head-to-head record, the bet on the Timberwolves is supported.",
     "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x952bea2645448dd4ae8f6c8ac43ac98c5eb8caefd5812d03ef3d38af56a4462a",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523402998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x93f6f199a8f1aa4a4a16f875bc45c13f58054814",
+      "side": "BUY",
+      "asset": "72120578718905225805766942009553255133672167545615886159850914808677085262608",
+      "conditionId": "0x64c212ec52ec6aa456a6b2ac09a31a5387fe0f9823b379bfac33ff3624980e72",
+      "size": 10000,
+      "price": 0.3,
+      "timestamp": 1778612214,
+      "title": "Counter-Strike: BetBoom Team vs Vitality (BO3) - IEM Atlanta Group A",
+      "slug": "cs2-bb3-vit-2026-05-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-bb3-vit-2026-05-12",
+      "outcome": "BetBoom Team",
+      "outcomeIndex": 0,
+      "name": "Valui",
+      "pseudonym": "General-Lollipop",
+      "bio": "Only value bets",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x952bea2645448dd4ae8f6c8ac43ac98c5eb8caefd5812d03ef3d38af56a4462a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: BetBoom Team vs Vitality (BO3) - IEM Atlanta Group A",
+    "market_slug": "cs2-bb3-vit-2026-05-12",
+    "amount": 3000.0,
+    "ai_context": "[GPT] \u274c SKIP \u2014 Vitality's superior recent form and head-to-head record suggest a likely win.\nVitality has won 5 of their last 5 matches and is ranked 1, while BetBoom has won 3 of their last 5 matches and is ranked 17. (strafe.com) Additionally, Vitality holds a 3-0 head-to-head record against BetBoom. (hltv.org) However, BetBoom's recent qualification for IEM Atlanta 2026 and their victory over B8 in the upper bracket final indicate potential for an upset. (esportsinsider.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT"
   }
 ]
