@@ -1,394 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x7eed9c41c41331b078aba91c6c620d9cb67a6f402cfe22107e5f899d97f77fba",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 10,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324997,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xfbf3d501e88815464642d0e913f15379c3eeb218",
-      "side": "BUY",
-      "asset": "46074053027504456980838139439071668463534417342542986769475437075526685360542",
-      "conditionId": "0xb71276804dfd74c76d770e78ac1e90c1d60bc827d4300c2fa21f6983b9a601ac",
-      "size": 10434.11,
-      "price": 0.22428030756815867,
-      "timestamp": 1774828048,
-      "title": "Knicks vs. Thunder",
-      "slug": "nba-nyk-okc-2026-03-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-nyk-okc-2026-03-29",
-      "outcome": "Knicks",
-      "outcomeIndex": 0,
-      "name": "VPenguin",
-      "pseudonym": "Pastel-Push",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7eed9c41c41331b078aba91c6c620d9cb67a6f402cfe22107e5f899d97f77fba",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Knicks vs. Thunder",
-    "market_slug": "nba-nyk-okc-2026-03-29",
-    "amount": 2340.1654000000003,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450333+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-29 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Celtics vs. Hawks",
-    "market_slug": "nba-bos-atl-2026",
-    "event_slug": "nba-bos-atl-2026",
-    "wallet": "0x7aeab32f78e89c58c6adccf1b3e75fbf2e2e0b5a",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,875)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 2874.779999,
-      "odds": 0.4570100985191383,
-      "raw_price": 0.4570100985191383,
-      "outcome": "Celtics",
-      "potential_pnl": 3415.628043,
-      "pnl_multiplier": 1.188135455300279,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-03-30T17:37:09.449665",
-    "trade_hash": "0xabed191b73c0a3e018cc7409d4fe2c0d17b0478005c317eb1bc5b98b23384072",
-    "trade_timestamp": 1774891921,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Celtics",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.4570100985191383,
-      "effective_price": 0.4570100985191383,
-      "size": 6290.408042,
-      "amount": 2874.779999,
-      "potential_pnl": 3415.628043,
-      "pnl_multiplier": 1.188135455300279,
-      "is_no": false,
-      "slug": "nba-bos-atl-2026",
-      "eventSlug": "nba-bos-atl-2026-03-30"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+22.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.23140201970382765,
-      "market_price": 0.4570100985191383,
-      "edge": 0.22560807881531067,
-      "edge_percent": 22.560807881531066,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Celtics maintain their current roster health",
-          "Hawks underperform in key matchups",
-          "Celtics capitalize on home court advantage"
-        ],
-        "weakest_link": "Hawks underperform in key matchups"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Celtics' playoff performance history",
-        "Hawks' recent struggles against top teams"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.22560807881531067,
-      "edge_percent": 22.560807881531066
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 22.56,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450343+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x8baeb23b917fa3c43d1f7c01b1c37acfeec58337d54e5ecbb26d4f22f7e6a1c5",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x39d3c773be30fcc73161fc6768f46d563a779ef0",
-      "side": "BUY",
-      "asset": "97936614753375633992468166242953228698246471521082739638918692000157445482629",
-      "conditionId": "0x1d982fbf6f181a49924073683a63cb96ed540733e2c464cc068a10f21fdb108c",
-      "size": 2720,
-      "price": 0.25,
-      "timestamp": 1774899177,
-      "title": "Credit One Charleston Open: Viktoriya Tomova vs Jennifer Brady",
-      "slug": "wta-tomova-brady-2026-03-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
-      "eventSlug": "wta-tomova-brady-2026-03-30",
-      "outcome": "Jennifer Brady",
-      "outcomeIndex": 1,
-      "name": "matanovik",
-      "pseudonym": "Lost-Property",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8baeb23b917fa3c43d1f7c01b1c37acfeec58337d54e5ecbb26d4f22f7e6a1c5",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Credit One Charleston Open: Viktoriya Tomova vs Jennifer Brady",
-    "market_slug": "wta-tomova-brady-2026-03-30",
-    "amount": 2040.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450352+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x8f61a2533f116d68ca85762fb97a476edc1ef5ea6238a67a24097651713af92a",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
-      "side": "BUY",
-      "asset": "20171573127360977362973435577990200871613402020096392031060134000759177110611",
-      "conditionId": "0x96e8b81d150000882bb1475d35d268be1cd6a6a5a90bae23452477ee702b9230",
-      "size": 5501.913042,
-      "price": 0.22999999988004172,
-      "timestamp": 1774899477,
-      "title": "Counter-Strike: Inner Circle Esports vs BASEMENT BOYS - Map 2 Winner",
-      "slug": "cs2-ice-bmb-2026-03-30-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-ice-bmb-2026-03-30",
-      "outcome": "BASEMENT BOYS",
-      "outcomeIndex": 1,
-      "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
-      "pseudonym": "Vigilant-Environment",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8f61a2533f116d68ca85762fb97a476edc1ef5ea6238a67a24097651713af92a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: Inner Circle Esports vs BASEMENT BOYS - Map 2 Winner",
-    "market_slug": "cs2-ice-bmb-2026-03-30",
-    "amount": 4236.473043,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450361+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Counter-Strike: 9z vs Legacy (BO5) - FERJEE In House Playoffs",
-    "market_slug": "cs2-9z-lgc-2026",
-    "event_slug": "cs2-9z-lgc-2026",
-    "wallet": "0x3dc2a9a025485d14bf1cca5c21df8790a7090f14",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,192)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1191.8789939943792,
-      "odds": 0.3437421696428852,
-      "raw_price": 0.3437421696428852,
-      "outcome": "9z",
-      "potential_pnl": 2275.484336005621,
-      "pnl_multiplier": 1.9091571774242981,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-03-30T22:07:02.903296",
-    "trade_hash": "0xa8b454c12b1bc78e207df3a93cd9fe83ab23a2001887fadd27ca6cc18dfdabff",
-    "trade_timestamp": 1774908241,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "9z",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.3437421696428852,
-      "effective_price": 0.3437421696428852,
-      "size": 3467.3633299999997,
-      "amount": 1191.8789939943792,
-      "potential_pnl": 2275.484336005621,
-      "pnl_multiplier": 1.9091571774242981,
-      "is_no": false,
-      "slug": "cs2-9z-lgc-2026",
-      "eventSlug": "cs2-9z-lgc-2026-03-30"
-    },
-    "irrationality": {
-      "irrationality_score": 45,
-      "flags": [
-        "Crisis keyword detected ('strike')",
-        "Large mispricing edge (+21.5%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.12874843392857704,
-      "market_price": 0.3437421696428852,
-      "edge": 0.21499373571430813,
-      "edge_percent": 21.499373571430812,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "9z has a strong performance history",
-          "Legacy has a poor performance history",
-          "Key players on 9z are in top form"
-        ],
-        "weakest_link": "Legacy's ability to perform under pressure"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team dynamics and synergy",
-        "recent match performance trends"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 45,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.21499373571430813,
-      "edge_percent": 21.499373571430812
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 48.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 21.5,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450370+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spread: 76ers (-1.5)",
     "market_slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
     "event_slug": "nba-phi-mia-2026-03-30-spread-away-1pt5",
@@ -30532,5 +30143,316 @@
     "amount": 19998.999995,
     "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by an average margin of 20.4 points.\nIn their most recent game on May 9, 2026, the Thunder defeated the Lakers 131-108.  Over the past five games, the Thunder have outscored the Lakers by an average of 20.4 points. Additionally, the Thunder have a strong home record of 34-7 this season. (espn.",
     "ai_verdict": "COPY"
+  },
+  {
+    "market": "Confirmed case of Hantavirus in US by May 15?",
+    "market_slug": "confirmed-case-of-hantavirus-in-us-by-may-15",
+    "event_slug": "confirmed-case-of-hantavirus-in-us-by-may-15",
+    "wallet": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
+    "analysis": {
+      "score": 90,
+      "flags": [
+        "Large bet ($1,780)",
+        "Pre-event latency: 4038m",
+        "Top trader #50 ($1,945,474 profit)"
+      ],
+      "amount": 1780.4199999999998,
+      "odds": 0.6995756385068762,
+      "raw_price": 0.6995756385068762,
+      "outcome": "Yes",
+      "potential_pnl": 764.5800000000002,
+      "pnl_multiplier": 0.4294379977758058,
+      "wallet_age_days": 849,
+      "total_activities": 100
+    },
+    "timestamp": "2026-05-12T04:49:33.593830",
+    "trade_hash": "0x1f0591682f210a2e8dc73eeba8a3bfb2b8957629e4e8069991879dbf06ac5a03",
+    "trade_timestamp": 1778560950,
+    "latency": {
+      "latency_seconds": 242250.0,
+      "latency_minutes": 4037.5,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-12T04:42:30+00:00",
+      "event_time": "2026-05-15T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": {
+      "rank": 50,
+      "address": "0x44c1dfe43260c94ed4f1d00de2e1f80fb113ebc1",
+      "username": "aenews2",
+      "profit": 1945473.9003884806,
+      "volume": 218048471.97950307,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.6995756385068762,
+      "effective_price": 0.6995756385068762,
+      "size": 2545.0,
+      "amount": 1780.4199999999998,
+      "potential_pnl": 764.5800000000002,
+      "pnl_multiplier": 0.4294379977758058,
+      "is_no": false,
+      "conditionId": "0x4495596ef99ce27149438102ea678eaba0c46053ce37abda7140680cc84b13ad",
+      "slug": "confirmed-case-of-hantavirus-in-us-by-may-15",
+      "eventSlug": "confirmed-case-of-hantavirus-in-us-by-may-15"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+54.0%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.15991512770137523,
+      "market_price": 0.6995756385068762,
+      "edge": 0.539660510805501,
+      "edge_percent": 53.9660510805501,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Presence of Hantavirus in rodent populations",
+          "Human exposure to infected rodents",
+          "Detection and reporting of cases by health authorities"
+        ],
+        "weakest_link": "Detection and reporting of cases by health authorities"
+      },
+      "category": "other",
+      "narrative_drivers": [
+        "Increased awareness and reporting of zoonotic diseases",
+        "Seasonal factors affecting rodent populations"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 90,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 90,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.539660510805501,
+      "edge_percent": 53.9660510805501
+    },
+    "financial_analyst": {
+      "signal_quality": 50.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 53.97,
+      "signal_strength": 90.0,
+      "insider_score": 90.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Recent reports indicate confirmed hantavirus cases in the U.S. and ongoing investigations.\nAs of May 8, 2026, the World Health Organization reported six confirmed cases of hantavirus, including three deaths, linked to the MV Hondius cruise ship outbreak. (who.int) Additionally, the Hantavirus Tracker reports two confirmed cases in the U.S. since May 1, 2026, with one death. (hantatrackers.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x151ffc23ad3b66f09059357b8a968f8f13371f8c45798928822c0694186f3835",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xff12ffde498c958dc037def603dcbcc0052f09f9",
+      "side": "BUY",
+      "asset": "57412940763264379879744550530590190368873063906839354927556618677151005038270",
+      "conditionId": "0x4c7aee76714c3a69885cbf6a09c754529b255d038b9547d5cec1836906a0aecb",
+      "size": 3030.92,
+      "price": 0.66,
+      "timestamp": 1778560860,
+      "title": "Thunder vs. Lakers",
+      "slug": "nba-okc-lal-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-lal-2026-05-11",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "Aceplus1",
+      "pseudonym": "Genuine-Instructor",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x151ffc23ad3b66f09059357b8a968f8f13371f8c45798928822c0694186f3835",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Lakers",
+    "market_slug": "nba-okc-lal-2026-05-11",
+    "amount": 2000.4072,
+    "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by an average margin of 19.4 points.\nNBA Schedule\nLakers (LAL) @ Thunder (OKC) on Thursday, Apr 02, 2026 at 06:30 PM PDT. Final score: LAL 96 - OKC 139\nThunder (OKC) @ Lakers (LAL) on Tuesday, Apr 07, 2026 at 07:30 PM PDT. Final score: OKC 123 - LAL 87\nLakers (LAL) @ Thunder (OKC) on Tuesday, May 05, 2026 at 05:30 PM PDT.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcd9256499da774c805068d49fc06c8268d7bf9d856589472dfefd077aa1276c0",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6db568e61e5e3de7d87f831431b673f38ce2e279",
+      "side": "BUY",
+      "asset": "57412940763264379879744550530590190368873063906839354927556618677151005038270",
+      "conditionId": "0x4c7aee76714c3a69885cbf6a09c754529b255d038b9547d5cec1836906a0aecb",
+      "size": 6518.96,
+      "price": 0.66,
+      "timestamp": 1778560859,
+      "title": "Thunder vs. Lakers",
+      "slug": "nba-okc-lal-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-lal-2026-05-11",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcd9256499da774c805068d49fc06c8268d7bf9d856589472dfefd077aa1276c0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Lakers",
+    "market_slug": "nba-okc-lal-2026-05-11",
+    "amount": 4302.5136,
+    "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by significant margins.\nIn their most recent game on May 9, 2026, the Thunder defeated the Lakers 131-108.  Over the past five games, the Thunder have outscored the Lakers by an average of 20.4 points per game. Additionally, the Thunder have a strong home-court advantage, with a 34-7 record at home this season. (espn.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2120580dd0451f07a54bafd9a66ccd030d8660e7d3d8c321113ebe679605039f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0eb75bf6f54794a83bd26095811f30b530161f17",
+      "side": "BUY",
+      "asset": "57412940763264379879744550530590190368873063906839354927556618677151005038270",
+      "conditionId": "0x4c7aee76714c3a69885cbf6a09c754529b255d038b9547d5cec1836906a0aecb",
+      "size": 7497.64179,
+      "price": 0.6668763511306667,
+      "timestamp": 1778560859,
+      "title": "Thunder vs. Lakers",
+      "slug": "nba-okc-lal-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-lal-2026-05-11",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "theeere206",
+      "pseudonym": "Untried-Android",
+      "bio": "All glory to GOD praisethelordjesuschrist",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5838103-0c1cce52-bf28-4f42-84e3-a6b2699b89b3.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2120580dd0451f07a54bafd9a66ccd030d8660e7d3d8c321113ebe679605039f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Lakers",
+    "market_slug": "nba-okc-lal-2026-05-11",
+    "amount": 4999.999999,
+    "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning 5 of the last 6 games.\nNBA Schedule\nLakers (LAL) @ Thunder (OKC) on Thursday, Apr 02, 2026 at 06:30 PM PDT. Final score: LAL 96 - OKC 139\nThunder (OKC) @ Lakers (LAL) on Tuesday, Apr 07, 2026 at 07:30 PM PDT. Final score: OKC 123 - LAL 87\nLakers (LAL) @ Thunder (OKC) on Tuesday, May 05, 2026 at 05:30 PM PDT. Final score: LAL 90 - OKC 108\nLakers (LAL) @ Thunder (OKC) on Thursday, May 07, 2026 at 06:30 PM PDT.",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb8d1c4001b56d987c7c2dc81d7648df89adcaf69952fe50896cee2de476fa455",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12442606.045390612,
+      "volume": 289798266.5629691,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
+      "side": "BUY",
+      "asset": "9274494121671548370001303405267131266505957214166859957858351924460933667681",
+      "conditionId": "0x0b2af6d9ba7ba25fd0d089aa260234f281f2a9f6c0ee86cc94c0012d4fa20919",
+      "size": 2410.227266,
+      "price": 0.8799999999668081,
+      "timestamp": 1778561158,
+      "title": "San Francisco Giants vs. Los Angeles Dodgers",
+      "slug": "mlb-sf-lad-2026-05-11",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-sf-lad-2026-05-11",
+      "outcome": "San Francisco Giants",
+      "outcomeIndex": 0,
+      "name": "NiFengFanPan",
+      "pseudonym": "Orderly-Venture",
+      "bio": "Wen Zhong Qiu Sheng",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3358711-e85e8a4d-0015-4638-8326-28b28b4859ed.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb8d1c4001b56d987c7c2dc81d7648df89adcaf69952fe50896cee2de476fa455",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "San Francisco Giants vs. Los Angeles Dodgers",
+    "market_slug": "mlb-sf-lad-2026-05-11",
+    "amount": 2120.999994,
+    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and the Giants' current form do not favor them.\nIn their last five games against the Dodgers, the Giants have a 2-3 record, batting .171 as a team. (statmuse.com) The Dodgers have won 13 of the last 20 encounters. (as.com) Additionally, the Giants are currently 9-13, placing them last in the NL West division. (as.com) However, the trader may have access to insider information or sharp analysis not reflected in the available data.",
+    "ai_verdict": "SKIP"
   }
 ]
