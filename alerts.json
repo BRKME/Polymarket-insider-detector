@@ -1,224 +1,5 @@
 [
   {
-    "market": "Spread: 76ers (-2.5)",
-    "market_slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
-    "event_slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
-    "wallet": "0x0daa0d3fd576c5b6bbbef56167ae8ae7eadac9da",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,981)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 1981.053956201797,
-      "odds": 0.5199999999374749,
-      "raw_price": 0.5199999999374749,
-      "outcome": "Heat",
-      "potential_pnl": 1828.6651907982032,
-      "pnl_multiplier": 0.9230769233081549,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-03-30T22:52:40.316927",
-    "trade_hash": "0x0b73363e89d54577c3ee64a17f2dc2424d33e044eafeaa0a18d960c8d70c7b97",
-    "trade_timestamp": 1774911031,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Heat",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.5199999999374749,
-      "effective_price": 0.5199999999374749,
-      "size": 3809.7191470000002,
-      "amount": 1981.053956201797,
-      "potential_pnl": 1828.6651907982032,
-      "pnl_multiplier": 0.9230769233081549,
-      "is_no": false,
-      "slug": "nba-phi-mia-2026-03-30-spread-away-2pt5",
-      "eventSlug": "nba-phi-mia-2026-03-30"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+27.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24399999998749497,
-      "market_price": 0.5199999999374749,
-      "edge": 0.2759999999499799,
-      "edge_percent": 27.599999994997994,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "76ers maintain key player health",
-          "76ers perform well in recent games",
-          "opposing team struggles with injuries"
-        ],
-        "weakest_link": "opposing team struggles with injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance trends",
-        "player health updates"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2759999999499799,
-      "edge_percent": 27.599999994997994
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 27.6,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450388+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xa72e910c6943c0bbcf5a572269580000d18c30cf61dca1fa72fbfe00ebbccce4",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 11,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5bac37ae4b985011e34862ec14c3ae72ebbf8769",
-      "side": "BUY",
-      "asset": "12788726080058661594808252973556519084186112914380703737448250849988276926222",
-      "conditionId": "0x80e9c8ac70e30b71e4e926278af11366d47d910f8c9ca89f6f9b20e8643523c7",
-      "size": 9559.884624,
-      "price": 0.25999999993344,
-      "timestamp": 1774911481,
-      "title": "US Men's Clay Court Championships: Alex Bolt vs Yibing Wu",
-      "slug": "atp-bolt-wu-2026-03-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-bolt-wu-2026-03-30",
-      "outcome": "Alex Bolt",
-      "outcomeIndex": 0,
-      "name": "0xBumblebee",
-      "pseudonym": "Pungent-Vulture",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4187284-efa38349-4f1f-423b-b045-21db10b3e9ae.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa72e910c6943c0bbcf5a572269580000d18c30cf61dca1fa72fbfe00ebbccce4",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US Men's Clay Court Championships: Alex Bolt vs Yibing Wu",
-    "market_slug": "atp-bolt-wu-2026-03-30",
-    "amount": 2485.570001603694,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450397+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xd9514e098a20fdf7f9ef98af8a6a2fbaf12b59f15ed4450879d17ad623fb3feb",
-    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-    "trader": {
-      "rank": 19,
-      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-      "username": "beachboy4",
-      "profit": 4141852.968866816,
-      "volume": 199137316.59853497,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f",
-      "side": "BUY",
-      "asset": "32832907394454432307120525920312348331425301367048726077404174311648945918531",
-      "conditionId": "0x92abe08d0f02ea17334984d2c8dfd6173003cebbd52d4ce5132eb2a266f0792e",
-      "size": 9730.421577,
-      "price": 0.50999999998266,
-      "timestamp": 1774913581,
-      "title": "Spread: Timberwolves (-8.5)",
-      "slug": "nba-min-dal-2026-03-30-spread-away-8pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-min-dal-2026-03-30",
-      "outcome": "Timberwolves",
-      "outcomeIndex": 0,
-      "name": "0x8a6C6811e8937F9E8aFc1b9249FA540262c30b3f-1771776258725",
-      "pseudonym": "Rare-Dishwasher",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd9514e098a20fdf7f9ef98af8a6a2fbaf12b59f15ed4450879d17ad623fb3feb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Timberwolves (-8.5)",
-    "market_slug": "nba-min-dal-2026-03-30",
-    "amount": 4962.515004101274,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450406+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-30 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x7874e3f146b4ea0e3f6ddc6253be4f69fe647dd00ee3bfdfd5f7da29984a65e1",
     "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
@@ -30465,5 +30246,271 @@
     "amount": 1290.0,
     "ai_context": "\u274c SKIP \u2014 Invictus Gaming has a 33% win rate over the past 30 days and a 33% win rate in their last 10 matches against Bilibili Gaming.\nIn their last 10 encounters, Bilibili Gaming won 8 times, while Invictus Gaming won 2 times. (tips.gg)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the current statistics, it is advisable to SKIP this bet.",
     "ai_verdict": "SKIP"
+  },
+  {
+    "market": "Internazionali BNL d'Italia: Andrey Rublev vs Nikoloz Basilashvili",
+    "market_slug": "atp-rublev-basilas-2026",
+    "event_slug": "atp-rublev-basilas-2026",
+    "wallet": "0xc117384d954d927fb328f2e166c621ed5d11de2f",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($2,000)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1999.999999,
+      "odds": 0.60999999999085,
+      "raw_price": 0.60999999999085,
+      "outcome": "Andrey Rublev",
+      "potential_pnl": 1278.688524,
+      "pnl_multiplier": 0.6393442623196721,
+      "wallet_age_days": 1,
+      "total_activities": 2
+    },
+    "timestamp": "2026-05-12T16:57:19.650157",
+    "trade_hash": "0xe66b7a0389d77cee65b8ad6ee9d1881bdf84464c9c578ee174b38f48f11ce12b",
+    "trade_timestamp": 1778604581,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Andrey Rublev",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.60999999999085,
+      "effective_price": 0.60999999999085,
+      "size": 3278.688523,
+      "amount": 1999.999999,
+      "potential_pnl": 1278.688524,
+      "pnl_multiplier": 0.6393442623196721,
+      "is_no": false,
+      "conditionId": "0x5bac908f07bc554c9d75cc7d9a7ee6dccc96e5a8b7b59308ec9063766380407e",
+      "slug": "atp-rublev-basilas-2026",
+      "eventSlug": "atp-rublev-basilas-2026-05-12"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+34.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.26199999999817,
+      "market_price": 0.60999999999085,
+      "edge": 0.34799999999268,
+      "edge_percent": 34.799999999268,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Rublev maintains high performance",
+          "Basilashvili struggles with consistency",
+          "External factors like injuries or weather affect performance"
+        ],
+        "weakest_link": "Basilashvili struggles with consistency"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Rublev's recent form and head-to-head record",
+        "Basilashvili's potential for an upset"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.34799999999268,
+      "edge_percent": 34.799999999268
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 34.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Andrey Rublev has a favorable head-to-head record against Nikoloz Basilashvili and has been in strong form recently.\nRublev leads their head-to-head 4-3, with their most recent encounter in January 2025, where Rublev won 5-2. (tennisratio.com) In the last 52 weeks, Rublev has a 39-23 win-loss record, while Basilashvili has a 41-31 record. (tennisratio.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "market": "Internazionali BNL d'Italia: Andrey Rublev vs Nikoloz Basilashvili",
+    "market_slug": "atp-rublev-basilas-2026",
+    "event_slug": "atp-rublev-basilas-2026",
+    "wallet": "0xbf128743ef92eedf8a443abc77956ba777d5afb8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,000)",
+        "Low activity (2 txns)"
+      ],
+      "amount": 1000.0,
+      "odds": 0.6038465022191359,
+      "raw_price": 0.6038465022191359,
+      "outcome": "Andrey Rublev",
+      "potential_pnl": 656.05,
+      "pnl_multiplier": 0.6560499999999999,
+      "wallet_age_days": 0,
+      "total_activities": 2
+    },
+    "timestamp": "2026-05-12T16:57:22.868647",
+    "trade_hash": "0x97c8dbabfa915f3af48466f8856be2232897f1687d4052227a4abd55f4d41904",
+    "trade_timestamp": 1778604581,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Andrey Rublev",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.6038465022191359,
+      "effective_price": 0.6038465022191359,
+      "size": 1656.05,
+      "amount": 1000.0,
+      "potential_pnl": 656.05,
+      "pnl_multiplier": 0.6560499999999999,
+      "is_no": false,
+      "conditionId": "0x5bac908f07bc554c9d75cc7d9a7ee6dccc96e5a8b7b59308ec9063766380407e",
+      "slug": "atp-rublev-basilas-2026",
+      "eventSlug": "atp-rublev-basilas-2026-05-12"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+34.3%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2607693004438272,
+      "market_price": 0.6038465022191359,
+      "edge": 0.34307720177530876,
+      "edge_percent": 34.307720177530875,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Rublev maintains high performance throughout the match",
+          "Basilashvili struggles with consistency",
+          "External factors (e.g., weather, crowd support) favor Rublev"
+        ],
+        "weakest_link": "Basilashvili's ability to perform under pressure"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Rublev's recent form and head-to-head record",
+        "Basilashvili's past performance in high-stakes matches"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.34307720177530876,
+      "edge_percent": 34.307720177530875
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 34.31,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "\u2705 COPY \u2014 Andrey Rublev has a favorable head-to-head record against Nikoloz Basilashvili and has been in strong form recently.\nRublev leads their head-to-head 4-3, with their most recent encounter in January 2025, where Rublev won 5-2. (tennisratio.com) In the last 52 weeks, Rublev has a 39-23 record, while Basilashvili has a 41-31 record. (tennisratio.com)",
+    "ai_verdict": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x95301d9f9a5c630467646276237df291085783c133825115250e70efbfca7623",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd4dafa21aad27e8514b5a5dad9278c3ece243175",
+      "side": "BUY",
+      "asset": "77322359487680791001855534385112528711792526235598044866856534043241451876434",
+      "conditionId": "0xe9e3d24aaeb9a3cadc276f2696b916d8c9b47b6737c0112d9699899880acda1d",
+      "size": 20885.62,
+      "price": 0.21,
+      "timestamp": 1778604995,
+      "title": "Timberwolves vs. Spurs",
+      "slug": "nba-min-sas-2026-05-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-min-sas-2026-05-12",
+      "outcome": "Timberwolves",
+      "outcomeIndex": 0,
+      "name": "DonChon",
+      "pseudonym": "Trifling-Lot",
+      "bio": "Neither here nor there",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4588618-9f9f04d9-b867-4d5f-b238-9c52f6c071f0.jpeg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x95301d9f9a5c630467646276237df291085783c133825115250e70efbfca7623",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Timberwolves vs. Spurs",
+    "market_slug": "nba-min-sas-2026-05-12",
+    "amount": 4385.9802,
+    "ai_context": "\u2705 COPY \u2014 Recent matchups and head-to-head record favor the Timberwolves.\nIn the last five games, the Timberwolves have won three, including a 104-102 victory on May 4, 2026. Historically, the Timberwolves lead the series 19-13 across 32 meetings. (trendlinelabs.ai) However, the Timberwolves are currently without star player Anthony Edwards due to a knee injury. (axios.com)\nGiven the Timberwolves' recent form and favorable head-to-head record, the bet on the Timberwolves is supported.",
+    "ai_verdict": "COPY"
   }
 ]
