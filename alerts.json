@@ -29021,7 +29021,14 @@
     },
     "ai_context": "\u2705 COPY \u2014 T1 Academy has a strong recent record and a favorable head-to-head history against Gen.G Global Academy.\nT1 Academy has won 5 consecutive matches against Gen.G Global Academy from March to August 2025. (bo3.gg) In their most recent match on April 15, 2026, T1 Academy lost 0-3 to Gen.G Global Academy. (vlr.gg) However, T1 Academy's earlier victories and overall performance suggest they have the potential to cover the -1.5 handicap.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-11T08:59:28.012491+00:00"
+    "resolution_last_check": "2026-05-11T08:59:28.012491+00:00",
+    "resolution": {
+      "outcome": "T1 Academy",
+      "checked_at": "2026-05-12T08:27:09.282334+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1333.6
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29756,7 +29763,14 @@
     "market_slug": "wta-gauff-jovic-2026-05-11",
     "amount": 1044.2006999999999,
     "ai_context": "\u2705 COPY \u2014 Coco Gauff has a strong recent record and is a top-ranked player.\nGauff has a 7-3 record in her last 10 matches and holds a 75.4% win rate over the past 52 weeks. (tennisratio.com) Iva Jovic, on the other hand, has a 5-5 record in her last 10 matches and a 68.1% win rate over the past 52 weeks. (tennisratio.com) Additionally, Gauff has a higher career singles ranking at No. 4, compared to Jovic's No. 17. (tennisstats.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-12T08:27:10.604547+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1044.2
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29802,7 +29816,8 @@
     "market_slug": "lol-tes-nip-2026-05-12",
     "amount": 2788.099999,
     "ai_context": "\u2705 COPY \u2014 Top Esports has a dominant head-to-head record against Ninjas in Pyjamas.\nIn their last five encounters, Top Esports secured four victories, including a 3-1 win in the LPL Split 3 2025 Playoffs. (egamersworld.com)\nTop Esports has shown strong recent form, winning three of their last five matches, including victories over JD Gaming and Team WE. (egamersworld.com)\nNinjas in Pyjamas have struggled recently, losing four of their last five matches, including a 3-0 defeat to JD Gaming.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-12T08:27:11.581101+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29848,7 +29863,14 @@
     "market_slug": "nba-det-cle-2026-05-11",
     "amount": 10208.349999,
     "ai_context": "\u2705 COPY \u2014 Recent matchups between the Pistons and Cavaliers have consistently exceeded the 212.5 total points line.\nIn their last three games, the total points were 224, 241, and 222, all surpassing the 212.5 line. (statmuse.com)\nAdditionally, the Pistons have been scoring over 100 points in recent games, indicating a high-scoring trend. (statmuse.com)\nGiven these trends, the trader's bet on the Under appears to be at odds with recent performance data.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-12T08:27:13.007151+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29894,7 +29916,14 @@
     "market_slug": "epl-tot-lee-2026-05-11",
     "amount": 2099.999999,
     "ai_context": "\u274c SKIP \u2014 Tottenham's recent form and current league position raise concerns about their ability to secure a win.\nTottenham Hotspur is currently 17th in the Premier League, narrowly avoiding relegation with just three games to go. They have suffered 16 defeats, 10 draws, and only 9 victories this season, including a recent 1-0 loss to Aston Villa on May 3, 2026. (theguardian.com) Additionally, they have been eliminated from the Champions League by Atl\u00e9tico de Madrid. (fourfourtwo.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-12T08:27:14.327824+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1718.18
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29940,7 +29969,14 @@
     "market_slug": "mlb-nyy-bal-2026-05-11",
     "amount": 1161.1599999999999,
     "ai_context": "\u2705 COPY \u2014 Yankees have dominated recent matchups against the Orioles, winning 9 of the last 10 games.\nIn their most recent series from May 1 to May 4, 2026, the Yankees swept the Orioles with scores of 7-2, 9-4, 11-3, and 12-1. \nThe Yankees have a strong track record against the Orioles, winning 9 of their last 10 encounters. (statmuse.com)\nGiven the Yankees' recent dominance over the Orioles, the trader's bet on the Yankees is well-supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Baltimore Orioles",
+      "checked_at": "2026-05-12T08:27:15.659740+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1161.16
+    }
   },
   {
     "market": "Spread: Cavaliers (-3.5)",
@@ -30050,7 +30086,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Pistons have won 2 of the last 3 matchups against the Cavaliers, including a recent 107-97 victory.\nNBA Schedule\nCavaliers (CLE) @ Pistons (DET) on Tuesday, May 05, 2026 at 04:00 PM PDT. Final score: CLE 101 - DET 111\nCavaliers (CLE) @ Pistons (DET) on Thursday, May 07, 2026 at 04:00 PM PDT. Final score: CLE 97 - DET 107\nPistons (DET) @ Cavaliers (CLE) on Saturday, May 09, 2026 at 12:00 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-12T08:27:17.795541+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1785.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30096,7 +30139,8 @@
     "market_slug": "spacex-ipo-closing-market-cap-higher-strikes",
     "amount": 1448.91,
     "ai_context": "\u2705 COPY \u2014 Recent valuations and projections indicate SpaceX's IPO market cap will exceed $2.0 trillion.\nAs of April 2026, SpaceX is targeting an IPO valuation above $2 trillion, according to sources familiar with the matter. (business-standard.com) This valuation is supported by recent secondary market transactions placing the company at approximately $350 billion, with expectations of a 10\u201320% premium at IPO, suggesting an opening market cap between $380 billion and $430 billion.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-12T08:27:19.300263+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30142,7 +30186,14 @@
     "market_slug": "nba-okc-lal-2026-05-11",
     "amount": 19998.999995,
     "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by an average margin of 20.4 points.\nIn their most recent game on May 9, 2026, the Thunder defeated the Lakers 131-108.  Over the past five games, the Thunder have outscored the Lakers by an average of 20.4 points. Additionally, the Thunder have a strong home record of 34-7 this season. (espn.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-05-12T08:27:20.658390+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4096.18
+    }
   },
   {
     "market": "Confirmed case of Hantavirus in US by May 15?",
@@ -30269,7 +30320,8 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Recent reports indicate confirmed hantavirus cases in the U.S. and ongoing investigations.\nAs of May 8, 2026, the World Health Organization reported six confirmed cases of hantavirus, including three deaths, linked to the MV Hondius cruise ship outbreak. (who.int) Additionally, the Hantavirus Tracker reports two confirmed cases in the U.S. since May 1, 2026, with one death. (hantatrackers.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution_last_check": "2026-05-12T08:27:21.484080+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30315,7 +30367,14 @@
     "market_slug": "nba-okc-lal-2026-05-11",
     "amount": 2000.4072,
     "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by an average margin of 19.4 points.\nNBA Schedule\nLakers (LAL) @ Thunder (OKC) on Thursday, Apr 02, 2026 at 06:30 PM PDT. Final score: LAL 96 - OKC 139\nThunder (OKC) @ Lakers (LAL) on Tuesday, Apr 07, 2026 at 07:30 PM PDT. Final score: OKC 123 - LAL 87\nLakers (LAL) @ Thunder (OKC) on Tuesday, May 05, 2026 at 05:30 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-05-12T08:27:21.484119+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1030.51
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30361,7 +30420,14 @@
     "market_slug": "nba-okc-lal-2026-05-11",
     "amount": 4302.5136,
     "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning the last five games by significant margins.\nIn their most recent game on May 9, 2026, the Thunder defeated the Lakers 131-108.  Over the past five games, the Thunder have outscored the Lakers by an average of 20.4 points per game. Additionally, the Thunder have a strong home-court advantage, with a 34-7 record at home this season. (espn.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-05-12T08:27:21.484155+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2216.45
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30407,7 +30473,14 @@
     "market_slug": "nba-okc-lal-2026-05-11",
     "amount": 4999.999999,
     "ai_context": "\u2705 COPY \u2014 Thunder have dominated recent matchups against the Lakers, winning 5 of the last 6 games.\nNBA Schedule\nLakers (LAL) @ Thunder (OKC) on Thursday, Apr 02, 2026 at 06:30 PM PDT. Final score: LAL 96 - OKC 139\nThunder (OKC) @ Lakers (LAL) on Tuesday, Apr 07, 2026 at 07:30 PM PDT. Final score: OKC 123 - LAL 87\nLakers (LAL) @ Thunder (OKC) on Tuesday, May 05, 2026 at 05:30 PM PDT. Final score: LAL 90 - OKC 108\nLakers (LAL) @ Thunder (OKC) on Thursday, May 07, 2026 at 06:30 PM PDT.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Thunder",
+      "checked_at": "2026-05-12T08:27:21.484173+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2497.64
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30453,6 +30526,13 @@
     "market_slug": "mlb-sf-lad-2026-05-11",
     "amount": 2120.999994,
     "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and the Giants' current form do not favor them.\nIn their last five games against the Dodgers, the Giants have a 2-3 record, batting .171 as a team. (statmuse.com) The Dodgers have won 13 of the last 20 encounters. (as.com) Additionally, the Giants are currently 9-13, placing them last in the NL West division. (as.com) However, the trader may have access to insider information or sharp analysis not reflected in the available data.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "San Francisco Giants",
+      "checked_at": "2026-05-12T08:27:22.974389+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 289.23
+    }
   }
 ]
