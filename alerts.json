@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xfa29fc9fd10c9d145dbdcf4f7554737858995bf0dabd45c9260b1bdaac18464c",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 12,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5589555.5041189,
-      "volume": 609308802.233076,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd6a3f0ec6c4a8ad680d580610c82ca57ff139489",
-      "side": "BUY",
-      "asset": "111199352781941517928446270722541788533347630079537022109358230447620429784331",
-      "conditionId": "0xa1f669d4b43ef25decb44e6c56b726ccfe9fc78c3b9ae0c8399f032e522b9d84",
-      "size": 3036.423726,
-      "price": 0.5899999998880262,
-      "timestamp": 1774988015,
-      "title": "Will Japan win on 2026-03-31?",
-      "slug": "fif-eng-jpn-2026-03-31-jpn",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fif.png",
-      "eventSlug": "fif-eng-jpn-2026-03-31",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "knedloveprovelo",
-      "pseudonym": "Weighty-Rifle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xfa29fc9fd10c9d145dbdcf4f7554737858995bf0dabd45c9260b1bdaac18464c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Japan win on 2026-03-31?",
-    "market_slug": "fif-eng-jpn-2026-03-31",
-    "amount": 1791.489998,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450431+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-31 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x99a097745a75fcf8cde34ca84c4f218aa0550178a0f140c5a07084a760e76451",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 12,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5589555.5041189,
-      "volume": 609308802.233076,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x12d58a3a1ca80afac28ea43e67e5c65a19c48107",
-      "side": "SELL",
-      "asset": "38022285143811019504150836638332107856890739154750615708150828571895447353900",
-      "conditionId": "0x11a18ba621697cb743407ee6bc22dee0b8ead2fa4b05e3eb0f6655800755df04",
-      "size": 4463.3,
-      "price": 0.5180970582304573,
-      "timestamp": 1774988015,
-      "title": "Sweden vs. Poland: O/U 4.5",
-      "slug": "uef-swe-pol-2026-03-31-total-4pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uef.png",
-      "eventSlug": "uef-swe-pol-2026-03-31-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "socfan",
-      "pseudonym": "Flustered-Inversion",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x99a097745a75fcf8cde34ca84c4f218aa0550178a0f140c5a07084a760e76451",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Sweden vs. Poland: O/U 4.5",
-    "market_slug": "uef-swe-pol-2026-03-31-more-markets",
-    "amount": 2312.4226,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450440+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-31 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbb1d3928ed3cd39e79bf66fdd5c3eb392fb43f6b944abdf58c32483330b81ae6",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -30504,6 +30400,100 @@
     "amount": 3578.322,
     "ai_context": "[Grok] \u274c SKIP \u2014 The Los Angeles Angels have a poor recent record and a losing head-to-head against the Cleveland Guardians, making this underdog bet unlikely to succeed.\nThe Angels are 3-7 in their last 10 games, including losses in their most recent series, and they've lost 4 of their last 5 head-to-head matchups against the Guardians, with the Guardians outscoring them in those games. (espn.",
     "ai_verdict": "SKIP",
+    "ai_model": "Grok"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf44f288afad5432d8306c91bde850087cb213690113daf951ff4df3ebc87c61d",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "96916356246542344447385329248090870759846519742384159224454120913104375462657",
+      "conditionId": "0x5376e032a8f5a389b55aeafb39b6985bfb323f8392e304bc48b1b01e9cd39850",
+      "size": 10063.12,
+      "price": 0.62,
+      "timestamp": 1778625673,
+      "title": "Cavaliers vs. Pistons",
+      "slug": "nba-cle-det-2026-05-13",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-det-2026-05-13",
+      "outcome": "Pistons",
+      "outcomeIndex": 1,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf44f288afad5432d8306c91bde850087cb213690113daf951ff4df3ebc87c61d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cavaliers vs. Pistons",
+    "market_slug": "nba-cle-det-2026-05-13",
+    "amount": 6239.134400000001,
+    "ai_context": "[Grok] \u274c SKIP \u2014 The Pistons have a poor recent record and have lost their last three games against the Cavaliers, making this bet hard to support.\nThe Pistons are 2-8 in their last 10 games, including losses in their final five of the season, and they ended with a 14-68 overall record for 2023-2024. In head-to-head matchups, the Cavaliers won all three of their most recent games against the Pistons, including a 109-99 victory on April 12, 2024 (espn.com).",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3b613c7ec29ad7f53bd4fe87d0fcbddcc9cd0d7fb4dd76120372b2eb605c120a",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 19,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 4062257.1952940463,
+      "volume": 218023719.25925598,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xb092d86834660348f824cf46438e0e1d22f108fd",
+      "side": "SELL",
+      "asset": "53899423463512170033503642144626407248124812902837319222402201671563051871900",
+      "conditionId": "0xf305528c5dbf4f080f8d96ec4fb2047c89aec3923bcce237eb4238e9dd588a09",
+      "size": 2173.47,
+      "price": 0.851010798400714,
+      "timestamp": 1778626274,
+      "title": "Jerome Powell out as Fed Chair by May 16, 2026?",
+      "slug": "jerome-powell-out-as-fed-chair-by-may-16-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-remove-jerome-powell-njJA1TCPwhmt.jpg",
+      "eventSlug": "jerome-powell-out-as-fed-chair-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "lightup001",
+      "pseudonym": "Dishonest-Goddess",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3b613c7ec29ad7f53bd4fe87d0fcbddcc9cd0d7fb4dd76120372b2eb605c120a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Jerome Powell out as Fed Chair by May 16, 2026?",
+    "market_slug": "jerome-powell-out-as-fed-chair-by",
+    "amount": 1849.6464399999998,
+    "ai_context": "[Grok] \u2705 LEAN COPY \u2014 The trader may have insider knowledge of potential political shifts or economic events that could lead to Powell's early exit.\nRecent reports indicate Powell has not announced any plans to resign and is actively fulfilling his duties, with his last public statement in October 2023 reaffirming commitment to his term (reuters.com). However, the upcoming 2024 US election could introduce uncertainty, as a change in administration might affect his position.",
+    "ai_verdict": "LEAN_COPY",
     "ai_model": "Grok"
   }
 ]
