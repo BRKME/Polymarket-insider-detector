@@ -1,57 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x1c6eb3692cd7238118b70a6040dc9fe28b5a7681c76edcf18f79de95ca6db921",
-    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-    "trader": {
-      "rank": 19,
-      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
-      "username": "beachboy4",
-      "profit": 4141853.1506849956,
-      "volume": 199137316.59853497,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-      "side": "BUY",
-      "asset": "44149007410374101286260953227333745102128417138356632089802983317837574022801",
-      "conditionId": "0x80059ff4e694f878c0498f6f3a067ee7ca62dc2fc46251a4287b58355ce47bc5",
-      "size": 4227.71,
-      "price": 0.37,
-      "timestamp": 1774979311,
-      "title": "US x Iran ceasefire by April 30?",
-      "slug": "us-x-iran-ceasefire-by-april-30-194-679-389",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
-      "eventSlug": "us-x-iran-ceasefire-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "MisTKy",
-      "pseudonym": "Grounded-Depression",
-      "bio": "Follow on X for more",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1c6eb3692cd7238118b70a6040dc9fe28b5a7681c76edcf18f79de95ca6db921",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran ceasefire by April 30?",
-    "market_slug": "us-x-iran-ceasefire-by",
-    "amount": 1564.2527,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:36.175585+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1564.25
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xfa29fc9fd10c9d145dbdcf4f7554737858995bf0dabd45c9260b1bdaac18464c",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -30509,5 +30458,52 @@
     "ai_context": "[GPT] \u274c SKIP \u2014 Vitality has a flawless 3-0 head-to-head record against BetBoom Team.\nIn their most recent encounter, Vitality dominated with a 2-0 sweep, including a 13-7 victory on Mirage and a 13-10 win on Dust2. (polymarket.com)\nWhile BetBoom Team has shown resilience, their recent roster changes, including the return of Alexander \"zorte\" Zagodyrenko, may impact team cohesion. (hawk.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4d7ca5306dd9a9465df6bb923b02b3a390027ee295efd2520f9e76e40b5dc7f1",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 6,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 7908808.864834166,
+      "volume": 758958955.587925,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7a8885c8dc075f0578b648f29fa233408a7d41cc",
+      "side": "BUY",
+      "asset": "63515547575073894921156020232091780472114679597399658300601314130752456054232",
+      "conditionId": "0xe05bf193a3afd569fca1986d9ca421d74be77113f9128724171a468a53db616f",
+      "size": 8132.55,
+      "price": 0.44,
+      "timestamp": 1778622366,
+      "title": "Los Angeles Angels vs. Cleveland Guardians",
+      "slug": "mlb-laa-cle-2026-05-12",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-laa-cle-2026-05-12",
+      "outcome": "Los Angeles Angels",
+      "outcomeIndex": 0,
+      "name": "stackingsats",
+      "pseudonym": "Whirlwind-Pie",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4d7ca5306dd9a9465df6bb923b02b3a390027ee295efd2520f9e76e40b5dc7f1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Los Angeles Angels vs. Cleveland Guardians",
+    "market_slug": "mlb-laa-cle-2026-05-12",
+    "amount": 3578.322,
+    "ai_context": "[Grok] \u274c SKIP \u2014 The Los Angeles Angels have a poor recent record and a losing head-to-head against the Cleveland Guardians, making this underdog bet unlikely to succeed.\nThe Angels are 3-7 in their last 10 games, including losses in their most recent series, and they've lost 4 of their last 5 head-to-head matchups against the Guardians, with the Guardians outscoring them in those games. (espn.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok"
   }
 ]
