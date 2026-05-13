@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x3c074c9ca62afa02374a021f70cff05db1666367649ee3ba94e9a00f30cad966",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 10935699.447613182,
-      "volume": 268213276.620331,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcfd9567ca07b8fd931cb7f48637963702e61648d",
-      "side": "BUY",
-      "asset": "73699110394980052788001938579708550329317186422700595719894711946843781206501",
-      "conditionId": "0x241e3900bcdba2ba58252a4fcd4b92c5b80606249aa031751bef35b23c44e610",
-      "size": 9070,
-      "price": 0.42,
-      "timestamp": 1774998219,
-      "title": "Senators vs. Panthers: O/U 6.5",
-      "slug": "nhl-ott-fla-2026-03-31-total-6pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-ott-fla-2026-03-31",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "Tinmannn",
-      "pseudonym": "Ethical-Cupola",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3c074c9ca62afa02374a021f70cff05db1666367649ee3ba94e9a00f30cad966",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Senators vs. Panthers: O/U 6.5",
-    "market_slug": "nhl-ott-fla-2026-03-31",
-    "amount": 3809.3999999999996,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450464+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-31 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x71ff526edac1dadb7cb8e25058624e7b1e5ef36fc1b0f04dba34097ef612f452",
     "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
     "trader": {
@@ -30338,6 +30286,53 @@
     "market_slug": "nba-min-sas-2026-05-12",
     "amount": 11440.0,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Timberwolves and Spurs have consistently exceeded the 217.5 point total.\nIn their last three games, the combined scores were 265, 228, and 227 points, all surpassing the 217.5 line. (landofbasketball.com) Additionally, the most recent game on May 10, 2026, ended with a total of 223 points. (statmuse.com) Both teams have been scoring efficiently, with the Timberwolves averaging 119.7 points and the Spurs 108.7 points in their last three encounters.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x37c90f1de9f3dff36e2fe9714fdf9a25c9998622cddb0fa90f531e5977ec670d",
+    "wallet": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+    "trader": {
+      "rank": 20,
+      "address": "0xc2e7800b5af46e6093872b177b7a5e7f0563be51",
+      "username": "beachboy4",
+      "profit": 4062381.520925693,
+      "volume": 218023719.259256,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf4cd584ea9ad01b30c2be5d2b9dbffc9ba890516",
+      "side": "BUY",
+      "asset": "789000675245628036756508037485093505862267515816554381526432806579177320992",
+      "conditionId": "0x99c1eb138b94580c1e71c4f636646d86ae855d17f302261f7306e2395a471df2",
+      "size": 1300,
+      "price": 0.802,
+      "timestamp": 1778659594,
+      "title": "Will Elon Musk post 80-99 tweets from May 8 to May 15, 2026?",
+      "slug": "elon-musk-of-tweets-may-8-may-15-80-99",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+      "eventSlug": "elon-musk-of-tweets-may-8-may-15",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "BrunoFernandez8",
+      "pseudonym": "Yellowish-Clearance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x37c90f1de9f3dff36e2fe9714fdf9a25c9998622cddb0fa90f531e5977ec670d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Elon Musk post 80-99 tweets from May 8 to May 15, 2026?",
+    "market_slug": "elon-musk-of-tweets-may-8-may-15",
+    "amount": 1042.6000000000001,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Elon Musk's recent behavior and established tweet cadence suggest he will post more than 99 tweets between May 8 and May 15, 2026.\nOn May 8, 2026, Musk posted a provocative tirade in French against judges investigating his platform, X, indicating active engagement. (lemonde.fr) Historically, Musk's weekly tweet volume has consistently exceeded 100, with periods of heightened activity surpassing 200 tweets per week. (predictop.",
     "ai_verdict": "COPY",
     "ai_model": "GPT"
   }
