@@ -309,11 +309,12 @@ class TestSmartFilter:
         market = {"question": "Will Trump win 2028?"}
         assert is_trade_suspicious(trade, market) == False
 
-    def test_coin_flip_blocked(self):
+    def test_coin_flip_passes(self):
+        """Coin-flip (50%) trades now pass — insiders bet when market is still 50/50."""
         from collector import is_trade_suspicious
         trade = {"size": 10000, "price": 0.50}  # 50/50
         market = {"question": "Will it rain tomorrow?"}
-        assert is_trade_suspicious(trade, market) == False
+        assert is_trade_suspicious(trade, market) == True
 
     def test_valid_trade_passes(self):
         from collector import is_trade_suspicious
