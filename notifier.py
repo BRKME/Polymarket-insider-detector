@@ -648,7 +648,7 @@ def format_top_trader_alert(alert: Dict) -> str:
                 break
         
         # Split into first sentence (conclusion) + rest (reasoning)
-        sentences = clean.split('.')
+        sentences = re.split(r'\.(?!\d)', clean)  # Don't split on decimal numbers (7.5)
         first_sentence = sentences[0].strip()
         if first_sentence and not first_sentence.endswith('.'):
             first_sentence += '.'
@@ -734,7 +734,10 @@ def format_top_trader_alert(alert: Dict) -> str:
     if wr_text:
         header += f" · {wr_text}"
     
-    trader_line = f"{username} #{rank} · ${amount:,.0f}"
+    if username.startswith("Trader #"):
+        trader_line = f"{username} · ${amount:,.0f}"
+    else:
+        trader_line = f"{username} #{rank} · ${amount:,.0f}"
     if trader_wr:
         trader_line += f" · {trader_wr}"
     
@@ -869,7 +872,7 @@ def format_institutional_alert(alert):
             if clean.startswith(prefix):
                 clean = clean[len(prefix):].strip()
                 break
-        sentences = clean.split('.')
+        sentences = re.split(r'\.(?!\d)', clean)  # Don't split on decimal numbers (7.5)
         first_sentence = sentences[0].strip()
         if first_sentence and not first_sentence.endswith('.'):
             first_sentence += '.'

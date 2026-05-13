@@ -18,7 +18,7 @@ STATS_PATH = Path("resolution_stats.json")
 MIN_SAMPLE = 5
 
 # Below this WR, signal is contrarian (opposite bet wins)
-CONTRARIAN_THRESHOLD = 0.40
+CONTRARIAN_THRESHOLD = 0.47  # Below 47% = losing money after fees
 
 
 def get_signal_stats() -> Dict[str, Dict]:
