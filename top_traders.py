@@ -228,7 +228,8 @@ def fetch_trader_recent_trades(address: str, minutes_back: int = 60) -> List[Dic
             fetch_trader_recent_trades._debug_shown = True
             print(f"[DEBUG] API returned {len(trades)} trades for first trader")
             if trades:
-                print(f"[DEBUG] First trade keys: {list(trades[0].keys())[:10]}")
+                print(f"[DEBUG] First trade keys: {list(trades[0].keys())}")
+                print(f"[DEBUG] First trade outcome: {trades[0].get('outcome', 'NOT_PRESENT')}, side: {trades[0].get('side', '?')}")
         
         cutoff = datetime.now(timezone.utc) - timedelta(minutes=minutes_back)
         cutoff_ts = cutoff.timestamp()

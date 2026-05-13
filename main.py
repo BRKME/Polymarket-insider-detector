@@ -293,16 +293,31 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     continue
                 
                 # ══════════════════════════════════════════
-                # TOP TRADER API: price = specific token price
-                # NOT YES-token price like general trades API.
-                # cost = size × price ALWAYS. No YES/NO conversion needed.
+                # Use same cost calculation as insider detector
+                # trade_economics properly handles YES/NO/Over/Under
                 # ══════════════════════════════════════════
                 price = float(trade.get('price', 0))
                 outcome = trade.get('outcome', 'Yes')
                 size = float(trade.get('size', 0))
+                outcome_lower = str(outcome).lower()
                 
-                cost = size * price
-                effective_odds = price
+                # Determine YES/NO outcome for economics
+                if outcome_lower in ('no', 'under'):
+                    econ_outcome = "No"
+                elif outcome_lower in ('yes', 'over'):
+                    econ_outcome = "Yes"
+                else:
+                    # Team name — detect from title
+                    market_name_raw = trade.get('title', '') or ''
+                    try:
+                        from notifier import _is_second_in_vs_title
+                        econ_outcome = "No" if _is_second_in_vs_title(outcome, market_name_raw) else "Yes"
+                    except:
+                        econ_outcome = "Yes"
+                
+                econ = trade_economics.calculate(size, price, econ_outcome)
+                cost = econ.cost
+                effective_odds = econ.effective_odds
                 
                 # Skip extreme odds (97%+ or 3%-) - near zero profit potential
                 if effective_odds >= 0.97 or effective_odds <= 0.03:
