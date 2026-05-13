@@ -1,1071 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x71ff526edac1dadb7cb8e25058624e7b1e5ef36fc1b0f04dba34097ef612f452",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 10935699.447613182,
-      "volume": 268213276.620331,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1d66ba6af652edd656de16ebef49fe9c70d07799",
-      "side": "BUY",
-      "asset": "48076860968282907708377646762774445117741960723888576239822628617000344114984",
-      "conditionId": "0x3215685766ee786bc4be99701dfd8c37d89fdfccde189ccc95e9ee6b4f68e113",
-      "size": 4673.05,
-      "price": 0.46,
-      "timestamp": 1774998219,
-      "title": "Suns vs. Magic",
-      "slug": "nba-phx-orl-2026-03-31",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-phx-orl-2026-03-31",
-      "outcome": "Suns",
-      "outcomeIndex": 0,
-      "name": "0x1D66BA6af652edd656DE16ebef49fe9c70D07799-1774448658353",
-      "pseudonym": "Submissive-Wallaby",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x71ff526edac1dadb7cb8e25058624e7b1e5ef36fc1b0f04dba34097ef612f452",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Suns vs. Magic",
-    "market_slug": "nba-phx-orl-2026-03-31",
-    "amount": 2149.603,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450473+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-03-31 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "US x Iran ceasefire by April 7?",
-    "market_slug": "us-x-iran-ceasefire-by-april",
-    "event_slug": "us-x-iran-ceasefire-by-april",
-    "wallet": "0x3080ab8ddb156f635ece429b902a26047adc971b",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (6.0% effective odds)",
-        "Large bet ($2,380)",
-        "Pre-event latency: 8147m"
-      ],
-      "amount": 2380.3224,
-      "odds": 0.05950806,
-      "raw_price": 0.05950806,
-      "outcome": "Yes",
-      "potential_pnl": 37619.6776,
-      "pnl_multiplier": 15.804446322061247,
-      "wallet_age_days": 15,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-01T08:19:04.492631",
-    "trade_hash": "0x06e27e0f98c4d61aec4c3783f054530ead751fce3ec14b3e5f1cddd1ebedd0bf",
-    "trade_timestamp": 1775031177,
-    "latency": {
-      "latency_seconds": 488823.0,
-      "latency_minutes": 8147.05,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-04-01T08:12:57+00:00",
-      "event_time": "2026-04-07T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "SELL",
-      "price": 0.05950806,
-      "effective_price": 0.05950806,
-      "size": 40000.0,
-      "amount": 2380.3224,
-      "potential_pnl": 37619.6776,
-      "pnl_multiplier": 15.804446322061247,
-      "is_no": false,
-      "slug": "us-x-iran-ceasefire-by-april",
-      "eventSlug": "us-x-iran-ceasefire-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Longshot (6%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.035901612,
-      "market_price": 0.05950806,
-      "edge": 0.023606448000000002,
-      "edge_percent": 2.3606448,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mutual agreement on terms of ceasefire",
-          "Reduction in hostilities from both sides",
-          "International pressure or mediation facilitating discussions"
-        ],
-        "weakest_link": "Mutual agreement on terms of ceasefire"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Escalation of conflict leading to increased casualties",
-        "Diplomatic efforts by third-party nations or organizations"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 85,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 85,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": false,
-      "edge": 0.023606448000000002,
-      "edge_percent": 2.3606448
-    },
-    "financial_analyst": {
-      "signal_quality": 33.5,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 2.36,
-      "signal_strength": 85.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:37.775965+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -2380.32
-    }
-  },
-  {
-    "market": "Counter-Strike: G2 vs Team Nemesis (BO3) - Stake Ranked Episode 1 Playoffs",
-    "market_slug": "cs2-g2-nem-2026",
-    "event_slug": "cs2-g2-nem-2026",
-    "wallet": "0x8832d4ca3b0458f2adceaa23cc9cecef87f505e7",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,900)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1900.2851410004203,
-      "odds": 0.8599999999549337,
-      "raw_price": 0.8599999999549337,
-      "outcome": "G2",
-      "potential_pnl": 309.34874399957994,
-      "pnl_multiplier": 0.16279069773535187,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-01T09:38:00.951723",
-    "trade_hash": "0x3f1877be705ab4e835cab5377914b6dc241f073a89e8a55fb8f403502790bd36",
-    "trade_timestamp": 1775036095,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "G2",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.8599999999549337,
-      "effective_price": 0.8599999999549337,
-      "size": 2209.633885,
-      "amount": 1900.2851410004203,
-      "potential_pnl": 309.34874399957994,
-      "pnl_multiplier": 0.16279069773535187,
-      "is_no": false,
-      "slug": "cs2-g2-nem-2026",
-      "eventSlug": "cs2-g2-nem-2026-04-01"
-    },
-    "irrationality": {
-      "irrationality_score": 45,
-      "flags": [
-        "Crisis keyword detected ('strike')",
-        "Large mispricing edge (+54.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.3119999999909867,
-      "market_price": 0.8599999999549337,
-      "edge": 0.547999999963947,
-      "edge_percent": 54.799999996394696,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "G2 maintains current form",
-          "Team Nemesis performs above expectations",
-          "External factors (e.g., player health, team morale) remain stable"
-        ],
-        "weakest_link": "Team Nemesis performs above expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "G2's recent performance and consistency",
-        "Team Nemesis's potential for upsets"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 45,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.547999999963947,
-      "edge_percent": 54.799999996394696
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 48.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 54.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450485+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-01 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x1c12b57b7c87ef6b943287f12bb256b61369a51cfcd545c0a138ca0689eea082",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xfb512d428db90455c9507d2578cc306b2701082d",
-      "side": "BUY",
-      "asset": "29653368161431757359707812019150169348280532785365423579759279283448584827447",
-      "conditionId": "0xb8dd12575cdd8874b8d9402a4362fbc57e6af3f2b838efeb9e0329f5d9cc8c9e",
-      "size": 3571.38278,
-      "price": 0.3932375695771728,
-      "timestamp": 1775045039,
-      "title": "Hawks vs. Magic",
-      "slug": "nba-atl-orl-2026-04-01",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-atl-orl-2026-04-01",
-      "outcome": "Magic",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1c12b57b7c87ef6b943287f12bb256b61369a51cfcd545c0a138ca0689eea082",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hawks vs. Magic",
-    "market_slug": "nba-atl-orl-2026-04-01",
-    "amount": 2166.980895563033,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450494+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-01 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xcbc70b0c64cdb8c9a649b3c15a9b51df90b7d014b5141636a7c25c72dddce7a6",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x86fbea68d619daf670185ecd38a69aa90f7703d4",
-      "side": "BUY",
-      "asset": "29653368161431757359707812019150169348280532785365423579759279283448584827447",
-      "conditionId": "0xb8dd12575cdd8874b8d9402a4362fbc57e6af3f2b838efeb9e0329f5d9cc8c9e",
-      "size": 6137.5,
-      "price": 0.4,
-      "timestamp": 1775045039,
-      "title": "Hawks vs. Magic",
-      "slug": "nba-atl-orl-2026-04-01",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-atl-orl-2026-04-01",
-      "outcome": "Magic",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcbc70b0c64cdb8c9a649b3c15a9b51df90b7d014b5141636a7c25c72dddce7a6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hawks vs. Magic",
-    "market_slug": "nba-atl-orl-2026-04-01",
-    "amount": 3682.5,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450503+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-01 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x1a50bd16e46dfcc78ce4c78b5ffff61290aadcf17723af44a4f55c788a66d4c9",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1cf58e946147a1d353dfd2d5c153d5be75426440",
-      "side": "SELL",
-      "asset": "106089330606463390094979723214198773666329550032574650943275002629872541877548",
-      "conditionId": "0xecc1044c1b24732e5e29170d92dea903204e196a2b960daf78cb794c2cbb0a19",
-      "size": 20230.91,
-      "price": 0.13,
-      "timestamp": 1775087959,
-      "title": "Kings vs. Raptors",
-      "slug": "nba-sac-tor-2026-04-01",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-sac-tor-2026-04-01",
-      "outcome": "Kings",
-      "outcomeIndex": 0,
-      "name": "BLACKBET",
-      "pseudonym": "Palatable-Availability",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/logo_da91d0a9-d825-41d0-b30e-a6e6769833d7_1734781894482.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1a50bd16e46dfcc78ce4c78b5ffff61290aadcf17723af44a4f55c788a66d4c9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Kings vs. Raptors",
-    "market_slug": "nba-sac-tor-2026-04-01",
-    "amount": 2630.0183,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450512+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-01 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4c835904897302319d8df33f17d23a0029cccfb08bf0de9feb5fcea8ad357714",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388774998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc94a2031b8b4cc4cf77eac0fd0e0b982b7b29401",
-      "side": "BUY",
-      "asset": "26346969848783400678587156575421437877397531835925129201949023118835646369030",
-      "conditionId": "0xb7d751a6a47f2d51a6d85b95aa26ccba8bfcc14b841daaac2cfb83fadead1e56",
-      "size": 11596.2,
-      "price": 0.43,
-      "timestamp": 1775087959,
-      "title": "Blues vs. Kings",
-      "slug": "nhl-stl-lak-2026-04-01",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-stl-lak-2026-04-01",
-      "outcome": "Blues",
-      "outcomeIndex": 0,
-      "name": "yuanshuai",
-      "pseudonym": "Crisp-Fountain",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4c835904897302319d8df33f17d23a0029cccfb08bf0de9feb5fcea8ad357714",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Blues vs. Kings",
-    "market_slug": "nhl-stl-lak-2026-04-01",
-    "amount": 4986.366,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450521+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-01 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Spread: Nuggets (-16.5)",
-    "market_slug": "nba-den-uta-2026-04-01-spread-away-16pt5",
-    "event_slug": "nba-den-uta-2026-04-01-spread-away-16pt5",
-    "wallet": "0x992a5c9c5a0c8f83750b5a18795f2338d9b25e34",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($24,719)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 24718.551490499995,
-      "odds": 0.49,
-      "raw_price": 0.49,
-      "outcome": "Jazz",
-      "potential_pnl": 25727.4719595,
-      "pnl_multiplier": 1.0408163265306125,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-04-02T01:01:13.702452",
-    "trade_hash": "0xd17d1f6091eb40c03e9afb9b5e891b875afb74c1d4944fc0268d095b219677ef",
-    "trade_timestamp": 1775091591,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Jazz",
-      "outcomeIndex": 1,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.49,
-      "effective_price": 0.49,
-      "size": 50446.02344999999,
-      "amount": 24718.551490499995,
-      "potential_pnl": 25727.4719595,
-      "pnl_multiplier": 1.0408163265306125,
-      "is_no": false,
-      "slug": "nba-den-uta-2026-04-01-spread-away-16pt5",
-      "eventSlug": "nba-den-uta-2026-04-01"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.238,
-      "market_price": 0.49,
-      "edge": 0.252,
-      "edge_percent": 25.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Nuggets win by more than 16.5 points",
-          "Key players perform at peak levels",
-          "Opposing team underperforms significantly"
-        ],
-        "weakest_link": "Opposing team underperforms significantly"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Nuggets' strong home court advantage",
-        "Recent performance trends favoring the Nuggets"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.252,
-      "edge_percent": 25.2
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450530+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-01 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will Trump say \"Ceasefire\" or \"Peace Deal\" during Address to the Nation?",
-    "market_slug": "will-trump-say-ceasefire-or-peace-deal-during-address-to-the-nation",
-    "event_slug": "will-trump-say-ceasefire-or-peace-deal-during-address-to-the-nation",
-    "wallet": "0x8f784e05d17bcec0dfdd4993fceef408ef935106",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,495)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1494.999999,
-      "odds": 0.5599999998651505,
-      "raw_price": 0.5599999998651505,
-      "outcome": "Yes",
-      "potential_pnl": 1174.642857,
-      "pnl_multiplier": 0.7857142861442906,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-02T01:01:25.006442",
-    "trade_hash": "0xd5a46eecdd1175aecac9abd964fcac7ffa8d5189057fa6414b0e378be878007a",
-    "trade_timestamp": 1775091519,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.5599999998651505,
-      "effective_price": 0.5599999998651505,
-      "size": 2669.642856,
-      "amount": 1494.999999,
-      "potential_pnl": 1174.642857,
-      "pnl_multiplier": 0.7857142861442906,
-      "is_no": false,
-      "slug": "will-trump-say-ceasefire-or-peace-deal-during-address-to-the-nation",
-      "eventSlug": "what-will-trump-say-during-address-to-the-nation-on-april-1"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+38.8%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.17199999997303012,
-      "market_price": 0.5599999998651505,
-      "edge": 0.38799999989212036,
-      "edge_percent": 38.79999998921203,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Trump's current stance on foreign policy",
-          "The context of the address and current events",
-          "Public and political pressure regarding the situation"
-        ],
-        "weakest_link": "Trump's current stance on foreign policy, as it may not align with using terms like 'ceasefire' or 'peace deal'"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards ongoing conflicts",
-        "Media framing of Trump's address leading up to the event"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.38799999989212036,
-      "edge_percent": 38.79999998921203
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 47.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 38.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:39.566934+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1495.0
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x774b354893b4d3a6ba721898524405f513e5bc8134ccbb3046f904facbfa5a22",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 17,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4552141.183965707,
-      "volume": 60070499.453648,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x907fbed5c365d0ee90fe066a3b5073bc9a7cbaee",
-      "side": "BUY",
-      "asset": "2916184120206223749839849644877707470354946028257066951797428049170871002238",
-      "conditionId": "0x6d0e09d0f04572d9b1adad84703458b0297bc5603b69dccbde93147ee4443246",
-      "size": 16028.935966,
-      "price": 0.6117343046849127,
-      "timestamp": 1775116771,
-      "title": "US forces enter Iran by April 30?",
-      "slug": "us-forces-enter-iran-by-april-30-899",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-forces-enter-iran-by-L_p5JkCpvr0I.jpg",
-      "eventSlug": "us-forces-enter-iran-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "alksdjfaksdjfkladsflkjasdf",
-      "pseudonym": "Bulky-Other",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x774b354893b4d3a6ba721898524405f513e5bc8134ccbb3046f904facbfa5a22",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US forces enter Iran by April 30?",
-    "market_slug": "us-forces-enter-iran-by",
-    "amount": 9805.449998,
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:40.626452+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -9805.45
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5c9e4717b490558759fe5f5e10a2d629daf75f9b544ef52f1df2a92ffe4de885",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 17,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4552141.183965707,
-      "volume": 60070499.453648,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd8644051d1749bf5771cddf2f822fb7e986a497e",
-      "side": "BUY",
-      "asset": "17137206920857383523614304650148756829688496576722556348226923267242745234263",
-      "conditionId": "0x9df006923390474e5c675296b68396ace48d9ffb013d03472834db11988e0188",
-      "size": 7814.2132,
-      "price": 0.25,
-      "timestamp": 1775116771,
-      "title": "Lakers vs. Thunder",
-      "slug": "nba-lal-okc-2026-04-02",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-okc-2026-04-02",
-      "outcome": "Lakers",
-      "outcomeIndex": 0,
-      "name": "Gambajangle",
-      "pseudonym": "Hideous-Plea",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5c9e4717b490558759fe5f5e10a2d629daf75f9b544ef52f1df2a92ffe4de885",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Thunder",
-    "market_slug": "nba-lal-okc-2026-04-02",
-    "amount": 1953.5533,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450547+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-02 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Atlanta Braves vs. Arizona Diamondbacks",
-    "market_slug": "mlb-atl-ari-2026",
-    "event_slug": "mlb-atl-ari-2026",
-    "wallet": "0x63a51cbb37341837b873bc29d05f482bc2988e33",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($35,400)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 35400.12264456199,
-      "odds": 0.5325258460183494,
-      "raw_price": 0.5325258460183494,
-      "outcome": "Atlanta Braves",
-      "potential_pnl": 31075.754365438006,
-      "pnl_multiplier": 0.8778431271963891,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-02T12:03:38.980795",
-    "trade_hash": "0xf991f044397c53002005fc7f6151273b9695a964d7222a65ad6502f6ab00a725",
-    "trade_timestamp": 1775131245,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Atlanta Braves",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.5325258460183494,
-      "effective_price": 0.5325258460183494,
-      "size": 66475.87701,
-      "amount": 35400.12264456199,
-      "potential_pnl": 31075.754365438006,
-      "pnl_multiplier": 0.8778431271963891,
-      "is_no": false,
-      "slug": "mlb-atl-ari-2026",
-      "eventSlug": "mlb-atl-ari-2026-04-02"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24650516920366988,
-      "market_price": 0.5325258460183494,
-      "edge": 0.2860206768146795,
-      "edge_percent": 28.60206768146795,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Braves maintain strong performance",
-          "Diamondbacks underperform",
-          "Injuries to key players on opposing teams"
-        ],
-        "weakest_link": "Injuries to key players on opposing teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends",
-        "Fan sentiment and support"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2860206768146795,
-      "edge_percent": 28.60206768146795
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450557+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-02 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Atlanta Braves vs. Arizona Diamondbacks",
-    "market_slug": "mlb-atl-ari-2026",
-    "event_slug": "mlb-atl-ari-2026",
-    "wallet": "0x63a51cbb37341837b873bc29d05f482bc2988e33",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($8,878)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 8877.604696800001,
-      "odds": 0.56,
-      "raw_price": 0.56,
-      "outcome": "Atlanta Braves",
-      "potential_pnl": 6975.2608332,
-      "pnl_multiplier": 0.7857142857142856,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-02T12:03:43.354249",
-    "trade_hash": "0x0f714a35b93896fe611aa6d511c1ee4433528f1dbd8f7496bce8592c536fbd91",
-    "trade_timestamp": 1775131245,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Atlanta Braves",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.56,
-      "effective_price": 0.56,
-      "size": 15852.865530000001,
-      "amount": 8877.604696800001,
-      "potential_pnl": 6975.2608332,
-      "pnl_multiplier": 0.7857142857142856,
-      "is_no": false,
-      "slug": "mlb-atl-ari-2026",
-      "eventSlug": "mlb-atl-ari-2026-04-02"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.252,
-      "market_price": 0.56,
-      "edge": 0.30800000000000005,
-      "edge_percent": 30.800000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Braves maintain current performance level",
-          "Diamondbacks underperform in upcoming games",
-          "Injuries to key players on opposing teams"
-        ],
-        "weakest_link": "Injuries to key players on opposing teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Braves' strong offensive lineup",
-        "Diamondbacks' recent performance fluctuations"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30800000000000005,
-      "edge_percent": 30.800000000000004
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 30.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450566+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-02 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Canadiens vs. Rangers",
     "market_slug": "nhl-mon-nyr-2026",
     "event_slug": "nhl-mon-nyr-2026",
@@ -30449,5 +29383,616 @@
       "model_correct": null,
       "pnl": 257.4
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6e5a17eea668308ccc3cce5bf6a8bcc20448c57ca5abb356d27c4b07b4ac2c03",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc6800971f7107f8e4139d6014c94f05d1193dff5",
+      "side": "SELL",
+      "asset": "59204338673654208485085310186183290684688081544820307500000101691397074805937",
+      "conditionId": "0xd982061ea3b5e2a88ffc758347062d6ccbd95ac8f6bd537137d9be68ace7b876",
+      "size": 10.49,
+      "price": 0.4,
+      "timestamp": 1778705522,
+      "title": "Will Deportivo Alav\u00e9s win on 2026-05-13?",
+      "slug": "lal-ala-bar-2026-05-13-ala",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-ala-bar-2026-05-13",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "raccoonn",
+      "pseudonym": "Married-Oldie",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6e5a17eea668308ccc3cce5bf6a8bcc20448c57ca5abb356d27c4b07b4ac2c03",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Deportivo Alav\u00e9s win on 2026-05-13?",
+    "market_slug": "lal-ala-bar-2026-05-13",
+    "amount": 6.294,
+    "ai_context": "[GPT] \u274c SKIP \u2014 Alav\u00e9s has a poor record against Barcelona and is fighting relegation.\nIn their last 50 encounters, Barcelona has won 36 times against Alav\u00e9s. (as.com) Currently, Alav\u00e9s is 18th in the league with 37 points, desperately needing a win to avoid relegation. (as.com) However, the trader may have insider information about team lineup changes or other factors not publicly available.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe0f982de8eadcd931b1fb171ad705454a37a56821c58f671f0de4d7cab2e67f1",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x082be1c21bddf02dcca57c346957c76c6c155e67",
+      "side": "BUY",
+      "asset": "65069796396423433449958774544428759495689516697636097944628892861019143840483",
+      "conditionId": "0x66b708c33004b6c8c937c26f2498af6dc14f983dad1ea1f8a79167199b0cd8e1",
+      "size": 10.41665,
+      "price": 0.96,
+      "timestamp": 1778705522,
+      "title": "Will Getafe CF vs. RCD Mallorca end in a draw?",
+      "slug": "lal-get-mal-2026-05-13-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
+      "eventSlug": "lal-get-mal-2026-05-13",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "JDMAPY",
+      "pseudonym": "Insubstantial-Precipitation",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe0f982de8eadcd931b1fb171ad705454a37a56821c58f671f0de4d7cab2e67f1",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Getafe CF vs. RCD Mallorca end in a draw?",
+    "market_slug": "lal-get-mal-2026-05-13",
+    "amount": 0.41666600000000037,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head results and current form favor a non-draw outcome.\nIn their last five encounters, there have been no draws: RCD Mallorca won three times, and Getafe CF won twice. Additionally, Getafe CF has lost two consecutive matches, including a 1-0 defeat to RCD Espanyol on December 13, 2025. (cadenaser.com) RCD Mallorca's recent form includes a 2-1 victory over RCD Espanyol on March 21, 2026. (cadenaser.com)",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb0634b095d0a02518532b5e1b9fc551ad27667f6b68ad388e470d5fc681ed303",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2f26606ccc45a934838a97d44a30c32012ae0d8f",
+      "side": "BUY",
+      "asset": "79519646839686396240286711899288076031744303804151156800028000092181471287439",
+      "conditionId": "0x047eddc92b45a535e4195973ba9f3aec056f2ab36c0c87cd14001b2c1b76a5b6",
+      "size": 15,
+      "price": 0.11,
+      "timestamp": 1778705522,
+      "title": "Will Rangers FC vs. Hibernian FC end in a draw?",
+      "slug": "scop-ran-hib-2026-05-13-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/scottish-b8ff29a139.png",
+      "eventSlug": "scop-ran-hib-2026-05-13",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "GUINESS123",
+      "pseudonym": "Tense-Fort",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb0634b095d0a02518532b5e1b9fc551ad27667f6b68ad388e470d5fc681ed303",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Rangers FC vs. Hibernian FC end in a draw?",
+    "market_slug": "scop-ran-hib-2026-05-13",
+    "amount": 1.65,
+    "ai_context": "[GPT] \u274c SKIP \u2014 Recent head-to-head record shows few draws between Rangers FC and Hibernian FC.\nIn their last 45 encounters, only 9 matches ended in a draw. (footystats.org) The most recent draw was on May 17, 2025, with a 2-2 scoreline. (soccerbase.com) Given the low frequency of draws in recent matchups, the trader's bet on a draw at 11% odds may not be strongly supported by historical data.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x02d8f3773ff5ce8e42f292b9f174ddf3841425322781ef0611046448b3acd8d9",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd60c6fa3d340c3f7d98ec939b45492daf77d2b06",
+      "side": "SELL",
+      "asset": "88238735752410293087654954045188070300642486735403324686749272934925731532175",
+      "conditionId": "0xafae38cfff9bd114a36dbe5d501f167d9a77c701cbc17d659bfe6ac15ba9ea92",
+      "size": 14.2,
+      "price": 0.1,
+      "timestamp": 1778705522,
+      "title": "Racing Club de Lens vs. Paris Saint-Germain FC: Both Teams to Score",
+      "slug": "fl1-rcl-psg-2026-05-13-btts",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
+      "eventSlug": "fl1-rcl-psg-2026-05-13-more-markets",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "spffast",
+      "pseudonym": "Hilarious-Dagger",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x02d8f3773ff5ce8e42f292b9f174ddf3841425322781ef0611046448b3acd8d9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Racing Club de Lens vs. Paris Saint-Germain FC: Both Teams to Score",
+    "market_slug": "fl1-rcl-psg-2026-05-13-more-markets",
+    "amount": 1.42,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent matches indicate a high likelihood of both teams scoring.\nIn their last five encounters, four matches ended with both teams scoring. (aiscore.com) Additionally, recent form shows that both teams have been involved in high-scoring games, further supporting the bet. (accaplanner.com)\nGiven these factors, the bet on \"Yes\" for both teams to score is well-supported.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3a73ca2b37f2577b840dac129ebfbd5ed5636622875d2f4c064eccd335d50870",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8ee99bfa6695ed4741aa8359daacc70597801362",
+      "side": "BUY",
+      "asset": "2065410516955057520552828691222364982013757897314806673093411611807726819416",
+      "conditionId": "0x70fb03d07c88348c8a4997d14d07dd40f95b1feaaa1330a89e238936bc36f3b6",
+      "size": 73.114284,
+      "price": 0.3499999945291128,
+      "timestamp": 1778705522,
+      "title": "Internazionali BNL d'Italia: Rafael Jodar vs Luciano Darderi",
+      "slug": "atp-jodar-darderi-2026-05-13",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-jodar-darderi-2026-05-13",
+      "outcome": "Luciano Darderi",
+      "outcomeIndex": 1,
+      "name": "LongshotLouis",
+      "pseudonym": "Unhealthy-Dearest",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3a73ca2b37f2577b840dac129ebfbd5ed5636622875d2f4c064eccd335d50870",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Internazionali BNL d'Italia: Rafael Jodar vs Luciano Darderi",
+    "market_slug": "atp-jodar-darderi-2026-05-13",
+    "amount": 47.524285,
+    "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Darderi's recent form and head-to-head record support the bet, but Jodar's higher ranking and recent performance are notable.\nLuciano Darderi has a 60% win rate in his last 10 matches, including a significant victory over Alexander Zverev at the Rome Masters. (as.com) He is currently ranked No. 20, with a career-high of No. 18. (matchstat.com) Rafael Jodar, ranked No. 34, has a 76.7% win rate in the past 52 weeks. (tennisratio.",
+    "ai_verdict": "LEAN_COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xee6960cb983feb411fce333fd82ccfb33aec95a868dcee8694e166efa3b5a0d3",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7f1c4c591ecaa34ea88de9ed3f09e7cd45cd390d",
+      "side": "BUY",
+      "asset": "46788539453659226279390442601813025280228279158862264475920366727621958138033",
+      "conditionId": "0x933329f8cc8eb8af7620cda4aef18041b433937ec3a9f56ab841ad17e37d6abc",
+      "size": 48.64,
+      "price": 0.66,
+      "timestamp": 1778705522,
+      "title": "CA Rosario Central vs. Racing Club: O/U 2.5",
+      "slug": "arg-ros-rac-2026-05-13-total-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
+      "eventSlug": "arg-ros-rac-2026-05-13-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "0x7F1c4c591eCaA34ea88De9eD3F09e7cD45Cd390D-1778539767056",
+      "pseudonym": "Harmless-Intelligence",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xee6960cb983feb411fce333fd82ccfb33aec95a868dcee8694e166efa3b5a0d3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "CA Rosario Central vs. Racing Club: O/U 2.5",
+    "market_slug": "arg-ros-rac-2026-05-13-more-markets",
+    "amount": 16.537599999999998,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head matches between Rosario Central and Racing Club have consistently exceeded 2.5 goals, supporting the Over bet.\nIn their last five encounters, three matches had over 2.5 goals, including a 4-3 win for Racing Club on October 1, 2022. (dailysports.net)\nGiven this trend, the Over bet appears more favorable.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd0153a25f3b389113ef04fd885839901da5e924293388a59f07f966368a3b874",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcb03aaae629c0ee10e1278a4b0dc761770755ae4",
+      "side": "BUY",
+      "asset": "92965725457848026710565372798273714918257038801783346718322984696075793332385",
+      "conditionId": "0xbac0668c2e778fb106fde8639d1578929464eba39409095d20773d334df6e67f",
+      "size": 8,
+      "price": 0.88,
+      "timestamp": 1778705522,
+      "title": "Will Hibernian FC win on 2026-05-13?",
+      "slug": "scop-ran-hib-2026-05-13-hib",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/scottish-b8ff29a139.png",
+      "eventSlug": "scop-ran-hib-2026-05-13",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Llmt",
+      "pseudonym": "Evergreen-Recess",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd0153a25f3b389113ef04fd885839901da5e924293388a59f07f966368a3b874",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Hibernian FC win on 2026-05-13?",
+    "market_slug": "scop-ran-hib-2026-05-13",
+    "amount": 7.04,
+    "ai_context": "[GPT] \u274c SKIP \u2014 Hibernian FC is facing a strong Rangers team at Ibrox Stadium.\nRangers have an unbeaten record in their last five encounters with Hibernian, including three wins and two draws. Additionally, Rangers are currently third in the league standings with 69 points, while Hibernian is fourth with 54 points. (polymarket.com)\nHowever, the trader may have access to insider information or sharp analysis that suggests Hibernian could overcome these challenges.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc59330744922c105e56af34010d76fb4293db7abb2aca5753064e64cd27d7e66",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe6fb58c1c3fcd0c925e0f5feffc1a665ab0dee59",
+      "side": "BUY",
+      "asset": "76937703178038280063673485928008758871899249368076989502748287503073225563684",
+      "conditionId": "0xfc542a544472b9fa8aca59fab98a6b4f25420132d95bbc0c173031ef65c6ce75",
+      "size": 5.128204,
+      "price": 0.389999890799976,
+      "timestamp": 1778705522,
+      "title": "Sorana Cirstea vs. Coco Gauff: Total Sets O/U 2.5",
+      "slug": "wta-cirstea-gauff-2026-05-14-set-totals-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-cirstea-gauff-2026-05-14",
+      "outcome": "Over 2.5",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc59330744922c105e56af34010d76fb4293db7abb2aca5753064e64cd27d7e66",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Sorana Cirstea vs. Coco Gauff: Total Sets O/U 2.5",
+    "market_slug": "wta-cirstea-gauff-2026-05-14",
+    "amount": 3.128205,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent matches between Cirstea and Gauff have consistently exceeded 2.5 sets.\nIn their most recent encounter at the 2026 Madrid Open, Gauff won 4-6, 7-5, 6-1, indicating a match duration of over 2.5 sets. (elpais.com) Their previous match at the 2026 Miami Open also extended beyond 2.5 sets. (ladbrokes.com) Additionally, Gauff has been battling a stomach virus, which may have affected her performance. (elpais.com)",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8e02481c4d98ac3953754c0c44a6ac08fc2d36ac01398bb532f1f7fa47b3664b",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5407fc63654decd44e99e2711d2a38f8bc525bbd",
+      "side": "BUY",
+      "asset": "10602356614505649002005044476444202505133309210796488860311670116327030714481",
+      "conditionId": "0x0fec19ea38672360d6df6a02c4e761e54f0f14fc71747df23c5b69fbb5d30d83",
+      "size": 10,
+      "price": 0.3,
+      "timestamp": 1778705522,
+      "title": "Spread: Tampa Bay Rays (-1.5)",
+      "slug": "mlb-tb-tor-2026-05-13-spread-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-tb-tor-2026-05-13",
+      "outcome": "Tampa Bay Rays",
+      "outcomeIndex": 0,
+      "name": "0x5407Fc63654dECd44E99e2711d2a38F8bC525Bbd-1774037299255",
+      "pseudonym": "Questionable-Opinion",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8e02481c4d98ac3953754c0c44a6ac08fc2d36ac01398bb532f1f7fa47b3664b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Tampa Bay Rays (-1.5)",
+    "market_slug": "mlb-tb-tor-2026-05-13",
+    "amount": 3.0,
+    "ai_context": "[GPT] \u2705 COPY \u2014 The Tampa Bay Rays have demonstrated strong recent performance, winning 8 of their last 10 games, including a 7-6 victory over the Toronto Blue Jays on May 12, 2026. (oddschecker.com) Their consistent success, particularly in close games, supports the bet on them covering the -1.5 spread.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8284ce4716f90d901a364618fd3de10afa49dc294d5a0ffb173150a8dd5ec802",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12608076.940191383,
+      "volume": 290156779.180267,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27abdfc9393c72a6330a3be987da4b46c726e521",
+      "side": "BUY",
+      "asset": "38633448065261608755072088507033278254893488240734399014852176650195563610767",
+      "conditionId": "0x054725b2a7971376f7924a7021221b12acc50fe78d97817824fe411704d5b5a2",
+      "size": 31.7,
+      "price": 0.885,
+      "timestamp": 1778705522,
+      "title": "Will Romeu Zema win the 2026 Brazilian presidential election?",
+      "slug": "will-romeu-zema-win-the-2026-brazilian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-romeu-zema-win-the-2026-brazilian-presidential-election-THlJ5kdmq5Ia.jpg",
+      "eventSlug": "brazil-presidential-election",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "pd.unique",
+      "pseudonym": "Wise-Keyboard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8284ce4716f90d901a364618fd3de10afa49dc294d5a0ffb173150a8dd5ec802",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Romeu Zema win the 2026 Brazilian presidential election?",
+    "market_slug": "brazil-presidential-election",
+    "amount": 3.6454999999999997,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Zema with 4% support, indicating a low chance of winning.\nA May 13, 2026, Genial/Quaest poll shows President Lula leading with 39%, followed by Senator Fl\u00e1vio Bolsonaro at 33%, and Zema tied with former Goi\u00e1s Governor Ronaldo Caiado at 4%. (em.com.br) Additionally, a March 13, 2026, Meio Ideia poll indicates Zema at 4.5% in a first-round scenario. (youtube.com) Given these low support levels, betting on \"No\" aligns with the current data.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8fc6283dbb30b96eff196073120565c98a66adb406a90ed1c2b3984453b9bf05",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12608076.940191383,
+      "volume": 290156779.180267,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27abdfc9393c72a6330a3be987da4b46c726e521",
+      "side": "BUY",
+      "asset": "79191939610100241429039499950443680906623179487184628479206155805558220344190",
+      "conditionId": "0xdf8e2dc5860027decbe6164555c3c1c9645c3bd33e16b9dc57ca87125047d4a8",
+      "size": 31.89,
+      "price": 0.54,
+      "timestamp": 1778705522,
+      "title": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+      "slug": "will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-luiz-incio-lula-da-silva-win-the-2026-brazilian-presidential-election-reTil6nEVB1J.jpg",
+      "eventSlug": "brazil-presidential-election",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "pd.unique",
+      "pseudonym": "Wise-Keyboard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8fc6283dbb30b96eff196073120565c98a66adb406a90ed1c2b3984453b9bf05",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Luiz In\u00e1cio Lula da Silva win the 2026 Brazilian presidential election?",
+    "market_slug": "brazil-presidential-election",
+    "amount": 14.6694,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Lula leading in the 2026 Brazilian presidential election.\nA February 2026 survey indicates Lula holds a five-point advantage over Fl\u00e1vio Bolsonaro, with 43% to 38% support. (bloomberg.com) Additionally, a December 2025 poll shows Lula leading with 47.9% of the vote, while Fl\u00e1vio Bolsonaro has 21.3% and Tarc\u00edsio de Freitas 15%. (br.investing.com)\nGiven these findings, the trader's bet on \"No\" at 54% odds appears to be against the current polling data.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x17f7eb63cb8b3bc3878ed79f5448cd2f421983f794b45326780e3c28aa315ce0",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12608076.940191383,
+      "volume": 290156779.180267,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27abdfc9393c72a6330a3be987da4b46c726e521",
+      "side": "BUY",
+      "asset": "7565921021555775006041943394390068423142281108752994121417017072842379450830",
+      "conditionId": "0x05297f854d3b757d5e51a1a29c7f225a80b14b2a161d6b7f9a61677da7a80ced",
+      "size": 31.65,
+      "price": 0.936,
+      "timestamp": 1778705522,
+      "title": "Will Renan Santos win the 2026 Brazilian presidential election?",
+      "slug": "will-renan-santos-win-the-2026-brazilian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-renan-santos-win-the-2026-brazilian-presidential-election-UU3ccbcu_OS6.png",
+      "eventSlug": "brazil-presidential-election",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "pd.unique",
+      "pseudonym": "Wise-Keyboard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x17f7eb63cb8b3bc3878ed79f5448cd2f421983f794b45326780e3c28aa315ce0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Renan Santos win the 2026 Brazilian presidential election?",
+    "market_slug": "brazil-presidential-election",
+    "amount": 2.025599999999998,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Renan Santos with increasing support, indicating a potential for higher electoral performance.\nIn April 2026, a survey by AtlasIntel/Bloomberg indicated Renan Santos at 5.3% in the first round, with significant support among young voters aged 16 to 24, where he garnered 22.4% of intentions. (bradojornal.com) Additionally, Santos has been actively engaging with the electorate, emphasizing his appeal to voters seeking alternatives to traditional political figures.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x405684bac364c6234f25832b75ff70f7831e8724b9f3177d4a8f5cf82016cb64",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12608076.940191383,
+      "volume": 290156779.180267,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27abdfc9393c72a6330a3be987da4b46c726e521",
+      "side": "BUY",
+      "asset": "38310927461258927563020508025396887688249787380193911540547071417200646834355",
+      "conditionId": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+      "size": 31.82,
+      "price": 0.744,
+      "timestamp": 1778705522,
+      "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election-LUNiqIvy01pf.jpg",
+      "eventSlug": "brazil-presidential-election",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "pd.unique",
+      "pseudonym": "Wise-Keyboard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x405684bac364c6234f25832b75ff70f7831e8724b9f3177d4a8f5cf82016cb64",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "market_slug": "brazil-presidential-election",
+    "amount": 8.14592,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Fl\u00e1vio Bolsonaro in a technical tie with Lula, indicating a competitive race.\nA February 2026 poll by the Gerp Institute showed Fl\u00e1vio Bolsonaro at 35% and Lula at 39%, with a margin of error of 2.24 percentage points, suggesting a potential lead for Fl\u00e1vio. (as-coa.org)\nAdditionally, a May 2026 article from El Pa\u00eds reports that Fl\u00e1vio Bolsonaro has managed to achieve a technical tie with Lula in recent polls, indicating a highly competitive race. (elpais.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
   }
 ]
