@@ -1,433 +1,5 @@
 [
   {
-    "market": "Canadiens vs. Rangers",
-    "market_slug": "nhl-mon-nyr-2026",
-    "event_slug": "nhl-mon-nyr-2026",
-    "wallet": "0xb1c485195cdf081492273f297ea36b726a12743f",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($3,158)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 3157.92,
-      "odds": 0.54,
-      "raw_price": 0.54,
-      "outcome": "Canadiens",
-      "potential_pnl": 2690.08,
-      "pnl_multiplier": 0.8518518518518519,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-02T16:34:19.641701",
-    "trade_hash": "0xa3354dc6ed54024e5a730a13d886a714bb35bd2bce331cb1042f500471b33bf7",
-    "trade_timestamp": 1775147523,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Canadiens",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.54,
-      "effective_price": 0.54,
-      "size": 5848.0,
-      "amount": 3157.92,
-      "potential_pnl": 2690.08,
-      "pnl_multiplier": 0.8518518518518519,
-      "is_no": false,
-      "slug": "nhl-mon-nyr-2026",
-      "eventSlug": "nhl-mon-nyr-2026-04-02"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.248,
-      "market_price": 0.54,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Canadiens maintain strong performance",
-          "Rangers underperform",
-          "Injury to key players on opposing team"
-        ],
-        "weakest_link": "Rangers underperform"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team rivalry",
-        "recent performance trends"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29200000000000004,
-      "edge_percent": 29.200000000000003
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450576+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-02 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x9efbb4fff2f2890d110d5662e79eaee9f1059f682a33631d510a242cae1640ca",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 11,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5684200.214877697,
-      "volume": 613553433.8129011,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x9cb990f1862568a63d8601efeebe0304225c32f2",
-      "side": "BUY",
-      "asset": "15341974313022947653299634710256021008261096970489668375392107094324100282893",
-      "conditionId": "0x2813d3e229eb2e6f831f7061a9f4ad840bdf1c8141251091448c286241473151",
-      "size": 52000,
-      "price": 0.49,
-      "timestamp": 1775147981,
-      "title": "Capitals vs. Devils",
-      "slug": "nhl-wsh-nj-2026-04-02",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-wsh-nj-2026-04-02",
-      "outcome": "Capitals",
-      "outcomeIndex": 0,
-      "name": "jtwyslljy",
-      "pseudonym": "Grateful-Chest",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9efbb4fff2f2890d110d5662e79eaee9f1059f682a33631d510a242cae1640ca",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Capitals vs. Devils",
-    "market_slug": "nhl-wsh-nj-2026-04-02",
-    "amount": 25480.0,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450584+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-02 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xe355a514b51092fc52a1c532a55208f5596744ec4fc35d3f815e08bab5363794",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x37e4728b3c4607fb2b3b205386bb1d1fb1a8c991",
-      "side": "BUY",
-      "asset": "82272262530488929157692362571985106096759704402780654437291728344156862992976",
-      "conditionId": "0xe383b4aa725793bbc1cec2be5865a17d4d8b247a717012985001442ab86132dc",
-      "size": 7308.09876,
-      "price": 0.49,
-      "timestamp": 1775150681,
-      "title": "Paris Basketball vs. Olimpia Milano",
-      "slug": "euroleague-paris-milano-2026-04-02",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/euroleague-basketball-8fab4f41ec.png",
-      "eventSlug": "euroleague-paris-milano-2026-04-02",
-      "outcome": "Paris Basketball",
-      "outcomeIndex": 0,
-      "name": "SemyonMarmeladov",
-      "pseudonym": "Opulent-Hall",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-102792-ee6f6ac0-da9f-45fc-bd69-173d5ddd17cf.jpeg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe355a514b51092fc52a1c532a55208f5596744ec4fc35d3f815e08bab5363794",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Paris Basketball vs. Olimpia Milano",
-    "market_slug": "euroleague-paris-milano-2026-04-02",
-    "amount": 3580.9683924,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450593+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-02 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xc003c9f34070739e17312e85a84b7e34d578a223a558545e51731626d1bde680",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 6666773.807599101,
-      "volume": 343969720.7057091,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x35417b3d09d7a0991f75d7cc95162a6e34d7462e",
-      "side": "BUY",
-      "asset": "114802065330196313748583636362219556679241104184345158405411161275523811071216",
-      "conditionId": "0x1480b819d03d4b6388d70e848b0384adf38c38d955cb783cdbcf6d4a436dee14",
-      "size": 3620.22,
-      "price": 0.34,
-      "timestamp": 1775157285,
-      "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-next-prime-minister-of-romania-be-pter-magyar-HbEv3YBJrtaT.jpg",
-      "eventSlug": "next-prime-minister-of-hungary",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Casdifer",
-      "pseudonym": "Emotional-Assignment",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4798110-1d9f916f-7692-4971-8d44-8fe6be7e7927.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc003c9f34070739e17312e85a84b7e34d578a223a558545e51731626d1bde680",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-    "market_slug": "next-prime-minister-of-hungary",
-    "amount": 2389.3451999999997,
-    "resolution_last_check": "2026-04-26T07:40:41.679805+00:00",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-10T07:57:27.483387+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 4638.14
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x76b4ced9c4d6106cf0b85ab8ea3ef926cf454faf4ee0cc7e174bce3bd18fe827",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11521181.359613763,
-      "volume": 270600378.490198,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
-      "side": "BUY",
-      "asset": "26010125157516403407494853190206242126832928669626399787268157608904814387830",
-      "conditionId": "0x415b9d995f065db7c986875918cedd7edbff97f387bd1d0ae4d498b5774667e8",
-      "size": 3723.6,
-      "price": 0.89,
-      "timestamp": 1775247621,
-      "title": "Will Paris Saint-Germain FC win on 2026-04-03?",
-      "slug": "fl1-psg-tou-2026-04-03-psg",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-fl1.png",
-      "eventSlug": "fl1-psg-tou-2026-04-03",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "EF203F2IPFC2ICP20W-CP3",
-      "pseudonym": "Bogus-Fix",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x76b4ced9c4d6106cf0b85ab8ea3ef926cf454faf4ee0cc7e174bce3bd18fe827",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Paris Saint-Germain FC win on 2026-04-03?",
-    "market_slug": "fl1-psg-tou-2026-04-03",
-    "amount": 3314.004,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450611+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-03 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x6d930facf4e58151f2595de04ac3353a1bfe72727f0e13245123f9aba0f989ce",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 10,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5719451.577601241,
-      "volume": 617405590.4524552,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdd882a70680633a75516f6ed5fce443e2d96dadb",
-      "side": "BUY",
-      "asset": "58677779032099424572691911819622437084016593639853516929802937971840946436465",
-      "conditionId": "0x72a524c4e27f303ccd63c585d0596b4cd5554c330b1600f5d5ea7d949056697f",
-      "size": 9999.99159,
-      "price": 0.28,
-      "timestamp": 1775287235,
-      "title": "Counter-Strike: NRG vs Voca (BO3) - PGL Bucharest Group Stage",
-      "slug": "cs2-nrg-voc-2026-04-04",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-nrg-voc-2026-04-04",
-      "outcome": "Voca",
-      "outcomeIndex": 1,
-      "name": "Taoli1",
-      "pseudonym": "Itchy-Caterpillar",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6d930facf4e58151f2595de04ac3353a1bfe72727f0e13245123f9aba0f989ce",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: NRG vs Voca (BO3) - PGL Bucharest Group Stage",
-    "market_slug": "cs2-nrg-voc-2026-04-04",
-    "amount": 7199.9939448,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450620+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-04 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb3a440bbde7131046782b9503798e742e5f7eaadd49a521c2b89a99afe7be87e",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 10672887.340271465,
-      "volume": 272371675.38032407,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x43670feb10084f60417938adfba2506801e2e904",
-      "side": "BUY",
-      "asset": "105744980932883842428735227675534401609303780685558675947313562840137884511221",
-      "conditionId": "0xb454c0e5eb37b5881f1591452d4e68f5a542c6ad540717f579350bd7dbe46277",
-      "size": 8092.068595,
-      "price": 0.4804572166126779,
-      "timestamp": 1775293537,
-      "title": "LoL: T1 vs Hanwha Life Esports - Game 2 Winner",
-      "slug": "lol-t1-hle1-2026-04-04-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-t1-hle1-2026-04-04",
-      "outcome": "Hanwha Life Esports",
-      "outcomeIndex": 1,
-      "name": "finnnark",
-      "pseudonym": "Idolized-Gammaray",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb3a440bbde7131046782b9503798e742e5f7eaadd49a521c2b89a99afe7be87e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: T1 vs Hanwha Life Esports - Game 2 Winner",
-    "market_slug": "lol-t1-hle1-2026-04-04",
-    "amount": 4204.175841207437,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450629+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-04 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x91f93d0eaa53ca2a2fd0759cf572fbe92cf1e6da565dacfbc915fcf08f962adc",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -29994,5 +29566,334 @@
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Fl\u00e1vio Bolsonaro in a technical tie with Lula, indicating a competitive race.\nA February 2026 poll by the Gerp Institute showed Fl\u00e1vio Bolsonaro at 35% and Lula at 39%, with a margin of error of 2.24 percentage points, suggesting a potential lead for Fl\u00e1vio. (as-coa.org)\nAdditionally, a May 2026 article from El Pa\u00eds reports that Fl\u00e1vio Bolsonaro has managed to achieve a technical tie with Lula in recent polls, indicating a highly competitive race. (elpais.",
     "ai_verdict": "COPY",
     "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xeb33e73ddd2561486f71ec4a7aee486b5e189d5102cdeafc196e93e40d78b6ba",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8374bb858ce69a424704a20e62022e176f056768",
+      "side": "SELL",
+      "asset": "109929615309321393128443499094490695266183577552094049860490602555922341559065",
+      "conditionId": "0x3175c52236d6cd3ac2cfd67208db311906caa29059067f8e848e895b2bb1f096",
+      "size": 37.72,
+      "price": 0.89,
+      "timestamp": 1778709425,
+      "title": "Will Figure's humanoid robot push at least 11000 packages during the official Figure livestream before the 8:00:00 time mark?",
+      "slug": "will-figures-humanoid-robot-push-at-least-11000-packages-during-the-official-figure-livestream-before-the-80000-time-mark",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/of-packages-pushed-by-figures-humanoid-robot-ASnq8UXA4PtU.jpg",
+      "eventSlug": "of-packages-pushed-by-figures-f03-robot",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xeb33e73ddd2561486f71ec4a7aee486b5e189d5102cdeafc196e93e40d78b6ba",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Figure's humanoid robot push at least 11000 packages during the official Figure livestream before the 8:00:00 time mark?",
+    "market_slug": "of-packages-pushed-by-figures-f03-robot",
+    "amount": 4.1491999999999996,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent demonstrations show Figure's humanoid robot can efficiently sort packages, indicating it can handle high-volume tasks within the specified time frame.\nIn a recent 8-hour livestream, the robot autonomously moved delivery packages into a conveyor belt, showcasing its capability to perform extended tasks without human intervention. (aol.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x454757126d73accc14d9f04271dac94ccda5c2736073f4c38f964aff94d6d075",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27a040922d8a340721301d1878a94594c7b506fa",
+      "side": "BUY",
+      "asset": "47300548415075339010331717720409160605942531581394930243306282084717981590452",
+      "conditionId": "0x888df0b9189540a2a6378e7369f1714b97436ad1727be81418ddb52a3de58cf1",
+      "size": 5,
+      "price": 0.65,
+      "timestamp": 1778709425,
+      "title": "Spurs vs. Timberwolves",
+      "slug": "nba-sas-min-2026-05-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-min-2026-05-15",
+      "outcome": "Spurs",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x454757126d73accc14d9f04271dac94ccda5c2736073f4c38f964aff94d6d075",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spurs vs. Timberwolves",
+    "market_slug": "nba-sas-min-2026-05-15",
+    "amount": 3.25,
+    "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head record favor the Spurs, but injury concerns exist.\nThe Spurs have a 2-3 record against the Timberwolves this season, with their most recent game on May 6, 2026, where they won 133-95. (champsorchumps.us) However, star player Victor Wembanyama suffered a left calf strain on November 17, 2025, and has been out since then. (as.com) The upcoming game is scheduled for May 15, 2026.",
+    "ai_verdict": "LEAN_COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5be1602d95e7dcd18a4890e97a333beab22a6c902cbd1c016129cca508c5c006",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc4d5a24a240ec9f52669e3251e0473fd0c5687cf",
+      "side": "BUY",
+      "asset": "60203025800479908481768532816297494129144024748793071156142912611601043911205",
+      "conditionId": "0x99c1eb138b94580c1e71c4f636646d86ae855d17f302261f7306e2395a471df2",
+      "size": 17.39,
+      "price": 0.149,
+      "timestamp": 1778709425,
+      "title": "Will Elon Musk post 80-99 tweets from May 8 to May 15, 2026?",
+      "slug": "elon-musk-of-tweets-may-8-may-15-80-99",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/elon-musk-of-tweets-nov-22-29-apMPG21-pzx_.jpg",
+      "eventSlug": "elon-musk-of-tweets-may-8-may-15",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "bipbipbop",
+      "pseudonym": "Courageous-Polish",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5be1602d95e7dcd18a4890e97a333beab22a6c902cbd1c016129cca508c5c006",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Elon Musk post 80-99 tweets from May 8 to May 15, 2026?",
+    "market_slug": "elon-musk-of-tweets-may-8-may-15",
+    "amount": 2.59111,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Recent analyses indicate that Elon Musk's tweet frequency aligns with the 80-99 range.\nA recent analysis suggests that Musk's tweet cadence frequently consolidates between 10-15 posts per day during active development cycles, aligning with the 80-99 tweet bracket for May 2026. (predictop.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6ea3f97d4a7c8e02eb6e2350518d3fb8043c5a61e1a607277a27d38dd4c639d8",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x502832c3648f40e763868f057d90b824829da526",
+      "side": "BUY",
+      "asset": "15294738867581315728935461179782130202762716674328824399814834527459320114080",
+      "conditionId": "0x05bfa1293bcfcc96f7b95f5c6f83d58f5009f989e2f27fda818e1442060a4eef",
+      "size": 11.11111,
+      "price": 0.9,
+      "timestamp": 1778709425,
+      "title": "Will the highest temperature in Seattle be between 60-61\u00b0F on May 13?",
+      "slug": "highest-temperature-in-seattle-on-may-13-2026-60-61f",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/highest-temperature-in-seattle-on-december-5-mjogoGN44OY4.jpg",
+      "eventSlug": "highest-temperature-in-seattle-on-may-13-2026",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "Chilitrading",
+      "pseudonym": "Thankful-Stream-Disaster",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6ea3f97d4a7c8e02eb6e2350518d3fb8043c5a61e1a607277a27d38dd4c639d8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the highest temperature in Seattle be between 60-61\u00b0F on May 13?",
+    "market_slug": "highest-temperature-in-seattle-on-may-13-2026",
+    "amount": 1.1111109999999997,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Forecasts indicate Seattle's high temperature on May 13 will be below 60\u00b0F.\nThe National Weather Service forecasts a high near 58\u00b0F for Seattle on May 13, with partly sunny skies and a 40-50% chance of afternoon showers. (polymarket.com)\nAdditionally, FOX 13 Seattle reports that after reaching the low 80s on Tuesday, Wednesday's afternoon highs will only be in the upper 50s and low 60s, a significant drop from the previous day. (fox13seattle.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xfa8c233dac18d36ad836f4efe725e12a6796115f72faebe98dfffb164a7c8c5f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2375550d3b98ce364476c81f663a0b878cb0691f",
+      "side": "BUY",
+      "asset": "101280790431643559759182424937985334745022621677132216504446601366322597792637",
+      "conditionId": "0x839e37bb1814ba925b93dc903b74d75de2df755eba5068d8bb72b7001bc75b61",
+      "size": 15,
+      "price": 0.17,
+      "timestamp": 1778709423,
+      "title": "Will Albania advance through the second Eurovision Semi-Final?",
+      "slug": "will-albania-advance-through-the-second-eurovision-semi-final",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-albania-advance-through-the-second-eurovision-semi-final-PDFSbAInosEJ.png",
+      "eventSlug": "eurovision-2026-second-semi-final",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x234",
+      "pseudonym": "Prize-Obi",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xfa8c233dac18d36ad836f4efe725e12a6796115f72faebe98dfffb164a7c8c5f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Albania advance through the second Eurovision Semi-Final?",
+    "market_slug": "eurovision-2026-second-semi-final",
+    "amount": 12.45,
+    "ai_context": "[GPT] \u2705 COPY \u2014 Albania is among the top contenders in the second Eurovision semi-final, with strong odds favoring their advancement.\nAlbania's entry, \"N\u00e2n\" by Alis, is performing well in the betting markets, with odds indicating a 69% chance of qualifying. (polymarket.com) Additionally, the running order positions Albania's performance 13th, which is strategically favorable for audience recall and televoting. (eurovision.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x315b9e1dec497490fd7ddd3d40321c752359717adabe583e25c02a2a78272b23",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcdd4bb5ef1365e8b7db5282c4632051850687696",
+      "side": "BUY",
+      "asset": "73272143443560281339901055897392881787480143433998690793086606440022966935256",
+      "conditionId": "0x6bd1432dbf466aa293130b9e8720cf6769f5d284663880e0a85007c0a5250544",
+      "size": 21.739129,
+      "price": 0.45999998435999895,
+      "timestamp": 1778709423,
+      "title": "Spread: Avalanche (-1.5)",
+      "slug": "nhl-min-col-2026-05-13-spread-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-min-col-2026-05-13",
+      "outcome": "Avalanche",
+      "outcomeIndex": 0,
+      "name": "Cezzar1",
+      "pseudonym": "Precious-Mayor",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/1588235598_38_p_krutie_arti_na_belom_fone_80_8113519c-b3d4-4cc1-94fb-9178fb35ab7f_1727343883451.jpeg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x315b9e1dec497490fd7ddd3d40321c752359717adabe583e25c02a2a78272b23",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Avalanche (-1.5)",
+    "market_slug": "nhl-min-col-2026-05-13",
+    "amount": 9.999998999999999,
+    "ai_context": "[Grok] \u2705 COPY \u2014 The Avalanche have won their last four games by an average margin of over two goals, showing strong recent form that supports covering the -1.5 spread.\nThey defeated the Oilers 5-2, the Flames 4-1, and the Golden Knights 3-0 in their most recent outings, indicating a potent offense and solid defense. (nhl.com) While odds at 46% suggest it's a close call, the trader's track record makes this a bet worth following.",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x24541143f1ac356e8309eec561f7a0583a9764a27b497c8389b4e67dced14a8e",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12607996.646680115,
+      "volume": 290156779.1802669,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2797dd4fcbcbb209bd14545307c4ae1e3e99a427",
+      "side": "SELL",
+      "asset": "38310927461258927563020508025396887688249787380193911540547071417200646834355",
+      "conditionId": "0x1a01bf78f56a507fcb666d564d8c8b91b0750679163ed6e96746102c9b7d285d",
+      "size": 8.86,
+      "price": 0.705,
+      "timestamp": 1778709423,
+      "title": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+      "slug": "will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-flvio-bolsonaro-win-the-2026-brazilian-presidential-election-LUNiqIvy01pf.jpg",
+      "eventSlug": "brazil-presidential-election",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x2797DD4FCbCbB209bD14545307c4AE1E3e99a427-1776554310738",
+      "pseudonym": "Elated-Cloakroom",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x24541143f1ac356e8309eec561f7a0583a9764a27b497c8389b4e67dced14a8e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Fl\u00e1vio Bolsonaro win the 2026 Brazilian presidential election?",
+    "market_slug": "brazil-presidential-election",
+    "amount": 2.6137,
+    "ai_context": "[Grok] \u2705 COPY \u2014 Recent polls and expert analysis indicate Fl\u00e1vio Bolsonaro has very low support, making his chances of winning the 2026 Brazilian presidential election slim.  \nAccording to the latest Datafolha poll from October 2023, Fl\u00e1vio Bolsonaro has only about 5% voter support, while leading candidates like Lula da Silva hold around 45%, and political experts note the Bolsonaro family's declining influence due to ongoing legal issues and public fatigue. (datafolha.com.",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok"
   }
 ]
