@@ -238,7 +238,7 @@ def update_wallet_stats(wallet: str, trade_data: Dict):
             total_trades = row[0] + 1
             pre_event_trades = row[1] + (1 if trade_data.get('is_pre_event') else 0)
             total_volume = row[2] + trade_data.get('size', 0)
-            old_avg_latency = row[3]
+            old_avg_latency = row[3] or 0
             
             # Update latency average
             if trade_data.get('latency_seconds') and trade_data['latency_seconds'] > 0:
@@ -440,7 +440,7 @@ def calculate_insider_score(pre_event_trades: int, total_trades: int, avg_latenc
     
     # Latency score (higher latency = higher score)
     # >30 min = max score
-    latency_score = min(avg_latency / 1800 * 100, 100) * 0.50 if avg_latency > 0 else 0
+    latency_score = min(avg_latency / 1800 * 100, 100) * 0.50 if avg_latency and avg_latency > 0 else 0
     
     total_score = pre_event_score + latency_score
     return round(total_score, 2)
