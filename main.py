@@ -309,7 +309,9 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_extreme_odds += 1
                     continue
                 
-                if cost < 1000:  # Skip small trades (match MIN_BET_SIZE)
+                # Size filter: top-5 bypass (any bet is informative), rest need $1K+
+                trader_rank = trader_info.get('rank', 99)
+                if trader_rank > 5 and cost < 1000:
                     tt_small += 1
                     continue
                 
@@ -365,7 +367,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${cost:,.0f} {outcome} @ {effective_odds*100:.0f}% on {market_name[:50]}")
         
         print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
-        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1K)={tt_small}, crypto={tt_crypto}, low_roi={tt_low_roi}, bad_trader={tt_bad_trader}")
+        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1K,rank>5)={tt_small}, crypto={tt_crypto}, low_roi={tt_low_roi}, bad_trader={tt_bad_trader}")
         return alerts
         
     except Exception as e:
