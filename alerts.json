@@ -23801,7 +23801,15 @@
     "amount": 1999.999998,
     "ai_context": "\u2705 COPY \u2014 Carreno Busta has a recent win over Wawrinka and a strong record against lower-ranked opponents.\nHe defeated Wawrinka 7-5, 6-4 in their last encounter in July 2022. (tennisratio.com) In the past 52 weeks, Carreno Busta holds a 30-12 record against opponents ranked outside the top 100. (tennisratio.com)",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-05T07:55:11.522334+00:00"
+    "resolution_last_check": "2026-05-05T07:55:11.522334+00:00",
+    "resolution": {
+      "outcome": "EXPIRED",
+      "checked_at": "2026-05-13T08:33:55.381937+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null,
+      "note": "Market date 2026-05-05 >7 days ago, removed from API"
+    }
   },
   {
     "market": "Arsenal FC vs. Club Atl\u00e9tico de Madrid: Both Teams to Score",
@@ -27593,7 +27601,14 @@
     },
     "ai_context": "\u274c SKIP \u2014 El Gouna SC has been inconsistent recently, with only one win in their last five matches.\nTheir recent form includes a 1-0 victory over Pharco FC on April 24, 2026, but also includes a 1-1 draw against Haras El Hodood on April 29, 2026, and a 2-2 draw against ZED on May 3, 2026. (betexplorer.com)\nHowever, the trader may have access to insider information or analysis not yet public.",
     "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-11T08:59:22.061221+00:00"
+    "resolution_last_check": "2026-05-11T08:59:22.061221+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:17.857945+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -2209.24
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27870,7 +27885,14 @@
     },
     "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 El Gouna SC's recent form and home advantage suggest a potential win.\nEl Gouna SC has been inconsistent recently, with a record of 1 win, 3 draws, and 1 loss in their last five matches. Their most recent match was a 2-2 draw against ZED on May 3, 2026. (betexplorer.com) However, they have a slight edge over Kahrabaa Ismailia FC, having secured a 1-0 victory in their previous encounter in August 2025. (polymarket.",
     "ai_verdict": "LEAN_COPY",
-    "resolution_last_check": "2026-05-11T08:59:26.022493+00:00"
+    "resolution_last_check": "2026-05-11T08:59:26.022493+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:17.858018+00:00",
+      "insider_win": true,
+      "model_correct": true,
+      "pnl": 2812.88
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28883,7 +28905,14 @@
     "amount": 2788.099999,
     "ai_context": "\u2705 COPY \u2014 Top Esports has a dominant head-to-head record against Ninjas in Pyjamas.\nIn their last five encounters, Top Esports secured four victories, including a 3-1 win in the LPL Split 3 2025 Playoffs. (egamersworld.com)\nTop Esports has shown strong recent form, winning three of their last five matches, including victories over JD Gaming and Team WE. (egamersworld.com)\nNinjas in Pyjamas have struggled recently, losing four of their last five matches, including a 3-0 defeat to JD Gaming.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-12T08:27:11.581101+00:00"
+    "resolution_last_check": "2026-05-12T08:27:11.581101+00:00",
+    "resolution": {
+      "outcome": "Ninjas in Pyjamas",
+      "checked_at": "2026-05-13T08:34:19.077764+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2788.1
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29645,7 +29674,14 @@
     "market_slug": "lol-ig1-blg-2026-05-12",
     "amount": 1290.0,
     "ai_context": "\u274c SKIP \u2014 Invictus Gaming has a 33% win rate over the past 30 days and a 33% win rate in their last 10 matches against Bilibili Gaming.\nIn their last 10 encounters, Bilibili Gaming won 8 times, while Invictus Gaming won 2 times. (tips.gg)\nHowever, the trader may have access to insider information or sharp analysis not reflected in the available data.\nGiven the current statistics, it is advisable to SKIP this bet.",
-    "ai_verdict": "SKIP"
+    "ai_verdict": "SKIP",
+    "resolution": {
+      "outcome": "Bilibili Gaming",
+      "checked_at": "2026-05-13T08:34:22.483100+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1290.0
+    }
   },
   {
     "market": "Internazionali BNL d'Italia: Andrey Rublev vs Nikoloz Basilashvili",
@@ -29755,7 +29791,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Andrey Rublev has a favorable head-to-head record against Nikoloz Basilashvili and has been in strong form recently.\nRublev leads their head-to-head 4-3, with their most recent encounter in January 2025, where Rublev won 5-2. (tennisratio.com) In the last 52 weeks, Rublev has a 39-23 win-loss record, while Basilashvili has a 41-31 record. (tennisratio.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Andrey Rublev",
+      "checked_at": "2026-05-13T08:34:24.746070+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1278.69
+    }
   },
   {
     "market": "Internazionali BNL d'Italia: Andrey Rublev vs Nikoloz Basilashvili",
@@ -29865,7 +29908,14 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "\u2705 COPY \u2014 Andrey Rublev has a favorable head-to-head record against Nikoloz Basilashvili and has been in strong form recently.\nRublev leads their head-to-head 4-3, with their most recent encounter in January 2025, where Rublev won 5-2. (tennisratio.com) In the last 52 weeks, Rublev has a 39-23 record, while Basilashvili has a 41-31 record. (tennisratio.com)",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "Andrey Rublev",
+      "checked_at": "2026-05-13T08:34:24.746138+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 656.05
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29911,7 +29961,14 @@
     "market_slug": "nba-min-sas-2026-05-12",
     "amount": 4385.9802,
     "ai_context": "\u2705 COPY \u2014 Recent matchups and head-to-head record favor the Timberwolves.\nIn the last five games, the Timberwolves have won three, including a 104-102 victory on May 4, 2026. Historically, the Timberwolves lead the series 19-13 across 32 meetings. (trendlinelabs.ai) However, the Timberwolves are currently without star player Anthony Edwards due to a knee injury. (axios.com)\nGiven the Timberwolves' recent form and favorable head-to-head record, the bet on the Timberwolves is supported.",
-    "ai_verdict": "COPY"
+    "ai_verdict": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:25.857847+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29958,7 +30015,14 @@
     "amount": 3000.0,
     "ai_context": "[GPT] \u274c SKIP \u2014 Vitality's superior recent form and head-to-head record suggest a likely win.\nVitality has won 5 of their last 5 matches and is ranked 1, while BetBoom has won 3 of their last 5 matches and is ranked 17. (strafe.com) Additionally, Vitality holds a 3-0 head-to-head record against BetBoom. (hltv.org) However, BetBoom's recent qualification for IEM Atlanta 2026 and their victory over B8 in the upper bracket final indicate potential for an upset. (esportsinsider.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "BetBoom Team",
+      "checked_at": "2026-05-13T08:34:27.041638+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 7000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30005,7 +30069,14 @@
     "amount": 1359.009996,
     "ai_context": "[GPT] \u274c SKIP \u2014 Vitality has a flawless 3-0 head-to-head record against BetBoom Team.\nIn their most recent encounter, Vitality dominated with a 2-0 sweep, including a 13-7 victory on Mirage and a 13-10 win on Dust2. (polymarket.com)\nWhile BetBoom Team has shown resilience, their recent roster changes, including the return of Alexander \"zorte\" Zagodyrenko, may impact team cohesion. (hawk.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "BetBoom Team",
+      "checked_at": "2026-05-13T08:34:27.041701+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 185.32
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30052,7 +30123,14 @@
     "amount": 3578.322,
     "ai_context": "[Grok] \u274c SKIP \u2014 The Los Angeles Angels have a poor recent record and a losing head-to-head against the Cleveland Guardians, making this underdog bet unlikely to succeed.\nThe Angels are 3-7 in their last 10 games, including losses in their most recent series, and they've lost 4 of their last 5 head-to-head matchups against the Guardians, with the Guardians outscoring them in those games. (espn.",
     "ai_verdict": "SKIP",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "Cleveland Guardians",
+      "checked_at": "2026-05-13T08:34:28.308471+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3578.32
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30099,7 +30177,8 @@
     "amount": 6239.134400000001,
     "ai_context": "[Grok] \u274c SKIP \u2014 The Pistons have a poor recent record and have lost their last three games against the Cavaliers, making this bet hard to support.\nThe Pistons are 2-8 in their last 10 games, including losses in their final five of the season, and they ended with a 14-68 overall record for 2023-2024. In head-to-head matchups, the Cavaliers won all three of their most recent games against the Pistons, including a 109-99 victory on April 12, 2024 (espn.com).",
     "ai_verdict": "SKIP",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution_last_check": "2026-05-13T08:34:29.126994+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30146,7 +30225,14 @@
     "amount": 1849.6464399999998,
     "ai_context": "[Grok] \u2705 LEAN COPY \u2014 The trader may have insider knowledge of potential political shifts or economic events that could lead to Powell's early exit.\nRecent reports indicate Powell has not announced any plans to resign and is actively fulfilling his duties, with his last public statement in October 2023 reaffirming commitment to his term (reuters.com). However, the upcoming 2024 US election could introduce uncertainty, as a change in administration might affect his position.",
     "ai_verdict": "LEAN_COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:30.391674+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1849.65
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30193,7 +30279,14 @@
     "amount": 1613.8136000000002,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Tigers and Mets have consistently exceeded 7.5 total runs.\nIn their last three encounters, the games ended with scores of 8-10, 5-12, and 6-2, all surpassing the 7.5-run mark. (aiscore.com)\nAdditionally, the Mets' recent games have seen high-scoring outcomes, with totals of 11, 9.5, and 10.5 runs in their last three matches. (lineups.com)\nGiven these trends, betting on the Over appears to be a favorable choice.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "New York Mets",
+      "checked_at": "2026-05-13T08:34:31.642225+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30240,7 +30333,14 @@
     "amount": 2006.6000000000001,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups and head-to-head record favor the Spurs.\nIn the last five games, the Spurs have won three, including a decisive 133-95 victory on May 6, 2026. Historically, the Spurs lead the Timberwolves 96-46 in their all-time series. (statmuse.com)\nGiven the Spurs' recent form and strong historical performance against the Timberwolves, the trader's bet appears well-supported.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:31.642301+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30287,7 +30387,14 @@
     "amount": 11440.0,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Timberwolves and Spurs have consistently exceeded the 217.5 point total.\nIn their last three games, the combined scores were 265, 228, and 227 points, all surpassing the 217.5 line. (landofbasketball.com) Additionally, the most recent game on May 10, 2026, ended with a total of 223 points. (statmuse.com) Both teams have been scoring efficiently, with the Timberwolves averaging 119.7 points and the Spurs 108.7 points in their last three encounters.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:32.794943+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -11440.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30334,6 +30441,13 @@
     "amount": 1042.6000000000001,
     "ai_context": "[GPT] \u2705 COPY \u2014 Elon Musk's recent behavior and established tweet cadence suggest he will post more than 99 tweets between May 8 and May 15, 2026.\nOn May 8, 2026, Musk posted a provocative tirade in French against judges investigating his platform, X, indicating active engagement. (lemonde.fr) Historically, Musk's weekly tweet volume has consistently exceeded 100, with periods of heightened activity surpassing 200 tweets per week. (predictop.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-13T08:34:34.032711+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 257.4
+    }
   }
 ]
