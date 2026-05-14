@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x6eb63f34d1bc52edf8bd5891d012ee1489a2fb2e922c6b39855eb91b77f48e6a",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 12,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd1001f4ef07ee37774934a8bc0083185ef6b853d",
-      "side": "BUY",
-      "asset": "20231811853655481545057633462480601574938055495839824387330267229179183297479",
-      "conditionId": "0x4ff6250981611560e2c35d56c404e109c152fdc40c43c1c277f5129770d79fd6",
-      "size": 4921.470314,
-      "price": 0.48999999994797855,
-      "timestamp": 1775738975,
-      "title": "Cincinnati Reds vs. Miami Marlins",
-      "slug": "mlb-cin-mia-2026-04-09",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-cin-mia-2026-04-09",
-      "outcome": "Cincinnati Reds",
-      "outcomeIndex": 0,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6eb63f34d1bc52edf8bd5891d012ee1489a2fb2e922c6b39855eb91b77f48e6a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cincinnati Reds vs. Miami Marlins",
-    "market_slug": "mlb-cin-mia-2026-04-09",
-    "amount": 2411.5204536039782,
-    "ai_context": "FAIR. The Reds have shown competitive performance, but the Marlins' recent form and home advantage make it a balanced matchup.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451013+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-09 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xc54d069ab655cf7d843874db4643211303a491306341f7d3fb25b130bf60522c",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29648,6 +29595,54 @@
     "market_slug": "will-trump-publicly-insult-someone-on-312",
     "amount": 207.3651,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0414\u043e\u043d\u0430\u043b\u044c\u0434 \u0422\u0440\u0430\u043c\u043f \u0432\u044b\u0438\u0433\u0440\u0430\u043b \u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0441\u043a\u0438\u0435 \u0432\u044b\u0431\u043e\u0440\u044b \u0432 \u043d\u043e\u044f\u0431\u0440\u0435 2024 \u0433\u043e\u0434\u0430 \u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u043b \u0432 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c 20 \u044f\u043d\u0432\u0430\u0440\u044f 2025 \u0433\u043e\u0434\u0430. (politifact.com)\n\u0421 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u0432\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0432 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c \u0422\u0440\u0430\u043c\u043f \u043d\u0435 \u0434\u0435\u043b\u0430\u043b \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0445 \u043e\u0441\u043a\u043e\u0440\u0431\u043b\u0435\u043d\u0438\u0439.\n[Grok] \u2705 COPY  \nTrump insulted opponents in 80% of his 2023-2024 public appearances, including attacks on Biden and Haley.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb8e5847fa6729d6b9eef0fcc4be2392bb795e29e382c9a78e2f80f2f1f6e1c01",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x29b52d98ac9ef9414b04164246c95bc63d74cc6c",
+      "side": "BUY",
+      "asset": "76533479795953557045933762456623610365776507564156360334652325054835167222600",
+      "conditionId": "0x37f292474ad290ae4fd7e303d5711549b0b29667c224531d13e172fe57f9d1ea",
+      "size": 2035.57,
+      "price": 0.54,
+      "timestamp": 1778798271,
+      "title": "Counter-Strike: Johnny Speeds vs ex-RUBY (BO3) - NODWIN Clutch Series Group Stage",
+      "slug": "cs2-js1-ruby1-2026-05-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-js1-ruby1-2026-05-15",
+      "outcome": "ex-RUBY",
+      "outcomeIndex": 1,
+      "name": "loitterer",
+      "pseudonym": "Rash-Barometer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb8e5847fa6729d6b9eef0fcc4be2392bb795e29e382c9a78e2f80f2f1f6e1c01",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Johnny Speeds vs ex-RUBY (BO3) - NODWIN Clutch Series Group Stage",
+    "market_slug": "cs2-js1-ruby1-2026-05-15",
+    "amount": 936.3621999999999,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nex-RUBY \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 1-2 \u043f\u0440\u043e\u0442\u0438\u0432 Johnny Speeds 11 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430\nex-RUBY \u0438\u0433\u0440\u0430\u044e\u0442 \u0441 \u0437\u0430\u043c\u0435\u043d\u0430\u043c\u0438: robo \u0438 relaxxie \u0432\u043c\u0435\u0441\u0442\u043e Kaide\n[Grok] \u2705 COPY  \nex-RUBY \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-1 \u043d\u0430\u0434 Team A  \nH2h: ex-RUBY \u0432\u0435\u0434\u0443\u0442 3-1 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 Johnny Speeds",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
