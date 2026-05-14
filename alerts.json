@@ -1,112 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc3523dbe988554b846b20d07034db55af59eb4b0e95e20888b907b1bd78d55a2",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 11,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5690470.32453503,
-      "volume": 635010333.03912,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x04fe6d659b91fdfa9fcbef2c048fc2435c063688",
-      "side": "BUY",
-      "asset": "57671111904343297017035559331206968340219293155722507171442770347401653986711",
-      "conditionId": "0xc31f282a30746ae49954e23d92d23aa6c129d008d07b0f47686db178554e32d8",
-      "size": 7159.25393,
-      "price": 0.69,
-      "timestamp": 1775678049,
-      "title": "Thunder vs. Clippers",
-      "slug": "nba-okc-lac-2026-04-08",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-okc-lac-2026-04-08",
-      "outcome": "Thunder",
-      "outcomeIndex": 0,
-      "name": "0x04fE6D659B91fdfa9FCBEF2c048fc2435c063688-1773212153836",
-      "pseudonym": "Miserly-Wheat",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc3523dbe988554b846b20d07034db55af59eb4b0e95e20888b907b1bd78d55a2",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Thunder vs. Clippers",
-    "market_slug": "nba-okc-lac-2026-04-08",
-    "amount": 4939.8852117,
-    "ai_context": "OVERPRICED. The Clippers have a strong roster and recent matchups favor them, making 69% too high for the Thunder.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450981+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-08 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x77fcbac180deab67177677547777fb50a79685b5d3747f155b9fc6ad581c2317",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 18,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4407388.904966463,
-      "volume": 324092945.374786,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6165eea4a70294502eaafe6a6abdcfae35c8db3c",
-      "side": "BUY",
-      "asset": "9213001199289032600476375692888468551012982184429350232585347601594417764501",
-      "conditionId": "0xcb9afbb3743319a44d41ab2a5236acc0d988718897dcdb26f4eae126e0a86075",
-      "size": 2072.072105,
-      "price": 0.8099999999280213,
-      "timestamp": 1775687953,
-      "title": "Timberwolves vs. Magic",
-      "slug": "nba-min-orl-2026-04-08",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-min-orl-2026-04-08",
-      "outcome": "Magic",
-      "outcomeIndex": 1,
-      "name": "0x6165EEa4a70294502EAafe6A6abdCFAE35c8Db3c-1763787021961",
-      "pseudonym": "Sad-Cashier",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x77fcbac180deab67177677547777fb50a79685b5d3747f155b9fc6ad581c2317",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Timberwolves vs. Magic",
-    "market_slug": "nba-min-orl-2026-04-08",
-    "amount": 1678.378404900855,
-    "ai_context": "UNDERPRICED. The Magic's 19% implies a low chance against a stronger Timberwolves team, considering recent performance and matchup history.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450990+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-08 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7297a85af62eb17933fafc4aa712c1395f193783215a05001a5dcd4146fb9897",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -29672,5 +29566,99 @@
     "ai_context": "[Grok] \u2705 COPY \u2014 Recent reports indicate ongoing disruptions in the Strait of Hormuz due to heightened tensions, supporting the bet that traffic won't return to normal by end of June.\nAttacks by Houthi rebels and Iranian seizures have kept shipping volumes below pre-disruption levels in the past few months, with no major de-escalation agreements in sight as of early June 2024. (Reuters.com)\nThis aligns with the trader's edge, so I recommend copying the bet.",
     "ai_verdict": "COPY",
     "ai_model": "Grok"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x59ac7a27da9fcb7c7ffb4ff30722b0119ecd7c947007dd655a07f2b451dd636a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2761f55122313a7c2fd0a31c160b0eb04f744d95",
+      "side": "BUY",
+      "asset": "104338747154603002844987239941922569210384942500538450135525032161551865475607",
+      "conditionId": "0x419754eb7f03a876523b326a12cf1ad284464ea8796c50175e22aa197893fce5",
+      "size": 408.66,
+      "price": 0.4901140312240004,
+      "timestamp": 1778772273,
+      "title": "Dota 2: Vici Gaming vs Virtus.pro - Game 2 Winner",
+      "slug": "dota2-vg-vp-2026-05-14-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-vg-vp-2026-05-14",
+      "outcome": "Virtus.pro",
+      "outcomeIndex": 1,
+      "name": "LooksLikePrintingBro",
+      "pseudonym": "Miserable-Harmonica",
+      "bio": "Losing money",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x59ac7a27da9fcb7c7ffb4ff30722b0119ecd7c947007dd655a07f2b451dd636a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Vici Gaming vs Virtus.pro - Game 2 Winner",
+    "market_slug": "dota2-vg-vp-2026-05-14",
+    "amount": 208.37,
+    "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head record are mixed, but Virtus.pro's recent victories suggest potential.\nIn their last five matches, Virtus.pro secured four wins, including a 2-1 victory over Xtreme Gaming on May 12, 2026. Their head-to-head record against Vici Gaming stands at 7 wins for Virtus.pro and 9 for Vici Gaming. Notably, Virtus.pro won the most recent encounter between the two teams in October 2022. (egamersworld.",
+    "ai_verdict": "LEAN_COPY",
+    "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x307b1bde90c23a391ce5cc816818fbc5342aae7a0edfb2c00c0448fdf4e2a021",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2e3c40fa47b27c676ddd573064162f57d51508ba",
+      "side": "BUY",
+      "asset": "67421915992736430220648860242726225653417372024010988760532699023094346737970",
+      "conditionId": "0x126f2852525594acf090a824355b72f3e05763a8f175c49cc8daf392966badf9",
+      "size": 658,
+      "price": 0.79,
+      "timestamp": 1778772271,
+      "title": "LoL: G2 Esports vs Natus Vincere - Game 1 Winner",
+      "slug": "lol-g2-navi-2026-05-14-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-g2-navi-2026-05-14",
+      "outcome": "G2 Esports",
+      "outcomeIndex": 0,
+      "name": "BookWarrior",
+      "pseudonym": "Tasty-Gobbler",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x307b1bde90c23a391ce5cc816818fbc5342aae7a0edfb2c00c0448fdf4e2a021",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: G2 Esports vs Natus Vincere - Game 1 Winner",
+    "market_slug": "lol-g2-navi-2026-05-14",
+    "amount": 519.82,
+    "ai_context": "[GPT] \u2705 COPY \u2014 G2 Esports has a strong recent record and a favorable head-to-head against Natus Vincere.\nG2 Esports has won 3 of their last 5 matches, including a 2-0 victory over Natus Vincere on May 3, 2026. (bo3.gg) Natus Vincere has also won 3 of their last 5 matches, but their most recent loss was to G2 Esports. (strafe.com)",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT"
   }
 ]
