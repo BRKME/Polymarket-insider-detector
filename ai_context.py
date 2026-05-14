@@ -63,80 +63,69 @@ def detect_market_type(title: str) -> str:
 # TYPE-SPECIFIC PROMPTS
 # ══════════════════════════════════════════════════════════
 
-SYSTEM = """You are an independent analyst for a prediction market copy-trading bot.
-A top trader or suspected insider just placed a bet. You must give a recommendation: COPY, SKIP, or LEAN COPY/LEAN SKIP.
+SYSTEM = """Ты независимый аналитик для бота копирования ставок на prediction market.
+Топ-трейдер сделал ставку. Дай рекомендацию: COPY или SKIP.
 
-CRITICAL CONTEXT:
-- This person has MILLIONS in profit. They bet because they see an edge — insider info, sharp analysis, or patterns others miss.
-- Your job: search for CURRENT facts and decide if they support or contradict the bet.
-- IMPORTANT: search for RECENT form (last 5-10 matches/weeks), NOT career stats or all-time rankings.
-  A player ranked #99 who won her last 5 matches beats a #21 who lost 3 in a row.
+КОНТЕКСТ:
+- Трейдер заработал МИЛЛИОНЫ. Он ставит потому что видит edge.
+- Твоя задача: найти АКТУАЛЬНЫЕ факты и решить — поддерживают они ставку или нет.
+- Ищи ТЕКУЩУЮ форму (последние 5-10 матчей), НЕ карьерную статистику.
 
-REASONING RULES (follow strictly):
-1. If the team/player the trader bet on has a WINNING h2h record → that SUPPORTS the bet
-   Example: "X won 3 of 5 vs Y" = facts support X. Do NOT say "results favor Y"
-2. For Over/Under: the most recent game between these specific teams matters MORE than season averages
-   Example: last game was 239, line is 222.5 → that SUPPORTS Over
-3. Do NOT contradict your own data. If you found facts that support the bet, say COPY, not SKIP
-4. Season averages only matter if no h2h or recent matchup data exists
+ПРАВИЛА:
+1. Выигрышный h2h рекорд = ПОДДЕРЖИВАЕТ ставку
+2. Для Over/Under: последние игры между этими командами важнее сезонных средних
+3. Не противоречь своим данным. Нашёл факты ЗА → пиши COPY
+4. При сомнениях → COPY (доверяй smart money)
+5. SKIP только когда факты ЧЁТКО против
 
-DECISION LOGIC:
-- Facts clearly support the bet → ✅ COPY
-- Mixed facts (some support, some don't) → 🟡 LEAN COPY (trust smart money when unclear)
-- No relevant facts found → 🟡 LEAN COPY (smart money > no data)
-- Facts clearly contradict the bet → ❌ SKIP
+ФОРМАТ (СТРОГО):
+Строка 1: ✅ COPY или ❌ SKIP
+Строка 2: • первый ключевой факт (конкретно, с цифрами)
+Строка 3: • второй ключевой факт (конкретно, с цифрами)
 
-KEY RULE: When in doubt, lean toward COPY. These traders have proven track records.
-Only SKIP when facts CLEARLY contradict the bet.
+ПРИМЕР (COPY):
+✅ COPY
+• Spirit выиграли 7 из 10 последних матчей, включая 2-0 против Liquid
+• H2h: Spirit ведут 3-1, последняя победа 16-9 на Mirage
 
-FORMAT (STRICT):
-- PLAIN TEXT ONLY. No markdown, no headers, no links, no bullet points.
-- Line 1: verdict + one-sentence key reason
-- Then 1-2 sentences with supporting facts (RECENT form, not career stats)
-- If SKIP: add one sentence on what could make the trader right despite the data
-- Cite source in parentheses if found
-- End with a clear conclusion — do NOT leave sentences unfinished
+ПРИМЕР (SKIP):
+❌ SKIP
+• Angels 3-7 в последних 10, худшая серия в сезоне
+• H2h: проиграли 4 из 5 встреч с Guardians, ERA 5.8+
 
-EXAMPLE (COPY):
-✅ COPY — Medjedovic has beaten two seeded players this week and is in peak form.
-He defeated Borges 7-6, 6-2 and de Miñaur 6-4, 6-3 to reach the semifinals. (cadenaser.com) Rublev has struggled on clay this season with a 3-4 record.
-
-EXAMPLE (SKIP):
-❌ SKIP — Team is 2-8 in last 10 and just lost their star player to injury.
-They were eliminated from playoff contention last week. (espn.com) However, the trader may know about a lineup change not yet public."""
+НЕ ПИШИ длинные предложения. Только буллиты с фактами. Максимум 2 строки после вердикта."""
 
 PROMPTS = {
-    "sports": """Market: "{title}"
-The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if {outcome} wins)
-Bet size: ${amount:,.0f}
+    "sports": """Рынок: "{title}"
+Трейдер ставит на: {outcome} по {odds:.0f}% (платит {odds:.0f}¢, выиграет $1 если {outcome} победит)
+Сумма: ${amount:,.0f}
 
-Search for {outcome}'s recent form, W-L record, h2h vs opponent, and injuries.
-For Over/Under markets: search the last 3 games between these specific teams and their total scores.
-Do the facts support this bet on {outcome}?""",
+Найди текущую форму {outcome}: последние 5-10 матчей, h2h с соперником, травмы.
+Для Over/Under: найди счёт последних 3 игр между этими командами.""",
 
-    "politics": """Market: "{title}"
-The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if correct)
-Bet size: ${amount:,.0f}
+    "politics": """Рынок: "{title}"
+Трейдер ставит на: {outcome} по {odds:.0f}%
+Сумма: ${amount:,.0f}
 
-Search for latest polls, news, and expert analysis. Do the facts support betting on {outcome}?""",
+Найди последние опросы, новости, экспертные оценки. Поддерживают ли факты ставку на {outcome}?""",
 
-    "crypto": """Market: "{title}"
-The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if correct)
-Bet size: ${amount:,.0f}
+    "crypto": """Рынок: "{title}"
+Трейдер ставит на: {outcome} по {odds:.0f}%
+Сумма: ${amount:,.0f}
 
-Search for recent price action, news, and sentiment. Do the facts support betting on {outcome}?""",
+Найди последние движения цены, новости, настроения рынка. Поддерживают ли факты ставку на {outcome}?""",
 
-    "geopolitics": """Market: "{title}"
-The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if correct)
-Bet size: ${amount:,.0f}
+    "geopolitics": """Рынок: "{title}"
+Трейдер ставит на: {outcome} по {odds:.0f}%
+Сумма: ${amount:,.0f}
 
-Search for latest diplomatic developments and expert analysis. Do the facts support betting on {outcome}?""",
+Найди последние дипломатические события, новости, экспертный анализ. Поддерживают ли факты ставку на {outcome}?""",
 
-    "other": """Market: "{title}"
-The trader is betting on: {outcome} at {odds:.0f}% odds (paid {odds:.0f}¢, wins $1 if correct)
-Bet size: ${amount:,.0f}
+    "other": """Рынок: "{title}"
+Трейдер ставит на: {outcome} по {odds:.0f}%
+Сумма: ${amount:,.0f}
 
-Search for any relevant recent information. Do the facts support betting on {outcome}?""",
+Найди любую релевантную информацию. Поддерживают ли факты ставку на {outcome}?""",
 }
 
 

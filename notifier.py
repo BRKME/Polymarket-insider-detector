@@ -606,13 +606,7 @@ def _parse_dual_ai(ai_context: str) -> dict:
         short = _first_sentences(clean)
         lines.append(f"🤖 Grok {grok_emoji} {short}")
     
-    # Consensus line
-    if consensus == "COPY" and len(lines) == 2:
-        lines.insert(0, "✅ ОБЕ МОДЕЛИ: COPY")
-    elif consensus == "SKIP" and len(lines) == 2:
-        lines.insert(0, "❌ ОБЕ МОДЕЛИ: SKIP")
-    elif consensus == "SPLIT" and len(lines) == 2:
-        lines.insert(0, "⚡ МОДЕЛИ РАЗОШЛИСЬ")
+    # Consensus line — removed, now handled by verdict line in alert builder
     
     return {
         "consensus": consensus,
@@ -623,7 +617,7 @@ def _parse_dual_ai(ai_context: str) -> dict:
 
 
 def _extract_ai_short(ai_context: str, model: str) -> str:
-    """Extract short clean text for a specific model from dual AI response."""
+    """Extract clean bullet points for a specific model from dual AI response."""
     if not ai_context:
         return ""
     
@@ -642,22 +636,34 @@ def _extract_ai_short(ai_context: str, model: str) -> str:
             if next_idx > 0:
                 text = text[:next_idx].strip()
     
-    # Clean verdict prefix
-    for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—",
-                    "❌ SKIP -", "🟡 LEAN COPY —", "🟡 LEAN SKIP —",
-                    "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+    # Remove verdict prefix (✅ COPY / ❌ SKIP)
+    for prefix in ["✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
         if text.startswith(prefix):
             text = text[len(prefix):].strip()
+            if text.startswith("—") or text.startswith("-"):
+                text = text[1:].strip()
             break
     
-    # Take first 2 sentences
+    # Extract bullet lines (• lines)
+    bullets = []
+    for line in text.split('\n'):
+        line = line.strip()
+        if line.startswith('•'):
+            bullets.append(line)
+        elif line.startswith('- '):
+            bullets.append('• ' + line[2:])
+    
+    # If bullets found, return first 2
+    if bullets:
+        return '\n'.join(bullets[:2])
+    
+    # Fallback: take first 2 sentences
     sentences = re.split(r'\.(?!\d)', text)
     result = '.'.join(sentences[:2]).strip()
     if result and not result.endswith('.'):
         result += '.'
     if len(result) > 180:
         result = result[:177] + "..."
-    
     return result
 
 
@@ -817,13 +823,19 @@ def format_top_trader_alert(alert: Dict) -> str:
         gpt_label = "За" if ai["gpt_verdict"] == "COPY" else "Против"
         # Extract clean GPT text
         gpt_display = _extract_ai_short(ai_context, "GPT")
-        ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
+        if '\n' in gpt_display:
+            ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}\n{gpt_display}")
+        else:
+            ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
     
     if ai.get("grok_verdict") != "NONE":
         grok_emoji = "🟢" if ai["grok_verdict"] == "COPY" else "🟠"
         grok_label = "За" if ai["grok_verdict"] == "COPY" else "Против"
         grok_display = _extract_ai_short(ai_context, "Grok")
-        ai_lines.append(f"{grok_emoji} Grok: {grok_label}. {grok_display}")
+        if '\n' in grok_display:
+            ai_lines.append(f"{grok_emoji} Grok: {grok_label}\n{grok_display}")
+        else:
+            ai_lines.append(f"{grok_emoji} Grok: {grok_label}. {grok_display}")
     
     # === Assemble message ===
     sep = "—————————————————————"
@@ -998,12 +1010,18 @@ def format_institutional_alert(alert):
         gpt_emoji = "🟢" if gpt_v == "COPY" else "🟠"
         gpt_label = "За" if gpt_v == "COPY" else "Против"
         gpt_display = _extract_ai_short(ai_context, "GPT")
-        ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
+        if '\n' in gpt_display:
+            ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}\n{gpt_display}")
+        else:
+            ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
     if grok_v != "NONE":
         grok_emoji = "🟢" if grok_v == "COPY" else "🟠"
         grok_label = "За" if grok_v == "COPY" else "Против"
         grok_display = _extract_ai_short(ai_context, "Grok")
-        ai_lines.append(f"{grok_emoji} Grok: {grok_label}. {grok_display}")
+        if '\n' in grok_display:
+            ai_lines.append(f"{grok_emoji} Grok: {grok_label}\n{grok_display}")
+        else:
+            ai_lines.append(f"{grok_emoji} Grok: {grok_label}. {grok_display}")
     
     # Build
     sep = "—————————————————————"
