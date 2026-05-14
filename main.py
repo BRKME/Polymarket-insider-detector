@@ -28,14 +28,26 @@ def extract_ai_verdict(ai_context: str) -> str:
 
 
 def extract_ai_model(ai_context: str) -> str:
-    """Extract model tag [GPT] or [Grok] from AI response."""
+    """Extract model info from AI response."""
     if not ai_context:
         return "NONE"
-    if ai_context.startswith("[Grok]"):
+    if "[GPT]" in ai_context and "[Grok]" in ai_context:
+        return "Dual"
+    elif "[Grok]" in ai_context:
         return "Grok"
-    elif ai_context.startswith("[GPT]"):
+    elif "[GPT]" in ai_context:
         return "GPT"
     return "UNKNOWN"
+
+
+def extract_ai_consensus(ai_context: str) -> str:
+    """Extract consensus from dual AI response."""
+    if not ai_context:
+        return "NONE"
+    if ai_context.startswith("[CONSENSUS:"):
+        end = ai_context.index("]")
+        return ai_context[11:end]  # COPY, SKIP, SPLIT
+    return extract_ai_verdict(ai_context)
 
 
 def send_heartbeat(stats: Dict) -> None:
@@ -456,6 +468,7 @@ def main():
                 alert['ai_context'] = context
                 alert['ai_verdict'] = extract_ai_verdict(context)
                 alert['ai_model'] = extract_ai_model(context)
+                alert['ai_consensus'] = extract_ai_consensus(context)
                 print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
             print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")
@@ -502,6 +515,7 @@ def main():
                 alert['ai_context'] = context
                 alert['ai_verdict'] = extract_ai_verdict(context)
                 alert['ai_model'] = extract_ai_model(context)
+                alert['ai_consensus'] = extract_ai_consensus(context)
                 print(f"[{datetime.now()}] 🤖 AI: {context[:80]}")
         except Exception as e:
             print(f"[{datetime.now()}] ⚠️  AI skipped: {e}")

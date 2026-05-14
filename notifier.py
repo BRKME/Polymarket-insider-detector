@@ -530,6 +530,98 @@ def build_polymarket_url(trade_data: Dict, alert: Dict = None) -> str:
     return f"https://polymarket.com/event/{event_slug}"
 
 
+def _parse_dual_ai(ai_context: str) -> dict:
+    """
+    Parse dual AI response format:
+    [CONSENSUS:COPY] [GPT] text...\n[Grok] text...
+    
+    Returns: {consensus, gpt_text, grok_text, gpt_verdict, grok_verdict, display}
+    """
+    if not ai_context:
+        return {"consensus": "NONE", "display": ""}
+    
+    # Extract consensus tag
+    consensus = "NONE"
+    text = ai_context
+    if text.startswith("[CONSENSUS:"):
+        end = text.index("]")
+        consensus = text[11:end]  # COPY, SKIP, SPLIT
+        text = text[end+2:]       # skip "] "
+    
+    # Parse per-model responses
+    gpt_text = ""
+    grok_text = ""
+    
+    # Split by [GPT] and [Grok] tags
+    parts = re.split(r'\n?\[(?=GPT\]|\[?Grok\])', text)
+    for part in parts:
+        part = part.strip()
+        if part.startswith("GPT] "):
+            gpt_text = part[5:].strip()
+        elif part.startswith("Grok] "):
+            grok_text = part[6:].strip()
+        elif not gpt_text and not grok_text:
+            # Old single-model format
+            gpt_text = part
+    
+    # Determine per-model verdicts
+    def _get_verdict(t):
+        u = t.upper()
+        if "COPY" in u and "SKIP" not in u:
+            return "COPY"
+        elif "SKIP" in u:
+            return "SKIP"
+        return "UNCLEAR"
+    
+    gpt_verdict = _get_verdict(gpt_text) if gpt_text else "NONE"
+    grok_verdict = _get_verdict(grok_text) if grok_text else "NONE"
+    
+    # Clean verdict prefixes from display text
+    def _clean_verdict_prefix(t):
+        for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—", 
+                        "❌ SKIP -", "🟡 LEAN COPY —", "🟡 LEAN SKIP —",
+                        "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+            if t.startswith(prefix):
+                return t[len(prefix):].strip()
+        return t
+    
+    def _first_sentences(t, n=2):
+        sentences = re.split(r'\.(?!\d)', t)
+        result = '.'.join(sentences[:n]).strip()
+        if result and not result.endswith('.'):
+            result += '.'
+        return result[:200] if len(result) > 200 else result
+    
+    # Build display
+    gpt_emoji = "🟢" if gpt_verdict == "COPY" else "🔴" if gpt_verdict == "SKIP" else "🟡"
+    grok_emoji = "🟢" if grok_verdict == "COPY" else "🔴" if grok_verdict == "SKIP" else "🟡"
+    
+    lines = []
+    if gpt_text:
+        clean = _clean_verdict_prefix(gpt_text)
+        short = _first_sentences(clean)
+        lines.append(f"🤖 GPT {gpt_emoji} {short}")
+    if grok_text:
+        clean = _clean_verdict_prefix(grok_text)
+        short = _first_sentences(clean)
+        lines.append(f"🤖 Grok {grok_emoji} {short}")
+    
+    # Consensus line
+    if consensus == "COPY" and len(lines) == 2:
+        lines.insert(0, "✅ ОБЕ МОДЕЛИ: COPY")
+    elif consensus == "SKIP" and len(lines) == 2:
+        lines.insert(0, "❌ ОБЕ МОДЕЛИ: SKIP")
+    elif consensus == "SPLIT" and len(lines) == 2:
+        lines.insert(0, "⚡ МОДЕЛИ РАЗОШЛИСЬ")
+    
+    return {
+        "consensus": consensus,
+        "gpt_verdict": gpt_verdict,
+        "grok_verdict": grok_verdict,
+        "display": "\n".join(lines),
+    }
+
+
 def format_top_trader_alert(alert: Dict) -> str:
     """
     Format alert for top trader activity.
@@ -611,57 +703,10 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
-    # === AI verdict (compute FIRST — affects recommendation) ===
+    # === AI verdict (compute FIRST) ===
     ai_context = alert.get('ai_context')
-    ai_verdict = "NONE"
-    ai_reason = ""
-    ai_model_label = ""
-    if ai_context:
-        # Strip model tag [GPT] / [Grok]
-        if ai_context.startswith("[Grok] "):
-            ai_model_label = "Grok"
-            ai_context = ai_context[7:]
-        elif ai_context.startswith("[GPT] "):
-            ai_model_label = "GPT"
-            ai_context = ai_context[6:]
-        
-        ai_upper = ai_context.upper()
-        if "LEAN COPY" in ai_upper:
-            ai_verdict = "LEAN_COPY"
-            ai_emoji = "🟡"
-        elif "COPY" in ai_upper and "SKIP" not in ai_upper:
-            ai_verdict = "COPY"
-            ai_emoji = "🟢"
-        elif "SKIP" in ai_upper:
-            ai_verdict = "SKIP"
-            ai_emoji = "🔴"
-        else:
-            ai_verdict = "UNCLEAR"
-            ai_emoji = "🟡"
-        
-        # Extract reason text
-        clean = ai_context.strip()
-        for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—", "❌ SKIP -",
-                        "🟡 LEAN COPY —", "🟡 LEAN SKIP —", "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
-            if clean.startswith(prefix):
-                clean = clean[len(prefix):].strip()
-                break
-        
-        # Split into first sentence (conclusion) + rest (reasoning)
-        sentences = re.split(r'\.(?!\d)', clean)  # Don't split on decimal numbers (7.5)
-        first_sentence = sentences[0].strip()
-        if first_sentence and not first_sentence.endswith('.'):
-            first_sentence += '.'
-        rest = '.'.join(sentences[1:3]).strip()
-        if rest and not rest.endswith('.'):
-            rest += '.'
-        if len(rest) > 200:
-            rest = rest[:197] + "..."
-        
-        model_prefix = f" {ai_model_label}" if ai_model_label else ""
-        ai_reason = f"🤖{model_prefix} {ai_emoji} {first_sentence}"
-        if rest:
-            ai_reason += f"\n{rest}"
+    ai = _parse_dual_ai(ai_context)
+    ai_reason = ai["display"]
     
     # === Compute recommendation (contrarian ALWAYS active, AI = info only) ===
     wr_text = ""
@@ -840,52 +885,8 @@ def format_institutional_alert(alert):
     
     # AI verdict (compute FIRST)
     ai_context = alert.get('ai_context')
-    ai_verdict = "NONE"
-    ai_reason = ""
-    ai_model_label = ""
-    if ai_context:
-        # Strip model tag [GPT] / [Grok]
-        if ai_context.startswith("[Grok] "):
-            ai_model_label = "Grok"
-            ai_context = ai_context[7:]
-        elif ai_context.startswith("[GPT] "):
-            ai_model_label = "GPT"
-            ai_context = ai_context[6:]
-        
-        ai_upper = ai_context.upper()
-        if "LEAN COPY" in ai_upper:
-            ai_verdict = "LEAN_COPY"
-            ai_emoji = "🟡"
-        elif "COPY" in ai_upper and "SKIP" not in ai_upper:
-            ai_verdict = "COPY"
-            ai_emoji = "🟢"
-        elif "SKIP" in ai_upper:
-            ai_verdict = "SKIP"
-            ai_emoji = "🔴"
-        else:
-            ai_verdict = "UNCLEAR"
-            ai_emoji = "🟡"
-        
-        clean = ai_context.strip()
-        for prefix in ["✅ COPY —", "✅ COPY—", "❌ SKIP —", "❌ SKIP—", "✅ COPY", "❌ SKIP",
-                        "🟡 LEAN COPY —", "🟡 LEAN SKIP —", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
-            if clean.startswith(prefix):
-                clean = clean[len(prefix):].strip()
-                break
-        sentences = re.split(r'\.(?!\d)', clean)  # Don't split on decimal numbers (7.5)
-        first_sentence = sentences[0].strip()
-        if first_sentence and not first_sentence.endswith('.'):
-            first_sentence += '.'
-        rest = '.'.join(sentences[1:3]).strip()
-        if rest and not rest.endswith('.'):
-            rest += '.'
-        if len(rest) > 200:
-            rest = rest[:197] + "..."
-        
-        model_prefix = f" {ai_model_label}" if ai_model_label else ""
-        ai_reason = f"🤖{model_prefix} {ai_emoji} {first_sentence}"
-        if rest:
-            ai_reason += f"\n{rest}"
+    ai = _parse_dual_ai(ai_context)
+    ai_reason = ai["display"]
 
     # Recommendation — contrarian ALWAYS active, AI = info only
     rec_text = ""

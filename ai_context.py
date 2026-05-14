@@ -144,6 +144,18 @@ Search for any relevant recent information. Do the facts support betting on {out
 # MAIN
 # ══════════════════════════════════════════════════════════
 
+def _clean_ai_response(text: str) -> str:
+    """Clean markdown, URLs, and junk from AI response."""
+    text = text.strip('"').strip("'").strip()
+    text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)  # [text](url) → text
+    text = re.sub(r'#{1,3}\s*', '', text)                   # ## headers → plain
+    text = re.sub(r'https?://\S+', '', text)                # raw URLs
+    text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)          # **bold** → plain
+    text = re.sub(r'\n{2,}', '\n', text)                    # multi newlines
+    text = re.sub(r'^\s*[-•]\s*', '', text, flags=re.MULTILINE)  # bullet points
+    return text.strip()
+
+
 def generate_trade_context(
     market_title: str,
     outcome: str,
@@ -169,66 +181,85 @@ def generate_trade_context(
     )
 
     try:
-        # A/B test: even minute = GPT, odd minute = Grok
-        use_grok = XAI_API_KEY and (datetime.utcnow().minute % 2 == 1)
+        results = {}
         
-        if use_grok:
-            # Grok via xAI API (OpenAI-compatible)
-            client = OpenAI(
-                api_key=XAI_API_KEY,
-                base_url="https://api.x.ai/v1"
-            )
-            response = client.chat.completions.create(
-                model="grok-3-mini-fast",
-                messages=[
-                    {"role": "system", "content": SYSTEM},
-                    {"role": "user", "content": prompt},
-                ],
-                max_tokens=400,
-            )
-            model_tag = "[Grok]"
-        else:
-            # GPT with web search
-            client = OpenAI(api_key=OPENAI_API_KEY)
-            response = client.chat.completions.create(
+        # === Call GPT ===
+        try:
+            client_gpt = OpenAI(api_key=OPENAI_API_KEY)
+            resp_gpt = client_gpt.chat.completions.create(
                 model="gpt-4o-mini-search-preview",
-                web_search_options={
-                    "search_context_size": "low",
-                },
+                web_search_options={"search_context_size": "low"},
                 messages=[
                     {"role": "system", "content": SYSTEM},
                     {"role": "user", "content": prompt},
                 ],
                 max_tokens=400,
             )
-            model_tag = "[GPT]"
-
-        text = response.choices[0].message.content.strip()
-        text = text.strip('"').strip("'").strip()
+            gpt_text = _clean_ai_response(resp_gpt.choices[0].message.content.strip())
+            if gpt_text and len(gpt_text) >= 8 and "NO_DATA" not in gpt_text:
+                results["GPT"] = gpt_text
+        except Exception as e:
+            logger.warning(f"  GPT failed: {e}")
         
-        # Clean markdown and URL junk from search model output
-        text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)  # [text](url) → text
-        text = re.sub(r'#{1,3}\s*', '', text)                   # ## headers → plain
-        text = re.sub(r'https?://\S+', '', text)                # raw URLs
-        text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)          # **bold** → plain
-        text = re.sub(r'\n{2,}', '\n', text)                    # multi newlines
-        text = re.sub(r'^\s*[-•]\s*', '', text, flags=re.MULTILINE)  # bullet points
-        text = text.strip()
-
-        if not text or "NO_DATA" in text or len(text) < 8:
-            logger.info(f"  AI context: NO_DATA for '{market_title[:50]}'")
+        # === Call Grok ===
+        if XAI_API_KEY:
+            try:
+                client_grok = OpenAI(api_key=XAI_API_KEY, base_url="https://api.x.ai/v1")
+                resp_grok = client_grok.chat.completions.create(
+                    model="grok-3-mini-fast",
+                    messages=[
+                        {"role": "system", "content": SYSTEM},
+                        {"role": "user", "content": prompt},
+                    ],
+                    max_tokens=400,
+                )
+                grok_text = _clean_ai_response(resp_grok.choices[0].message.content.strip())
+                if grok_text and len(grok_text) >= 8 and "NO_DATA" not in grok_text:
+                    results["Grok"] = grok_text
+            except Exception as e:
+                logger.warning(f"  Grok failed: {e}")
+        
+        if not results:
             return None
-
-        if len(text) > 500:
-            # Cut at last sentence boundary
-            cut = text[:500].rfind('.')
-            if cut > 200:
-                text = text[:cut+1]
+        
+        # === Determine consensus ===
+        verdicts = {}
+        for model, text in results.items():
+            upper = text.upper()
+            if "LEAN COPY" in upper:
+                verdicts[model] = "COPY"  # Count lean copy as copy
+            elif "COPY" in upper and "SKIP" not in upper:
+                verdicts[model] = "COPY"
+            elif "SKIP" in upper:
+                verdicts[model] = "SKIP"
             else:
-                text = text[:497] + "..."
-
-        logger.info(f"  AI {model_tag} [{market_type}]: {text[:80]}")
-        return f"{model_tag} {text}"
+                verdicts[model] = "UNCLEAR"
+        
+        # Consensus tag
+        v_list = list(verdicts.values())
+        if len(v_list) == 2 and v_list[0] == v_list[1] and v_list[0] in ("COPY", "SKIP"):
+            consensus = v_list[0]
+        elif len(v_list) == 1:
+            consensus = v_list[0]
+        else:
+            consensus = "SPLIT"
+        
+        # Build combined response
+        parts = []
+        for model, text in results.items():
+            # Truncate each model to ~200 chars
+            if len(text) > 200:
+                cut = text[:200].rfind('.')
+                text = text[:cut+1] if cut > 80 else text[:197] + "..."
+            parts.append(f"[{model}] {text}")
+        
+        combined = "\n".join(parts)
+        
+        # Add consensus header
+        combined = f"[CONSENSUS:{consensus}] {combined}"
+        
+        logger.info(f"  AI dual [{market_type}]: GPT={verdicts.get('GPT','?')} Grok={verdicts.get('Grok','?')} → {consensus}")
+        return combined
 
     except Exception as e:
         logger.warning(f"AI context failed: {e}")
