@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x0b4ad9bd87486e9ed82a3cb19390c9da049c56c60ce110bc350c2cd073f98596",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 18,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4432158.4542936785,
-      "volume": 324433293.5431151,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5011224f4848cb2cf2d87cf2b823551dfd0e220e",
-      "side": "BUY",
-      "asset": "56586792301513309661830983074764407783984105524394420250711247786038410052324",
-      "conditionId": "0x00373f48342212cfc74833f43e61eed5efd678b37ec212622fc68c551249e963",
-      "size": 2321.78,
-      "price": 0.7677458673948436,
-      "timestamp": 1775713165,
-      "title": "Will Trump announce that the US x Iran ceasefire has been broken by April 14, 2026?",
-      "slug": "will-trump-announce-that-the-us-x-iran-ceasefire-has-been-broken-by-april-14-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-announces-us-x-iran-ceasefire-broken-by-X3wf-2Pi8W96.jpg",
-      "eventSlug": "trump-announces-us-x-iran-ceasefire-broken-by",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "GCNO1",
-      "pseudonym": "Huge-Brain",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0b4ad9bd87486e9ed82a3cb19390c9da049c56c60ce110bc350c2cd073f98596",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Trump announce that the US x Iran ceasefire has been broken by April 14, 2026?",
-    "market_slug": "trump-announces-us-x-iran-ceasefire-broken-by",
-    "amount": 1782.5370000000003,
-    "ai_context": "OVERPRICED. Diplomatic efforts may stabilize relations, reducing likelihood of a ceasefire breakdown by 2026.",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:40:54.957947+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1782.54
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x6eb63f34d1bc52edf8bd5891d012ee1489a2fb2e922c6b39855eb91b77f48e6a",
     "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
     "trader": {
@@ -29655,5 +29603,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Dual",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa56c3db8115e8c9c58aa99cce7704918e229e3c0a0647e46cf2fac5b020527af",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x048215305cbcf7cc790735bf00119551d75c6b0a",
+      "side": "BUY",
+      "asset": "24901195678079975569034465099744009779003088692423544130550690974443771440137",
+      "conditionId": "0xb2ad15bc377486ca5147a3cd21545841b42aaa2c82365c8345955e289400f14c",
+      "size": 326.18,
+      "price": 0.6357382426880863,
+      "timestamp": 1778794967,
+      "title": "Will Donald Trump publicly insult someone on May 15, 2026?",
+      "slug": "will-donald-trump-publicly-insult-someone-on-may-15-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/what-will-trump-say-this-week-april-19-QYCGq5klck49.jpg",
+      "eventSlug": "will-trump-publicly-insult-someone-on-312",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "dumbfuqLIQUIDITYprovider",
+      "pseudonym": "Incomparable-Surprise",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6756185-54701b8e-9021-42df-b6fb-8cca9822be22.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa56c3db8115e8c9c58aa99cce7704918e229e3c0a0647e46cf2fac5b020527af",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Donald Trump publicly insult someone on May 15, 2026?",
+    "market_slug": "will-trump-publicly-insult-someone-on-312",
+    "amount": 207.3651,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0414\u043e\u043d\u0430\u043b\u044c\u0434 \u0422\u0440\u0430\u043c\u043f \u0432\u044b\u0438\u0433\u0440\u0430\u043b \u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0441\u043a\u0438\u0435 \u0432\u044b\u0431\u043e\u0440\u044b \u0432 \u043d\u043e\u044f\u0431\u0440\u0435 2024 \u0433\u043e\u0434\u0430 \u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u043b \u0432 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c 20 \u044f\u043d\u0432\u0430\u0440\u044f 2025 \u0433\u043e\u0434\u0430. (politifact.com)\n\u0421 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u0432\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0432 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c \u0422\u0440\u0430\u043c\u043f \u043d\u0435 \u0434\u0435\u043b\u0430\u043b \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0445 \u043e\u0441\u043a\u043e\u0440\u0431\u043b\u0435\u043d\u0438\u0439.\n[Grok] \u2705 COPY  \nTrump insulted opponents in 80% of his 2023-2024 public appearances, including attacks on Biden and Haley.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
