@@ -26099,7 +26099,14 @@
     "ai_context": "[Grok] \u274c SKIP \u2014 The Pistons have a poor recent record and have lost their last three games against the Cavaliers, making this bet hard to support.\nThe Pistons are 2-8 in their last 10 games, including losses in their final five of the season, and they ended with a 14-68 overall record for 2023-2024. In head-to-head matchups, the Cavaliers won all three of their most recent games against the Pistons, including a 109-99 victory on April 12, 2024 (espn.com).",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "resolution_last_check": "2026-05-13T08:34:29.126994+00:00"
+    "resolution_last_check": "2026-05-13T08:34:29.126994+00:00",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-14T08:28:14.183406+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -6239.13
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26416,7 +26423,14 @@
     "amount": 6.294,
     "ai_context": "[GPT] \u274c SKIP \u2014 Alav\u00e9s has a poor record against Barcelona and is fighting relegation.\nIn their last 50 encounters, Barcelona has won 36 times against Alav\u00e9s. (as.com) Currently, Alav\u00e9s is 18th in the league with 37 points, desperately needing a win to avoid relegation. (as.com) However, the trader may have insider information about team lineup changes or other factors not publicly available.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-14T08:28:15.418687+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -6.29
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26463,7 +26477,14 @@
     "amount": 0.41666600000000037,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head results and current form favor a non-draw outcome.\nIn their last five encounters, there have been no draws: RCD Mallorca won three times, and Getafe CF won twice. Additionally, Getafe CF has lost two consecutive matches, including a 1-0 defeat to RCD Espanyol on December 13, 2025. (cadenaser.com) RCD Mallorca's recent form includes a 2-1 victory over RCD Espanyol on March 21, 2026. (cadenaser.com)",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-14T08:28:16.656932+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -0.42
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26510,7 +26531,14 @@
     "amount": 1.65,
     "ai_context": "[GPT] \u274c SKIP \u2014 Recent head-to-head record shows few draws between Rangers FC and Hibernian FC.\nIn their last 45 encounters, only 9 matches ended in a draw. (footystats.org) The most recent draw was on May 17, 2025, with a 2-2 scoreline. (soccerbase.com) Given the low frequency of draws in recent matchups, the trader's bet on a draw at 11% odds may not be strongly supported by historical data.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:18.014446+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1.65
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26557,7 +26585,14 @@
     "amount": 1.42,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matches indicate a high likelihood of both teams scoring.\nIn their last five encounters, four matches ended with both teams scoring. (aiscore.com) Additionally, recent form shows that both teams have been involved in high-scoring games, further supporting the bet. (accaplanner.com)\nGiven these factors, the bet on \"Yes\" for both teams to score is well-supported.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Racing Club de Lens",
+      "checked_at": "2026-05-14T08:28:19.257211+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26604,7 +26639,14 @@
     "amount": 47.524285,
     "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Darderi's recent form and head-to-head record support the bet, but Jodar's higher ranking and recent performance are notable.\nLuciano Darderi has a 60% win rate in his last 10 matches, including a significant victory over Alexander Zverev at the Rome Masters. (as.com) He is currently ranked No. 20, with a career-high of No. 18. (matchstat.com) Rafael Jodar, ranked No. 34, has a 76.7% win rate in the past 52 weeks. (tennisratio.",
     "ai_verdict": "LEAN_COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Luciano Darderi",
+      "checked_at": "2026-05-14T08:28:20.392177+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 88.26
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26651,7 +26693,14 @@
     "amount": 16.537599999999998,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head matches between Rosario Central and Racing Club have consistently exceeded 2.5 goals, supporting the Over bet.\nIn their last five encounters, three matches had over 2.5 goals, including a 4-3 win for Racing Club on October 1, 2022. (dailysports.net)\nGiven this trend, the Over bet appears more favorable.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-14T08:28:21.674451+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26698,7 +26747,14 @@
     "amount": 7.04,
     "ai_context": "[GPT] \u274c SKIP \u2014 Hibernian FC is facing a strong Rangers team at Ibrox Stadium.\nRangers have an unbeaten record in their last five encounters with Hibernian, including three wins and two draws. Additionally, Rangers are currently third in the league standings with 69 points, while Hibernian is fourth with 54 points. (polymarket.com)\nHowever, the trader may have access to insider information or sharp analysis that suggests Hibernian could overcome these challenges.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:22.791818+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -7.04
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26745,7 +26801,8 @@
     "amount": 3.128205,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matches between Cirstea and Gauff have consistently exceeded 2.5 sets.\nIn their most recent encounter at the 2026 Madrid Open, Gauff won 4-6, 7-5, 6-1, indicating a match duration of over 2.5 sets. (elpais.com) Their previous match at the 2026 Miami Open also extended beyond 2.5 sets. (ladbrokes.com) Additionally, Gauff has been battling a stomach virus, which may have affected her performance. (elpais.com)",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:23.670263+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -26792,7 +26849,14 @@
     "amount": 3.0,
     "ai_context": "[GPT] \u2705 COPY \u2014 The Tampa Bay Rays have demonstrated strong recent performance, winning 8 of their last 10 games, including a 7-6 victory over the Toronto Blue Jays on May 12, 2026. (oddschecker.com) Their consistent success, particularly in close games, supports the bet on them covering the -1.5 spread.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Toronto Blue Jays",
+      "checked_at": "2026-05-14T08:28:24.873774+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26839,7 +26903,14 @@
     "amount": 3.6454999999999997,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Zema with 4% support, indicating a low chance of winning.\nA May 13, 2026, Genial/Quaest poll shows President Lula leading with 39%, followed by Senator Fl\u00e1vio Bolsonaro at 33%, and Zema tied with former Goi\u00e1s Governor Ronaldo Caiado at 4%. (em.com.br) Additionally, a March 13, 2026, Meio Ideia poll indicates Zema at 4.5% in a first-round scenario. (youtube.com) Given these low support levels, betting on \"No\" aligns with the current data.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:26.151252+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 0.47
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26886,7 +26957,14 @@
     "amount": 14.6694,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Lula leading in the 2026 Brazilian presidential election.\nA February 2026 survey indicates Lula holds a five-point advantage over Fl\u00e1vio Bolsonaro, with 43% to 38% support. (bloomberg.com) Additionally, a December 2025 poll shows Lula leading with 47.9% of the vote, while Fl\u00e1vio Bolsonaro has 21.3% and Tarc\u00edsio de Freitas 15%. (br.investing.com)\nGiven these findings, the trader's bet on \"No\" at 54% odds appears to be against the current polling data.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:27.283978+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 12.5
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26933,7 +27011,14 @@
     "amount": 2.025599999999998,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Renan Santos with increasing support, indicating a potential for higher electoral performance.\nIn April 2026, a survey by AtlasIntel/Bloomberg indicated Renan Santos at 5.3% in the first round, with significant support among young voters aged 16 to 24, where he garnered 22.4% of intentions. (bradojornal.com) Additionally, Santos has been actively engaging with the electorate, emphasizing his appeal to voters seeking alternatives to traditional political figures.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:28.379324+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 0.14
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26980,7 +27065,14 @@
     "amount": 8.14592,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Fl\u00e1vio Bolsonaro in a technical tie with Lula, indicating a competitive race.\nA February 2026 poll by the Gerp Institute showed Fl\u00e1vio Bolsonaro at 35% and Lula at 39%, with a margin of error of 2.24 percentage points, suggesting a potential lead for Fl\u00e1vio. (as-coa.org)\nAdditionally, a May 2026 article from El Pa\u00eds reports that Fl\u00e1vio Bolsonaro has managed to achieve a technical tie with Lula in recent polls, indicating a highly competitive race. (elpais.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:29.513162+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2.8
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27027,7 +27119,14 @@
     "amount": 4.1491999999999996,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent demonstrations show Figure's humanoid robot can efficiently sort packages, indicating it can handle high-volume tasks within the specified time frame.\nIn a recent 8-hour livestream, the robot autonomously moved delivery packages into a conveyor belt, showcasing its capability to perform extended tasks without human intervention. (aol.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-14T08:28:30.854723+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -4.15
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27074,7 +27173,8 @@
     "amount": 3.25,
     "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head record favor the Spurs, but injury concerns exist.\nThe Spurs have a 2-3 record against the Timberwolves this season, with their most recent game on May 6, 2026, where they won 133-95. (champsorchumps.us) However, star player Victor Wembanyama suffered a left calf strain on November 17, 2025, and has been out since then. (as.com) The upcoming game is scheduled for May 15, 2026.",
     "ai_verdict": "LEAN_COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:31.612947+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -27121,7 +27221,14 @@
     "amount": 2.59111,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent analyses indicate that Elon Musk's tweet frequency aligns with the 80-99 range.\nA recent analysis suggests that Musk's tweet cadence frequently consolidates between 10-15 posts per day during active development cycles, aligning with the 80-99 tweet bracket for May 2026. (predictop.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:32.805150+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2.59
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27168,7 +27275,14 @@
     "amount": 1.1111109999999997,
     "ai_context": "[GPT] \u2705 COPY \u2014 Forecasts indicate Seattle's high temperature on May 13 will be below 60\u00b0F.\nThe National Weather Service forecasts a high near 58\u00b0F for Seattle on May 13, with partly sunny skies and a 40-50% chance of afternoon showers. (polymarket.com)\nAdditionally, FOX 13 Seattle reports that after reaching the low 80s on Tuesday, Wednesday's afternoon highs will only be in the upper 50s and low 60s, a significant drop from the previous day. (fox13seattle.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:34.124946+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 0.12
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27215,7 +27329,14 @@
     "amount": 12.45,
     "ai_context": "[GPT] \u2705 COPY \u2014 Albania is among the top contenders in the second Eurovision semi-final, with strong odds favoring their advancement.\nAlbania's entry, \"N\u00e2n\" by Alis, is performing well in the betting markets, with odds indicating a 69% chance of qualifying. (polymarket.com) Additionally, the running order positions Albania's performance 13th, which is strategically favorable for audience recall and televoting. (eurovision.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-14T08:28:35.436338+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -12.45
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27262,7 +27383,14 @@
     "amount": 9.999998999999999,
     "ai_context": "[Grok] \u2705 COPY \u2014 The Avalanche have won their last four games by an average margin of over two goals, showing strong recent form that supports covering the -1.5 spread.\nThey defeated the Oilers 5-2, the Flames 4-1, and the Golden Knights 3-0 in their most recent outings, indicating a potent offense and solid defense. (nhl.com) While odds at 46% suggest it's a close call, the trader's track record makes this a bet worth following.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:36.680434+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 11.74
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27309,7 +27437,14 @@
     "amount": 2.6137,
     "ai_context": "[Grok] \u2705 COPY \u2014 Recent polls and expert analysis indicate Fl\u00e1vio Bolsonaro has very low support, making his chances of winning the 2026 Brazilian presidential election slim.  \nAccording to the latest Datafolha poll from October 2023, Fl\u00e1vio Bolsonaro has only about 5% voter support, while leading candidates like Lula da Silva hold around 45%, and political experts note the Bolsonaro family's declining influence due to ongoing legal issues and public fatigue. (datafolha.com.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:36.680496+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1.09
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27356,7 +27491,14 @@
     "amount": 5.2416,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent performance and head-to-head record favor the Pirates.\nThe Pirates have won 9 consecutive games against the Rockies, including a 3-0 victory on May 12, 2026. (statmuse.com) In their last 10 games, the Pirates have a 7-3 record, while the Rockies are 2-8. (foxsports.com) Additionally, the Pirates have a 12-9 home record, and the Rockies are 8-15 on the road. (foxsports.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Colorado Rockies",
+      "checked_at": "2026-05-14T08:28:37.912385+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5.24
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27403,7 +27545,14 @@
     "amount": 5.769998999999999,
     "ai_context": "[GPT] \u2705 COPY \u2014 Rafael J\u00f3dar has demonstrated strong recent form, including a notable victory over Nuno Borges in Rome.\nJ\u00f3dar, 19, has advanced to the quarterfinals of the Internazionali BNL d'Italia, defeating Nuno Borges 7-6(4), 6-4 in his opening match. (elpais.com) He also secured a win against Matteo Arnaldi, overcoming a challenging match with a 6-1, 4-6, 6-3 scoreline. (elpais.com) Additionally, J\u00f3dar clinched his first ATP title in Marrakech earlier this year. (espn.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Luciano Darderi",
+      "checked_at": "2026-05-14T08:28:37.912445+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5.77
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27450,7 +27599,14 @@
     "amount": 48.96,
     "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Recent matchups have been close, with total points near 213.5.\nIn the last three games between the Cavaliers and Pistons, the total points were 213, 225, and 208, averaging 215.3 points per game. The Cavaliers have won two of these games, with scores of 116-113 and 112-103, while the Pistons won 107-97. (landofbasketball.com) Injury reports indicate that Pistons' key players, including Duncan Robinson, Caris LeVert, and Kevin Huerter, are questionable for Game 5. (talkbasket.",
     "ai_verdict": "LEAN_COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-14T08:28:39.033580+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27497,7 +27653,14 @@
     "amount": 1.7599999999999998,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head matches between Rosario Central and Racing Club have consistently seen over 2.5 goals scored.\nIn their last five encounters, three matches ended with over 2.5 goals, including a 4-3 victory for Racing Club on October 1, 2022. (dailysports.net) Additionally, Rosario Central has been in strong form, winning four of their last five matches. (sportspundit.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-14T08:28:39.033640+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27544,7 +27707,14 @@
     "amount": 0.8449120000000001,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head matches indicate a high likelihood of both teams scoring.\nIn the last five encounters, four matches ended with both teams scoring, including a 2-2 draw on December 3, 2023, and a 4-3 win for Racing Club on September 30, 2022. (espn.com) Given this trend, the bet on \"No\" is less favorable.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-14T08:28:40.141040+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27591,7 +27761,14 @@
     "amount": 48.707100000000004,
     "ai_context": "[GPT] \u2705 COPY \u2014 Cavaliers have won 15 of the last 20 matchups against the Pistons.\nIn their most recent game on May 9, 2026, the Cavaliers defeated the Pistons 116-109. (sharkbetting.com)\nThe Cavaliers have shown resilience in the current series, tying it 2-2 after initially trailing 0-2. In Game 4, Donovan Mitchell scored 39 points in the second half, tying an NBA postseason record. (axios.com)\nThe upcoming game on May 13, 2026, is scheduled to take place in Detroit.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-14T08:28:40.141101+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 76.18
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27638,7 +27815,8 @@
     "amount": 0.999999,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent developments indicate that rare earth minerals are a significant topic in the upcoming Trump-Xi summit.\nThe summit is expected to address issues over rare earth minerals, with China having previously agreed to pause its sweeping rare-earths controls for a year. (bloomberg.com) Additionally, the summit may focus on China's restrictions on mineral exports, with U.S. negotiators seeking stronger commitments on critical minerals. (axios.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:41.537879+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -27685,7 +27863,14 @@
     "amount": 4.110799999999999,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Fl\u00e1vio Bolsonaro in a technical tie with President Lula, indicating a competitive race.\nA February 2026 poll by the Gerp Institute revealed that in a stimulated first-round scenario, Lula had 39% support, while Fl\u00e1vio Bolsonaro garnered 35%, a statistical tie within the margin of error. In a simulated second-round runoff, both candidates were tied at 45% each. (as-coa.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:41.537927+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2.16
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27732,7 +27917,14 @@
     "amount": 5.382,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Lula leading over Fl\u00e1vio Bolsonaro, indicating strong electoral support.\nA Genial/Quaest survey from May 13, 2026, reports Lula with 39% and Fl\u00e1vio Bolsonaro with 33% in first-round voting intentions. (band.com.br) Additionally, a Bloomberg report from February 11, 2026, indicates Lula holds a five-point lead over Fl\u00e1vio Bolsonaro, with 43% to 38% in a head-to-head scenario. (bloomberg.com) These findings suggest Lula's favorable position in the upcoming election.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:41.537974+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4.4
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27779,7 +27971,14 @@
     "amount": 132.5,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head record favors the Royals.\nIn their last 10 games against the White Sox, the Royals have a 7-3 record. (statmuse.com)\nIn their most recent series, the Royals won 2 out of 3 games against the White Sox. On May 12, 2026, the Royals won 5-6, and on May 13, 2026, they lost 0-3. \nThe Royals have a strong recent performance against the White Sox, with a 7-3 record in their last 10 matchups. This suggests a favorable outlook for the Royals in the upcoming game.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Chicago White Sox",
+      "checked_at": "2026-05-14T08:28:42.762135+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -132.5
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27826,7 +28025,14 @@
     "amount": 63.0,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Wild and Avalanche have consistently exceeded 6.5 total goals.\nIn their last three encounters, the total goals scored were 5, 6, and 5, respectively. (statmuse.com) Additionally, both teams have been scoring at high rates recently, with the Wild averaging 4.5 goals per game over their last 10 games, and the Avalanche averaging 4 goals per game over their last 10 games. (foxsports.com)\nGiven these trends, the Over 6.5 total goals is a reasonable expectation.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:43.894331+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27873,7 +28079,14 @@
     "amount": 23.523,
     "ai_context": "[GPT] \u274c SKIP \u2014 Recent matchups between the Wild and Avalanche have consistently had low total scores.\nIn their last three encounters, the total goals scored were 5, 5, and 4, all under the 7.5 line. (statmuse.com) Additionally, key players like Artturi Lehkonen and Sam Malinski are sidelined for the Avalanche due to upper-body injuries, which could further limit scoring opportunities. (nhl.com) However, the trader may have access to insider information or analysis suggesting a higher-scoring game.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:45.036672+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27920,7 +28133,14 @@
     "amount": 1.9,
     "ai_context": "[GPT] \u2705 COPY \u2014 Pistons have won 3 of their last 5 games against the Cavaliers, including a recent 107-97 victory on May 7, 2026.\nIn their last 10 regular-season meetings, the Pistons have a 3-7 record against the Cavaliers, but they have won 3 of the last 5 matchups. (landofbasketball.com) In their most recent game on May 7, 2026, the Pistons defeated the Cavaliers 107-97. (statmuse.com)\nThe Pistons' recent form, including their victory in the latest matchup, supports the trader's bet on the Pistons.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-14T08:28:45.036743+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1.9
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27967,7 +28187,8 @@
     "amount": 2.9999990000000003,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent agreements between Trump and Xi Jinping have prominently featured rare earths.\nIn October 2025, they reached a one-year deal on rare earths, with Trump stating, \"All the rare earths has been settled, and that's for the world.\" (ndtv.com) Additionally, in June 2025, Trump announced that Xi agreed to let rare earth minerals flow to the U.S., aiming to ease trade tensions. (investing.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:45.036775+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -28014,7 +28235,14 @@
     "amount": 1.9,
     "ai_context": "[GPT] \u274c SKIP \u2014 Recent head-to-head results and the Cavaliers' home-court advantage suggest a potential Pistons loss.\nIn their last five matchups, the Cavaliers have won four, including a 116-109 victory on May 9, 2026, where Donovan Mitchell scored 35 points and grabbed 10 rebounds. (as.com) Additionally, the Cavaliers have a strong home-court record, winning 73% of their home games this season. (sportspundit.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-14T08:28:45.036791+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1.9
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28061,7 +28289,8 @@
     "amount": 3.3000000000000003,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Mariners and Astros have consistently exceeded 11.5 total runs.\nIn their last three games, the total runs were 15, 12, and 1, respectively. The upcoming game is scheduled for today, May 14, 2026. Given the recent high-scoring games, betting on the Over at 33% odds appears favorable.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:45.886647+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -28108,7 +28337,14 @@
     "amount": 4.6499999999999995,
     "ai_context": "[GPT] \u274c SKIP \u2014 Legacy has a 100% win rate against Natus Vincere in their only head-to-head match.\nIn their last encounter on March 9, 2026, Legacy defeated Natus Vincere 2-0. (tips.gg) Additionally, Legacy is on a six-match winning streak, while Natus Vincere has won four out of their last five matches. (hltv.org) However, the trader may have access to insider information or analysis not yet public.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Legacy",
+      "checked_at": "2026-05-14T08:28:47.070936+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -4.65
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28155,7 +28391,14 @@
     "amount": 1.1300000000000001,
     "ai_context": "[GPT] \u274c SKIP \u2014 Forecasts predict a high of 18\u00b0C on May 15, making 15\u00b0C unlikely.\nThe forecast for Munich on May 15, 2026, indicates a high of 18\u00b0C (64\u00b0F). (tiempo3.com) Additionally, historical data shows that May temperatures in Munich typically reach a maximum of 18\u00b0C (64\u00b0F). (weather2travel.com) Given these forecasts and averages, a high of 15\u00b0C appears improbable.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:48.294267+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1.13
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28202,7 +28445,14 @@
     "amount": 39.95,
     "ai_context": "[GPT] \u274c SKIP \u2014 The Minnesota Wild have lost four consecutive games to the Colorado Avalanche, including a 5-2 defeat on May 5, 2026. (champsorchumps.us) However, the trader may have access to insider information or anticipate a change in team dynamics not yet reflected in public data.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:48.294328+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -39.95
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28249,7 +28499,14 @@
     "amount": 26.146000000000004,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head record favors the Wild.\nIn the last 10 games between the Wild and Avalanche, the Wild have a 6-4 record. (rantsports.com)\nAdditionally, the Wild have been in strong form recently, with an 8-2-0 record in their last 10 games, averaging 4.1 goals per game and allowing 2.7 goals per game. (foxsports.com)\nWhile the Avalanche have also been performing well, with a 7-3-0 record in their last 10 games, (foxsports.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:49.430040+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -26.15
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28296,7 +28553,14 @@
     "amount": 31.5,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Wild and Avalanche have consistently exceeded 6.5 total goals.\nIn their last three encounters, the total goals scored were 5, 6, and 5, respectively. (statmuse.com) Additionally, the Avalanche have been averaging four goals per game over their past eight games. (foxsports.com) Given these trends, the Over bet is supported.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:49.430099+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28343,7 +28607,14 @@
     "amount": 26.146000000000004,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head results favor the Wild, and they have been in strong form recently.\nIn the last 10 meetings, the Wild lead 6-4 against the Avalanche. (rantsports.com) In their most recent game on March 8, 2026, the Wild won 3-2. (rantsports.com) Over the past 10 games, the Wild have a record of 8-2-0, averaging 4.1 goals per game and allowing 2.7 goals per game. (foxsports.com) The Avalanche have a record of 7-3-0 in their last 10 games, averaging 3.4 goals per game and allowing 2.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:49.430126+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -26.15
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28390,7 +28661,14 @@
     "amount": 19.979999,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head results favor the Wild, and both teams are in strong form.\nIn the last five matchups, the Wild lead 3-2, including a 5-2 victory on February 27, 2026. (rantsports.com) Over the past ten games, the Wild have a 6-4 record against the Avalanche. (rantsports.com) Both teams have been performing well recently, with the Wild winning eight of their last ten games and the Avalanche winning seven of their last ten. (foxsports.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:49.430150+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -19.98
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28437,7 +28715,14 @@
     "amount": 79.5,
     "ai_context": "[GPT] \u274c SKIP \u2014 Avalanche have dominated recent matchups, winning 4 of the last 5 games against the Wild.\nIn the 2025-26 season, the Avalanche secured victories on May 5 (5-2), May 3 (9-6), and March 8 (3-2 OT/SO) against the Wild. (champsorchumps.us)\nWhile the Wild have shown resilience, their recent performance against the Avalanche suggests a significant challenge.\nHowever, the trader may have access to insider information or insights not yet public, which could influence the outcome.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Avalanche",
+      "checked_at": "2026-05-14T08:28:49.430174+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -79.5
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28484,7 +28769,14 @@
     "amount": 1.9999989999999999,
     "ai_context": "[GPT] \u2705 COPY \u2014 Natus Vincere has a strong recent performance and a favorable head-to-head record against Legacy.\nIn their last five matches, Natus Vincere secured four wins and one loss, including victories over teams like FaZe and GamerLegion. (hltv.org) Additionally, Natus Vincere has a 37% win rate in 2-0 victories and a 37% win rate in 2-1 victories over their last 27 matches. (hltv.org)\nGiven this recent form and their favorable head-to-head record, the bet on Natus Vincere is supported.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Legacy",
+      "checked_at": "2026-05-14T08:28:49.430197+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28531,7 +28823,14 @@
     "amount": 1.372982,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent head-to-head record favors the Red Sox, and they have a strong home performance against the Phillies.\nIn their last 10 matchups, the Red Sox lead 6-4, including a 9-3 victory on June 13, 2024, and an 8-6 win on June 12, 2024. (sports-reference.com) At Fenway Park, the Red Sox have a home win percentage of 58.8% against the Phillies' 52.8%. (aiscore.com) The Red Sox's recent form includes a 6-4 record in their last 10 games. (baseball-reference.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Boston Red Sox",
+      "checked_at": "2026-05-14T08:28:50.655077+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1.04
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28578,7 +28877,14 @@
     "amount": 12.35,
     "ai_context": "[Grok] \u2705 COPY \u2014 Houston Astros have a winning recent head-to-head record against the Mariners and solid recent form, supporting the bet on them as underdogs.\nThe Astros have won 3 of their last 5 games against the Seattle Mariners, including two victories in the 2024 season, and they hold a 6-4 record in their last 10 games overall. (espn.com) This indicates they are performing well recently, with no major injuries reported for key players like Jose Altuve.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "Houston Astros",
+      "checked_at": "2026-05-14T08:28:51.843590+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 22.94
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28625,7 +28931,14 @@
     "amount": 99.999999,
     "ai_context": "[Grok] \u2705 COPY \u2014 Indiana Fever has won 4 of their last 5 games and defeated the Sparks in their most recent head-to-head matchup.\nThey've shown strong recent form with wins against top teams like the Connecticut Sun and New York Liberty, and no major injuries have been reported for key players like Caitlin Clark. (espn.com) This recent momentum supports the trader's bet on their ability to win.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "Indiana Fever",
+      "checked_at": "2026-05-14T08:28:52.937986+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 96.08
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28672,7 +28985,8 @@
     "amount": 0.9999990000000001,
     "ai_context": "[GPT] \u274c SKIP \u2014 No recent evidence suggests Mother's Milk will die in Season 5.\nAs of May 14, 2026, \"The Boys\" Season 5 has aired seven episodes, with the eighth and final episode scheduled for May 20, 2026. In the most recent episode, Episode 7, Frenchie was killed by Homelander, but there is no indication that Mother's Milk is in immediate danger. (parade.com) Additionally, the origin of Mother's Milk's name was revealed in Episode 7, highlighting his significance to the team. (thedirect.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:54.225212+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -28719,7 +29033,14 @@
     "amount": 4.654421000000001,
     "ai_context": "[GPT] \u2705 COPY \u2014 Forecasts predict Shanghai's high temperature on May 14 will be between 20\u00b0C and 28\u00b0C, exceeding 26\u00b0C.\nThe 14-day forecast indicates a high of 27\u00b0C on May 14. (weather25.com) Another source forecasts a high of 28\u00b0C on the same day. (weather2weeks.com) Historical data shows that Shanghai's average high temperature in May is 24.8\u00b0C, with a typical range from 20\u00b0C to 28\u00b0C. (weather-atlas.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:55.512251+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 0.27
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28766,7 +29087,14 @@
     "amount": 5.0,
     "ai_context": "[GPT] \u2705 COPY \u2014 Forecasts predict a high of 30\u00b0C in Seoul on May 14, well above 26\u00b0C.\nThe 14-day forecast for Seoul on May 14, 2026, predicts a high of 30\u00b0C, with temperatures ranging from 15\u00b0C to 30\u00b0C. (weather2weeks.com)\nGiven this forecast, betting on a high of 26\u00b0C is unlikely to be profitable.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:56.735345+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28813,7 +29141,14 @@
     "amount": 2.96,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent polls show Abelardo de la Espriella's rising support, indicating a strong chance of winning the first round.\nIn the latest Invamer poll from April 15\u201324, 2026, de la Espriella secured 42.6% support, trailing Iv\u00e1n Cepeda by 12 percentage points. Earlier, an AtlasIntel poll from April 6\u20139, 2026, placed him at 48.8%, leading Cepeda by 9 percentage points. (en.wikipedia.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:28:58.041816+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2.96
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28860,7 +29195,8 @@
     "amount": 1.999998,
     "ai_context": "[GPT] Hill Dickinson Stadium\nEPL Schedule\nSunderland AFC @ Everton FC on Sunday, May 17, 2026 at 07:00 AM PDT\nEverton FC is set to host Sunderland AFC on May 17, 2026, at Hill Dickinson Stadium. (koobit.com) In their most recent match on May 4, 2026, Everton drew 3-3 with Manchester City. (11v11.com) Sunderland's recent form is not available in the provided sources. Given Everton's recent performance and home advantage, betting on a win appears reasonable.",
     "ai_verdict": "UNCLEAR",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:28:59.322264+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -28907,7 +29243,14 @@
     "amount": 5.0,
     "ai_context": "[GPT] \u2705 COPY \u2014 Forecasts predict a high of 24\u00b0C on May 14, aligning with the trader's bet.\nThe 14-day forecast for Shanghai on May 14, 2026, predicts a high of 27\u00b0C, with temperatures ranging from 20\u00b0C to 28\u00b0C. (weather25.com) Additionally, the 14-day weather table indicates a high of 28\u00b0C on May 14, 2026. (weather2weeks.com) While these forecasts suggest a higher temperature than the trader's bet, they still support the possibility of the highest temperature being 24\u00b0C.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:00.452840+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28954,7 +29297,14 @@
     "amount": 1.6799999999999997,
     "ai_context": "[Grok] \u2705 COPY \u2014 Recent weather data indicates that Jakarta's temperatures have been below 32\u00b0C, supporting the bet on No for the highest temperature on May 15.  \nIn the last week, highs in Jakarta ranged from 29-31\u00b0C, and forecasts predict a high of around 30\u00b0C for May 15 due to ongoing rainy conditions. (accuweather.com)  \nThis aligns with the trader's edge, so follow their lead.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:01.774290+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 0.45
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29001,7 +29351,14 @@
     "amount": 2.4,
     "ai_context": "[Grok] \u274c SKIP \u2014 The latest weather forecasts predict a high temperature below 14\u00b0C for Munich on May 14, directly contradicting the bet on Yes.\nRecent forecasts from reliable sources like BBC Weather and AccuWeather show a high of around 12-13\u00b0C for that date, with cool, cloudy conditions due to a passing cold front, based on data from the past few days. (bbc.com/weather)\nHowever, the trader might have access to unreported meteorological data or a sudden weather shift.",
     "ai_verdict": "SKIP",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:02.993012+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2.4
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29048,7 +29405,14 @@
     "amount": 16.200000000000003,
     "ai_context": "[Grok] \u2705 COPY \u2014 Recent weather forecasts indicate that the highest temperature in Busan on May 14 is expected to be below 26\u00b0C, supporting the bet on No.\nThe Korea Meteorological Administration forecasts a high of 23\u00b0C for Busan on May 14, and temperatures in the area have been in the 18-24\u00b0C range over the past week. (kma.go.kr)\nThis aligns with the trader's edge, as their track record suggests they might have access to precise data.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:04.244046+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 19.02
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29095,7 +29459,14 @@
     "amount": 0.11426,
     "ai_context": "[Grok] \u274c SKIP \u2014 Recent weather forecasts predict the high temperature in Busan on May 14 will be below 27\u00b0C, contradicting the bet on yes.\nThe Korean Meteorological Administration forecasts a high of 23\u00b0C for May 14 with partly cloudy conditions, and recent days have seen highs of 22\u00b0C on May 12 and 24\u00b0C on May 13. (kma.go.kr) However, the trader may have insider knowledge of an unexpected heatwave or forecast changes not yet reflected in public data.",
     "ai_verdict": "SKIP",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:05.353205+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -0.11
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29142,7 +29513,14 @@
     "amount": 3.9400000000000004,
     "ai_context": "[GPT] \u2705 COPY \u2014 Forecasts indicate a high of 20\u00b0C on May 14, 2026, in Busan, close to the 27\u00b0C threshold.\nHistorical data shows that May temperatures in Busan typically range from 14\u00b0C to 22\u00b0C, with average highs around 20\u00b0C. (wanderingweather.com) The forecast for May 14, 2026, predicts a high of 20\u00b0C. (arabiaweather.com) Given the forecasted high is below 27\u00b0C, betting on \"Yes\" at 20% odds appears favorable.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:05.353268+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3.94
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29189,7 +29567,8 @@
     "amount": 4.666841000000003,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent developments indicate a significant shift in U.S. strategy toward Greenland, reducing the likelihood of a purchase before 2027. In April 2026, the U.S. company Critical Metals acquired the majority of rights to Greenland's Tanbreez rare earth deposit, the largest outside China, through strategic financial maneuvers. (lemonde.fr) This move suggests a focus on economic acquisition over territorial purchase.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution_last_check": "2026-05-14T08:29:06.114316+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29236,7 +29615,14 @@
     "amount": 1.7735840000000003,
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Cardinals and Athletics have consistently stayed under the 7.5-run total.\nIn their last three encounters, the total runs scored were 6, 3, and 6, all under the 7.5-run line. (matchstat.com)\nGiven this trend, betting on the Under appears to be a sound decision.",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Athletics",
+      "checked_at": "2026-05-14T08:29:07.245423+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29283,6 +29669,13 @@
     "amount": 2.9911400000000006,
     "ai_context": "[GPT] \u274c SKIP \u2014 Forecasts predict a high of 20\u00b0C on May 14, below the 28\u00b0C threshold.\nHistorical data shows that May temperatures in Busan typically range from 13\u00b0C to 22\u00b0C, with average highs around 20\u00b0C. (wanderingweather.com) The highest recorded temperature in May 2026 was 24.1\u00b0C on May 8. (weatherandclimate.eu) Given these patterns, a high of 28\u00b0C on May 14 is unlikely.",
     "ai_verdict": "SKIP",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-14T08:29:08.366353+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2.99
+    }
   }
 ]
