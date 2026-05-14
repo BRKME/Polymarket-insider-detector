@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7297a85af62eb17933fafc4aa712c1395f193783215a05001a5dcd4146fb9897",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
-      "side": "BUY",
-      "asset": "57671111904343297017035559331206968340219293155722507171442770347401653986711",
-      "conditionId": "0xc31f282a30746ae49954e23d92d23aa6c129d008d07b0f47686db178554e32d8",
-      "size": 2636.14213,
-      "price": 0.76,
-      "timestamp": 1775690053,
-      "title": "Thunder vs. Clippers",
-      "slug": "nba-okc-lac-2026-04-08",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-okc-lac-2026-04-08",
-      "outcome": "Thunder",
-      "outcomeIndex": 0,
-      "name": "sovereign2013",
-      "pseudonym": "Ultimate-Locality",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7297a85af62eb17933fafc4aa712c1395f193783215a05001a5dcd4146fb9897",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Thunder vs. Clippers",
-    "market_slug": "nba-okc-lac-2026-04-08",
-    "amount": 2003.4680188000002,
-    "ai_context": "OVERPRICED. The Clippers have shown competitiveness, and historical matchups suggest closer contests than a 76% likelihood for the Thunder.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.450999+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-08 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0b4ad9bd87486e9ed82a3cb19390c9da049c56c60ce110bc350c2cd073f98596",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
     "trader": {
@@ -29660,5 +29607,53 @@
     "ai_context": "[GPT] \u2705 COPY \u2014 G2 Esports has a strong recent record and a favorable head-to-head against Natus Vincere.\nG2 Esports has won 3 of their last 5 matches, including a 2-0 victory over Natus Vincere on May 3, 2026. (bo3.gg) Natus Vincere has also won 3 of their last 5 matches, but their most recent loss was to G2 Esports. (strafe.com)",
     "ai_verdict": "COPY",
     "ai_model": "GPT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x04cebd086d5387e3241c9ed4b1bde71ce3756ab739a99fa1d919ab1711aad5e9",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5a05e01f55e03f43105c3e8890beb9e8185012a2",
+      "side": "BUY",
+      "asset": "99857585478003641964141158055540030143443988230254056275922905109867422121494",
+      "conditionId": "0x18af3a76c3bacb1f9b72adb096fb28f5426eb9fa040267c1613d43d25e48fab9",
+      "size": 999.99,
+      "price": 0.5149999499994999,
+      "timestamp": 1778785664,
+      "title": "Dota 2: PARIVISION vs Xtreme Gaming - Game 2 Winner",
+      "slug": "dota2-pari-xtreme-2026-05-14-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-pari-xtreme-2026-05-14",
+      "outcome": "Xtreme Gaming",
+      "outcomeIndex": 1,
+      "name": "barashiq",
+      "pseudonym": "Unacceptable-Sphynx",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x04cebd086d5387e3241c9ed4b1bde71ce3756ab739a99fa1d919ab1711aad5e9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: PARIVISION vs Xtreme Gaming - Game 2 Winner",
+    "market_slug": "dota2-pari-xtreme-2026-05-14",
+    "amount": 484.99520000000007,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY \u2014 Xtreme Gaming has a favorable head-to-head record against PARIVISION and recent strong performances.\nIn their last 10 encounters, Xtreme Gaming secured 4 wins, while PARIVISION won 6.\n[Grok] \u2705 COPY \u2014 Xtreme Gaming has a strong recent form and a favorable head-to-head record against PARIVISION, making the bet well-supported.",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
