@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7ba1967e3ccf088a195680cf8928dd7ad85e5941a4eda8896e4420c0f1e92ac5",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1c853edd4f57b9e8b52977e04f412407dcf231d4",
-      "side": "SELL",
-      "asset": "91851388830923641218615793149765322805282194001900444983744404881757241655792",
-      "conditionId": "0x5c2e6aef8af5931e9bfa3750364626d754531d2fada2885d45c356b175962a25",
-      "size": 5000,
-      "price": 0.621533434,
-      "timestamp": 1775656715,
-      "title": "Iran x Israel/US conflict ends by April 15?",
-      "slug": "iran-x-israelus-conflict-ends-by-april-15-618-586-982",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-x-israel-conflict-ends-by-next-friday-3FmhGylfITaT.jpg",
-      "eventSlug": "iran-x-israelus-conflict-ends-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "Mongabc123",
-      "pseudonym": "Fearless-Walker",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7ba1967e3ccf088a195680cf8928dd7ad85e5941a4eda8896e4420c0f1e92ac5",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Iran x Israel/US conflict ends by April 15?",
-    "market_slug": "iran-x-israelus-conflict-ends-by",
-    "amount": 3107.66717,
-    "ai_context": "OVERPRICED. The geopolitical situation is complex and unpredictable; a 62% chance of resolution by April 15 seems overly optimistic.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:53.651001+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -3107.67
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xc3523dbe988554b846b20d07034db55af59eb4b0e95e20888b907b1bd78d55a2",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -29677,5 +29625,52 @@
       "model_correct": null,
       "pnl": -2.99
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x46cb4fb1ae48d20f8dc1ece4f2b0f442b37a556111ca4170cc66b2e0a317cb6f",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12603345.985666763,
+      "volume": 290206447.18516994,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8a98109fb0f1d87d9bfcb4486ba3587b95c51b92",
+      "side": "SELL",
+      "asset": "77669758102929718590160851391714019116736856202333459817343190730743895177270",
+      "conditionId": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+      "size": 838.56,
+      "price": 0.6,
+      "timestamp": 1778757863,
+      "title": "Strait of Hormuz traffic returns to normal by end of June?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0xd8dA6BF26964aF9D7eEd9e03E53415D37aA9604",
+      "pseudonym": "Blaring-Backdrop",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x46cb4fb1ae48d20f8dc1ece4f2b0f442b37a556111ca4170cc66b2e0a317cb6f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by end of June?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+    "amount": 335.424,
+    "ai_context": "[Grok] \u2705 COPY \u2014 Recent reports indicate ongoing disruptions in the Strait of Hormuz due to heightened tensions, supporting the bet that traffic won't return to normal by end of June.\nAttacks by Houthi rebels and Iranian seizures have kept shipping volumes below pre-disruption levels in the past few months, with no major de-escalation agreements in sight as of early June 2024. (Reuters.com)\nThis aligns with the trader's edge, so I recommend copying the bet.",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok"
   }
 ]
