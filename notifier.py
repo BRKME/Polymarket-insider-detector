@@ -622,6 +622,45 @@ def _parse_dual_ai(ai_context: str) -> dict:
     }
 
 
+def _extract_ai_short(ai_context: str, model: str) -> str:
+    """Extract short clean text for a specific model from dual AI response."""
+    if not ai_context:
+        return ""
+    
+    # Find [Model] section
+    tag = f"[{model}]"
+    idx = ai_context.find(tag)
+    if idx < 0:
+        return ""
+    
+    text = ai_context[idx + len(tag):].strip()
+    
+    # Cut at next model tag or end
+    for next_tag in ["[GPT]", "[Grok]"]:
+        if next_tag != tag:
+            next_idx = text.find(next_tag)
+            if next_idx > 0:
+                text = text[:next_idx].strip()
+    
+    # Clean verdict prefix
+    for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—",
+                    "❌ SKIP -", "🟡 LEAN COPY —", "🟡 LEAN SKIP —",
+                    "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+        if text.startswith(prefix):
+            text = text[len(prefix):].strip()
+            break
+    
+    # Take first 2 sentences
+    sentences = re.split(r'\.(?!\d)', text)
+    result = '.'.join(sentences[:2]).strip()
+    if result and not result.endswith('.'):
+        result += '.'
+    if len(result) > 180:
+        result = result[:177] + "..."
+    
+    return result
+
+
 def format_top_trader_alert(alert: Dict) -> str:
     """
     Format alert for top trader activity.
@@ -703,15 +742,13 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     
-    # === AI verdict (compute FIRST) ===
+    # === AI (compute FIRST) ===
     ai_context = alert.get('ai_context')
     ai = _parse_dual_ai(ai_context)
-    ai_reason = ai["display"]
     
-    # === Compute recommendation (contrarian ALWAYS active, AI = info only) ===
+    # === Recommendation ===
     wr_text = ""
-    rec_text = ""
-    rec_emoji = ""
+    rec_amount = ""
     try:
         from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
@@ -728,72 +765,83 @@ def format_top_trader_alert(alert: Dict) -> str:
             contra = contrarian_check("TOP_TRADER", outcome_str, stats)
             
             if contra:
-                # Contrarian: reverse the bet (AI does NOT override)
-                opp = contra["opposite_outcome"]
-                opp_wr = contra["opposite_wr"]
                 opp_odds = 1 - effective_odds
-                k = kelly_size(opp_odds, opp_wr, 200)
-                
-                market_title = trade.get('title', '') or alert.get('market', '')
-                if opp.startswith("против "):
-                    bet_team = opp.replace("против ", "")
-                    opponent = _extract_opponent_name(bet_team, market_title) or opp
-                elif opp in ("NO", "YES"):
-                    opponent = opp
-                else:
-                    opponent = opp
-                
-                rec_emoji = "🔄"
+                k = kelly_size(opp_odds, contra["opposite_wr"], 200)
                 if k["action"] == "BET":
-                    rec_text = f"СТАВЬ НА {opponent.upper()} · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
-                else:
-                    rec_text = f"СТАВЬ НА {opponent.upper()}"
+                    rec_amount = f" · {k['bet_amount']:.0f} USD"
             else:
-                # Signal is profitable — copy
                 k = kelly_size(effective_odds, wr, 200)
-                rec_emoji = "✅"
                 if k["action"] == "BET":
-                    rec_text = f"КОПИРУЙ · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
-                else:
-                    rec_text = f"КОПИРУЙ"
+                    rec_amount = f" · {k['bet_amount']:.0f} USD"
     except Exception:
         pass
     
-    # === Build message ===
-    # Individual trader quality
+    # === Trader quality ===
     trader_wr = ""
     try:
         from trader_stats import build_trader_stats, format_trader_quality
         ts = build_trader_stats()
-        trader_wr = format_trader_quality(username, ts)
+        tq = ts.get(username)
+        if tq and tq["total"] >= 5:
+            trader_wr = f" · {tq['wr']*100:.0f}% WR"
     except Exception:
         pass
     
-    # === RECOMMENDATION FIRST (biggest, clearest) ===
-    message = ""
-    if rec_text:
-        message += f"{rec_emoji} {rec_text}\n\n"
+    # === Build verdict line based on consensus ===
+    consensus = ai.get("consensus", "NONE")
     
-    # Header
-    header = "👑 TOP TRADER"
-    if wr_text:
-        header += f" · {wr_text}"
+    # Count models
+    gpt_v = ai.get("gpt_verdict", "NONE")
+    grok_v = ai.get("grok_verdict", "NONE")
+    models_total = sum(1 for v in [gpt_v, grok_v] if v != "NONE")
+    models_copy = sum(1 for v in [gpt_v, grok_v] if v == "COPY")
     
-    if username.startswith("Trader #"):
-        trader_line = f"{username} · ${amount:,.0f}"
+    if consensus == "COPY" and models_total >= 2:
+        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n{models_copy}/{models_total} моделей за, консенсус 100%"
+    elif consensus == "SKIP" and models_total >= 2:
+        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/{models_total} моделей за, консенсус 0%"
+    elif consensus == "SPLIT":
+        verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n{models_copy}/{models_total} моделей за, консенсус 50%"
+    elif models_total == 1:
+        if gpt_v == "COPY" or grok_v == "COPY":
+            verdict_line = f"🟡 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n1/1 модель за"
+        else:
+            verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/1 модель за"
     else:
-        trader_line = f"{username} #{rank} · ${amount:,.0f}"
-    if trader_wr:
-        trader_line += f" · {trader_wr}"
+        verdict_line = ""
     
-    message += f"""{header}
-{market}
+    # === Format AI opinions ===
+    ai_lines = []
+    if ai.get("gpt_verdict") != "NONE":
+        gpt_emoji = "🟢" if ai["gpt_verdict"] == "COPY" else "🟠"
+        gpt_label = "За" if ai["gpt_verdict"] == "COPY" else "Против"
+        # Extract clean GPT text
+        gpt_display = _extract_ai_short(ai_context, "GPT")
+        ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
+    
+    if ai.get("grok_verdict") != "NONE":
+        grok_emoji = "🟢" if ai["grok_verdict"] == "COPY" else "🟠"
+        grok_label = "За" if ai["grok_verdict"] == "COPY" else "Против"
+        grok_display = _extract_ai_short(ai_context, "Grok")
+        ai_lines.append(f"{grok_emoji} Grok: {grok_label}. {grok_display}")
+    
+    # === Assemble message ===
+    sep = "—————————————————————"
+    
+    # Trader line
+    if username.startswith("Trader #"):
+        trader_line = f"{username} · ставит ${amount:,.0f}{trader_wr}"
+    else:
+        trader_line = f"{username} #{rank} · ставит ${amount:,.0f}{trader_wr}"
+    
+    message = f"""{market}
+{verdict_line}
+{sep}
 {trader_line}
-{position}"""
+{sep}"""
 
-    # AI reasoning (informational only, does NOT affect recommendation)
-    if ai_reason:
-        message += f"\n\n{ai_reason}"
+    if ai_lines:
+        message += "\n" + "\n".join(ai_lines)
 
     message += f"""
 
@@ -886,11 +934,9 @@ def format_institutional_alert(alert):
     # AI verdict (compute FIRST)
     ai_context = alert.get('ai_context')
     ai = _parse_dual_ai(ai_context)
-    ai_reason = ai["display"]
 
-    # Recommendation — contrarian ALWAYS active, AI = info only
-    rec_text = ""
-    rec_emoji = ""
+    # Recommendation
+    rec_amount = ""
     try:
         from bet_model import get_signal_stats, contrarian_check, kelly_size
         stats = get_signal_stats()
@@ -903,35 +949,19 @@ def format_institutional_alert(alert):
                 eff_odds = 0.5
             
             contra = contrarian_check(signal_type, outcome_pos, stats)
-            
             if contra:
-                opp = contra["opposite_outcome"]
-                opp_wr = contra["opposite_wr"]
-                k = kelly_size(1 - eff_odds, opp_wr, 200)
-                market_title = alert.get('market', '')
-                if opp.startswith("против "):
-                    bet_team = opp.replace("против ", "")
-                    opponent = _extract_opponent_name(bet_team, market_title) or opp
-                else:
-                    opponent = opp
-                rec_emoji = "🔄"
+                k = kelly_size(1 - eff_odds, contra["opposite_wr"], 200)
                 if k["action"] == "BET":
-                    rec_text = f"СТАВЬ НА {opponent.upper()} · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
-                else:
-                    rec_text = f"СТАВЬ НА {opponent.upper()}"
+                    rec_amount = f" · {k['bet_amount']:.0f} USD"
             else:
                 k = kelly_size(eff_odds, wr, 200)
-                rec_emoji = "✅"
                 if k["action"] == "BET":
-                    rec_text = f"КОПИРУЙ · ${k['bet_amount']:.0f} ({k['half_kelly_pct']:.0f}%)"
-                else:
-                    rec_text = f"КОПИРУЙ"
+                    rec_amount = f" · {k['bet_amount']:.0f} USD"
     except Exception:
         pass
     
     # Wallet info
     wallet = alert['wallet']
-    wallet_short = f"{wallet[:6]}...{wallet[-4:]}" if len(wallet) > 12 else wallet
     amount = float(analysis.get('amount', 0))
     
     if top_trader:
@@ -941,25 +971,53 @@ def format_institutional_alert(alert):
     else:
         profile = "new wallet"
     
-    # Header
-    header = f"👁️ {signal_type}"
-    if wr_text:
-        header += f" · {wr_text}"
+    # Verdict line
+    consensus = ai.get("consensus", "NONE")
+    gpt_v = ai.get("gpt_verdict", "NONE")
+    grok_v = ai.get("grok_verdict", "NONE")
+    models_total = sum(1 for v in [gpt_v, grok_v] if v != "NONE")
+    models_copy = sum(1 for v in [gpt_v, grok_v] if v == "COPY")
     
-    # Build: RECOMMENDATION FIRST
+    if consensus == "COPY" and models_total >= 2:
+        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n{models_copy}/{models_total} моделей за, консенсус 100%"
+    elif consensus == "SKIP" and models_total >= 2:
+        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/{models_total} моделей за, консенсус 0%"
+    elif consensus == "SPLIT":
+        verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n{models_copy}/{models_total} моделей за, консенсус 50%"
+    elif models_total == 1:
+        if gpt_v == "COPY" or grok_v == "COPY":
+            verdict_line = f"🟡 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n1/1 модель за"
+        else:
+            verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/1 модель за"
+    else:
+        verdict_line = ""
+    
+    # AI opinions
+    ai_lines = []
+    if gpt_v != "NONE":
+        gpt_emoji = "🟢" if gpt_v == "COPY" else "🟠"
+        gpt_label = "За" if gpt_v == "COPY" else "Против"
+        gpt_display = _extract_ai_short(ai_context, "GPT")
+        ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
+    if grok_v != "NONE":
+        grok_emoji = "🟢" if grok_v == "COPY" else "🟠"
+        grok_label = "За" if grok_v == "COPY" else "Против"
+        grok_display = _extract_ai_short(ai_context, "Grok")
+        ai_lines.append(f"{grok_emoji} Grok: {grok_label}. {grok_display}")
+    
+    # Build
+    sep = "—————————————————————"
     timestamp = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M')
     url = build_polymarket_url(trade_data, alert)
     
-    message = ""
-    if rec_text:
-        message += f"{rec_emoji} {rec_text}\n\n"
-    
-    message += f"""{header}
-{market}
-${amount:,.0f} on {trade_info['position']} · {profile}"""
+    message = f"""{market}
+{verdict_line}
+{sep}
+{signal_type} · ${amount:,.0f} on {trade_info['position']} · {profile}
+{sep}"""
 
-    if ai_reason:
-        message += f"\n\n{ai_reason}"
+    if ai_lines:
+        message += "\n" + "\n".join(ai_lines)
 
     message += f"""
 
