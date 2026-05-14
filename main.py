@@ -589,6 +589,12 @@ def main():
                 
                 print(f"[{datetime.now()}] 🐋 Sending whale alert ({len(msg)} chars)...")
                 
+                # Quiet hours check (01-06 MSK = 22-03 UTC)
+                utc_hour = datetime.utcnow().hour
+                if utc_hour >= 22 or utc_hour < 3:
+                    print(f"[{datetime.now()}] 😴 Quiet hours — skipping whale alert")
+                    continue
+                
                 try:
                     token = os.getenv("TELEGRAM_BOT_TOKEN")
                     chat_id = os.getenv("TELEGRAM_CHAT_ID")

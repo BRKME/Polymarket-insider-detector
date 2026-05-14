@@ -438,12 +438,22 @@ def generate_ai_summary(alert):
         latency_info
     )
 
+def _is_quiet_hours() -> bool:
+    """Check if it's sleep time in Moscow (01:00-06:00 MSK = 22:00-03:00 UTC)."""
+    from datetime import datetime, timezone
+    utc_hour = datetime.now(timezone.utc).hour
+    return utc_hour >= 22 or utc_hour < 3
+
+
 def send_telegram_alert(alert):
     """
     Send institutional-grade alert to Telegram.
     FIX ISSUE #12: Improved error handling with fallback.
     """
     try:
+        if _is_quiet_hours():
+            print(f"😴 Quiet hours (01-06 MSK) — skipping insider alert")
+            return True  # Return True so it's not retried
         message = format_institutional_alert(alert)
         url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
         payload = {
@@ -1051,6 +1061,9 @@ def format_institutional_alert(alert):
 def send_top_trader_alert(alert: Dict) -> bool:
     """Send top trader alert to Telegram."""
     try:
+        if _is_quiet_hours():
+            print(f"😴 Quiet hours (01-06 MSK) — skipping top trader alert")
+            return True
         message = format_top_trader_alert(alert)
         url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
         payload = {
