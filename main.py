@@ -277,7 +277,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
         tt_low_roi = 0
         tt_bad_trader = 0
         
-        for address, trader_info in list(top_wallets.items())[:20]:  # Limit to top 20 to avoid rate limits
+        for address, trader_info in list(top_wallets.items())[:30]:  # Top 30 (was 20)
             trades = fetch_trader_recent_trades(address, minutes_back=60)  # Increased to 60 min
             
             if trades:
@@ -384,7 +384,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 alerts.append(alert)
                 print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${cost:,.0f} {outcome} @ {effective_odds*100:.0f}% on {market_name[:50]}")
         
-        print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/20 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
+        print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/30 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
         print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1K,rank>5)={tt_small}, crypto={tt_crypto}, low_roi={tt_low_roi}, bad_trader={tt_bad_trader}")
         return alerts
         

@@ -50,7 +50,7 @@ MAX_PAGES = 20              # Up to 10,000 trades (20 × 500)
 MINUTES_BACK = 20           # Look back 20 minutes for */5 frequency
                             # Increased from 10 for reliability (cron drift)
 PAGE_DELAY = 1.0            # Delay between paginated requests
-REQUEST_DELAY = 0.5         # Base delay for API requests
+REQUEST_DELAY = 0.3         # Base delay for API requests (reduced from 0.5)
 
 # Retry Configuration
 MAX_RETRIES = 3             # Maximum retry attempts for failed requests
