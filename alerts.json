@@ -26381,7 +26381,14 @@
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matches between Cirstea and Gauff have consistently exceeded 2.5 sets.\nIn their most recent encounter at the 2026 Madrid Open, Gauff won 4-6, 7-5, 6-1, indicating a match duration of over 2.5 sets. (elpais.com) Their previous match at the 2026 Miami Open also extended beyond 2.5 sets. (ladbrokes.com) Additionally, Gauff has been battling a stomach virus, which may have affected her performance. (elpais.com)",
     "ai_verdict": "COPY",
     "ai_model": "GPT",
-    "resolution_last_check": "2026-05-14T08:28:23.670263+00:00"
+    "resolution_last_check": "2026-05-14T08:28:23.670263+00:00",
+    "resolution": {
+      "outcome": "Coco Gauff",
+      "checked_at": "2026-05-15T08:39:04.317540+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3.13
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27395,7 +27402,14 @@
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent developments indicate that rare earth minerals are a significant topic in the upcoming Trump-Xi summit.\nThe summit is expected to address issues over rare earth minerals, with China having previously agreed to pause its sweeping rare-earths controls for a year. (bloomberg.com) Additionally, the summit may focus on China's restrictions on mineral exports, with U.S. negotiators seeking stronger commitments on critical minerals. (axios.",
     "ai_verdict": "COPY",
     "ai_model": "GPT",
-    "resolution_last_check": "2026-05-14T08:28:41.537879+00:00"
+    "resolution_last_check": "2026-05-14T08:28:41.537879+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-15T08:39:06.344268+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27767,7 +27781,14 @@
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent agreements between Trump and Xi Jinping have prominently featured rare earths.\nIn October 2025, they reached a one-year deal on rare earths, with Trump stating, \"All the rare earths has been settled, and that's for the world.\" (ndtv.com) Additionally, in June 2025, Trump announced that Xi agreed to let rare earth minerals flow to the U.S., aiming to ease trade tensions. (investing.",
     "ai_verdict": "COPY",
     "ai_model": "GPT",
-    "resolution_last_check": "2026-05-14T08:28:45.036775+00:00"
+    "resolution_last_check": "2026-05-14T08:28:45.036775+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-15T08:39:06.344328+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -27869,7 +27890,14 @@
     "ai_context": "[GPT] \u2705 COPY \u2014 Recent matchups between the Mariners and Astros have consistently exceeded 11.5 total runs.\nIn their last three games, the total runs were 15, 12, and 1, respectively. The upcoming game is scheduled for today, May 14, 2026. Given the recent high-scoring games, betting on the Over at 33% odds appears favorable.",
     "ai_verdict": "COPY",
     "ai_model": "GPT",
-    "resolution_last_check": "2026-05-14T08:28:45.886647+00:00"
+    "resolution_last_check": "2026-05-14T08:28:45.886647+00:00",
+    "resolution": {
+      "outcome": "Seattle Mariners",
+      "checked_at": "2026-05-15T08:39:07.715230+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29302,7 +29330,8 @@
     "amount": 335.424,
     "ai_context": "[Grok] \u2705 COPY \u2014 Recent reports indicate ongoing disruptions in the Strait of Hormuz due to heightened tensions, supporting the bet that traffic won't return to normal by end of June.\nAttacks by Houthi rebels and Iranian seizures have kept shipping volumes below pre-disruption levels in the past few months, with no major de-escalation agreements in sight as of early June 2024. (Reuters.com)\nThis aligns with the trader's edge, so I recommend copying the bet.",
     "ai_verdict": "COPY",
-    "ai_model": "Grok"
+    "ai_model": "Grok",
+    "resolution_last_check": "2026-05-15T08:39:11.186811+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29349,7 +29378,14 @@
     "amount": 208.37,
     "ai_context": "[GPT] \ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head record are mixed, but Virtus.pro's recent victories suggest potential.\nIn their last five matches, Virtus.pro secured four wins, including a 2-1 victory over Xtreme Gaming on May 12, 2026. Their head-to-head record against Vici Gaming stands at 7 wins for Virtus.pro and 9 for Vici Gaming. Notably, Virtus.pro won the most recent encounter between the two teams in October 2022. (egamersworld.",
     "ai_verdict": "LEAN_COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "Virtus.pro",
+      "checked_at": "2026-05-15T08:39:12.453201+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 216.78
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29396,7 +29432,14 @@
     "amount": 519.82,
     "ai_context": "[GPT] \u2705 COPY \u2014 G2 Esports has a strong recent record and a favorable head-to-head against Natus Vincere.\nG2 Esports has won 3 of their last 5 matches, including a 2-0 victory over Natus Vincere on May 3, 2026. (bo3.gg) Natus Vincere has also won 3 of their last 5 matches, but their most recent loss was to G2 Esports. (strafe.com)",
     "ai_verdict": "COPY",
-    "ai_model": "GPT"
+    "ai_model": "GPT",
+    "resolution": {
+      "outcome": "G2 Esports",
+      "checked_at": "2026-05-15T08:39:13.799931+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 138.18
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29444,7 +29487,14 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY \u2014 Xtreme Gaming has a favorable head-to-head record against PARIVISION and recent strong performances.\nIn their last 10 encounters, Xtreme Gaming secured 4 wins, while PARIVISION won 6.\n[Grok] \u2705 COPY \u2014 Xtreme Gaming has a strong recent form and a favorable head-to-head record against PARIVISION, making the bet well-supported.",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-15T08:39:15.134754+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -485.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29492,7 +29542,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0414\u043e\u043d\u0430\u043b\u044c\u0434 \u0422\u0440\u0430\u043c\u043f \u0432\u044b\u0438\u0433\u0440\u0430\u043b \u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0441\u043a\u0438\u0435 \u0432\u044b\u0431\u043e\u0440\u044b \u0432 \u043d\u043e\u044f\u0431\u0440\u0435 2024 \u0433\u043e\u0434\u0430 \u0438 \u0432\u0441\u0442\u0443\u043f\u0438\u043b \u0432 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c 20 \u044f\u043d\u0432\u0430\u0440\u044f 2025 \u0433\u043e\u0434\u0430. (politifact.com)\n\u0421 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u0432\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0432 \u0434\u043e\u043b\u0436\u043d\u043e\u0441\u0442\u044c \u0422\u0440\u0430\u043c\u043f \u043d\u0435 \u0434\u0435\u043b\u0430\u043b \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0445 \u043e\u0441\u043a\u043e\u0440\u0431\u043b\u0435\u043d\u0438\u0439.\n[Grok] \u2705 COPY  \nTrump insulted opponents in 80% of his 2023-2024 public appearances, including attacks on Biden and Haley.",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-15T08:39:16.538072+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 118.81
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29540,7 +29597,8 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nex-RUBY \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 1-2 \u043f\u0440\u043e\u0442\u0438\u0432 Johnny Speeds 11 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430\nex-RUBY \u0438\u0433\u0440\u0430\u044e\u0442 \u0441 \u0437\u0430\u043c\u0435\u043d\u0430\u043c\u0438: robo \u0438 relaxxie \u0432\u043c\u0435\u0441\u0442\u043e Kaide\n[Grok] \u2705 COPY  \nex-RUBY \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-1 \u043d\u0430\u0434 Team A  \nH2h: ex-RUBY \u0432\u0435\u0434\u0443\u0442 3-1 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 Johnny Speeds",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution_last_check": "2026-05-15T08:39:17.421382+00:00"
   },
   {
     "market": "Will PSG win the 2025\u201326 Champions League?",
@@ -29652,7 +29710,8 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u0421\u0416 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 \u0411\u0430\u0432\u0430\u0440\u0438\u0438, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0:1 \u0438 0:2 \u0432 \u043d\u043e\u044f\u0431\u0440\u0435 2025 \u0433\u043e\u0434\u0430. (championat.\n[Grok] \u2705 COPY  \nPSG \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 8 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439 \u0432 \u0441\u0435\u0437\u043e\u043d\u0435 2023-24, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u041b\u0438\u0433\u0443 1 \u0442\u0438\u0442\u0443\u043b.  \nH2H \u0432 \u041b\u0427: 2 \u043f\u043e\u0431\u0435\u0434\u044b \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043f\u0440\u043e\u0442\u0438\u0432 \u0442\u043e\u043f-\u043a\u043e\u043c\u0430\u043d\u0434, \u043a\u0430\u043a \u0420\u0435\u0430\u043b.",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution_last_check": "2026-05-15T08:39:18.256925+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29700,6 +29759,7 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nHanwha Life Esports \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0-2 \u043f\u0440\u043e\u0442\u0438\u0432 Dplus KIA\nH2H: Dplus KIA \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u0432 2025 \u0433\u043e\u0434\u0443\n[Grok] \u2705 COPY  \nHLE \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 T1  \nH2H: HLE \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Dplus KIA",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution_last_check": "2026-05-15T08:39:19.043169+00:00"
   }
 ]
