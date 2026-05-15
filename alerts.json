@@ -1,288 +1,5 @@
 [
   {
-    "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
-    "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-    "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-    "wallet": "0xda75da58a4578f88d3ef0b3116ead22061378022",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,457)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1456.5749999999998,
-      "odds": 0.75,
-      "raw_price": 0.75,
-      "outcome": "Yes",
-      "potential_pnl": 485.52499999999986,
-      "pnl_multiplier": 0.33333333333333326,
-      "wallet_age_days": 1,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-11T07:38:10.792041",
-    "trade_hash": "0x42c136833916b48c4659e2e0ef47d23d22a2d4703254bc47d8a73d33f6a7fe73",
-    "trade_timestamp": 1775892669,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.75,
-      "effective_price": 0.75,
-      "size": 1942.1,
-      "amount": 1456.5749999999998,
-      "potential_pnl": 485.52499999999986,
-      "pnl_multiplier": 0.33333333333333326,
-      "is_no": false,
-      "slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-      "eventSlug": "hungary-parliamentary-election-winner"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+46.0%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.29000000000000004,
-      "market_price": 0.75,
-      "edge": 0.45999999999999996,
-      "edge_percent": 46.0,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "TISZA maintains strong public support leading up to the election",
-          "TISZA successfully mobilizes voters on election day",
-          "Opposition parties fail to unite or present a strong alternative"
-        ],
-        "weakest_link": "Opposition parties fail to unite or present a strong alternative"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards TISZA's policies and leadership",
-        "Recent electoral trends and voter turnout patterns"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.45999999999999996,
-      "edge_percent": 46.0
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 46.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:56.649885+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1456.57
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xab3a06e8f2d99131afb25066c0892dabe52554538de6356c3156a17c6598998f",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 17,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4526176.046413305,
-      "volume": 185485956.862083,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5caec2331059ed7bbead580c8bc56e2d1896a00a",
-      "side": "BUY",
-      "asset": "869426892643676245151498154611139604354598333878526514825242227389138160766",
-      "conditionId": "0xa2de47ea7de87c026115f7bfccb9644c982430be1fe8391735a2f314b8a8feb0",
-      "size": 2270.451,
-      "price": 0.7298820445609436,
-      "timestamp": 1775895345,
-      "title": "Game Handicap: FUR (-1.5) vs Leviatan Esports (+1.5)",
-      "slug": "lol-fur-lev-2026-04-06-game-handicap-away-1pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-fur-lev-2026-04-06",
-      "outcome": "FURIA Esports",
-      "outcomeIndex": 0,
-      "name": "azkalph",
-      "pseudonym": "Male-Essence",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4444980-c9b70d76-0c95-4347-929a-ef946c243131.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xab3a06e8f2d99131afb25066c0892dabe52554538de6356c3156a17c6598998f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Game Handicap: FUR (-1.5) vs Leviatan Esports (+1.5)",
-    "market_slug": "lol-fur-lev-2026-04-06",
-    "amount": 1657.161417955439,
-    "ai_context": "\u2705 COPY  \nFURIA Esports at 73% suggests strong confidence; odds may undervalue their chances against Leviatan Esports.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451152+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-06 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will Fidesz\u2013KDNP win the most seats in the next Hungarian parliamentary election?",
-    "market_slug": "will-fideszkdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-    "event_slug": "will-fideszkdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-    "wallet": "0xac33959806f5ad64ca1e463d80f98de916f8f3db",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,271)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1270.9999990000001,
-      "odds": 0.25999999987317074,
-      "raw_price": 0.25999999987317074,
-      "outcome": "Yes",
-      "potential_pnl": 3617.461538,
-      "pnl_multiplier": 2.8461538480300184,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-11T08:58:01.351709",
-    "trade_hash": "0xa37ecccc7be2e408cbe0197ac719c77b434762a11715e03aaeebea2b692e3b79",
-    "trade_timestamp": 1775897759,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.25999999987317074,
-      "effective_price": 0.25999999987317074,
-      "size": 4888.461537,
-      "amount": 1270.9999990000001,
-      "potential_pnl": 3617.461538,
-      "pnl_multiplier": 2.8461538480300184,
-      "is_no": false,
-      "slug": "will-fideszkdnp-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
-      "eventSlug": "hungary-parliamentary-election-winner"
-    },
-    "irrationality": {
-      "irrationality_score": 18,
-      "flags": [
-        "Moderate mispricing edge (+6.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.19199999997463413,
-      "market_price": 0.25999999987317074,
-      "edge": 0.06799999989853661,
-      "edge_percent": 6.799999989853661,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Fidesz\u2013KDNP maintains strong voter support leading up to the election",
-          "Opposition parties remain fragmented and unable to unite against Fidesz\u2013KDNP",
-          "Economic conditions do not deteriorate significantly before the election"
-        ],
-        "weakest_link": "Economic conditions do not deteriorate significantly before the election"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards government performance and policies",
-        "Potential shifts in voter turnout and engagement"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 18,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.06799999989853661,
-      "edge_percent": 6.799999989853661
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 27.8,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 6.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:58.232534+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1271.0
-    }
-  },
-  {
     "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
     "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
     "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
@@ -29670,6 +29387,215 @@
     "market_slug": "epl-ast-liv-2026-05-17-more-markets",
     "amount": 299.999998,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 Aston Villa \u0437\u0430\u0431\u0438\u043b\u0430 13 \u0433\u043e\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 2.17 \u0437\u0430 \u0438\u0433\u0440\u0443; 4 \u0438\u0437 6 \u043c\u0430\u0442\u0447\u0435\u0439 \u0441 Over 2.5 \u0433\u043e\u043b\u043e\u0432. (fctables.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 Liverpool \u0437\u0430\u0431\u0438\u043b\u0430 9 \u0433\u043e\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 1.\n[Grok] \u2705 COPY\nH2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430: 3-3, 4-2, 2-2 (\u0432\u0441\u0435\u0433\u043e 7 \u0438\u0437 8 \u043c\u0430\u0442\u0447\u0435\u0439 over 3.5)\nLiverpool \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 6 \u0438\u0433\u0440: 4.2 \u0433\u043e\u043b\u0430 \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c, 5 \u0438\u0437 6 over 3.5",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "market": "Will the Buffalo Sabres win the 2026 NHL Stanley Cup?",
+    "market_slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+    "event_slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+    "wallet": "0x675a7db213a43e788d181d847e7e39a8fd14aaca",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (4.5% effective odds)",
+        "Large bet ($1,382)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1382.039999,
+      "odds": 0.04451081330726097,
+      "raw_price": 0.04451081330726097,
+      "outcome": "Yes",
+      "potential_pnl": 29667.493728000005,
+      "pnl_multiplier": 21.46645086210707,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-05-15T22:32:27.515347",
+    "trade_hash": "0x477be0340ae9bd3197ff87d5f67569557bc093bad1ed03f51280007ee980cbe4",
+    "trade_timestamp": 1778883765,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.04451081330726097,
+      "effective_price": 0.04451081330726097,
+      "size": 31049.533727,
+      "amount": 1382.039999,
+      "potential_pnl": 29667.493728000005,
+      "pnl_multiplier": 21.46645086210707,
+      "is_no": false,
+      "conditionId": "0xbefea6668e49e328db4d5c792bc15cea309bbc06101dfd6ced1e0556ad3ea301",
+      "slug": "will-the-buffalo-sabres-win-the-2026-nhl-stanley-cup",
+      "eventSlug": "2026-nhl-stanley-cup-champion"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (4%) in medium bias category (politics_near)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.0289021626614522,
+      "market_price": 0.04451081330726097,
+      "edge": 0.01560865064580877,
+      "edge_percent": 1.5608650645808768,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Significant improvement in team performance",
+          "Key player acquisitions or developments",
+          "Strong performance in playoffs"
+        ],
+        "weakest_link": "Significant improvement in team performance"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Emergence of young talent",
+        "Changes in coaching staff"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 95,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 95,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.01560865064580877,
+      "edge_percent": 1.5608650645808768
+    },
+    "financial_analyst": {
+      "signal_quality": 31.3,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 1.56,
+      "signal_strength": 95.0,
+      "insider_score": 95.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0421\u0435\u0439\u0431\u0440\u0441 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 5-0 \u043f\u0440\u043e\u0442\u0438\u0432 \u0411\u043b\u044e \u0414\u0436\u0435\u043a\u0435\u0442\u0441\nH2H: \u0421\u0435\u0439\u0431\u0440\u0441 \u0432\u0435\u0434\u0443\u0442 6-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 \u0412\u0430\u0448\u0438\u043d\u0433\u0442\u043e\u043d \u041a\u044d\u043f\u0438\u0442\u0430\u043b\u0441 (rantsports.com)\n[Grok] \u274c SKIP\nSabres 5-5-2 in last 12 games (2024-25), 0-3 vs top-8 teams\nFranchise 0 Stanley Cup wins in 53 seasons, missed playoffs 12 of last 13 years",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdc04816659068609c8871a15748bf7cc041c5fa7613fc25c304901a004d14ddf",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2714203fdcc0843fac3122edccea32c05bcd960f",
+      "side": "BUY",
+      "asset": "59890475480172715616658107936329214435139354769504203294452822644887213718318",
+      "conditionId": "0xffba6c069bbf47b990a5209e9aa5daa84b02d2a8a797d49d94ca3fe76a5fee9b",
+      "size": 600,
+      "price": 0.58,
+      "timestamp": 1778883989,
+      "title": "New York Yankees vs. New York Mets",
+      "slug": "mlb-nyy-nym-2026-05-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nyy-nym-2026-05-15",
+      "outcome": "New York Yankees",
+      "outcomeIndex": 0,
+      "name": "satman88",
+      "pseudonym": "Focused-Pretzel",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdc04816659068609c8871a15748bf7cc041c5fa7613fc25c304901a004d14ddf",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Yankees vs. New York Mets",
+    "market_slug": "mlb-nyy-nym-2026-05-15",
+    "amount": 348.0,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nYankees \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0-7 \u043f\u0440\u043e\u0442\u0438\u0432 Orioles 13 \u043c\u0430\u044f\nH2H: Mets \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 12-3 25 \u0438\u044e\u043b\u044f 2024 \u0433\u043e\u0434\u0430 (as.com)\n[Grok] \u2705 COPY\nYankees 7-3 in last 10, 4.8 runs/game with 2.9 ERA\nH2H: Yankees 5-2 vs Mets since 2023, won last 3 by avg margin 3.7 runs",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6094c9700f1960b67cd1ea2d9cfe9f8a80b0e513401c1f22bfa35427f7cd9e64",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12588417.655577332,
+      "volume": 290336654.184485,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x00ffb912f1bf01c0123869ddb92d4b6a6ad3f7ad",
+      "side": "BUY",
+      "asset": "101738487887518832481587379955535423775326921556438741919099866785354159699479",
+      "conditionId": "0xf8f63bb47b2a7c2e0c1be3cedf4075079b11c07476d76a9469065b0c4791961a",
+      "size": 1015.228425,
+      "price": 0.39399999955675,
+      "timestamp": 1778884290,
+      "title": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+      "slug": "will-the-colorado-avalanche-win-the-2026-nhl-stanley-cup",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/stanley-cup-champion-2026-05M0VRODAaEb.jpg",
+      "eventSlug": "2026-nhl-stanley-cup-champion",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "ballinco",
+      "pseudonym": "Common-Love",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6094c9700f1960b67cd1ea2d9cfe9f8a80b0e513401c1f22bfa35427f7cd9e64",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the Colorado Avalanche win the 2026 NHL Stanley Cup?",
+    "market_slug": "2026-nhl-stanley-cup-champion",
+    "amount": 399.99999900000006,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041a\u043e\u043b\u043e\u0440\u0430\u0434\u043e \u0410\u0432\u0430\u043b\u0430\u043d\u0448 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 6 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 4-1 \u043f\u0440\u043e\u0442\u0438\u0432 \u041b\u043e\u0441-\u0410\u043d\u0434\u0436\u0435\u043b\u0435\u0441 \u041a\u0438\u043d\u0433\u0441 7 \u043e\u043a\u0442\u044f\u0431\u0440\u044f 2025 \u0433\u043e\u0434\u0430. (statmuse.\n[Grok] \u2705 COPY\nAvalanche 9-3-2 in last 14 games, 3.8 goals per game average\nMacKinnon-Makar line combined for 28 points in last 10 contests",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
