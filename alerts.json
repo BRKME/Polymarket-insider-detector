@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc54d069ab655cf7d843874db4643211303a491306341f7d3fb25b130bf60522c",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x40471b34671887546013ceb58740625c2efe7293",
-      "side": "BUY",
-      "asset": "115244086768882877525516513397533392349337694963923162013382920248577349413134",
-      "conditionId": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
-      "size": 4805.68,
-      "price": 0.49,
-      "timestamp": 1775750079,
-      "title": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
-      "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
-      "eventSlug": "cl-hit-jun-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "esports095",
-      "pseudonym": "Oval-Gasp",
-      "bio": "hahaha",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1612623-69a46f7f-2905-4f22-9d46-43d32df5e7d4.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc54d069ab655cf7d843874db4643211303a491306341f7d3fb25b130bf60522c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
-    "market_slug": "cl-hit-jun-2026",
-    "amount": 2354.7832000000003,
-    "ai_context": "FAIR. Current market conditions and forecasts suggest $120 is unlikely, making 49% a reasonable assessment for \"No.",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:40:56.212058+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2354.78
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xba9372840d7058277c5b9cd4c7be401cf2ee2746ad7ca740b7e571a69a7197e2",
     "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
     "trader": {
@@ -29643,6 +29591,118 @@
     "market_slug": "cs2-js1-ruby1-2026-05-15",
     "amount": 936.3621999999999,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nex-RUBY \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 1-2 \u043f\u0440\u043e\u0442\u0438\u0432 Johnny Speeds 11 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430\nex-RUBY \u0438\u0433\u0440\u0430\u044e\u0442 \u0441 \u0437\u0430\u043c\u0435\u043d\u0430\u043c\u0438: robo \u0438 relaxxie \u0432\u043c\u0435\u0441\u0442\u043e Kaide\n[Grok] \u2705 COPY  \nex-RUBY \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-1 \u043d\u0430\u0434 Team A  \nH2h: ex-RUBY \u0432\u0435\u0434\u0443\u0442 3-1 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 Johnny Speeds",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "market": "Will PSG win the 2025\u201326 Champions League?",
+    "market_slug": "will-psg-win-the-202526-champions-league",
+    "event_slug": "will-psg-win-the-202526-champions-league",
+    "wallet": "0xdf0ed1bf375310b69c1bf988785763ee170d5c89",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,003)",
+        "Low activity (4 txns)"
+      ],
+      "amount": 1003.0,
+      "odds": 0.59,
+      "raw_price": 0.59,
+      "outcome": "Yes",
+      "potential_pnl": 697.0,
+      "pnl_multiplier": 0.6949152542372882,
+      "wallet_age_days": 0,
+      "total_activities": 4
+    },
+    "timestamp": "2026-05-15T01:25:51.010976",
+    "trade_hash": "0x317f2035ac76733e3878d2c191f445b4f5033888c77af0a19f5816f7ebe41426",
+    "trade_timestamp": 1778807889,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.59,
+      "effective_price": 0.59,
+      "size": 1700.0,
+      "amount": 1003.0,
+      "potential_pnl": 697.0,
+      "pnl_multiplier": 0.6949152542372882,
+      "is_no": false,
+      "conditionId": "0x6e9f90a6f471b52d03499a81586ca478519474eb152f1327c8c767f020d62529",
+      "slug": "will-psg-win-the-202526-champions-league",
+      "eventSlug": "uefa-champions-league-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+41.2%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.178,
+      "market_price": 0.59,
+      "edge": 0.412,
+      "edge_percent": 41.199999999999996,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "PSG maintains a strong squad with key players performing at a high level",
+          "PSG successfully navigates the knockout stages of the tournament",
+          "PSG's management and coaching staff implement effective strategies"
+        ],
+        "weakest_link": "PSG successfully navigates the knockout stages of the tournament"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "PSG's investment in top talent and resources",
+        "The competitive landscape of European football and potential rival teams"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.412,
+      "edge_percent": 41.199999999999996
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 41.2,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u0421\u0416 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 \u0411\u0430\u0432\u0430\u0440\u0438\u0438, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0:1 \u0438 0:2 \u0432 \u043d\u043e\u044f\u0431\u0440\u0435 2025 \u0433\u043e\u0434\u0430. (championat.\n[Grok] \u2705 COPY  \nPSG \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 8 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439 \u0432 \u0441\u0435\u0437\u043e\u043d\u0435 2023-24, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u041b\u0438\u0433\u0443 1 \u0442\u0438\u0442\u0443\u043b.  \nH2H \u0432 \u041b\u0427: 2 \u043f\u043e\u0431\u0435\u0434\u044b \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043f\u0440\u043e\u0442\u0438\u0432 \u0442\u043e\u043f-\u043a\u043e\u043c\u0430\u043d\u0434, \u043a\u0430\u043a \u0420\u0435\u0430\u043b.",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
