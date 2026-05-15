@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xe007d16c176e3c6f000bf048b738ecbdd3b4fcb6ae3003e59d33f494509c4c1f",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x26437896ed9dfeb2f69765edcafe8fdceaab39ae",
-      "side": "BUY",
-      "asset": "24708477020502080529182226975397565107450435776753302895215752821621643729536",
-      "conditionId": "0x7c3b994d5a05758d4f0e69b3db51f8ff3589259ebf41c5c6bdd7ccf0cbb7c6ba",
-      "size": 51283.48,
-      "price": 0.72,
-      "timestamp": 1775773791,
-      "title": "Maple Leafs vs. Islanders",
-      "slug": "nhl-tor-nyi-2026-04-09",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-tor-nyi-2026-04-09",
-      "outcome": "Islanders",
-      "outcomeIndex": 1,
-      "name": "Latina",
-      "pseudonym": "Impractical-Fondue",
-      "bio": "follow on X: @LATINAXBT",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe007d16c176e3c6f000bf048b738ecbdd3b4fcb6ae3003e59d33f494509c4c1f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Maple Leafs vs. Islanders",
-    "market_slug": "nhl-tor-nyi-2026-04-09",
-    "amount": 36924.1056,
-    "ai_context": "\u2705 COPY  \nThe odds suggest the Islanders are undervalued; strong performance and favorable matchup increase likelihood of winning.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451086+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-09 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x6ae7e6d2cf7b1339b01801a855e2e250ee5f81742960175edb3f26169e20e8fd",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
     "trader": {
@@ -29896,6 +29843,54 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044c \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 \u0424\u0443\u043b\u0445\u044d\u043c\u043e\u043c 11 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430. (betzona.\n[Grok] \u2705 COPY  \nLiverpool won only 3 of their last 10 matches, including 0-2 loss to Arsenal.  \nIn H2H vs top teams, they lost 4 of the last 5 encounters.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4c5fb41e6a2a1ea789dcba2d549d5afa69a29f66a7d5a3acc8ce006d1db2ef8c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "9009453601784721869628721589115620495118387064442418920453455546119681298395",
+      "conditionId": "0xd7f854b8d71ebceb920c7fa2bff72f03a4a29fb5bd4330cead7e7088359eb60e",
+      "size": 2023.37,
+      "price": 0.65,
+      "timestamp": 1778872310,
+      "title": "Will Liverpool FC win on 2026-05-17?",
+      "slug": "epl-ast-liv-2026-05-17-liv",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ast-liv-2026-05-17",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4c5fb41e6a2a1ea789dcba2d549d5afa69a29f66a7d5a3acc8ce006d1db2ef8c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Liverpool FC win on 2026-05-17?",
+    "market_slug": "epl-ast-liv-2026-05-17",
+    "amount": 708.1795,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044c \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u044b\u0435\u0437\u0434\u043d\u044b\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-3 \u043f\u0440\u043e\u0442\u0438\u0432 \u041c\u0430\u043d\u0447\u0435\u0441\u0442\u0435\u0440 \u042e\u043d\u0430\u0439\u0442\u0435\u0434 3 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (anfield-online.co.\n[Grok] \u2705 COPY\nNo confirmed 2025/26 fixtures or form data exist for May 2026\nLiverpool historically strong in late-season matches (no clear evidence against a result)",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
