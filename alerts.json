@@ -1,626 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x6ae7e6d2cf7b1339b01801a855e2e250ee5f81742960175edb3f26169e20e8fd",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 18,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4450403.432946065,
-      "volume": 327178081.325298,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x12ec6d71325afac2b4d25b3de94185e2c48d41ae",
-      "side": "BUY",
-      "asset": "78108883873731751444585823432571874375565409313122849324303960320208551479629",
-      "conditionId": "0x29059fdef7014dded7d53c5cf8585078265ed56e41de310573ee14acd926ddca",
-      "size": 13000,
-      "price": 0.22243548461538462,
-      "timestamp": 1775776493,
-      "title": "Bulls vs. Wizards",
-      "slug": "nba-chi-was-2026-04-09",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-chi-was-2026-04-09",
-      "outcome": "Wizards",
-      "outcomeIndex": 1,
-      "name": "olegio",
-      "pseudonym": "Pushy-Program",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x6ae7e6d2cf7b1339b01801a855e2e250ee5f81742960175edb3f26169e20e8fd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bulls vs. Wizards",
-    "market_slug": "nba-chi-was-2026-04-09",
-    "amount": 2891.6613,
-    "ai_context": "\u274c SKIP  \nThe odds for the Wizards at 22% seem too low given their potential strength against the Bulls. Market efficiency may be lacking.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451095+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-09 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x022bd3ffa2110b2c6a016eae223f35f2951b2dc99d50d8da5c79392717a27c80",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x575a227b3d9369b06a4aeffb3ab820b407f3bba6",
-      "side": "BUY",
-      "asset": "109024127569407483994653154191859332262858905496142888757502388329747218091337",
-      "conditionId": "0x731d3440369f4e92d0223215323645ac6b3b40c19f2fe03885ec7dc3ce1abad1",
-      "size": 26120.1411,
-      "price": 0.76,
-      "timestamp": 1775794199,
-      "title": "Thunder vs. Nuggets",
-      "slug": "nba-okc-den-2026-04-10",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-okc-den-2026-04-10",
-      "outcome": "Nuggets",
-      "outcomeIndex": 1,
-      "name": "qqq89",
-      "pseudonym": "Jaunty-Network",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x022bd3ffa2110b2c6a016eae223f35f2951b2dc99d50d8da5c79392717a27c80",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Thunder vs. Nuggets",
-    "market_slug": "nba-okc-den-2026-04-10",
-    "amount": 19851.307236,
-    "ai_context": "\u2705 COPY  \nThe odds suggest strong confidence in the Nuggets, likely reflecting their superior team strength and performance.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451104+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-10 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "wallet": "0x197dc1b08f96a0046883e2b03f120b716300dc5b",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,000)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1999.999998,
-      "odds": 0.72,
-      "raw_price": 0.72,
-      "outcome": "Yes",
-      "potential_pnl": 777.777777,
-      "pnl_multiplier": 0.3888888888888889,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-10T10:07:42.723789",
-    "trade_hash": "0xc24e48f514372c255f11b6c8ac13384c2817777232fc1679ad7b23588c3ec95b",
-    "trade_timestamp": 1775815347,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.72,
-      "effective_price": 0.72,
-      "size": 2777.777775,
-      "amount": 1999.999998,
-      "potential_pnl": 777.777777,
-      "pnl_multiplier": 0.3888888888888889,
-      "is_no": false,
-      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-      "eventSlug": "next-prime-minister-of-hungary"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+43.6%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.284,
-      "market_price": 0.72,
-      "edge": 0.436,
-      "edge_percent": 43.6,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "P\u00e9ter Magyar secures significant party support",
-          "Favorable public opinion polls for Magyar",
-          "Political landscape shifts in favor of Magyar"
-        ],
-        "weakest_link": "Favorable public opinion polls for Magyar"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Political instability in Hungary",
-        "Emergence of new political alliances"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.436,
-      "edge_percent": 43.6
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 43.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-26T07:40:56.649786+00:00",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-27T08:06:12.260727+00:00",
-      "insider_win": true,
-      "model_correct": false,
-      "pnl": 777.78
-    }
-  },
-  {
-    "market": "Arizona Diamondbacks vs. Philadelphia Phillies",
-    "market_slug": "mlb-ari-phi-2026",
-    "event_slug": "mlb-ari-phi-2026",
-    "wallet": "0xec4e470589f8c27e9d3e66b2964d7d62734261bd",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($3,704)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 3704.4472006015835,
-      "odds": 0.559999999982099,
-      "raw_price": 0.559999999982099,
-      "outcome": "Philadelphia Phillies",
-      "potential_pnl": 2910.637086398416,
-      "pnl_multiplier": 0.7857142857713678,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-10T20:01:03.146736",
-    "trade_hash": "0x8c1be35b65b5663c997982be6f956b07f261a3361a7486876f8cf96617c1de79",
-    "trade_timestamp": 1775850779,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Philadelphia Phillies",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.559999999982099,
-      "effective_price": 0.559999999982099,
-      "size": 6615.084287,
-      "amount": 3704.4472006015835,
-      "potential_pnl": 2910.637086398416,
-      "pnl_multiplier": 0.7857142857713678,
-      "is_no": false,
-      "slug": "mlb-ari-phi-2026",
-      "eventSlug": "mlb-ari-phi-2026-04-11"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2519999999964198,
-      "market_price": 0.559999999982099,
-      "edge": 0.30799999998567923,
-      "edge_percent": 30.799999998567923,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Diamondbacks maintain consistent performance",
-          "Phillies face significant injuries",
-          "External factors favor Diamondbacks (e.g., weather, home field advantage)"
-        ],
-        "weakest_link": "Phillies face significant injuries"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Diamondbacks' recent winning streak",
-        "Phillies' inconsistent pitching staff"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30799999998567923,
-      "edge_percent": 30.799999998567923
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 30.8,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451118+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "San Francisco Giants vs. Baltimore Orioles",
-    "market_slug": "mlb-sf-bal-2026",
-    "event_slug": "mlb-sf-bal-2026",
-    "wallet": "0xec4e470589f8c27e9d3e66b2964d7d62734261bd",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,403)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 2402.668001502295,
-      "odds": 0.48999999996987703,
-      "raw_price": 0.48999999996987703,
-      "outcome": "Baltimore Orioles",
-      "potential_pnl": 2500.7360834977053,
-      "pnl_multiplier": 1.0408163266560724,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-10T20:01:07.142482",
-    "trade_hash": "0xce03e9938a06dbd050670f85e797b045b08a923f8dba8ae8b5f5bbffcc32f18d",
-    "trade_timestamp": 1775850857,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Baltimore Orioles",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.48999999996987703,
-      "effective_price": 0.48999999996987703,
-      "size": 4903.404085,
-      "amount": 2402.668001502295,
-      "potential_pnl": 2500.7360834977053,
-      "pnl_multiplier": 1.0408163266560724,
-      "is_no": false,
-      "slug": "mlb-sf-bal-2026",
-      "eventSlug": "mlb-sf-bal-2026-04-11"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2379999999939754,
-      "market_price": 0.48999999996987703,
-      "edge": 0.2519999999759016,
-      "edge_percent": 25.19999999759016,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Giants maintain strong performance throughout the season",
-          "Orioles underperform relative to expectations",
-          "Key injuries to opposing teams"
-        ],
-        "weakest_link": "Orioles underperform relative to expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Giants' recent winning streak",
-        "Public sentiment favoring the Giants"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2519999999759016,
-      "edge_percent": 25.19999999759016
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 25.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451127+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "wallet": "0x9b7d7d5e676cd28d8b13196301067062ca3306be",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,453)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1453.451612,
-      "odds": 0.6900000001946401,
-      "raw_price": 0.30999999980535986,
-      "outcome": "No",
-      "potential_pnl": 652.9999989999999,
-      "pnl_multiplier": 0.44927536191001854,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-04-10T21:07:22.927244",
-    "trade_hash": "0x65b9d7078279b71ce6e46fdb0f36925231d0ac77633742ce047ba6023b4e0d1c",
-    "trade_timestamp": 1775854913,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.30999999980535986,
-      "effective_price": 0.6900000001946401,
-      "size": 2106.451611,
-      "amount": 1453.451612,
-      "potential_pnl": 652.9999989999999,
-      "pnl_multiplier": 0.44927536191001854,
-      "is_no": true,
-      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-      "eventSlug": "next-prime-minister-of-hungary"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+18.8%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.12199999996107197,
-      "market_price": 0.30999999980535986,
-      "edge": 0.1879999998442879,
-      "edge_percent": 18.79999998442879,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "P\u00e9ter Magyar secures a significant political backing within his party",
-          "A major political shift occurs in Hungary favoring Magyar",
-          "Public opinion shifts positively towards Magyar ahead of elections"
-        ],
-        "weakest_link": "Public opinion shifts positively towards Magyar ahead of elections"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Political instability in Hungary leading to new leadership",
-        "Emergence of new political alliances or coalitions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.1879999998442879,
-      "edge_percent": 18.79999998442879
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 18.8,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP  \nThe odds seem too low for a \"No\" bet on a potential Prime Minister, indicating possible overvaluation of Magyar's chances.",
-    "resolution_last_check": "2026-04-26T07:40:56.649844+00:00",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-27T08:06:12.260788+00:00",
-      "insider_win": false,
-      "model_correct": false,
-      "pnl": -1453.45
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5e73bd0488f7c14b68a5fbcb1991ee4fc009f85e86b6b622277dc94657272bd5",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 8,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x56ebe2a8eb1b9bccfd3059f981f9c987e45e076a",
-      "side": "SELL",
-      "asset": "94192784911459194325909253314484842244405314804074606736702592885535642919725",
-      "conditionId": "0x1480b819d03d4b6388d70e848b0384adf38c38d955cb783cdbcf6d4a436dee14",
-      "size": 7000,
-      "price": 0.7,
-      "timestamp": 1775883041,
-      "title": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-next-prime-minister-of-romania-be-pter-magyar-HbEv3YBJrtaT.jpg",
-      "eventSlug": "next-prime-minister-of-hungary",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "just.some.guy.2026",
-      "pseudonym": "Third-Theology",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5004511-769a980b-9ff9-4858-99c0-ab691a7fb061.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5e73bd0488f7c14b68a5fbcb1991ee4fc009f85e86b6b622277dc94657272bd5",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-    "market_slug": "next-prime-minister-of-hungary",
-    "amount": 4900.0,
-    "ai_context": "\u274c SKIP  \nThe odds seem high for a potentially uncertain political outcome; the market may not fully reflect the dynamics of Hungarian politics.",
-    "resolution_last_check": "2026-04-26T07:40:56.649861+00:00",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-10T07:57:27.907679+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -4900.0
-    }
-  },
-  {
     "market": "Will TISZA \u2013 Respect and Freedom Party (TISZA) win the most seats in the next Hungarian parliamentary election?",
     "market_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
     "event_slug": "will-tisza-respect-and-freedom-party-tisza-win-the-most-seats-in-the-next-hungarian-parliamentary-election",
@@ -29891,6 +29270,406 @@
     "market_slug": "epl-ast-liv-2026-05-17",
     "amount": 708.1795,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044c \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u044b\u0435\u0437\u0434\u043d\u044b\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-3 \u043f\u0440\u043e\u0442\u0438\u0432 \u041c\u0430\u043d\u0447\u0435\u0441\u0442\u0435\u0440 \u042e\u043d\u0430\u0439\u0442\u0435\u0434 3 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (anfield-online.co.\n[Grok] \u2705 COPY\nNo confirmed 2025/26 fixtures or form data exist for May 2026\nLiverpool historically strong in late-season matches (no clear evidence against a result)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "market": "Map Handicap: VIT (-1.5) vs Natus Vincere (+1.5)",
+    "market_slug": "cs2-navi-vit-2026-05-15-map-handicap-home-1pt5",
+    "event_slug": "cs2-navi-vit-2026-05-15-map-handicap-home-1pt5",
+    "wallet": "0xffe91b25921eea250a38fc13f836ceea14d9a70e",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,577)",
+        "Low activity (6 txns)"
+      ],
+      "amount": 1577.3025,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Vitality",
+      "potential_pnl": 1515.4475,
+      "pnl_multiplier": 0.9607843137254902,
+      "wallet_age_days": 0,
+      "total_activities": 6
+    },
+    "timestamp": "2026-05-15T20:34:11.999934",
+    "trade_hash": "0x51f1aec0fec0bf8f5dd7bad1453e04c4ccce93ee4e130778c0fd80c4c3a53559",
+    "trade_timestamp": 1778876849,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Vitality",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 3092.75,
+      "amount": 1577.3025,
+      "potential_pnl": 1515.4475,
+      "pnl_multiplier": 0.9607843137254902,
+      "is_no": false,
+      "conditionId": "0x344511df5444c0d177cf74104905ba8613df1a66015d466533432d3b733e5280",
+      "slug": "cs2-navi-vit-2026-05-15-map-handicap-home-1pt5",
+      "eventSlug": "cs2-navi-vit-2026-05-15"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "VIT maintains consistent performance",
+          "Natus Vincere underperforms",
+          "external factors (e.g., player injuries, team dynamics) favor VIT"
+        ],
+        "weakest_link": "Natus Vincere underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent form of both teams",
+        "historical matchups between VIT and Natus Vincere"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nVitality \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 Natus Vincere\nH2H: Vitality \u0432\u0435\u0434\u0443\u0442 16-1, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 3-0 \u043d\u0430 IEM Rio 2026 (hltv.org)\n[Grok] \u2705 COPY\nVitality 7-3 in last 10 maps, 2-0 wins in 4 of those\nH2H: Vitality covered -1.5 in 3 of last 5 series vs NaVi (scores 2-0, 2-1, 2-0)",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x79f92dfabba3ddace321156eba8e1b8cda1f911d12915a9908b1862e6b535823",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcce7a6ce8a5b103c6def41c92a1a154150016b90",
+      "side": "SELL",
+      "asset": "78303740838350809431780608278874427165281291819688534819299603169404353329185",
+      "conditionId": "0x78547b8ae17c8a584116cc36c30ebbdab2591de259d35868958d806f4c3c211d",
+      "size": 1242.62,
+      "price": 0.201,
+      "timestamp": 1778876818,
+      "title": "Will Australia win Eurovision 2026?",
+      "slug": "will-australia-win-eurovision-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-australia-win-eurovision-2026-pmJfPu2MGzy8.png",
+      "eventSlug": "eurovision-winner-2026",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Big-Z",
+      "pseudonym": "Unhappy-Aquifer",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x79f92dfabba3ddace321156eba8e1b8cda1f911d12915a9908b1862e6b535823",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Australia win Eurovision 2026?",
+    "market_slug": "eurovision-winner-2026",
+    "amount": 249.76662,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u2705 COPY\nDelta Goodrem \u043f\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u0438\u0442 \u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044e \u043d\u0430 \u0415\u0432\u0440\u043e\u0432\u0438\u0434\u0435\u043d\u0438\u0438 2026 \u0441 \u043f\u0435\u0441\u043d\u0435\u0439 \"Eclipse\" (eurovision.com)\n\u0410\u0432\u0441\u0442\u0440\u0430\u043b\u0438\u044f \u043f\u0440\u043e\u0448\u043b\u0430 \u0432 \u0433\u0440\u0430\u043d\u0434-\u0444\u0438\u043d\u0430\u043b \u0415\u0432\u0440\u043e\u0432\u0438\u0434\u0435\u043d\u0438\u044f 2026 \u043f\u043e\u0441\u043b\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e\u0433\u043e \u0432\u044b\u0441\u0442\u0443\u043f\u043b\u0435\u043d\u0438\u044f \u0432 \u043f\u043e\u043b\u0443\u0444\u0438\u043d\u0430\u043b\u0435 (abc.net.au)\n[Grok] \u274c SKIP\nAustralia placed outside top 10 in 3 of last 4 contests (15th in 2024, 9th in 2023)\nNever won in 9 participations since 2015 debut, with no confirmed invite for 2026 yet",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x395063829dc61f137e5694239852aee4cbef2eeac43123097d5f43b27f1d4c21",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9021075.689059576,
+      "volume": 550626510.756829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfd978deb906c7b6b89a6550d2028e261ee290ec5",
+      "side": "BUY",
+      "asset": "19774266338736810754136855524833852011672256769757063965013672335654144415078",
+      "conditionId": "0xf4e3ed7607fd945a06ab045076f808e9fe6488fed1d56b924b7eb6836fdf9d1f",
+      "size": 920.14,
+      "price": 0.3416951116134501,
+      "timestamp": 1778877117,
+      "title": "Will Aston Villa finish in the top 4 of the EPL 2025\u201326 standings?",
+      "slug": "will-aston-villa-finish-in-the-top-4-of-the-epl-202526-standings",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/english-premier-league-winner-VFcNkpZeA9Sz.jpg",
+      "eventSlug": "english-premier-league-top-4-finish",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "blkmont",
+      "pseudonym": "Powerful-Drawbridge",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x395063829dc61f137e5694239852aee4cbef2eeac43123097d5f43b27f1d4c21",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Aston Villa finish in the top 4 of the EPL 2025\u201326 standings?",
+    "market_slug": "english-premier-league-top-4-finish",
+    "amount": 314.40734,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0410\u0441\u0442\u043e\u043d \u0412\u0438\u043b\u043b\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 4-3 \u043f\u0440\u043e\u0442\u0438\u0432 \u0421\u0430\u043d\u0434\u0435\u0440\u043b\u0435\u043d\u0434\u0430 19 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430.\n\u0412 \u0442\u0435\u043a\u0443\u0449\u0435\u043c \u043c\u0430\u0442\u0447\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 \u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044f \u0432\u0435\u0434\u0435\u0442 4-1 \u043d\u0430 15 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY\nAston Villa 4th in 2024-25 after 12 games (22 pts), +9 GD\n4 wins, 1 loss in last 5 league matches, 2.6 goals scored per game",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9fc805ac62b5ca05e542a34689c896560f2d82bbc0a5d2bb3a25c722be123dc5",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9021075.689059576,
+      "volume": 550626510.756829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x83d9c8fe37f1b5141f3219219403d87f4513651b",
+      "side": "BUY",
+      "asset": "21497022424823572245656586339702031687260818306746834771762950659540081141566",
+      "conditionId": "0x1ce37fb7212268a73850f98f6a49a1a0b32d03d0cc9ad9ecff7245eebeb0bf44",
+      "size": 1653.98,
+      "price": 0.7900712221429521,
+      "timestamp": 1778877117,
+      "title": "Will Aston Villa FC vs. Liverpool FC end in a draw?",
+      "slug": "epl-ast-liv-2026-05-17-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ast-liv-2026-05-17",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "4buc0",
+      "pseudonym": "Giddy-Stepuncle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9fc805ac62b5ca05e542a34689c896560f2d82bbc0a5d2bb3a25c722be123dc5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Aston Villa FC vs. Liverpool FC end in a draw?",
+    "market_slug": "epl-ast-liv-2026-05-17",
+    "amount": 347.2180000000001,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0410\u0441\u0442\u043e\u043d \u0412\u0438\u043b\u043b\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 1 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0-2 \u043f\u0440\u043e\u0442\u0438\u0432 \u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044f\n\u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044c \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 \u0410\u0441\u0442\u043e\u043d \u0412\u0438\u043b\u043b\u044b\n[Grok] \u2705 COPY\nLiverpool \u043d\u0435 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 11 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u043e\u0434\u0440\u044f\u0434 (9 \u043f\u043e\u0431\u0435\u0434), \u0432 8 \u0438\u0437 \u043d\u0438\u0445 \u043d\u0435 \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u043b\nH2H: \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 Villa \u2014 Liverpool \u0442\u043e\u043b\u044c\u043a\u043e 1 \u043d\u0438\u0447\u044c\u044f (\u043e\u0441\u0442\u0430\u043b\u044c\u043d\u044b\u0435 5 \u043f\u043e\u0431\u0435\u0434 \u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u044f)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x06c9000f91e7f9f950dde8e19560dbc6d5e42efc0d77c086112897272db554ee",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9021075.689059576,
+      "volume": 550626510.756829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x83d9c8fe37f1b5141f3219219403d87f4513651b",
+      "side": "BUY",
+      "asset": "1595188389908704964590039616142867212219844488729598204584625804900479567316",
+      "conditionId": "0x493e55161a52f24c0be8f5094893669039e04d11e11285a066ce64b6610e7afa",
+      "size": 1467.75,
+      "price": 0.7185785726452052,
+      "timestamp": 1778877117,
+      "title": "Will Aston Villa FC win on 2026-05-17?",
+      "slug": "epl-ast-liv-2026-05-17-ast",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ast-liv-2026-05-17",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "4buc0",
+      "pseudonym": "Giddy-Stepuncle",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x06c9000f91e7f9f950dde8e19560dbc6d5e42efc0d77c086112897272db554ee",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Aston Villa FC win on 2026-05-17?",
+    "market_slug": "epl-ast-liv-2026-05-17",
+    "amount": 1054.6937,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0410\u0441\u0442\u043e\u043d \u0412\u0438\u043b\u043b\u0430 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 1-2 \u043f\u0440\u043e\u0442\u0438\u0432 \u0422\u043e\u0442\u0442\u0435\u043d\u0445\u044d\u043c\u0430 3 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (theguardian.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 \u0441 \u041b\u0438\u0432\u0435\u0440\u043f\u0443\u043b\u0435\u043c 17 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0410\u0441\u0442\u043e\u043d \u0412\u0438\u043b\u043b\u0430 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0430 0-2.\n[Grok] \u2705 COPY\nAston Villa average 1.8 xG per game in 2024/25 and win 68% of home matches\n5 of their last 7 fixtures ending mid-May produced a win when rested 6+ days",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5201ab87641d87c584f3e3243be7f1e95ee8d0b904a27ef911b9ccdcb4a18f98",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9021075.689059576,
+      "volume": 550626510.756829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "99428645445695040423185234048735158940040511356743550940930956019374403949258",
+      "conditionId": "0xcdd5a3b50c3e0055fe9ebb23c34d796d592705a995c9ade4d199889584985219",
+      "size": 745.658887,
+      "price": 0.34049081078007726,
+      "timestamp": 1778877117,
+      "title": "Aston Villa FC vs. Liverpool FC: O/U 3.5",
+      "slug": "epl-ast-liv-2026-05-17-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ast-liv-2026-05-17-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5201ab87641d87c584f3e3243be7f1e95ee8d0b904a27ef911b9ccdcb4a18f98",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Aston Villa FC vs. Liverpool FC: O/U 3.5",
+    "market_slug": "epl-ast-liv-2026-05-17-more-markets",
+    "amount": 491.768888,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430 \u043c\u0435\u0436\u0434\u0443 Aston Villa \u0438 Liverpool \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0438\u0441\u044c \u0441 \u043e\u0431\u0449\u0438\u043c \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0433\u043e\u043b\u043e\u0432 2, 4 \u0438 2 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e.\n\u0412 2 \u0438\u0437 \u044d\u0442\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 2 \u0433\u043e\u043b\u0430, \u0447\u0442\u043e \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0443\u0435\u0442 \u0441\u0442\u0430\u0432\u043a\u0435 \u043d\u0430 Under 3.5.\n[Grok] \u2705 COPY\nLast 3 H2H: Liverpool 2-1 Villa, Villa 0-2 Liverpool, 1-1 draw \u2014 all finished under 3.5\nVilla last 6 PL games: 9 goals total (1.5 per match), Liverpool conceded 4 in last 4 away",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xda899164140f4859772aee00d579236e5e010a71c93b19f00dfa29bb09ea7e95",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9021075.689059576,
+      "volume": 550626510.756829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8c0d5a0ca1609f262e64f5f81b7356367c86b612",
+      "side": "BUY",
+      "asset": "11137600896079296100461389213064036536534206919991589553080813811291883507906",
+      "conditionId": "0xcdd5a3b50c3e0055fe9ebb23c34d796d592705a995c9ade4d199889584985219",
+      "size": 483.870965,
+      "price": 0.6199999993799999,
+      "timestamp": 1778877115,
+      "title": "Aston Villa FC vs. Liverpool FC: O/U 3.5",
+      "slug": "epl-ast-liv-2026-05-17-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
+      "eventSlug": "epl-ast-liv-2026-05-17-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "cryptowater",
+      "pseudonym": "Concrete-Graphic",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xda899164140f4859772aee00d579236e5e010a71c93b19f00dfa29bb09ea7e95",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Aston Villa FC vs. Liverpool FC: O/U 3.5",
+    "market_slug": "epl-ast-liv-2026-05-17-more-markets",
+    "amount": 299.999998,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 Aston Villa \u0437\u0430\u0431\u0438\u043b\u0430 13 \u0433\u043e\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 2.17 \u0437\u0430 \u0438\u0433\u0440\u0443; 4 \u0438\u0437 6 \u043c\u0430\u0442\u0447\u0435\u0439 \u0441 Over 2.5 \u0433\u043e\u043b\u043e\u0432. (fctables.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 Liverpool \u0437\u0430\u0431\u0438\u043b\u0430 9 \u0433\u043e\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 1.\n[Grok] \u2705 COPY\nH2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430: 3-3, 4-2, 2-2 (\u0432\u0441\u0435\u0433\u043e 7 \u0438\u0437 8 \u043c\u0430\u0442\u0447\u0435\u0439 over 3.5)\nLiverpool \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 6 \u0438\u0433\u0440: 4.2 \u0433\u043e\u043b\u0430 \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c, 5 \u0438\u0437 6 over 3.5",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
