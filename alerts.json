@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xccdaa9a484d70cc953bdbbaf49a4d76edc84fbd311394f4aacd05198435fc64c",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x44fa3a093d6c766de8069fb3377450ed96e5d852",
-      "side": "BUY",
-      "asset": "74489175528336063079508426031749555177965967500002981828268283121890403042122",
-      "conditionId": "0x3998a1004e5c93f0e0c50ce64c380a38405b66f924322445100781ed2922df68",
-      "size": 1985.86366,
-      "price": 0.91,
-      "timestamp": 1775753979,
-      "title": "LoL: HMBLE vs EKO Esports (BO1) - LIT Regular Season",
-      "slug": "lol-hmble-eko-2026-04-09",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-hmble-eko-2026-04-09",
-      "outcome": "HMBLE",
-      "outcomeIndex": 0,
-      "name": "JustaNobody",
-      "pseudonym": "Sure-Footed-Whorl",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xccdaa9a484d70cc953bdbbaf49a4d76edc84fbd311394f4aacd05198435fc64c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: HMBLE vs EKO Esports (BO1) - LIT Regular Season",
-    "market_slug": "lol-hmble-eko-2026-04-09",
-    "amount": 1807.1359306,
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451035+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-09 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x79ea073454bb9c87a2704e3b158ba075f7567ed08009006f0144fe62f13a5337",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29761,5 +29709,53 @@
     "ai_model": "Dual",
     "ai_consensus": "SPLIT",
     "resolution_last_check": "2026-05-15T08:39:19.043169+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3d6739db783c334416901067a3aab862d4fac8f1d76ef7fc94f66921757c9ebd",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12587707.021105736,
+      "volume": 290336654.18448496,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7c7051404409bd31d977bdc9e43ad5c151d29a6c",
+      "side": "BUY",
+      "asset": "18246613961599651457461234039604693296980667543217592787702431590721248209492",
+      "conditionId": "0x153ce5e130f6cebf5dafdebce9b40bc34a726f4a4f6c1aab0611d3c8a0842fe4",
+      "size": 394.444443,
+      "price": 0.3599999987830986,
+      "timestamp": 1778841378,
+      "title": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
+      "slug": "cs2-9z-mgc-2026-05-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-9z-mgc-2026-05-15",
+      "outcome": "magic",
+      "outcomeIndex": 1,
+      "name": "0x7c7051404409BD31d977BdC9e43Ad5C151D29A6c-1771427863167",
+      "pseudonym": "Parallel-Insurance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3d6739db783c334416901067a3aab862d4fac8f1d76ef7fc94f66921757c9ebd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: 9z vs magic (BO3) - PGL Astana Playoffs",
+    "market_slug": "cs2-9z-mgc-2026-05-15",
+    "amount": 252.44444399999998,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nmagic \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0-2 \u043f\u0440\u043e\u0442\u0438\u0432 Gentle Mates \u0438 ex-GANK\nH2h: \u043d\u0435\u0442 \u0434\u043e\u0441\u0442\u0443\u043f\u043d\u043e\u0439 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 9z \u0438 magic\n[Grok] \u2705 COPY  \nMagic \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 6 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-1 \u0432 PGL Major.  \nH2H: Magic \u0432\u0435\u0434\u0443\u0442 3-1 \u043f\u0440\u043e\u0442\u0438\u0432 9z, \u0441 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u043f\u043e\u0431\u0435\u0434\u043e\u0439 16-10.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
