@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7b4ece632c61311ebb704a0fc470335b37f3fbba9f74d858d7c792e7524efd14",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "69933905448869077524363933605479492589846435694918114730035288284176995490366",
-      "conditionId": "0xe7766687d19cb7949958a8c50e0b0bd3bdec12b8a2710be1047cb4eee2c49716",
-      "size": 3362.180515,
-      "price": 0.9115043334462505,
-      "timestamp": 1775762385,
-      "title": "Rolex Monte Carlo Masters: Valentin Vacherot vs Hubert Hurkacz",
-      "slug": "atp-vachero-hurkacz-2026-04-09",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-vachero-hurkacz-2026-04-09",
-      "outcome": "Valentin Vacherot",
-      "outcomeIndex": 0,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7b4ece632c61311ebb704a0fc470335b37f3fbba9f74d858d7c792e7524efd14",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Rolex Monte Carlo Masters: Valentin Vacherot vs Hubert Hurkacz",
-    "market_slug": "atp-vachero-hurkacz-2026-04-09",
-    "amount": 3064.6421092510463,
-    "ai_context": "OVERPRICED. Vacherot lacks significant ATP experience compared to Hurkacz, making a 91% win probability unrealistic.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451056+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-09 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x975503a86bad2fc870da19a8281cf2d9859378d0bb3579de6d01ce90ea783c9a",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29749,6 +29696,54 @@
     "market_slug": "lol-tes-blg-2026-05-15",
     "amount": 514.1333,
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nTop Esports \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 6 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 Bilibili Gaming 16 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430. (tips.gg)\nH2H: Top Esports \u0432\u0435\u0434\u0443\u0442 15-14, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 2-0 16 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY  \nTES \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 JD Gaming  \nH2H: TES \u0432\u0435\u0434\u0443\u0442 3-1 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 BLG, \u0441 \u0434\u0432\u0443\u043c\u044f \u043f\u043e\u0431\u0435\u0434\u0430\u043c\u0438 \u0432 2023 LPL",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6f38884795a02f60ea45eed4410a0c6e18670ebf42986c2eb77f16e4e3e0d186",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcf609d3256f0f37f0595e5dc64012fa3a8fea6f5",
+      "side": "BUY",
+      "asset": "27960769173604198513424657154623850783615439819727431442095059243386999891951",
+      "conditionId": "0xb407b8b3f97225fed8d8e24e236f971f3373d70a9bb82d4405662fccdc67a716",
+      "size": 832.605243,
+      "price": 0.600524681058248,
+      "timestamp": 1778861796,
+      "title": "Valorant: FUT Esports vs Team Vitality - Map 1 Winner",
+      "slug": "val-fut1-vit-2026-05-15-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/valorant-logo-6fab741a16.png",
+      "eventSlug": "val-fut1-vit-2026-05-15",
+      "outcome": "Team Vitality",
+      "outcomeIndex": 1,
+      "name": "0xcF609D3256f0f37f0595E5Dc64012Fa3a8fEa6f5-1771809916847",
+      "pseudonym": "Ill-Mind",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6f38884795a02f60ea45eed4410a0c6e18670ebf42986c2eb77f16e4e3e0d186",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Valorant: FUT Esports vs Team Vitality - Map 1 Winner",
+    "market_slug": "val-fut1-vit-2026-05-15",
+    "amount": 332.60524499999997,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nTeam Vitality \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 Natus Vincere \u0438 BC.\n[Grok] \u2705 COPY  \nTeam Vitality \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 G2  \nH2h: Team Vitality \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 3 \u0438\u0437 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 FUT Esports, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f 13-10 \u043d\u0430 Ascent",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
     "ai_consensus": "COPY"
