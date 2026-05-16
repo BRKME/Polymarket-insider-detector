@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8746006b3a4e5f7d002a10aba983c22c5d1ae6c3f777d14cfbd1ac173f2b8567",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 8,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867005,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xfc1243854e34aea5e8c577e467ef148cbc7e18a9",
-      "side": "BUY",
-      "asset": "56231474151770057648855426299021396541474371449092934400587810748856711049761",
-      "conditionId": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
-      "size": 2435.897431,
-      "price": 0.7799999999261052,
-      "timestamp": 1775908251,
-      "title": "Strait of Hormuz traffic returns to normal by end of April?",
-      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
-      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Skinner77",
-      "pseudonym": "Thunderous-Spasm",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4719586-d18c9bd8-2b3c-4ce8-bf3b-48fa310436b3.jpeg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8746006b3a4e5f7d002a10aba983c22c5d1ae6c3f777d14cfbd1ac173f2b8567",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Strait of Hormuz traffic returns to normal by end of April?",
-    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-    "amount": 1899.9999959999998,
-    "ai_context": "\u274c SKIP  \nThe odds of 78% suggest overconfidence; geopolitical situations can be unpredictable, making this bet risky.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:58.936443+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 535.9
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xcdb42f451e906fe98694c87b742198eeaf458263afcca51a4261aa8d40de6d44",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
     "trader": {
@@ -29524,6 +29472,54 @@
     "market_slug": "what-will-trump-say-during-bilateral-events-with-xi-jinping",
     "amount": 332.56,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412\u0438\u0437\u0438\u0442 \u0422\u0440\u0430\u043c\u043f\u0430 \u0432 \u041a\u0438\u0442\u0430\u0439 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0441\u044f \u0431\u0435\u0437 \u0443\u043f\u043e\u043c\u0438\u043d\u0430\u043d\u0438\u044f \u0418\u0440\u0430\u043d\u0430. (china-briefing.com)\n\u0421\u0438 \u0426\u0437\u0438\u043d\u044c\u043f\u0438\u043d \u043d\u0435 \u0437\u0430\u0442\u0440\u043e\u043d\u0443\u043b \u0442\u0435\u043c\u0443 \u0418\u0440\u0430\u043d\u0430 \u0432 \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u0430\u0445 \u0441 \u0422\u0440\u0430\u043c\u043f\u043e\u043c. (fmprc.gov.cn)\n[Grok] \u274c SKIP\nTrump-Xi events focus on tariffs, Taiwan and trade; no Iran mentions in 2024-2025 bilateral agendas\nLast three Trump-Xi calls (2019-2024 transcripts) contain zero references to Iran",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa9d1b18f83cc0540026b40e6acad0efae959eea0268eae71c5cc151103e74d53",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1b47e9b128e6b671edebfb2cac23dd3efc40d814",
+      "side": "BUY",
+      "asset": "61329423403258718865520065423477646734746215825414612058431614589236294556849",
+      "conditionId": "0x7b461ba0d582c03577966cfdf0da2a5cb9696a26b954b5ed1890f82d6f2a3c88",
+      "size": 1150.01,
+      "price": 0.87,
+      "timestamp": 1778893894,
+      "title": "Pistons vs. Cavaliers",
+      "slug": "nba-det-cle-2026-05-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-det-cle-2026-05-15",
+      "outcome": "Pistons",
+      "outcomeIndex": 0,
+      "name": "sbsigner",
+      "pseudonym": "Foolish-Mango",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa9d1b18f83cc0540026b40e6acad0efae959eea0268eae71c5cc151103e74d53",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Pistons vs. Cavaliers",
+    "market_slug": "nba-det-cle-2026-05-15",
+    "amount": 1000.5087,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nPistons \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 122-119 \u043f\u0440\u043e\u0442\u0438\u0432 Cavaliers 27 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u0433\u043e\u0434\u0430 (statmuse.\n[Grok] \u274c SKIP\nPistons 3-7 in last 10 games, averaging 105.2 PPG allowed\nH2H: Cavaliers won last 5 meetings by 12+ points each, including 118-91 in December",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
