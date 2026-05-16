@@ -1,173 +1,5 @@
 [
   {
-    "market": "Will Tisza win the most national list votes in the 2026 Hungarian parliamentary election?",
-    "market_slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
-    "event_slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
-    "wallet": "0x9079e83ad106845369633b36f715632fc960bf19",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,173)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1172.999998,
-      "odds": 0.83999999942711,
-      "raw_price": 0.83999999942711,
-      "outcome": "Yes",
-      "potential_pnl": 223.42857200000003,
-      "pnl_multiplier": 0.19047619128810947,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-04-11T19:46:34.716343",
-    "trade_hash": "0x03ed591479224d93b56c01efc87768d3e911ef606edbd911f4b11ac0229bd5f5",
-    "trade_timestamp": 1775936715,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.83999999942711,
-      "effective_price": 0.83999999942711,
-      "size": 1396.42857,
-      "amount": 1172.999998,
-      "potential_pnl": 223.42857200000003,
-      "pnl_multiplier": 0.19047619128810947,
-      "is_no": false,
-      "slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
-      "eventSlug": "hungary-parliamentary-election-popular-vote-winner"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+53.2%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.30799999988542204,
-      "market_price": 0.83999999942711,
-      "edge": 0.531999999541688,
-      "edge_percent": 53.199999954168796,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Tisza maintains or increases current popularity leading up to the election",
-          "No significant scandals or controversies arise affecting Tisza's campaign",
-          "Opposition parties fail to unify or present a strong alternative"
-        ],
-        "weakest_link": "Opposition parties fail to unify or present a strong alternative"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards Tisza's policies and leadership",
-        "The effectiveness of Tisza's campaign strategy and outreach efforts"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.531999999541688,
-      "edge_percent": 53.199999954168796
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 53.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:00.744162+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1173.0
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x024bd91e5f7ffede0064d322c903895c83c13e2aeb3f44dd23b5e839c260f7cd",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa71093cafc0c099b4ccab24c3cb8018d817923c4",
-      "side": "BUY",
-      "asset": "47546623766446634681709829775753447716283707839573087312353194813195659210458",
-      "conditionId": "0x8a6b67112dc49a01950f5156215e6be757e92c2e7d407c15bb9194cd2ad0a951",
-      "size": 52994.8518,
-      "price": 0.5,
-      "timestamp": 1775937667,
-      "title": "UFC 327: Jir\u00ed Proch\u00e1zka vs. Carlos Ulberg (Light Heavyweight, Main Card)",
-      "slug": "ufc-jproch-car6-2026-04-11",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
-      "eventSlug": "ufc-jproch-car6-2026-04-11",
-      "outcome": "Carlos Ulberg",
-      "outcomeIndex": 1,
-      "name": "Talvez10",
-      "pseudonym": "Fresh-Availability",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x024bd91e5f7ffede0064d322c903895c83c13e2aeb3f44dd23b5e839c260f7cd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "UFC 327: Jir\u00ed Proch\u00e1zka vs. Carlos Ulberg (Light Heavyweight, Main Card)",
-    "market_slug": "ufc-jproch-car6-2026-04-11",
-    "amount": 26497.4259,
-    "ai_context": "\u2705 COPY  \nCarlos Ulberg at 50% indicates potential value; if the trader is confident, the odds may underestimate his chances.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451246+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x3de28ab72c7f0ba1967d3ab29eb5e0ea364fd2c9ab9d8d3c6c89a64a28c61d3e",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
@@ -29644,6 +29476,102 @@
     "market_slug": "dota2-liquid-heroic2-2026-05-16",
     "amount": 1499.9999950000001,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nTeam Liquid \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043e\u0442 3DMAX \u0438 Spirit\nex-HEROIC \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 GamerLegion\n[Grok] \u2705 COPY\nLiquid 8-2 in last 10 matches, 3 straight BO3 wins in DreamLeague\nH2H: Liquid 5-0 vs ex-HEROIC, all series ended 2-0",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4419dc2e8190de731bc36e1a2d8ce11f22edc626ccf992e385b4cb423809290f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "side": "BUY",
+      "asset": "73552254247490519862264725808535407039338910193350596424121534706994323179418",
+      "conditionId": "0xa4d649835092ad0c01fbda4906fe35576e62f80fc46668cb800d1a875a1480b2",
+      "size": 829.8,
+      "price": 0.27,
+      "timestamp": 1778942525,
+      "title": "Paris: Madison Keys vs Yulia Starodubtseva",
+      "slug": "wta-keys-starodu-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-keys-starodu-2026-05-16",
+      "outcome": "Madison Keys",
+      "outcomeIndex": 0,
+      "name": "tradecraft",
+      "pseudonym": "Slow-Escape",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4419dc2e8190de731bc36e1a2d8ce11f22edc626ccf992e385b4cb423809290f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Paris: Madison Keys vs Yulia Starodubtseva",
+    "market_slug": "wta-keys-starodu-2026-05-16",
+    "amount": 224.046,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nMadison Keys \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0430 Yuliia Starodubtseva 1-6, 4-6 \u0432 \u043f\u043e\u043b\u0443\u0444\u0438\u043d\u0430\u043b\u0435 Charleston Open 4 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430. (polymarket.\n[Grok] \u2705 COPY\nKeys 8-2 in last 10 matches, 3 straight wins on hard courts\nStarodubtseva 3-6 in last 9, lost 4 of 5 vs top-30 opponents",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe6c05755460d8bf02301eb2384add813f08fe759421302114f69d49cd748da52",
+    "wallet": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+    "trader": {
+      "rank": 25,
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "username": "SeriouslySirius",
+      "profit": 3648171.8070388967,
+      "volume": 192646024.935228,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc9751b5f25e1ecd88ec4630d19422b58d0562c68",
+      "side": "SELL",
+      "asset": "58036814048515168650222515133151782137607879001106597606914702554202639507091",
+      "conditionId": "0x4382d7a5908ea9779dbc0daef377eaf77125757a913efc59f3a41b4647f7366c",
+      "size": 1513.25,
+      "price": 0.11236279530811168,
+      "timestamp": 1778943125,
+      "title": "Will Trump say \"Dumbocrat\" during Bret Baier interview?",
+      "slug": "will-trump-say-dumbocrat-during-bret-baier-interview",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/what-will-trump-say-during-cnbc-squawk-box-appearance-on-april-20-6PFTsuqG0ad1.jpg",
+      "eventSlug": "what-will-trump-say-during-bret-baier-interview",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "NeoSay10",
+      "pseudonym": "Yellow-Inequality",
+      "bio": "Always bet more than you can afford to lose.",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2948415-0179c06b-7e11-463f-976e-e27bed5a12c6.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe6c05755460d8bf02301eb2384add813f08fe759421302114f69d49cd748da52",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Trump say \"Dumbocrat\" during Bret Baier interview?",
+    "market_slug": "what-will-trump-say-during-bret-baier-interview",
+    "amount": 1343.217,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0422\u0440\u0430\u043c\u043f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043b \u0442\u0435\u0440\u043c\u0438\u043d \"Dumbocrat\" \u0432 \u043f\u0443\u0431\u043b\u0438\u0447\u043d\u044b\u0445 \u0437\u0430\u044f\u0432\u043b\u0435\u043d\u0438\u044f\u0445, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043c\u0435\u0440\u043e\u043f\u0440\u0438\u044f\u0442\u0438\u0435 \u0432 \u0411\u0435\u043b\u043e\u043c \u0434\u043e\u043c\u0435 3 \u0434\u043d\u044f \u043d\u0430\u0437\u0430\u0434. (indy100.\n[Grok] \u2705 COPY\nTrump uses \"Dumbocrat\" mostly on Truth Social/rallies; zero instances in his last 4 Baier/Fox interviews (2023-2024)\nBret Baier format stays policy-focused; Trump avoided similar nicknames i...",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
