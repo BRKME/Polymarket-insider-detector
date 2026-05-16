@@ -1,173 +1,5 @@
 [
   {
-    "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-    "event_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-    "wallet": "0x906226d76c0d6659b994935ae7bf21249a23980a",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,094)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 1094.499999,
-      "odds": 0.2899999998145272,
-      "raw_price": 0.2899999998145272,
-      "outcome": "Yes",
-      "potential_pnl": 2679.637931,
-      "pnl_multiplier": 2.44827586427435,
-      "wallet_age_days": 1,
-      "total_activities": 3
-    },
-    "timestamp": "2026-04-11T14:38:30.022344",
-    "trade_hash": "0x351e9b1dd5db673fb649d3175857b9d03eb2334a87b7f1a97e043da9918e95b7",
-    "trade_timestamp": 1775917777,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.2899999998145272,
-      "effective_price": 0.2899999998145272,
-      "size": 3774.13793,
-      "amount": 1094.499999,
-      "potential_pnl": 2679.637931,
-      "pnl_multiplier": 2.44827586427435,
-      "is_no": false,
-      "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-      "eventSlug": "next-prime-minister-of-hungary"
-    },
-    "irrationality": {
-      "irrationality_score": 18,
-      "flags": [
-        "Moderate mispricing edge (+9.2%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.19799999996290543,
-      "market_price": 0.2899999998145272,
-      "edge": 0.09199999985162174,
-      "edge_percent": 9.199999985162174,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Viktor Orb\u00e1n secures sufficient support within his party",
-          "Opposition parties fail to unify against him",
-          "Economic conditions remain favorable for his administration"
-        ],
-        "weakest_link": "Opposition parties failing to unify, as they have shown some ability to collaborate in the past"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Orb\u00e1n's historical popularity and political maneuvering",
-        "Current socio-economic conditions in Hungary"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 18,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.09199999985162174,
-      "edge_percent": 9.199999985162174
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 31.4,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 9.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:40:58.936497+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1094.5
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5693fc89f0580fb378319c4c3bee4f04f3b4ccda790e0860ae1924982c7eda0c",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 10,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 5929388.454203411,
-      "volume": 644218659.3991587,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc44f432b014f36679e13615f95996eac32bbd49f",
-      "side": "BUY",
-      "asset": "19915658701376833067298149137505210903163107934060361837731559528940489307328",
-      "conditionId": "0xe263a8eaeb18085d302070c874d3866fa5548d2f13ed9c06bb275e552e09aaf6",
-      "size": 5730.59306,
-      "price": 0.6282744399694921,
-      "timestamp": 1775920253,
-      "title": "LoL: G2 Esports vs Team Vitality - Game 2 Winner",
-      "slug": "lol-g2-vit-2026-04-11-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-g2-vit-2026-04-11",
-      "outcome": "G2 Esports",
-      "outcomeIndex": 0,
-      "name": "Zywoo123",
-      "pseudonym": "Superb-Steamroller",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5693fc89f0580fb378319c4c3bee4f04f3b4ccda790e0860ae1924982c7eda0c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: G2 Esports vs Team Vitality - Game 2 Winner",
-    "market_slug": "lol-g2-vit-2026-04-11",
-    "amount": 3600.385145464558,
-    "ai_context": "\u2705 COPY  \nG2 Esports at 63% offers value if their chances of winning are higher than implied odds. Strong performance history supports this bet.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451195+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x6aec2efef14d118ebbdb7fd8724420c740d165acc7c871124b07e0222c03ab5c",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
@@ -29675,5 +29507,101 @@
     "ai_model": "Dual",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-05-16T07:50:53.977692+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x575a64144945771802500f39deb752e30d070617506d0935461f5049b4409302",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 8991564.55225769,
+      "volume": 551158529.3219341,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6a73a4b2033820106e3adebe059c17282368c860",
+      "side": "SELL",
+      "asset": "84348038402659639941836209260221772039942739491890721010819630693075602597129",
+      "conditionId": "0x9e0e621f21099a443d0deebbb624c8cf2e40ff0ebb51d67576e4fe7070974f3d",
+      "size": 8350,
+      "price": 0.07,
+      "timestamp": 1778925713,
+      "title": "Israel x Syria security agreement by June 30?",
+      "slug": "israel-x-syria-security-agreement-by-june-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/israel-x-syria-security-agreement-by-september-30-feE3ATNUG06B.jpg",
+      "eventSlug": "israel-x-syria-security-agreement-by-september-30",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x6A73a4B2033820106e3adeBE059C17282368c860-1778865875649",
+      "pseudonym": "Sane-Semicolon",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x575a64144945771802500f39deb752e30d070617506d0935461f5049b4409302",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Israel x Syria security agreement by June 30?",
+    "market_slug": "israel-x-syria-security-agreement-by-september-30",
+    "amount": 584.5,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n13 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u043c\u0438\u043d\u0438\u0441\u0442\u0440 \u0438\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u043d\u044b\u0445 \u0434\u0435\u043b \u0421\u0438\u0440\u0438\u0438 \u0410\u0441\u0430\u0434 \u0430\u043b\u044c-\u0428\u0430\u0438\u0431\u0430\u043d\u0438 \u0437\u0430\u044f\u0432\u0438\u043b \u043e \u043d\u0435\u043e\u0431\u0445\u043e\u0434\u0438\u043c\u043e\u0441\u0442\u0438 \"\u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0441\u043d\u043e\u0433\u043e \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f \u043e \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438\" \u0441 \u0418\u0437\u0440\u0430\u0438\u043b\u0435\u043c. (euronews.\n[Grok] \u274c SKIP\nNo bilateral talks or negotiations reported between Israel and Syria\u2019s new government as of May 2025\nIsrael conducted multiple strikes inside Syria in April-May 2025 with no reciprocal secur...",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8296fcb743ed0974ee77c2d78e828612b95a12cdd87c6d2e4cf3fd9540d40067",
+    "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "trader": {
+      "rank": 22,
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "username": "surfandturf",
+      "profit": 3860983.0060924916,
+      "volume": 41862410.29200501,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8b887c9ad761b851d9e14510ea9aae04a01e8f33",
+      "side": "BUY",
+      "asset": "1378014589780674738012349611879136585612767869666699010750936484028660897437",
+      "conditionId": "0x756deae401eed2f8f27ca46bc03c2da6f2ad1b11634127b31988a24273c34f7f",
+      "size": 2845.2,
+      "price": 0.602,
+      "timestamp": 1778926315,
+      "title": "LoL: Gen.G vs T1 (BO3) - LCK Rounds 1-2",
+      "slug": "lol-gen-t1-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-gen-t1-2026-05-16",
+      "outcome": "Gen.G",
+      "outcomeIndex": 0,
+      "name": "lluucckkyy",
+      "pseudonym": "Uniform-Rake",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8296fcb743ed0974ee77c2d78e828612b95a12cdd87c6d2e4cf3fd9540d40067",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Gen.G vs T1 (BO3) - LCK Rounds 1-2",
+    "market_slug": "lol-gen-t1-2026-05-16",
+    "amount": 1712.8103999999998,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nGen.G \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 8 \u0438\u0437 9 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 T1, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 3-2 \u0432 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 LCK 2025 (tips.gg)\nH2H: Gen.G \u0432\u0435\u0434\u0443\u0442 28-20, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 3-2 \u0432 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 LCK 2025 (game-tournaments.com)\n[Grok] \u2705 COPY\nGen.G won 9 of last 10 LCK series, only loss to KT (2-1)\nH2H: Gen.G 4-1 in last 5 BO3 vs T1, all wins by 2-0 or 2-1 margin",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
