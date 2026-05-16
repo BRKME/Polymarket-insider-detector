@@ -1,228 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x0e4c12a21648a6754e90e3bc7e273d0ecf922fccc07a9bc7459b947e2cf205c2",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764626998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x35bbbad2415fe5e39b12da9a316cdc80b022009b",
-      "side": "BUY",
-      "asset": "17928724382258631631719579012359945400865032871287932503640701089143599914494",
-      "conditionId": "0x5ec80dc407457301f282a2b44341947afc700dfaa7923d14c8894e04bc63b03f",
-      "size": 2220.31,
-      "price": 0.85,
-      "timestamp": 1776013307,
-      "title": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
-      "slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-next-prime-minister-of-romania-be-viktor-orbn-iV32QWPAm0Kr.jpg",
-      "eventSlug": "next-prime-minister-of-hungary",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "MisTKy",
-      "pseudonym": "Grounded-Depression",
-      "bio": "Follow on X for more",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5070263-f290eb6b-11db-423d-b532-cd773195842b.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0e4c12a21648a6754e90e3bc7e273d0ecf922fccc07a9bc7459b947e2cf205c2",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
-    "market_slug": "next-prime-minister-of-hungary",
-    "amount": 1887.2634999999998,
-    "ai_context": "\u274c SKIP  \nThe odds are too low for a significant return, and Orb\u00e1n's incumbency suggests he remains a strong favorite.",
-    "resolution_last_check": "2026-04-26T07:41:02.736975+00:00",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-10T07:57:29.848639+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 333.05
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4c7d7129922c88b73f1e1fb619f041d4f25a9fadc5dab238ec2a2e4b74f7be3f",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-      "side": "BUY",
-      "asset": "90337444501364335927325126502244353052970409421867619390450599180760571824460",
-      "conditionId": "0xc64a77f9126ab445ae479ecd9c229aa4f666187dc2c0c9729879a2c602e9c0d8",
-      "size": 53286.46,
-      "price": 0.47,
-      "timestamp": 1776015109,
-      "title": "Canadiens vs. Islanders",
-      "slug": "nhl-mon-nyi-2026-04-12",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-mon-nyi-2026-04-12",
-      "outcome": "Canadiens",
-      "outcomeIndex": 0,
-      "name": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
-      "pseudonym": "Dishonest-Bloom",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4c7d7129922c88b73f1e1fb619f041d4f25a9fadc5dab238ec2a2e4b74f7be3f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Canadiens vs. Islanders",
-    "market_slug": "nhl-mon-nyi-2026-04-12",
-    "amount": 25044.636199999997,
-    "ai_context": "\u274c SKIP  \nThe odds suggest the Canadiens are undervalued at 47%. The market may not reflect their true chances of winning.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451319+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-12 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Will the next Prime Minister of Hungary be P\u00e9ter Magyar?",
-    "market_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "event_slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-    "wallet": "0x8676b10ce01d16a9419f495444c43d9713523e01",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($3,975)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 3975.1499979999994,
-      "odds": 0.8789396297360449,
-      "raw_price": 0.8789396297360449,
-      "outcome": "Yes",
-      "potential_pnl": 547.5155680000003,
-      "pnl_multiplier": 0.137734568073021,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-12T18:05:00.059035",
-    "trade_hash": "0x50ff7f49ade20579d7d64e2c3c72c9e5cf2cca03d5ec799fb7a471dfe85145c0",
-    "trade_timestamp": 1776016945,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.8789396297360449,
-      "effective_price": 0.8789396297360449,
-      "size": 4522.665566,
-      "amount": 3975.1499979999994,
-      "potential_pnl": 547.5155680000003,
-      "pnl_multiplier": 0.137734568073021,
-      "is_no": false,
-      "slug": "will-the-next-prime-minister-of-hungary-be-pter-magyar",
-      "eventSlug": "next-prime-minister-of-hungary"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+56.3%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.31578792594720895,
-      "market_price": 0.8789396297360449,
-      "edge": 0.5631517037888359,
-      "edge_percent": 56.31517037888359,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "P\u00e9ter Magyar secures party nomination",
-          "P\u00e9ter Magyar gains significant public support",
-          "Opposition parties fail to unite against him"
-        ],
-        "weakest_link": "Opposition parties fail to unite against him"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public sentiment towards current government",
-        "P\u00e9ter Magyar's political track record"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5631517037888359,
-      "edge_percent": 56.31517037888359
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 56.32,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution_last_check": "2026-04-26T07:41:02.737012+00:00",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-27T08:06:14.109740+00:00",
-      "insider_win": true,
-      "model_correct": false,
-      "pnl": 547.52
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x8d738313ed26a10cb01698630461dcd6d87e6e8aa4a3f830eb6e53259bd452f9",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -29423,5 +29201,149 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbd481e0463f4980d49c5a1eb5262e94a8ebb7546484abb6c98fec3042dca64c0",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+      "side": "BUY",
+      "asset": "113103979304789081247336033736127989145567050300218907052760673086808360255495",
+      "conditionId": "0x5a29496cda699e7c9e867c4da2835e6ec83baf3f71cec452e888de0eea5d5b93",
+      "size": 356.87,
+      "price": 0.8998074929245944,
+      "timestamp": 1778956038,
+      "title": "LoL: RED Canids vs Fluxo W7M - Game 3 Winner",
+      "slug": "lol-red-fxw7-2026-05-16-game3",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-red-fxw7-2026-05-16",
+      "outcome": "RED Canids",
+      "outcomeIndex": 0,
+      "name": "trgparking",
+      "pseudonym": "Productive-Vertigo",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbd481e0463f4980d49c5a1eb5262e94a8ebb7546484abb6c98fec3042dca64c0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: RED Canids vs Fluxo W7M - Game 3 Winner",
+    "market_slug": "lol-red-fxw7-2026-05-16",
+    "amount": 321.1143,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nRED Canids \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u0432\u0441\u0435 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043f\u0440\u043e\u0442\u0438\u0432 Fluxo W7M \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 2-0 (tips.gg)\nRED Canids \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 6 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 Team Liquid (strafe.com)\n[Grok] \u2705 COPY\nRED Canids 7-3 in last 10 matches with 2-0 series wins in 4 of them\nH2H: RED Canids 4-1 vs Fluxo, including 2-0 in most recent Bo3",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe3a05505d54b1404297521488c247a9246f6efc23ad6420eeb29f2dc10463be2",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
+      "side": "BUY",
+      "asset": "53003562492187477738070145869627176531180389370106659330904256866656492305159",
+      "conditionId": "0x29c9df40fb98d5e9457fef61d34efb0082d38ac4a4f18271d27f107a19739b45",
+      "size": 2345.187905,
+      "price": 0.42640506411787926,
+      "timestamp": 1778956038,
+      "title": "Dota 2: BetBoom Team vs Xtreme Gaming - Game 1 Winner",
+      "slug": "dota2-bb4-xtreme-2026-05-16-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-bb4-xtreme-2026-05-16",
+      "outcome": "Xtreme Gaming",
+      "outcomeIndex": 1,
+      "name": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+      "pseudonym": "Happy-Go-Lucky-Nestling",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe3a05505d54b1404297521488c247a9246f6efc23ad6420eeb29f2dc10463be2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: BetBoom Team vs Xtreme Gaming - Game 1 Winner",
+    "market_slug": "dota2-bb4-xtreme-2026-05-16",
+    "amount": 1345.1879059999999,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nXtreme Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2:1 \u043d\u0430\u0434 BetBoom Team 9 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430 (rus.egamersworld.\n[Grok] \u2705 COPY\nXtreme Gaming 7-3 in last 10 maps, 2-0 wins vs BetBoom in last 2 meetings\nBetBoom 4-6 in last 10 maps with 1-3 record vs Chinese teams this month",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdec1c9eadc1beca8b0eab2ef3697a63e3e921fedd3db12dcea20803e59e3f57d",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12586957.977757016,
+      "volume": 290336654.18448496,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x15fdd6a159788bd7d382f5669a047ad0fcb2cc95",
+      "side": "BUY",
+      "asset": "112418822297470572658312548631220776645321771603729476024056332596414394278374",
+      "conditionId": "0x0c38dd9305e3205557885183f0730270779e7e426b0ec3e7743f23963b6d6e4a",
+      "size": 8622.3,
+      "price": 0.9559097097062269,
+      "timestamp": 1778956038,
+      "title": "Will France, UK, or Germany strike Iran by June 30?",
+      "slug": "will-france-uk-or-germany-strike-iran-by-june-30-259",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-uk-or-germany-strike-iran-by-january-31-fT-k1MlxC4Oi.jpg",
+      "eventSlug": "will-france-uk-or-germany-strike-iran-by-june-30-259",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "PolBandit",
+      "pseudonym": "Measly-Harbor",
+      "bio": "PredictFolio-1043",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdec1c9eadc1beca8b0eab2ef3697a63e3e921fedd3db12dcea20803e59e3f57d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will France, UK, or Germany strike Iran by June 30?",
+    "market_slug": "will-france-uk-or-germany-strike-iran-by-june-30-259",
+    "amount": 380.15970999999973,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0424\u0440\u0430\u043d\u0446\u0438\u044f, \u0413\u0435\u0440\u043c\u0430\u043d\u0438\u044f \u0438 \u0412\u0435\u043b\u0438\u043a\u043e\u0431\u0440\u0438\u0442\u0430\u043d\u0438\u044f \u043f\u0440\u0438\u0437\u0432\u0430\u043b\u0438 \u0418\u0440\u0430\u043d \u043a \u00ab\u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043d\u043e\u043c\u0443 \u0440\u0435\u0448\u0435\u043d\u0438\u044e\u00bb \u043f\u043e\u0441\u043b\u0435 \u0430\u0442\u0430\u043a, \u043e\u0441\u0443\u0434\u0438\u0432 \u0438\u0445 \u0438 \u043f\u043e\u0434\u0447\u0435\u0440\u043a\u043d\u0443\u0432 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0438\u0435 \u0443\u0447\u0430\u0441\u0442\u0438\u044f \u0432 \u0443\u0434\u0430\u0440\u0430\u0445. (elysee.\n[Grok] \u2705 COPY\nNo statements, deployments or threats from France/UK/Germany indicating strikes; all recent E3 communiqu\u00e9s (May-June) call only for diplomacy and sanctions\nZero military activity or parliame...",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
