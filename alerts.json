@@ -1,227 +1,5 @@
 [
   {
-    "market": "Nuggets vs. Spurs",
-    "market_slug": "nba-den-sas-2026",
-    "event_slug": "nba-den-sas-2026",
-    "wallet": "0x38852b5408e7c207597fc388a964f79521c26791",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($9,914)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 9914.495086199999,
-      "odds": 0.79,
-      "raw_price": 0.79,
-      "outcome": "Spurs",
-      "potential_pnl": 2635.4986937999984,
-      "pnl_multiplier": 0.26582278481012644,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-12T22:56:24.699448",
-    "trade_hash": "0x05e06d741f6b91b83b01f07c974ac3d060c8edc7cef8ff7f82f8d7dd49e79a38",
-    "trade_timestamp": 1776034391,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Spurs",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.79,
-      "effective_price": 0.79,
-      "size": 12549.993779999999,
-      "amount": 9914.495086199999,
-      "potential_pnl": 2635.4986937999984,
-      "pnl_multiplier": 0.26582278481012644,
-      "is_no": false,
-      "slug": "nba-den-sas-2026",
-      "eventSlug": "nba-den-sas-2026-04-12"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+49.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.29800000000000004,
-      "market_price": 0.79,
-      "edge": 0.492,
-      "edge_percent": 49.2,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Nuggets maintain current roster health",
-          "Spurs underperform in key matchups",
-          "External factors (e.g., injuries, trades) do not favor Spurs"
-        ],
-        "weakest_link": "Spurs underperform in key matchups"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Nuggets' recent performance trends",
-        "Spurs' historical playoff struggles"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.492,
-      "edge_percent": 49.2
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 49.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP  \nThe odds at 79% suggest the market may be overvaluing the Spurs; consider their recent performance and matchup history.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451361+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-12 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4dd0709a14db051b81b1ad08cbf2618048c7cf6e7c025f960fdfc77b9ee74c33",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184698,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7fea691e28d169a33c500607279f2acb49058f74",
-      "side": "BUY",
-      "asset": "108819321908929134266641993280310742049744636201866724062552959381995312693423",
-      "conditionId": "0x3dd381b1e3e205b267a5ce14486e7104c50d447a7937ea512cbe80ee78b1524d",
-      "size": 1988.6,
-      "price": 0.81,
-      "timestamp": 1776036123,
-      "title": "Bucks vs. 76ers",
-      "slug": "nba-mil-phi-2026-04-12",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-mil-phi-2026-04-12",
-      "outcome": "76ers",
-      "outcomeIndex": 1,
-      "name": "CavaSoTasty",
-      "pseudonym": "Cuddly-Will",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4dd0709a14db051b81b1ad08cbf2618048c7cf6e7c025f960fdfc77b9ee74c33",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bucks vs. 76ers",
-    "market_slug": "nba-mil-phi-2026-04-12",
-    "amount": 1610.766,
-    "ai_context": "\u2705 COPY  \nThe odds suggest strong confidence in the 76ers, likely reflecting their superior team strength and recent performance against the Bucks.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451371+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-12 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x9a801ec055d29cd97e3fa140426d54895890c754e34e6744959923acb0e1f3a4",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8c0b024c17831a0dde038547b7e791ae6a0d7aa5",
-      "side": "BUY",
-      "asset": "5569710620627195107345645961179386656491317004748480473670916267891896533693",
-      "conditionId": "0x3e83e356dcc083d6e8a1d5230a08ce4ee4db3720e0715429eff32578a212786e",
-      "size": 60916.51006,
-      "price": 0.13,
-      "timestamp": 1776037923,
-      "title": "LoL: Sentinels vs Cloud9 (BO3) - LCS Regular Season",
-      "slug": "lol-sen-c9-2026-04-12",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-sen-c9-2026-04-12",
-      "outcome": "Sentinels",
-      "outcomeIndex": 0,
-      "name": "EFFICIENCYEXPERT",
-      "pseudonym": "Self-Reliant-Camp",
-      "bio": "We are not here to make money  We are here to make history",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9a801ec055d29cd97e3fa140426d54895890c754e34e6744959923acb0e1f3a4",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Sentinels vs Cloud9 (BO3) - LCS Regular Season",
-    "market_slug": "lol-sen-c9-2026-04-12",
-    "amount": 7919.146307800001,
-    "ai_context": "\u274c SKIP  \nThe odds of 13% suggest the market heavily favors Cloud9, indicating low confidence in Sentinels' chances to win.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451381+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-12 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x67ce7d9e1768506889af3c1ef42a208e5a972ea8c8a52d300d14dd181e3eae67",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
@@ -29261,6 +29039,150 @@
     "market_slug": "cs2-bb3-navi-2026-05-16",
     "amount": 3384.4991999999997,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nNatus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430\u0434 FaZe 2-0\nH2H: Natus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 BetBoom Team, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430 \u0442\u0443\u0440\u043d\u0438\u0440\u0435 PGL Wallachia S7\n[Grok] \u2705 COPY\nNaVi 8-2 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 FaZe \u0438 Vitality\nH2H: NaVi \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u0432\u0441\u0435 4 \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0438 \u0441 BetBoom \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 2-0 \u0432 \u0441\u0435\u0440\u0438\u044f\u0445",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xdab04ef159eb929c31da0dadea9f87867c14b41d6f1753f169a76e8eb3fecacd",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x703200e7df05962ceec0429e192d52789bce0a8b",
+      "side": "BUY",
+      "asset": "29490297589708383414676332854253555334784482667401900184512733372200000536316",
+      "conditionId": "0xcf5dd4511493b8ae2462dc84dad79cf931a0597ef01b64db5ad814c900724bc7",
+      "size": 1220,
+      "price": 0.59,
+      "timestamp": 1778965649,
+      "title": "Counter-Strike: BetBoom Team vs Natus Vincere - Map 1 Winner",
+      "slug": "cs2-bb3-navi-2026-05-16-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-bb3-navi-2026-05-16",
+      "outcome": "Natus Vincere",
+      "outcomeIndex": 1,
+      "name": "ArtemHr17",
+      "pseudonym": "Worried-Almond",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xdab04ef159eb929c31da0dadea9f87867c14b41d6f1753f169a76e8eb3fecacd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: BetBoom Team vs Natus Vincere - Map 1 Winner",
+    "market_slug": "cs2-bb3-navi-2026-05-16",
+    "amount": 500.20000000000005,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nNatus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430\u0434 FaZe\nH2H: Natus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 BetBoom Team\n[Grok] \u2705 COPY\nNaVi won 8 of last 10 maps, including 3-0 over Monte and 2-1 over G2\nH2H: NaVi 5-0 vs BetBoom, average map score 16-6",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x885ea66a3cc09669b1b49a643b59dbc8e2ea9a00430a794d72755ac7be2cc296",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "3174050854694751661180897399711897064226451262322976350840341404578746289374",
+      "conditionId": "0xe016ce60b95f0039aab31be1d4567c561cd77cdd7f3bcff49875bdf7830899e1",
+      "size": 1007.4,
+      "price": 0.42518165574746875,
+      "timestamp": 1778965648,
+      "title": "Spread: Milwaukee Brewers (-1.5)",
+      "slug": "mlb-mil-min-2026-05-16-spread-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-mil-min-2026-05-16",
+      "outcome": "Milwaukee Brewers",
+      "outcomeIndex": 0,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x885ea66a3cc09669b1b49a643b59dbc8e2ea9a00430a794d72755ac7be2cc296",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Milwaukee Brewers (-1.5)",
+    "market_slug": "mlb-mil-min-2026-05-16",
+    "amount": 428.32800000000003,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0411\u0440\u044e\u044d\u0440\u0441 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u0441 \u0440\u0430\u0437\u043d\u0438\u0446\u0435\u0439 \u0432 2 \u0438 3 \u043e\u0447\u043a\u0430.\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0438\u0433\u0440\u0430\u0445 \u0411\u0440\u044e\u044d\u0440\u0441 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u0441 \u0440\u0430\u0437\u043d\u0438\u0446\u0435\u0439 \u0432 2 \u0438 6 \u043e\u0447\u043a\u043e\u0432.\n[Grok] \u2705 COPY\nBrewers covered -1.5 in 7 of last 10 games, winning by 2+ runs 6 times\nBrewers 8-2 in last 10, scoring 4.8 runs per game with 3.1 ERA",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x46abec24fd01fbbac2ccd24cc8896d0eb32f7df5774b3eb69e08dcb35b84e08d",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692183,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe5efd6543002653b2eef940d8254911862ad9e7a",
+      "side": "BUY",
+      "asset": "113644800853621304107609775658020903611694704227371176399964054191150046605223",
+      "conditionId": "0xdd0a6115d715975812532c5a77235bd238fac24bbc837b80604c04532350728b",
+      "size": 13904.26,
+      "price": 0.46981660296916194,
+      "timestamp": 1778965950,
+      "title": "Baltimore Orioles vs. Washington Nationals: O/U 9.5",
+      "slug": "mlb-bal-wsh-2026-05-16-total-9pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-bal-wsh-2026-05-16",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "0xE5efD6543002653B2EEF940d8254911862aD9e7A-1729599643232",
+      "pseudonym": "Shocked-Yoke",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x46abec24fd01fbbac2ccd24cc8896d0eb32f7df5774b3eb69e08dcb35b84e08d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Baltimore Orioles vs. Washington Nationals: O/U 9.5",
+    "market_slug": "mlb-bal-wsh-2026-05-16",
+    "amount": 6532.4522,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u0438\u0433\u0440\u044b \u043c\u0435\u0436\u0434\u0443 Orioles \u0438 Nationals: 2-3, 1-2, 3-4\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u0438\u0433\u0440\u0430\u0445 \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0442\u043e\u0442\u0430\u043b: 9.33, \u043d\u0438\u0436\u0435 \u043b\u0438\u043d\u0438\u0438 9.5\n[Grok] \u2705 COPY\nLast 3 H2H games: totals 11, 10, 12 runs (all cleared 9.5)\nOrioles last 6 games: 5.8 runs per game scored, 4.9 allowed",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
