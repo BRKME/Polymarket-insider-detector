@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xb58f65864058e3442690c6dc7cc567ad6c24d9f7a3b0354867019cd905a7c5e9",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 18,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4526176.046413317,
-      "volume": 185485956.8620829,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x83d9c8fe37f1b5141f3219219403d87f4513651b",
-      "side": "BUY",
-      "asset": "41258360498047732696011506853943916604266422723806077173801955350268225469280",
-      "conditionId": "0xa016f5a9196c51bcc42fbbbde0243dfa428f8cb607993fb23aff0c6c18f56de2",
-      "size": 2182.18,
-      "price": 0.73,
-      "timestamp": 1775930463,
-      "title": "FC Barcelona vs. RCD Espanyol de Barcelona: O/U 3.5",
-      "slug": "lal-bar-esp-2026-04-11-total-3pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-bar-esp-2026-04-11-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "4buc0",
-      "pseudonym": "Giddy-Stepuncle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb58f65864058e3442690c6dc7cc567ad6c24d9f7a3b0354867019cd905a7c5e9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "FC Barcelona vs. RCD Espanyol de Barcelona: O/U 3.5",
-    "market_slug": "lal-bar-esp-2026-04-11-more-markets",
-    "amount": 1592.9913999999999,
-    "ai_context": "\u2705 COPY  \nThe odds suggest a strong likelihood of high scoring based on team strengths and recent performance trends.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451213+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x60618c9303fc956cc2bd92a02652fef1bb792d089f9d8e97cdea6f62cb891fc8",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
     "trader": {
@@ -29598,5 +29545,117 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
+  },
+  {
+    "market": "Spread: FC Bayern M\u00fcnchen (-2.5)",
+    "market_slug": "bun-bay-koe-2026-05-16-spread-home-2pt5",
+    "event_slug": "bun-bay-koe-2026-05-16-spread-home-2pt5",
+    "wallet": "0x9747666267a1f718428fe75631afced2a167961e",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,995)",
+        "Low activity (9 txns)"
+      ],
+      "amount": 1994.79,
+      "odds": 0.5,
+      "raw_price": 0.5,
+      "outcome": "1. FC K\u00f6ln",
+      "potential_pnl": 1994.79,
+      "pnl_multiplier": 1.0,
+      "wallet_age_days": 1,
+      "total_activities": 9
+    },
+    "timestamp": "2026-05-16T12:02:16.282991",
+    "trade_hash": "0x7adec0fa9e39debbc313819ea4cea31e720d2be46260ccafdc42dd89bcac5138",
+    "trade_timestamp": 1778932588,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "1. FC K\u00f6ln",
+      "outcomeIndex": 1,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5,
+      "effective_price": 0.5,
+      "size": 3989.58,
+      "amount": 1994.79,
+      "potential_pnl": 1994.79,
+      "pnl_multiplier": 1.0,
+      "is_no": false,
+      "conditionId": "0xd4ed3a22f635b7e48fc3e35c5c90cec53a202f23fd812a9e28754cd9bfdf5908",
+      "slug": "bun-bay-koe-2026-05-16-spread-home-2pt5",
+      "eventSlug": "bun-bay-koe-2026-05-16-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.0%)"
+      ],
+      "category": "other",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24,
+      "market_price": 0.5,
+      "edge": 0.26,
+      "edge_percent": 26.0,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "FC Bayern M\u00fcnchen must win by 3 or more goals",
+          "The opposing team must have a poor performance",
+          "Key players for Bayern must be in good form"
+        ],
+        "weakest_link": "The opposing team must have a poor performance"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Bayern's recent form",
+        "Opposition's defensive weaknesses"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.26,
+      "edge_percent": 26.0
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.0,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nFC Bayern M\u00fcnchen \u0432\u044b\u0438\u0433\u0440\u0430\u043b 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u0441 \u0440\u0430\u0437\u043d\u0438\u0446\u0435\u0439 \u0431\u043e\u043b\u0435\u0435 \u0447\u0435\u043c \u0432 2.5 \u0433\u043e\u043b\u0430.\n1. FC K\u00f6ln \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 6 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u044b\u0435\u0437\u0434\u043d\u044b\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u0441 \u0440\u0430\u0437\u043d\u0438\u0446\u0435\u0439 \u0431\u043e\u043b\u0435\u0435 \u0447\u0435\u043c \u0432 2.5 \u0433\u043e\u043b\u0430.\n[Grok] \u274c SKIP\nBayern scored 3+ goals in 7 of last 8 home games vs K\u00f6ln, average margin 3.2\nK\u00f6ln conceded 3+ in 6 of last 7 away matches, 1-4-2 form in 2024/25 Bundesliga",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SKIP"
   }
 ]
