@@ -1,58 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xcdb42f451e906fe98694c87b742198eeaf458263afcca51a4261aa8d40de6d44",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 8,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867005,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x01e6e3c5cfe50943e7721398054cb1e22032e7e0",
-      "side": "BUY",
-      "asset": "27463835349984391671863665214379526251077104225242551638673470406148681255464",
-      "conditionId": "0xbd6083a6ca7daa6f9226ffd11600cc45028deb3a5f1ed00fc7c7abe2f2f39a2c",
-      "size": 2442.3715,
-      "price": 0.8285336048879837,
-      "timestamp": 1775908251,
-      "title": "LoL: Top Esports vs JD Gaming - Game 1 Winner",
-      "slug": "lol-tes-jdg-2026-04-11-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-tes-jdg-2026-04-11",
-      "outcome": "JD Gaming",
-      "outcomeIndex": 1,
-      "name": "BirdMan.",
-      "pseudonym": "Well-Made-Sovereignty",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6981540-65626b91-dc80-4b1c-99ee-de73d651cf10.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcdb42f451e906fe98694c87b742198eeaf458263afcca51a4261aa8d40de6d44",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Top Esports vs JD Gaming - Game 1 Winner",
-    "market_slug": "lol-tes-jdg-2026-04-11",
-    "amount": 2023.586863370672,
-    "ai_context": "\u2705 COPY  \nJD Gaming at 83% indicates strong confidence; odds suggest they are likely undervalued given their recent performance.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451181+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will the next Prime Minister of Hungary be Viktor Orb\u00e1n?",
     "market_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
     "event_slug": "will-the-next-prime-minister-of-hungary-be-viktor-orbn",
@@ -29523,5 +29470,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x047f79ab0375682bfd64fdcf1878aa7b1cb5b839c89c933429a19dbbf276724b",
+    "wallet": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+    "trader": {
+      "rank": 25,
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "username": "SeriouslySirius",
+      "profit": 3648171.807038882,
+      "volume": 192646024.93522802,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2a91d128f5dc0b0f3e095e2c63c7ccd4ef91c6b1",
+      "side": "BUY",
+      "asset": "81085738048669566562356499764260356799370648010346365395945778082205876474116",
+      "conditionId": "0xcf0512fbf8bd7d79d9c4a033ba89180e110a961d322d4b7140d7757a501485f2",
+      "size": 10000,
+      "price": 0.41,
+      "timestamp": 1778915508,
+      "title": "SC Freiburg vs. RB Leipzig: O/U 3.5",
+      "slug": "bun-fre-lei-2026-05-16-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-fre-lei-2026-05-16-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "steadysteady",
+      "pseudonym": "Buttery-Temperature",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x047f79ab0375682bfd64fdcf1878aa7b1cb5b839c89c933429a19dbbf276724b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "SC Freiburg vs. RB Leipzig: O/U 3.5",
+    "market_slug": "bun-fre-lei-2026-05-16-more-markets",
+    "amount": 4100.0,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 Freiburg \u0438 RB Leipzig \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 3, 4 \u0438 4 \u0433\u043e\u043b\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e. (betshoot.com)\n\u0412 5 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 \u044d\u0442\u0438\u043c\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e \u0431\u043e\u043b\u0435\u0435 3.5 \u0433\u043e\u043b\u043e\u0432.\n[Grok] \u2705 COPY\nH2H: 3 of last 5 meetings went over 3.5 (scores 4-2, 3-3, 2-3)\nFreiburg last 6 games: 5 overs, averaging 3.9 total goals",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
