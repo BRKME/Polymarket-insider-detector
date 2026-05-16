@@ -1,227 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc35d765b5546daf0c1270e8cb71ee8560722172157262040e65c01382736ad6c",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x618534bef69023c72e9400f42191c412d1882965",
-      "side": "BUY",
-      "asset": "73691806463420720108096872601745766111072824966413784241532045762310193326467",
-      "conditionId": "0x489fb508de0780b7361391bd92a668e028332e779c347a693f408010a59f9020",
-      "size": 10583.333332,
-      "price": 0.47999999996598425,
-      "timestamp": 1776091655,
-      "title": "Hurricanes vs. Flyers",
-      "slug": "nhl-car-phi-2026-04-13",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-car-phi-2026-04-13",
-      "outcome": "Hurricanes",
-      "outcomeIndex": 0,
-      "name": "batya1",
-      "pseudonym": "Sardonic-Supplier",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc35d765b5546daf0c1270e8cb71ee8560722172157262040e65c01382736ad6c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Hurricanes vs. Flyers",
-    "market_slug": "nhl-car-phi-2026-04-13",
-    "amount": 5079.999999,
-    "ai_context": "\u274c SKIP  \nThe odds suggest the Hurricanes are underdogs, which may not reflect their actual strength or likelihood of winning.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451404+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-13 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Counter-Strike: FURIA vs Passion UA (BO3) - IEM Rio Group B",
-    "market_slug": "cs2-furia-pssnua-2026",
-    "event_slug": "cs2-furia-pssnua-2026",
-    "wallet": "0xd24cb20148ce4a4c994aa6e0664ee98e6a545809",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($66,649)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 66648.87408360043,
-      "odds": 0.8599999999987151,
-      "raw_price": 0.8599999999987151,
-      "outcome": "FURIA",
-      "potential_pnl": 10849.816711399573,
-      "pnl_multiplier": 0.1627906976761558,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-13T17:14:43.974261",
-    "trade_hash": "0x824695076ca0899ea196bada6e6189f2430738e277838a2b29b05cc678c8f874",
-    "trade_timestamp": 1776100099,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "FURIA",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.8599999999987151,
-      "effective_price": 0.8599999999987151,
-      "size": 77498.690795,
-      "amount": 66648.87408360043,
-      "potential_pnl": 10849.816711399573,
-      "pnl_multiplier": 0.1627906976761558,
-      "is_no": false,
-      "slug": "cs2-furia-pssnua-2026",
-      "eventSlug": "cs2-furia-pssnua-2026-04-13"
-    },
-    "irrationality": {
-      "irrationality_score": 45,
-      "flags": [
-        "Crisis keyword detected ('strike')",
-        "Large mispricing edge (+54.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.31199999999974304,
-      "market_price": 0.8599999999987151,
-      "edge": 0.5479999999989721,
-      "edge_percent": 54.79999999989721,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "FURIA's recent performance",
-          "Passion UA's team synergy",
-          "external factors like player health or roster changes"
-        ],
-        "weakest_link": "Passion UA's team synergy, as it can fluctuate and impact overall performance"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "FURIA's historical dominance in the region",
-        "Passion UA's potential for upset victories"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 45,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5479999999989721,
-      "edge_percent": 54.79999999989721
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 48.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 54.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451414+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-13 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2204c1eb1f01d45227828a2b203fd7ba947a237f9c04c03847255c2e8cd8cf21",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x614dc8d3542c12103d2c6a3553fd761e391d1546",
-      "side": "BUY",
-      "asset": "6028886497886581703885519038544575652424891314006548499671409644310209928685",
-      "conditionId": "0xf616ba46f3bc1412a80824309a02b73ddbcd1a43a1f7a37aa161e54b812972d5",
-      "size": 4000,
-      "price": 0.695448025,
-      "timestamp": 1776112367,
-      "title": "Will Trump endorse an Israeli Ceasefire in Lebanon by April 30?",
-      "slug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30-g8N1GvD6s0Qk.jpg",
-      "eventSlug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "mr.ozi",
-      "pseudonym": "Determined-Valuable",
-      "bio": "Check out our PredictLab trading course and community with a Discord server ThePredictLab.xyz",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Capture_2c5e68de-e9d9-41e8-b25d-2dcc67eefc45_1721219990648.PNG",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2204c1eb1f01d45227828a2b203fd7ba947a237f9c04c03847255c2e8cd8cf21",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Trump endorse an Israeli Ceasefire in Lebanon by April 30?",
-    "market_slug": "will-trump-endorse-an-israeli-ceasefire-in-lebanon-by-april-30",
-    "amount": 2781.7921,
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:41:06.386521+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2781.79
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbaa7c22c9f068e1a22db9281746aebb34324019a3a297ffab55554fd5f918b50",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -29176,5 +28955,149 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x475b50a47393ebe945c79995940d6b895cace01abf9e6011c73aaa7fd0131fb9",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1136368d7f6728e94ed14c532ab95a932f710c2e",
+      "side": "BUY",
+      "asset": "100433498178768911852652444703412104363156711977618298880437773030655869158777",
+      "conditionId": "0x49277ad01b812682abda52700fb0441a07ebf033ed6e9b31b34ddb8c0739de8f",
+      "size": 30000,
+      "price": 0.39,
+      "timestamp": 1778974359,
+      "title": "Sabres vs. Canadiens",
+      "slug": "nhl-buf-mon-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-buf-mon-2026-05-16",
+      "outcome": "Sabres",
+      "outcomeIndex": 0,
+      "name": "arlanta",
+      "pseudonym": "Moral-Goat",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x475b50a47393ebe945c79995940d6b895cace01abf9e6011c73aaa7fd0131fb9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Sabres vs. Canadiens",
+    "market_slug": "nhl-buf-mon-2026-05-16",
+    "amount": 11700.0,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0411\u0430\u0444\u0444\u0430\u043b\u043e \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 \u041c\u043e\u043d\u0440\u0435\u0430\u043b\u044f, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 1:5 9 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (betzona.ru)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 \u041c\u043e\u043d\u0440\u0435\u0430\u043b\u0435\u043c \u0411\u0430\u0444\u0444\u0430\u043b\u043e \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0440\u0430\u0437\u0430, \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0440\u0430\u0437\u0430. (sports.ru)\n[Grok] \u2705 COPY\nSabres 6-3-1 in last 10 games with 3.8 goals per game average\nH2H: Sabres won 4 of last 5 meetings, including 4-1 and 5-2 in 2024",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xead2cb54e304ff72adcf9570556b518adde5b12b62c593f10961bb019518ed75",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x03fa4885369adbabddf714aa2ede58a3e4a24911",
+      "side": "SELL",
+      "asset": "78172587044079397658451745769457331817296167957995974125255737096976288186254",
+      "conditionId": "0x80c672e002521b2ae7bd89a9dcc47d24c70c292b5a9fb64b040c236f4dd7f9dd",
+      "size": 500,
+      "price": 0.47,
+      "timestamp": 1778974359,
+      "title": "Cincinnati Reds vs. Cleveland Guardians",
+      "slug": "mlb-cin-cle-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-cin-cle-2026-05-16",
+      "outcome": "Cincinnati Reds",
+      "outcomeIndex": 0,
+      "name": "Gygy-onemillion1",
+      "pseudonym": "Half-Therapy",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xead2cb54e304ff72adcf9570556b518adde5b12b62c593f10961bb019518ed75",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Cincinnati Reds vs. Cleveland Guardians",
+    "market_slug": "mlb-cin-cle-2026-05-16",
+    "amount": 235.0,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nReds \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 7-6 \u043f\u0440\u043e\u0442\u0438\u0432 Guardians 15 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.\nH2H: Reds \u0432\u0435\u0434\u0443\u0442 3-1, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 3-1 18 \u043c\u0430\u044f 2025 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY\nReds 6-4 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, 3 \u043f\u043e\u0431\u0435\u0434\u044b \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5\nH2H: Reds \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 7 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Guardians, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2 \u043f\u043e\u0431\u0435\u0434\u044b \u0432 2024",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4c0927c8c44616f08d5446968f0fe3c6a2574f19083211a3d7601e1f0cf0d4ae",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12587030.963626891,
+      "volume": 290336654.18448496,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "99170626722661975033306456954418246446121186575175860553859895267135084796763",
+      "conditionId": "0x48449e1f89456485d00682a6969965c2151f10c5da0b8f27152d8b4bf9e2de0f",
+      "size": 1368,
+      "price": 0.73,
+      "timestamp": 1778974658,
+      "title": "Austin FC vs. Sporting Kansas City: O/U 4.5",
+      "slug": "mls-aus-skc-2026-05-16-total-4pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/mls-soccer-all-star-game-winner-r8__FzcgT9JC.png",
+      "eventSlug": "mls-aus-skc-2026-05-16-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4c0927c8c44616f08d5446968f0fe3c6a2574f19083211a3d7601e1f0cf0d4ae",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Austin FC vs. Sporting Kansas City: O/U 4.5",
+    "market_slug": "mls-aus-skc-2026-05-16-more-markets",
+    "amount": 369.36,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 Austin FC \u0438 Sporting Kansas City \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 3, 1 \u0438 2 \u0433\u043e\u043b\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e. (espn.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 Austin FC \u0437\u0430\u0431\u0438\u043b 10 \u0433\u043e\u043b\u043e\u0432, \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 1,67 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443.\n[Grok] \u2705 COPY\nH2H last 3: 1-2, 2-1, 1-1 \u2014 all finished under 4.5 total goals\nAustin last 6: averaged 2.3 total goals per game, only 1 over 3.5",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
