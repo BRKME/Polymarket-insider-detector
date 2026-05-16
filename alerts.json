@@ -1,111 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x60618c9303fc956cc2bd92a02652fef1bb792d089f9d8e97cdea6f62cb891fc8",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 16,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4594680.082180054,
-      "volume": 334157002.46780497,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8a6c6811e8937f9e8afc1b9249fa540262c30b3f",
-      "side": "BUY",
-      "asset": "93910731207835302738473919434908328408847970283455825892047520286980834326996",
-      "conditionId": "0xf7d9db87cff71cabdb4fa084e44e5e28f7c35630fb2545bdb4af65fd71cd5bbb",
-      "size": 89285.714284,
-      "price": 0.559999999999552,
-      "timestamp": 1775934965,
-      "title": "Golden Knights vs. Avalanche",
-      "slug": "nhl-las-col-2026-04-11",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-las-col-2026-04-11",
-      "outcome": "Avalanche",
-      "outcomeIndex": 1,
-      "name": "0x8a6C6811e8937F9E8aFc1b9249FA540262c30b3f-1771776258725",
-      "pseudonym": "Rare-Dishwasher",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x60618c9303fc956cc2bd92a02652fef1bb792d089f9d8e97cdea6f62cb891fc8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Golden Knights vs. Avalanche",
-    "market_slug": "nhl-las-col-2026-04-11",
-    "amount": 49999.999999,
-    "ai_context": "\u2705 COPY  \nThe odds suggest a fair valuation for the Avalanche, indicating a reasonable chance of winning against the Golden Knights.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451222+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2a8036fd256a30fce7042c6894eb990a662b0a1e7c4954af0bcc1f9423655e87",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 16,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4594680.082180054,
-      "volume": 334157002.46780497,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4133bcbad1d9c41de776646696f41c34d0a65e70",
-      "side": "BUY",
-      "asset": "74966793388564730096993019439299829334566118224601277258031619478996193613981",
-      "conditionId": "0xda7cb19e9c94dd46aedd9c63d648463562f4c8d6bedeb2739c30697a2c4a654d",
-      "size": 2109.89339,
-      "price": 0.8600362943000486,
-      "timestamp": 1775934965,
-      "title": "Will CD Riestra win on 2026-04-11?",
-      "slug": "arg-rie-iac-2026-04-11-rie",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/argentina-primera-division-fdedea0d80.png",
-      "eventSlug": "arg-rie-iac-2026-04-11",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "EF203F2IPFC2ICP20W-CP3",
-      "pseudonym": "Bogus-Fix",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2a8036fd256a30fce7042c6894eb990a662b0a1e7c4954af0bcc1f9423655e87",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will CD Riestra win on 2026-04-11?",
-    "market_slug": "arg-rie-iac-2026-04-11",
-    "amount": 1814.5848925037674,
-    "ai_context": "\u274c SKIP  \nThe odds of 86% suggest a strong likelihood, but such high odds may indicate overconfidence or inefficiencies in the market.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451231+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-11 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will Tisza win the most national list votes in the 2026 Hungarian parliamentary election?",
     "market_slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
     "event_slug": "will-tisza-win-the-most-national-list-votes-in-the-2026-hungarian-parliamentary-election",
@@ -29657,5 +29551,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4f656eaad7b5795bff481e25f5cc389e4f141f0af47b41ce2be890d61e527155",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "BUY",
+      "asset": "14380990533024155151040887814349056536660609360027979022281545057045445769008",
+      "conditionId": "0xc5bdfd46589aaf24145fcfa7ba06e293c45e4d65f803fa688fe70ff0c435fa4e",
+      "size": 1109,
+      "price": 0.29,
+      "timestamp": 1778938923,
+      "title": "Will FC St. Pauli 1910 vs. VfL Wolfsburg end in a draw?",
+      "slug": "bun-pau-wol-2026-05-16-draw",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-bun.jpg",
+      "eventSlug": "bun-pau-wol-2026-05-16",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4f656eaad7b5795bff481e25f5cc389e4f141f0af47b41ce2be890d61e527155",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC St. Pauli 1910 vs. VfL Wolfsburg end in a draw?",
+    "market_slug": "bun-pau-wol-2026-05-16",
+    "amount": 321.60999999999996,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 FC St. Pauli \u043e\u0434\u0435\u0440\u0436\u0430\u043b\u0438 1 \u043f\u043e\u0431\u0435\u0434\u0443, 2 \u043d\u0438\u0447\u044c\u0438 \u0438 2 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f.\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 VfL Wolfsburg \u043e\u0434\u0435\u0440\u0436\u0430\u043b\u0438 2 \u043f\u043e\u0431\u0435\u0434\u044b, 2 \u043d\u0438\u0447\u044c\u0438 \u0438 1 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u0435.\n[Grok] \u2705 COPY\nSt. Pauli drew 4 of their last 7 Bundesliga matches (avg. 1.4 goals per game)\nWolfsburg drew 3 of last 5 away fixtures, conceding first in only 2 of them",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9a6801e6449d78c000d4d64d504270c5695a2e2277b0a8ffe986c10c6e94c950",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4e8d5fd8911c46e7270e5424576a57630c74febf",
+      "side": "BUY",
+      "asset": "10880884751387502049652796244942334993821450249640108531895494464032255647748",
+      "conditionId": "0x515253e3da53239fda170fed47184e62c2a57f317ca5d070487677cad99e11f2",
+      "size": 1693.738309,
+      "price": 0.8856149660366452,
+      "timestamp": 1778938922,
+      "title": "Dota 2: Team Liquid vs ex-HEROIC (BO3) - DreamLeague Group A",
+      "slug": "dota2-liquid-heroic2-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-liquid-heroic2-2026-05-16",
+      "outcome": "Team Liquid",
+      "outcomeIndex": 0,
+      "name": "ggwp-cs2",
+      "pseudonym": "Silky-Vogue",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9a6801e6449d78c000d4d64d504270c5695a2e2277b0a8ffe986c10c6e94c950",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Liquid vs ex-HEROIC (BO3) - DreamLeague Group A",
+    "market_slug": "dota2-liquid-heroic2-2026-05-16",
+    "amount": 1499.9999950000001,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nTeam Liquid \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043e\u0442 3DMAX \u0438 Spirit\nex-HEROIC \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 GamerLegion\n[Grok] \u2705 COPY\nLiquid 8-2 in last 10 matches, 3 straight BO3 wins in DreamLeague\nH2H: Liquid 5-0 vs ex-HEROIC, all series ended 2-0",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
