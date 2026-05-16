@@ -1,174 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xd53f11be53af8c17678de903e9fed9cee50bb6be7b78168b685179b9e5feed8b",
-    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-    "trader": {
-      "rank": 17,
-      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
-      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
-      "profit": 4552113.846405428,
-      "volume": 60070499.45364798,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3e04fbc51adb75418129f6ce2091ae633070564d",
-      "side": "BUY",
-      "asset": "37643639610061651955997759763016896490612258488492280059008299835546981891564",
-      "conditionId": "0x4b965bf4a607ff58d398fa14bfc280af3d26bc3fd29f6d3785cea439757f1419",
-      "size": 4000,
-      "price": 0.59,
-      "timestamp": 1776027419,
-      "title": "Bruins vs. Blue Jackets",
-      "slug": "nhl-bos-cbj-2026-04-12",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-bos-cbj-2026-04-12",
-      "outcome": "Blue Jackets",
-      "outcomeIndex": 1,
-      "name": "roldy",
-      "pseudonym": "Tattered-Screamer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd53f11be53af8c17678de903e9fed9cee50bb6be7b78168b685179b9e5feed8b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bruins vs. Blue Jackets",
-    "market_slug": "nhl-bos-cbj-2026-04-12",
-    "amount": 2360.0,
-    "ai_context": "\u274c SKIP  \nThe odds at 59% suggest the Blue Jackets are undervalued; however, their overall performance may not justify this price.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451341+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-12 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Columbus Crew vs. Orlando City SC: O/U 3.5",
-    "market_slug": "mls-clb-orl-2026-04-12-total-3pt5",
-    "event_slug": "mls-clb-orl-2026-04-12-total-3pt5",
-    "wallet": "0xf003d96c0f007fe2194aaf1e1a38cc255dd808cd",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,003)",
-        "Low activity (4 txns)"
-      ],
-      "amount": 1003.0,
-      "odds": 0.5,
-      "raw_price": 0.5,
-      "outcome": "Over",
-      "potential_pnl": 1003.0,
-      "pnl_multiplier": 1.0,
-      "wallet_age_days": 0,
-      "total_activities": 4
-    },
-    "timestamp": "2026-04-12T21:19:12.734581",
-    "trade_hash": "0x74d5229fcb7842c8ae9c8c37cd32ad3097a71d981da5046a6c1b6042fa23c8ce",
-    "trade_timestamp": 1776028601,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.5,
-      "effective_price": 0.5,
-      "size": 2006.0,
-      "amount": 1003.0,
-      "potential_pnl": 1003.0,
-      "pnl_multiplier": 1.0,
-      "is_no": false,
-      "slug": "mls-clb-orl-2026-04-12-total-3pt5",
-      "eventSlug": "mls-clb-orl-2026-04-12-more-markets"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+26.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24,
-      "market_price": 0.5,
-      "edge": 0.26,
-      "edge_percent": 26.0,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong attacking players",
-          "Defensive errors by either team",
-          "Weather conditions favor scoring"
-        ],
-        "weakest_link": "Weather conditions favor scoring"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent high-scoring games in the league",
-        "Injury updates on key defensive players"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.26,
-      "edge_percent": 26.0
-    },
-    "log_only": true,
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 26.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451351+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-12 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Nuggets vs. Spurs",
     "market_slug": "nba-den-sas-2026",
     "event_slug": "nba-den-sas-2026",
@@ -29334,6 +29165,102 @@
     "market_slug": "cs2-lgc-gl1-2026-05-16",
     "amount": 285.0,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nLegacy \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u043e\u0434\u0440\u044f\u0434, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 NAVI (2-\u0435 \u043c\u0435\u0441\u0442\u043e) \u0438 Astralis (6-\u0435 \u043c\u0435\u0441\u0442\u043e)\nH2H: GamerLegion \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u0432\u0441\u0442\u0440\u0435\u0447, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 13-11 \u043d\u0430 Anubis\n[Grok] \u2705 COPY\nLegacy 7-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, 2-0 \u0432 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 IEM Atlanta\nH2H: Legacy \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 GamerLegion 2-1 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 (BO3)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf4451f2b3a8e6da183b89e68c704d1ec2b79c8a01d7507d906ea4892dd25cd08",
+    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+    "trader": {
+      "rank": 11,
+      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
+      "username": "KeyTransporter",
+      "profit": 5711459.802519929,
+      "volume": 20086062.154324997,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
+      "side": "BUY",
+      "asset": "28571298206241299867734869678718575827038597716996978783130792608578677918089",
+      "conditionId": "0xc6ca1ee20e85dfa7c71daa3dd4b2c4425bcc38d9de75efeecae45450a2d42bb4",
+      "size": 1528.610587,
+      "price": 0.6770854577366603,
+      "timestamp": 1778963248,
+      "title": "Dota 2: PARIVISION vs PlayTime (BO3) - DreamLeague Group B",
+      "slug": "dota2-pari-playti-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-pari-playti-2026-05-16",
+      "outcome": "PARIVISION",
+      "outcomeIndex": 0,
+      "name": "GamblingIsAllYouNeed",
+      "pseudonym": "Parallel-Flock",
+      "bio": "Ongelukkig in het spel, gelukkig in de liefde",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4070827-b30f95ed-6835-4ac6-a456-f066d6968f97.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf4451f2b3a8e6da183b89e68c704d1ec2b79c8a01d7507d906ea4892dd25cd08",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: PARIVISION vs PlayTime (BO3) - DreamLeague Group B",
+    "market_slug": "dota2-pari-playti-2026-05-16",
+    "amount": 1034.999999,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nPARIVISION \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 8 \u0438\u0437 11 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 MOUZ 27 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u0433\u043e\u0434\u0430 (bo3.gg)\nH2H: PARIVISION \u0432\u0435\u0434\u0443\u0442 1-0 \u043f\u0440\u043e\u0442\u0438\u0432 PlayTime, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 2-1 9 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 (tips.gg)\n[Grok] \u2705 COPY\nPARIVISION 8-2 in last 10 matches, 2-0 wins in both recent DreamLeague BO3s\nH2H: PARIVISION 3-0 vs PlayTime, all series ended 2-0 with avg map score 2-0.4",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x80d57eabe582bffee939994b6e1f9d6fcbcea0bf3d77cfcb753de7fe2a3f1264",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 17,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4557380.803025243,
+      "volume": 60412393.74210899,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x697821bebfdd65cc472da1e302b90b430dd09897",
+      "side": "BUY",
+      "asset": "26103060803217676150855038854420640078937735163114870465398559840340378714336",
+      "conditionId": "0x9046b0959d66c3ad5804e24535740c6ae41eff42a86f80a3aaee1a62b1da4328",
+      "size": 12995.9992,
+      "price": 0.739573760515467,
+      "timestamp": 1778963548,
+      "title": "Counter-Strike: BetBoom Team vs Natus Vincere (BO3) - IEM Atlanta Playoffs",
+      "slug": "cs2-bb3-navi-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-bb3-navi-2026-05-16",
+      "outcome": "Natus Vincere",
+      "outcomeIndex": 1,
+      "name": "0x697821BeBFdd65cC472dA1e302B90B430dD09897-1773477438905",
+      "pseudonym": "Ample-Motorcar",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x80d57eabe582bffee939994b6e1f9d6fcbcea0bf3d77cfcb753de7fe2a3f1264",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: BetBoom Team vs Natus Vincere (BO3) - IEM Atlanta Playoffs",
+    "market_slug": "cs2-bb3-navi-2026-05-16",
+    "amount": 3384.4991999999997,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nNatus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430\u0434 FaZe 2-0\nH2H: Natus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 BetBoom Team, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430 \u0442\u0443\u0440\u043d\u0438\u0440\u0435 PGL Wallachia S7\n[Grok] \u2705 COPY\nNaVi 8-2 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 FaZe \u0438 Vitality\nH2H: NaVi \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u0432\u0441\u0435 4 \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0435 \u0432\u0441\u0442\u0440\u0435\u0447\u0438 \u0441 BetBoom \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 2-0 \u0432 \u0441\u0435\u0440\u0438\u044f\u0445",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
