@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8d738313ed26a10cb01698630461dcd6d87e6e8aa4a3f830eb6e53259bd452f9",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7399940.361541751,
-      "volume": 402696389.7707318,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xead152b855effa6b5b5837f53b24c0756830c76a",
-      "side": "BUY",
-      "asset": "64839620643543455663176545644417187741508741750332061546105736635983287442638",
-      "conditionId": "0x7a00c50eb4e76f5bc25b38a83c029dfde5faa9268e4ade490c931a384f8d157a",
-      "size": 21493.69,
-      "price": 0.345,
-      "timestamp": 1776020815,
-      "title": "Will Cameron Young win the 2026 Masters tournament?",
-      "slug": "will-cameron-young-win-the-2026-masters-tournament",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-cameron-young-win-the-2026-masters-tournament-sXasr_Yw-Hib.png",
-      "eventSlug": "the-masters-winner-2026",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "elkmonkey",
-      "pseudonym": "Unconscious-Penguin",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8d738313ed26a10cb01698630461dcd6d87e6e8aa4a3f830eb6e53259bd452f9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Cameron Young win the 2026 Masters tournament?",
-    "market_slug": "the-masters-winner-2026",
-    "amount": 7415.323049999999,
-    "ai_context": "\u2705 COPY  \nThe odds of 34% suggest a potential undervaluation of Cameron Young's chances, making this a favorable bet.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:03.811041+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -7415.32
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x8a7cd3615454c96610b12b329d066a832f6576d06eac0b05a6d2edaa7d9fe509",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7399940.361541751,
-      "volume": 402696389.7707318,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "side": "BUY",
-      "asset": "115441174756778497442573516192216092472503715286856402978812563445827005215235",
-      "conditionId": "0x7a00c50eb4e76f5bc25b38a83c029dfde5faa9268e4ade490c931a384f8d157a",
-      "size": 7097.15,
-      "price": 0.6519867129763356,
-      "timestamp": 1776020815,
-      "title": "Will Cameron Young win the 2026 Masters tournament?",
-      "slug": "will-cameron-young-win-the-2026-masters-tournament",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-cameron-young-win-the-2026-masters-tournament-sXasr_Yw-Hib.png",
-      "eventSlug": "the-masters-winner-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "DrPufferfish",
-      "pseudonym": "Extraneous-Twine",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8a7cd3615454c96610b12b329d066a832f6576d06eac0b05a6d2edaa7d9fe509",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Cameron Young win the 2026 Masters tournament?",
-    "market_slug": "the-masters-winner-2026",
-    "amount": 4627.2474999999995,
-    "ai_context": "\u274c SKIP  \nThe odds of 65% suggest an overestimation of Cameron Young's chances, making this bet less favorable.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:03.811099+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 2469.9
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xd53f11be53af8c17678de903e9fed9cee50bb6be7b78168b685179b9e5feed8b",
     "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
     "trader": {
@@ -29345,5 +29241,101 @@
     "ai_verdict": "COPY",
     "ai_model": "Dual",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb4031f9466478cade1a28654998288484aedf13781568e2d11eaf7f63e979057",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "BUY",
+      "asset": "35942406907991262607562906507502934427268236590424912042350388196406687484985",
+      "conditionId": "0x8d56b73047dfdb32681c7ea1797d5ea5eacd2abe2d19550eb00c4127d3f90ed1",
+      "size": 504,
+      "price": 0.52,
+      "timestamp": 1778959943,
+      "title": "Toronto Blue Jays vs. Detroit Tigers",
+      "slug": "mlb-tor-det-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-tor-det-2026-05-16",
+      "outcome": "Toronto Blue Jays",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb4031f9466478cade1a28654998288484aedf13781568e2d11eaf7f63e979057",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Toronto Blue Jays vs. Detroit Tigers",
+    "market_slug": "mlb-tor-det-2026-05-16",
+    "amount": 262.08,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nToronto Blue Jays \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 Detroit Tigers, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b 11-4 \u0438 6-2. (statmuse.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0438\u0433\u0440\u0430\u0445 \u043f\u0440\u043e\u0442\u0438\u0432 Tigers \u043e\u043d\u0438 \u043d\u0430\u0431\u0440\u0430\u043b\u0438 \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 5,8 \u043e\u0447\u043a\u043e\u0432 \u0437\u0430 \u0438\u0433\u0440\u0443.\n[Grok] \u2705 COPY\nBlue Jays 7-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 4 \u043f\u043e\u0431\u0435\u0434\u044b \u043f\u043e\u0434\u0440\u044f\u0434\nH2H 2024: Toronto \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 5 \u0438\u0437 8 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Detroit, \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 5.8-3.9",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd93ba6286e4bbbd18e5feefade7f11de1bcec0089df91900ef423f7e62eb792f",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12586978.973148936,
+      "volume": 290336654.184485,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf3488e52ac2d7f0628b04481db5a5b0446f0e543",
+      "side": "BUY",
+      "asset": "18807449478271525280885695473169543284819330407982320145207929108069694739989",
+      "conditionId": "0x69f9e100af28dcd02e44b9ef54fa73e78ba1d2419876f41d16e07d97b6c13db5",
+      "size": 500,
+      "price": 0.57,
+      "timestamp": 1778960242,
+      "title": "Counter-Strike: Legacy vs GamerLegion (BO3) - IEM Atlanta Playoffs",
+      "slug": "cs2-lgc-gl1-2026-05-16",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-lgc-gl1-2026-05-16",
+      "outcome": "Legacy",
+      "outcomeIndex": 0,
+      "name": "shisan888888888888888888888888888",
+      "pseudonym": "Attached-Guinea",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd93ba6286e4bbbd18e5feefade7f11de1bcec0089df91900ef423f7e62eb792f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: Legacy vs GamerLegion (BO3) - IEM Atlanta Playoffs",
+    "market_slug": "cs2-lgc-gl1-2026-05-16",
+    "amount": 285.0,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nLegacy \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u043e\u0434\u0440\u044f\u0434, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 NAVI (2-\u0435 \u043c\u0435\u0441\u0442\u043e) \u0438 Astralis (6-\u0435 \u043c\u0435\u0441\u0442\u043e)\nH2H: GamerLegion \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u0432\u0441\u0442\u0440\u0435\u0447, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 13-11 \u043d\u0430 Anubis\n[Grok] \u2705 COPY\nLegacy 7-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, 2-0 \u0432 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 IEM Atlanta\nH2H: Legacy \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 GamerLegion 2-1 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 (BO3)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
