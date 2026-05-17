@@ -1,280 +1,5 @@
 [
   {
-    "market": "Will WTI Crude Oil (WTI) hit (LOW) $80 in April?",
-    "market_slug": "will-wti-crude-oil-wti-hit-low-80-in-april-167-519-314",
-    "event_slug": "will-wti-crude-oil-wti-hit-low-80-in-april-167-519-314",
-    "wallet": "0x2f468d00bef9f7638cf227172d540f22da3c4baa",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($49,249)",
-        "Low activity (5 txns)"
-      ],
-      "amount": 49249.12634286171,
-      "odds": 0.8784965118171834,
-      "raw_price": 0.8784965118171834,
-      "outcome": "Yes",
-      "potential_pnl": 6811.570177138288,
-      "pnl_multiplier": 0.138308446929954,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-04-17T17:57:27.240235",
-    "trade_hash": "0x645a706a26d176d9eec81e09a7aee366195e5002fa0bc9fed86f8424f0d770b0",
-    "trade_timestamp": 1776448206,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.8784965118171834,
-      "effective_price": 0.8784965118171834,
-      "size": 56060.69652,
-      "amount": 49249.12634286171,
-      "potential_pnl": 6811.570177138288,
-      "pnl_multiplier": 0.138308446929954,
-      "is_no": false,
-      "conditionId": "0x05ccbc3b7861349dc2fc0ce2c2bca9fd9671675171d7070abdf087ba1d7f085b",
-      "slug": "will-wti-crude-oil-wti-hit-low-80-in-april-167-519-314",
-      "eventSlug": "what-price-will-wti-hit-in-april-2026"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+62.5%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2536993023634367,
-      "market_price": 0.8784965118171834,
-      "edge": 0.6247972094537466,
-      "edge_percent": 62.47972094537466,
-      "min_edge_required": 0.06,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Global economic slowdown affecting oil demand",
-          "Geopolitical tensions disrupting supply",
-          "Significant changes in OPEC production levels"
-        ],
-        "weakest_link": "Global economic slowdown affecting oil demand"
-      },
-      "category": "macro",
-      "narrative_drivers": [
-        "Increased inflation leading to reduced consumer spending",
-        "Escalation of conflicts in oil-producing regions"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.6247972094537466,
-      "edge_percent": 62.47972094537466
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 62.48,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP\nWTI Crude Oil prices have been consistently above $80 in April 2026, with no significant downward trend observed.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:15.312945+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -49249.13
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb3f722e958bfa914c2c6d4bd44d3de163ed929e2949bf041d270889ebcb17012",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764627,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x95de701f84f0f0fc958736024c3040332829c9b2",
-      "side": "BUY",
-      "asset": "115296334647864493366247463042583275463304398998426776887940494614765578739118",
-      "conditionId": "0x46ca893c1fd16b52719e7a275a1d446d53cf00a3b93e3251be39e25ffde10774",
-      "size": 7998,
-      "price": 0.45,
-      "timestamp": 1776448598,
-      "title": "BC Dubai vs. Valencia",
-      "slug": "euroleague-dubai-valencia-2026-04-17",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/euroleague-basketball-8fab4f41ec.png",
-      "eventSlug": "euroleague-dubai-valencia-2026-04-17",
-      "outcome": "BC Dubai",
-      "outcomeIndex": 0,
-      "name": "Tir-1",
-      "pseudonym": "Testy-Dozen",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb3f722e958bfa914c2c6d4bd44d3de163ed929e2949bf041d270889ebcb17012",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "BC Dubai vs. Valencia",
-    "market_slug": "euroleague-dubai-valencia-2026-04-17",
-    "amount": 3599.1,
-    "ai_context": "\u274c SKIP\nBC Dubai has a 0% win rate against Valencia, losing their only previous encounter 80-78 on October 30, 2025. (livescores.biz) In their last five matches, BC Dubai has won two and lost three, including a recent 85-69 defeat to Anadolu Efes on April 10, 2026. (betexplorer.com) Valencia, on t...",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451567+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xccfe5114594298842bc70eca6a382d0daab2de191c4b8489eb671f877d3ada09",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7289831.062845959,
-      "volume": 425645124.952893,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8fd93d7e517b9d98c4897908afefd2d7a8b4544a",
-      "side": "BUY",
-      "asset": "56443710706308391689314329971471018996044196245748252657002726431850335195583",
-      "conditionId": "0x89683dabd991296af86ff5eb1fa5b2a67cca45c4e76601c2383f3dd80ff5c45e",
-      "size": 3339.2308239999998,
-      "price": 0.7422929311702039,
-      "timestamp": 1776460306,
-      "title": "Tallahassee: Daniil Glinka vs Jack Kennedy",
-      "slug": "atp-glinka-kennedy-2026-04-17",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-glinka-kennedy-2026-04-17",
-      "outcome": "Daniil Glinka",
-      "outcomeIndex": 0,
-      "name": "BaltazarGombka",
-      "pseudonym": "Separate-Evidence",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xccfe5114594298842bc70eca6a382d0daab2de191c4b8489eb671f877d3ada09",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Tallahassee: Daniil Glinka vs Jack Kennedy",
-    "market_slug": "atp-glinka-kennedy-2026-04-17",
-    "amount": 2478.6874362008552,
-    "ai_context": "\u2705 COPY\nDaniil Glinka, ranked No. 177, has a 66.7% win rate in 2026, including a Challenger title in Drummondville. Jack Kennedy, ranked No. 856, is a 17-year-old with limited professional experience. Glinka's higher ranking and experience suggest an advantage. (tennisstats.com)",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451579+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-17 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xf28864f37ebdf8782b929e7325f7af02aa2f3c2cb8220fa91ea7339c4590af6e",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "side": "BUY",
-      "asset": "50616872541920603433884460284719684864747679304436856188500328292452712898715",
-      "conditionId": "0x0656d25241a8b09abaa640fdfce92a942085a46bf0ef876b4e65990ed0ec9d49",
-      "size": 2713.696,
-      "price": 0.68,
-      "timestamp": 1776467210,
-      "title": "Atlanta Braves vs. Philadelphia Phillies",
-      "slug": "mlb-atl-phi-2026-04-17",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-atl-phi-2026-04-17",
-      "outcome": "Atlanta Braves",
-      "outcomeIndex": 0,
-      "name": "RN1",
-      "pseudonym": "Scary-Edible",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf28864f37ebdf8782b929e7325f7af02aa2f3c2cb8220fa91ea7339c4590af6e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Atlanta Braves vs. Philadelphia Phillies",
-    "market_slug": "mlb-atl-phi-2026-04-17",
-    "amount": 1845.31328,
-    "ai_context": "\u274c SKIP\nThe Atlanta Braves have a 12-7 record this season, while the Philadelphia Phillies are 8-10. The Braves have won both recent matchups against the Phillies, including a 3-2 victory on March 18, 2026. (oddsindex.com) Additionally, the Braves have a slightly better overall head-to-head record...",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451588+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-17 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x5e77281059b9eb7c349966cf440fe2e45aa55c55f6b1f6c87a8befd5b85cd0f1",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
@@ -29248,6 +28973,198 @@
     "market_slug": "ere-her-gro-2026-05-17",
     "amount": 380.76,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nFC Groningen \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 3-1 \u043d\u0430\u0434 Ajax Amsterdam\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u043c\u0430\u0442\u0447 \u043f\u0440\u043e\u0442\u0438\u0432 Telstar \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0441\u044f \u043f\u043e\u0431\u0435\u0434\u043e\u0439 2-0\n[Grok] \u2705 COPY\nGroningen won only 3 of their last 10 Eredivisie matches (1 win in 6 away)\nConceded 2+ goals in 7 of the last 9 games against top-half sides",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5bdd9437403777503ae280f0bcba8e1154468aae2fa7e302ea37114f8ec7f55a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc551705ae47e8740ee01e2672b395de52595fa51",
+      "side": "BUY",
+      "asset": "18063333153914743199383895413448831025065526649866996086871818780450404991941",
+      "conditionId": "0xe3c9739ed60af01cb76a9501129e79be3b2b5756fa9b2f35b4b6211a4f1149f1",
+      "size": 1552.153464,
+      "price": 0.7406161985023925,
+      "timestamp": 1779026761,
+      "title": "SpVgg Greuther F\u00fcrth vs. TSV Fortuna 95 D\u00fcsseldorf: O/U 3.5",
+      "slug": "bl2-fur-dus-2026-05-17-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bundesliga-b9267b423e.jpg",
+      "eventSlug": "bl2-fur-dus-2026-05-17-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "RazorSharkReturns",
+      "pseudonym": "Modern-Mrna",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5bdd9437403777503ae280f0bcba8e1154468aae2fa7e302ea37114f8ec7f55a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "SpVgg Greuther F\u00fcrth vs. TSV Fortuna 95 D\u00fcsseldorf: O/U 3.5",
+    "market_slug": "bl2-fur-dus-2026-05-17-more-markets",
+    "amount": 1149.549998,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 3 \u0438\u043b\u0438 \u0431\u043e\u043b\u0435\u0435 \u0433\u043e\u043b\u043e\u0432 \u0432 4 \u043c\u0430\u0442\u0447\u0430\u0445. (tntsports.co.uk)\n\u0412 9 \u0438\u0437 15 \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e \u0431\u043e\u043b\u0435\u0435 2.5 \u0433\u043e\u043b\u043e\u0432. (worldsoccerdata.com)\n[Grok] \u2705 COPY\nH2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430: 4-2, 3-2, 5-1 \u2014 \u0432\u0441\u0435 Over 3.5\nF\u00fcrth + D\u00fcsseldorf \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u044b\u0445 \u0438\u0433\u0440\u0430\u0445 \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 4.1 \u0433\u043e\u043b\u0430",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x40b3d51faf5e673b994a02964ea213f18f1bda552c9a33d4b9a6c8a58e475a44",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7203d27522b0144113c36d25485c557c9185795a",
+      "side": "BUY",
+      "asset": "18063333153914743199383895413448831025065526649866996086871818780450404991941",
+      "conditionId": "0xe3c9739ed60af01cb76a9501129e79be3b2b5756fa9b2f35b4b6211a4f1149f1",
+      "size": 1202.62,
+      "price": 0.76,
+      "timestamp": 1779026761,
+      "title": "SpVgg Greuther F\u00fcrth vs. TSV Fortuna 95 D\u00fcsseldorf: O/U 3.5",
+      "slug": "bl2-fur-dus-2026-05-17-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bundesliga-b9267b423e.jpg",
+      "eventSlug": "bl2-fur-dus-2026-05-17-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "AztecClusters",
+      "pseudonym": "Yellowish-Tenth",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x40b3d51faf5e673b994a02964ea213f18f1bda552c9a33d4b9a6c8a58e475a44",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "SpVgg Greuther F\u00fcrth vs. TSV Fortuna 95 D\u00fcsseldorf: O/U 3.5",
+    "market_slug": "bl2-fur-dus-2026-05-17-more-markets",
+    "amount": 913.9911999999999,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 3, 3 \u0438 3 \u0433\u043e\u043b\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e.\n\u0412 9 \u0438\u0437 15 \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e \u0431\u043e\u043b\u0435\u0435 2.5 \u0433\u043e\u043b\u043e\u0432.\n[Grok] \u2705 COPY\nH2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430: 4-2, 3-2, 2-2 (\u0432\u0441\u0435 3 over 3.5, \u0441\u0440\u0435\u0434\u043d\u0438\u0435 3.8 \u0433\u043e\u043b\u0430)\n\u041e\u0431\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445: \u0441\u0440\u0435\u0434\u043d\u0438\u0435 3.7 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443, 4 \u0438\u0437 6 over 3.5",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbfe1fce37f97a175d039678e92d02f2c9ef9b7f0f9177524165f9c3a7b57dc53",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa38e7869b24dc48bb4216fb48fe86dbdfcbb8917",
+      "side": "BUY",
+      "asset": "18063333153914743199383895413448831025065526649866996086871818780450404991941",
+      "conditionId": "0xe3c9739ed60af01cb76a9501129e79be3b2b5756fa9b2f35b4b6211a4f1149f1",
+      "size": 1529.748154,
+      "price": 0.7514635621518129,
+      "timestamp": 1779026761,
+      "title": "SpVgg Greuther F\u00fcrth vs. TSV Fortuna 95 D\u00fcsseldorf: O/U 3.5",
+      "slug": "bl2-fur-dus-2026-05-17-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bundesliga-b9267b423e.jpg",
+      "eventSlug": "bl2-fur-dus-2026-05-17-more-markets",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "GatesOfOlympus",
+      "pseudonym": "Next-Storyboard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbfe1fce37f97a175d039678e92d02f2c9ef9b7f0f9177524165f9c3a7b57dc53",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "SpVgg Greuther F\u00fcrth vs. TSV Fortuna 95 D\u00fcsseldorf: O/U 3.5",
+    "market_slug": "bl2-fur-dus-2026-05-17-more-markets",
+    "amount": 1149.549997,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 2, 3 \u0438 2 \u0433\u043e\u043b\u0430 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e.\n\u0412 60% \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 \u043d\u0438\u043c\u0438 \u0437\u0430\u0431\u0438\u0432\u0430\u043b\u043e\u0441\u044c \u0431\u043e\u043b\u0435\u0435 2.5 \u0433\u043e\u043b\u043e\u0432.\n[Grok] \u2705 COPY\nLast 3 H2H: 4-2, 3-1, 5-0 (all 4+ goals)\nF\u00fcrth + D\u00fcsseldorf combined 4.2 goals per game in last 6 matches",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x25a72ba5d3fa6ea85464aefae4d74883ae9a6b04c48bb9bf6a06d725074c14a4",
+    "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "trader": {
+      "rank": 22,
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "username": "surfandturf",
+      "profit": 3932422.702536573,
+      "volume": 41924676.790465005,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "side": "BUY",
+      "asset": "52963505343817482538592114271775540492796781106028557533337779355529992115265",
+      "conditionId": "0xd97e0d640a89f0df58c36609b65925ed43ca5e4355c92d4655b0f58c654c0dbb",
+      "size": 5005,
+      "price": 0.41,
+      "timestamp": 1779027361,
+      "title": "Will Hertha BSC win on 2026-05-17?",
+      "slug": "bl2-bie-ber-2026-05-17-ber",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bundesliga-b9267b423e.jpg",
+      "eventSlug": "bl2-bie-ber-2026-05-17",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "RN1",
+      "pseudonym": "Scary-Edible",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x25a72ba5d3fa6ea85464aefae4d74883ae9a6b04c48bb9bf6a06d725074c14a4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Hertha BSC win on 2026-05-17?",
+    "market_slug": "bl2-bie-ber-2026-05-17",
+    "amount": 2052.0499999999997,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nHertha BSC \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 2:1 \u043f\u0440\u043e\u0442\u0438\u0432 \u0413\u0440\u043e\u0439\u0442\u0435\u0440\u0430 \u0424\u044e\u0440\u0442 10 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430, \u043d\u043e \u0438\u0433\u0440\u0430\u043b\u0430 \u0432 \u043c\u0435\u043d\u044c\u0448\u0438\u043d\u0441\u0442\u0432\u0435 \u043f\u043e\u0441\u043b\u0435 \u0443\u0434\u0430\u043b\u0435\u043d\u0438\u044f \u0438\u0433\u0440\u043e\u043a\u0430 (berliner-kurier.\n[Grok] \u2705 COPY\nHertha won 6 of their last 10 league matches with 2.1 xG per game\nStrong recent home form: 4 wins, 1 draw in last 5 home fixtures",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
