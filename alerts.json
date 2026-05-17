@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x11f8c122f279930dfea01d30c11b65b76a64b6af68ef666df81055ca66380a91",
-    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-    "trader": {
-      "rank": 15,
-      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
-      "username": "DrPufferfish",
-      "profit": 4806777.788558641,
-      "volume": 237026669.23025098,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5561aeddd9f5ce7159beaffcaaf92479c749984e",
-      "side": "BUY",
-      "asset": "13727914381995794862271416309043013213357546494173257119615675730526927792371",
-      "conditionId": "0x9401136deff961e96a3b2715aadcf30c8faf207a707ff8dcbc67e6e42c90d71a",
-      "size": 1977.87341,
-      "price": 0.54,
-      "timestamp": 1776528742,
-      "title": "Will there be a run scored in the first inning?: Cincinnati Reds vs. Minnesota Twins",
-      "slug": "mlb-cin-min-2026-04-18-nrfi",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-cin-min-2026-04-18",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "JHIKy98ijhgjk",
-      "pseudonym": "Upbeat-Disposer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x11f8c122f279930dfea01d30c11b65b76a64b6af68ef666df81055ca66380a91",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will there be a run scored in the first inning?: Cincinnati Reds vs. Minnesota Twins",
-    "market_slug": "mlb-cin-min-2026-04-18",
-    "amount": 1068.0516414,
-    "ai_context": "\u274c SKIP \u2014 The available data indicates that the Cincinnati Reds have scored in the first inning in several games this season, suggesting a higher likelihood of a run being scored in the first inning.\nIn their game against the Los Angeles Angels on April 11, 2026, the Reds scored 4 runs in the first inning. (statmuse.com) Additionally, in their game against the Miami Marlins on April 8, 2026, they scored 2 runs in the first inning. (statmuse.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451711+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-18 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb8fc91c1a5b5f71db3e7b5a329dd35418689e9c7748105f075bf71e6e6550f32",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29105,5 +29052,117 @@
     "ai_verdict": "COPY",
     "ai_model": "Dual",
     "ai_consensus": "COPY"
+  },
+  {
+    "market": "Arizona Diamondbacks vs. Colorado Rockies",
+    "market_slug": "mlb-ari-col-2026",
+    "event_slug": "mlb-ari-col-2026",
+    "wallet": "0x05d9bf5b960d29e63e43751cf20801f009e1ecd7",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($8,000)",
+        "Low activity (13 txns)"
+      ],
+      "amount": 7999.999999000001,
+      "odds": 0.479999999988,
+      "raw_price": 0.479999999988,
+      "outcome": "Colorado Rockies",
+      "potential_pnl": 8666.666666000001,
+      "pnl_multiplier": 1.0833333333854167,
+      "wallet_age_days": 1,
+      "total_activities": 13
+    },
+    "timestamp": "2026-05-17T21:07:25.606510",
+    "trade_hash": "0xe295ed693da9faf0eeafe657f706e4f89287201c8d3102e7f38d0aaf44a5310f",
+    "trade_timestamp": 1779051825,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Colorado Rockies",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.479999999988,
+      "effective_price": 0.479999999988,
+      "size": 16666.666665,
+      "amount": 7999.999999000001,
+      "potential_pnl": 8666.666666000001,
+      "pnl_multiplier": 1.0833333333854167,
+      "is_no": false,
+      "conditionId": "0xcd78eab706791d5d8239abb896f8941e32ed70d447f07bfbb56be3ea4ffa553e",
+      "slug": "mlb-ari-col-2026",
+      "eventSlug": "mlb-ari-col-2026-05-17"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+24.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2359999999976,
+      "market_price": 0.479999999988,
+      "edge": 0.24399999999040003,
+      "edge_percent": 24.399999999040002,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Diamondbacks maintain strong performance",
+          "Rockies underperform significantly",
+          "Injury to key players on opposing teams"
+        ],
+        "weakest_link": "Injury to key players on opposing teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Fan sentiment and media coverage"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.24399999999040003,
+      "edge_percent": 24.399999999040002
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 24.4,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nColorado Rockies \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 Arizona Diamondbacks, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-5 21 \u0438\u044e\u043d\u044f 2025 \u0433\u043e\u0434\u0430 \u0438 2-4 22 \u0438\u044e\u043d\u044f 2025 \u0433\u043e\u0434\u0430. (espn.\n[Grok] \u2705 COPY\nColorado Rockies \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u043c\u0430\u0442\u0447\u0430\u0445 \u0438\u043c\u0435\u044e\u0442 4 \u043f\u043e\u0431\u0435\u0434\u044b, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0441\u0435\u0440\u0438\u044e \u0438\u0437 3 \u043f\u043e\u0431\u0435\u0434 \u043f\u043e\u0434\u0440\u044f\u0434\nH2H: Rockies \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Diamondbacks",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
