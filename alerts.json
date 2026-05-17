@@ -1,117 +1,5 @@
 [
   {
-    "market": "Will the U.S. invade Iran before 2027?",
-    "market_slug": "will-the-us-invade-iran-before-2027",
-    "event_slug": "will-the-us-invade-iran-before-2027",
-    "wallet": "0xdb7776fa35eee723840b30a71160bc6d155dbfc2",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($9,884)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 9884.149999,
-      "odds": 0.2645892900073647,
-      "raw_price": 0.2645892900073647,
-      "outcome": "Yes",
-      "potential_pnl": 27472.426295999998,
-      "pnl_multiplier": 2.77944247090336,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-04-18T11:52:42.570951",
-    "trade_hash": "0x8500912269e31db3b7bb61e549d71c0ab02d9e7f1beff326afcfb74adf8b1e37",
-    "trade_timestamp": 1776512600,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.2645892900073647,
-      "effective_price": 0.2645892900073647,
-      "size": 37356.576295,
-      "amount": 9884.149999,
-      "potential_pnl": 27472.426295999998,
-      "pnl_multiplier": 2.77944247090336,
-      "is_no": false,
-      "conditionId": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
-      "slug": "will-the-us-invade-iran-before-2027",
-      "eventSlug": "will-the-us-invade-iran-before-2027"
-    },
-    "irrationality": {
-      "irrationality_score": 65,
-      "flags": [
-        "Longshot (26%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias",
-        "Large mispricing edge (+18.8%)"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.07691785800147294,
-      "market_price": 0.2645892900073647,
-      "edge": 0.18767143200589176,
-      "edge_percent": 18.767143200589175,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Escalation of regional tensions involving Iran",
-          "Support from key allies for military action",
-          "Domestic political climate favoring intervention"
-        ],
-        "weakest_link": "Domestic political climate favoring intervention"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Increased Iranian nuclear activity",
-        "U.S. response to Iranian influence in the region"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 65,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.18767143200589176,
-      "edge_percent": 18.767143200589175
-    },
-    "financial_analyst": {
-      "signal_quality": 52.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 18.77,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP\nRecent diplomatic efforts, including a proposed $20 billion deal for Iran to surrender its enriched uranium stockpile, indicate a move away from military action. (axios.com)",
-    "resolution_last_check": "2026-04-26T07:41:17.254756+00:00"
-  },
-  {
     "market": "Barcelona Open: Andrey Rublev vs Hamad Medjedovic",
     "market_slug": "atp-rublev-medjedo-2026",
     "event_slug": "atp-rublev-medjedo-2026",
@@ -29174,6 +29062,118 @@
     "market_slug": "mlb-bal-wsh-2026-05-17",
     "amount": 390.0,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nOrioles \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-13 \u043f\u0440\u043e\u0442\u0438\u0432 Nationals 16 \u043c\u0430\u044f 2025 \u0433\u043e\u0434\u0430.\nH2H: Nationals \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 10-6 17 \u043c\u0430\u044f 2025 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY\nOrioles 7-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3 \u043f\u043e\u0431\u0435\u0434\u044b \u043f\u043e\u0434\u0440\u044f\u0434\nH2H: Orioles \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Nationals (\u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 6-3)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "market": "Cavaliers vs. Pistons",
+    "market_slug": "nba-cle-det-2026",
+    "event_slug": "nba-cle-det-2026",
+    "wallet": "0x971a4bb4c480c7bbee0a4e1bee72459b21ac447d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($7,400)",
+        "Low activity (5 txns)"
+      ],
+      "amount": 7400.0,
+      "odds": 0.37,
+      "raw_price": 0.37,
+      "outcome": "Cavaliers",
+      "potential_pnl": 12600.0,
+      "pnl_multiplier": 1.7027027027027026,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-05-17T19:24:04.027741",
+    "trade_hash": "0xfc3e64aa5fbf6c4d38ba79ee4daf665fa5bed5b1a3566ef240a3367acf88d439",
+    "trade_timestamp": 1779045428,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Cavaliers",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.37,
+      "effective_price": 0.37,
+      "size": 20000.0,
+      "amount": 7400.0,
+      "potential_pnl": 12600.0,
+      "pnl_multiplier": 1.7027027027027026,
+      "is_no": false,
+      "conditionId": "0x628679ecbc643ddf9ae021b3fa244ae563f58d35c7f93280900994b5a7dd883a",
+      "slug": "nba-cle-det-2026",
+      "eventSlug": "nba-cle-det-2026-05-17"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+15.6%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.21399999999999997,
+      "market_price": 0.37,
+      "edge": 0.15600000000000003,
+      "edge_percent": 15.600000000000003,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Cavaliers maintain key player health",
+          "Pistons underperform against stronger teams",
+          "Recent performance trends favor Cavaliers"
+        ],
+        "weakest_link": "Pistons underperform against stronger teams"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Cavaliers' recent winning streak",
+        "Pistons' inconsistency in performance"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.15600000000000003,
+      "edge_percent": 15.600000000000003
+    },
+    "financial_analyst": {
+      "signal_quality": 44.4,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 15.6,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nCavaliers \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u044f\u0434\nH2H: Pistons \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 122-117 25 \u043d\u043e\u044f\u0431\u0440\u044f 2025 \u0433\u043e\u0434\u0430\n[Grok] \u2705 COPY\nCavaliers \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439\nH2H: Cavaliers \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 \u0432 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Pistons",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
