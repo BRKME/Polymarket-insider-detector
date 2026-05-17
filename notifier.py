@@ -852,9 +852,9 @@ def format_top_trader_alert(alert: Dict) -> str:
     
     # Trader line
     if username.startswith("Trader #"):
-        trader_line = f"{username} · ставит ${amount:,.0f}{trader_wr}"
+        trader_line = f"{username} · ставит ${amount:,.0f} на {position}{trader_wr}"
     else:
-        trader_line = f"{username} #{rank} · ставит ${amount:,.0f}{trader_wr}"
+        trader_line = f"{username} #{rank} · ставит ${amount:,.0f} на {position}{trader_wr}"
     
     message = f"""{market}
 {verdict_line}
