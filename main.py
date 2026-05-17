@@ -281,6 +281,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
         alerts = []
         total_trades_found = 0
         traders_with_trades = 0
+        markets_alerted = set()  # Market-level dedup: 1 alert per market per run
         # Debug counters
         tt_dedup = 0
         tt_extreme_odds = 0
@@ -288,6 +289,7 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
         tt_crypto = 0
         tt_low_roi = 0
         tt_bad_trader = 0
+        tt_market_dedup = 0
         
         for address, trader_info in list(top_wallets.items())[:30]:  # Top 30 (was 20)
             trades = fetch_trader_recent_trades(address, minutes_back=60)  # Increased to 60 min
@@ -302,6 +304,13 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 # Skip if already alerted
                 if trade_hash in tracked_hashes:
                     tt_dedup += 1
+                    continue
+                
+                # Skip if this market already alerted in this run (avoid 3x same market)
+                market_slug = trade.get('slug', '') or trade.get('title', '')[:40]
+                market_key = f"{market_slug}_{trade.get('outcome', '')}"
+                if market_key in markets_alerted:
+                    tt_market_dedup += 1
                     continue
                 
                 # ══════════════════════════════════════════
@@ -336,9 +345,9 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_extreme_odds += 1
                     continue
                 
-                # Size filter: top-5 need $200+, rest need $1K+
+                # Size filter: top-5 need $500+, rest need $1K+
                 trader_rank = trader_info.get('rank', 99)
-                if trader_rank <= 5 and cost < 200:
+                if trader_rank <= 5 and cost < 500:
                     tt_small += 1
                     continue
                 elif trader_rank > 5 and cost < 1000:
@@ -394,10 +403,11 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     'amount': cost,
                 }
                 alerts.append(alert)
+                markets_alerted.add(market_key)
                 print(f"[{datetime.now()}] 👑 Top trader #{trader_info['rank']} trade: ${cost:,.0f} {outcome} @ {effective_odds*100:.0f}% on {market_name[:50]}")
         
         print(f"[{datetime.now()}] 🎯 Goal #3: {traders_with_trades}/30 traders had trades, {total_trades_found} total trades, {len(alerts)} alerts")
-        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, extreme_odds={tt_extreme_odds}, small(<$1K,rank>5)={tt_small}, crypto={tt_crypto}, low_roi={tt_low_roi}, bad_trader={tt_bad_trader}")
+        print(f"[{datetime.now()}]   Filtered: dedup={tt_dedup}, market_dedup={tt_market_dedup}, extreme_odds={tt_extreme_odds}, small={tt_small}, crypto={tt_crypto}, low_roi={tt_low_roi}, bad_trader={tt_bad_trader}")
         return alerts
         
     except Exception as e:
