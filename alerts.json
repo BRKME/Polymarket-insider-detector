@@ -1,175 +1,5 @@
 [
   {
-    "market": "LoL: Team WE vs Oh My God - Game 1 Winner",
-    "market_slug": "lol-we-omg-2026-04-13-game1",
-    "event_slug": "lol-we-omg-2026-04-13-game1",
-    "wallet": "0xa9684aed10e501e10c2cafc715ba5fc19e663166",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($5,769)",
-        "Low activity (3 txns)"
-      ],
-      "amount": 5769.44834918295,
-      "odds": 0.8244157977365135,
-      "raw_price": 0.8244157977365135,
-      "outcome": "Oh My God",
-      "potential_pnl": 1228.7779888170498,
-      "pnl_multiplier": 0.21298015242498278,
-      "wallet_age_days": 0,
-      "total_activities": 3
-    },
-    "timestamp": "2026-04-14T09:26:52.356820",
-    "trade_hash": "0x595216d3fa3a75bc5e364daa6641c3aff335b9f1a0fd5f10f5430496b179fe77",
-    "trade_timestamp": 1776158589,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Oh My God",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.8244157977365135,
-      "effective_price": 0.8244157977365135,
-      "size": 6998.226338,
-      "amount": 5769.44834918295,
-      "potential_pnl": 1228.7779888170498,
-      "pnl_multiplier": 0.21298015242498278,
-      "is_no": false,
-      "conditionId": "0x816e7720fb173c25b6f5623677a90494ca334328c9d2d12af5dc2cc021cbb52b",
-      "slug": "lol-we-omg-2026-04-13-game1",
-      "eventSlug": "lol-we-omg-2026-04-13"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+52.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.3048831595473027,
-      "market_price": 0.8244157977365135,
-      "edge": 0.5195326381892108,
-      "edge_percent": 51.95326381892108,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Team WE has a strong early game",
-          "Oh My God struggles with team coordination",
-          "Recent performance trends favor Team WE"
-        ],
-        "weakest_link": "Oh My God struggles with team coordination"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Team WE's recent winning streak",
-        "Fan sentiment favoring Team WE"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.5195326381892108,
-      "edge_percent": 51.95326381892108
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 51.95,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP\nTeam WE has a 2-8 record in their last 10 matches, while Oh My God has a 6-4 record in the same period. Historically, Oh My God has a 75% win rate against Team WE. (bo3.gg)",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451448+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-13 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xc327d81deef011bf1104ffd8906a2205ea958809e830478633075a1c8c85b567",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x183f8b17cfb09c9115d068b2da3033b54f4c85e3",
-      "side": "BUY",
-      "asset": "88916559874945038516743504246196679349860126783164531984411151187882361306988",
-      "conditionId": "0x0702c8eac2c1daf3bd4f5b5f91bf1db03e855ccdb4f094587e6b295bf1596d5b",
-      "size": 11999.99351,
-      "price": 0.48,
-      "timestamp": 1776159185,
-      "title": "Counter-Strike: Spirit vs Team Falcons (BO3) - IEM Rio Group A",
-      "slug": "cs2-ts7-fal2-2026-04-14",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-ts7-fal2-2026-04-14",
-      "outcome": "Spirit",
-      "outcomeIndex": 0,
-      "name": "BetsAusmAudimax",
-      "pseudonym": "Ripe-Aquarium",
-      "bio": "Believe in something",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3295415-1987e320-3734-44d8-8fe3-f489f5103570.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc327d81deef011bf1104ffd8906a2205ea958809e830478633075a1c8c85b567",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: Spirit vs Team Falcons (BO3) - IEM Rio Group A",
-    "market_slug": "cs2-ts7-fal2-2026-04-14",
-    "amount": 5759.9968848,
-    "ai_context": "\u274c SKIP\nTeam Spirit has a stronger recent form, with a 7-3 record in their last 10 matches, including a decisive 2-0 victory over Team Liquid. (cs2bet.io) In contrast, Team Falcons have a 7-3 record in their last 10 matches, but their recent perfor...",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451457+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-14 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xfbc08068bd3bf42eed9ae68bab876012d56840d8c4b2cf49a559058018bf5b6f",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
@@ -29316,5 +29146,101 @@
     "ai_model": "Dual",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-05-17T08:11:23.750026+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb5d6df219fb6b148be002720bcd42325fe2707597ab01cb8cbd8aeb173eeeccd",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2a69660046d7acc4ab204d7cc5ba78b0776cd2f7",
+      "side": "BUY",
+      "asset": "95392910961959374778764984299882611585441274656070350150540329052375249399222",
+      "conditionId": "0xe31886092cd3b7787738eb8ea2879c6701df4b157589a5f4ebbbd5c240ead552",
+      "size": 370,
+      "price": 0.36,
+      "timestamp": 1779014443,
+      "title": "Will Hannover 96 win on 2026-05-17?",
+      "slug": "bl2-h96-fcn-2026-05-17-h96",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bundesliga-b9267b423e.jpg",
+      "eventSlug": "bl2-h96-fcn-2026-05-17",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "UpTheBlues",
+      "pseudonym": "Gleeful-Cauliflower",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb5d6df219fb6b148be002720bcd42325fe2707597ab01cb8cbd8aeb173eeeccd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Hannover 96 win on 2026-05-17?",
+    "market_slug": "bl2-h96-fcn-2026-05-17",
+    "amount": 236.8,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nHannover 96 \u043d\u0435 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0430\u0445: 1 \u043d\u0438\u0447\u044c\u044f \u0438 2 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f.\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 1. FC N\u00fcrnberg Hannover 96 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0440\u0430\u0437\u0430, \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0440\u0430\u0437\u0430 \u0438 \u0441\u044b\u0433\u0440\u0430\u043b\u0438 \u0432\u043d\u0438\u0447\u044c\u044e 1 \u0440\u0430\u0437.\n[Grok] \u2705 COPY\nHannover 96 3 wins in last 9 matches (May 2025\u2013April 2026 form)\nConceded 2+ goals in 6 of their last 8 away games",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x317fe1524c737eae81cad1d4bc7502b489b3cf59afaa4097afd4f588f77f34a8",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3ae14377acb7cd713e90fa82518c5c4b97c5befb",
+      "side": "BUY",
+      "asset": "5157669977925713641838596306951490785871500386216129050829183691125877846974",
+      "conditionId": "0xea6c7cadfb677a90748ea30df46463925995192ace64971cea6d815358b2b02a",
+      "size": 500,
+      "price": 0.75,
+      "timestamp": 1779014443,
+      "title": "Dota 2: Team Falcons vs GamerLegion - Game 1 Winner",
+      "slug": "dota2-flc-gl-2026-05-17-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-flc-gl-2026-05-17",
+      "outcome": "Team Falcons",
+      "outcomeIndex": 0,
+      "name": "0x3aE14377aCB7cd713e90Fa82518c5C4b97c5BEfb-1766313088292",
+      "pseudonym": "Ample-Disregard",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x317fe1524c737eae81cad1d4bc7502b489b3cf59afaa4097afd4f588f77f34a8",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Falcons vs GamerLegion - Game 1 Winner",
+    "market_slug": "dota2-flc-gl-2026-05-17",
+    "amount": 375.0,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nTeam Falcons \u0437\u0430\u043d\u044f\u043b\u0438 5-\u0435 \u043c\u0435\u0441\u0442\u043e \u043d\u0430 BLAST Slam VI 16 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u0433\u043e\u0434\u0430, \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u0432 2:3. (liquipedia.net)\nGamerLegion \u043d\u0435 \u0438\u043c\u0435\u0435\u0442 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043f\u043e Dota 2. (en.wikipedia.org)\n[Grok] \u2705 COPY\nFalcons 8-2 in last 10 maps, 2-0 vs mid-tier EU teams last week\nH2H: Falcons 3-0 vs GamerLegion in 2024, winning by avg +18 networth at 20 min",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
