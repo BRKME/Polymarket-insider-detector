@@ -1,58 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x271c406d020ca39f9113a9fde392fcd8bef4ae5873943db90864e12b5dcc714b",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 17,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4657935.773497051,
-      "volume": 360413915.585498,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x47a83fb1debcd11cc93f3bbbf5aeb3a5caeb52f9",
-      "side": "BUY",
-      "asset": "1626182374709232167907168616126625968959634718101234029008605067345753997994",
-      "conditionId": "0xcbc3a1f313d2012b461b55309e3b8baee458c9c94a6db0006d0f2a394fa09980",
-      "size": 5122.509650000001,
-      "price": 0.53,
-      "timestamp": 1776549378,
-      "title": "Wild vs. Stars",
-      "slug": "nhl-min-dal-2026-04-18",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-min-dal-2026-04-18",
-      "outcome": "Stars",
-      "outcomeIndex": 1,
-      "name": "JuicySlots",
-      "pseudonym": "Oily-Physical",
-      "bio": "youtube/@JuicySlots - the realest high stakes gamba content",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x271c406d020ca39f9113a9fde392fcd8bef4ae5873943db90864e12b5dcc714b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Wild vs. Stars",
-    "market_slug": "nhl-min-dal-2026-04-18",
-    "amount": 2714.9301145000004,
-    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and injuries do not favor the Stars.\nIn their last 10 meetings, the Stars lead 5-3, but the Wild have won 2 of the last 3 games. Additionally, the Wild have been performing well recently, winning 7 of their last 10 games. The Stars are also dealing with the potential absence of key center Roope Hintz due to injury. (rantsports.com)\nGiven these factors, the facts do not support the bet on the Stars.",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-04-26T07:39:58.451806+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-18 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "WHALE_FLOW",
     "condition_id": "0x22138ac97cfb6f04b3a7560225684d6f821e5e470b876de18b7d3d23f7cf7736",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
@@ -29294,6 +29241,118 @@
     "market_slug": "epl-ars-bur-2026-05-18",
     "amount": 1768.8,
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0410\u0440\u0441\u0435\u043d\u0430\u043b \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3:0 \u043f\u0440\u043e\u0442\u0438\u0432 \u0424\u0443\u043b\u0445\u044d\u043c\u0430 2 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (bombardir.ru)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u043c\u0430\u0442\u0447\u0435 10 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0410\u0440\u0441\u0435\u043d\u0430\u043b \u043f\u043e\u0431\u0435\u0434\u0438\u043b \u0412\u0435\u0441\u0442 \u0425\u044d\u043c \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 1:0. (fotmob.com)\n[Grok] \u2705 COPY\n\u0434\u0430\u043d\u043d\u044b\u0445 \u043d\u0435\u0442 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Arsenal \u043d\u0430 2026 \u0433\u043e\u0434\n\u0434\u0430\u043d\u043d\u044b\u0445 \u043d\u0435\u0442 \u043e \u0441\u043e\u043f\u0435\u0440\u043d\u0438\u043a\u0435 \u0438 H2H \u0432 \u043c\u0430\u0435 2026",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
+  },
+  {
+    "market": "Will Neymar play in the 2026 FIFA World Cup?",
+    "market_slug": "will-neymar-play-in-the-2026-fifa-world-cup-for-brazil",
+    "event_slug": "will-neymar-play-in-the-2026-fifa-world-cup-for-brazil",
+    "wallet": "0xf73ae2e833d34b6eb4e9f881773ca02bcdeea5f5",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,093)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1093.219997,
+      "odds": 0.908945984472525,
+      "raw_price": 0.908945984472525,
+      "outcome": "Yes",
+      "potential_pnl": 109.51373600000011,
+      "pnl_multiplier": 0.10017538674788815,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-05-18T20:41:48.571720",
+    "trade_hash": "0x65d3f85f3fc101f1b71ca008106f23c3ad13a7ebe0050445e6347d2d8a9d8afa",
+    "trade_timestamp": 1779136584,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.908945984472525,
+      "effective_price": 0.908945984472525,
+      "size": 1202.733733,
+      "amount": 1093.219997,
+      "potential_pnl": 109.51373600000011,
+      "pnl_multiplier": 0.10017538674788815,
+      "is_no": false,
+      "conditionId": "0xb60c044bba6f7958768691345df1e102448a5b7ef16e4a08879bb10483fb4567",
+      "slug": "will-neymar-play-in-the-2026-fifa-world-cup-for-brazil",
+      "eventSlug": "will-neymar-play-in-the-2026-fifa-world-cup-for-brazil"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+66.7%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.241789196894505,
+      "market_price": 0.908945984472525,
+      "edge": 0.66715678757802,
+      "edge_percent": 66.715678757802,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Neymar remains injury-free leading up to the tournament",
+          "Neymar is selected by the national team coach",
+          "Neymar maintains a high level of performance in club football"
+        ],
+        "weakest_link": "Neymar remains injury-free leading up to the tournament"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Neymar's historical importance to the Brazilian national team",
+        "Public sentiment and media coverage surrounding Neymar's career"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.66715678757802,
+      "edge_percent": 66.715678757802
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 66.72,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041d\u0435\u0439\u043c\u0430\u0440 \u043f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u043b 10 \u043c\u0430\u0442\u0447\u0435\u0439 \u0438\u0437-\u0437\u0430 \u0442\u0440\u0430\u0432\u043c\u044b \u043a\u043e\u043b\u0435\u043d\u0430, \u0432\u0435\u0440\u043d\u0443\u0432\u0448\u0438\u0441\u044c \u0432 \u0444\u0435\u0432\u0440\u0430\u043b\u0435 2026 \u0433\u043e\u0434\u0430. (mail.\n[Grok] \u2705 COPY\nNeymar \u0432\u0435\u0440\u043d\u0443\u043b\u0441\u044f \u043a \u0438\u0433\u0440\u0435 \u0432 2024 \u043f\u043e\u0441\u043b\u0435 \u0434\u043b\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0438 \u043f\u0440\u043e\u0432\u0451\u043b \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0430\u0442\u0447\u0435\u0439 \u0437\u0430 Al-Hilal\n\u0411\u0440\u0430\u0437\u0438\u043b\u0438\u044f \u043a\u0432\u0430\u043b\u0438\u0444\u0438\u0446\u0438\u0440\u043e\u0432\u0430\u043b\u0430\u0441\u044c \u043d\u0430 \u0427\u041c-2026, Neymar \u043e\u0441\u0442\u0430\u0451\u0442\u0441\u044f \u0432 \u0441\u043e\u0441\u0442\u0430\u0432\u0435 \u0438 \u043d\u0430\u0446\u0435\u043b\u0435\u043d \u043d\u0430 \u0443\u0447\u0430\u0441\u0442\u0438\u0435",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
