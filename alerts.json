@@ -26733,7 +26733,14 @@
     "ai_verdict": "COPY",
     "ai_model": "Dual",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-05-17T08:11:23.750026+00:00"
+    "resolution_last_check": "2026-05-17T08:11:23.750026+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-18T09:40:53.858919+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 658.86
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28051,7 +28058,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP",
-    "resolution_last_check": "2026-05-17T16:18:08.438782+00:00"
+    "resolution_last_check": "2026-05-17T16:18:08.438782+00:00",
+    "resolution": {
+      "outcome": "Milwaukee Brewers",
+      "checked_at": "2026-05-18T09:40:56.209524+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -405.96
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28099,7 +28113,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430 \u043c\u0435\u0436\u0434\u0443 Levante UD \u0438 RCD Mallorca \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0438\u0441\u044c \u0441 \u043e\u0431\u0449\u0438\u043c \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e\u043c \u0433\u043e\u043b\u043e\u0432 3, 2 \u0438 1 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e. (aiscore.\n[Grok] \u2705 COPY\nLast 3 H2H: Levante 1-0 Mallorca, Mallorca 0-1 Levante, Levante 1-1 Mallorca (all \u22642 goals)\nMallorca last 6 matches: 4 games with 0-1 total goals, conceding 0.7 xG avg",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Levante UD",
+      "checked_at": "2026-05-18T09:40:57.588489+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28147,7 +28168,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nTampa Bay Rays \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 Miami Marlins, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-7 \u0438 5-10\nH2h: Miami Marlins \u0432\u0435\u0434\u0443\u0442 3-2, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 3-2 8 \u0438\u044e\u043d\u044f 2025 \u0433\u043e\u0434\u0430 (espn.com)\n[Grok] \u2705 COPY\nRays won 7 of last 10 games with 4.12 team ERA\nH2H: Rays 4-1 vs Marlins in last 5 meetings, averaging 6.2 runs scored",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Tampa Bay Rays",
+      "checked_at": "2026-05-18T09:40:58.902850+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 12232.08
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28195,7 +28223,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0414\u0438\u0430\u043d \u041f\u0430\u0440\u0440\u0438 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043f\u043e\u0434\u0440\u044f\u0434, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 \u0410\u043b\u0438\u043d\u043e\u0439 \u0427\u0430\u0440\u0430\u0435\u0432\u043e\u0439 (vseprosport.kz)\n\u041c\u044d\u0434\u0438\u0441\u043e\u043d \u041a\u0438\u0437 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 5 \u0438\u0437 6 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 (vseprosport.kz)\n[Grok] \u2705 COPY\nParry 6-3 in last 9 matches on clay, 3 wins in Paris this season\nH2H: Parry won their only prior meeting 2-1 on clay in 2023",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Diane Parry",
+      "checked_at": "2026-05-18T09:41:00.231522+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 60104.28
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28243,7 +28278,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u0438\u0433\u0440\u044b \u043c\u0435\u0436\u0434\u0443 Yankees \u0438 Mets: 5-2, 3-6, 10-2; \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 6,33-3,33\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u0438\u0433\u0440\u0430\u0445 Mets 6-4, \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 5,4-4,2; Yankees 3-7, \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 3,8-5,2\n[Grok] \u2705 COPY\nLast 3 H2H games totaled 7, 6 and 8 runs (all Under or push)\nYankees averaged 3.8 runs scored in last 7 games, Mets allowed 4.1 in last 6",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "New York Mets",
+      "checked_at": "2026-05-18T09:41:01.511903+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28291,7 +28333,14 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nNatus Vincere \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 GamerLegion, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b 2-0 \u043d\u0430 BLAST Rivals Spring 2026 \u0438 2-1 \u043d\u0430 IEM Atlanta 2026 (bo3.\n[Grok] \u2705 COPY\nNAVI won 8 of last 10 maps vs top teams, averaging 13.4 rounds won on T-side\nH2H: NAVI 4-0 in BO5 vs GamerLegion, last series 3-1 with 16-11/16-9 wins",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Natus Vincere",
+      "checked_at": "2026-05-18T09:41:02.734522+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 46.25
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28339,7 +28388,14 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u041b\u0438\u043e\u043d \u0432\u044b\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2:1 \u043d\u0430\u0434 \u041f\u0421\u0416\nH2H: \u041b\u0438\u043e\u043d \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 \u041b\u0430\u043d\u0441\u043e\u043c, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2:0 12 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430\n[Grok] \u2705 COPY\nLyon finished 2024/25 season with only 4 wins in their last 12 league matches (worst run in 5 years)\nIn May fixtures since 2022, Lyon have 1 win, 3 draws and 4 losses, averaging 1.",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-18T09:41:04.098437+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 546.12
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28387,7 +28443,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nMovistar KOI \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 Karmine Corp 0\u20132 \u0432 \u0437\u0438\u043c\u043d\u0435\u043c \u0441\u043f\u043b\u0438\u0442\u0435 2025 \u0433\u043e\u0434\u0430. (en.wikipedia.org)\n\u0412 \u0432\u0435\u0441\u0435\u043d\u043d\u0435\u043c \u0441\u043f\u043b\u0438\u0442\u0435 2025 \u0433\u043e\u0434\u0430 Movistar KOI \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 Karmine Corp \u0434\u0432\u0430\u0436\u0434\u044b, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 3\u20131 \u0432 \u0444\u0438\u043d\u0430\u043b\u0435. (en.\n[Grok] \u2705 COPY\nMovistar KOI 6-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 9 \u043c\u0430\u0442\u0447\u0430\u0445 LEC, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 Fnatic \u0438 G2\nH2H: MKOI \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Karmine Corp, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f 3-1",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Karmine Corp",
+      "checked_at": "2026-05-18T09:41:05.324366+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -243.07
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28435,7 +28498,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041b\u0438\u043e\u043d \u0432\u044b\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 4:2 \u043f\u0440\u043e\u0442\u0438\u0432 \u0420\u0435\u043d\u043d\u0430 3 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.\n\u041b\u0430\u043d\u0441 \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2:0 \u043f\u0440\u043e\u0442\u0438\u0432 \u041b\u043e\u0440\u044c\u044f\u043d\u0430 12 \u0430\u043f\u0440\u0435\u043b\u044f 2026 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY\nLyon struggled in 2024/25 with only 4 wins in last 10 Ligue 1 games\nNo confirmed opponent or form data exists yet for May 2026 match",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-18T09:41:05.324430+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 420.98
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28483,7 +28553,14 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u041b\u0438\u043e\u043d \u0432\u044b\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 4:2 \u043f\u0440\u043e\u0442\u0438\u0432 \u0420\u0435\u043d\u043d\u0430\n\u041b\u0430\u043d\u0441 \u0433\u0430\u0440\u0430\u043d\u0442\u0438\u0440\u043e\u0432\u0430\u043b \u0441\u0435\u0431\u0435 \u0432\u0442\u043e\u0440\u0443\u044e \u043f\u043e\u0437\u0438\u0446\u0438\u044e \u0438 \u0441\u043e\u0441\u0440\u0435\u0434\u043e\u0442\u043e\u0447\u0435\u043d \u043d\u0430 \u0444\u0438\u043d\u0430\u043b\u0435 \u041a\u0443\u0431\u043a\u0430 \u0424\u0440\u0430\u043d\u0446\u0438\u0438 \u043f\u0440\u043e\u0442\u0438\u0432 \u041d\u0438\u0446\u0446\u044b (kp.ru)\n[Grok] \u2705 COPY\nLyon have won only 3 of their last 9 matches across all competitions\n2025/26 season form shows 4 losses in the last 7 away fixtures",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-18T09:41:05.324457+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 420.98
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28531,7 +28608,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nOrioles \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-13 \u043f\u0440\u043e\u0442\u0438\u0432 Nationals 16 \u043c\u0430\u044f 2025 \u0433\u043e\u0434\u0430.\nH2H: Nationals \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 10-6 17 \u043c\u0430\u044f 2025 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY\nOrioles 7-3 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3 \u043f\u043e\u0431\u0435\u0434\u044b \u043f\u043e\u0434\u0440\u044f\u0434\nH2H: Orioles \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Nationals (\u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 6-3)",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Baltimore Orioles",
+      "checked_at": "2026-05-18T09:41:06.690669+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 110.0
+    }
   },
   {
     "market": "Cavaliers vs. Pistons",
@@ -28643,7 +28727,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nCavaliers \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043f\u043e\u0434\u0440\u044f\u0434\nH2H: Pistons \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 122-117 25 \u043d\u043e\u044f\u0431\u0440\u044f 2025 \u0433\u043e\u0434\u0430\n[Grok] \u2705 COPY\nCavaliers \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439\nH2H: Cavaliers \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 \u0432 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Pistons",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-18T09:41:08.766993+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 12600.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28691,7 +28782,14 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 Udinese Calcio \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0440\u0430\u0437\u0430, 2 \u043c\u0430\u0442\u0447\u0430 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0438\u0441\u044c \u0432\u043d\u0438\u0447\u044c\u044e. (footystats.org)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u044d\u0442\u0438\u043c\u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438 \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 3, 3 \u0438 0 \u0433\u043e\u043b\u043e\u0432 \u0441\u043e\u043e\u0442\u0432\u0435\u0442\u0441\u0442\u0432\u0435\u043d\u043d\u043e.\n[Grok] \u2705 COPY\nUdinese \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0430\u0445 \u0421\u0435\u0440\u0438\u0438 A \u043f\u0440\u043e\u043f\u0443\u0441\u043a\u0430\u043b\u0438 \u0432 4 \u0438\u0433\u0440\u0430\u0445, \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u0437\u0430\u0431\u0438\u0432\u0430\u043b\u0438 \u0441\u0430\u043c\u0438 \u0432 3 \u0438\u0437 \u043d\u0438\u0445\nH2h: \u0432 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043e\u0447\u043d\u044b\u0445 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 BTTS \u0431\u044b\u043b\u043e \u0432 2 \u043c\u0430\u0442\u0447\u0430\u0445 (\u0441\u0447\u0435\u0442\u0430 2-1, 1-1)",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "US Cremonese",
+      "checked_at": "2026-05-18T09:41:10.177693+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28739,7 +28837,14 @@
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u043c\u0430\u0442\u0447\u0435 FC Barcelona 17 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u043d\u0435\u0442.\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0439 \u043c\u0430\u0442\u0447 FC Barcelona \u0441\u043e\u0441\u0442\u043e\u044f\u043b\u0441\u044f 13 \u0434\u0435\u043a\u0430\u0431\u0440\u044f 2025 \u0433\u043e\u0434\u0430. (fcbarcelona.com)\n[Grok] \u274c SKIP\n\u041d\u0430 2026-05-17 \u043c\u0430\u0442\u0447 \u0411\u0430\u0440\u0441\u0435\u043b\u043e\u043d\u044b \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d \u0438 \u0441\u043e\u043f\u0435\u0440\u043d\u0438\u043a \u043d\u0435\u0438\u0437\u0432\u0435\u0441\u0442\u0435\u043d\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0430 \u043c\u0430\u0439 2026 \u0433\u043e\u0434\u0430 \u043d\u0435\u0442",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-18T09:41:11.491273+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 184.41
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28787,7 +28892,14 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nLos Angeles Dodgers \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 6-0 \u043f\u0440\u043e\u0442\u0438\u0432 Los Angeles Angels 15 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.\n[Grok] \u2705 COPY\n\u0434\u0430\u043d\u043d\u044b\u0445 \u043d\u0435\u0442 \u043f\u043e \u0444\u043e\u0440\u043c\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5-10 \u043c\u0430\u0442\u0447\u0435\u0439 Dodgers\nH2H: \u0434\u0430\u043d\u043d\u044b\u0445 \u043d\u0435\u0442 \u043f\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u043c \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u043c \u0441 Angels",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Los Angeles Dodgers",
+      "checked_at": "2026-05-18T09:41:12.688671+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 3613.0
+    }
   },
   {
     "market": "Arizona Diamondbacks vs. Colorado Rockies",
@@ -28899,7 +29011,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nColorado Rockies \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 Arizona Diamondbacks, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-5 21 \u0438\u044e\u043d\u044f 2025 \u0433\u043e\u0434\u0430 \u0438 2-4 22 \u0438\u044e\u043d\u044f 2025 \u0433\u043e\u0434\u0430. (espn.\n[Grok] \u2705 COPY\nColorado Rockies \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u043c\u0430\u0442\u0447\u0430\u0445 \u0438\u043c\u0435\u044e\u0442 4 \u043f\u043e\u0431\u0435\u0434\u044b, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0441\u0435\u0440\u0438\u044e \u0438\u0437 3 \u043f\u043e\u0431\u0435\u0434 \u043f\u043e\u0434\u0440\u044f\u0434\nH2H: Rockies \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Diamondbacks",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Arizona Diamondbacks",
+      "checked_at": "2026-05-18T09:41:14.843843+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -8000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28947,7 +29066,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u041f\u043e\u0440\u0442\u043b\u0435\u043d\u0434 \u0422\u0438\u043c\u0431\u0435\u0440\u0441 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0:2 \u043f\u0440\u043e\u0442\u0438\u0432 \u0420\u0435\u0430\u043b \u0421\u043e\u043b\u0442-\u041b\u0435\u0439\u043a\n\u0418\u043d\u0442\u0435\u0440 \u041c\u0430\u0439\u0430\u043c\u0438 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u0441 \u0444\u043e\u0440\u043e\u0439 -1.5, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 4:0 \u043f\u0440\u043e\u0442\u0438\u0432 \u041d\u044d\u0448\u0432\u0438\u043b\u043b\u0430\n[Grok] \u2705 COPY\nPortland Timbers \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430\u0445 \u043f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u043b\u0438 \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 1.3 \u0433\u043e\u043b\u0430\nInter Miami CF \u0432 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u044b\u0435\u0437\u0434\u043d\u044b\u0445 \u0438\u0433\u0440 \u043d\u0435 \u043f\u043e\u043a\u0440\u044b\u0432\u0430\u043b\u0438 \u0441\u043f\u0440\u0435\u0434 -1.5",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Portland Timbers",
+      "checked_at": "2026-05-18T09:41:16.179877+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1837.08
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28995,7 +29121,14 @@
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430 \u043c\u0435\u0436\u0434\u0443 Cavaliers \u0438 Pistons: 116-109, 97-107, 101-111. (statmuse.com)\n\u0412 \u044d\u0442\u0438\u0445 \u0438\u0433\u0440\u0430\u0445 \u0441\u0440\u0435\u0434\u043d\u0438\u0439 total: 109.7 \u043e\u0447\u043a\u043e\u0432.\n[Grok] \u274c SKIP\n\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0445 \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u043c 3 \u0438\u0433\u0440\u0430\u043c H2H \u043d\u0435\u0442\n\u0418\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u044f \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434 \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 5-10 \u043c\u0430\u0442\u0447\u0435\u0439 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-18T09:41:17.317978+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29043,7 +29176,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nPistons \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 4 \u043f\u043e\u0431\u0435\u0434\u044b \u043f\u043e\u0434\u0440\u044f\u0434 (landofbasketball.com)\n\u0414\u0430\u043d\u043d\u044b\u0435 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u043c \u043f\u0440\u043e\u0442\u0438\u0432\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u0438 Pistons \u043f\u0440\u043e\u0442\u0438\u0432 Cavaliers \u043d\u0435\u0434\u043e\u0441\u0442\u0443\u043f\u043d\u044b\n[Grok] \u2705 COPY\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5-10 \u043c\u0430\u0442\u0447\u0430\u0445 Pistons \u043d\u0435\u0442\nH2H \u0434\u0430\u043d\u043d\u044b\u0445 \u043f\u043e spread \u043d\u0435\u0442",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Cavaliers",
+      "checked_at": "2026-05-18T09:41:18.428016+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29091,7 +29231,14 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 Nashville SC \u0437\u0430\u0431\u0438\u043b\u0438 5 \u0433\u043e\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 1.0 \u0437\u0430 \u0438\u0433\u0440\u0443; Los Angeles FC \u0437\u0430\u0431\u0438\u043b\u0438 6 \u0433\u043e\u043b\u043e\u0432, \u0441\u0440\u0435\u0434\u043d\u0435\u0435 1.2 \u0437\u0430 \u0438\u0433\u0440\u0443. (365scores.\n[Grok] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 LAFC \u0437\u0430\u0431\u0438\u0442\u043e \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 3.2 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443\nH2h: 2 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 Nashville \u0438 LAFC \u0437\u0430\u043a\u043e\u043d\u0447\u0438\u043b\u0438\u0441\u044c \u0441 \u0442\u043e\u0442\u0430\u043b\u043e\u043c \u0431\u043e\u043b\u044c\u0448\u0435 2.5",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Los Angeles FC",
+      "checked_at": "2026-05-18T09:41:19.725190+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29139,6 +29286,7 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-1 \u043f\u0440\u043e\u0442\u0438\u0432 \u041a\u043e\u043b\u0443\u043c\u0431\u0438\u0438 29 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430\nH2H: \u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 \u041d\u043e\u0440\u0432\u0435\u0433\u0438\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-1 29 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430 (skysports.\n[Grok] \u2705 COPY\nFrance \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043c\u0430\u0442\u0447\u0430\u0445 \u043d\u0435 \u043f\u0440\u043e\u0438\u0433\u0440\u044b\u0432\u0430\u043b\u0430 (4 \u043f\u043e\u0431\u0435\u0434\u044b, 2 \u043d\u0438\u0447\u044c\u0438)\n\u041a\u043b\u044e\u0447\u0435\u0432\u044b\u0435 \u0438\u0433\u0440\u043e\u043a\u0438 (Mbappe, Griezmann) \u0432 \u043f\u043e\u043b\u043d\u043e\u0439 \u0444\u043e\u0440\u043c\u0435 \u0438 \u0443\u0447\u0430\u0441\u0442\u0432\u043e\u0432\u0430\u043b\u0438 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0441\u0431\u043e\u0440\u0430\u0445",
     "ai_verdict": "COPY",
     "ai_model": "Dual",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-05-18T09:41:19.725253+00:00"
   }
 ]
