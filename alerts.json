@@ -1,24 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0xd0fd76b4a90073854a9c27362d7bd1c54fe1acfd28d85b93e67de6cd5c19e69f",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 84600.0,
-    "total_volume": 84600.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 45,
-    "trade_count": 69,
-    "max_single_trade": 58336.0,
-    "yes_price": 0.535,
-    "strength": 76,
-    "timestamp": "2026-04-18T18:11:04.499513",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
-    "resolution_last_check": "2026-04-26T07:41:18.311392+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xe4600d371fc116d7e5736f3d1c3f85ea1175c86780ab0b7dabc5c8f2c864caff",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
@@ -29288,5 +29269,53 @@
     "ai_model": "Dual",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-05-18T09:41:19.725253+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5130def9f8829a2acee559579a7e65184beca118dc787fc9e28c52325790eb28",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1eaf5d5f822dc5211c25b5839e5b7aa70f319bf0",
+      "side": "BUY",
+      "asset": "66815737580394942550984507397993904457379858331364772259661417517969549133571",
+      "conditionId": "0x80a3b00a52532c070d2ec4a1c30eeff26f77f077aad3d6788a88b67594c59c03",
+      "size": 9083.26,
+      "price": 0.89,
+      "timestamp": 1779103761,
+      "title": "Geneva Open: Adrian Mannarino vs Raphael Collignon",
+      "slug": "atp-mannari-collign-2026-05-18",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-mannari-collign-2026-05-18",
+      "outcome": "Raphael Collignon",
+      "outcomeIndex": 1,
+      "name": "LYnetLY",
+      "pseudonym": "Reckless-Silence",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5130def9f8829a2acee559579a7e65184beca118dc787fc9e28c52325790eb28",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Geneva Open: Adrian Mannarino vs Raphael Collignon",
+    "market_slug": "atp-mannari-collign-2026-05-18",
+    "amount": 999.1585999999999,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0420\u0430\u0444\u0430\u044d\u043b\u044c \u041a\u043e\u043b\u043b\u0438\u043d\u044c\u043e\u043d \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 3-6, 4-6 \u043f\u0440\u043e\u0442\u0438\u0432 \u0414\u0438\u043d\u043e \u041f\u0440\u0438\u0437\u043c\u0438\u0447\u0430 \u043d\u0430 \u041c\u0443\u0442\u0443\u0430 \u041c\u0430\u0434\u0440\u0438\u0434 \u041e\u043f\u0435\u043d 2026 (tennismajors.\n[Grok] \u2705 COPY\nCollignon \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u043c\u0430\u0442\u0447\u0430\u0445 \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435 \u043e\u0434\u0435\u0440\u0436\u0430\u043b 6 \u043f\u043e\u0431\u0435\u0434\nH2h: Collignon \u0432\u044b\u0438\u0433\u0440\u0430\u043b \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u0443\u044e \u043b\u0438\u0447\u043d\u0443\u044e \u0432\u0441\u0442\u0440\u0435\u0447\u0443 \u0443 Mannarino",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
