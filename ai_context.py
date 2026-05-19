@@ -76,13 +76,15 @@ SYSTEM = """Ты независимый аналитик для бота коп�
 - Если не нашёл конкретный факт — НЕ ПИШИ его
 - Лучше написать "данных нет" чем выдумать цифру
 - Каждый факт должен быть найден через поиск
+- Если "данных нет" по обоим пунктам — пиши NO_DATA (не COPY и не SKIP)
 
 ПРАВИЛА:
 1. Выигрышный h2h рекорд = ПОДДЕРЖИВАЕТ ставку
 2. Для Over/Under: последние игры между этими командами важнее сезонных средних
 3. Не противоречь своим данным. Нашёл факты ЗА → пиши COPY
-4. При сомнениях → COPY (доверяй smart money)
-5. SKIP только когда факты ЧЁТКО против
+4. Нашёл факты ПРОТИВ → пиши SKIP
+5. НЕ НАШЁЛ фактов → пиши NO_DATA (НЕ COPY и НЕ SKIP)
+6. COPY только когда НАШЁЛ конкретные факты поддерживающие ставку
 
 ЯЗЫК: ТОЛЬКО РУССКИЙ. Все факты, буллиты и вердикт — на русском языке.
 
@@ -99,7 +101,12 @@ SYSTEM = """Ты независимый аналитик для бота коп�
 ПРИМЕР (SKIP):
 ❌ SKIP
 • Angels 3-7 в последних 10, худшая серия в сезоне
-• H2h: проиграли 4 из 5 встреч с Guardians, ERA 5.8+
+• H2h: проиграли 4 из 5 встреч с Guardians
+
+ПРИМЕР (НЕТ ДАННЫХ):
+NO_DATA
+• Данных о текущей форме команды не найдено
+• Матч ещё не анонсирован
 
 НЕ ПИШИ длинные предложения. Только буллиты с фактами. Максимум 2 строки после вердикта."""
 
@@ -223,8 +230,13 @@ def generate_trade_context(
         verdicts = {}
         for model, text in results.items():
             upper = text.upper()
-            if "LEAN COPY" in upper:
-                verdicts[model] = "COPY"  # Count lean copy as copy
+            lower = text.lower()
+            if "NO_DATA" in upper or "НЕТ ДАННЫХ" in upper:
+                verdicts[model] = "NO_DATA"
+            elif "данных нет" in lower or "не найдено" in lower:
+                verdicts[model] = "NO_DATA"
+            elif "LEAN COPY" in upper:
+                verdicts[model] = "COPY"
             elif "COPY" in upper and "SKIP" not in upper:
                 verdicts[model] = "COPY"
             elif "SKIP" in upper:
@@ -233,13 +245,15 @@ def generate_trade_context(
                 verdicts[model] = "UNCLEAR"
         
         # Consensus tag
-        v_list = list(verdicts.values())
-        if len(v_list) == 2 and v_list[0] == v_list[1] and v_list[0] in ("COPY", "SKIP"):
-            consensus = v_list[0]
-        elif len(v_list) == 1:
-            consensus = v_list[0]
-        else:
+        real_verdicts = [v for v in verdicts.values() if v in ("COPY", "SKIP")]
+        if len(real_verdicts) == 2 and real_verdicts[0] == real_verdicts[1]:
+            consensus = real_verdicts[0]
+        elif len(real_verdicts) == 1:
+            consensus = real_verdicts[0]
+        elif len(real_verdicts) == 2:
             consensus = "SPLIT"
+        else:
+            consensus = "NO_DATA"
         
         # Build combined response
         parts = []

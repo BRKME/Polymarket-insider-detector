@@ -577,10 +577,15 @@ def _parse_dual_ai(ai_context: str) -> dict:
     # Determine per-model verdicts
     def _get_verdict(t):
         u = t.upper()
+        if "NO_DATA" in u or "НЕТ ДАННЫХ" in u:
+            return "NO_DATA"
         if "COPY" in u and "SKIP" not in u:
             return "COPY"
         elif "SKIP" in u:
             return "SKIP"
+        # Check if text contains "данных нет" patterns
+        if "данных нет" in t.lower() or "не найдено" in t.lower() or "неизвестен" in t.lower():
+            return "NO_DATA"
         return "UNCLEAR"
     
     gpt_verdict = _get_verdict(gpt_text) if gpt_text else "NONE"
@@ -809,29 +814,42 @@ def format_top_trader_alert(alert: Dict) -> str:
     # Count models
     gpt_v = ai.get("gpt_verdict", "NONE")
     grok_v = ai.get("grok_verdict", "NONE")
+    models_with_data = sum(1 for v in [gpt_v, grok_v] if v in ("COPY", "SKIP"))
     models_total = sum(1 for v in [gpt_v, grok_v] if v != "NONE")
     models_copy = sum(1 for v in [gpt_v, grok_v] if v == "COPY")
+    models_nodata = sum(1 for v in [gpt_v, grok_v] if v in ("NO_DATA", "UNCLEAR"))
     
-    if consensus == "COPY" and models_total >= 2:
-        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n{models_copy}/{models_total} моделей за, консенсус 100%"
-    elif consensus == "SKIP" and models_total >= 2:
-        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/{models_total} моделей за, консенсус 0%"
+    if consensus == "COPY" and models_with_data >= 2:
+        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n{models_copy}/{models_with_data} моделей за, консенсус 100%"
+    elif consensus == "SKIP" and models_with_data >= 2:
+        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/{models_with_data} моделей за, консенсус 0%"
     elif consensus == "SPLIT":
-        verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n{models_copy}/{models_total} моделей за, консенсус 50%"
-    elif models_total == 1:
-        if gpt_v == "COPY" or grok_v == "COPY":
+        verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n{models_copy}/{models_with_data} моделей за, консенсус 50%"
+    elif models_with_data == 1:
+        if models_copy == 1:
             verdict_line = f"🟡 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n1/1 модель за"
         else:
             verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/1 модель за"
+    elif models_nodata >= 2:
+        verdict_line = f"⚪ ВЕРДИКТ AI: НЕТ ДАННЫХ\nОбе модели не нашли фактов"
+    elif models_nodata == 1 and models_with_data == 1:
+        if models_copy == 1:
+            verdict_line = f"🟡 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n1/1 модель за (вторая без данных)"
+        else:
+            verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/1 модель за (вторая без данных)"
     else:
         verdict_line = ""
     
     # === Format AI opinions ===
     ai_lines = []
     if ai.get("gpt_verdict") != "NONE":
-        gpt_emoji = "🟢" if ai["gpt_verdict"] == "COPY" else "🟠"
-        gpt_label = "За" if ai["gpt_verdict"] == "COPY" else "Против"
-        # Extract clean GPT text
+        v = ai["gpt_verdict"]
+        if v == "COPY":
+            gpt_emoji, gpt_label = "🟢", "За"
+        elif v == "NO_DATA":
+            gpt_emoji, gpt_label = "⚪", "Нет данных"
+        else:
+            gpt_emoji, gpt_label = "🟠", "Против"
         gpt_display = _extract_ai_short(ai_context, "GPT")
         if '\n' in gpt_display:
             ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}\n{gpt_display}")
@@ -839,8 +857,13 @@ def format_top_trader_alert(alert: Dict) -> str:
             ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
     
     if ai.get("grok_verdict") != "NONE":
-        grok_emoji = "🟢" if ai["grok_verdict"] == "COPY" else "🟠"
-        grok_label = "За" if ai["grok_verdict"] == "COPY" else "Против"
+        v = ai["grok_verdict"]
+        if v == "COPY":
+            grok_emoji, grok_label = "🟢", "За"
+        elif v == "NO_DATA":
+            grok_emoji, grok_label = "⚪", "Нет данных"
+        else:
+            grok_emoji, grok_label = "🟠", "Против"
         grok_display = _extract_ai_short(ai_context, "Grok")
         if '\n' in grok_display:
             ai_lines.append(f"{grok_emoji} Grok: {grok_label}\n{grok_display}")
@@ -997,36 +1020,48 @@ def format_institutional_alert(alert):
     consensus = ai.get("consensus", "NONE")
     gpt_v = ai.get("gpt_verdict", "NONE")
     grok_v = ai.get("grok_verdict", "NONE")
+    models_with_data = sum(1 for v in [gpt_v, grok_v] if v in ("COPY", "SKIP"))
     models_total = sum(1 for v in [gpt_v, grok_v] if v != "NONE")
     models_copy = sum(1 for v in [gpt_v, grok_v] if v == "COPY")
+    models_nodata = sum(1 for v in [gpt_v, grok_v] if v in ("NO_DATA", "UNCLEAR"))
     
-    if consensus == "COPY" and models_total >= 2:
-        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n{models_copy}/{models_total} моделей за, консенсус 100%"
-    elif consensus == "SKIP" and models_total >= 2:
-        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/{models_total} моделей за, консенсус 0%"
+    if consensus == "COPY" and models_with_data >= 2:
+        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n{models_copy}/{models_with_data} моделей за, консенсус 100%"
+    elif consensus == "SKIP" and models_with_data >= 2:
+        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/{models_with_data} моделей за, консенсус 0%"
     elif consensus == "SPLIT":
-        verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n{models_copy}/{models_total} моделей за, консенсус 50%"
-    elif models_total == 1:
-        if gpt_v == "COPY" or grok_v == "COPY":
+        verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n{models_copy}/{models_with_data} моделей за, консенсус 50%"
+    elif models_with_data == 1:
+        if models_copy == 1:
             verdict_line = f"🟡 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}\n1/1 модель за"
         else:
             verdict_line = f"🟠 ВЕРДИКТ AI: ПРОПУСТИТЬ\n0/1 модель за"
+    elif models_nodata >= 2:
+        verdict_line = f"⚪ ВЕРДИКТ AI: НЕТ ДАННЫХ\nОбе модели не нашли фактов"
     else:
         verdict_line = ""
     
     # AI opinions
     ai_lines = []
     if gpt_v != "NONE":
-        gpt_emoji = "🟢" if gpt_v == "COPY" else "🟠"
-        gpt_label = "За" if gpt_v == "COPY" else "Против"
+        if gpt_v == "COPY":
+            gpt_emoji, gpt_label = "🟢", "За"
+        elif gpt_v == "NO_DATA":
+            gpt_emoji, gpt_label = "⚪", "Нет данных"
+        else:
+            gpt_emoji, gpt_label = "🟠", "Против"
         gpt_display = _extract_ai_short(ai_context, "GPT")
         if '\n' in gpt_display:
             ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}\n{gpt_display}")
         else:
             ai_lines.append(f"{gpt_emoji} GPT: {gpt_label}. {gpt_display}")
     if grok_v != "NONE":
-        grok_emoji = "🟢" if grok_v == "COPY" else "🟠"
-        grok_label = "За" if grok_v == "COPY" else "Против"
+        if grok_v == "COPY":
+            grok_emoji, grok_label = "🟢", "За"
+        elif grok_v == "NO_DATA":
+            grok_emoji, grok_label = "⚪", "Нет данных"
+        else:
+            grok_emoji, grok_label = "🟠", "Против"
         grok_display = _extract_ai_short(ai_context, "Grok")
         if '\n' in grok_display:
             ai_lines.append(f"{grok_emoji} Grok: {grok_label}\n{grok_display}")

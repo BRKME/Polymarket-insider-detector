@@ -12,10 +12,13 @@ import trade_economics
 
 
 def extract_ai_verdict(ai_context: str) -> str:
-    """Extract COPY/SKIP verdict from AI response text."""
+    """Extract COPY/SKIP/NO_DATA verdict from AI response text."""
     if not ai_context:
         return "NONE"
     upper = ai_context.upper()
+    lower = ai_context.lower()
+    if "NO_DATA" in upper or "НЕТ ДАННЫХ" in upper or "данных нет" in lower:
+        return "NO_DATA"
     if "LEAN COPY" in upper:
         return "LEAN_COPY"
     elif "LEAN SKIP" in upper:
