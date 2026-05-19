@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xdbc5918b34ade3ff37dd3eba1d2d0b83e98cf8db8350f5b7d216db09c169472c",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3f975d4186c87b3b4a39997cc37e71cc70ca4059",
-      "side": "BUY",
-      "asset": "51561501851177237085104015162795355178563009242924296214051729651645864006212",
-      "conditionId": "0x445eba7653ea7e18d4a43e6b6ba0fdc578e9e7bac1a309c6cec82bbd4686984f",
-      "size": 5247.084,
-      "price": 0.42,
-      "timestamp": 1776607304,
-      "title": "Dota 2: Team Spirit vs Team Falcons - Game 2 Winner",
-      "slug": "dota2-ts8-flc-2026-04-19-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-ts8-flc-2026-04-19",
-      "outcome": "Team Spirit",
-      "outcomeIndex": 0,
-      "name": "adfhgasdfhadfhadseerrr",
-      "pseudonym": "Wide-Sprout",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xdbc5918b34ade3ff37dd3eba1d2d0b83e98cf8db8350f5b7d216db09c169472c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Team Spirit vs Team Falcons - Game 2 Winner",
-    "market_slug": "dota2-ts8-flc-2026-04-19",
-    "amount": 2203.77528,
-    "ai_context": "\u274c SKIP \u2014 Team Spirit's recent form and head-to-head record against Team Falcons do not support this bet.\nIn their most recent encounter on March 23, 2026, Team Falcons defeated Team Spirit 2-0 in the ESL One Group B stage. (liveesportss.com) Additionally, Team Spirit has struggled recently, losing four of their last five matches, including a 2-1 defeat to GamerLegion on April 9, 2026. (strafe.com) Given these factors, the facts contradict the bet on Team Spirit.",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:41:24.853907+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2203.78
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbf39bb48d1baae3f2b62fc3d36f4791fd0ef6be723c95e05d53952819d5fd6da",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29439,5 +29387,53 @@
       "model_correct": null,
       "pnl": 8059.57
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5a60b3855daf8f0dae2764b088f7acc5926d28f5e8efc6dd84d8fdd5f2939766",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1e33447f03ad92e650a05e403cd7d69cbe7fafb3",
+      "side": "BUY",
+      "asset": "50347022189666816732170670153760310741311693677694148949318096349721240723672",
+      "conditionId": "0x84fa6cafda62d7de8669a1f23ae4f6ad4481855ca2a11ebd97edbd4f69de8d74",
+      "size": 2330.917807,
+      "price": 0.729326445529188,
+      "timestamp": 1779191331,
+      "title": "Roland Garros, Qualification WTA: Julia Riera vs Laura Samson",
+      "slug": "wta-riera-samson-2026-05-19",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-riera-samson-2026-05-19",
+      "outcome": "Julia Riera",
+      "outcomeIndex": 0,
+      "name": "Lne89",
+      "pseudonym": "Feisty-Fight",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5a60b3855daf8f0dae2764b088f7acc5926d28f5e8efc6dd84d8fdd5f2939766",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros, Qualification WTA: Julia Riera vs Laura Samson",
+    "market_slug": "wta-riera-samson-2026-05-19",
+    "amount": 1699.9999989999997,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0420\u0438\u0435\u0440\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 4 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-1 \u043d\u0430\u0434 \u0411\u043b\u0438\u043d\u043a\u043e\u0432\u043e\u0439\n\u0421\u0430\u043c\u0441\u043e\u043d \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 2 \u0438\u0437 6 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 \u0411\u0430\u043d\u0434\u0435\u043a\u043a\u0438",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
