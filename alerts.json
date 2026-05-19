@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xbf39bb48d1baae3f2b62fc3d36f4791fd0ef6be723c95e05d53952819d5fd6da",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdee9a2891310eacffd6be33b6a4bc40eaee2c110",
-      "side": "SELL",
-      "asset": "27920002996973199228327240346473823413267163615922276963563002657649183923755",
-      "conditionId": "0x5789957af6a44b02ffa274babda7d09068cb95b337223179582a6b07e27a5281",
-      "size": 3399.22,
-      "price": 0.7138167873806344,
-      "timestamp": 1776609106,
-      "title": "Barcelona Open: Andrey Rublev vs Arthur Fils",
-      "slug": "atp-rublev-fils-2026-04-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-rublev-fils-2026-04-19",
-      "outcome": "Arthur Fils",
-      "outcomeIndex": 1,
-      "name": "GRANOTA",
-      "pseudonym": "Valuable-Automaton",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbf39bb48d1baae3f2b62fc3d36f4791fd0ef6be723c95e05d53952819d5fd6da",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Barcelona Open: Andrey Rublev vs Arthur Fils",
-    "market_slug": "atp-rublev-fils-2026-04-19",
-    "amount": 2426.4202999999998,
-    "ai_context": "\u274c SKIP \u2014 Arthur Fils has shown strong form recently, but Andrey Rublev has a superior head-to-head record and has been in good form this season.\nIn their two previous encounters, Rublev leads 1-0 on hard court, while Fils leads 1-0 on clay. (barcelonaopenbancsabadell.com) Rublev has reached the final of the 2026 Barcelona Open, defeating Hamad Medjedovic 3-6, 6-2, 6-2 in the semifinals. (cadenaser.com) Fils has also been impressive, defeating Lorenzo Musetti 6-3, 6-4 in the quarterfinals.",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:41:26.186531+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2426.42
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4d306b71ffaa9e305ed04c28a175050504362bffb2fe066a17df92cf2abad91d",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29435,5 +29383,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd33d51ed5d45aff6c0f7f6523fa2e110306f573bc0df9581caa99fba3fc555e5",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 21,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.03433801,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf5d96a83daf9520230ae2edc5f997671fc629e0e",
+      "side": "BUY",
+      "asset": "53764073716929483014362869302359909304022760801531739616949268488159765874554",
+      "conditionId": "0x135d3d5827381f2ade26f780f524d62de9c12fc8ab8ca703172b5ca951d83551",
+      "size": 2902.86,
+      "price": 0.57,
+      "timestamp": 1779224439,
+      "title": "Hamburg European Open: Tommy Paul vs Tomas Etcheverry",
+      "slug": "atp-paul-etcheve-2026-05-20",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-paul-etcheve-2026-05-20",
+      "outcome": "Tommy Paul",
+      "outcomeIndex": 0,
+      "name": "FHCHL",
+      "pseudonym": "Dirty-Dill",
+      "bio": "dollar at a time",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd33d51ed5d45aff6c0f7f6523fa2e110306f573bc0df9581caa99fba3fc555e5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Hamburg European Open: Tommy Paul vs Tomas Etcheverry",
+    "market_slug": "atp-paul-etcheve-2026-05-20",
+    "amount": 1654.6301999999998,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0422\u043e\u043c\u043c\u0438 \u041f\u043e\u043b \u0432\u044b\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 6-3, 6-2 \u043d\u0430\u0434 \u0422\u043e\u043c\u0430\u0441\u043e\u043c \u042d\u0442\u0447\u0435\u0432\u0435\u0440\u0440\u0438 24 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430 \u0432 \u041c\u0430\u0439\u0430\u043c\u0438 (championat.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
   }
 ]
