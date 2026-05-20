@@ -595,7 +595,8 @@ def _parse_dual_ai(ai_context: str) -> dict:
     def _clean_verdict_prefix(t):
         for prefix in ["✅ COPY —", "✅ COPY—", "✅ COPY -", "❌ SKIP —", "❌ SKIP—", 
                         "❌ SKIP -", "🟡 LEAN COPY —", "🟡 LEAN SKIP —",
-                        "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+                        "✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP",
+                        "NO_DATA —", "NO_DATA—", "NO_DATA"]:
             if t.startswith(prefix):
                 return t[len(prefix):].strip()
         return t
@@ -651,8 +652,8 @@ def _extract_ai_short(ai_context: str, model: str) -> str:
             if next_idx > 0:
                 text = text[:next_idx].strip()
     
-    # Remove verdict prefix (✅ COPY / ❌ SKIP)
-    for prefix in ["✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP"]:
+    # Remove verdict prefix (✅ COPY / ❌ SKIP / NO_DATA)
+    for prefix in ["✅ COPY", "❌ SKIP", "🟡 LEAN COPY", "🟡 LEAN SKIP", "NO_DATA"]:
         if text.startswith(prefix):
             text = text[len(prefix):].strip()
             if text.startswith("—") or text.startswith("-"):
