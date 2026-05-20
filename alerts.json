@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc2c53088a39d9cc6e3ac0919bde775c4234c856946523d16d395bee5da3a07a3",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdcfe226446603f6a998e9a4679a837166f1644b5",
-      "side": "BUY",
-      "asset": "89144856792027055013069866655268879244970151273087155300074137907136304795959",
-      "conditionId": "0xe41a4bfecb31b79546ec2614500fd8153a4be16a86f6c2693c18e1ac73560743",
-      "size": 1270.2823,
-      "price": 0.8,
-      "timestamp": 1776621412,
-      "title": "LoL: Team Heretics vs Movistar KOI - Game 2 Winner",
-      "slug": "lol-th-mkoi-2026-04-19-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-th-mkoi-2026-04-19",
-      "outcome": "Movistar KOI",
-      "outcomeIndex": 1,
-      "name": "TheGoldenDeer",
-      "pseudonym": "Common-Fat",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3410761-286fa8cf-1c9c-43b7-986f-e9cba37fe29a.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc2c53088a39d9cc6e3ac0919bde775c4234c856946523d16d395bee5da3a07a3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Team Heretics vs Movistar KOI - Game 2 Winner",
-    "market_slug": "lol-th-mkoi-2026-04-19",
-    "amount": 1016.2258400000001,
-    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and current form do not support Movistar KOI's strong performance.\nTeam Heretics has a 5-0 head-to-head record against Movistar KOI, including a 1-0 victory on February 2, 2026. (strafe.com) Additionally, Team Heretics has shown improvement with a 3-2 record in their last five matches, while Movistar KOI has a 2-3 record in their last five matches. (bo3.gg) Given these factors, the bet on Movistar KOI is not supported by the available data.",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:41:28.801404+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1016.23
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4d3c245cb755d67fdc5ff58814e6f0e16cd672ef62ac377deaa58c466d64faf4",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29489,5 +29437,53 @@
     "ai_model": "GPT",
     "ai_consensus": "SKIP",
     "resolution_last_check": "2026-05-20T08:54:16.347370+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x186c162edcb3116ae5da69249dca8273edb024ce61b144ae6997a3cba56bc917",
+    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+    "trader": {
+      "rank": 19,
+      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
+      "username": "432614799197",
+      "profit": 4526176.046413317,
+      "volume": 185485956.8620829,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
+      "side": "BUY",
+      "asset": "67727951680998582397607862929758963206119004878820077755188110864724397085348",
+      "conditionId": "0x2a760ba7515a7ba6530af7f53cef31a5c6c1e69c66aa980385e00229dd6a4a9f",
+      "size": 16949.152541,
+      "price": 0.58999999998879,
+      "timestamp": 1779285166,
+      "title": "Dota 2: BetBoom Team vs Vici Gaming - Game 1 Winner",
+      "slug": "dota2-bb4-vg-2026-05-20-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-bb4-vg-2026-05-20",
+      "outcome": "BetBoom Team",
+      "outcomeIndex": 0,
+      "name": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
+      "pseudonym": "Happy-Go-Lucky-Nestling",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x186c162edcb3116ae5da69249dca8273edb024ce61b144ae6997a3cba56bc917",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: BetBoom Team vs Vici Gaming - Game 1 Winner",
+    "market_slug": "dota2-bb4-vg-2026-05-20",
+    "amount": 9999.999999,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nBetBoom Team \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439\nVici Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 1 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439\nH2H: \u043f\u0435\u0440\u0432\u0430\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u043c\u0435\u0436\u0434\u0443 BetBoom Team \u0438 Vici Gaming",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
