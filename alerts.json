@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x4d3c245cb755d67fdc5ff58814e6f0e16cd672ef62ac377deaa58c466d64faf4",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x87da2f16cf98af9b3e2f6ba6d9c4c470815b53d1",
-      "side": "BUY",
-      "asset": "69453672629985516084162720709600354507948244650773439672889640826476901331120",
-      "conditionId": "0xce86fa7b0e7ffb71f5a7fa8eabe614011e3923254301fc6bb959b09dca44828e",
-      "size": 6442.0508500000005,
-      "price": 0.31,
-      "timestamp": 1776622914,
-      "title": "Counter-Strike: Spirit vs Vitality - Map 2 Winner",
-      "slug": "cs2-ts7-vit-2026-04-19-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-ts7-vit-2026-04-19",
-      "outcome": "Spirit",
-      "outcomeIndex": 0,
-      "name": "Comebackbot",
-      "pseudonym": "Hefty-Tentacle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4d3c245cb755d67fdc5ff58814e6f0e16cd672ef62ac377deaa58c466d64faf4",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: Spirit vs Vitality - Map 2 Winner",
-    "market_slug": "cs2-ts7-vit-2026-04-19",
-    "amount": 1997.0357635000003,
-    "ai_context": "\u274c SKIP \u2014 Vitality has consistently dominated Spirit in recent matchups, including two 3-0 victories in Best of 5 finals since 2025. (win.gg) Additionally, Vitality has won all four head-to-head clashes in 2025, with the latest match requiring three maps. (legalsportsbetting.com) Given this track record, betting on Spirit at 31% odds is not supported by recent performance data.",
-    "resolution": {
-      "outcome": "Vitality",
-      "checked_at": "2026-04-26T07:41:29.957543+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1997.04
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x9ba82d513d4584de86d6b26a5e4a21c89033dc38cc759a0f45ddaf48628cc90c",
     "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
     "trader": {
@@ -29485,5 +29433,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x16302b7c9b555a893dce7509513b6db37306ea32dbe00a5b0c5bbe60e35059aa",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 12532756.699562678,
+      "volume": 290438295.115538,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+      "side": "BUY",
+      "asset": "38874079348062977973369252380900791119629840121233254992399350290110684318856",
+      "conditionId": "0x4ce89f87fa4c39282f6a9b10d6d3bc52954a4d528994a4f7f715f352be2fb82a",
+      "size": 66666,
+      "price": 0.53,
+      "timestamp": 1779295395,
+      "title": "Spread: Thunder (-6.5)",
+      "slug": "nba-sas-okc-2026-05-20-spread-home-6pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-okc-2026-05-20",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+      "pseudonym": "Wordy-Littleneck",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x16302b7c9b555a893dce7509513b6db37306ea32dbe00a5b0c5bbe60e35059aa",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Thunder (-6.5)",
+    "market_slug": "nba-sas-okc-2026-05-20",
+    "amount": 35332.98,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Thunder \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u043c\u0430\u0442\u0447 \u0438 \u0441\u043e\u043f\u0435\u0440\u043d\u0438\u043a \u043d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u044b",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Dual",
+    "ai_consensus": "NO_DATA"
   }
 ]
