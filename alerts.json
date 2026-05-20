@@ -1,24 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x77bc9c2360be35cf5fb4274ae5ffb4cb898e61c06490dc0f8607af5f2162add2",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 171363.0,
-    "total_volume": 171363.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 9,
-    "trade_count": 9,
-    "max_single_trade": 170982.0,
-    "yes_price": 0.535,
-    "strength": 94,
-    "timestamp": "2026-04-19T16:41:22.548863",
-    "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire from April 11 to 12, 2026, collapsed rapidly, with both sides accusing each other of violations, including drone attacks. This brief truce underscores the deep-seated distrust and ongoing hostilities between Russia and Ukraine. Prediction markets reflect this skepticism, assigning only a 1.",
-    "resolution_last_check": "2026-04-26T07:41:27.569098+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xc2c53088a39d9cc6e3ac0919bde775c4234c856946523d16d395bee5da3a07a3",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
@@ -29423,5 +29404,53 @@
     "market": "Cavaliers vs. Knicks: O/U 217.5",
     "market_slug": "nba-cle-nyk-2026-05-19",
     "amount": 816.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa6b99604509fc62981de55c45243950a9fe5fa5b40561d229dfdba0445d435b6",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9771bbd2a6226a2213a283649e3bc04bc8945a0a",
+      "side": "BUY",
+      "asset": "24483563228660028121020430722896740519524131851526579619586176931221901842798",
+      "conditionId": "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d",
+      "size": 5329.984106,
+      "price": 0.5534725695859326,
+      "timestamp": 1779235874,
+      "title": "2026 Balance of Power: D Senate, D House",
+      "slug": "2026-balance-of-power-d-senate-d-house-949",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/balance-of-power-2024-election-r-Fp-y4ONJBS.jpg",
+      "eventSlug": "balance-of-power-2026-midterms",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x9771bbD2A6226A2213a283649E3bC04bc8945a0A-1764589379691",
+      "pseudonym": "Flaky-Machine",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4336174-318fb55c-f90c-4e9c-8522-ed1e662546c2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa6b99604509fc62981de55c45243950a9fe5fa5b40561d229dfdba0445d435b6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "2026 Balance of Power: D Senate, D House",
+    "market_slug": "balance-of-power-2026-midterms",
+    "amount": 2379.984107,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u044b \u043e\u043f\u0435\u0440\u0435\u0436\u0430\u044e\u0442 \u0440\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u043d\u0446\u0435\u0432 \u043d\u0430 5,7% \u0432 \u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u043f\u043e \u043e\u0431\u0449\u0435\u043c\u0443 \u0431\u0430\u043b\u043b\u043e\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e. (uspollingdata.com)\n\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u044b \u0438\u043c\u0435\u044e\u0442 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u0432 5% \u0432 \u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u043f\u043e \u043e\u0431\u0449\u0435\u043c\u0443 \u0431\u0430\u043b\u043b\u043e\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e. (democracy.psu.edu)",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
