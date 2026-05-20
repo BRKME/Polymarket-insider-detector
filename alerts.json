@@ -1,52 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x9ba82d513d4584de86d6b26a5e4a21c89033dc38cc759a0f45ddaf48628cc90c",
-    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-    "trader": {
-      "rank": 14,
-      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
-      "username": "gmanas",
-      "profit": 4955880.748692177,
-      "volume": 529047708.505991,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7aaa8ed5a1f925ebc1ed7d761e14e188de330ce5",
-      "side": "BUY",
-      "asset": "31940783580344558651011323787577288681658737625185216525249046282994042503801",
-      "conditionId": "0x4f3421fb2daf5cca7430ed8d8132463963081572d75434393a1808fdb8829fe8",
-      "size": 1211,
-      "price": 0.928,
-      "timestamp": 1776623516,
-      "title": "Will Portugal win the 2026 FIFA World Cup?",
-      "slug": "will-portugal-win-the-2026-fifa-world-cup-912",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-portugal-win-the-2026-fifa-world-cup-912-hBSLTDz-fryP.jpg",
-      "eventSlug": "2026-fifa-world-cup-winner-595",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "johan547bertha",
-      "pseudonym": "Steel-Current",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9ba82d513d4584de86d6b26a5e4a21c89033dc38cc759a0f45ddaf48628cc90c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Portugal win the 2026 FIFA World Cup?",
-    "market_slug": "2026-fifa-world-cup-winner-595",
-    "amount": 1123.808,
-    "ai_context": "\u274c SKIP \u2014 Portugal's strong qualification and recent performances suggest they are contenders for the 2026 World Cup.\nPortugal secured their spot in the 2026 World Cup by topping UEFA Group F, finishing with 13 points from 8 matches, including a decisive 9-1 victory over Armenia on November 16, 2025. (fifa.com) In their most recent friendly match on April 1, 2026, they defeated the USA 2-0, with Bruno Fernandes contributing two assists. (sports.ndtv.",
-    "resolution_last_check": "2026-04-26T07:41:31.018242+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbfe367199ce048f3a84a103e52c58735dcce49688571081aec509f483d61ee88",
     "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
     "trader": {
@@ -29481,5 +29435,53 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "Dual",
     "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb026a5b09c6c808fd4d68128183511a9cfe80111e968fc83412fdf532c5475ff",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x04f661add03f080541db83c0f72eb28c8351f24a",
+      "side": "BUY",
+      "asset": "61316079018729389955329746501821567086240685241033260808997660683535215112987",
+      "conditionId": "0x8c7dbb556c650ad0012c797ca7da6dd416e2c1989de25d7f1b07bb73bb352a12",
+      "size": 1437.999486,
+      "price": 0.3859528493600588,
+      "timestamp": 1779310739,
+      "title": "Dota 2: Team Liquid vs Xtreme Gaming (BO3) - DreamLeague Playoffs",
+      "slug": "dota2-liquid-xtreme-2026-05-20",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-liquid-xtreme-2026-05-20",
+      "outcome": "Xtreme Gaming",
+      "outcomeIndex": 1,
+      "name": "bvrs",
+      "pseudonym": "Frizzy-Mall",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb026a5b09c6c808fd4d68128183511a9cfe80111e968fc83412fdf532c5475ff",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Team Liquid vs Xtreme Gaming (BO3) - DreamLeague Playoffs",
+    "market_slug": "dota2-liquid-xtreme-2026-05-20",
+    "amount": 882.9994869999999,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nXtreme Gaming \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2-0 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u043c\u0430\u0442\u0447\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 Team Liquid \u043d\u0430 PGL Wallachia Season 3 14 \u043c\u0430\u0440\u0442\u0430 2025 \u0433\u043e\u0434\u0430. (bo3.\n[Grok] \u2705 COPY\nXtreme Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 6 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 PSG.LGD \u0438 Aster\nH2h: Xtreme Gaming 3-1 \u043f\u0440\u043e\u0442\u0438\u0432 Liquid \u0432 BO3 \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 12 \u043c\u0435\u0441\u044f\u0446\u0435\u0432, \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 2-1",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
