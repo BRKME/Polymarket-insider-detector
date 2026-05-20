@@ -21296,7 +21296,14 @@
     "ai_context": "[GPT] \u274c SKIP \u2014 No recent evidence suggests Mother's Milk will die in Season 5.\nAs of May 14, 2026, \"The Boys\" Season 5 has aired seven episodes, with the eighth and final episode scheduled for May 20, 2026. In the most recent episode, Episode 7, Frenchie was killed by Homelander, but there is no indication that Mother's Milk is in immediate danger. (parade.com) Additionally, the origin of Mother's Milk's name was revealed in Episode 7, highlighting his significance to the team. (thedirect.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
-    "resolution_last_check": "2026-05-14T08:28:54.225212+00:00"
+    "resolution_last_check": "2026-05-14T08:28:54.225212+00:00",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-20T08:53:56.071556+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4.26
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28343,7 +28350,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT",
-    "resolution_last_check": "2026-05-19T08:59:23.868810+00:00"
+    "resolution_last_check": "2026-05-19T08:59:23.868810+00:00",
+    "resolution": {
+      "outcome": "Raphael Collignon",
+      "checked_at": "2026-05-20T08:54:06.213596+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 123.49
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -28719,7 +28733,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT",
-    "resolution_last_check": "2026-05-19T08:59:30.757678+00:00"
+    "resolution_last_check": "2026-05-19T08:59:30.757678+00:00",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-05-20T08:54:10.572038+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29311,7 +29332,14 @@
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0420\u0438\u0435\u0440\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 4 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-1 \u043d\u0430\u0434 \u0411\u043b\u0438\u043d\u043a\u043e\u0432\u043e\u0439\n\u0421\u0430\u043c\u0441\u043e\u043d \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 2 \u0438\u0437 6 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 \u0411\u0430\u043d\u0434\u0435\u043a\u043a\u0438",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-05-20T08:54:12.334808+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29359,7 +29387,8 @@
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0422\u043e\u043c\u043c\u0438 \u041f\u043e\u043b \u0432\u044b\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 6-3, 6-2 \u043d\u0430\u0434 \u0422\u043e\u043c\u0430\u0441\u043e\u043c \u042d\u0442\u0447\u0435\u0432\u0435\u0440\u0440\u0438 24 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430 \u0432 \u041c\u0430\u0439\u0430\u043c\u0438 (championat.",
     "ai_verdict": "COPY",
     "ai_model": "GPT",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-05-20T08:54:13.437425+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -29403,7 +29432,14 @@
     },
     "market": "Cavaliers vs. Knicks: O/U 217.5",
     "market_slug": "nba-cle-nyk-2026-05-19",
-    "amount": 816.0
+    "amount": 816.0,
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-05-20T08:54:14.761984+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29451,6 +29487,7 @@
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u044b \u043e\u043f\u0435\u0440\u0435\u0436\u0430\u044e\u0442 \u0440\u0435\u0441\u043f\u0443\u0431\u043b\u0438\u043a\u0430\u043d\u0446\u0435\u0432 \u043d\u0430 5,7% \u0432 \u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u043f\u043e \u043e\u0431\u0449\u0435\u043c\u0443 \u0431\u0430\u043b\u043b\u043e\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e. (uspollingdata.com)\n\u0414\u0435\u043c\u043e\u043a\u0440\u0430\u0442\u044b \u0438\u043c\u0435\u044e\u0442 \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u0432 5% \u0432 \u043e\u043f\u0440\u043e\u0441\u0430\u0445 \u043f\u043e \u043e\u0431\u0449\u0435\u043c\u0443 \u0431\u0430\u043b\u043b\u043e\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044e. (democracy.psu.edu)",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution_last_check": "2026-05-20T08:54:16.347370+00:00"
   }
 ]
