@@ -200,7 +200,7 @@ def generate_trade_context(
                 max_tokens=400,
             )
             gpt_text = _clean_ai_response(resp_gpt.choices[0].message.content.strip())
-            if gpt_text and len(gpt_text) >= 8 and "NO_DATA" not in gpt_text:
+            if gpt_text and len(gpt_text) >= 8:
                 results["GPT"] = gpt_text
         except Exception as e:
             logger.warning(f"  GPT failed: {e}")
@@ -218,10 +218,14 @@ def generate_trade_context(
                     max_tokens=400,
                 )
                 grok_text = _clean_ai_response(resp_grok.choices[0].message.content.strip())
-                if grok_text and len(grok_text) >= 8 and "NO_DATA" not in grok_text:
+                if grok_text and len(grok_text) >= 8:
                     results["Grok"] = grok_text
+                else:
+                    print(f"  ⚠️ Grok returned empty/NO_DATA: '{grok_text[:50] if grok_text else 'None'}'")
             except Exception as e:
-                logger.warning(f"  Grok failed: {e}")
+                print(f"  ❌ Grok API error: {e}")
+        else:
+            print(f"  ⚠️ XAI_API_KEY not set — Grok skipped")
         
         if not results:
             return None
