@@ -1,181 +1,5 @@
 [
   {
-    "market": "Trump announces end of military operations against Iran by April 21st?",
-    "market_slug": "trump-announces-end-of-military-operations-against-iran-by-april-21st",
-    "event_slug": "trump-announces-end-of-military-operations-against-iran-by-april-21st",
-    "wallet": "0x162f6fff88a52864f2ecc9833e58089d5254798d",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (9.0% effective odds)",
-        "Large bet ($1,158)",
-        "Pre-event latency: 1734m"
-      ],
-      "amount": 1157.9678999999999,
-      "odds": 0.09,
-      "raw_price": 0.09,
-      "outcome": "Yes",
-      "potential_pnl": 11708.3421,
-      "pnl_multiplier": 10.111111111111112,
-      "wallet_age_days": 80,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-19T19:12:24.462431",
-    "trade_hash": "0x02f1e3a904576035c9d3b116a45fc2026cf3036c5fe398972f3607b7713626f9",
-    "trade_timestamp": 1776625536,
-    "latency": {
-      "latency_seconds": 104064.0,
-      "latency_minutes": 1734.4,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-04-19T19:05:36+00:00",
-      "event_time": "2026-04-21T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.09,
-      "effective_price": 0.09,
-      "size": 12866.31,
-      "amount": 1157.9678999999999,
-      "potential_pnl": 11708.3421,
-      "pnl_multiplier": 10.111111111111112,
-      "is_no": false,
-      "conditionId": "0x1507c50c86fb307e4f1acd9d740b2be66d98773f90d161e94907d8ef2c5699b3",
-      "slug": "trump-announces-end-of-military-operations-against-iran-by-april-21st",
-      "eventSlug": "trump-announces-end-of-military-operations-against-iran-by"
-    },
-    "irrationality": {
-      "irrationality_score": 40,
-      "flags": [
-        "Longshot (9%) in high bias category (geopolitics)",
-        "Category structurally prone to longshot bias"
-      ],
-      "category": "geopolitics",
-      "category_info": {
-        "strength": "high",
-        "typical_overpricing": 0.05,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.041999999999999996,
-      "market_price": 0.09,
-      "edge": 0.048,
-      "edge_percent": 4.8,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Political pressure from Congress to reduce military involvement",
-          "Significant diplomatic negotiations leading to a ceasefire",
-          "Public support for ending military operations"
-        ],
-        "weakest_link": "Significant diplomatic negotiations leading to a ceasefire"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Shifts in U.S. foreign policy under the current administration",
-        "Increased domestic opposition to military engagements"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 85,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 85,
-      "insider_position": "YES",
-      "irrationality_score": 40,
-      "is_irrational": true,
-      "is_mispriced": false,
-      "edge": 0.048,
-      "edge_percent": 4.8
-    },
-    "financial_analyst": {
-      "signal_quality": 37.2,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 4.8,
-      "signal_strength": 85.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that military operations against Iran are ongoing, with no official announcement of their conclusion by April 21st.\nAs of April 19, 2026, President Trump has not publicly declared the end of military operations against Iran. The U.S. initiated military action on February 28, 2026, targeting Iranian assets. A two-week suspension of airstrikes was confirmed around April 8, amid signals of nearing completion.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:34.457172+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -1157.97
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5f7dc54a69416540ee8492867e53420bfc005a0f4a416da5c7e2a79b2827fd7a",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764627,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x73c5701afdefba2814193168448b2992306b2f80",
-      "side": "BUY",
-      "asset": "54137688483729496254431977962686656900587663012552110744254959141290742991093",
-      "conditionId": "0xc59b9d44282b40ca363edf955489956e5439433a44822d4f5c93f5fd1254c8ad",
-      "size": 2955,
-      "price": 0.5,
-      "timestamp": 1776625916,
-      "title": "Will Sporting CP win on 2026-04-19?",
-      "slug": "por-spo-ben-2026-04-19-spo",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/liga-portugal-18a39e1e8d.png",
-      "eventSlug": "por-spo-ben-2026-04-19",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "n.magas",
-      "pseudonym": "Bad-Documentation",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5f7dc54a69416540ee8492867e53420bfc005a0f4a416da5c7e2a79b2827fd7a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Sporting CP win on 2026-04-19?",
-    "market_slug": "por-spo-ben-2026-04-19",
-    "amount": 1477.5,
-    "ai_context": "\u274c SKIP \u2014 The trader's bet on Sporting CP not winning on April 19, 2026, is not supported by recent performance and head-to-head statistics.\nSporting CP has demonstrated strong form, winning 16 of their last 21 matches across all competitions, including notable victories over PSG and a dramatic comeback against Bodo/Glimt. (techradar.com) In their most recent league match on April 11, 2026, they secured a 1-0 away victory against Estrela. (espn.",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:41:35.826179+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1477.5
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x09408ee8a36a66c1469bcbc630aa00f5d1f6b2fb81b78046b5b127fd3f470122",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
@@ -29515,6 +29339,102 @@
     "market_slug": "mlb-nym-wsh-2026-05-21",
     "amount": 1380.9999990000001,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nNew York Mets \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f \u043e\u0442 Washington Nationals \u0432 \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u0435 2025 \u0433\u043e\u0434\u0430 (statmuse.\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 New York Mets \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 5-10 \u043c\u0430\u0442\u0447\u0435\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\nH2H \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u0438 \u0441\u0447\u0451\u0442\u044b \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0438\u0433\u0440 \u043c\u0435\u0436\u0434\u0443 Mets \u0438 Nationals \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0442",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Dual",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x69a6d6bc5e4fc7fedd274b068a21f71b37b042c19a2d78e4d33c379f7fbf1856",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523402998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdb2223cc5202a4718c3069f577ec971f71c96478",
+      "side": "BUY",
+      "asset": "111504427042804779606483646320887837748260216013039933186949087405095355642253",
+      "conditionId": "0x63907312aa1a5f793dcd0d2c695784f7b7f5d9143e3a53f54692d4f305a74171",
+      "size": 17356.33,
+      "price": 0.51,
+      "timestamp": 1779397397,
+      "title": "Will CS Independiente Rivadavia win on 2026-05-21?",
+      "slug": "lib-gua1-cir-2026-05-21-cir",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/lib.png",
+      "eventSlug": "lib-gua1-cir-2026-05-21",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "FTWUTB",
+      "pseudonym": "Mad-Luck",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x69a6d6bc5e4fc7fedd274b068a21f71b37b042c19a2d78e4d33c379f7fbf1856",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will CS Independiente Rivadavia win on 2026-05-21?",
+    "market_slug": "lib-gua1-cir-2026-05-21",
+    "amount": 8851.7283,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Dual",
+    "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4b3e83c6c77c41c391492802edb794ae3f9fbe550a2e1fe16df14813ed30f86a",
+    "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "trader": {
+      "rank": 23,
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "username": "surfandturf",
+      "profit": 3871378.033118435,
+      "volume": 45328685.507263996,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x58d12502283f7ef5c8cc99fe7988af5089cc7ab6",
+      "side": "BUY",
+      "asset": "75826716272008812160518744094114238410204536405413192859720899624396624817702",
+      "conditionId": "0x968618f83a7dc20ebf44112fb906339dd474215094f843032ff8f148992f496d",
+      "size": 3333.333332,
+      "price": 0.29999999982,
+      "timestamp": 1779397700,
+      "title": "Counter-Strike: MOUZ vs paiN (BO3) - CS Asia Championships Group A",
+      "slug": "cs2-mouz-pain-2026-05-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-mouz-pain-2026-05-22",
+      "outcome": "paiN",
+      "outcomeIndex": 1,
+      "name": "Crie",
+      "pseudonym": "Flawed-Parking",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-8160150-1b65b490-7d78-403b-a927-97ac46427720.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4b3e83c6c77c41c391492802edb794ae3f9fbe550a2e1fe16df14813ed30f86a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: MOUZ vs paiN (BO3) - CS Asia Championships Group A",
+    "market_slug": "cs2-mouz-pain-2026-05-22",
+    "amount": 2333.333333,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 paiN \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 3, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u043e\u0442 M80 \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 0-1 \u043d\u0430 Mirage 20 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (bo3.\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 paiN \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 5-10 \u043c\u0430\u0442\u0447\u0435\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\nH2H \u0438 \u0442\u0440\u0430\u0432\u043c\u044b \u043f\u043e \u044d\u0442\u043e\u043c\u0443 \u043c\u0430\u0442\u0447\u0443 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u044b",
     "ai_verdict": "NO_DATA",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
