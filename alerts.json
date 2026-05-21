@@ -28366,7 +28366,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT",
-    "resolution_last_check": "2026-05-19T08:59:27.863822+00:00"
+    "resolution_last_check": "2026-05-19T08:59:27.863822+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-21T08:56:59.926003+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29238,7 +29245,14 @@
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-05-20T08:54:13.437425+00:00"
+    "resolution_last_check": "2026-05-20T08:54:13.437425+00:00",
+    "resolution": {
+      "outcome": "Over 2.5",
+      "checked_at": "2026-05-21T08:57:02.103910+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1654.63
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29386,7 +29400,14 @@
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nBetBoom Team \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439\nVici Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 1 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439\nH2H: \u043f\u0435\u0440\u0432\u0430\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u043c\u0435\u0436\u0434\u0443 BetBoom Team \u0438 Vici Gaming",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-21T08:57:05.115600+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -10000.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29434,7 +29455,14 @@
     "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Thunder \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0439 \u043c\u0430\u0442\u0447 \u0438 \u0441\u043e\u043f\u0435\u0440\u043d\u0438\u043a \u043d\u0435 \u0443\u043a\u0430\u0437\u0430\u043d\u044b",
     "ai_verdict": "NO_DATA",
     "ai_model": "Dual",
-    "ai_consensus": "NO_DATA"
+    "ai_consensus": "NO_DATA",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-21T08:57:06.461298+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29482,6 +29510,13 @@
     "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\nXtreme Gaming \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2-0 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u043c\u0430\u0442\u0447\u0435 \u043f\u0440\u043e\u0442\u0438\u0432 Team Liquid \u043d\u0430 PGL Wallachia Season 3 14 \u043c\u0430\u0440\u0442\u0430 2025 \u0433\u043e\u0434\u0430. (bo3.\n[Grok] \u2705 COPY\nXtreme Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 6 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 PSG.LGD \u0438 Aster\nH2h: Xtreme Gaming 3-1 \u043f\u0440\u043e\u0442\u0438\u0432 Liquid \u0432 BO3 \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 12 \u043c\u0435\u0441\u044f\u0446\u0435\u0432, \u0441\u0440\u0435\u0434\u043d\u0438\u0439 \u0441\u0447\u0451\u0442 2-1",
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
-    "ai_consensus": "SPLIT"
+    "ai_consensus": "SPLIT",
+    "resolution": {
+      "outcome": "Team Liquid",
+      "checked_at": "2026-05-21T08:57:07.818251+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -883.0
+    }
   }
 ]
