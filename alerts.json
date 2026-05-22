@@ -1,24 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x45b6509d2504a671940c7c9967e56122bb30a4823b7d06bdad03d4f5a1021ea8",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 81884.0,
-    "total_volume": 81884.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 18,
-    "trade_count": 21,
-    "max_single_trade": 81168.0,
-    "yes_price": 0.535,
-    "strength": 76,
-    "timestamp": "2026-04-20T22:48:24.837112",
-    "ai_context": "\u274c SKIP \u2014 The trader's bet on a Russia-Ukraine ceasefire before the release of GTA VI is unsupported by current developments.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, highlighting deep-seated distrust. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
-    "resolution_last_check": "2026-04-26T07:41:48.843142+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x7f5957a98a0a0e4cfb53941df2079a93225f2d5b98c757a6c16d693a13509134",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
@@ -29403,5 +29384,53 @@
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x500d546506577b3f717a64cfc949aa5bd0de83d8be0e2f6f2b32fbfeee0c85b5",
+    "wallet": "0x94a428cfa4f84b264e01f70d93d02bc96cb36356",
+    "trader": {
+      "rank": 30,
+      "address": "0x94a428cfa4f84b264e01f70d93d02bc96cb36356",
+      "username": "GCottrell93",
+      "profit": 3420780.826231599,
+      "volume": 18003497.34815295,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfd4f10044b2bee7119f7e019120924ab1b176a22",
+      "side": "BUY",
+      "asset": "32605480710229459496814068809521535528500860730244041769252795555668751623653",
+      "conditionId": "0x85980a4d08e4cf7911782b632108d17b124171c1e1610cf7861e260c6daf3538",
+      "size": 12620.609,
+      "price": 0.07952706561149307,
+      "timestamp": 1779487366,
+      "title": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
+      "slug": "will-rebecca-shepherd-win-the-2026-makerfield-by-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/makerfield-by-election-winner-1ceiGHP2i4dn.jpg",
+      "eventSlug": "makerfield-by-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "donanon",
+      "pseudonym": "Hurtful-Skullduggery",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x500d546506577b3f717a64cfc949aa5bd0de83d8be0e2f6f2b32fbfeee0c85b5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Rebecca Shepherd win the 2026 Makerfield by-election?",
+    "market_slug": "makerfield-by-election-winner",
+    "amount": 1003.68,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u0420\u0435\u0431\u0435\u043a\u043a\u0438 \u0428\u0435\u043f\u0435\u0440\u0434 \u043d\u0435\u0442\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043e\u043f\u0440\u043e\u0441\u044b \u0438 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u043d\u0435 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0435\u0451 \u0448\u0430\u043d\u0441\u0430\u0445 \u043d\u0430 \u043f\u043e\u0431\u0435\u0434\u0443",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
   }
 ]
