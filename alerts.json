@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xbce19f45cc5f41899c05163075ca108b1ba264f7d3b3059c2b09e607f7795e37",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x602785cdf56a03221130d3d42a577ac6cf444320",
-      "side": "BUY",
-      "asset": "36360778859582936457992180914344060943891630808101475617748695120796794052033",
-      "conditionId": "0x35ef824e54f36f5ca1677f3b42b3e584d2b787dca85c0899508d470217055143",
-      "size": 4635.504620000001,
-      "price": 0.53,
-      "timestamp": 1776647232,
-      "title": "Detroit Tigers vs. Boston Red Sox: O/U 8.5",
-      "slug": "mlb-det-bos-2026-04-20-total-8pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-det-bos-2026-04-20",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "lpcapital1",
-      "pseudonym": "Willing-Malnutrition",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbce19f45cc5f41899c05163075ca108b1ba264f7d3b3059c2b09e607f7795e37",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Detroit Tigers vs. Boston Red Sox: O/U 8.5",
-    "market_slug": "mlb-det-bos-2026-04-20",
-    "amount": 2456.8174486000003,
-    "ai_context": "\u274c SKIP \u2014 Recent games indicate a trend toward higher-scoring outcomes.\nIn the past three games between the Detroit Tigers and the Boston Red Sox, the scores were 1-0, 4-1, and 6-2, all favoring the Tigers. The upcoming game features starting pitchers Jack Flaherty (0-1, 5.14 ERA) and Sonny Gray (2-1, 4.43 ERA), both with ERAs above 4.00, suggesting potential for more runs.",
-    "resolution": {
-      "outcome": "Boston Red Sox",
-      "checked_at": "2026-04-26T07:41:39.603129+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa9dd61357b490078238e5a309523c6e0ccf68b9763a38a716a37a455951c0a8b",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29427,5 +29375,53 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "Dual",
     "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8fe9945f806808f771453a53d3077713a20caa8f0c685b2b24d024e2ba0e56ef",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 18,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4608869.649835953,
+      "volume": 60691642.73565601,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xed446954680979932092e970b443e6ae61e34f76",
+      "side": "SELL",
+      "asset": "15544952524572663071093529603030327904389336605241910507473040770943079224762",
+      "conditionId": "0x2f5530ae5de3d6f659a9175053ad87b07b862c1269b422b7ee9040f377e97c82",
+      "size": 3224.12,
+      "price": 0.41,
+      "timestamp": 1779425049,
+      "title": "Counter-Strike: MIBR vs B8 (BO3) - CS Asia Championships Group B",
+      "slug": "cs2-mibr-b8-2026-05-21",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
+      "eventSlug": "cs2-mibr-b8-2026-05-21",
+      "outcome": "MIBR",
+      "outcomeIndex": 0,
+      "name": "iii252",
+      "pseudonym": "Cumbersome-Skirt",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8fe9945f806808f771453a53d3077713a20caa8f0c685b2b24d024e2ba0e56ef",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Counter-Strike: MIBR vs B8 (BO3) - CS Asia Championships Group B",
+    "market_slug": "cs2-mibr-b8-2026-05-21",
+    "amount": 1321.8891999999998,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u2705 COPY\nMIBR \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 EYEBALLERS \u0438 Legacy\nMIBR \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 3DMAX \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u043c\u0430\u0442\u0447\u0435\n[Grok] \u274c SKIP\nMIBR \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 5 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 8 \u043c\u0430\u0442\u0447\u0435\u0439 \u043d\u0430 LAN-\u0442\u0443\u0440\u043d\u0438\u0440\u0430\u0445\nB8 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 BO3 \u043f\u0440\u043e\u0442\u0438\u0432 \u043a\u043e\u043c\u0430\u043d\u0434 \u0438\u0437 \u042e\u0436\u043d\u043e\u0439 \u0410\u043c\u0435\u0440\u0438\u043a\u0438",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
