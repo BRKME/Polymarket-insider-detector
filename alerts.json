@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7f3a2e1a7da618427fc6b856312e8cd7e686388e923a005dcec78e0d73b26845",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 8,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 6150971.772435201,
-      "volume": 677042281.3743856,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf3b9f432bf4d7599d3fb3dc59845894786aa27d0",
-      "side": "BUY",
-      "asset": "16735391771285941445401615956052324743124272348274952820359859379638645997506",
-      "conditionId": "0xceb6dfaa2cf5abc9d47ebc867b984a7715104944249274e8a483a2e17473e5f5",
-      "size": 3799.969458,
-      "price": 0.7368480270559059,
-      "timestamp": 1776789812,
-      "title": "US x Iran permanent peace deal by April 30, 2026?",
-      "slug": "us-x-iran-permanent-peace-deal-by-april-30-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
-      "eventSlug": "us-x-iran-permanent-peace-deal-by",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "DataRules",
-      "pseudonym": "Lovable-Item",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3219500-27fd6437-0435-4c39-bb09-3bf15787196d.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7f3a2e1a7da618427fc6b856312e8cd7e686388e923a005dcec78e0d73b26845",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran permanent peace deal by April 30, 2026?",
-    "market_slug": "us-x-iran-permanent-peace-deal-by",
-    "amount": 2799.9999980000002,
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that a permanent peace deal between the U.S. and Iran by April 30, 2026, is unlikely.\nAs of April 21, 2026, the ceasefire between the U.S. and Iran is nearing its expiration, with no meeting between the parties having occurred yet. President Trump has claimed that a peace deal would be signed imminently in Islamabad, with Vice President Vance en route, but tensions remain high, and no agreement has been reached.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:52.627581+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 999.97
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1ed8efcb99d91bd44946d11af0f7c83f284e7768d0111bb8de2f26ecc6991317",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -29493,6 +29441,54 @@
     "market_slug": "wnba-dal-atl-2026-05-22",
     "amount": 864.0,
     "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Under \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x12af88e281e80f83c0e0112310d30c216c1820b111ad76b80d4c5869401afa4e",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 17,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "SELL",
+      "asset": "79404518383067636250699207593267125176497465053726445593163048268632472529865",
+      "conditionId": "0xb199b50c41036d63dbf69a754810f580daf37cfdcaa0ff16c9f7d9e8c2f6eb24",
+      "size": 2977,
+      "price": 0.43,
+      "timestamp": 1779493983,
+      "title": "Thunder vs. Spurs",
+      "slug": "nba-okc-sas-2026-05-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-sas-2026-05-22",
+      "outcome": "Thunder",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x12af88e281e80f83c0e0112310d30c216c1820b111ad76b80d4c5869401afa4e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Spurs",
+    "market_slug": "nba-okc-sas-2026-05-22",
+    "amount": 1280.11,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] \u274c SKIP\nThunder \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 Spurs, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 110-130 23 \u0434\u0435\u043a\u0430\u0431\u0440\u044f 2025 \u0433\u043e\u0434\u0430 (cbssports.com)\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b Thunder \u0437\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 5-10 \u043c\u0430\u0442\u0447\u0435\u0439 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e",
     "ai_verdict": "NO_DATA",
     "ai_model": "GPT",
     "ai_consensus": "NO_DATA"
