@@ -1,180 +1,5 @@
 [
   {
-    "market": "Will Aston Villa FC win on 2026-04-25?",
-    "market_slug": "epl-ful-ast-2026-04-25-ast",
-    "event_slug": "epl-ful-ast-2026-04-25-ast",
-    "wallet": "0x2a91d128f5dc0b0f3e095e2c63c7ccd4ef91c6b1",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "Recent wallet (13d old)",
-        "Large bet ($1,069)",
-        "Pre-event latency: 6197m"
-      ],
-      "amount": 1069.3835027999999,
-      "odds": 0.36,
-      "raw_price": 0.36,
-      "outcome": "Yes",
-      "potential_pnl": 1901.1262272,
-      "pnl_multiplier": 1.777777777777778,
-      "wallet_age_days": 13,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-20T16:47:25.728436",
-    "trade_hash": "0x077db0551bda744dc4b20421a66ec9b3cef28cf8d7f502f4492c5261ba478d45",
-    "trade_timestamp": 1776703364,
-    "latency": {
-      "latency_seconds": 371836.0,
-      "latency_minutes": 6197.266666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-04-20T16:42:44+00:00",
-      "event_time": "2026-04-25T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.36,
-      "effective_price": 0.36,
-      "size": 2970.5097299999998,
-      "amount": 1069.3835027999999,
-      "potential_pnl": 1901.1262272,
-      "pnl_multiplier": 1.777777777777778,
-      "is_no": false,
-      "conditionId": "0x69be0b5f106e1a4712cef705c73d94d73ae11570fb2cd4fe7979bf2a40e8f0c1",
-      "slug": "epl-ful-ast-2026-04-25-ast",
-      "eventSlug": "epl-ful-ast-2026-04-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+22.8%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.132,
-      "market_price": 0.36,
-      "edge": 0.22799999999999998,
-      "edge_percent": 22.799999999999997,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Aston Villa's current form leading up to the match",
-          "Injury status of key players",
-          "Performance of the opposing team on that date"
-        ],
-        "weakest_link": "Injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends",
-        "Fan sentiment and support"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.22799999999999998,
-      "edge_percent": 22.799999999999997
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 22.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Recent form and injuries suggest Aston Villa may struggle against Fulham.\nAston Villa has been inconsistent recently, with a 1-1 draw against Nottingham Forest on April 12 and a 3-1 loss to Bologna on April 9. Additionally, key midfielders John McGinn, Youri Tielemans, and Boubacar Kamara have been sidelined due to injuries. Fulham, on the other hand, has been performing well, currently sitting 7th in the Premier League with 45 points.",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:41:44.205404+00:00",
-      "insider_win": true,
-      "model_correct": false,
-      "pnl": 1901.13
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb1b795acf44740931aff08666bbc31c4aa41eebf5019f7c41fae85d2a46b25cd",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "side": "BUY",
-      "asset": "83290657081690107322851115647468292626987529747655743349306928357452379205359",
-      "conditionId": "0xb6121a8d389333726ee7d7754994f7d1fb7d87300d708eefbd650262c4f44e62",
-      "size": 8272.3725,
-      "price": 0.7,
-      "timestamp": 1776703658,
-      "title": "Madrid Open, Qualification: Henrique Rocha vs Jan Choinski",
-      "slug": "atp-rocha-choinsk-2026-04-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-rocha-choinsk-2026-04-20",
-      "outcome": "Henrique Rocha",
-      "outcomeIndex": 0,
-      "name": "RN1",
-      "pseudonym": "Scary-Edible",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb1b795acf44740931aff08666bbc31c4aa41eebf5019f7c41fae85d2a46b25cd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open, Qualification: Henrique Rocha vs Jan Choinski",
-    "market_slug": "atp-rocha-choinsk-2026-04-20",
-    "amount": 5790.660749999999,
-    "ai_context": "\u274c SKIP \u2014 The facts do not support the bet on Henrique Rocha.\nHenrique Rocha has a 60.3% win rate over the past 52 weeks, with a 6-4 record in his last 10 matches. Jan Choinski has a 59.4% win rate over the past 52 weeks, with a 4-6 record in his last 10 matches. In their most recent encounter in September 2025, Rocha defeated Choinski 6-1, 6-4 on clay. (tennisratio.",
-    "resolution": {
-      "outcome": "Over 2.5",
-      "checked_at": "2026-04-26T07:41:45.588338+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -5790.66
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x8876cf6c65bbe890a9bb20d72a2c3621a7e2cde313eae2024f62d37e99e2f80b",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
@@ -29479,5 +29304,101 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "Dual",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5ef62cba5360db00f685456264a8dfa7071605586647f968b79a3312a51e6514",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf67d0dccef8351968f3d298ee3681b505ebfc986",
+      "side": "BUY",
+      "asset": "21330085840854629653734533157372593703188175405331724344683273714714588299631",
+      "conditionId": "0xd10771db6e01bb132dafafca7d76920bcd5c689e526e242772c808e3a34ff50a",
+      "size": 2593.804679,
+      "price": 0.45801444056998714,
+      "timestamp": 1779456029,
+      "title": "Dota 2: Tundra Esports vs Xtreme Gaming (BO3) - DreamLeague Playoffs",
+      "slug": "dota2-tundra-xtreme-2026-05-22",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-tundra-xtreme-2026-05-22",
+      "outcome": "Xtreme Gaming",
+      "outcomeIndex": 1,
+      "name": "0xf67D0DcCef8351968f3d298eE3681B505EbfC986-1773334882103",
+      "pseudonym": "Warm-Chest",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5ef62cba5360db00f685456264a8dfa7071605586647f968b79a3312a51e6514",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Tundra Esports vs Xtreme Gaming (BO3) - DreamLeague Playoffs",
+    "market_slug": "dota2-tundra-xtreme-2026-05-22",
+    "amount": 1405.80468,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nXtreme Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 2 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u0440\u043e\u0442\u0438\u0432 Tundra Esports: 2-1 \u043d\u0430 PGL Wallachia S3 11 \u043c\u0430\u0440\u0442\u0430 2025 \u0433\u043e\u0434\u0430 (esports.ru) \u0438 2-0 \u043d\u0430 The International 2025 11 \u0441\u0435\u043d\u0442\u044f\u0431\u0440\u044f 2025 \u0433\u043e\u0434\u0430 (esports.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xaacfa8f61d9ae8cee9c01795e04bbf4e35c7bf2abbe237a3cbd16f32b01f897e",
+    "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "trader": {
+      "rank": 23,
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "username": "surfandturf",
+      "profit": 3788547.268342759,
+      "volume": 46611682.34348201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbb1f2e5808ef314eb65e340b42389716e32c907d",
+      "side": "SELL",
+      "asset": "35428732770316979266845984542877967790332023935693306294039545046023081753345",
+      "conditionId": "0x2bef40a1f62d045527228e699990d1bd1f97906b2458a6f3e4a0daf11124060c",
+      "size": 3433.42,
+      "price": 0.6397951605105114,
+      "timestamp": 1779456332,
+      "title": "US x Iran diplomatic meeting by May 31, 2026?",
+      "slug": "us-x-iran-diplomatic-meeting-by-may-31-2026-283-616",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
+      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "KRUNRG",
+      "pseudonym": "Apt-Trim",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xaacfa8f61d9ae8cee9c01795e04bbf4e35c7bf2abbe237a3cbd16f32b01f897e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran diplomatic meeting by May 31, 2026?",
+    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
+    "amount": 1236.7344999999998,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u043b\u0438\u0441\u044c \u043e \u0434\u0432\u0443\u0445\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u043e\u043c \u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0438 \u043e\u0433\u043d\u044f, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0431\u044b\u043b\u043e \u043f\u0440\u043e\u0434\u043b\u0435\u043d\u043e \u0434\u043e \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432. (cbsnews.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
