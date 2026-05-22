@@ -1,58 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8876cf6c65bbe890a9bb20d72a2c3621a7e2cde313eae2024f62d37e99e2f80b",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb4f2592e67c333e73c923547cfe05e768180e5fa",
-      "side": "BUY",
-      "asset": "84582313335492225037882788013498040721657815470535256827405672153879869687298",
-      "conditionId": "0xcd26bdb63b81dfcc5482c42e9372c8a46091b1de1123d2afefb83df83fe859fd",
-      "size": 1938.449437,
-      "price": 0.8899999995202351,
-      "timestamp": 1776703658,
-      "title": "Bab el-Mandeb Strait effectively closed by April 30?",
-      "slug": "bab-el-mandeb-strait-effectively-closed-by-april-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/bab-el-mandeb-strait-effectively-closed-by-end-of-april-Y8A7Ig2p8X2K.jpg",
-      "eventSlug": "bab-el-mandeb-strait-effectively-closed-by",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "M2sx92kljs42",
-      "pseudonym": "Smoggy-Sunglasses",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8876cf6c65bbe890a9bb20d72a2c3621a7e2cde313eae2024f62d37e99e2f80b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Bab el-Mandeb Strait effectively closed by April 30?",
-    "market_slug": "bab-el-mandeb-strait-effectively-closed-by",
-    "amount": 1725.219998,
-    "ai_context": "\u274c SKIP \u2014 Recent threats from the Houthis and Iran suggest a potential closure of the Bab al-Mandeb Strait by April 30, 2026.\nOn April 19, 2026, Houthi official Hussein al-Ezzi warned that the group might close the Bab al-Mandeb Strait if certain actions continue, stating, \"If Sanaa decides to close the Bab al-Mandeb, then all of mankind and jinn will be utterly powerless to open it.\" (tbsnews.",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:46.852012+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 213.23
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb073b0b262cafd586c48ffd4cae7abc33c4b1cfeff8449dc03f763214a988ba9",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
     "trader": {
@@ -29397,6 +29345,127 @@
     "market_slug": "us-x-iran-diplomatic-meeting-by-329",
     "amount": 1236.7344999999998,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d \u0434\u043e\u0433\u043e\u0432\u043e\u0440\u0438\u043b\u0438\u0441\u044c \u043e \u0434\u0432\u0443\u0445\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u043e\u043c \u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0438 \u043e\u0433\u043d\u044f, \u043a\u043e\u0442\u043e\u0440\u043e\u0435 \u0431\u044b\u043b\u043e \u043f\u0440\u043e\u0434\u043b\u0435\u043d\u043e \u0434\u043e \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043d\u0438\u044f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432. (cbsnews.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "market": "Will the Iran ceasefire continue through May 24?",
+    "market_slug": "will-the-iran-ceasefire-continue-through-may-24",
+    "event_slug": "will-the-iran-ceasefire-continue-through-may-24",
+    "wallet": "0x87ca1e498a111b19331d8d7c5a938f9918023448",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "Large bet ($13,606)",
+        "Low activity (17 txns)",
+        "Pre-event latency: 1816m"
+      ],
+      "amount": 13605.5616,
+      "odds": 0.8767351357481808,
+      "raw_price": 0.12326486425181912,
+      "outcome": "No",
+      "potential_pnl": 1912.8784000000014,
+      "pnl_multiplier": 0.14059532831044633,
+      "wallet_age_days": 129,
+      "total_activities": 17
+    },
+    "timestamp": "2026-05-22T17:48:46.949729",
+    "trade_hash": "0xc9ff75fc7c184fffd392581f7ebbf772f91ef3f36e9e770cf45250a6cf17f12a",
+    "trade_timestamp": 1779471853,
+    "latency": {
+      "latency_seconds": 108947.0,
+      "latency_minutes": 1815.7833333333333,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-22T17:44:13+00:00",
+      "event_time": "2026-05-24T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.12326486425181912,
+      "effective_price": 0.8767351357481808,
+      "size": 15518.44,
+      "amount": 13605.5616,
+      "potential_pnl": 1912.8784000000014,
+      "pnl_multiplier": 0.14059532831044633,
+      "is_no": true,
+      "conditionId": "0xd7540d64e03b1894ececcbb54c02b88d9c5c0e854ba66ec4e1ece20477994ac5",
+      "slug": "will-the-iran-ceasefire-continue-through-may-24",
+      "eventSlug": "iran-ceasefire-continues-through"
+    },
+    "irrationality": {
+      "irrationality_score": 48,
+      "flags": [
+        "Longshot (12%) in high bias category (geopolitics)",
+        "Category structurally prone to longshot bias",
+        "Moderate mispricing edge (+7.5%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.048652972850363824,
+      "market_price": 0.12326486425181912,
+      "edge": 0.0746118914014553,
+      "edge_percent": 7.46118914014553,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "MODERATE",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Sustained diplomatic negotiations",
+          "Absence of escalatory incidents",
+          "Internal political stability in Iran"
+        ],
+        "weakest_link": "Internal political stability in Iran"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "International pressure for peace",
+        "Regional stability concerns"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 118,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 48,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.0746118914014553,
+      "edge_percent": 7.46118914014553
+    },
+    "financial_analyst": {
+      "signal_quality": 69.8,
+      "stance": "SELECTIVE",
+      "edge_percent": 7.46,
+      "signal_strength": 118.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0418\u0440\u0430\u043d \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u043b \u0432\u0441\u0435 \u0436\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0435 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043d\u0430 \u043b\u0438\u043d\u0438\u044f\u0445 \u041c\u0435\u0448\u0445\u0435\u0434 \u0438 \u0425\u0443\u0437\u0435\u0441\u0442\u0430\u043d \u043f\u043e\u0441\u043b\u0435 \u0443\u0433\u0440\u043e\u0437 \u0418\u0437\u0440\u0430\u0438\u043b\u044f (aa.com.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
