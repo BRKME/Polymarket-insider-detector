@@ -1,174 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x89be1074c74414408a66faf3c6426a114ccf9b4fcc7718bf7ed03d0bb1ddc18a",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x9b1e0334569aa1768a07705a859686aad58e82c9",
-      "side": "BUY",
-      "asset": "97804210893963020586687533468818827724707609516642272119083089513236590377033",
-      "conditionId": "0x26f8bdecc52885d6f88b50dc32c71ce02384a877216df6ff799c2bdf0995194c",
-      "size": 8878.181819000001,
-      "price": 0.2199999999362,
-      "timestamp": 1776637626,
-      "title": "Magic vs. Pistons",
-      "slug": "nba-orl-det-2026-04-19",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-orl-det-2026-04-19",
-      "outcome": "Magic",
-      "outcomeIndex": 0,
-      "name": "FullPicks1",
-      "pseudonym": "Metallic-Container",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x89be1074c74414408a66faf3c6426a114ccf9b4fcc7718bf7ed03d0bb1ddc18a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Magic vs. Pistons",
-    "market_slug": "nba-orl-det-2026-04-19",
-    "amount": 1953.1999996135723,
-    "ai_context": "\u274c SKIP \u2014 The facts do not support the bet on the Magic.\nThe Detroit Pistons finished the regular season with a 60-22 record, securing the top seed in the Eastern Conference, while the Orlando Magic had a 45-37 record, placing them 8th in the conference. (espn.com) In their most recent matchup on April 6, 2026, the Pistons defeated the Magic 123-107. (espn.com) Additionally, the Pistons have a 73-61 all-time head-to-head record against the Magic. (sports-reference.",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:41:38.363449+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1953.2
-    }
-  },
-  {
-    "market": "Magic vs. Pistons",
-    "market_slug": "nba-orl-det-2026",
-    "event_slug": "nba-orl-det-2026",
-    "wallet": "0x6232ef387ddb1438d7f97a117d117b7834617078",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,329)",
-        "Low activity (12 txns)"
-      ],
-      "amount": 1329.426455505775,
-      "odds": 0.44999999988348266,
-      "raw_price": 0.44999999988348266,
-      "outcome": "Magic",
-      "potential_pnl": 1624.8545574942248,
-      "pnl_multiplier": 1.2222222227976163,
-      "wallet_age_days": 1,
-      "total_activities": 12
-    },
-    "timestamp": "2026-04-19T23:02:55.218037",
-    "trade_hash": "0xae3fc011625bb9168a48209116023dfdb317fdb44f4e2794c4a47b9d5794644d",
-    "trade_timestamp": 1776639356,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Magic",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.44999999988348266,
-      "effective_price": 0.44999999988348266,
-      "size": 2954.281013,
-      "amount": 1329.426455505775,
-      "potential_pnl": 1624.8545574942248,
-      "pnl_multiplier": 1.2222222227976163,
-      "is_no": false,
-      "conditionId": "0x26f8bdecc52885d6f88b50dc32c71ce02384a877216df6ff799c2bdf0995194c",
-      "slug": "nba-orl-det-2026",
-      "eventSlug": "nba-orl-det-2026-04-19"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+22.0%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2299999999766965,
-      "market_price": 0.44999999988348266,
-      "edge": 0.21999999990678615,
-      "edge_percent": 21.999999990678614,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Magic's key players remain healthy",
-          "Pistons underperform relative to expectations",
-          "Magic improve their overall team chemistry"
-        ],
-        "weakest_link": "Pistons underperform relative to expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Magic's recent performance trends",
-        "Pistons' roster changes and injuries"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.21999999990678615,
-      "edge_percent": 21.999999990678614
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 22.0,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 The Magic have struggled recently and face a strong Pistons team in the playoffs.\nIn their last five games, the Magic have a 2-3 record, including a loss to the Pistons on April 6, 2026. (espn.com) The Pistons finished the regular season with a 60-22 record, the best in the Eastern Conference. (cbssports.com) Additionally, the Magic's Jonathan Isaac is out with a knee injury. (espn.com) Given these factors, the bet on the Magic is not supported by the current facts.",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:41:38.363505+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1329.43
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xbce19f45cc5f41899c05163075ca108b1ba264f7d3b3059c2b09e607f7795e37",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29434,5 +29266,166 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
+  },
+  {
+    "market": "Will Argentina win the 2026 FIFA World Cup?",
+    "market_slug": "will-argentina-win-the-2026-fifa-world-cup-245",
+    "event_slug": "will-argentina-win-the-2026-fifa-world-cup-245",
+    "wallet": "0x44dabe09f4c0d31435be1df63ed299e5207fe225",
+    "analysis": {
+      "score": 95,
+      "flags": [
+        "New wallet (0d old)",
+        "Against trend (8.4% effective odds)",
+        "Large bet ($1,679)",
+        "Low activity (11 txns)"
+      ],
+      "amount": 1678.80048,
+      "odds": 0.084,
+      "raw_price": 0.084,
+      "outcome": "Yes",
+      "potential_pnl": 18306.91952,
+      "pnl_multiplier": 10.904761904761903,
+      "wallet_age_days": 0,
+      "total_activities": 11
+    },
+    "timestamp": "2026-05-22T00:17:19.623830",
+    "trade_hash": "0x7d3194eb47758d8a01f25344221f41d909c403fdfd51d378698c5823d83ebac4",
+    "trade_timestamp": 1779408599,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.084,
+      "effective_price": 0.084,
+      "size": 19985.72,
+      "amount": 1678.80048,
+      "potential_pnl": 18306.91952,
+      "pnl_multiplier": 10.904761904761903,
+      "is_no": false,
+      "conditionId": "0x0c4cd2055d6ea89354ffddc55d6dbcef9355748112ea952fc925f3db6a5c457f",
+      "slug": "will-argentina-win-the-2026-fifa-world-cup-245",
+      "eventSlug": "2026-fifa-world-cup-winner-595"
+    },
+    "irrationality": {
+      "irrationality_score": 25,
+      "flags": [
+        "Longshot (8%) in medium bias category (sports)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.07680000000000001,
+      "market_price": 0.084,
+      "edge": 0.007199999999999998,
+      "edge_percent": 0.7199999999999998,
+      "min_edge_required": 0.05,
+      "is_mispriced": false,
+      "edge_quality": "WEAK",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong performance in qualifying matches",
+          "Key players remain healthy and in form",
+          "Effective coaching and tactical strategy"
+        ],
+        "weakest_link": "Strong performance in qualifying matches"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent improvements in team performance",
+        "Historical success in international tournaments"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "INSIDER_ONLY",
+      "signal_emoji": "\ud83d\udc41\ufe0f",
+      "signal_strength": 95,
+      "interpretation": "Insider activity detected, no clear mispricing",
+      "action_suggestion": "Monitor: insider signal only, no statistical edge",
+      "insider_score": 95,
+      "insider_position": "YES",
+      "irrationality_score": 25,
+      "is_irrational": false,
+      "is_mispriced": false,
+      "edge": 0.007199999999999998,
+      "edge_percent": 0.7199999999999998
+    },
+    "financial_analyst": {
+      "signal_quality": 30.1,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 0.72,
+      "signal_strength": 95.0,
+      "insider_score": 95.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 5-0 \u043f\u0440\u043e\u0442\u0438\u0432 \u0417\u0430\u043c\u0431\u0438\u0438\nH2H: \u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 \u0410\u043b\u0436\u0438\u0440\u043e\u043c, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 2-0 \u0432 \u043d\u043e\u044f\u0431\u0440\u0435 2025 \u0433\u043e\u0434\u0430\n(espn.com)\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u0410\u0440\u0433\u0435\u043d\u0442\u0438\u043d\u044b \u043f\u043e \u043c\u0430\u0442\u0447\u0430\u043c 2026 \u0433\u043e\u0434\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u0422\u0443\u0440\u043d\u0438\u0440 \u0435\u0449\u0451 \u043d\u0435 \u0441\u0442\u0430\u0440\u0442\u043e\u0432\u0430\u043b, \u043a\u0432\u0430\u043b\u0438\u0444\u0438\u043a\u0430\u0446\u0438\u044f \u0432 \u043f\u0440\u043e\u0446\u0435\u0441\u0441\u0435",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5b8388285c823683ec2a249273100a636a68db464d28e82b8de8c80f385ae706",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692185,
+      "volume": 529047708.5059911,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x895de0a084eff2617c25241f941d1698df5011d5",
+      "side": "BUY",
+      "asset": "91642412125038849990060800585010952720079030592656478439947074071247062600646",
+      "conditionId": "0xdf714b44de860d823607d116d96ed7fdb1abc42b4b96819518b2556689966376",
+      "size": 5658.417909,
+      "price": 0.6503584673636025,
+      "timestamp": 1779409126,
+      "title": "Spread: Knicks (-5.5)",
+      "slug": "nba-cle-nyk-2026-05-21-spread-home-5pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-cle-nyk-2026-05-21",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 1,
+      "name": "jiangfh",
+      "pseudonym": "Unconscious-Benefit",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5b8388285c823683ec2a249273100a636a68db464d28e82b8de8c80f385ae706",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Knicks (-5.5)",
+    "market_slug": "nba-cle-nyk-2026-05-21",
+    "amount": 3679.999999,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\n[Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Cavaliers \u0438 Knicks \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0435 \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u044e\u0442",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Dual",
+    "ai_consensus": "NO_DATA"
   }
 ]
