@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb073b0b262cafd586c48ffd4cae7abc33c4b1cfeff8449dc03f763214a988ba9",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 6,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6ade597c0e2b43c0bf3542cada8a5e330d73f5b0",
-      "side": "BUY",
-      "asset": "32891455339241868054388168946860588153889618534070667579262884347478433125807",
-      "conditionId": "0xb2e0dbfed10e17fee30e8767071ec45f52c5288a3bdd249ec8f232d7235f8b0e",
-      "size": 45263.0747,
-      "price": 0.49,
-      "timestamp": 1776714166,
-      "title": "Raptors vs. Cavaliers: O/U 222.5",
-      "slug": "nba-tor-cle-2026-04-20-total-222pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-tor-cle-2026-04-20",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "TheOnlyHuman",
-      "pseudonym": "Vital-Boy",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3880352-2c848d1c-d674-41af-a677-157d83998b8b.gif",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb073b0b262cafd586c48ffd4cae7abc33c4b1cfeff8449dc03f763214a988ba9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Raptors vs. Cavaliers: O/U 222.5",
-    "market_slug": "nba-tor-cle-2026-04-20",
-    "amount": 22178.906603,
-    "ai_context": "\u274c SKIP \u2014 The Over bet is not supported by recent game totals and team scoring patterns.\nIn their last game on April 18, 2026, the Cleveland Cavaliers defeated the Toronto Raptors 126-113, resulting in a total of 239 points. However, the Raptors have a season record of 34 overs and 49 unders, indicating a tendency towards unders. Additionally, the Cavaliers have a season record of 41 overs and 42 unders, suggesting a balanced approach to overs and unders.",
-    "resolution": {
-      "outcome": "Cavaliers",
-      "checked_at": "2026-04-26T07:41:47.909186+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null
-    }
-  },
-  {
     "market": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
     "market_slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
     "event_slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
@@ -29466,6 +29414,54 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0418\u0440\u0430\u043d \u043f\u0440\u0438\u043e\u0441\u0442\u0430\u043d\u043e\u0432\u0438\u043b \u0432\u0441\u0435 \u0436\u0435\u043b\u0435\u0437\u043d\u043e\u0434\u043e\u0440\u043e\u0436\u043d\u044b\u0435 \u043f\u0435\u0440\u0435\u0432\u043e\u0437\u043a\u0438 \u043d\u0430 \u043b\u0438\u043d\u0438\u044f\u0445 \u041c\u0435\u0448\u0445\u0435\u0434 \u0438 \u0425\u0443\u0437\u0435\u0441\u0442\u0430\u043d \u043f\u043e\u0441\u043b\u0435 \u0443\u0433\u0440\u043e\u0437 \u0418\u0437\u0440\u0430\u0438\u043b\u044f (aa.com.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x809e8bc6bbbe79fafc2a71cb58ab28e820eea4d8452c507d6be22b328eb2d19e",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbff708b6020423dcd9d7fb873aed4c3e500392fb",
+      "side": "BUY",
+      "asset": "55183665391945769084702142268380836267379670770277047670144742882761917487737",
+      "conditionId": "0xb41540317fe1439eb7efcbf875194d53e69e028749d7fdd58e132a9803e6c0f4",
+      "size": 2000,
+      "price": 0.52,
+      "timestamp": 1779477124,
+      "title": "Dota 2: Aurora vs Tundra Esports - Game 1 Winner",
+      "slug": "dota2-aur1-tundra-2026-05-22-game1",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-aur1-tundra-2026-05-22",
+      "outcome": "Aurora",
+      "outcomeIndex": 0,
+      "name": "4AM-HSmm",
+      "pseudonym": "Slow-Arrogance",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4524616-667bf459-7f0f-46ed-a66f-a48e410eaee1.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x809e8bc6bbbe79fafc2a71cb58ab28e820eea4d8452c507d6be22b328eb2d19e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Aurora vs Tundra Esports - Game 1 Winner",
+    "market_slug": "dota2-aur1-tundra-2026-05-22",
+    "amount": 1040.0,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nAurora \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 Team Falcons\nH2H: Tundra Esports \u0432\u0435\u0434\u0451\u0442 7-6, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 2-1 \u043d\u0430 PGL Wallachia S7 13 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430 (egamersworld.com)",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
