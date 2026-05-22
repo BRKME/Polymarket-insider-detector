@@ -1,115 +1,5 @@
 [
   {
-    "market": "Will Ivan Cepeda Castro win the 2026 Colombian presidential election?",
-    "market_slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
-    "event_slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
-    "wallet": "0xba7a8089fec0d9475b9426a15d10994df4a73be9",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,211)",
-        "Low activity (2 txns)"
-      ],
-      "amount": 2210.857681,
-      "odds": 0.3246078225202321,
-      "raw_price": 0.6753921774797679,
-      "outcome": "No",
-      "potential_pnl": 4599.999999,
-      "pnl_multiplier": 2.0806404856052785,
-      "wallet_age_days": 0,
-      "total_activities": 2
-    },
-    "timestamp": "2026-04-20T20:26:32.429276",
-    "trade_hash": "0xffe675550383e7d6177fcfaab7e5ec9df61b15e75701bc1abbe848077fc9b421",
-    "trade_timestamp": 1776716398,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.6753921774797679,
-      "effective_price": 0.3246078225202321,
-      "size": 6810.85768,
-      "amount": 2210.857681,
-      "potential_pnl": 4599.999999,
-      "pnl_multiplier": 2.0806404856052785,
-      "is_no": true,
-      "conditionId": "0x0fb006e0c06caa4db12f7e30ec8c2483d658f83eb57b2ee8eb478e39beca3dfd",
-      "slug": "will-ivan-cepeda-castro-win-the-2026-colombian-presidential-election",
-      "eventSlug": "colombia-presidential-election"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+40.0%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.27507843549595357,
-      "market_price": 0.6753921774797679,
-      "edge": 0.4003137419838143,
-      "edge_percent": 40.03137419838143,
-      "min_edge_required": 0.03,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Strong support from key political factions",
-          "Effective campaign strategy and funding",
-          "Ability to address major national issues"
-        ],
-        "weakest_link": "Ability to address major national issues"
-      },
-      "category": "politics_near",
-      "narrative_drivers": [
-        "Public perception of Ivan Cepeda's political experience",
-        "Current socio-economic conditions in Colombia"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.4003137419838143,
-      "edge_percent": 40.03137419838143
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 40.03,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Recent polls indicate Iv\u00e1n Cepeda Castro leads the 2026 Colombian presidential race.\nA December 2025 Invamer survey showed Cepeda at 31.9% support, ahead of Abelardo de la Espriella (18.2%) and Sergio Fajardo (8.5%). (justiceforcolombia.org) Additionally, a March 2026 Guarumo/EcoAnal\u00edtica poll placed Cepeda at 37.5%, leading de la Espriella (20.2%) and Paloma Valencia (19.9%). (en.wikipedia.",
-    "resolution_last_check": "2026-04-26T07:41:48.843109+00:00"
-  },
-  {
     "type": "WHALE_FLOW",
     "condition_id": "0x45b6509d2504a671940c7c9967e56122bb30a4823b7d06bdad03d4f5a1021ea8",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
@@ -29465,5 +29355,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa00ff1e4dd95e4eee6f561e50c10b297e76f3c5337c5cdb032c7a1bfb54a6fb3",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf3ce7f04dde4f8c5aed19a20e5ecd8520e5ca57a",
+      "side": "BUY",
+      "asset": "94251848919542716388731043492520580468919856195919219511994756670225684321612",
+      "conditionId": "0xc94aefd1ebfd634629f82715d937c5d3d69e383e8d9d39d2cc0e07ffd63a4668",
+      "size": 7761.25373,
+      "price": 0.6674179429255691,
+      "timestamp": 1779482545,
+      "title": "Dota 2: Aurora vs Tundra Esports - Game 2 Winner",
+      "slug": "dota2-aur1-tundra-2026-05-22-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-aur1-tundra-2026-05-22",
+      "outcome": "Tundra Esports",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa00ff1e4dd95e4eee6f561e50c10b297e76f3c5337c5cdb032c7a1bfb54a6fb3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: Aurora vs Tundra Esports - Game 2 Winner",
+    "market_slug": "dota2-aur1-tundra-2026-05-22",
+    "amount": 2581.253731,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nTundra Esports \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-1 \u043f\u0440\u043e\u0442\u0438\u0432 Aurora 13 \u043c\u0430\u0440\u0442\u0430 2026 \u0433\u043e\u0434\u0430\nH2H: Tundra Esports \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Aurora, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-1 13 \u043c\u0430\u0440\u0442...",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
   }
 ]
