@@ -1,57 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x24d371f839de8ee2090ed4801d0db9ad209c06f5d15173c92438e0e8c056e9d7",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
-      "side": "BUY",
-      "asset": "91471666705230345078061017574966430664965792586647040080155282554963550319087",
-      "conditionId": "0xda955a9e3195606bd9d83753436220b8eab99bb856ade6f532a576dd417b964e",
-      "size": 1339,
-      "price": 0.76,
-      "timestamp": 1776658940,
-      "title": "Raptors vs. Cavaliers",
-      "slug": "nba-tor-cle-2026-04-20",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-tor-cle-2026-04-20",
-      "outcome": "Cavaliers",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x24d371f839de8ee2090ed4801d0db9ad209c06f5d15173c92438e0e8c056e9d7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Raptors vs. Cavaliers",
-    "market_slug": "nba-tor-cle-2026-04-20",
-    "amount": 1017.64,
-    "ai_context": "\u274c SKIP \u2014 The Cavaliers have struggled against the Raptors, losing all three regular-season matchups this season.\nIn the 2025-2026 regular season, the Cavaliers lost all three games against the Raptors, with scores of 108-131 on February 13, 132-126 on January 10, and 122-108 on November 25. (basketballstats.net)\nAdditionally, the Cavaliers have been plagued by injuries, using 41 different starting lineups during the regular season, more than any other Eastern Conference playoff team. (axios.",
-    "resolution": {
-      "outcome": "Cavaliers",
-      "checked_at": "2026-04-26T07:41:41.949340+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 321.36
-    }
-  },
-  {
     "market": "Will Aston Villa FC win on 2026-04-25?",
     "market_slug": "epl-ful-ast-2026-04-25-ast",
     "event_slug": "epl-ful-ast-2026-04-25-ast",
@@ -29483,5 +29431,53 @@
       "model_correct": null,
       "pnl": -930.0
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb6098f7101f7b1c8fdb21d8e9bc440eaaf16bda20f8f4fb11a1421809f2b68c5",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x26c518053838566cba59220bed43d1c90bc08813",
+      "side": "BUY",
+      "asset": "73042757298579301355730139948292665662212577317289141660423503217333497251080",
+      "conditionId": "0x0a0e915521846d8417406aa27a6164d2cff351d1336c804b3e0f1842e21cde4b",
+      "size": 6908.862739,
+      "price": 0.6109862299292091,
+      "timestamp": 1779447291,
+      "title": "LoL: JD Gaming vs Weibo Gaming - Game 3 Winner",
+      "slug": "lol-jdg-wb-2026-05-22-game3",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-jdg-wb-2026-05-22",
+      "outcome": "JD Gaming",
+      "outcomeIndex": 0,
+      "name": "0xa1facv",
+      "pseudonym": "Circular-Equality",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb6098f7101f7b1c8fdb21d8e9bc440eaaf16bda20f8f4fb11a1421809f2b68c5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: JD Gaming vs Weibo Gaming - Game 3 Winner",
+    "market_slug": "lol-jdg-wb-2026-05-22",
+    "amount": 4221.219998,
+    "ai_context": "[CONSENSUS:COPY] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 JD Gaming \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d\n[Grok] \u2705 COPY\nJD Gaming \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 9 \u043c\u0430\u0442\u0447\u0435\u0439 \u0432 LPL, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 \u0442\u043e\u043f-\u043a\u043e\u043c\u0430\u043d\u0434\u0430\u043c\u0438\nH2H: JD Gaming \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 Weibo \u0432 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 2-1",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
