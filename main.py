@@ -440,6 +440,7 @@ def main():
 
     sent_count = 0
     log_only_count = 0
+    insider_markets_alerted = set()  # Market-level dedup
     for alert in insiders:
         trade_hash = alert.get("trade_hash", "")
         wallet = alert["wallet"]
@@ -447,6 +448,13 @@ def main():
         # Deduplicate by trade_hash (not wallet) - allows multiple alerts per wallet
         if trade_hash and trade_hash in tracked_hashes:
             print(f"[{datetime.now()}] Trade {trade_hash[:12]}... already alerted, skipping")
+            continue
+
+        # Market-level dedup: max 1 alert per market per run
+        market_slug = alert.get('market_slug', '') or alert.get('market', '')[:40]
+        insider_market_key = f"{market_slug}"
+        if insider_market_key in insider_markets_alerted:
+            print(f"[{datetime.now()}] Market dedup: {market_slug[:40]}")
             continue
 
         # LOG_ONLY alerts: save for resolution tracking but skip Telegram
@@ -490,6 +498,7 @@ def main():
             if trade_hash:
                 tracked_hashes.add(trade_hash)
             tracked_wallets.add(wallet)
+            insider_markets_alerted.add(insider_market_key)
             existing_alerts.append(alert)
             sent_count += 1
             print(f"[{datetime.now()}] ✅ Alert sent for trade {trade_hash[:12]}... (wallet {wallet[:8]}...)")

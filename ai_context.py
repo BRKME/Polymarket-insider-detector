@@ -206,25 +206,48 @@ def generate_trade_context(
         except Exception as e:
             logger.warning(f"  GPT failed: {e}")
         
-        # === Call Grok ===
+        # === Call Grok with X Search + Web Search ===
         if XAI_API_KEY:
             try:
-                client_grok = OpenAI(api_key=XAI_API_KEY, base_url="https://api.x.ai/v1")
-                resp_grok = client_grok.chat.completions.create(
-                    model="grok-3-mini-fast",
-                    messages=[
-                        {"role": "system", "content": SYSTEM},
-                        {"role": "user", "content": prompt},
-                    ],
-                    max_tokens=400,
+                import requests as req
+                grok_response = req.post(
+                    "https://api.x.ai/v1/responses",
+                    headers={
+                        "Content-Type": "application/json",
+                        "Authorization": f"Bearer {XAI_API_KEY}",
+                    },
+                    json={
+                        "model": "grok-4.1-fast",
+                        "input": [
+                            {"role": "system", "content": SYSTEM},
+                            {"role": "user", "content": prompt},
+                        ],
+                        "tools": [
+                            {"type": "x_search"},
+                            {"type": "web_search"},
+                        ],
+                    },
+                    timeout=30,
                 )
-                grok_text = _clean_ai_response(resp_grok.choices[0].message.content.strip())
-                if grok_text and len(grok_text) >= 8:
-                    results["Grok"] = grok_text
+                
+                if grok_response.status_code == 200:
+                    grok_data = grok_response.json()
+                    # Extract text from output blocks
+                    grok_text_parts = []
+                    for block in grok_data.get("output", []):
+                        if block.get("type") == "message":
+                            for content in block.get("content", []):
+                                if content.get("type") == "output_text":
+                                    grok_text_parts.append(content.get("text", ""))
+                    grok_text = _clean_ai_response("\n".join(grok_text_parts).strip())
+                    if grok_text and len(grok_text) >= 8:
+                        results["Grok"] = grok_text
+                    else:
+                        print(f"  ⚠️ Grok returned empty: '{grok_text[:50] if grok_text else 'None'}'")
                 else:
-                    print(f"  ⚠️ Grok returned empty/NO_DATA: '{grok_text[:50] if grok_text else 'None'}'")
+                    print(f"  ❌ Grok API error: HTTP {grok_response.status_code} — {grok_response.text[:100]}")
             except Exception as e:
-                print(f"  ❌ Grok API error: {e}")
+                print(f"  ❌ Grok exception: {e}")
         else:
             print(f"  ⚠️ XAI_API_KEY not set — Grok skipped")
         
