@@ -1,110 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7f5957a98a0a0e4cfb53941df2079a93225f2d5b98c757a6c16d693a13509134",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7491364.173736479,
-      "volume": 441213460.978336,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xe015b5a2a299167be835a2fd1e86f09c49e06ffd",
-      "side": "BUY",
-      "asset": "23182911290223834042794430279266916210568992138474120534940628261400096080351",
-      "conditionId": "0x034bfa62ac1ffa3ac05ef14e780aca8bcf1e27e1dcede87f531eff644bc8b727",
-      "size": 58522.65259,
-      "price": 0.67,
-      "timestamp": 1776771494,
-      "title": "Dota 2: Xtreme Gaming vs Vici Gaming - Game 2 Winner",
-      "slug": "dota2-xtreme-vg-2026-04-21-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-xtreme-vg-2026-04-21",
-      "outcome": "Xtreme Gaming",
-      "outcomeIndex": 0,
-      "name": "TAIWANNUMBERONE",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7f5957a98a0a0e4cfb53941df2079a93225f2d5b98c757a6c16d693a13509134",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Xtreme Gaming vs Vici Gaming - Game 2 Winner",
-    "market_slug": "dota2-xtreme-vg-2026-04-21",
-    "amount": 39210.1772353,
-    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results favor Vici Gaming, indicating a potential upset.\nIn their last five encounters, Xtreme Gaming has won three times, while Vici Gaming has secured two victories. Notably, Vici Gaming won the most recent match on March 11, 2026, with a 2-1 scoreline. (cyberscore.live) Additionally, Vici Gaming has demonstrated a 63% win rate over the past month, suggesting improved form. (bo3.",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:41:50.190339+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -39210.18
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4e7ce0d2e876846783c8e270174a6b18997c7bf1955881ab0c48e41c1e8ff358",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7d92fd69504bfd391162e1442cb784c0af408676",
-      "side": "BUY",
-      "asset": "97993387429885580606362120312086527159525797874512102308707305257405959881007",
-      "conditionId": "0xd41eb0fded36a8cba2aabe8479640a31237fa34d1cbec37b055f71603454ea2c",
-      "size": 10499.3208,
-      "price": 0.81,
-      "timestamp": 1776786204,
-      "title": "Indian Premier League: Sunrisers Hyderabad vs Delhi Capitals",
-      "slug": "cricipl-sun-del-2026-04-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
-      "eventSlug": "cricipl-sun-del-2026-04-21",
-      "outcome": "Sunrisers Hyderabad",
-      "outcomeIndex": 0,
-      "name": "mikesports",
-      "pseudonym": "Aromatic-Standard",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4e7ce0d2e876846783c8e270174a6b18997c7bf1955881ab0c48e41c1e8ff358",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Indian Premier League: Sunrisers Hyderabad vs Delhi Capitals",
-    "market_slug": "cricipl-sun-del-2026-04-21",
-    "amount": 8504.449848,
-    "ai_context": "\u2705 COPY \u2014 Sunrisers Hyderabad have won three of their last five matches and have a slight edge in head-to-head record against Delhi Capitals.\nIn their recent matches, Sunrisers Hyderabad secured victories against Chennai Super Kings and Rajasthan Royals, while Delhi Capitals have had mixed results. Historically, Sunrisers Hyderabad lead the head-to-head with 13 wins to Delhi Capitals' 12. (ipl.",
-    "resolution": {
-      "outcome": "Sunrisers Hyderabad",
-      "checked_at": "2026-04-26T07:41:51.577068+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1994.87
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7f3a2e1a7da618427fc6b856312e8cd7e686388e923a005dcec78e0d73b26845",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -29429,6 +29325,174 @@
     "market_slug": "makerfield-by-election-winner",
     "amount": 1003.68,
     "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u0420\u0435\u0431\u0435\u043a\u043a\u0438 \u0428\u0435\u043f\u0435\u0440\u0434 \u043d\u0435\u0442\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043e\u043f\u0440\u043e\u0441\u044b \u0438 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u043d\u0435 \u0441\u043e\u0434\u0435\u0440\u0436\u0430\u0442 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u043e \u0435\u0451 \u0448\u0430\u043d\u0441\u0430\u0445 \u043d\u0430 \u043f\u043e\u0431\u0435\u0434\u0443",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
+  },
+  {
+    "market": "Will the Iran ceasefire continue through May 25?",
+    "market_slug": "will-the-iran-ceasefire-continue-through-may-25",
+    "event_slug": "will-the-iran-ceasefire-continue-through-may-25",
+    "wallet": "0xcc8e82773e67aa03994fbc252307c378e905d4bc",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "Recent wallet (10d old)",
+        "Large bet ($2,311)",
+        "Pre-event latency: 2963m"
+      ],
+      "amount": 2310.6998999999996,
+      "odds": 0.5251590681818181,
+      "raw_price": 0.4748409318181818,
+      "outcome": "No",
+      "potential_pnl": 2089.3001000000004,
+      "pnl_multiplier": 0.9041849614482611,
+      "wallet_age_days": 10,
+      "total_activities": 100
+    },
+    "timestamp": "2026-05-22T22:43:50.399456",
+    "trade_hash": "0xc1a9ed044ec922fe1b8bd76751fbb3f06600b95dfe39146a6b7fa5c97ce3a902",
+    "trade_timestamp": 1779489409,
+    "latency": {
+      "latency_seconds": 177791.0,
+      "latency_minutes": 2963.1833333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-22T22:36:49+00:00",
+      "event_time": "2026-05-25T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.4748409318181818,
+      "effective_price": 0.5251590681818181,
+      "size": 4400.0,
+      "amount": 2310.6998999999996,
+      "potential_pnl": 2089.3001000000004,
+      "pnl_multiplier": 0.9041849614482611,
+      "is_no": true,
+      "conditionId": "0xa743ce4a2a42aa232c2caa41aa27837ff1cde07781a1e9a726342065c3d86ba6",
+      "slug": "will-the-iran-ceasefire-continue-through-may-25",
+      "eventSlug": "iran-ceasefire-continues-through"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+21.2%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2629681863636364,
+      "market_price": 0.4748409318181818,
+      "edge": 0.21187274545454543,
+      "edge_percent": 21.187274545454542,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Continued diplomatic engagement between Iran and negotiating parties",
+          "Absence of significant military provocations",
+          "Domestic stability within Iran"
+        ],
+        "weakest_link": "Continued diplomatic engagement between Iran and negotiating parties"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Regional stability in the Middle East",
+        "International pressure for peace"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 110,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.21187274545454543,
+      "edge_percent": 21.187274545454542
+    },
+    "financial_analyst": {
+      "signal_quality": 82.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 21.19,
+      "signal_strength": 110.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u044f\u043d\u0432\u0430\u0440\u0435 2026 \u0433\u043e\u0434\u0430 \u0432 \u0418\u0440\u0430\u043d\u0435 \u043f\u0440\u043e\u0448\u043b\u0438 \u043c\u0430\u0441\u0441\u043e\u0432\u044b\u0435 \u043f\u0440\u043e\u0442\u0435\u0441\u0442\u044b, \u0432\u044b\u0437\u0432\u0430\u043d\u043d\u044b\u0435 \u0443\u0445\u0443\u0434\u0448\u0435\u043d\u0438\u0435\u043c \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438 \u0438 \u043f\u043e\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u043c\u0438 \u0442\u0440\u0435\u0431\u043e\u0432\u0430\u043d\u0438\u044f\u043c\u0438. (brookings.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9af1aecca8c40528ecc7219ec623f97560a8f2fb1d666fbe4fa2caae83ad674e",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9067190.815342402,
+      "volume": 575238942.987078,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9770ca178764cdca1271934ad613ad7ab4a10ff5",
+      "side": "BUY",
+      "asset": "29416428768747126163358356381835181129131004409209389452468720199678408866658",
+      "conditionId": "0x3962e0e788a97f66d4bbe7480d3e23bbec73fe8f5de659e85a6eb3441900c18c",
+      "size": 1800,
+      "price": 0.52,
+      "timestamp": 1779489776,
+      "title": "Dallas Wings vs. Atlanta Dream: O/U 173.5",
+      "slug": "wnba-dal-atl-2026-05-22-total-173pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wnba-logo-PAR4befDAubM.png",
+      "eventSlug": "wnba-dal-atl-2026-05-22",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "Brotddy",
+      "pseudonym": "Grumpy-Rawhide",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7387840-5e148de7-1f64-43db-b0d1-147443d42622.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9af1aecca8c40528ecc7219ec623f97560a8f2fb1d666fbe4fa2caae83ad674e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dallas Wings vs. Atlanta Dream: O/U 173.5",
+    "market_slug": "wnba-dal-atl-2026-05-22",
+    "amount": 864.0,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Under \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
     "ai_verdict": "NO_DATA",
     "ai_model": "GPT",
     "ai_consensus": "NO_DATA"
