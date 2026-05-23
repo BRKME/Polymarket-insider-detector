@@ -1,122 +1,5 @@
 [
   {
-    "market": "Madrid Open: Karolina Pliskova vs Sinja Kraus",
-    "market_slug": "wta-pliskov-kraus-2026",
-    "event_slug": "wta-pliskov-kraus-2026",
-    "wallet": "0xf1fa0c20cd9cafd19cd69d231e0a81ac7c102a96",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($8,165)",
-        "Low activity (17 txns)"
-      ],
-      "amount": 8165.259634574627,
-      "odds": 0.672377244212811,
-      "raw_price": 0.672377244212811,
-      "outcome": "Sinja Kraus",
-      "potential_pnl": 3978.6070784253725,
-      "pnl_multiplier": 0.48726032685825793,
-      "wallet_age_days": 0,
-      "total_activities": 17
-    },
-    "timestamp": "2026-04-22T16:41:59.724680",
-    "trade_hash": "0x9365710e40257083e41805fabf4666fa0b56f073ef40c42d7bc59406434e38b3",
-    "trade_timestamp": 1776875588,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Sinja Kraus",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.672377244212811,
-      "effective_price": 0.672377244212811,
-      "size": 12143.866713,
-      "amount": 8165.259634574627,
-      "potential_pnl": 3978.6070784253725,
-      "pnl_multiplier": 0.48726032685825793,
-      "is_no": false,
-      "conditionId": "0xed778b99024f7c64033d300e4b2936230b848449f6b270befa356fafeeef02e1",
-      "slug": "wta-pliskov-kraus-2026",
-      "eventSlug": "wta-pliskov-kraus-2026-04-22"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+39.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2744754488425622,
-      "market_price": 0.672377244212811,
-      "edge": 0.3979017953702488,
-      "edge_percent": 39.790179537024876,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pliskova maintains her current form",
-          "Kraus performs below expectations",
-          "External factors (injuries, weather) do not favor Kraus"
-        ],
-        "weakest_link": "Kraus performs below expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pliskova's recent performance",
-        "Kraus's potential for upsets"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3979017953702488,
-      "edge_percent": 39.790179537024876
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 39.79,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Pliskova has a 1-0 head-to-head record against Kraus and is favored by most analysts.\nIn their only previous encounter at the 2024 Transylvania Open, Pliskova won 6-4, 7-6(6). (matchstat.com) Analysts predict Pliskova to win, citing her experience and recent form. (thestatszone.com) However, the trader may have access to insider information or insights not publicly available.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Karolina Pliskova",
-      "checked_at": "2026-04-26T07:42:02.487438+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -8165.26
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xb78549ba595be9ea7320c2000895856f98963faeec20f8ee63688c70604a7a20",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
@@ -29883,6 +29766,54 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 7 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u0411\u043e\u043b\u043e\u043d\u044c\u0435\u0439 \u0438 \u0418\u043d\u0442\u0435\u0440\u043e\u043c \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c \u0437\u0430\u0431\u0438\u0432\u0430\u043b\u043e\u0441\u044c 3 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443, \u0447\u0442\u043e \u043d\u0438\u0436\u0435 4.5 \u0433\u043e\u043b\u043e\u0432. (bk-spisok.ru)\n\u0412 13 \u0438\u0437 15 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u0418\u043d\u0442\u0435\u0440\u0430 \u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430 \u0442\u043e\u0442\u0430\u043b \u043c\u0435\u043d\u044c\u0448\u0435 4.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd8395ce805245265843c27cb26e31fc108fd4b186b470ed2deadfe0cd94f72bd",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa91edabae0eae478c830a6d5dfd3acc0571709e0",
+      "side": "BUY",
+      "asset": "104718292808309433767402444061650910790437726449955521731268760928480423099204",
+      "conditionId": "0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27",
+      "size": 1745.22,
+      "price": 0.83,
+      "timestamp": 1779559725,
+      "title": "US x Iran permanent peace deal by December 31, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-december-31-2026-961-587-341-574-555",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "enri.hl",
+      "pseudonym": "Tough-Conscience",
+      "bio": "0xWhale",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3530977-4630d438-e1fb-49cb-acf3-e5cabac62593.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd8395ce805245265843c27cb26e31fc108fd4b186b470ed2deadfe0cd94f72bd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by December 31, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1448.5326,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u041f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b \u043c\u0435\u0436\u0434\u0443 \u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d\u043e\u043c \u0432 \u0430\u043f\u0440\u0435\u043b\u0435 2026 \u0433\u043e\u0434\u0430 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0438\u0441\u044c \u0431\u0435\u0437 \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f, \u043a\u0430\u0436\u0434\u0430\u044f \u0441\u0442\u043e\u0440\u043e\u043d\u0430 \u043e\u0431\u0432\u0438\u043d\u044f\u0435\u0442 \u0434\u0440\u0443\u0433\u0443\u044e \u0432 \u043f\u0440\u043e\u0432\u0430\u043b\u0435. (cfr.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
