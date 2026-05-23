@@ -1,52 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x804ec522fe2c8c2e19249ae3bbbce04652802640caf70b2758cba4906c0e7f9f",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5a4aecb3c8fb038bbc3011ded3971bffa4f1cfdb",
-      "side": "BUY",
-      "asset": "32270411694523539495262303868629477861017829722282576458031815333486368239544",
-      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "size": 1234,
-      "price": 0.843,
-      "timestamp": 1776800622,
-      "title": "Will France win the 2026 FIFA World Cup?",
-      "slug": "will-france-win-the-2026-fifa-world-cup-924",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
-      "eventSlug": "2026-fifa-world-cup-winner-595",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Antonio125",
-      "pseudonym": "Coarse-Ladybug",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x804ec522fe2c8c2e19249ae3bbbce04652802640caf70b2758cba4906c0e7f9f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will France win the 2026 FIFA World Cup?",
-    "market_slug": "2026-fifa-world-cup-winner-595",
-    "amount": 1040.262,
-    "ai_context": "\u2705 COPY \u2014 France's recent form and group draw support the bet on No.\nFrance secured their World Cup spot with an undefeated qualifying campaign, topping Group D with 13 points and a +10 goal difference. They've been drawn into a challenging group for the 2026 World Cup, facing Norway, Senegal, and a play-off winner. (fifa.com)\nHowever, France's recent form and group draw suggest a strong performance in the tournament.",
-    "resolution_last_check": "2026-04-26T07:41:55.371440+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x07fb1d33dff5279d52a31d9167897e2c84445925e9eb542beba07a8b989abf16",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -29590,5 +29544,125 @@
       "model_correct": null,
       "pnl": null
     }
+  },
+  {
+    "market": "Iran closes its airspace by May 27?",
+    "market_slug": "iran-closes-its-airspace-by-may-29",
+    "event_slug": "iran-closes-its-airspace-by-may-29",
+    "wallet": "0x1f9372b76c706d2b98cf9130befb80bcca6a7441",
+    "analysis": {
+      "score": 100,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,765)",
+        "Pre-event latency: 5208m"
+      ],
+      "amount": 2764.67665,
+      "odds": 0.416245351508746,
+      "raw_price": 0.583754648491254,
+      "outcome": "No",
+      "potential_pnl": 3877.263349999999,
+      "pnl_multiplier": 1.4024292316426947,
+      "wallet_age_days": 0,
+      "total_activities": 86
+    },
+    "timestamp": "2026-05-23T09:18:11.654526",
+    "trade_hash": "0xff120746c0124be389054e0beae8ae9e04ff991d1f82c0e65a975af1c44ad473",
+    "trade_timestamp": 1779527492,
+    "latency": {
+      "latency_seconds": 312508.0,
+      "latency_minutes": 5208.466666666666,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-23T09:11:32+00:00",
+      "event_time": "2026-05-27T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.583754648491254,
+      "effective_price": 0.416245351508746,
+      "size": 6641.94,
+      "amount": 2764.67665,
+      "potential_pnl": 3877.263349999999,
+      "pnl_multiplier": 1.4024292316426947,
+      "is_no": true,
+      "conditionId": "0xdb22a7749b831aa07a52cbc83213e6c8ceb88226b224a831512f4460011bb0a1",
+      "slug": "iran-closes-its-airspace-by-may-29",
+      "eventSlug": "iran-closes-its-airspace-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+39.5%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.1887509296982508,
+      "market_price": 0.583754648491254,
+      "edge": 0.3950037187930032,
+      "edge_percent": 39.500371879300324,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Escalation of regional tensions",
+          "Government decision influenced by internal politics",
+          "International pressure or sanctions"
+        ],
+        "weakest_link": "International pressure or sanctions may not be sufficient to compel a closure."
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Rising tensions with neighboring countries",
+        "Internal political stability or instability"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 140,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 100,
+      "insider_position": "NO",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3950037187930032,
+      "edge_percent": 39.500371879300324
+    },
+    "financial_analyst": {
+      "signal_quality": 88.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 39.5,
+      "signal_strength": 140.0,
+      "insider_score": 100.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0418\u0440\u0430\u043d \u0437\u0430\u043a\u0440\u044b\u043b \u0432\u043e\u0437\u0434\u0443\u0448\u043d\u043e\u0435 \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u043e 28 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u0433\u043e\u0434\u0430 \u043f\u043e\u0441\u043b\u0435 \u0430\u0442\u0430\u043a \u0421\u0428\u0410 \u0438 \u0418\u0437\u0440\u0430\u0438\u043b\u044f. (ria.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
