@@ -1,111 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb78549ba595be9ea7320c2000895856f98963faeec20f8ee63688c70604a7a20",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 9,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "side": "SELL",
-      "asset": "31062424711512692006020739080107835937486891530482606016617407912657737343039",
-      "conditionId": "0x0a10ac084c43ed7847c73851a3070d1c43ab1b7009c6d291e06c2bfa573a8ec6",
-      "size": 2356.15,
-      "price": 0.74,
-      "timestamp": 1776876264,
-      "title": "Madrid Open: Benjamin Bonzi vs Titouan Droguet",
-      "slug": "atp-bonzi-droguet-2026-04-22",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-bonzi-droguet-2026-04-22",
-      "outcome": "Titouan Droguet",
-      "outcomeIndex": 1,
-      "name": "tradecraft",
-      "pseudonym": "Slow-Escape",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb78549ba595be9ea7320c2000895856f98963faeec20f8ee63688c70604a7a20",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Benjamin Bonzi vs Titouan Droguet",
-    "market_slug": "atp-bonzi-droguet-2026-04-22",
-    "amount": 1743.5510000000002,
-    "ai_context": "\u274c SKIP \u2014 Benjamin Bonzi has a perfect 1-0 head-to-head record against Titouan Droguet.\nTheir most recent encounter was in June 2024 at the Ilkley Challenger, where Bonzi won 7-6(5), 6-4. (tennisratio.com) Additionally, Bonzi has a higher ATP ranking of No. 104 compared to Droguet's No. 113. (tennisstats.com) However, Droguet has been in better recent form, with a 52-25 record over the past 52 weeks, compared to Bonzi's 29-24 record. (tennisratio.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Benjamin Bonzi",
-      "checked_at": "2026-04-26T07:42:03.885989+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1743.55
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2994cb70e89d13ccc362b61579fff378895d6b81f6d389c4361170da42f8b3f8",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 9,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb16999ad3226b15a53517d2374544b6f28b71d6f",
-      "side": "BUY",
-      "asset": "59418831337376891710233638567616024233546127823202746547149782307301327249117",
-      "conditionId": "0xa307aded137a5e0b59d685f02b75b7aac53ddc21ec728c6e4cf9e5b999709635",
-      "size": 5595.962393,
-      "price": 0.21999999988481767,
-      "timestamp": 1776883466,
-      "title": "Magic vs. Pistons",
-      "slug": "nba-orl-det-2026-04-22",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-orl-det-2026-04-22",
-      "outcome": "Magic",
-      "outcomeIndex": 0,
-      "name": "0xB16999Ad3226b15A53517D2374544b6F28B71D6f-1734230760141",
-      "pseudonym": "Criminal-Triad",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2994cb70e89d13ccc362b61579fff378895d6b81f6d389c4361170da42f8b3f8",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Magic vs. Pistons",
-    "market_slug": "nba-orl-det-2026-04-22",
-    "amount": 1231.1117258154438,
-    "ai_context": "\u2705 COPY \u2014 Magic's recent form and head-to-head record support the bet.\nThe Magic have won 4 of the last 6 matchups against the Pistons, including a 112-101 victory in Game 1 of the current playoff series. (statz.ai)\nAdditionally, the Magic have a 7-7 record over the past 30 days, indicating consistent performance. (statmuse.com)\nGiven these factors, the trader's bet on the Magic at 22% odds appears well-supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Magic",
-      "checked_at": "2026-04-26T07:42:05.223745+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 4364.85
-    }
-  },
-  {
     "type": "WHALE_FLOW",
     "condition_id": "0x836dadd95dcbbe5ac59e5817abd8d1555c7eecee44d8d1b2271396d175f95138",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
@@ -29817,5 +29711,165 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "market": "Real Madrid CF vs. Athletic Club: O/U 4.5",
+    "market_slug": "lal-rea-bil-2026-05-23-total-4pt5",
+    "event_slug": "lal-rea-bil-2026-05-23-total-4pt5",
+    "wallet": "0xae06af9c9f9f3ef7ac14d88be248ccefe47dc8c8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,571)",
+        "Low activity (13 txns)"
+      ],
+      "amount": 3571.459997,
+      "odds": 0.8091458731002361,
+      "raw_price": 0.8091458731002361,
+      "outcome": "Over",
+      "potential_pnl": 842.4041969999998,
+      "pnl_multiplier": 0.2358710996924544,
+      "wallet_age_days": 0,
+      "total_activities": 13
+    },
+    "timestamp": "2026-05-23T20:28:10.957240",
+    "trade_hash": "0x696c8654ae561838f0643cd44be89eea5911adb0b80726191944797243a5cc58",
+    "trade_timestamp": 1779567590,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8091458731002361,
+      "effective_price": 0.8091458731002361,
+      "size": 4413.864194,
+      "amount": 3571.459997,
+      "potential_pnl": 842.4041969999998,
+      "pnl_multiplier": 0.2358710996924544,
+      "is_no": false,
+      "conditionId": "0xf0865d57cbb8a0f493a5831788ea2be9e6cbffe69df17e94c49a35c2390f34ae",
+      "slug": "lal-rea-bil-2026-05-23-total-4pt5",
+      "eventSlug": "lal-rea-bil-2026-05-23-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+50.7%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.3018291746200472,
+      "market_price": 0.8091458731002361,
+      "edge": 0.5073166984801889,
+      "edge_percent": 50.73166984801889,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "both teams have strong attacking performances",
+          "defensive mistakes by either team",
+          "match context encourages aggressive play"
+        ],
+        "weakest_link": "defensive mistakes by either team"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent high-scoring matches",
+        "team form and injuries"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5073166984801889,
+      "edge_percent": 50.73166984801889
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 50.73,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 Real Madrid \u0438 Athletic Club \u0431\u044b\u043b\u043e \u0437\u0430\u0431\u0438\u0442\u043e 7 \u0433\u043e\u043b\u043e\u0432: 3-0, 1-0, 2-1.\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 Real Madrid \u0437\u0430\u0431\u0438\u043b 7 \u0433\u043e\u043b\u043e\u0432, \u0430 Athletic Club \u2014 5.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x521978794e796a92dc4cabdbe9d4ecba6bf12943f96e8d10458dcb14e8567ba7",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9138610.555908984,
+      "volume": 578299524.976754,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd106952ebf30a3125affd8a23b6c1f30c35fc79c",
+      "side": "BUY",
+      "asset": "12525747779077170526506634490540667493798818721650247317008109451580204966355",
+      "conditionId": "0x2133d63b8c6f4aba47b0c4efd92dacce0e2ccdb39b81bfc85039ee706c41c9e3",
+      "size": 1404.839284,
+      "price": 0.5599999999715269,
+      "timestamp": 1779568157,
+      "title": "Knicks vs. Cavaliers",
+      "slug": "nba-nyk-cle-2026-05-23",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-cle-2026-05-23",
+      "outcome": "Cavaliers",
+      "outcomeIndex": 1,
+      "name": "Herdonia",
+      "pseudonym": "Unkempt-Image",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x521978794e796a92dc4cabdbe9d4ecba6bf12943f96e8d10458dcb14e8567ba7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Cavaliers",
+    "market_slug": "nba-nyk-cle-2026-05-23",
+    "amount": 618.129285,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b Cavaliers \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
   }
 ]
