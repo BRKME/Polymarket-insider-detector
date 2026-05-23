@@ -1,24 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x600513ba9d84e249fc753e4220f7222fc03f1d65130a429df03cdcb3dd559734",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 25443.0,
-    "total_volume": 25443.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 51,
-    "trade_count": 66,
-    "max_single_trade": 4825.0,
-    "yes_price": 0.535,
-    "strength": 62,
-    "timestamp": "2026-04-22T15:55:33.515091",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before GTA VI's release.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting deep skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6.",
-    "resolution_last_check": "2026-04-26T07:42:00.199923+00:00"
-  },
-  {
     "market": "Madrid Open: Karolina Pliskova vs Sinja Kraus",
     "market_slug": "wta-pliskov-kraus-2026",
     "event_slug": "wta-pliskov-kraus-2026",
@@ -29790,6 +29771,118 @@
     "market_slug": "cricipl-luc-pun-2026-05-23",
     "amount": 1000.0,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nLucknow Super Giants \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Punjab Kings, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430 56 \u0440\u0430\u043d\u043e\u0432 \u0432 IPL 2023 (thesportstimeline.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "market": "Bologna FC 1909 vs. FC Internazionale Milano: O/U 4.5",
+    "market_slug": "sea-bol-int-2026-05-24-total-4pt5",
+    "event_slug": "sea-bol-int-2026-05-24-total-4pt5",
+    "wallet": "0xae06af9c9f9f3ef7ac14d88be248ccefe47dc8c8",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($2,016)",
+        "Low activity (7 txns)"
+      ],
+      "amount": 2016.299997,
+      "odds": 0.8129590720223981,
+      "raw_price": 0.8129590720223981,
+      "outcome": "Over",
+      "potential_pnl": 463.89865800000007,
+      "pnl_multiplier": 0.23007422441612,
+      "wallet_age_days": 0,
+      "total_activities": 7
+    },
+    "timestamp": "2026-05-23T17:17:15.924161",
+    "trade_hash": "0x89461d8a7accdb27163cec874decde850673e0f34a49d68170bc2db10f261d33",
+    "trade_timestamp": 1779556364,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8129590720223981,
+      "effective_price": 0.8129590720223981,
+      "size": 2480.198655,
+      "amount": 2016.299997,
+      "potential_pnl": 463.89865800000007,
+      "pnl_multiplier": 0.23007422441612,
+      "is_no": false,
+      "conditionId": "0x5ab6619867a24316363112ae14fdead82d5625f0dbe8be7169bf530f99b254b9",
+      "slug": "sea-bol-int-2026-05-24-total-4pt5",
+      "eventSlug": "sea-bol-int-2026-05-24-more-markets"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+51.0%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.30259181440447963,
+      "market_price": 0.8129590720223981,
+      "edge": 0.5103672576179186,
+      "edge_percent": 51.03672576179186,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "both teams have strong attacking performances",
+          "defensive errors by either team",
+          "favorable weather conditions for scoring"
+        ],
+        "weakest_link": "favorable weather conditions for scoring"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent offensive form of both teams",
+        "historical matchups indicating high-scoring games"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5103672576179186,
+      "edge_percent": 51.03672576179186
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 51.04,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 7 \u043c\u0430\u0442\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u0411\u043e\u043b\u043e\u043d\u044c\u0435\u0439 \u0438 \u0418\u043d\u0442\u0435\u0440\u043e\u043c \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c \u0437\u0430\u0431\u0438\u0432\u0430\u043b\u043e\u0441\u044c 3 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443, \u0447\u0442\u043e \u043d\u0438\u0436\u0435 4.5 \u0433\u043e\u043b\u043e\u0432. (bk-spisok.ru)\n\u0412 13 \u0438\u0437 15 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439 \u0418\u043d\u0442\u0435\u0440\u0430 \u0441\u0442\u0430\u0432\u043a\u0430 \u043d\u0430 \u0442\u043e\u0442\u0430\u043b \u043c\u0435\u043d\u044c\u0448\u0435 4.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
