@@ -1,25 +1,6 @@
 [
   {
     "type": "WHALE_FLOW",
-    "condition_id": "0xb2e14e405d3ceb259d29bc96b58f14aed47129af92dd6c5a0229e1fd39f12380",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 24310.0,
-    "total_volume": 24310.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 4,
-    "trade_count": 4,
-    "max_single_trade": 24305.0,
-    "yes_price": 0.535,
-    "strength": 72,
-    "timestamp": "2026-04-21T19:59:55.747517",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire, which began on April 11, 2026, was marred by mutual accusations of violations, including drone attacks, leading to its collapse. Prediction markets assign a mere 1.4% probability to an official ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
-    "resolution_last_check": "2026-04-26T07:41:56.549042+00:00"
-  },
-  {
-    "type": "WHALE_FLOW",
     "condition_id": "0x3596f8bdc433535988dc32d41591d98053683849b3b757a9a6a2abfa9e842876",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
     "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
@@ -29662,5 +29643,53 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "GPT",
     "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xe8f47974a4570e6ff1d57b46ae152804d0aea187fd4da636f51fcbe9adf2b13c",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 21,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4218868.244086616,
+      "volume": 476826628.21783286,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x34a5bec41c0d593edee96fb1405e07ccf4529450",
+      "side": "BUY",
+      "asset": "18305951170360418718620677584367438745021633785734646851533532497253682064174",
+      "conditionId": "0xd9a0b7a8cbcfc6f3ec14ce5d049920f2b6e650bb9a173df499017b26dd1313b4",
+      "size": 3051.952379,
+      "price": 0.4199999999410214,
+      "timestamp": 1779537173,
+      "title": "LoL: Nongshim Red Force vs Hanwha Life Esports (BO3) - LCK Rounds 1-2",
+      "slug": "lol-ns-hle1-2026-05-23",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-ns-hle1-2026-05-23",
+      "outcome": "Nongshim Red Force",
+      "outcomeIndex": 0,
+      "name": "jbsjsbns",
+      "pseudonym": "Cluttered-Winery",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xe8f47974a4570e6ff1d57b46ae152804d0aea187fd4da636f51fcbe9adf2b13c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: Nongshim Red Force vs Hanwha Life Esports (BO3) - LCK Rounds 1-2",
+    "market_slug": "lol-ns-hle1-2026-05-23",
+    "amount": 1281.819999,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nNongshim RedForce \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439: 1-2 \u043f\u0440\u043e\u0442\u0438\u0432 KT Rolster \u0438 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 BNK FEARX. (sheepesports.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
