@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xcde6609d4d90fc7e6ebcd6bc4614e5078ba7807c5d5e2514d50b0df2eec8cca6",
-    "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-    "trader": {
-      "rank": 17,
-      "address": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
-      "username": "GamblingIsAllYouNeed",
-      "profit": 4547428.385813171,
-      "volume": 369316471.30595905,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf7c2664cb29240811d6a89dd3960ebbc03a79b8d",
-      "side": "BUY",
-      "asset": "78004485512230691363950395810630533336261603660897031050583371775426460723417",
-      "conditionId": "0xc55c934d4570040df226ab2c53b1f2e401a267c33045f44f8052aa38b05ab11f",
-      "size": 6200.008874,
-      "price": 0.529999999949115,
-      "timestamp": 1776851650,
-      "title": "Dota 2: South America Rejects vs MOUZ - Game 1 Winner",
-      "slug": "dota2-sar1-mouz-2026-04-22-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-sar1-mouz-2026-04-22",
-      "outcome": "MOUZ",
-      "outcomeIndex": 1,
-      "name": "spartachio",
-      "pseudonym": "Moist-Barium",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xcde6609d4d90fc7e6ebcd6bc4614e5078ba7807c5d5e2514d50b0df2eec8cca6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: South America Rejects vs MOUZ - Game 1 Winner",
-    "market_slug": "dota2-sar1-mouz-2026-04-22",
-    "amount": 3286.004702904512,
-    "ai_context": "\u2705 COPY \u2014 MOUZ has a strong recent performance, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nMOUZ has won 2 of their last 5 matches, including a 2-1 victory over Virtus.pro on April 21, 2026. (bo3.gg)\nSouth America Rejects has won 4 of their last 5 matches, including a 2-0 victory over Power Rangers on April 21, 2026. (tips.gg)\nWhile South America Rejects has a strong recent record, MOUZ's recent win against Virtus.pro suggests they are in good form.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "South America Rejects",
-      "checked_at": "2026-04-26T07:41:57.971395+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -3286.0
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7ce6a8269311ba51a5ef55295ab9f1c6ab2998924255d9ac1c82eb5c3f2ba2b5",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -29776,6 +29723,54 @@
     "market_slug": "dfb-bay-stu-2026-05-23",
     "amount": 571.9,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0411\u0430\u0432\u0430\u0440\u0438\u044f \u041c\u044e\u043d\u0445\u0435\u043d \u0441\u044b\u0433\u0440\u0430\u043b\u0430 \u0432\u043d\u0438\u0447\u044c\u044e 3-3 \u0441 \u0425\u0430\u0439\u0434\u0435\u043d\u0445\u0430\u0439\u043c\u043e\u043c 2 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (bundesliga.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u043c\u0430\u0442\u0447\u0435 16 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0411\u0430\u0432\u0430\u0440\u0438\u044f \u041c\u044e\u043d\u0445\u0435\u043d \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0430 \u041a\u0451\u043b\u044c\u043d \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 5-1. (sports.ru)",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x467e5dbfbca8a650ebd711f0b1ccc4899a38af8af74303072c5437630647c8d6",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbacd00c9080a82ded56f504ee8810af732b0ab35",
+      "side": "BUY",
+      "asset": "63756054444750273032342900213736494135377239401337354989820981541092393466748",
+      "conditionId": "0xd39905267d79b715f078279ef41f311b791c6e2c7361fea38011492b632212ef",
+      "size": 22222,
+      "price": 0.910989577895779,
+      "timestamp": 1779545552,
+      "title": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
+      "slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by-may-31-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/iran-agrees-to-end-enrichment-of-uranium-before-july-G-riWTpXuKoj.jpg",
+      "eventSlug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "ScottyNooo",
+      "pseudonym": "Dearest-Agenda",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-2861114-c1c15cef-e455-4932-9b26-66ad799b1a4a.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x467e5dbfbca8a650ebd711f0b1ccc4899a38af8af74303072c5437630647c8d6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran agrees to surrender enriched uranium stockpile by May 31, 2026?",
+    "market_slug": "iran-agrees-to-surrender-enriched-uranium-stockpile-by",
+    "amount": 1977.9896000000003,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n21 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0412\u0435\u0440\u0445\u043e\u0432\u043d\u044b\u0439 \u043b\u0438\u0434\u0435\u0440 \u0418\u0440\u0430\u043d\u0430 \u041c\u043e\u0434\u0436\u0442\u0430\u0431\u0430 \u0425\u0430\u043c\u0435\u043d\u0435\u0438 \u0440\u0430\u0441\u043f\u043e\u0440\u044f\u0434\u0438\u043b\u0441\u044f \u043d\u0435 \u0432\u044b\u0432\u043e\u0437\u0438\u0442\u044c \u043e\u0431\u043e\u0433\u0430\u0449\u0435\u043d\u043d\u044b\u0439 \u0443\u0440\u0430\u043d \u0438\u0437 \u0441\u0442\u0440\u0430\u043d\u044b (iranintl.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
