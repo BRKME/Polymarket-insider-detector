@@ -1,103 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x07fb1d33dff5279d52a31d9167897e2c84445925e9eb542beba07a8b989abf16",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x9a4c15bf163afaeb58e051e510ab44fb52c4298a",
-      "side": "BUY",
-      "asset": "32270411694523539495262303868629477861017829722282576458031815333486368239544",
-      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "size": 1320,
-      "price": 0.843,
-      "timestamp": 1776800622,
-      "title": "Will France win the 2026 FIFA World Cup?",
-      "slug": "will-france-win-the-2026-fifa-world-cup-924",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
-      "eventSlug": "2026-fifa-world-cup-winner-595",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "arlene9tia",
-      "pseudonym": "Regal-Monster",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x07fb1d33dff5279d52a31d9167897e2c84445925e9eb542beba07a8b989abf16",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will France win the 2026 FIFA World Cup?",
-    "market_slug": "2026-fifa-world-cup-winner-595",
-    "amount": 1112.76,
-    "ai_context": "\u274c SKIP \u2014 France's recent form and group draw suggest strong World Cup prospects.\nFrance secured their World Cup spot with an undefeated qualifying campaign, including a decisive 4-0 victory over Ukraine. (fifa.com) They lead the FIFA rankings as of April 2026. (inside.fifa.com) However, forward Hugo Ekitike will miss the tournament due to a serious injury. (vanguardngr.com) Despite this setback, France remains a formidable contender.",
-    "resolution_last_check": "2026-04-26T07:41:55.371452+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x8293decca9ca2c5d7e0016e0dbc2db14b8c96b45b6dd6cf95f5acdda514835b2",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa196c85c5c152cd9b04a7fb0612025d741665b78",
-      "side": "SELL",
-      "asset": "51624968071862988156613949776866798451717346851979110364161590066611593308533",
-      "conditionId": "0xbfe5dd0ac5320447e48b1944366025ba23b1f7cd69ff55e6ec3f4c3c57c26dd6",
-      "size": 2221.99,
-      "price": 0.84,
-      "timestamp": 1776800620,
-      "title": "Trail Blazers vs. Spurs",
-      "slug": "nba-por-sas-2026-04-21",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-por-sas-2026-04-21",
-      "outcome": "Spurs",
-      "outcomeIndex": 1,
-      "name": "booblyc",
-      "pseudonym": "Different-Airforce",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-71429-c9e1f865-49f7-462f-8b4b-c71f9e4b8ec5.JPG",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8293decca9ca2c5d7e0016e0dbc2db14b8c96b45b6dd6cf95f5acdda514835b2",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Trail Blazers vs. Spurs",
-    "market_slug": "nba-por-sas-2026-04-21",
-    "amount": 1866.4715999999999,
-    "ai_context": "\u2705 COPY \u2014 Spurs have dominated recent matchups against the Trail Blazers, winning 10 of their last 12 playoff games against them.\nIn their most recent game on April 19, 2026, the Spurs secured a 111-98 victory over the Trail Blazers. (cbssports.com) Additionally, the Spurs have a strong home-court advantage, boasting a 32-8 record at home this season. (espn.com)\nGiven the Spurs' recent form and historical success against the Trail Blazers, copying the bet appears to be a sound decision.",
-    "resolution": {
-      "outcome": "Trail Blazers",
-      "checked_at": "2026-04-26T07:41:56.548991+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1866.47
-    }
-  },
-  {
     "type": "WHALE_FLOW",
     "condition_id": "0xb2e14e405d3ceb259d29bc96b58f14aed47129af92dd6c5a0229e1fd39f12380",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
@@ -29664,5 +29566,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd3aa12a68505780ca5ebbfd4906a1b985f7e8444dd3b4c5cc454926de5db6017",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbde33ac3839672f1bd3fecfc0271ad95f07c4a49",
+      "side": "BUY",
+      "asset": "78097113871816411735845936974500214654216051185437846402937706109068560754336",
+      "conditionId": "0x607ea15a071ace90e23cc6aa4527da77c603bbd80fa0dca3912282fb64dfbd57",
+      "size": 7833.94,
+      "price": 0.63,
+      "timestamp": 1779532964,
+      "title": "Game Handicap: HLE (-1.5) vs Nongshim Red Force (+1.5)",
+      "slug": "lol-ns-hle1-2026-05-23-game-handicap-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-ns-hle1-2026-05-23",
+      "outcome": "Hanwha Life Esports",
+      "outcomeIndex": 0,
+      "name": "EomJunsik",
+      "pseudonym": "Drafty-Session",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-556002.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd3aa12a68505780ca5ebbfd4906a1b985f7e8444dd3b4c5cc454926de5db6017",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Game Handicap: HLE (-1.5) vs Nongshim Red Force (+1.5)",
+    "market_slug": "lol-ns-hle1-2026-05-23",
+    "amount": 4935.3822,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nHanwha Life Esports \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 23 \u0438\u0437 28 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Nongshim RedForce (82% \u043f\u043e\u0431\u0435\u0434)\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u0441\u043e\u0441\u0442\u043e\u044f\u043b\u0430\u0441\u044c 1 \u0434\u0435\u043d\u044c \u043d\u0430\u0437\u0430\u0434",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x306bb3c2241a7eb7138509c0372d047b4c1049b3cd157178bc32e82a74013b44",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d603dad31fac599c1de6b6002d066993460453d",
+      "side": "BUY",
+      "asset": "55432532077967681663063035387233467438704447529301189627000576338165987690236",
+      "conditionId": "0x013b3e9b1cb4cef2a17e6d986c6699ec5365791df0974f74dcb39d4b9c06db93",
+      "size": 1751.611525,
+      "price": 0.6850834108322049,
+      "timestamp": 1779532964,
+      "title": "Knicks vs. Cavaliers: O/U 222.5",
+      "slug": "nba-nyk-cle-2026-05-23-total-222pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-cle-2026-05-23",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "Ru386",
+      "pseudonym": "Chilly-Surrounds",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x306bb3c2241a7eb7138509c0372d047b4c1049b3cd157178bc32e82a74013b44",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Cavaliers: O/U 222.5",
+    "market_slug": "nba-nyk-cle-2026-05-23",
+    "amount": 551.611527,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
   }
 ]
