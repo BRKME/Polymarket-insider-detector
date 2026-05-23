@@ -1,78 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7ce6a8269311ba51a5ef55295ab9f1c6ab2998924255d9ac1c82eb5c3f2ba2b5",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7378865.850865024,
-      "volume": 445869547.2197669,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf0d5eb1cbe7350f1f896ade6c172e6700414c665",
-      "side": "BUY",
-      "asset": "110959653450933276250915064669875552310439627880508793089816880777942697720191",
-      "conditionId": "0x1d2787cb8aed975d092b2799ed6f4083e9445f7420cdc09e9d47e7d54356c6cd",
-      "size": 2215.97,
-      "price": 0.82,
-      "timestamp": 1776858554,
-      "title": "US x Iran ceasefire extended by April 22, 2026?",
-      "slug": "us-x-iran-ceasefire-extended-by-april-22-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-ceasefire-by-Cgmx3GCuOwjs.jpg",
-      "eventSlug": "us-x-iran-ceasefire-extended-by",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "yen4u",
-      "pseudonym": "Key-Sovereignty",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6949826-4cc07b96-61fb-489e-9643-a134dd6a0b50.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7ce6a8269311ba51a5ef55295ab9f1c6ab2998924255d9ac1c82eb5c3f2ba2b5",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran ceasefire extended by April 22, 2026?",
-    "market_slug": "us-x-iran-ceasefire-extended-by",
-    "amount": 1817.0953999999997,
-    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a ceasefire extension is likely.\nOn April 21, 2026, President Trump announced an indefinite extension of the ceasefire with Iran, citing internal divisions within the Iranian government as a key factor. The decision, made shortly before the ceasefire was due to expire, came after a national security meeting and marked a reversal of Trump\u2019s earlier statements against extending the truce.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:59.143245+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 398.87
-    }
-  },
-  {
-    "type": "WHALE_FLOW",
-    "condition_id": "0xff1cb2ae5368bfcf6e602290d33a836046951635fadb0384bf7b4c946d829b37",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 20101.0,
-    "total_volume": 20101.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 23,
-    "trade_count": 48,
-    "max_single_trade": 5144.0,
-    "yes_price": 0.535,
-    "strength": 70,
-    "timestamp": "2026-04-22T11:57:09.003013",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a lasting ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter truce in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) Given that GTA VI is scheduled for release on November 19, 2026, (thegta-6.",
-    "resolution_last_check": "2026-04-26T07:41:59.143294+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb0d7ea1328d62953d2a60bd632e4830b99c5ab2d5d0e07abda552adee373912c",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -29774,5 +29702,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x58aa909bc4250d6d9bc1f79b0a1dac04f3ecf4d14cbd42960a260ff8bbb934ef",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xec981ed70ae69c5cbcac08c1ba063e734f6bafcd",
+      "side": "BUY",
+      "asset": "18554248057114319908106414359959601882252066258345684716949455038572404844171",
+      "conditionId": "0xb2d0e0c3707005ecb72cdbe5109c572b96f629d4d2b4dfa6e29ae9f7b39c195f",
+      "size": 1250,
+      "price": 0.7,
+      "timestamp": 1779549164,
+      "title": "Dota 2: PARIVISION vs Team Spirit - Game 2 Winner",
+      "slug": "dota2-pari-ts8-2026-05-23-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
+      "eventSlug": "dota2-pari-ts8-2026-05-23",
+      "outcome": "PARIVISION",
+      "outcomeIndex": 0,
+      "name": "0xheavy888",
+      "pseudonym": "Nervous-Parallelogram",
+      "bio": "getting adversely selected",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-676309-f2f67538-7038-46ab-98e3-8ce979b9f0b2.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x58aa909bc4250d6d9bc1f79b0a1dac04f3ecf4d14cbd42960a260ff8bbb934ef",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Dota 2: PARIVISION vs Team Spirit - Game 2 Winner",
+    "market_slug": "dota2-pari-ts8-2026-05-23",
+    "amount": 875.0,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nPARIVISION \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-1 \u043f\u0440\u043e\u0442\u0438\u0432 FSP 21 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430\nH2H: PARIVISION \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2-0 \u0443 Team Spirit \u043d\u0430 The International 2025 (esports.ru)",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x4958c869745fdcc648136636eebd1df2f9c2c317ef2de0e79477c3d3d5a75343",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1e49df328c092e2ddee81631265712009cc4f8a",
+      "side": "BUY",
+      "asset": "89185512712511528416091211553485047950723640491884418133409514662993737656652",
+      "conditionId": "0x957a14d8611be56fb3150b39f5f11f072642c8a4003d6ad0641a3555096f9b9b",
+      "size": 2564.307691,
+      "price": 0.3899688023046997,
+      "timestamp": 1779549164,
+      "title": "Geneva Open: Mariano Navone vs Learner Tien",
+      "slug": "atp-navone-tien-2026-05-23",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-navone-tien-2026-05-23",
+      "outcome": "Mariano Navone",
+      "outcomeIndex": 0,
+      "name": "ImJabbathe888",
+      "pseudonym": "Disloyal-Pilgrimage",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7382857-dda9618f-3918-4ca4-bc72-96f5a96a04a0.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x4958c869745fdcc648136636eebd1df2f9c2c317ef2de0e79477c3d3d5a75343",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Geneva Open: Mariano Navone vs Learner Tien",
+    "market_slug": "atp-navone-tien-2026-05-23",
+    "amount": 999.999999,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u041c\u0430\u0440\u0438\u0430\u043d\u043e \u041d\u0430\u0432\u043e\u043d\u0435 \u0432\u044b\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430\u0434 \u041a\u0430\u0441\u043f\u0435\u0440\u043e\u043c \u0420\u0443\u0443\u0434\u043e\u043c 2-0 22 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
   }
 ]
