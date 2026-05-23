@@ -1,77 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x3596f8bdc433535988dc32d41591d98053683849b3b757a9a6a2abfa9e842876",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 30213.0,
-    "total_volume": 30213.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 6,
-    "trade_count": 9,
-    "max_single_trade": 10020.0,
-    "yes_price": 0.535,
-    "strength": 75,
-    "timestamp": "2026-04-22T08:15:24.864643",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is scheduled for release on November 19, 2026. (thegta-6.",
-    "resolution_last_check": "2026-04-26T07:41:56.549054+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2599d53034a39eb06b142a7882c6048d492b48d615d35335c7616ea14639dfc2",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd5d75539d4914aadfafd042c10141e5f45e44952",
-      "side": "BUY",
-      "asset": "56231474151770057648855426299021396541474371449092934400587810748856711049761",
-      "conditionId": "0x924a2942747dd75703321a7c8d809c68f6a514c3b0f2a2e64274e02310634669",
-      "size": 2890.022221,
-      "price": 0.8999999996885837,
-      "timestamp": 1776851052,
-      "title": "Strait of Hormuz traffic returns to normal by end of April?",
-      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
-      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Trippy.",
-      "pseudonym": "Another-Photograph-Activist",
-      "bio": "Just learned psychotrading.",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6579121-50a5030b-77c5-4014-a754-305f60b4b549.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2599d53034a39eb06b142a7882c6048d492b48d615d35335c7616ea14639dfc2",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Strait of Hormuz traffic returns to normal by end of April?",
-    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-april-30",
-    "amount": 2601.019998,
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate that the Strait of Hormuz remains closed, with no clear timeline for reopening.\nOn April 18, 2026, Iran announced the closure of the Strait of Hormuz, intensifying tensions with the United States. The UN reported a 95% drop in daily vessel transits over the past few months. (axios.com) Additionally, prediction markets reflect skepticism about a near-term resolution, with the \"No\" side priced at 88.5%. (prediction.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:41:56.549071+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 289.0
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xcde6609d4d90fc7e6ebcd6bc4614e5078ba7807c5d5e2514d50b0df2eec8cca6",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
@@ -29688,6 +29616,166 @@
     "market_slug": "lol-ns-hle1-2026-05-23",
     "amount": 1281.819999,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nNongshim RedForce \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 2 \u0438\u0437 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439: 1-2 \u043f\u0440\u043e\u0442\u0438\u0432 KT Rolster \u0438 2-0 \u043f\u0440\u043e\u0442\u0438\u0432 BNK FEARX. (sheepesports.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "market": "New York Mets vs. Miami Marlins",
+    "market_slug": "mlb-nym-mia-2026",
+    "event_slug": "mlb-nym-mia-2026",
+    "wallet": "0x2a2cc2cd402059d47d895d6fba6b33c2d0104879",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($4,596)",
+        "Low activity (14 txns)"
+      ],
+      "amount": 4596.12,
+      "odds": 0.51,
+      "raw_price": 0.51,
+      "outcome": "Miami Marlins",
+      "potential_pnl": 4415.88,
+      "pnl_multiplier": 0.9607843137254902,
+      "wallet_age_days": 0,
+      "total_activities": 14
+    },
+    "timestamp": "2026-05-23T12:43:12.931270",
+    "trade_hash": "0x23f019fa7dcba137788158b6f175217a3d2206ec1e28cd0e8133a627c30c0149",
+    "trade_timestamp": 1779539821,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Miami Marlins",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.51,
+      "effective_price": 0.51,
+      "size": 9012.0,
+      "amount": 4596.12,
+      "potential_pnl": 4415.88,
+      "pnl_multiplier": 0.9607843137254902,
+      "is_no": false,
+      "conditionId": "0x03d25bc37f9bd4b0da3bffbee2a3ba5b9fe41a4999f59fb162d4f16582124187",
+      "slug": "mlb-nym-mia-2026",
+      "eventSlug": "mlb-nym-mia-2026-05-23"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.242,
+      "market_price": 0.51,
+      "edge": 0.268,
+      "edge_percent": 26.8,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Mets maintain consistent performance",
+          "Marlins underperform relative to expectations",
+          "Injury impacts key players on opposing teams"
+        ],
+        "weakest_link": "Marlins underperform relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team performance trends",
+        "fan sentiment and market speculation"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.268,
+      "edge_percent": 26.8
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 26.8,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nMiami Marlins \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-1 \u043f\u0440\u043e\u0442\u0438\u0432 New York Mets 22 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5860c7f5243fb70f09d9208dd279095692e9edbb3cb5bf57026f4e4066cc6b20",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x39d3c773be30fcc73161fc6768f46d563a779ef0",
+      "side": "BUY",
+      "asset": "9451684260139477154464740748770340193480675084190369838032010433559264018407",
+      "conditionId": "0x0703ca3897b00f481ae8b7e81c4226f7018efd3cbad47d7f9466559912381e00",
+      "size": 817,
+      "price": 0.3,
+      "timestamp": 1779540131,
+      "title": "Will FC Bayern M\u00fcnchen win on 2026-05-23?",
+      "slug": "dfb-bay-stu-2026-05-23-bay",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/DFB-Pokal-ebed3c1834.png",
+      "eventSlug": "dfb-bay-stu-2026-05-23",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "matanovik",
+      "pseudonym": "Lost-Property",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5860c7f5243fb70f09d9208dd279095692e9edbb3cb5bf57026f4e4066cc6b20",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will FC Bayern M\u00fcnchen win on 2026-05-23?",
+    "market_slug": "dfb-bay-stu-2026-05-23",
+    "amount": 571.9,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0411\u0430\u0432\u0430\u0440\u0438\u044f \u041c\u044e\u043d\u0445\u0435\u043d \u0441\u044b\u0433\u0440\u0430\u043b\u0430 \u0432\u043d\u0438\u0447\u044c\u044e 3-3 \u0441 \u0425\u0430\u0439\u0434\u0435\u043d\u0445\u0430\u0439\u043c\u043e\u043c 2 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (bundesliga.com)\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u043c \u043c\u0430\u0442\u0447\u0435 16 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0411\u0430\u0432\u0430\u0440\u0438\u044f \u041c\u044e\u043d\u0445\u0435\u043d \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0430 \u041a\u0451\u043b\u044c\u043d \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 5-1. (sports.ru)",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
