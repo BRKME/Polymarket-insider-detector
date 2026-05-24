@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xde317668177a470c9f7bc0705b7ae151a08fe58fbe98ae0a3def64f51f7cf1a6",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x22f9c2f4358bd6fbc4ab20fd8ca62006b11af814",
-      "side": "SELL",
-      "asset": "8984239429162644330344697475702099997822159172761082810204278771255168843754",
-      "conditionId": "0x61e29e101898c1d572a46d355b0a34ca7b29553c2d1784c01589fb484c43aa3a",
-      "size": 3312.23,
-      "price": 0.4201509557005401,
-      "timestamp": 1777040946,
-      "title": "Madrid Open: Cameron Norrie vs Tomas Machac",
-      "slug": "atp-norrie-machac-2026-04-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-norrie-machac-2026-04-24",
-      "outcome": "Cameron Norrie",
-      "outcomeIndex": 0,
-      "name": "fffuiu",
-      "pseudonym": "Colorful-Domain",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xde317668177a470c9f7bc0705b7ae151a08fe58fbe98ae0a3def64f51f7cf1a6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Cameron Norrie vs Tomas Machac",
-    "market_slug": "atp-norrie-machac-2026-04-24",
-    "amount": 1391.6366,
-    "ai_context": "\u2705 COPY \u2014 Norrie has a 2-0 head-to-head record against Machac and is in solid form.\nNorrie has won their two previous encounters, including a three-set victory on clay in Geneva last year. (thestatszone.com) In his last five matches, Norrie has a 3-2 record, with recent wins over Stan Wawrinka and Miomir Kecmanovic. (betexplorer.com) Machac has a 4-2 record in his last six matches, with a recent win over Francisco Comesana. (sportytrader.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:42:16.897705+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1391.64
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xc54340083f73140e9d93cd40f550fcfb0ba56af2ec403a0a63ee531073ab178d",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30662,6 +30609,54 @@
     "market_slug": "sea-tor-juv-2026-05-24-more-markets",
     "amount": 1033.8824,
     "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 \u0422\u043e\u0440\u0438\u043d\u043e \u0437\u0430\u0431\u0438\u043b \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 0,8 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443, \u0430 \u042e\u0432\u0435\u043d\u0442\u0443\u0441 \u2014 1,37 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443. (365scores.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3922495b9aed61e69e8c5e24256f3771d66f16959c456ecfd90613e901ad9609",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe3611dada6c5ea53af7bf22e80e07c005f48ae44",
+      "side": "SELL",
+      "asset": "105212052362180514294216092991997662709529989148141331899580737929905325040807",
+      "conditionId": "0x8f3729942644d71826780259bbd9b481dfccfa8fd491d886e0bd9bd742fcdd7e",
+      "size": 1595.16,
+      "price": 0.39,
+      "timestamp": 1779658009,
+      "title": "LoL: LYON vs Team Liquid - Game 2 Winner",
+      "slug": "lol-ly-tl2-2026-05-24-game2",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-ly-tl2-2026-05-24",
+      "outcome": "Team Liquid",
+      "outcomeIndex": 1,
+      "name": "trgparking",
+      "pseudonym": "Productive-Vertigo",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3922495b9aed61e69e8c5e24256f3771d66f16959c456ecfd90613e901ad9609",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "LoL: LYON vs Team Liquid - Game 2 Winner",
+    "market_slug": "lol-ly-tl2-2026-05-24",
+    "amount": 973.0476,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 Team Liquid \u043e\u0434\u0435\u0440\u0436\u0430\u043b\u0430 2 \u043f\u043e\u0431\u0435\u0434\u044b \u0438 \u043f\u043e\u0442\u0435\u0440\u043f\u0435\u043b\u0430 3 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u044f, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043d\u0435\u0434\u0430\u0432\u043d\u0435\u0435 \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u0435 0-2 \u043e\u0442 Cloud9 16 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (tips.",
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
