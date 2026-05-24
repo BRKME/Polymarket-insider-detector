@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xd23c3afc66b4e9900e2fa37500024b1df10aa2d71cd794ab2cdf506105853d07",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 8,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 6483704.378309506,
-      "volume": 685804124.2506702,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x68c24bf4a8ad4d79a6fe4b8eec6f93a02dfd1711",
-      "side": "SELL",
-      "asset": "72094069823942324362885404801938332659316240217382754851102758232469673300092",
-      "conditionId": "0x0e4a0c937b8934c2475613b6322b3f8edc8dedc24762e01e42b0e6f87424a089",
-      "size": 10334.37,
-      "price": 0.3070009686125037,
-      "timestamp": 1777034932,
-      "title": "US x Iran permanent peace deal by May 31, 2026?",
-      "slug": "us-x-iran-permanent-peace-deal-by-may-31-2026-333",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
-      "eventSlug": "us-x-iran-permanent-peace-deal-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "mombil",
-      "pseudonym": "Common-Nitrogen",
-      "bio": "Halt Stop.",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/images_d4a56771-49fd-42ed-8b25-8a8a9d19e06c_1721385750911.jpeg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd23c3afc66b4e9900e2fa37500024b1df10aa2d71cd794ab2cdf506105853d07",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran permanent peace deal by May 31, 2026?",
-    "market_slug": "us-x-iran-permanent-peace-deal-by",
-    "amount": 3172.6616,
-    "ai_context": "\u274c SKIP \u2014 Recent diplomatic developments indicate significant challenges in reaching a permanent peace deal by May 31, 2026.\nOn April 12, 2026, U.S.-Iran negotiations in Pakistan ended without an agreement after 21 hours of discussions, with both sides failing to bridge significant differences. (axios.com) Additionally, on April 18, 2026, Iran announced the closure of the Strait of Hormuz and fired on oil tankers, escalating tensions with the United States. (axios.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:42:15.451891+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -3172.66
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xde317668177a470c9f7bc0705b7ae151a08fe58fbe98ae0a3def64f51f7cf1a6",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -30670,5 +30617,53 @@
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6eecaa1a90393bc34cd4b59b9efd1375569cf4248378595a257f0624beb00f45",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 21,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf658c7860763abde250bfe9793b10110430b655e",
+      "side": "BUY",
+      "asset": "87902634372234297226567081880976320351680766799820365854644496488389676394936",
+      "conditionId": "0x6069dbe2b45b8c6c4462dda69a416fa24ecc93806df90819f6c07c417243f83c",
+      "size": 2033.8824,
+      "price": 0.49167051153006686,
+      "timestamp": 1779655599,
+      "title": "Torino FC vs. Juventus FC: O/U 2.5",
+      "slug": "sea-tor-juv-2026-05-24-total-2pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
+      "eventSlug": "sea-tor-juv-2026-05-24-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "pinkboy",
+      "pseudonym": "Astonishing-Partnership",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7033643-f82cecba-ed52-4073-9756-a664ca0b05d2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6eecaa1a90393bc34cd4b59b9efd1375569cf4248378595a257f0624beb00f45",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Torino FC vs. Juventus FC: O/U 2.5",
+    "market_slug": "sea-tor-juv-2026-05-24-more-markets",
+    "amount": 1033.8824,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0430\u0445 \u0422\u043e\u0440\u0438\u043d\u043e \u0437\u0430\u0431\u0438\u043b \u0432 \u0441\u0440\u0435\u0434\u043d\u0435\u043c 0,8 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443, \u0430 \u042e\u0432\u0435\u043d\u0442\u0443\u0441 \u2014 1,37 \u0433\u043e\u043b\u0430 \u0437\u0430 \u0438\u0433\u0440\u0443. (365scores.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
