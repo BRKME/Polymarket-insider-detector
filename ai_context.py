@@ -204,48 +204,70 @@ def generate_trade_context(
             if gpt_text and len(gpt_text) >= 8:
                 results["GPT"] = gpt_text
         except Exception as e:
-            logger.warning(f"  GPT failed: {e}")
+            print(f"  ❌ GPT failed: {e}")
         
         # === Call Grok with X Search + Web Search ===
         if XAI_API_KEY:
             try:
                 import requests as req
+                grok_payload = {
+                    "model": "grok-4.1-fast",
+                    "input": [
+                        {"role": "system", "content": SYSTEM},
+                        {"role": "user", "content": prompt},
+                    ],
+                    "tools": [
+                        {"type": "x_search"},
+                        {"type": "web_search"},
+                    ],
+                }
+                print(f"  🔍 Grok: calling grok-4.1-fast with x_search+web_search...")
                 grok_response = req.post(
                     "https://api.x.ai/v1/responses",
                     headers={
                         "Content-Type": "application/json",
                         "Authorization": f"Bearer {XAI_API_KEY}",
                     },
-                    json={
-                        "model": "grok-4.1-fast",
-                        "input": [
-                            {"role": "system", "content": SYSTEM},
-                            {"role": "user", "content": prompt},
-                        ],
-                        "tools": [
-                            {"type": "x_search"},
-                            {"type": "web_search"},
-                        ],
-                    },
-                    timeout=30,
+                    json=grok_payload,
+                    timeout=60,  # Search needs more time
                 )
                 
                 if grok_response.status_code == 200:
                     grok_data = grok_response.json()
-                    # Extract text from output blocks
+                    # Debug: show response structure
+                    output = grok_data.get("output", [])
+                    output_types = [b.get("type") for b in output]
+                    print(f"  🔍 Grok response: {len(output)} blocks, types={output_types}")
+                    
+                    # Extract text from ALL possible block types
                     grok_text_parts = []
-                    for block in grok_data.get("output", []):
-                        if block.get("type") == "message":
+                    for block in output:
+                        btype = block.get("type")
+                        if btype == "message":
                             for content in block.get("content", []):
-                                if content.get("type") == "output_text":
+                                ctype = content.get("type")
+                                if ctype in ("output_text", "text"):
                                     grok_text_parts.append(content.get("text", ""))
+                        elif btype == "output_text":
+                            grok_text_parts.append(block.get("text", ""))
+                        elif btype == "text":
+                            grok_text_parts.append(block.get("text", ""))
+                    
                     grok_text = _clean_ai_response("\n".join(grok_text_parts).strip())
+                    
+                    if not grok_text:
+                        # Fallback: try output_text at top level
+                        grok_text = _clean_ai_response(grok_data.get("output_text", ""))
+                    
                     if grok_text and len(grok_text) >= 8:
                         results["Grok"] = grok_text
+                        print(f"  ✅ Grok: {grok_text[:60]}")
                     else:
-                        print(f"  ⚠️ Grok returned empty: '{grok_text[:50] if grok_text else 'None'}'")
+                        print(f"  ⚠️ Grok empty after parsing. Raw output keys: {list(grok_data.keys())}")
+                        if output:
+                            print(f"  ⚠️ First block: {str(output[0])[:200]}")
                 else:
-                    print(f"  ❌ Grok API error: HTTP {grok_response.status_code} — {grok_response.text[:100]}")
+                    print(f"  ❌ Grok HTTP {grok_response.status_code}: {grok_response.text[:200]}")
             except Exception as e:
                 print(f"  ❌ Grok exception: {e}")
         else:
