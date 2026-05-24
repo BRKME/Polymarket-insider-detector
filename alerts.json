@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x194c36629979a208e94148872f407673f924582429504b2666c5666282523988",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 16,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcc6e0ef500f1acea5df228a5b4f4dc97218cfa6f",
-      "side": "BUY",
-      "asset": "62154263067083721692020510963709952204410574469580619235646502497971117503326",
-      "conditionId": "0x631432a00db0083099f5e6ff52ba701a682e8acfe463f1f2904f859733f351cc",
-      "size": 7844.488491,
-      "price": 0.6299999999962181,
-      "timestamp": 1777022942,
-      "title": "Dota 2: Team Falcons vs Team Spirit (BO3) - PGL Wallachia Playoffs",
-      "slug": "dota2-flc-ts8-2026-04-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-flc-ts8-2026-04-24",
-      "outcome": "Team Falcons",
-      "outcomeIndex": 0,
-      "name": "5054JLhuy",
-      "pseudonym": "Musty-Engine",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x194c36629979a208e94148872f407673f924582429504b2666c5666282523988",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Team Falcons vs Team Spirit (BO3) - PGL Wallachia Playoffs",
-    "market_slug": "dota2-flc-ts8-2026-04-24",
-    "amount": 4942.027749300333,
-    "ai_context": "\u2705 COPY \u2014 Team Falcons have a strong recent head-to-head record against Team Spirit, including a 2-1 victory in their most recent match.\nIn their last five encounters, Team Falcons have won three times, drawn once, and lost once, with a map score of 5-4 in their favor. (bo3.gg) Additionally, in their most recent match on April 19, 2026, Team Falcons defeated Team Spirit 2-1. (sr.dltv.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Over",
-      "checked_at": "2026-04-26T07:42:14.315964+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -4942.03
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xd23c3afc66b4e9900e2fa37500024b1df10aa2d71cd794ab2cdf506105853d07",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -30603,5 +30550,125 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "market": "US announces new Iran agreement/ceasefire extension by May 31?",
+    "market_slug": "us-announces-new-iran-agreementceasefire-extension-by-may-31",
+    "event_slug": "us-announces-new-iran-agreementceasefire-extension-by-may-31",
+    "wallet": "0x88e3a8099158d040063cc604e6b61a720e96c06f",
+    "analysis": {
+      "score": 80,
+      "flags": [
+        "New wallet (4d old)",
+        "Large bet ($1,542)",
+        "Pre-event latency: 8897m"
+      ],
+      "amount": 1542.099999,
+      "odds": 0.38999999985584594,
+      "raw_price": 0.38999999985584594,
+      "outcome": "Yes",
+      "potential_pnl": 2412.002564,
+      "pnl_multiplier": 1.5641025650503226,
+      "wallet_age_days": 4,
+      "total_activities": 39
+    },
+    "timestamp": "2026-05-24T19:50:02.806233",
+    "trade_hash": "0xe79a8bd00669845fb0ff98d74f6ccd12c5b2facb5b4b10f389323a6113b83971",
+    "trade_timestamp": 1779651796,
+    "latency": {
+      "latency_seconds": 533804.0,
+      "latency_minutes": 8896.733333333334,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-24T19:43:16+00:00",
+      "event_time": "2026-05-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.38999999985584594,
+      "effective_price": 0.38999999985584594,
+      "size": 3954.102563,
+      "amount": 1542.099999,
+      "potential_pnl": 2412.002564,
+      "pnl_multiplier": 1.5641025650503226,
+      "is_no": false,
+      "conditionId": "0x6a8cfe84d17693425f27831db5949d7511f3393d4624b182ac6956164cd32b10",
+      "slug": "us-announces-new-iran-agreementceasefire-extension-by-may-31",
+      "eventSlug": "us-announces-new-iran-agreementceasefire-extension-by"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+24.0%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.1499999999711692,
+      "market_price": 0.38999999985584594,
+      "edge": 0.23999999988467674,
+      "edge_percent": 23.999999988467675,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Iran's willingness to negotiate in good faith",
+          "Support from key regional allies for a new agreement",
+          "Internal political stability within the US to pursue foreign policy initiatives"
+        ],
+        "weakest_link": "Iran's willingness to negotiate in good faith"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "Desire for regional stability among US allies",
+        "Pressure from international community for de-escalation"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 80,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 80,
+      "insider_position": "YES",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.23999999988467674,
+      "edge_percent": 23.999999988467675
+    },
+    "financial_analyst": {
+      "signal_quality": 49.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 24.0,
+      "signal_strength": 80.0,
+      "insider_score": 80.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0422\u0440\u0430\u043c\u043f \u0437\u0430\u044f\u0432\u0438\u043b, \u0447\u0442\u043e \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u0435 \u0441 \u0418\u0440\u0430\u043d\u043e\u043c \"\u0432 \u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0441\u0442\u0435\u043f\u0435\u043d\u0438 \u0441\u043e\u0433\u043b\u0430\u0441\u043e\u0432\u0430\u043d\u043e\" \u0438 \u0431\u0443\u0434\u0435\u0442 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u043e \"\u0432 \u0431\u043b\u0438\u0436\u0430\u0439\u0448\u0435\u0435 \u0432\u0440\u0435\u043c\u044f\" (ru.euronews.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
   }
 ]
