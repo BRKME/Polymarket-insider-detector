@@ -1,43 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x58154442c4f96d98355ab38a4d1e0e0b86d019fc2cc09e87426dd2acd1833c6e",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 37461.0,
-    "total_volume": 37461.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 7,
-    "trade_count": 7,
-    "max_single_trade": 37216.0,
-    "yes_price": 0.535,
-    "strength": 78,
-    "timestamp": "2026-04-23T11:12:06.001884",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations, including drone attacks. Prediction markets assign a mere 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.",
-    "resolution_last_check": "2026-04-26T07:42:06.664044+00:00"
-  },
-  {
-    "type": "WHALE_FLOW",
-    "condition_id": "0xa6959d23df63e51f9c643a164623f3895cd0d66012b0056f040c5c666cfff302",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 24705.0,
-    "total_volume": 24705.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 7,
-    "trade_count": 9,
-    "max_single_trade": 22341.0,
-    "yes_price": 0.53,
-    "strength": 72,
-    "timestamp": "2026-04-23T11:12:05.347898",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a low likelihood of a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 collapsed quickly, with both sides accusing each other of violations. Prediction markets assign only a 1.4% probability to a ceasefire by April 30, 2026, reflecting skepticism about near-term peace prospects. (agenticnews.site) GTA VI is confirmed to release on November 19, 2026. (thegta-6.",
-    "resolution_last_check": "2026-04-26T07:42:06.664052+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xae867ac1aa36145d66026e0045ec8d2f30998e310b0e7fda1882e2384535f324",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -30228,5 +30190,173 @@
       "model_correct": null,
       "pnl": -2448.73
     }
+  },
+  {
+    "market": "Will the Iran ceasefire continue through May 31?",
+    "market_slug": "will-the-iran-ceasefire-continue-through-may-31",
+    "event_slug": "will-the-iran-ceasefire-continue-through-may-31",
+    "wallet": "0x50da8d7b9404cd438fe80a0d9ed14dfb338f2202",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "Recent wallet (12d old)",
+        "Large bet ($5,396)",
+        "Pre-event latency: 9513m"
+      ],
+      "amount": 5395.999998,
+      "odds": 0.8893633885768314,
+      "raw_price": 0.8893633885768314,
+      "outcome": "Yes",
+      "potential_pnl": 671.2612220000001,
+      "pnl_multiplier": 0.12439978173624901,
+      "wallet_age_days": 12,
+      "total_activities": 41
+    },
+    "timestamp": "2026-05-24T09:29:32.103820",
+    "trade_hash": "0x60e74ef5d8c56aae243ed3d2e4474564f3376c6c4562eed7d3ad917d6139809d",
+    "trade_timestamp": 1779614796,
+    "latency": {
+      "latency_seconds": 570804.0,
+      "latency_minutes": 9513.4,
+      "is_pre_event": true,
+      "severity": "CRITICAL",
+      "trade_time": "2026-05-24T09:26:36+00:00",
+      "event_time": "2026-05-31T00:00:00+00:00"
+    },
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8893633885768314,
+      "effective_price": 0.8893633885768314,
+      "size": 6067.26122,
+      "amount": 5395.999998,
+      "potential_pnl": 671.2612220000001,
+      "pnl_multiplier": 0.12439978173624901,
+      "is_no": false,
+      "conditionId": "0x46c09232d356fdbe5e4e543ce1a4e90c84a6e3bd4668a24852fd25563e36b32a",
+      "slug": "will-the-iran-ceasefire-continue-through-may-31",
+      "eventSlug": "iran-ceasefire-continues-through"
+    },
+    "irrationality": {
+      "irrationality_score": 40,
+      "flags": [
+        "Category structurally prone to longshot bias",
+        "Large mispricing edge (+54.3%)"
+      ],
+      "category": "geopolitics",
+      "category_info": {
+        "strength": "high",
+        "typical_overpricing": 0.05,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.34587267771536634,
+      "market_price": 0.8893633885768314,
+      "edge": 0.543490710861465,
+      "edge_percent": 54.34907108614651,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "continued diplomatic engagement",
+          "absence of major military escalations",
+          "internal political stability in Iran"
+        ],
+        "weakest_link": "internal political stability in Iran"
+      },
+      "category": "geopolitics",
+      "narrative_drivers": [
+        "regional power dynamics",
+        "international diplomatic pressure"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 40,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.543490710861465,
+      "edge_percent": 54.34907108614651
+    },
+    "financial_analyst": {
+      "signal_quality": 47.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 54.35,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n21 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0421\u0428\u0410 \u043f\u0435\u0440\u0435\u0434\u0430\u043b\u0438 \u0418\u0440\u0430\u043d\u0443 \u043d\u043e\u0432\u044b\u0439 \u043f\u0440\u043e\u0435\u043a\u0442 \u043c\u0438\u0440\u043d\u043e\u0433\u043e \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f \u0447\u0435\u0440\u0435\u0437 \u043f\u0430\u043a\u0438\u0441\u0442\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u043f\u043e\u0441\u0440\u0435\u0434\u043d\u0438\u043a\u0430; \u0418\u0440\u0430\u043d \u0438\u0437\u0443\u0447\u0430\u0435\u0442 \u0442\u0435\u043a\u0441\u0442 \u0438 \u043f\u043e\u043a\u0430 \u043d\u0435 \u0434\u0430\u043b \u043e\u0442\u0432\u0435\u0442\u0430 (meduza.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x437bce1aea73eb6d721dd130b90dfccb288db476dfda3784ec85ba78e8264260",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe12cf41dae3e61794745c1481dcf87c2cd42e7c7",
+      "side": "BUY",
+      "asset": "41432167163772743276901296785152622545590317405316773030398167777513029616260",
+      "conditionId": "0x8873dcd1abb578210893c06a049e7afc4b37c80078400430f1226403e985931b",
+      "size": 3623.109061,
+      "price": 0.6304557661782183,
+      "timestamp": 1779614975,
+      "title": "AFC Ajax vs. FC Utrecht: Both Teams to Score",
+      "slug": "ere-aja-utr-2026-05-24-btts",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ere.png",
+      "eventSlug": "ere-aja-utr-2026-05-24-more-markets",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Kishen020",
+      "pseudonym": "Thorny-Snowboarding",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x437bce1aea73eb6d721dd130b90dfccb288db476dfda3784ec85ba78e8264260",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "AFC Ajax vs. FC Utrecht: Both Teams to Score",
+    "market_slug": "ere-aja-utr-2026-05-24-more-markets",
+    "amount": 2284.209999,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
   }
 ]
