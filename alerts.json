@@ -1,112 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x508a0fbe4a99d3bd04d343324dd9d98469949ccc334b386332bf6c0d8a59fb01",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xe16d3f2a5807999b358affd9445c3a09e45e5e30",
-      "side": "BUY",
-      "asset": "97766059610068466627441200557646714269817523631128930810121308935390489650180",
-      "conditionId": "0xda84ab070a4c662a787adedc3e2021513d9b5ab519a18f68358de66d281d072f",
-      "size": 17936.36364,
-      "price": 0.55,
-      "timestamp": 1777017838,
-      "title": "Dota 2: Team Liquid vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
-      "slug": "dota2-liquid-bb4-2026-04-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-liquid-bb4-2026-04-24",
-      "outcome": "BetBoom Team",
-      "outcomeIndex": 1,
-      "name": "0xE16D3F2A5807999b358aFfD9445C3a09E45E5e30-1776429210592",
-      "pseudonym": "Happy-Go-Lucky-Nestling",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x508a0fbe4a99d3bd04d343324dd9d98469949ccc334b386332bf6c0d8a59fb01",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Team Liquid vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
-    "market_slug": "dota2-liquid-bb4-2026-04-24",
-    "amount": 9865.000002,
-    "ai_context": "\u2705 COPY \u2014 BetBoom Team has a recent 2-0 victory over Team Liquid and has won 5 of their last 5 matches.\nIn their most recent encounter on April 19, 2026, BetBoom Team defeated Team Liquid 2-0 in the PGL Wallachia Season 8 group stage. (bo3.gg) Additionally, BetBoom Team has won 5 of their last 5 matches, indicating strong current form. (strafe.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Under",
-      "checked_at": "2026-04-26T07:42:11.671446+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -9865.0
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xe2fdc58cf6ca7003823ddb93fc9a520f7501d3e69202c1c5e1f6d5c60a65f871",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 8,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 6512188.837282531,
-      "volume": 685356346.4203528,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x69bf90e0d554ba596f967bb10ffc8b2d2bc00c5d",
-      "side": "BUY",
-      "asset": "57692761797988301439586361196036316184916935830964217937701561881618838227699",
-      "conditionId": "0x32a8f59d3990870a25c98edd12776fa995e5e94212c11fb12d0f787efd331da5",
-      "size": 2000,
-      "price": 0.51,
-      "timestamp": 1777022642,
-      "title": "LoL: Oh My God vs LNG Esports - Game 1 Winner",
-      "slug": "lol-omg-lng-2026-04-24-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-omg-lng-2026-04-24",
-      "outcome": "LNG Esports",
-      "outcomeIndex": 1,
-      "name": "rzpro",
-      "pseudonym": "Uncomfortable-Brand",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe2fdc58cf6ca7003823ddb93fc9a520f7501d3e69202c1c5e1f6d5c60a65f871",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Oh My God vs LNG Esports - Game 1 Winner",
-    "market_slug": "lol-omg-lng-2026-04-24",
-    "amount": 1020.0,
-    "ai_context": "\u2705 COPY \u2014 LNG Esports has a strong recent record against Oh My God, winning their last five encounters.\nIn their most recent match on January 16, 2026, LNG Esports defeated Oh My God 2-0, with 1xn earning the MVP title. (ggesports.com)\nAdditionally, LNG Esports has a 54% win rate over the past 30 days, while Oh My God has a 45% win rate. (tips.gg)\nGiven LNG Esports' consistent performance and favorable head-to-head record, the trader's bet is supported by recent data.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "LNG Esports",
-      "checked_at": "2026-04-26T07:42:13.029403+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 980.0
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x194c36629979a208e94148872f407673f924582429504b2666c5666282523988",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -30484,5 +30378,230 @@
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY"
+  },
+  {
+    "market": "Counter-Strike: ALGO Esports vs Omega (BO3) - Thunderpick World Championship European Series #1 Group B",
+    "market_slug": "cs2-algo1-omega1-2026",
+    "event_slug": "cs2-algo1-omega1-2026",
+    "wallet": "0x35611d315e2546a4f9394fdf68ca2444439bd87c",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($5,000)",
+        "Low activity (5 txns)"
+      ],
+      "amount": 4999.999999,
+      "odds": 0.3057741545587104,
+      "raw_price": 0.3057741545587104,
+      "outcome": "ALGO Esports",
+      "potential_pnl": 11351.937940999998,
+      "pnl_multiplier": 2.2703875886540774,
+      "wallet_age_days": 0,
+      "total_activities": 5
+    },
+    "timestamp": "2026-05-24T18:42:31.519295",
+    "trade_hash": "0x0d590c4d4a268074c80eb4a8bc74a9b1df3d2906fc523a3b3057afa364ba8c0f",
+    "trade_timestamp": 1779647798,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "ALGO Esports",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.3057741545587104,
+      "effective_price": 0.3057741545587104,
+      "size": 16351.93794,
+      "amount": 4999.999999,
+      "potential_pnl": 11351.937940999998,
+      "pnl_multiplier": 2.2703875886540774,
+      "is_no": false,
+      "conditionId": "0x60b68c9f3712a0e5d1e72595104509e4d8ff66d61ee25d143066d7151a5eaef9",
+      "slug": "cs2-algo1-omega1-2026",
+      "eventSlug": "cs2-algo1-omega1-2026-05-24"
+    },
+    "irrationality": {
+      "irrationality_score": 45,
+      "flags": [
+        "Crisis keyword detected ('strike')",
+        "Large mispricing edge (+18.5%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.12115483091174208,
+      "market_price": 0.3057741545587104,
+      "edge": 0.18461932364696831,
+      "edge_percent": 18.461932364696832,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "ALGO Esports must secure wins in both matches",
+          "Omega must underperform significantly",
+          "External factors (e.g., player injuries, team dynamics) must favor ALGO Esports"
+        ],
+        "weakest_link": "Omega must underperform significantly"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "ALGO Esports' recent performance trends",
+        "Omega's historical matchups against similar teams"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 45,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.18461932364696831,
+      "edge_percent": 18.461932364696832
+    },
+    "financial_analyst": {
+      "signal_quality": 48.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 18.46,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\nALGO Esports \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043f\u043e\u0434\u0440\u044f\u0434, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0-2 \u043f\u0440\u043e\u0442\u0438\u0432 Fnatic 23 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430\nH2H: ALGO Esports \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 OMEGA 1-2 28 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u0433\u043e\u0434\u0430",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "market": "Detroit Tigers vs. Baltimore Orioles",
+    "market_slug": "mlb-det-bal-2026",
+    "event_slug": "mlb-det-bal-2026",
+    "wallet": "0x0fa31507ef10930fab327026f517dd35b8b5c73f",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($5,500)",
+        "Low activity (15 txns)"
+      ],
+      "amount": 5500.0,
+      "odds": 0.88,
+      "raw_price": 0.88,
+      "outcome": "Detroit Tigers",
+      "potential_pnl": 750.0,
+      "pnl_multiplier": 0.13636363636363635,
+      "wallet_age_days": 0,
+      "total_activities": 15
+    },
+    "timestamp": "2026-05-24T18:42:40.750781",
+    "trade_hash": "0x260c4bd3d1dc943c1e40af32e117e5afecc34a6ad98ad147930c30962fa8b503",
+    "trade_timestamp": 1779647861,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Detroit Tigers",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.88,
+      "effective_price": 0.88,
+      "size": 6250.0,
+      "amount": 5500.0,
+      "potential_pnl": 750.0,
+      "pnl_multiplier": 0.13636363636363635,
+      "is_no": false,
+      "conditionId": "0xfa32fbf9f1e5cd8408450ab2e42e6e8140731836092f15dcc072ec8c11cb7b7a",
+      "slug": "mlb-det-bal-2026",
+      "eventSlug": "mlb-det-bal-2026-05-24"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+56.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.316,
+      "market_price": 0.88,
+      "edge": 0.5640000000000001,
+      "edge_percent": 56.400000000000006,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Tigers maintain strong performance",
+          "Orioles underperform",
+          "Injuries to key players on Orioles"
+        ],
+        "weakest_link": "Orioles underperform"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Tigers' recent winning streak",
+        "Public sentiment favoring Tigers"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5640000000000001,
+      "edge_percent": 56.400000000000006
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 56.4,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0414\u0435\u0442\u0440\u043e\u0439\u0442 \u0422\u0430\u0439\u0433\u0435\u0440\u0441 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 6 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u043e\u0434\u0440\u044f\u0434, \u043f\u0440\u043e\u043f\u0443\u0441\u0442\u0438\u0432 24 \u0440\u0430\u043d\u0430 (vseprosport.ru)\n\u0412 \u043b\u0430\u0437\u0430\u0440\u0435\u0442\u0435: \u0423\u0438\u043b\u043b \u0412\u0435\u0441\u0442, \u0422\u0430\u0439 \u041c\u044d\u0434\u0434\u0435\u043d, \u0422\u0440\u043e\u0439 \u041c\u0435\u043b\u0442\u043e\u043d, \u0422\u0430\u0440\u0438\u043a \u0421\u043a\u0443\u0431\u0430\u043b, \u041a\u0435\u0440\u0440\u0438 (vseprosport.ru)",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
