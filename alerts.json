@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc54340083f73140e9d93cd40f550fcfb0ba56af2ec403a0a63ee531073ab178d",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7ec78c17e24882845c39b3f501de6d40eaafc43e",
-      "side": "SELL",
-      "asset": "46668446687303885140278680016076956628363604690677961229493918907650258207961",
-      "conditionId": "0x65414628f108533d689721c6b2576dd83da43644bcfd62506444f1591ef32c31",
-      "size": 3882,
-      "price": 0.5,
-      "timestamp": 1777048454,
-      "title": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in April?",
-      "slug": "will-wti-crude-oil-wti-hit-high-100-in-april",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/crude-oil-9a850ce2a2.png",
-      "eventSlug": "what-price-will-wti-hit-in-april-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "AmirH008",
-      "pseudonym": "Creative-Trip",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc54340083f73140e9d93cd40f550fcfb0ba56af2ec403a0a63ee531073ab178d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in April?",
-    "market_slug": "what-price-will-wti-hit-in-april-2026",
-    "amount": 1941.0,
-    "ai_context": "\u2705 COPY \u2014 Recent market trends and forecasts suggest WTI Crude Oil is unlikely to reach $100 in April.\nWTI Crude Oil has been trading below $100 for the past several weeks, with prices hovering around $90. Analysts predict that, given current supply and demand dynamics, prices are expected to remain below $100 through April. (marketwatch.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:42:17.957417+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1941.0
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xc572a2311deabb899ab2325229551235d44404d17c92233545887da1158e2af7",
     "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
     "trader": {
@@ -30660,5 +30607,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x9b37dbdd5a63142c044694609b0a59a7d3e6d629092f6e3a6546dcf061605ac3",
+    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+    "trader": {
+      "rank": 21,
+      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
+      "username": "Jenzigo",
+      "profit": 4049827.0941029997,
+      "volume": 9457725.034338009,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa62a6c400f7d13c1c0d113e1a0a9700e147df05b",
+      "side": "BUY",
+      "asset": "95974431414472237097312182144616123688198749006896991543750684824184513285272",
+      "conditionId": "0x3d10d4d304861811a9ec2e63ecf5db2b8839f3110332e0e8f89c0556f76b05a4",
+      "size": 16149.706895,
+      "price": 0.5799999999938079,
+      "timestamp": 1779666143,
+      "title": "Thunder vs. Spurs",
+      "slug": "nba-okc-sas-2026-05-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-sas-2026-05-24",
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "name": "manxia",
+      "pseudonym": "Silver-Chance",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x9b37dbdd5a63142c044694609b0a59a7d3e6d629092f6e3a6546dcf061605ac3",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Spurs",
+    "market_slug": "nba-okc-sas-2026-05-24",
+    "amount": 6782.876896,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b San Antonio Spurs \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
   }
 ]
