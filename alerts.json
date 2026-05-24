@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x09d8990d0bdf86bed4337cded63b818e9a6a6200e9fba119ba70a2ee610798e6",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0eb75bf6f54794a83bd26095811f30b530161f17",
-      "side": "SELL",
-      "asset": "92430469735954963360049025962310229515467044409334320200786108488083599918032",
-      "conditionId": "0xc637ae2f8d5c241d44b93950a422bbd0988a872abb2d6f4f4c4e895681af5f29",
-      "size": 70414.29,
-      "price": 0.16758628113696808,
-      "timestamp": 1776989028,
-      "title": "Knicks vs. Hawks",
-      "slug": "nba-nyk-atl-2026-04-23",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-nyk-atl-2026-04-23",
-      "outcome": "Knicks",
-      "outcomeIndex": 0,
-      "name": "elshark206",
-      "pseudonym": "Untried-Android",
-      "bio": "All glory to GOD praisethelordjesuschrist",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5838103-f07161f5-62c8-4041-a834-5e418d7f280e.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x09d8990d0bdf86bed4337cded63b818e9a6a6200e9fba119ba70a2ee610798e6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Knicks vs. Hawks",
-    "market_slug": "nba-nyk-atl-2026-04-23",
-    "amount": 11800.469,
-    "ai_context": "\u2705 COPY \u2014 Knicks have won 3 of the last 4 matchups against the Hawks, including a recent 113-102 victory on April 18, 2026.\nNBA Schedule\nKnicks (NYK) @ Hawks (ATL) on Monday, Apr 06, 2026 at 04:00 PM PDT. Final score: NYK 108 - ATL 105\nHawks (ATL) @ Knicks (NYK) on Saturday, Apr 18, 2026 at 03:00 PM PDT. Final score: ATL 102 - NYK 113\nHawks (ATL) @ Knicks (NYK) on Monday, Apr 20, 2026 at 05:00 PM PDT.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Hawks",
-      "checked_at": "2026-04-26T07:42:10.477152+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -11800.47
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x508a0fbe4a99d3bd04d343324dd9d98469949ccc334b386332bf6c0d8a59fb01",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -30486,6 +30433,54 @@
     "market_slug": "mlb-cle-phi-2026-05-24",
     "amount": 1853.809999,
     "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nCleveland Guardians \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7 \u0438\u0437 10 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 1-0 \u043f\u0440\u043e\u0442\u0438\u0432 Philadelphia Phillies 22 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430.\nH2H: Guardians \u0432\u0435\u0434\u0443\u0442 3-1, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 3-1 26 \u0438\u044e\u043b\u044f 2024 \u0433\u043e\u0434\u0430. (espn.",
+    "ai_verdict": "COPY",
+    "ai_model": "GPT",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd4d3d0b5a6352c8e570f52e5b67b4962f686fa4fc5eb2e394a925711a4bff758",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa4b7b1814b0da33f2b61be4939976898aa476008",
+      "side": "BUY",
+      "asset": "93715576956757271609609097901666737169513941168429051709619763518604445653687",
+      "conditionId": "0x7da2328022bf3bdf1031ba70d2df4571c88d717bab8de9f2f1cbaccd1378c279",
+      "size": 5966.32,
+      "price": 0.12,
+      "timestamp": 1779643874,
+      "title": "Indian Premier League: Kolkata Knight Riders vs Delhi Capitals",
+      "slug": "cricipl-kol-del-2026-05-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "cricipl-kol-del-2026-05-24",
+      "outcome": "Kolkata Knight Riders",
+      "outcomeIndex": 0,
+      "name": "midwicket72",
+      "pseudonym": "Innocent-Classmate",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd4d3d0b5a6352c8e570f52e5b67b4962f686fa4fc5eb2e394a925711a4bff758",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Indian Premier League: Kolkata Knight Riders vs Delhi Capitals",
+    "market_slug": "cricipl-kol-del-2026-05-24",
+    "amount": 715.9584,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\nKolkata Knight Riders \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430\u0434 Delhi Capitals 29 \u0430\u043f\u0440\u0435\u043b\u044f 2025 \u0433\u043e\u0434\u0430 \u0441\u043e \u0441\u0447\u0451\u0442\u043e\u043c 204/9 \u043f\u0440\u043e\u0442\u0438\u0432 190/9. (timesofindia.indiatimes.",
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY"
