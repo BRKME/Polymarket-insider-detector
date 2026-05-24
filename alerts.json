@@ -1,43 +1,5 @@
 [
   {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x803169fab8468f5863266968d8b6bd28aa6ba78f94d343bc3caa68677c24bd1e",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 15198.0,
-    "total_volume": 15198.0,
-    "imbalance_pct": 100.0,
-    "unique_wallets": 10,
-    "trade_count": 10,
-    "max_single_trade": 14757.0,
-    "yes_price": 0.525,
-    "strength": 75,
-    "timestamp": "2026-04-23T18:14:48.587580",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a lasting Russia-Ukraine ceasefire before the scheduled release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual violations, with both Russia and Ukraine accusing each other of breaches, including drone attacks. This short-lived truce underscores the persistent distrust and ongoing hostilities between the two nations. (aljazeera.com)\nAdditionally, prediction markets assign a mere 1.",
-    "resolution_last_check": "2026-04-26T07:42:07.910840+00:00"
-  },
-  {
-    "type": "WHALE_FLOW",
-    "condition_id": "0x7febcd6728753347be73dae0a5dd7c459a5a459cb863090891712d32b9365c5a",
-    "market": "Russia-Ukraine Ceasefire before GTA VI?",
-    "market_slug": "russia-ukraine-ceasefire-before-gta-vi-554",
-    "event_slug": "",
-    "dominant_side": "YES",
-    "dominant_volume": 10829.0,
-    "total_volume": 15970.0,
-    "imbalance_pct": 67.8,
-    "unique_wallets": 16,
-    "trade_count": 16,
-    "max_single_trade": 9781.0,
-    "yes_price": 0.525,
-    "strength": 63,
-    "timestamp": "2026-04-23T18:14:48.004313",
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of significant progress toward a Russia-Ukraine ceasefire before the release of GTA VI.\nThe 32-hour Orthodox Easter ceasefire in April 2026 was marred by mutual accusations of violations, leading to its collapse and the resumption of hostilities. (en.wikipedia.org) Prediction markets reflect this skepticism, assigning only a 1.4% probability to an official ceasefire by April 30, 2026. (agenticnews.",
-    "resolution_last_check": "2026-04-26T07:42:07.910851+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xc23d57598a4fc73a2cae715cdc9af0a81af1dd486e58d08434f36f75f4af877d",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -30379,6 +30341,166 @@
     "market_slug": "lol-wb-lgd-2026-05-24",
     "amount": 1734.625625,
     "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 LGD Gaming \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
+  },
+  {
+    "market": "Roland Garros WTA: Emma Raducanu vs Solana Sierra",
+    "market_slug": "wta-raducan-sierra-2026",
+    "event_slug": "wta-raducan-sierra-2026",
+    "wallet": "0x7a3b286f55631e9bfa4f36e0e41dc836987588e5",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($3,152)",
+        "Low activity (12 txns)"
+      ],
+      "amount": 3152.2816,
+      "odds": 0.64,
+      "raw_price": 0.64,
+      "outcome": "Solana Sierra",
+      "potential_pnl": 1773.1583999999998,
+      "pnl_multiplier": 0.5625,
+      "wallet_age_days": 0,
+      "total_activities": 12
+    },
+    "timestamp": "2026-05-24T15:35:26.750685",
+    "trade_hash": "0xa9a766af000f1f6949598ad878e41e484a8b245249f1c235ea66ae4d213c8fad",
+    "trade_timestamp": 1779636447,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Solana Sierra",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.64,
+      "effective_price": 0.64,
+      "size": 4925.44,
+      "amount": 3152.2816,
+      "potential_pnl": 1773.1583999999998,
+      "pnl_multiplier": 0.5625,
+      "is_no": false,
+      "conditionId": "0x9795afdc9eca6ecb80edbc816e46b0c6c34753d812d769915b1bf8403030380c",
+      "slug": "wta-raducan-sierra-2026",
+      "eventSlug": "wta-raducan-sierra-2026-05-24"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+45.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.188,
+      "market_price": 0.64,
+      "edge": 0.452,
+      "edge_percent": 45.2,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Raducanu maintains peak physical condition",
+          "Sierra performs at an unexpectedly high level",
+          "External factors (e.g., weather, injuries) favor Sierra"
+        ],
+        "weakest_link": "Sierra performs at an unexpectedly high level"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Raducanu's recent performance trends",
+        "Sierra's potential for an upset"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.452,
+      "edge_percent": 45.2
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 45.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0421\u043e\u043b\u0430\u043d\u0430 \u0421\u0438\u0435\u0440\u0440\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 2-0 \u043d\u0430\u0434 \u041a\u0430\u0440\u043e\u043b\u044c \u041c\u043e\u043d\u043d\u0435 12 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (vseprosport.ru)\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u043c\u0435\u0436\u0434\u0443 \u042d\u043c\u043c\u043e\u0439 \u0420\u0430\u0434\u0443\u043a\u0430\u043d\u0443 \u0438 \u0421\u043e\u043b\u0430\u043d\u043e\u0439 \u0421\u0438\u0435\u0440\u0440\u043e\u0439 \u043d\u0435\u0442.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x358b5db3d80769433b98843048a779e088634f150a90cd20e1448df6e68145d2",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfc04e014f3e520191b5f456ca6a47f93b0a14f75",
+      "side": "BUY",
+      "asset": "64703998724474008677827057135436893758254552168142785204605792475717308499827",
+      "conditionId": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a",
+      "size": 17695.2,
+      "price": 0.76,
+      "timestamp": 1779636638,
+      "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+      "slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-keiko-fujimori-win-the-2026-peruvian-presidential-election-U834gpRSgT_T.jpg",
+      "eventSlug": "peru-presidential-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "marchonnow",
+      "pseudonym": "Bare-Mambo",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x358b5db3d80769433b98843048a779e088634f150a90cd20e1448df6e68145d2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+    "market_slug": "peru-presidential-election-winner",
+    "amount": 13448.352,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0435 \u041a\u0435\u0439\u043a\u043e \u0424\u0443\u0434\u0436\u0438\u043c\u043e\u0440\u0438 \u043d\u0430 \u043f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442\u0441\u043a\u0438\u0445 \u0432\u044b\u0431\u043e\u0440\u0430\u0445 2026 \u0433\u043e\u0434\u0430 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u0432\u044b\u0431\u043e\u0440\u044b \u0432 \u041f\u0435\u0440\u0443 \u0441\u043e\u0441\u0442\u043e\u044f\u043b\u0438\u0441\u044c \u0432 2021 \u0433\u043e\u0434\u0443, \u043d\u043e\u0432\u044b\u0445 \u043e\u043f\u0440\u043e\u0441\u043e\u0432 \u0438\u043b\u0438 \u043d\u043e\u0432\u043e\u0441\u0442\u0435\u0439 \u043e \u043f\u0440\u0435\u0434\u0441\u0442\u043e\u044f\u0449\u0438\u0445 \u0432\u044b\u0431\u043e\u0440\u0430\u0445 \u043d\u0435\u0442",
     "ai_verdict": "NO_DATA",
     "ai_model": "GPT",
     "ai_consensus": "NO_DATA"
