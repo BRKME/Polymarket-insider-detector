@@ -1,58 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xae867ac1aa36145d66026e0045ec8d2f30998e310b0e7fda1882e2384535f324",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xb517cf918d88602c084a040037cc3ffe1355434b",
-      "side": "BUY",
-      "asset": "71542364033580893400303127670162293821041428054648665352463920686928706969880",
-      "conditionId": "0xfc2e5ef2a281e17db8c02edb3d11bf7f07e67382622469a6ee7e47a586541ead",
-      "size": 3308.058436,
-      "price": 0.6363249137597762,
-      "timestamp": 1776945300,
-      "title": "Dota 2: Aurora vs Heroic - Game 2 Winner",
-      "slug": "dota2-aur1-heroic-2026-04-23-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-aur1-heroic-2026-04-23",
-      "outcome": "Aurora",
-      "outcomeIndex": 0,
-      "name": "dadada22",
-      "pseudonym": "Calculating-Millennium",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xae867ac1aa36145d66026e0045ec8d2f30998e310b0e7fda1882e2384535f324",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Aurora vs Heroic - Game 2 Winner",
-    "market_slug": "dota2-aur1-heroic-2026-04-23",
-    "amount": 2104.999999,
-    "ai_context": "\u2705 COPY \u2014 Aurora has a favorable head-to-head record against Heroic, winning 6 out of 12 encounters.\nIn their most recent match on December 13, 2025, Aurora defeated Heroic 2-1. (egamersworld.com) Additionally, Aurora has shown strong recent form, securing victories in their last five matches, including wins against PARIVISION and 1w Team. (egamersworld.com)\nGiven Aurora's positive head-to-head record and recent strong performances, the trader's bet on Aurora is supported by the available data.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Over",
-      "checked_at": "2026-04-26T07:42:07.910758+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2105.0
-    }
-  },
-  {
     "type": "WHALE_FLOW",
     "condition_id": "0x615fc52443db6c13cf807a33a10df6fa5b700b44d42f56935d7d9a6445672cb9",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
@@ -30355,6 +30302,54 @@
     "market_slug": "ere-aja-utr-2026-05-24-more-markets",
     "amount": 2284.209999,
     "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "GPT",
+    "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x50d55cfa3e34ade5e54942b8493565bb6d1a7c403d7b52e851f088b85116f636",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 4,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9088901.527246565,
+      "volume": 580033267.3109591,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x2f0bec54f4f26f749af2db20e52729427a7a5577",
+      "side": "BUY",
+      "asset": "87933123144726310890811402999205755158846490812620156880478257515914162286783",
+      "conditionId": "0x8d8e0630bd63491f2a77d1e0fb0f2750ec4ff118151bade96b00700813d7c467",
+      "size": 10383.415509,
+      "price": 0.48153711990685205,
+      "timestamp": 1779620083,
+      "title": "St. Louis Cardinals vs. Cincinnati Reds",
+      "slug": "mlb-stl-cin-2026-05-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-stl-cin-2026-05-24",
+      "outcome": "St. Louis Cardinals",
+      "outcomeIndex": 0,
+      "name": "traderwins180",
+      "pseudonym": "Drab-Mom",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x50d55cfa3e34ade5e54942b8493565bb6d1a7c403d7b52e851f088b85116f636",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "St. Louis Cardinals vs. Cincinnati Reds",
+    "market_slug": "mlb-stl-cin-2026-05-24",
+    "amount": 4999.999999000001,
+    "ai_context": "[CONSENSUS:NO_DATA] [GPT] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u043a\u043e\u043c\u0430\u043d\u0434\u044b \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\n\u041c\u0430\u0442\u0447 \u0435\u0449\u0451 \u043d\u0435 \u0430\u043d\u043e\u043d\u0441\u0438\u0440\u043e\u0432\u0430\u043d",
     "ai_verdict": "NO_DATA",
     "ai_model": "GPT",
     "ai_consensus": "NO_DATA"
