@@ -1,58 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x2bc8da293571c799294f87a2d9eb4b45be057ee2a10ef6ff64009b0c0b2b9da6",
-    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-    "trader": {
-      "rank": 10,
-      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-      "username": "walletmobile",
-      "profit": 5942685.45339684,
-      "volume": 32196692.075936034,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x02571ed3bfa4162c80b288310745503275a822b2",
-      "side": "SELL",
-      "asset": "43039489606620012356637526705255798725566831498132376180838488246982982629742",
-      "conditionId": "0x348e242d17cacf0c0c9455c8238d0d5bfb5f42f7faf7e54aa0547f0e09543253",
-      "size": 2000,
-      "price": 0.9,
-      "timestamp": 1776938392,
-      "title": "Madrid Open: Belinda Bencic vs Petra Marcinko",
-      "slug": "wta-bencic-marcink-2026-04-23",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
-      "eventSlug": "wta-bencic-marcink-2026-04-23",
-      "outcome": "Belinda Bencic",
-      "outcomeIndex": 0,
-      "name": "kkkkkkmoji",
-      "pseudonym": "Good-Natured-Announcement",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3421351-a281d01d-a9b8-448d-a53c-046f3bbaf770.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2bc8da293571c799294f87a2d9eb4b45be057ee2a10ef6ff64009b0c0b2b9da6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Belinda Bencic vs Petra Marcinko",
-    "market_slug": "wta-bencic-marcink-2026-04-23",
-    "amount": 1800.0,
-    "ai_context": "\u2705 COPY \u2014 Belinda Bencic has a strong recent record and a favorable head-to-head against Petra Marcinko.\nBencic has a 14-5 singles record in 2026, including a win over Marie Bouzkova and a close loss to Linda Noskova in the Billie Jean King Cup. (espn.com) She has also reached the quarterfinals in both Miami and Charleston. (thestatszone.com) Marcinko, on the other hand, has a 57-26 record over the past 52 weeks but has not faced Bencic before. (tennisratio.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Belinda Bencic",
-      "checked_at": "2026-04-26T07:42:06.663972+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 200.0
-    }
-  },
-  {
     "type": "WHALE_FLOW",
     "condition_id": "0x0116eca70c05363c322fda4cb3aa8e4745dfcf235087667a1d8b775bbe8c3c01",
     "market": "Russia-Ukraine Ceasefire before GTA VI?",
@@ -30012,5 +29959,53 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "GPT",
     "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7cd331960c4c1f62aa4286f27d6bf1f4a889ba8661cf98ca2630d8ab50c797bb",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 21,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4217143.83865813,
+      "volume": 476826628.21783286,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x747c0545add7a5c6508e0ea45b6e7810fa700412",
+      "side": "BUY",
+      "asset": "48266155784016844137166283546442505319002353733298913457784203021568892550163",
+      "conditionId": "0x5dc96d5b6d416507a833231f23a08c69cd04592031519e2d225e2d9860e978cf",
+      "size": 9066.759353,
+      "price": 0.30959021737697595,
+      "timestamp": 1779597104,
+      "title": "Will Arsenal FC win on 2026-05-30?",
+      "slug": "ucl-psg-ars-2026-05-30-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-psg-ars-2026-05-30",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "MOVAMONE",
+      "pseudonym": "General-Investment",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7cd331960c4c1f62aa4286f27d6bf1f4a889ba8661cf98ca2630d8ab50c797bb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-05-30?",
+    "market_slug": "ucl-psg-ars-2026-05-30",
+    "amount": 2806.9799989999997,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0410\u0440\u0441\u0435\u043d\u0430\u043b \u0432\u044b\u0438\u0433\u0440\u0430\u043b 13 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 20 \u043c\u0430\u0442\u0447\u0435\u0439 \u0432 \u041f\u0440\u0435\u043c\u044c\u0435\u0440-\u043b\u0438\u0433\u0435, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u044b \u043d\u0430\u0434 \u0412\u0435\u0441\u0442 \u0425\u044d\u043c\u043e\u043c (1:0) 10 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430 \u0438 \u0424\u0443\u043b\u0445\u044d\u043c\u043e\u043c (3:0) 2 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (bombardir.",
+    "ai_verdict": "SKIP",
+    "ai_model": "GPT",
+    "ai_consensus": "SKIP"
   }
 ]
