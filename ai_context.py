@@ -2,7 +2,7 @@
 AI Context Layer v5 — A/B test: GPT vs Grok.
 
 GPT: gpt-4o-mini-search-preview (web search)
-Grok: grok-3-mini-fast (xAI, real-time X/Twitter data)
+Grok: grok-4.3 (xAI, X Search + Web Search)
 
 A/B: alternates by minute (even=GPT, odd=Grok).
 Model name tagged in response for WR tracking.
@@ -211,7 +211,7 @@ def generate_trade_context(
             try:
                 import requests as req
                 grok_payload = {
-                    "model": "grok-4.1-fast",
+                    "model": "grok-4.3",
                     "input": [
                         {"role": "system", "content": SYSTEM},
                         {"role": "user", "content": prompt},
@@ -221,7 +221,7 @@ def generate_trade_context(
                         {"type": "web_search"},
                     ],
                 }
-                print(f"  🔍 Grok: calling grok-4.1-fast with x_search+web_search...")
+                print(f"  🔍 Grok: calling grok-4.3 with x_search+web_search...")
                 grok_response = req.post(
                     "https://api.x.ai/v1/responses",
                     headers={
