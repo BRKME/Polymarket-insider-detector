@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x805ca535364ba576e34c8369d592b9324395481482e932fc5cfb26fe45555085",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x74e6c1260ac5448c00eb63e1f6894ecd090c99e8",
-      "side": "BUY",
-      "asset": "51403696226678951197581898561863796846994016290127405301714285241600263355827",
-      "conditionId": "0xe6770972b8d072a4064980d7105180ed7977361c47570529fd582e6dd3041277",
-      "size": 1658,
-      "price": 0.8867792521109771,
-      "timestamp": 1777053858,
-      "title": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
-      "slug": "will-the-criminal-investigation-into-jerome-powell-be-dropped-by-april-30-918",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/trump-drops-powell-investigation-by-january-31-XL7DXWE5-zON.jpg",
-      "eventSlug": "trump-drops-powell-investigation-by",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "manchot",
-      "pseudonym": "Criminal-Raisin",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x805ca535364ba576e34c8369d592b9324395481482e932fc5cfb26fe45555085",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the criminal investigation into Jerome Powell be dropped by April 30?",
-    "market_slug": "trump-drops-powell-investigation-by",
-    "amount": 1470.28,
-    "ai_context": "\u2705 COPY \u2014 The Department of Justice has dropped its criminal investigation into Jerome Powell, making the trader's bet on the investigation being dropped by April 30 correct.\nOn April 24, 2026, U.S. Attorney Jeanine Pirro announced the closure of the investigation into Powell, which had focused on alleged cost overruns in the Federal Reserve's building renovation project.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-04-26T07:42:20.533329+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 187.72
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x068ffbdc28359f6f0655701afe800aae0ef7ab410a2e8e5f5d32272b6acd2961",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30803,5 +30750,53 @@
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb3d0b076d8905b91f687e6f3a4b628307b4a93c4443ff556b6fe5e6f0263ef9a",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692175,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xafac3978537771688598b0b65b9bb222e8318730",
+      "side": "BUY",
+      "asset": "57882772171859720176153142863485010010619543819800280645770046858032955204730",
+      "conditionId": "0x594a53d612880a6044b3ba278f00de4c2df63984c7269df6d183aef391cfd2dd",
+      "size": 10785.914346,
+      "price": 0.4590199625343845,
+      "timestamp": 1779736377,
+      "title": "Roland Garros WTA: Anastasia Zakharova vs Karolina Muchova",
+      "slug": "wta-zakharo-muchova-2026-05-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-zakharo-muchova-2026-05-24",
+      "outcome": "Anastasia Zakharova",
+      "outcomeIndex": 0,
+      "name": "gysh.qs",
+      "pseudonym": "Legal-Majority",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb3d0b076d8905b91f687e6f3a4b628307b4a93c4443ff556b6fe5e6f0263ef9a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros WTA: Anastasia Zakharova vs Karolina Muchova",
+    "market_slug": "wta-zakharo-muchova-2026-05-24",
+    "amount": 4950.9499989999995,
+    "ai_context": "[CONSENSUS:SKIP] [GPT] \u274c SKIP\n\u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u0417\u0430\u0445\u0430\u0440\u043e\u0432\u0430 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0430 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 0-2 \u043f\u0440\u043e\u0442\u0438\u0432 \u0414\u0430\u0440\u044c\u0438 \u041a\u0430\u0441\u0430\u0442\u043a\u0438\u043d\u043e\u0439 17 \u043c\u0430\u044f 2026 \u0433\u043e\u0434\u0430. (vseprosport.\n[Grok] \u2705 SKIP\nZakharova 2026: 19-15, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 \u0432 \u0420\u0438\u043c\u0435 \u043d\u0430\u0434 \u042f\u0441\u0442\u0440\u0435\u043c\u0441\u043a\u043e\u0439\nH2H: \u043c\u0430\u0442\u0447\u0435\u0439 \u043c\u0435\u0436\u0434\u0443 Zakharova \u0438 Muchova \u043d\u0435 \u0431\u044b\u043b\u043e (Muchova 22-6 \u0432 2026)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SKIP"
   }
 ]
