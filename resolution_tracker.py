@@ -522,20 +522,10 @@ def run_resolution_check():
             update_by_bucket(stats, "by_signal_type", signal_type, insider_win, model_correct)
             update_by_bucket(stats, "by_category", category, insider_win, model_correct)
             
-            # Track AI verdict accuracy
+            # Track AI verdict accuracy (Grok only now)
             ai_verdict = alert.get("ai_verdict", "NONE")
             if ai_verdict != "NONE":
                 update_by_bucket(stats, "by_ai_verdict", ai_verdict, insider_win, model_correct)
-            
-            # Track AI model accuracy (GPT vs Grok A/B test)
-            ai_model = alert.get("ai_model", "NONE")
-            if ai_model not in ("NONE", "UNKNOWN"):
-                update_by_bucket(stats, "by_ai_model", ai_model, insider_win, model_correct)
-            
-            # Track AI consensus (both models agree)
-            ai_consensus = alert.get("ai_consensus", "NONE")
-            if ai_consensus not in ("NONE",):
-                update_by_bucket(stats, "by_ai_consensus", ai_consensus, insider_win, model_correct)
 
             newly_resolved += 1
             position = alert.get("trade_data", {}).get("outcome") or alert.get("trade", {}).get("outcome", "?")
@@ -639,26 +629,6 @@ def run_resolution_check():
                 wr = data["insider_wins"] / total * 100
                 print(f"    AI_{v}: {data['insider_wins']}/{total} ({wr:.1f}% win rate)")
 
-    # Per AI model (A/B test)
-    if stats.get("by_ai_model"):
-        print()
-        print("  BY AI MODEL:")
-        for m, data in sorted(stats["by_ai_model"].items()):
-            total = data["insider_wins"] + data["insider_losses"]
-            if total > 0:
-                wr = data["insider_wins"] / total * 100
-                print(f"    {m}: {data['insider_wins']}/{total} ({wr:.1f}% win rate)")
-
-    # AI consensus
-    if stats.get("by_ai_consensus"):
-        print()
-        print("  BY AI CONSENSUS:")
-        for c, data in sorted(stats["by_ai_consensus"].items()):
-            total = data["insider_wins"] + data["insider_losses"]
-            if total > 0:
-                wr = data["insider_wins"] / total * 100
-                print(f"    {c}: {data['insider_wins']}/{total} ({wr:.1f}% win rate)")
-
     # Send Telegram summary if there were new resolutions
     # Send daily summary (always — even without new resolutions)
     if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
@@ -711,32 +681,6 @@ def send_resolution_summary(stats: Dict, newly_resolved: int):
             ai_parts.append(f"AI_{v}: {w/t*100:.0f}%")
     if ai_parts:
         msg += "\n🤖 " + " · ".join(ai_parts)
-
-    # Model A/B test
-    by_model = stats.get("by_ai_model", {})
-    model_parts = []
-    for m in ["GPT", "Grok"]:
-        data = by_model.get(m, {})
-        w = data.get("insider_wins", 0)
-        l = data.get("insider_losses", 0)
-        t = w + l
-        if t >= 3:
-            model_parts.append(f"{m}: {w/t*100:.0f}%")
-    if model_parts:
-        msg += "\n⚔️ " + " vs ".join(model_parts)
-
-    # Consensus stats
-    by_cons = stats.get("by_ai_consensus", {})
-    cons_parts = []
-    for c in ["COPY", "SKIP", "SPLIT"]:
-        data = by_cons.get(c, {})
-        w = data.get("insider_wins", 0)
-        l = data.get("insider_losses", 0)
-        t = w + l
-        if t >= 3:
-            cons_parts.append(f"Both_{c}: {w/t*100:.0f}%")
-    if cons_parts:
-        msg += "\n🤝 " + " · ".join(cons_parts)
 
     try:
         url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
