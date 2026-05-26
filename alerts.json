@@ -1,52 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x4bece8016b90002b6a55784359e2c25268f46f503c92789b5b0d73126a77681b",
-    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
-    "trader": {
-      "rank": 20,
-      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
-      "username": "reachingthesky",
-      "profit": 3742635.156562068,
-      "volume": 13750266.834776,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5a073781f06ab3d3c38c26ca5cc3110d78fb923f",
-      "side": "SELL",
-      "asset": "40103576705589635006325323490847435671390893620422996250421566705589161919719",
-      "conditionId": "0x4fa0fe6c6301cab7a0615c7c8f212d9d1416bf2bf7ef13fa4a51a6d654aa5ca4",
-      "size": 1799.43,
-      "price": 0.85,
-      "timestamp": 1777104276,
-      "title": "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend",
-      "slug": "lol-tes-nip-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-tes-nip-2026-04-25",
-      "outcome": "Top Esports",
-      "outcomeIndex": 0,
-      "name": "ProphetHunter",
-      "pseudonym": "Leafy-Pathology",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3902982-f3594270-832c-4a92-9f9a-4d820927c321.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4bece8016b90002b6a55784359e2c25268f46f503c92789b5b0d73126a77681b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Top Esports vs Ninjas in Pyjamas (BO3) - LPL Group Ascend",
-    "market_slug": "lol-tes-nip-2026-04-25",
-    "amount": 1529.5155,
-    "ai_context": "\u2705 COPY \u2014 Top Esports has a strong recent record and a perfect head-to-head against Ninjas in Pyjamas.\nThey've won 6 of their last 10 matches, including a 2-0 sweep over Invictus Gaming on January 25, 2026. (ggesports.com) In contrast, Ninjas in Pyjamas have won 5 of their last 10 matches, with a recent 2-1 loss to Team WE on January 25, 2026. (ggesports.com) Additionally, Top Esports has a 10-0 head-to-head record against Ninjas in Pyjamas in their last 10 encounters. (strafe.com)",
-    "ai_verdict": "COPY"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1c01585817a8c30f285d8d2b151bd8aab186f0f2f8c3fbbd73351d7de02abbd7",
     "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
     "trader": {
@@ -27457,5 +27411,117 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "market": "Roland Garros ATP (Doubles): Kittay/Ram vs Bublik/Shevchenko",
+    "market_slug": "atp-doubles-kittram-bublshe-2026",
+    "event_slug": "atp-doubles-kittram-bublshe-2026",
+    "wallet": "0xe3fd5067b98e43b552eaa09a4edc1262068de92d",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,209)",
+        "Low activity (10 txns)"
+      ],
+      "amount": 1209.219999,
+      "odds": 0.5099999999746945,
+      "raw_price": 0.5099999999746945,
+      "outcome": "Kittay/Ram",
+      "potential_pnl": 1161.799607,
+      "pnl_multiplier": 0.9607843138227818,
+      "wallet_age_days": 1,
+      "total_activities": 10
+    },
+    "timestamp": "2026-05-26T22:39:40.239514",
+    "trade_hash": "0x7b3c7fce6923f4232bcd6bc6b376766452cc31714ee1e248a167e7f6fc333c61",
+    "trade_timestamp": 1779834587,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Kittay/Ram",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.5099999999746945,
+      "effective_price": 0.5099999999746945,
+      "size": 2371.019606,
+      "amount": 1209.219999,
+      "potential_pnl": 1161.799607,
+      "pnl_multiplier": 0.9607843138227818,
+      "is_no": false,
+      "conditionId": "0xdcbc105a8c814c91f127bb1a7ed687c8e0d9ee36985e2d06cc3a51e45635f22d",
+      "slug": "atp-doubles-kittram-bublshe-2026",
+      "eventSlug": "atp-doubles-kittram-bublshe-2026-05-26"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+26.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.24199999999493887,
+      "market_price": 0.5099999999746945,
+      "edge": 0.2679999999797556,
+      "edge_percent": 26.79999999797556,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Kittay/Ram perform exceptionally well",
+          "Bublik/Shevchenko underperform",
+          "external factors favor Kittay/Ram (e.g., weather, injuries)"
+        ],
+        "weakest_link": "Bublik/Shevchenko underperform"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "recent performance trends",
+        "player injuries or fatigue"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2679999999797556,
+      "edge_percent": 26.79999999797556
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 26.8,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:NO_DATA] [Grok] NO_DATA\n\u0414\u0430\u043d\u043d\u044b\u0445 \u043e \u0442\u0435\u043a\u0443\u0449\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 Kittay/Ram (\u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 5-10 \u043c\u0430\u0442\u0447\u0435\u0439) \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e\nH2H \u043c\u0435\u0436\u0434\u0443 \u043f\u0430\u0440\u0430\u043c\u0438 \u043d\u0435 \u043d\u0430\u0439\u0434\u0435\u043d\u043e (0 \u043c\u0430\u0442\u0447\u0435\u0439)",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Grok",
+    "ai_consensus": "NO_DATA"
   }
 ]
