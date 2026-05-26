@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x31c6e4b91b464cb3fa746684b728789464c6b9947289c278dd39df5f72acd1a3",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa459d48218d91e92ccc2dcb93b10904ba08b7f4f",
-      "side": "SELL",
-      "asset": "27446117479784640697574527032292820989191318340119712250294208229142056414640",
-      "conditionId": "0xcb06319aa9e029904c93c1df7d10b7ce7d6aab2b25b8f661e0cf57ea048a1567",
-      "size": 1237,
-      "price": 0.885,
-      "timestamp": 1777100372,
-      "title": "Will Atletico Madrid win the 2025\u201326 Champions League?",
-      "slug": "will-atletico-madrid-win-the-202526-champions-league",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
-      "eventSlug": "uefa-champions-league-winner",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "AmazingLoserMan",
-      "pseudonym": "Respectful-Dependent",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x31c6e4b91b464cb3fa746684b728789464c6b9947289c278dd39df5f72acd1a3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Atletico Madrid win the 2025\u201326 Champions League?",
-    "market_slug": "uefa-champions-league-winner",
-    "amount": 1094.7450000000001,
-    "ai_context": "\u2705 COPY \u2014 Atl\u00e9tico Madrid's recent form and head-to-head record support the trader's bet on \"No.\"\nAtl\u00e9tico Madrid has shown strong performance in the 2025\u201326 UEFA Champions League, including a 2-0 away victory against Barcelona in the quarter-finals. (youtube.com) Additionally, they secured a 5-2 home win against Tottenham Hotspur in the group stage. (youtube.com) These results indicate that Atl\u00e9tico Madrid is a strong contender in the tournament.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:42:25.361685+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 142.26
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xba3e0a3284617aa1e8773a583b9847bc34157608eb691e0adca88abc6defbfae",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30834,5 +30781,53 @@
       "model_correct": null,
       "pnl": -5938.95
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xee233b786a703b9c96432f60b683273aa1b626fea953aa81c5fe16331775d792",
+    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+    "trader": {
+      "rank": 8,
+      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
+      "username": "RepTrump",
+      "profit": 7532409.671579,
+      "volume": 13983231.103425,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "side": "BUY",
+      "asset": "52928728175730892457444505534098579027837668702731931827677205629871584449004",
+      "conditionId": "0x0196638703ce55ce229bcceca30bc7abaaefc4d32ed633351d8fe2d4d470d8ee",
+      "size": 1530.38,
+      "price": 0.79,
+      "timestamp": 1779805669,
+      "title": "Roland Garros ATP: Alexander Bublik vs Jan-Lennard Struff",
+      "slug": "atp-bublik-struff-2026-05-24",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-bublik-struff-2026-05-24",
+      "outcome": "Alexander Bublik",
+      "outcomeIndex": 0,
+      "name": "HomeRunHazard",
+      "pseudonym": "Powerless-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xee233b786a703b9c96432f60b683273aa1b626fea953aa81c5fe16331775d792",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Alexander Bublik vs Jan-Lennard Struff",
+    "market_slug": "atp-bublik-struff-2026-05-24",
+    "amount": 1209.0002000000002,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0411\u0443\u0431\u043b\u0438\u043a \u0432\u044b\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 \u043d\u0430\u0434 \u0410\u0440\u0442\u044e\u0440\u043e\u043c \u0420\u0438\u043d\u0434\u0435\u0440\u043a\u043d\u0435\u0448\u043e\u043c 2-1\n\u042f\u043d-\u041b\u0435\u043d\u043d\u0430\u0440\u0434 \u0428\u0442\u0440\u0443\u0444\u0444 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 4 \u0438\u0437 5 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0435\u0439, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0440\u0430\u0436\u0435\u043d\u0438\u0435 \u043e\u0442 \u042f\u043a\u0443\u0431\u0430 \u041c\u0435\u043d\u0448\u0438\u043a\u0430 0-2\n[Grok] \u2705 COPY\nBublik 18-11 \u0432 \u0441\u0435\u0437\u043e\u043d\u0435 2026, \u0442\u043e\u043f-10, \u0442\u0438\u0442\u0443\u043b \u0432 \u0413\u043e\u043d\u043a\u043e\u043d\u0433\u0435 \u0438 \u0432\u044b\u0445\u043e\u0434 \u0432 1/4 \u0444\u0438\u043d\u0430\u043b\u0430 Monte-Carlo\n\u0412\u044b\u0438\u0433\u0440\u0430\u043b \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 2 \u043c\u0430\u0442\u0447\u0430 \u043f\u0440\u043e\u0442\u0438\u0432 Struff (\u0414\u0443\u0431\u0430\u0439 2026: 6-3 6-4; \u0420\u043e\u0442\u0442\u0435\u0440\u0434\u0430\u043c 2026)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
