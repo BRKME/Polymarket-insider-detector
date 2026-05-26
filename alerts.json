@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x91db0c3ba043c99d328a76e8ebbb51aa33d9df2cc034f3ab14b332d5eba99747",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x71f9c377ce6f97dfd3c85a9487e009ea89beb129",
-      "side": "SELL",
-      "asset": "27446117479784640697574527032292820989191318340119712250294208229142056414640",
-      "conditionId": "0xcb06319aa9e029904c93c1df7d10b7ce7d6aab2b25b8f661e0cf57ea048a1567",
-      "size": 1202,
-      "price": 0.885,
-      "timestamp": 1777100372,
-      "title": "Will Atletico Madrid win the 2025\u201326 Champions League?",
-      "slug": "will-atletico-madrid-win-the-202526-champions-league",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
-      "eventSlug": "uefa-champions-league-winner",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "rakabishnoi98",
-      "pseudonym": "Vivacious-Puddle",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x91db0c3ba043c99d328a76e8ebbb51aa33d9df2cc034f3ab14b332d5eba99747",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Atletico Madrid win the 2025\u201326 Champions League?",
-    "market_slug": "uefa-champions-league-winner",
-    "amount": 1063.77,
-    "ai_context": "\u2705 COPY \u2014 Atl\u00e9tico Madrid's recent form and key player injuries suggest a strong chance of not winning the 2025\u201326 Champions League.\nAtl\u00e9tico Madrid has advanced to the Champions League quarterfinals, defeating Barcelona 2-0 in the first leg on April 8, 2026. (espn.com) However, they suffered a 2-3 loss to Elche on April 22, 2026. (statmuse.com) Additionally, key players Johnny Cardoso and Alexander S\u00f8rloth are sidelined due to injuries. (goal.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-04-26T07:42:25.361634+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 138.23
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x31c6e4b91b464cb3fa746684b728789464c6b9947289c278dd39df5f72acd1a3",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -30783,5 +30730,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd2c7a3c35ea527a2d70ff2991289d9f02ea50453075611fea142666d76bcb22e",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x162f6fff88a52864f2ecc9833e58089d5254798d",
+      "side": "SELL",
+      "asset": "54553982574594357779719203825438652588532774764990190101782942147393065741580",
+      "conditionId": "0x35c73eb41a0ee54b49358c523a2d3335e9df5ee21bba9e526813a6fbaa0f70b6",
+      "size": 10351.73,
+      "price": 0.573716093831659,
+      "timestamp": 1779785486,
+      "title": "US x Iran diplomatic meeting by June 15, 2026?",
+      "slug": "us-x-iran-diplomatic-meeting-by-june-15-2026-671",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
+      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "Valen9",
+      "pseudonym": "Angry-Evaluation",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5572855-7eff0907-10c0-4fae-8f10-8a2c733813a1.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd2c7a3c35ea527a2d70ff2991289d9f02ea50453075611fea142666d76bcb22e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran diplomatic meeting by June 15, 2026?",
+    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
+    "amount": 5938.954099999999,
+    "ai_context": "[CONSENSUS:COPY] [GPT] \u2705 COPY\n\u041f\u0440\u0435\u0437\u0438\u0434\u0435\u043d\u0442 \u0422\u0440\u0430\u043c\u043f \u0437\u0430\u044f\u0432\u0438\u043b, \u0447\u0442\u043e \u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d \"\u0437\u043d\u0430\u0447\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u043f\u0440\u0438\u0431\u043b\u0438\u0437\u0438\u043b\u0438\u0441\u044c\" \u043a \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044e, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u041e\u0440\u043c\u0443\u0437\u0441\u043a\u043e\u0433\u043e \u043f\u0440\u043e\u043b\u0438\u0432\u0430 \u0438 \u0440\u0430\u0437\u043c\u043e\u0440\u0430\u0436\u0438\u0432\u0430\u043d\u0438\u0435 \u043d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0445 \u0438\u0440\u0430\u043d\u0441\u043a\u0438\u0445 \u0430\u043a\u0442\u0438\u0432\u043e\u0432. (cbsnews.\n[Grok] \u2705 COPY\n\u041f\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044e \u043d\u0430 24 \u043c\u0430\u044f 2026 \u0433\u043e\u0441\u0441\u0435\u043a\u0440\u0435\u0442\u0430\u0440\u044c \u0421\u0428\u0410 \u041c\u0430\u0440\u043a\u043e \u0420\u0443\u0431\u0438\u043e \u0437\u0430\u044f\u0432\u0438\u043b, \u0447\u0442\u043e \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b \u0441 \u0418\u0440\u0430\u043d\u043e\u043c \u00abstill a work in progress\u00bb \u0438 \u00abslight progress\u00bb.",
+    "ai_verdict": "COPY",
+    "ai_model": "Dual",
+    "ai_consensus": "COPY"
   }
 ]
