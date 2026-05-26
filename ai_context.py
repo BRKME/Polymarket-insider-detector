@@ -1,11 +1,10 @@
 """
-AI Context Layer v5 — A/B test: GPT vs Grok.
+AI Context Layer v6 — Grok only (GPT removed).
 
-GPT: gpt-4o-mini-search-preview (web search)
 Grok: grok-4.3 (xAI, X Search + Web Search)
+GPT removed: 33% WR, contradicts own data, hallucinations.
 
-A/B: alternates by minute (even=GPT, odd=Grok).
-Model name tagged in response for WR tracking.
+Grok searches Twitter + Web before answering = real-time facts.
 """
 
 import os
@@ -13,9 +12,6 @@ import re
 import logging
 from typing import Optional
 from datetime import datetime
-
-from openai import OpenAI
-from config import OPENAI_API_KEY
 
 XAI_API_KEY = os.getenv("XAI_API_KEY", "")
 
@@ -172,7 +168,7 @@ def generate_trade_context(
     Generate binary COPY/SKIP recommendation.
     Returns None on error or if GPT has no useful context.
     """
-    if not market_title or not OPENAI_API_KEY:
+    if not market_title or not XAI_API_KEY:
         return None
 
     market_type = detect_market_type(market_title)
@@ -187,24 +183,6 @@ def generate_trade_context(
 
     try:
         results = {}
-        
-        # === Call GPT ===
-        try:
-            client_gpt = OpenAI(api_key=OPENAI_API_KEY)
-            resp_gpt = client_gpt.chat.completions.create(
-                model="gpt-4o-mini-search-preview",
-                web_search_options={"search_context_size": "low"},
-                messages=[
-                    {"role": "system", "content": SYSTEM},
-                    {"role": "user", "content": prompt},
-                ],
-                max_tokens=400,
-            )
-            gpt_text = _clean_ai_response(resp_gpt.choices[0].message.content.strip())
-            if gpt_text and len(gpt_text) >= 8:
-                results["GPT"] = gpt_text
-        except Exception as e:
-            print(f"  ❌ GPT failed: {e}")
         
         # === Call Grok with X Search + Web Search ===
         if XAI_API_KEY:
