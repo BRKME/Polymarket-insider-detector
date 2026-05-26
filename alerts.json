@@ -1,52 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xba3e0a3284617aa1e8773a583b9847bc34157608eb691e0adca88abc6defbfae",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x38f0b76ed812c24166a4f6293f991ac4b9972768",
-      "side": "BUY",
-      "asset": "64257399885612848146313457552817818727542774798876517138238518522558967005093",
-      "conditionId": "0x85098be8d7827de42752c1daf594e5f78239b243de4778a660310e1fcf747a8d",
-      "size": 7142.857141,
-      "price": 0.4199999999692,
-      "timestamp": 1777103676,
-      "title": "New York Yankees vs. Houston Astros",
-      "slug": "mlb-nyy-hou-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
-      "eventSlug": "mlb-nyy-hou-2026-04-25",
-      "outcome": "Houston Astros",
-      "outcomeIndex": 1,
-      "name": "initial77a",
-      "pseudonym": "Motionless-Peer",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xba3e0a3284617aa1e8773a583b9847bc34157608eb691e0adca88abc6defbfae",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "New York Yankees vs. Houston Astros",
-    "market_slug": "mlb-nyy-hou-2026-04-25",
-    "amount": 2999.999999,
-    "ai_context": "\u274c SKIP \u2014 Astros have lost 8 of their last 10 games and are 1-9 on the road this season.\nThey were defeated 12-4 by the Yankees on April 24, 2026. (thescore.com)\nHowever, the trader may have access to insider information or advanced analytics not yet public.\nGiven the Astros' recent struggles, it's advisable to exercise caution before copying this bet.",
-    "ai_verdict": "SKIP"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x4bece8016b90002b6a55784359e2c25268f46f503c92789b5b0d73126a77681b",
     "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
     "trader": {
@@ -27455,5 +27409,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x62c207510d9b4650980e277719142dcee18a5c0c1407549b127260ab995ba10a",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692183,
+      "volume": 529047708.50599074,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xaebf3acc7c9add4928bd218f96de5cf64987e1ca",
+      "side": "BUY",
+      "asset": "29771277595643309994059518115328321301839549150405274575825929139117399674558",
+      "conditionId": "0x44721f133cb4908db91503a59d561f28e0a6aa87a91eca4c8722e2a08570ced3",
+      "size": 6378.94,
+      "price": 0.51,
+      "timestamp": 1779830399,
+      "title": "Crystal Palace FC vs. Rayo Vallecano de Madrid: Both Teams to Score",
+      "slug": "col-cry-ray-2026-05-27-btts",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-conference-league-798904aed0.png",
+      "eventSlug": "col-cry-ray-2026-05-27-more-markets",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "12monkeys",
+      "pseudonym": "Variable-Ski",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-511927-04c67082-b049-4156-b594-898847eb3469.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x62c207510d9b4650980e277719142dcee18a5c0c1407549b127260ab995ba10a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Crystal Palace FC vs. Rayo Vallecano de Madrid: Both Teams to Score",
+    "market_slug": "col-cry-ray-2026-05-27-more-markets",
+    "amount": 3253.2594,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nPalace: BTTS \u0432 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439 (\u0438 \u0432 6 \u0438\u0437 8 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432 \u0446\u0435\u043b\u043e\u043c).\nRayo: BTTS \u0432 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u043c\u0430\u0442\u0447\u0435\u0439.",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
