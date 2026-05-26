@@ -191,6 +191,14 @@ def is_trade_suspicious(trade: Dict, market: Dict) -> bool:
         if price > 0.90:  # >90% odds = longshot bias territory (SSRN research)
             return False
         
+        # FILTER 3: Skip esports — unpredictable, no proven edge
+        esports_kw = ['counter-strike', 'cs2:', 'valorant', 'dota 2', 'dota2',
+                      'lol:', 'league of legends', 'overwatch', 'map winner',
+                      'map handicap', 'game winner', 'bo3)', 'bo5)', 'bo1)',
+                      'total kills', 'first blood']
+        if any(k in market_title for k in esports_kw):
+            return False
+        
         # Trade passes all filters
         return True
         

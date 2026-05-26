@@ -28,7 +28,11 @@ MAX_ODDS_THRESHOLD = 0.90    # Skip near-certain markets (longshot bias)
 SKIP_KEYWORDS = [
     '15m', '15 min', '15-min', 'updown', 'up or down',
     'up/down', 'bitcoin up or down', 'eth up or down',
-    'before gta vi', 'before gta 6',  # permanent high-volume market, not a signal
+    'before gta vi', 'before gta 6',
+    # Esports — unpredictable, no edge
+    'counter-strike', 'valorant', 'dota 2', 'lol:',
+    'league of legends', 'overwatch', 'bo3)', 'bo5)',
+    'map winner', 'map handicap', 'game winner',
 ]
 
 

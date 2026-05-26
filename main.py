@@ -373,6 +373,15 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_crypto += 1
                     continue
                 
+                # Skip esports — unpredictable, no edge
+                esports_kw = ['counter-strike', 'cs2:', 'valorant', 'dota 2', 'dota2',
+                              'lol:', 'league of legends', 'overwatch', 'map winner',
+                              'map handicap', 'game winner', 'bo3', 'bo5', 'bo1',
+                              'total kills', 'first blood']
+                if any(k in title_lower for k in esports_kw):
+                    tt_crypto += 1  # reuse counter
+                    continue
+                
                 # Skip low ROI trades (>90% odds — longshot bias)
                 if effective_odds >= 0.90:
                     tt_low_roi += 1
