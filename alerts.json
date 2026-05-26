@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xe0d159c88badc2e726f9fec86d8d810319b12412148286dd35ce9ee55cb00179",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 12,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
-      "side": "BUY",
-      "asset": "58244037264252653320423561378263915652181344429933003512810569208181649730033",
-      "conditionId": "0x7d5cc408c2fe2469b8b4ccc1f3d230165496149a2c9313624cd1cfd7b9e9cdc8",
-      "size": 4018.69385,
-      "price": 0.51,
-      "timestamp": 1777088066,
-      "title": "Spurs vs. Trail Blazers",
-      "slug": "nba-sas-por-2026-04-24",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-sas-por-2026-04-24",
-      "outcome": "Trail Blazers",
-      "outcomeIndex": 1,
-      "name": "ferrariChampions2026",
-      "pseudonym": "Glaring-Salt",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe0d159c88badc2e726f9fec86d8d810319b12412148286dd35ce9ee55cb00179",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spurs vs. Trail Blazers",
-    "market_slug": "nba-sas-por-2026-04-24",
-    "amount": 2049.5338635000003,
-    "ai_context": "\u274c SKIP \u2014 Recent head-to-head results and the Spurs' strong season performance suggest a Spurs victory.\nIn the last three matchups, the Spurs have won two games (112-101 on April 8 and 111-98 on April 19) and the Trail Blazers won one (106-103 on April 21). The Spurs have a 63-22 record this season, while the Trail Blazers are 44-41. (covers.com) However, the trader may have access to insider information or analysis not reflected in these statistics.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Spurs",
-      "checked_at": "2026-04-26T07:42:24.062415+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2049.53
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x91db0c3ba043c99d328a76e8ebbb51aa33d9df2cc034f3ab14b332d5eba99747",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -30788,5 +30735,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd2916b27719083b2d336e47fc54a267683db0fa024f84d51a572f556c044297f",
+    "wallet": "0x94a428cfa4f84b264e01f70d93d02bc96cb36356",
+    "trader": {
+      "rank": 30,
+      "address": "0x94a428cfa4f84b264e01f70d93d02bc96cb36356",
+      "username": "GCottrell93",
+      "profit": 3419433.405445001,
+      "volume": 18003497.34815295,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x91784d82fbe4543459ee85fc9809be185d70a2b2",
+      "side": "SELL",
+      "asset": "109077864409172129917789250820055245630238807727951185347513063342440711098153",
+      "conditionId": "0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27",
+      "size": 1268.89,
+      "price": 0.19,
+      "timestamp": 1779759866,
+      "title": "US x Iran permanent peace deal by December 31, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-december-31-2026-961-587-341-574-555",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "0x91784d82fbe4543459ee85fc9809be185d70a2b",
+      "pseudonym": "Unkempt-Rag",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd2916b27719083b2d336e47fc54a267683db0fa024f84d51a572f556c044297f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by December 31, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1027.8009000000002,
+    "ai_context": "[CONSENSUS:SPLIT] [GPT] \u274c SKIP\n\u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d \u0434\u043e\u0441\u0442\u0438\u0433\u043b\u0438 \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f \u043e \u0434\u0432\u0443\u0445\u043d\u0435\u0434\u0435\u043b\u044c\u043d\u043e\u043c \u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u0438 \u043e\u0433\u043d\u044f \u0432 \u0430\u043f\u0440\u0435\u043b\u0435 2026 \u0433\u043e\u0434\u0430. (ru.euronews.com)\n\u0412 \u043c\u0430\u0435 2026 \u0433\u043e\u0434\u0430 \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u044e\u0442 \u043d\u0430\u0434 \u043f\u0440\u043e\u0434\u043b\u0435\u043d\u0438\u0435\u043c \u043f\u0435\u0440\u0435\u043c\u0438\u0440\u0438\u044f \u0438 \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0435\u043c \u041e\u0440\u043c\u0443\u0437\u0441\u043a\u043e\u0433\u043e \u043f\u0440\u043e\u043b\u0438\u0432\u0430.\n[Grok] \u2705 COPY\n\u041f\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044e \u043d\u0430 25\u201326 \u043c\u0430\u044f 2026 \u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d \u0432\u0435\u0434\u0443\u0442 \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u044b \u043e \u0440\u0430\u043c\u043e\u0447\u043d\u043e\u043c \u043c\u0435\u043c\u043e\u0440\u0430\u043d\u0434\u0443\u043c\u0435 (MoU) \u0434\u043b\u044f \u043f\u0440\u0435\u043a\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0432\u043e\u0439\u043d\u044b, \u043d\u043e \u043f\u043e\u0434\u043f\u0438\u0441\u0430\u043d\u0438\u0435 \u043d\u0435 \u0431\u043b\u0438\u0437\u043a\u043e, \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044e\u0442\u0441\u044f \u0440\u0430\u0437\u043d\u043e\u0433\u043b\u0430\u0441\u0438\u044f \u043f\u043e \u044f\u0434\u0435\u0440\u043d\u043e\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435 \u0438 \u0441\u0430\u043d\u043a\u0446\u0438\u044f\u043c.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Dual",
+    "ai_consensus": "SPLIT"
   }
 ]
