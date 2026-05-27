@@ -1,52 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x1c01585817a8c30f285d8d2b151bd8aab186f0f2f8c3fbbd73351d7de02abbd7",
-    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-    "trader": {
-      "rank": 10,
-      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-      "username": "walletmobile",
-      "profit": 5942685.45339684,
-      "volume": 32196692.075936034,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2b626da4168d010dbd6c937a805227deaf9d5203",
-      "side": "BUY",
-      "asset": "114227892770680257892005417678412526129417636123523652374203243614381928583640",
-      "conditionId": "0xf9f0965a3bd704ad9c184851242606ad35a4ffe733febf5074d4fbcc59d52eb8",
-      "size": 1762.181817,
-      "price": 0.6599999998751548,
-      "timestamp": 1777106676,
-      "title": "US x Iran diplomatic meeting by April 30, 2026?",
-      "slug": "us-x-iran-diplomatic-meeting-by-april-30-2026-299-459-263-225",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-meeting-by-9btZGbUg-ikA.jpg",
-      "eventSlug": "us-x-iran-diplomatic-meeting-by-329",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "hhkchuck",
-      "pseudonym": "Modest-Hybridisation",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x1c01585817a8c30f285d8d2b151bd8aab186f0f2f8c3fbbd73351d7de02abbd7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "US x Iran diplomatic meeting by April 30, 2026?",
-    "market_slug": "us-x-iran-diplomatic-meeting-by-329",
-    "amount": 1163.039999,
-    "ai_context": "\u2705 COPY \u2014 Recent developments indicate a high likelihood of a US-Iran diplomatic meeting by April 30, 2026.\nOn April 11, 2026, direct negotiations between the United States and Iran commenced in Islamabad, Pakistan, with U.S. Vice President JD Vance leading the American delegation. These talks, facilitated by Pakistani mediators, mark the highest-level public diplomatic engagement between the two nations in years. (oddsshift.com) Additionally, U.S.",
-    "ai_verdict": "COPY"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x826ce9ec3c9e1fc76b775a7d8dddc805fa7252e23594978f5379ef21efd30c9f",
     "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
     "trader": {
@@ -27523,5 +27477,53 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "Grok",
     "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x6b0130a4b5db457b07d785f80dd7d8f906c194c7a339b64feb1272ee0eaa543e",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 21,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4240811.140577648,
+      "volume": 476826628.217833,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x7760fe4dcb17c09161adb2eb8d29f39e382e21f0",
+      "side": "BUY",
+      "asset": "8362291960695090384644186940397089844422503947971966185391651467932588096938",
+      "conditionId": "0xec5af32a3e93a693d386fcfcc20f3542416133b777489a13f0271946c13b4620",
+      "size": 5000,
+      "price": 0.24,
+      "timestamp": 1779847137,
+      "title": "Roland Garros ATP: Karen Khachanov vs Marco Trungelliti",
+      "slug": "atp-khachan-trungel-2026-05-27",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-khachan-trungel-2026-05-27",
+      "outcome": "Marco Trungelliti",
+      "outcomeIndex": 1,
+      "name": "cumulus33",
+      "pseudonym": "Legal-Acrylic",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x6b0130a4b5db457b07d785f80dd7d8f906c194c7a339b64feb1272ee0eaa543e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Karen Khachanov vs Marco Trungelliti",
+    "market_slug": "atp-khachan-trungel-2026-05-27",
+    "amount": 3800.0,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nTrungelliti \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u043c\u0430\u0442\u0447\u0435\u0439 \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435 (Navone, Svajda, Merida)\nH2H: Khachanov \u043f\u043e\u0431\u0435\u0434\u0438\u043b \u0432 \u0435\u0434\u0438\u043d\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 2016 \u0433\u043e\u0434\u0430 6-3 4-6 7-6(4) \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
