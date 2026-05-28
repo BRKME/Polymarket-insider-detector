@@ -348,12 +348,12 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_extreme_odds += 1
                     continue
                 
-                # Size filter: top-5 need $500+, rest need $1K+
+                # Size filter: top-15 need $500+, rank 16-30 need $1K+
                 trader_rank = trader_info.get('rank', 99)
-                if trader_rank <= 5 and cost < 500:
+                if trader_rank <= 15 and cost < 500:
                     tt_small += 1
                     continue
-                elif trader_rank > 5 and cost < 1000:
+                elif trader_rank > 15 and cost < 1000:
                     tt_small += 1
                     continue
                 
