@@ -1,114 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xe333b8d92a9836aadece422bede1cb7e928df6b9834aa96388d7f0505fa1d09a",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x85d53efdd055aa88fb00a914f5615bfd585545ee",
-      "side": "BUY",
-      "asset": "61747352553467640079819859591628914841222586089567071357008386638333293250154",
-      "conditionId": "0x174ce5eab470d0e8b588f2e02ee5a41ab29d2af6185e5f4fb272507000474399",
-      "size": 4945.02,
-      "price": 0.8968526719811042,
-      "timestamp": 1777115080,
-      "title": "LoL: Dplus KIA vs DN SOOPers - Game 1 Winner",
-      "slug": "lol-dk-dnf-2026-04-25-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-dk-dnf-2026-04-25",
-      "outcome": "Dplus KIA",
-      "outcomeIndex": 0,
-      "name": "retroactivesource",
-      "pseudonym": "Black-And-White-Catalogue",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xe333b8d92a9836aadece422bede1cb7e928df6b9834aa96388d7f0505fa1d09a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Dplus KIA vs DN SOOPers - Game 1 Winner",
-    "market_slug": "lol-dk-dnf-2026-04-25",
-    "amount": 4434.9544000000005,
-    "ai_context": "\u2705 COPY \u2014 Dplus KIA has a dominant 9-0 head-to-head record against DN SOOPers, indicating a strong advantage.\nIn their most recent encounter on February 20, 2026, Dplus KIA secured a 3-1 victory over DN SOOPers in the LCK Cup 2026 Playoffs. (rotowire.com)\nAdditionally, Dplus KIA has a 100% win rate against DN SOOPers in their last 7 meetings. (esport.is)\nWhile Dplus KIA has experienced a recent dip in form with a 33% win rate over the past 30 days, (esport.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042707+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xdd215582b0a20149aafacb310bcbeb89c932a25f11833c89389ba2a7ef9678fb",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 16,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0dcf5b49627c5194805bd1af846fd0bd3388c556",
-      "side": "BUY",
-      "asset": "74841432236239386044078674772257789514824436076686490752993964752240003589945",
-      "conditionId": "0x8c06036b857877a0404c72d1e2726de97e47fd48f43352d9288419e0e74d7770",
-      "size": 9771.61445,
-      "price": 0.23871481,
-      "timestamp": 1777120794,
-      "title": "Madrid Open: Leylah Fernandez vs Iva Jovic",
-      "slug": "wta-fernand-jovic-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
-      "eventSlug": "wta-fernand-jovic-2026-04-25",
-      "outcome": "Iva Jovic",
-      "outcomeIndex": 1,
-      "name": "0x0dcf5B49627C5194805bD1AF846Fd0bd3388c556-1769755919166",
-      "pseudonym": "Insignificant-Wrestler",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xdd215582b0a20149aafacb310bcbeb89c932a25f11833c89389ba2a7ef9678fb",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Leylah Fernandez vs Iva Jovic",
-    "market_slug": "wta-fernand-jovic-2026-04-25",
-    "amount": 2332.6290868250044,
-    "ai_context": "\u2705 COPY \u2014 Iva Jovic has been in strong form recently, with a 19-10 record this season and a semifinal finish in Charleston. (profootballnetwork.com)\nShe has also secured a runner-up finish in Hobart and a semifinal finish in Auckland. (profootballnetwork.com)\nWhile Leylah Fernandez has shown improvement, including a quarterfinal appearance in Stuttgart, Jovic's recent performances and higher seeding suggest she has the edge in this matchup.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042748+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xae42b97c2bc2d0a2f8c491c7f5f90513c1b1b9d62fbfb6c10a3b7b36ed0abd46",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -31182,5 +31074,101 @@
     "ai_model": "Grok",
     "ai_consensus": "SKIP",
     "resolution_last_check": "2026-05-28T09:48:44.282343+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd8015950c22d1bfb53b233d73149e533a81822198254062dee329c7c2fafc24e",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1d82aa07258aac95b2a7f0893f740a37ef1a786",
+      "side": "BUY",
+      "asset": "10690391194840875541563517589463912963575786539307433160985752952931887140267",
+      "conditionId": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633",
+      "size": 11107.81,
+      "price": 0.6348763527644063,
+      "timestamp": 1779986068,
+      "title": "US-Iran nuclear deal by June 30?",
+      "slug": "us-iran-nuclear-deal-by-june-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-nuclear-deal-in-2025-3rpCC4Kl23Lc.jpg",
+      "eventSlug": "us-iran-nuclear-deal-by-june-30",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "IHeardLoveisallyouNeed",
+      "pseudonym": "Impolite-Pasta",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd8015950c22d1bfb53b233d73149e533a81822198254062dee329c7c2fafc24e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US-Iran nuclear deal by June 30?",
+    "market_slug": "us-iran-nuclear-deal-by-june-30",
+    "amount": 4055.7240999999995,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n24-28 \u043c\u0430\u044f 2026: \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u0431\u043b\u0438\u0437\u043a\u0438 \u043a \u041c\u0435\u043c\u043e\u0440\u0430\u043d\u0434\u0443\u043c\u0443 \u043e \u0432\u0437\u0430\u0438\u043c\u043e\u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0438 \u043d\u0430 60 \u0434\u043d\u0435\u0439 (\u043f\u0440\u043e\u0434\u043b\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u043c\u0438\u0440\u0438\u044f, \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u043f\u0440\u043e\u043b\u0438\u0432\u0430 \u041e\u0440\u043c\u0443\u0437), \u044f\u0434\u0435\u0440\u043d\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u043e\u0442\u043b\u043e\u0436\u0435\u043d\u044b \u043d\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u044d\u0442\u0430\u043f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432.",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x779d841ce5b9c10455d053cebc5d7f26b3c6afc6ea187fbb0cf81fb8582f2258",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 15,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692177,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdba81c610fdf70043035b576bd7921e7605a9acc",
+      "side": "BUY",
+      "asset": "58351404807281795581476004998460954870930196953400439077076671439671359394705",
+      "conditionId": "0x6869dd21e8ca7c8f61cfd1c24bb95bb9325b6b8147ad3b1bfc276e8184f11e65",
+      "size": 8251.07,
+      "price": 0.64,
+      "timestamp": 1779986670,
+      "title": "Roland Garros ATP: Matteo Arnaldi vs Stefanos Tsitsipas",
+      "slug": "atp-arnaldi-tsitsip-2026-05-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-arnaldi-tsitsip-2026-05-28",
+      "outcome": "Stefanos Tsitsipas",
+      "outcomeIndex": 1,
+      "name": "tennis1488",
+      "pseudonym": "Equatorial-Cooking",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x779d841ce5b9c10455d053cebc5d7f26b3c6afc6ea187fbb0cf81fb8582f2258",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Matteo Arnaldi vs Stefanos Tsitsipas",
+    "market_slug": "atp-arnaldi-tsitsip-2026-05-28",
+    "amount": 2970.3851999999997,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H: Tsitsipas \u0432\u0435\u0434\u0451\u0442 1-0, \u043f\u043e\u0431\u0435\u0434\u0430 \u043d\u0430 RG 2024 (\u0433\u043b\u0438\u043d\u0430) 3-6 7-6(4) 6-2 6-2\n2026 \u0444\u043e\u0440\u043c\u0430: 15-12, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 \u0432 1 \u0440\u0430\u0443\u043d\u0434\u0435 RG \u043f\u0440\u043e\u0442\u0438\u0432 Muller (6-2 3-0 ret)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
