@@ -1,59 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xae42b97c2bc2d0a2f8c491c7f5f90513c1b1b9d62fbfb6c10a3b7b36ed0abd46",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 7,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7501006.961579656,
-      "volume": 458972058.9325,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x69adf268789f93b2c4da978870af74ae945f31e6",
-      "side": "BUY",
-      "asset": "18575430438358390541772074127628816002193416137521174798561427510895122834765",
-      "conditionId": "0xde371452b56174a44373c7b04fb9a723dbbae503dab31c80f42431592b943415",
-      "size": 3330.657,
-      "price": 0.65,
-      "timestamp": 1777124602,
-      "title": "Indian Premier League: Delhi Capitals vs Punjab Kings",
-      "slug": "cricipl-del-pun-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
-      "eventSlug": "cricipl-del-pun-2026-04-25",
-      "outcome": "Punjab Kings",
-      "outcomeIndex": 1,
-      "name": "ferenc89",
-      "pseudonym": "Zigzag-Logistics",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6294534-4488bfb7-5b9a-4162-a989-5643a4c0fe91.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xae42b97c2bc2d0a2f8c491c7f5f90513c1b1b9d62fbfb6c10a3b7b36ed0abd46",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Indian Premier League: Delhi Capitals vs Punjab Kings",
-    "market_slug": "cricipl-del-pun-2026-04-25",
-    "amount": 2164.9270500000002,
-    "ai_context": "\u2705 COPY \u2014 Punjab Kings are on a strong winning streak, while Delhi Capitals have been inconsistent.\nPunjab Kings have won their last five matches, including victories over Lucknow Super Giants, Mumbai Indians, and Sunrisers Hyderabad. In contrast, Delhi Capitals have lost three of their last five matches, including a heavy defeat to Sunrisers Hyderabad. (statz.ai)\nIn their most recent head-to-head match in 2025, Punjab Kings narrowly defeated Delhi Capitals by 10 wickets. (statz.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042766+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "US x Iran permanent peace deal by April 30, 2026?",
     "market_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
     "event_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
@@ -31170,5 +31116,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc00f19b5e27de4035c9f5fc380b7e19e5f2f1ed4da337b3c7f322361d855f3ab",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 21,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4228265.843372285,
+      "volume": 476826628.2178329,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xcc2620f9e3cb4498e8aea556764ec341357932ca",
+      "side": "BUY",
+      "asset": "15995243820336177841554632127584222169952027258346817014909996961549144471612",
+      "conditionId": "0x366f89649caea042c96ee741b185461ec7faa408a2664ec44469a0061924b537",
+      "size": 5000,
+      "price": 0.2499864,
+      "timestamp": 1780003675,
+      "title": "US x Iran permanent peace deal by June 7, 2026?",
+      "slug": "us-x-iran-permanent-peace-deal-by-june-7-2026",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-permanent-peace-deal-by-yYlzv70Hi7j9.jpg",
+      "eventSlug": "us-x-iran-permanent-peace-deal-by",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "0x2785e7022dc20757108204b13c08cea8613b70a",
+      "pseudonym": "Shady-Fannypack",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc00f19b5e27de4035c9f5fc380b7e19e5f2f1ed4da337b3c7f322361d855f3ab",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US x Iran permanent peace deal by June 7, 2026?",
+    "market_slug": "us-x-iran-permanent-peace-deal-by",
+    "amount": 1249.932,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\n\u0421\u0428\u0410 \u043d\u0430\u043d\u0435\u0441\u043b\u0438 \u0443\u0434\u0430\u0440\u044b \u043f\u043e \u0438\u0440\u0430\u043d\u0441\u043a\u0438\u043c \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c 25\u201326 \u043c\u0430\u044f 2026 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432, \u0418\u0440\u0430\u043d \u043f\u0440\u0438\u0433\u0440\u043e\u0437\u0438\u043b \u043e\u0442\u0432\u0435\u0442\u043e\u043c.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
