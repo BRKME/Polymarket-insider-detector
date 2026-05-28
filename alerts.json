@@ -1,183 +1,5 @@
 [
   {
-    "market": "US x Iran permanent peace deal by April 30, 2026?",
-    "market_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
-    "event_slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
-    "wallet": "0xbacd00c9080a82ded56f504ee8810af732b0ab35",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (5.0% effective odds)",
-        "Large bet ($1,571)",
-        "Pre-event latency: 6297m"
-      ],
-      "amount": 1571.1385000000014,
-      "odds": 0.050000000000000044,
-      "raw_price": 0.95,
-      "outcome": "No",
-      "potential_pnl": 29851.6315,
-      "pnl_multiplier": 18.999999999999982,
-      "wallet_age_days": 354,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-25T15:07:30.036839",
-    "trade_hash": "0x68fc4ffdaa5c99301af75f013d60c3d32a92c3ee899d22287a677f9fa1f9f17f",
-    "trade_timestamp": 1777129378,
-    "latency": {
-      "latency_seconds": 377822.0,
-      "latency_minutes": 6297.033333333334,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-04-25T15:02:58+00:00",
-      "event_time": "2026-04-30T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.95,
-      "effective_price": 0.050000000000000044,
-      "size": 31422.77,
-      "amount": 1571.1385000000014,
-      "potential_pnl": 29851.6315,
-      "pnl_multiplier": 18.999999999999982,
-      "is_no": true,
-      "conditionId": "0xceb6dfaa2cf5abc9d47ebc867b984a7715104944249274e8a483a2e17473e5f5",
-      "slug": "us-x-iran-permanent-peace-deal-by-april-30-2026-925",
-      "eventSlug": "us-x-iran-permanent-peace-deal-by"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+73.6%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.214,
-      "market_price": 0.95,
-      "edge": 0.736,
-      "edge_percent": 73.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Mutual recognition of sovereignty and territorial integrity",
-          "Commitment to cease hostile actions and rhetoric",
-          "Framework for economic cooperation and sanctions relief"
-        ],
-        "weakest_link": "Commitment to cease hostile actions and rhetoric"
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Desire for stability in the Middle East",
-        "Influence of international diplomatic efforts"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 120,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.736,
-      "edge_percent": 73.6
-    },
-    "financial_analyst": {
-      "signal_quality": 84.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 73.6,
-      "signal_strength": 120.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate significant challenges in reaching a permanent peace deal by April 30, 2026.\nThe U.S. and Iran have yet to finalize a permanent peace agreement, with recent talks failing to yield results. On April 12, 2026, after 21 hours of negotiations in Islamabad, U.S. Vice President J.D. Vance confirmed that no agreement was reached, citing clear red lines from the U.S. and Iran's refusal to accept U.S. conditions. (axios.com) Additionally, on April 24, 2026, U.S.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-28T09:45:15.118113+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 29851.63
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x057879044ed7ebbed43780293dcc102f651395a7b8048242800e76bf34802791",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11961320.02356133,
-      "volume": 285413515.2829091,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xef62ee9c449b67cbeaed565e8fade3aef2cfcf76",
-      "side": "BUY",
-      "asset": "75791588939410112639384693046978638410356588482978726924796539273380756317963",
-      "conditionId": "0x5b3f43ea99e3782e460ecd5ac5ed1d4e8fb179ddab7190a58cb41faee61db1fa",
-      "size": 5102.040815,
-      "price": 0.4899999999314,
-      "timestamp": 1777129706,
-      "title": "Dota 2: Aurora vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
-      "slug": "dota2-aur1-bb4-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-aur1-bb4-2026-04-25",
-      "outcome": "BetBoom Team",
-      "outcomeIndex": 1,
-      "name": "montechristo777",
-      "pseudonym": "Frayed-Nursery",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x057879044ed7ebbed43780293dcc102f651395a7b8048242800e76bf34802791",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: Aurora vs BetBoom Team (BO3) - PGL Wallachia Playoffs",
-    "market_slug": "dota2-aur1-bb4-2026-04-25",
-    "amount": 2499.999999,
-    "ai_context": "\u274c SKIP \u2014 BetBoom Team has a 1-2 record against Aurora in their last three encounters.\nIn their most recent match on April 20, 2026, BetBoom Team lost 0-2 to Aurora Gaming in the PGL Wallachia Season 4. (rdy.gg) Additionally, BetBoom Team has a 1-2 record against Aurora in their last three encounters. (egamersworld.com) However, BetBoom Team has shown strong recent form, winning their last five matches, including victories over Team Liquid and Virtus.pro. (bo3.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042787+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "NAC Breda vs. AFC Ajax: O/U 2.5",
     "market_slug": "ere-nac-aja-2026-04-25-total-2pt5",
     "event_slug": "ere-nac-aja-2026-04-25-total-2pt5",
@@ -31161,6 +30983,102 @@
     "market_slug": "us-x-iran-permanent-peace-deal-by",
     "amount": 1249.932,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\n\u0421\u0428\u0410 \u043d\u0430\u043d\u0435\u0441\u043b\u0438 \u0443\u0434\u0430\u0440\u044b \u043f\u043e \u0438\u0440\u0430\u043d\u0441\u043a\u0438\u043c \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c 25\u201326 \u043c\u0430\u044f 2026 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432, \u0418\u0440\u0430\u043d \u043f\u0440\u0438\u0433\u0440\u043e\u0437\u0438\u043b \u043e\u0442\u0432\u0435\u0442\u043e\u043c.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa3dd7466b7c5866bf142adb67f2a0a474ab6c05c8eff081c851526a85ee58f1a",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11761107.79401559,
+      "volume": 292546816.791932,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x966cd85371117d811aab6e6f2b98377433659b1a",
+      "side": "BUY",
+      "asset": "51550810531190522596647433160842602770846300323535381362270853378607816035840",
+      "conditionId": "0x7472ed6078978b679f569d0dab640552cdbe1d674a271699f8008f6b91e2743f",
+      "size": 8239.26,
+      "price": 0.52,
+      "timestamp": 1780008195,
+      "title": "Thunder vs. Spurs: O/U 218.5",
+      "slug": "nba-okc-sas-2026-05-28-total-218pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-okc-sas-2026-05-28",
+      "outcome": "Over",
+      "outcomeIndex": 0,
+      "name": "balldontlieee",
+      "pseudonym": "Unfortunate-Display",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa3dd7466b7c5866bf142adb67f2a0a474ab6c05c8eff081c851526a85ee58f1a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Thunder vs. Spurs: O/U 218.5",
+    "market_slug": "nba-okc-sas-2026-05-28",
+    "amount": 4284.4152,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n\u0412 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 \u043c\u0435\u0436\u0434\u0443 Thunder \u0438 Spurs \u0442\u043e\u0442\u0430\u043b \u043f\u0440\u0435\u0432\u044b\u0441\u0438\u043b 218.5 (241, 231, 235, 237 \u043e\u0447\u043a\u043e\u0432)\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 4 \u0438\u0433\u0440\u044b Thunder: \u0442\u043e\u0442\u0430\u043b\u044b 241, 231, 235, 237 (\u0432\u0441\u0435 \u0432\u044b\u0448\u0435 \u043b\u0438\u043d\u0438\u0438)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7b0b40b86e755a7dd3402a397a219ef94543c8d2a9cd45146a004c094b252040",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11761107.79401559,
+      "volume": 292546816.791932,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3dfb153c197d4c19d3b31c1ecd2c7b6860eeabaf",
+      "side": "BUY",
+      "asset": "17032398512972165329030465225856849214106264813962312874509189051912449167802",
+      "conditionId": "0x4d52da32e6d57f5429609fcb5692665144009e2aa873d9b6443f2da76359e997",
+      "size": 3488.79,
+      "price": 0.4,
+      "timestamp": 1780008195,
+      "title": "Chicago Cubs vs. Pittsburgh Pirates",
+      "slug": "mlb-chc-pit-2026-05-28",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-chc-pit-2026-05-28",
+      "outcome": "Chicago Cubs",
+      "outcomeIndex": 0,
+      "name": "0x3DFb153c197D4C19D3B31c1ecD2c7B6860eeabAf-1722957908185",
+      "pseudonym": "Wordy-Littleneck",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7b0b40b86e755a7dd3402a397a219ef94543c8d2a9cd45146a004c094b252040",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Chicago Cubs vs. Pittsburgh Pirates",
+    "market_slug": "mlb-chc-pit-2026-05-28",
+    "amount": 1395.516,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2705 SKIP\nCubs \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 5 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0435\u0439 (\u0432\u043a\u043b\u044e\u0447\u0430\u044f 1-2 \u0438 1-12 \u043f\u0440\u043e\u0442\u0438\u0432 Pirates)\n\u041d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445 \u043f\u0438\u0442\u0447\u0435\u0440\u043e\u0432 \u043d\u0430 IL (Boyd, Cabrera \u0438 \u0434\u0440.)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
