@@ -281,6 +281,16 @@ def get_recent_trades_paginated(markets: List[Dict]) -> List[Dict]:
                     if not is_trade_suspicious(trade, market):
                         filtered_by_smart += 1
                         continue
+                else:
+                    # Market not in lookup — check trade title for esports
+                    trade_title = (trade.get('title', '') or '').lower()
+                    esports_kw = ['counter-strike', 'cs2:', 'valorant', 'dota 2', 'dota2',
+                                  'lol:', 'league of legends', 'overwatch', 'map winner',
+                                  'map handicap', 'game winner', 'bo3)', 'bo5)', 'bo1)',
+                                  'total kills', 'first blood']
+                    if any(k in trade_title for k in esports_kw):
+                        filtered_by_smart += 1
+                        continue
                 
                 recent_trades.append(trade)
             

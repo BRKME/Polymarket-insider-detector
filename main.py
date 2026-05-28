@@ -465,6 +465,15 @@ def main():
         if insider_market_key in insider_markets_alerted:
             print(f"[{datetime.now()}] Market dedup: {market_slug[:40]}")
             continue
+        
+        # Esports safety net — block even if collector missed it
+        market_name_check = (alert.get('market', '') or '').lower()
+        esports_block = ['counter-strike', 'cs2:', 'valorant', 'dota 2', 'dota2',
+                         'lol:', 'league of legends', 'overwatch', 'bo3)', 'bo5)', 'bo1)',
+                         'map winner', 'map handicap', 'game winner', 'total kills']
+        if any(k in market_name_check for k in esports_block):
+            print(f"[{datetime.now()}] Esports blocked: {alert.get('market', '')[:50]}")
+            continue
 
         # LOG_ONLY alerts: save for resolution tracking but skip Telegram
         if alert.get("log_only"):
