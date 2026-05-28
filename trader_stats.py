@@ -29,6 +29,18 @@ BAD_TRADER_WR = 0.35
 BAD_CATEGORY_WR = 0.30
 MIN_CATEGORY_TRADES = 3
 
+# PERMANENT BAN LIST — proven losers from 800+ resolved alerts (Jan-May 2026)
+# These do NOT reset when stats are cleared
+BANNED_TRADERS = {
+    "Fredi9999": {"wr": 25, "trades": 12, "reason": "25% WR on 12 trades"},
+    "Len9311238": {"wr": 27, "trades": 11, "reason": "27% WR on 11 trades"},
+    "GamblingIsAllYouNeed": {"wr": 30, "trades": 10, "reason": "30% WR on 10 trades"},
+    "zxgngl": {"wr": 30, "trades": 10, "reason": "30% WR on 10 trades"},
+    "mikatrade77": {"wr": 30, "trades": 10, "reason": "30% WR on 10 trades"},
+    "RepTrump": {"wr": 33, "trades": 6, "reason": "33% WR on 6 trades"},
+    "432614799197": {"wr": 20, "trades": 5, "reason": "20% WR on 5 trades"},
+}
+
 
 def build_trader_stats() -> Dict[str, Dict]:
     """
@@ -128,6 +140,11 @@ def should_skip_trader(username: str, market_title: str,
         None if OK to alert
         String reason if should skip
     """
+    # Check permanent ban list first (survives stats reset)
+    if username in BANNED_TRADERS:
+        ban = BANNED_TRADERS[username]
+        return f"BANNED: {username} {ban['reason']}"
+    
     stats = trader_stats.get(username)
     if not stats:
         return None  # New trader, no data yet
@@ -164,13 +181,16 @@ def should_skip_trader(username: str, market_title: str,
 def format_trader_quality(username: str, trader_stats: Dict[str, Dict]) -> str:
     """Short quality indicator for alerts."""
     stats = trader_stats.get(username)
-    if not stats or stats["total"] < MIN_TRADES_FOR_FILTER:
+    if stats and stats["total"] >= MIN_TRADES_FOR_FILTER:
+        wr = stats["wr"]
+    elif username in BANNED_TRADERS:
+        wr = BANNED_TRADERS[username]["wr"] / 100
+    else:
         return ""
     
-    wr = stats["wr"]
     if wr >= 0.60:
-        return f"🟢 {wr*100:.0f}% trader WR"
+        return f"🟢 {wr*100:.0f}% WR"
     elif wr >= 0.45:
-        return f"🟡 {wr*100:.0f}% trader WR"
+        return f"🟡 {wr*100:.0f}% WR"
     else:
-        return f"🔴 {wr*100:.0f}% trader WR"
+        return f"🔴 {wr*100:.0f}% WR"
