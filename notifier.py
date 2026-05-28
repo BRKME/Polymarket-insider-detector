@@ -663,12 +663,18 @@ def _extract_ai_short_single(ai_context: str) -> str:
     if bullets:
         return '\n'.join(bullets[:2])
     
-    # Fallback
+    # Fallback: split into sentences, format as bullets
     sentences = re.split(r'\.(?!\d)', text)
-    result = '.'.join(sentences[:2]).strip()
-    if result and not result.endswith('.'):
-        result += '.'
-    return result[:180] if len(result) > 180 else result
+    clean = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 10]
+    if clean:
+        result = []
+        for s in clean[:2]:
+            if not s.endswith('.'):
+                s += '.'
+            result.append(f"• {s}")
+        return '\n'.join(result)
+    
+    return text[:180] if len(text) > 180 else text
 
 
 def _extract_ai_short(ai_context: str, model: str) -> str:
@@ -712,14 +718,18 @@ def _extract_ai_short(ai_context: str, model: str) -> str:
     if bullets:
         return '\n'.join(bullets[:2])
     
-    # Fallback: take first 2 sentences
+    # Fallback: split into sentences, format as bullets
     sentences = re.split(r'\.(?!\d)', text)
-    result = '.'.join(sentences[:2]).strip()
-    if result and not result.endswith('.'):
-        result += '.'
-    if len(result) > 180:
-        result = result[:177] + "..."
-    return result
+    clean = [s.strip() for s in sentences if s.strip() and len(s.strip()) > 10]
+    if clean:
+        result = []
+        for s in clean[:2]:
+            if not s.endswith('.'):
+                s += '.'
+            result.append(f"• {s}")
+        return '\n'.join(result)
+    
+    return text[:180] if len(text) > 180 else text
 
 
 def format_top_trader_alert(alert: Dict) -> str:
