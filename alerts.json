@@ -1,122 +1,5 @@
 [
   {
-    "market": "Will Bitcoin dip to $65,000 in April?",
-    "market_slug": "will-bitcoin-dip-to-65k-in-april-2026",
-    "event_slug": "will-bitcoin-dip-to-65k-in-april-2026",
-    "wallet": "0xf781837bcc9a63e771972ee283389fcf3563cb73",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "New wallet (1d old)",
-        "Against trend (3.3% effective odds)",
-        "Large bet ($1,894)"
-      ],
-      "amount": 1893.7617274147244,
-      "odds": 0.03292182593499229,
-      "raw_price": 0.03292182593499229,
-      "outcome": "Yes",
-      "potential_pnl": 55629.22412258528,
-      "pnl_multiplier": 29.374985943204013,
-      "wallet_age_days": 1,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-25T19:25:34.762799",
-    "trade_hash": "0xd8b6ab6e6fb006864d82d25107d5e489be63e2a249d0dfb4ff08b8fbec4eaaaf",
-    "trade_timestamp": 1777144624,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.03292182593499229,
-      "effective_price": 0.03292182593499229,
-      "size": 57522.985850000005,
-      "amount": 1893.7617274147244,
-      "potential_pnl": 55629.22412258528,
-      "pnl_multiplier": 29.374985943204013,
-      "is_no": false,
-      "conditionId": "0xf326a07132ea27d151fade9df0424db7c5ee496b44e5f373a41b4f15431bfd97",
-      "slug": "will-bitcoin-dip-to-65k-in-april-2026",
-      "eventSlug": "what-price-will-bitcoin-hit-in-april-2026"
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Longshot (3%) in medium bias category (crypto)"
-      ],
-      "category": "crypto",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.02658436518699846,
-      "market_price": 0.03292182593499229,
-      "edge": 0.006337460747993826,
-      "edge_percent": 0.6337460747993826,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Significant negative market sentiment towards cryptocurrencies",
-          "Major regulatory announcements impacting Bitcoin",
-          "A macroeconomic downturn affecting investor confidence"
-        ],
-        "weakest_link": "Major regulatory announcements impacting Bitcoin"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Market reactions to inflation and interest rate changes",
-        "Speculation on institutional investment trends"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 85,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 85,
-      "insider_position": "YES",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": false,
-      "edge": 0.006337460747993826,
-      "edge_percent": 0.6337460747993826
-    },
-    "financial_analyst": {
-      "signal_quality": 28.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 0.63,
-      "signal_strength": 85.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Bitcoin's current price is above $65,000, and recent forecasts suggest it will remain above that threshold in April 2026. As of April 25, 2026, Bitcoin is trading at approximately $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets indicate a 60.5% chance of Bitcoin reaching $65,000 by April 2026, suggesting a higher probability of staying above that level. (coingecko.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-28T09:45:18.758070+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1893.76
-    }
-  },
-  {
     "market": "Madrid Open: Anhelina Kalinina vs Naomi Osaka",
     "market_slug": "wta-kalinin-osaka-2026",
     "event_slug": "wta-kalinin-osaka-2026",
@@ -31037,6 +30920,54 @@
     "market_slug": "itsb-mon-cat-2026-05-29-more-markets",
     "amount": 2700.72,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u043c\u0430\u0442\u0447\u0430: 0-2, 1-1, 2-1 (2 \u0438\u0437 3 \u2014 Under 2.5)\nMonza \u0432\u0435\u0434\u0451\u0442 2-0 \u043f\u043e \u0441\u0443\u043c\u043c\u0435, \u0432 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 \u0432\u0442\u043e\u0440\u043e\u0439 \u043c\u0430\u0442\u0447 \u0447\u0430\u0441\u0442\u043e \u043d\u0438\u0437\u043a\u043e\u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u0438\u0432\u043d\u044b\u0439",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8f7dcd0275584207df1941eb3a2191c7c2ce9faffb4db19dbf9cc5d1efa73b3f",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403002,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1d1ade627d0bb0205758580b20d808573e720df6",
+      "side": "BUY",
+      "asset": "75441521290151338809087262087235157613280944071974744132196361597147651806759",
+      "conditionId": "0x1904507379fac7c051a817092cde6e3797800474016c663a7b00cb368ad6a352",
+      "size": 45000,
+      "price": 0.55,
+      "timestamp": 1780089325,
+      "title": "Milwaukee Brewers vs. Houston Astros",
+      "slug": "mlb-mil-hou-2026-05-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-mil-hou-2026-05-29",
+      "outcome": "Milwaukee Brewers",
+      "outcomeIndex": 0,
+      "name": "Pwaddler",
+      "pseudonym": "Flaky-Campaign",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8f7dcd0275584207df1941eb3a2191c7c2ce9faffb4db19dbf9cc5d1efa73b3f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Milwaukee Brewers vs. Houston Astros",
+    "market_slug": "mlb-mil-hou-2026-05-29",
+    "amount": 24750.000000000004,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBrewers 33-20, Astros 26-32\nAstros \u0431\u0435\u0437 Altuve (oblique, \u0434\u043e \u0441\u0435\u0440\u0435\u0434\u0438\u043d\u044b \u0438\u044e\u043d\u044f), Hader, Diaz, Correa \u0438 Loperfido \u043d\u0430 IL",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
