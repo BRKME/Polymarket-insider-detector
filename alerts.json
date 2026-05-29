@@ -1,123 +1,5 @@
 [
   {
-    "market": "NAC Breda vs. AFC Ajax: O/U 2.5",
-    "market_slug": "ere-nac-aja-2026-04-25-total-2pt5",
-    "event_slug": "ere-nac-aja-2026-04-25-total-2pt5",
-    "wallet": "0x4064f0122a3703e9159ca5dbd4bfeb7b980df741",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,105)",
-        "Low activity (13 txns)"
-      ],
-      "amount": 1105.2160000000001,
-      "odds": 0.56,
-      "raw_price": 0.56,
-      "outcome": "Over",
-      "potential_pnl": 868.384,
-      "pnl_multiplier": 0.7857142857142856,
-      "wallet_age_days": 2,
-      "total_activities": 13
-    },
-    "timestamp": "2026-04-25T17:05:34.990365",
-    "trade_hash": "0x8712ce4260156e2aa76259d29627c35393cf9ad5d56705423b2227c8f1a02a34",
-    "trade_timestamp": 1777136194,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.56,
-      "effective_price": 0.56,
-      "size": 1973.6,
-      "amount": 1105.2160000000001,
-      "potential_pnl": 868.384,
-      "pnl_multiplier": 0.7857142857142856,
-      "is_no": false,
-      "conditionId": "0x2d9e7d39ad81654087284743812574d482b80a0a2e3021ee920ff7835f4c4839",
-      "slug": "ere-nac-aja-2026-04-25-total-2pt5",
-      "eventSlug": "ere-nac-aja-2026-04-25-more-markets"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+30.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.252,
-      "market_price": 0.56,
-      "edge": 0.30800000000000005,
-      "edge_percent": 30.800000000000004,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Both teams have strong attacking players",
-          "Recent matches show high-scoring trends",
-          "Defensive weaknesses in both teams"
-        ],
-        "weakest_link": "Defensive weaknesses in both teams"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent form of NAC Breda",
-        "AFC Ajax's attacking prowess"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.30800000000000005,
-      "edge_percent": 30.800000000000004
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 30.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Recent matches between NAC Breda and AFC Ajax have consistently exceeded 2.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 3, averaging 3.33 goals per match. (espn.com) Additionally, AFC Ajax's games this season average 3.13 total goals, indicating a trend towards higher-scoring matches. (betbrain.com) Given these patterns, betting on the Over 2.5 total goals is supported by recent form and head-to-head statistics.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042800+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x34d77ce4ba88abde34b82e705b5c07c617bd180f86d8100b63f68e8caea232a3",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -31082,5 +30964,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x412293bcf7322383557be6850dcd923ff8f453e5a1006372a8633a56acbc2fee",
+    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+    "trader": {
+      "rank": 9,
+      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
+      "username": "PrincessCaro",
+      "profit": 6083643.099591745,
+      "volume": 23520809.952867005,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x8a269634753d90783f52c58e5ae9a8b9679e937e",
+      "side": "BUY",
+      "asset": "28346075023278482542785290546936936382861615842549804420161634499881162274106",
+      "conditionId": "0x8ae3768af1a52c8a169c49e53355b4d1ea468988d5a3019cf02d5a91f3b295b2",
+      "size": 7462.686566,
+      "price": 0.66999999997052,
+      "timestamp": 1780034501,
+      "title": "Roland Garros ATP: Joao Fonseca vs Novak Djokovic",
+      "slug": "atp-fonseca-djokovi-2026-05-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-fonseca-djokovi-2026-05-29",
+      "outcome": "Novak Djokovic",
+      "outcomeIndex": 1,
+      "name": "Iconicsoundsdk",
+      "pseudonym": "Severe-Bootie-Filly",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x412293bcf7322383557be6850dcd923ff8f453e5a1006372a8633a56acbc2fee",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Joao Fonseca vs Novak Djokovic",
+    "market_slug": "atp-fonseca-djokovi-2026-05-29",
+    "amount": 2462.6865670000007,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nDjokovic \u0432\u044b\u0438\u0433\u0440\u0430\u043b 2 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043d\u0430 Roland Garros 2026 (R1: 5-7 7-5 6-1 6-4 \u043f\u0440\u043e\u0442\u0438\u0432 Mpetshi Perricard; R2: 6-3 6-2 6-7(7) 6-3 \u043f\u0440\u043e\u0442\u0438\u0432 Royer)\nH2H: 0 \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 Djokovic \u0438 Fonseca",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
