@@ -309,9 +309,9 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                     tt_dedup += 1
                     continue
                 
-                # Skip if this market already alerted in this run (avoid 3x same market)
+                # Skip if this market already alerted in this run (any side)
                 market_slug = trade.get('slug', '') or trade.get('title', '')[:40]
-                market_key = f"{market_slug}_{trade.get('outcome', '')}"
+                market_key = market_slug
                 if market_key in markets_alerted:
                     tt_market_dedup += 1
                     continue

@@ -39,6 +39,7 @@ BANNED_TRADERS = {
     "mikatrade77": {"wr": 30, "trades": 10, "reason": "30% WR on 10 trades"},
     "RepTrump": {"wr": 33, "trades": 6, "reason": "33% WR on 6 trades"},
     "432614799197": {"wr": 20, "trades": 5, "reason": "20% WR on 5 trades"},
+    "PrincessCaro": {"wr": 25, "trades": 8, "reason": "25% WR in sports on 8 trades"},
 }
 
 
