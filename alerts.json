@@ -27123,7 +27123,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP",
-    "resolution_last_check": "2026-05-28T09:47:27.208464+00:00"
+    "resolution_last_check": "2026-05-28T09:47:27.208464+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-29T09:36:18.271403+00:00",
+      "insider_win": true,
+      "model_correct": true,
+      "pnl": 3877.26
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29608,7 +29615,14 @@
     "ai_verdict": "COPY",
     "ai_model": "GPT",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-05-28T09:48:19.364413+00:00"
+    "resolution_last_check": "2026-05-28T09:48:19.364413+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-29T09:36:25.303489+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -1542.1
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30723,7 +30737,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP",
-    "resolution_last_check": "2026-05-28T09:48:44.282343+00:00"
+    "resolution_last_check": "2026-05-28T09:48:44.282343+00:00",
+    "resolution": {
+      "outcome": "Team Falcons",
+      "checked_at": "2026-05-29T09:36:31.423218+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1773.78
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30771,7 +30792,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n24-28 \u043c\u0430\u044f 2026: \u0441\u0442\u043e\u0440\u043e\u043d\u044b \u0431\u043b\u0438\u0437\u043a\u0438 \u043a \u041c\u0435\u043c\u043e\u0440\u0430\u043d\u0434\u0443\u043c\u0443 \u043e \u0432\u0437\u0430\u0438\u043c\u043e\u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u0438 \u043d\u0430 60 \u0434\u043d\u0435\u0439 (\u043f\u0440\u043e\u0434\u043b\u0435\u043d\u0438\u0435 \u043f\u0435\u0440\u0435\u043c\u0438\u0440\u0438\u044f, \u043e\u0442\u043a\u0440\u044b\u0442\u0438\u0435 \u043f\u0440\u043e\u043b\u0438\u0432\u0430 \u041e\u0440\u043c\u0443\u0437), \u044f\u0434\u0435\u0440\u043d\u044b\u0435 \u0432\u043e\u043f\u0440\u043e\u0441\u044b \u043e\u0442\u043b\u043e\u0436\u0435\u043d\u044b \u043d\u0430 \u043f\u043e\u0441\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439 \u044d\u0442\u0430\u043f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432.",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-05-29T09:36:32.307257+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30819,7 +30841,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H: Tsitsipas \u0432\u0435\u0434\u0451\u0442 1-0, \u043f\u043e\u0431\u0435\u0434\u0430 \u043d\u0430 RG 2024 (\u0433\u043b\u0438\u043d\u0430) 3-6 7-6(4) 6-2 6-2\n2026 \u0444\u043e\u0440\u043c\u0430: 15-12, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u043f\u043e\u0431\u0435\u0434\u0430 \u0432 1 \u0440\u0430\u0443\u043d\u0434\u0435 RG \u043f\u0440\u043e\u0442\u0438\u0432 Muller (6-2 3-0 ret)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Matteo Arnaldi",
+      "checked_at": "2026-05-29T09:36:34.045974+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2970.39
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30867,7 +30896,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\n\u0421\u0428\u0410 \u043d\u0430\u043d\u0435\u0441\u043b\u0438 \u0443\u0434\u0430\u0440\u044b \u043f\u043e \u0438\u0440\u0430\u043d\u0441\u043a\u0438\u043c \u043e\u0431\u044a\u0435\u043a\u0442\u0430\u043c 25\u201326 \u043c\u0430\u044f 2026 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432, \u0418\u0440\u0430\u043d \u043f\u0440\u0438\u0433\u0440\u043e\u0437\u0438\u043b \u043e\u0442\u0432\u0435\u0442\u043e\u043c.",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-29T09:36:35.816929+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1249.93
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30915,7 +30951,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n\u0412 4 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043c\u0430\u0442\u0447\u0435\u0439 \u043f\u043b\u0435\u0439-\u043e\u0444\u0444 \u043c\u0435\u0436\u0434\u0443 Thunder \u0438 Spurs \u0442\u043e\u0442\u0430\u043b \u043f\u0440\u0435\u0432\u044b\u0441\u0438\u043b 218.5 (241, 231, 235, 237 \u043e\u0447\u043a\u043e\u0432)\n\u041f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 4 \u0438\u0433\u0440\u044b Thunder: \u0442\u043e\u0442\u0430\u043b\u044b 241, 231, 235, 237 (\u0432\u0441\u0435 \u0432\u044b\u0448\u0435 \u043b\u0438\u043d\u0438\u0438)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Spurs",
+      "checked_at": "2026-05-29T09:36:37.573487+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30963,7 +31006,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2705 SKIP\nCubs \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 5 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 6 \u043c\u0430\u0442\u0447\u0435\u0439 (\u0432\u043a\u043b\u044e\u0447\u0430\u044f 1-2 \u0438 1-12 \u043f\u0440\u043e\u0442\u0438\u0432 Pirates)\n\u041d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043a\u043b\u044e\u0447\u0435\u0432\u044b\u0445 \u043f\u0438\u0442\u0447\u0435\u0440\u043e\u0432 \u043d\u0430 IL (Boyd, Cabrera \u0438 \u0434\u0440.)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Chicago Cubs",
+      "checked_at": "2026-05-29T09:36:39.362655+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2093.27
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31011,6 +31061,7 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nDjokovic \u0432\u044b\u0438\u0433\u0440\u0430\u043b 2 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043d\u0430 Roland Garros 2026 (R1: 5-7 7-5 6-1 6-4 \u043f\u0440\u043e\u0442\u0438\u0432 Mpetshi Perricard; R2: 6-3 6-2 6-7(7) 6-3 \u043f\u0440\u043e\u0442\u0438\u0432 Royer)\nH2H: 0 \u043f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447 \u043c\u0435\u0436\u0434\u0443 Djokovic \u0438 Fonseca",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-05-29T09:36:40.530684+00:00"
   }
 ]
