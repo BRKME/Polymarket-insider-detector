@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x34d77ce4ba88abde34b82e705b5c07c617bd180f86d8100b63f68e8caea232a3",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x69adf268789f93b2c4da978870af74ae945f31e6",
-      "side": "BUY",
-      "asset": "71367208209871569480963362449047716278879223456490982543510091929629209420090",
-      "conditionId": "0xa2e93646b69ebca6063f771e8937b224cfeb311755b52b3a6a87919fc7053620",
-      "size": 2010.58061,
-      "price": 0.77,
-      "timestamp": 1777136608,
-      "title": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
-      "slug": "cricipl-raj-sun-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
-      "eventSlug": "cricipl-raj-sun-2026-04-25",
-      "outcome": "Sunrisers Hyderabad",
-      "outcomeIndex": 1,
-      "name": "ferenc89",
-      "pseudonym": "Zigzag-Logistics",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6294534-4488bfb7-5b9a-4162-a989-5643a4c0fe91.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x34d77ce4ba88abde34b82e705b5c07c617bd180f86d8100b63f68e8caea232a3",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Indian Premier League: Rajasthan Royals vs Sunrisers Hyderabad",
-    "market_slug": "cricipl-raj-sun-2026-04-25",
-    "amount": 1548.1470697,
-    "ai_context": "\u2705 COPY \u2014 Sunrisers Hyderabad have a strong head-to-head record against Rajasthan Royals, winning 12 out of 21 matches.\nIn their most recent encounter, Sunrisers Hyderabad posted a massive 286 runs, the second-highest team total in IPL history, before securing a comfortable victory. (mykhel.com)\nAdditionally, Sunrisers Hyderabad have won 4 out of their last 7 matches, indicating a solid recent form. (cricket-feed.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042816+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x6ce03d3327b660d01a68c2c5fc3afc0edb5d3ba27912977d14a211f6e1488ae7",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31063,5 +31009,53 @@
     "ai_model": "Grok",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-05-29T09:36:40.530684+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2dd64ab919f88bb283609c3b960f7feb896f5befcc864be9cbbf161b825bc732",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 18,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4558540.148524522,
+      "volume": 60895638.47765599,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6ac0caf622798132614a5972f81d86ff23fc55f3",
+      "side": "BUY",
+      "asset": "39040993339692011893931540077322383339631602451525460031216774971808386681386",
+      "conditionId": "0x6189539ff1b08bc4052607d89921663ca0de0f0cd70b79c9993d7f9f3211ec3e",
+      "size": 19323.6,
+      "price": 0.08055411051770892,
+      "timestamp": 1780058560,
+      "title": "Will Gabriel Attal win the 2027 French presidential election?",
+      "slug": "will-gabriel-attal-win-the-2027-french-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-gabriel-attal-win-the-2027-french-presidential-election-Fj68gcFk9pJ1.jpg",
+      "eventSlug": "next-french-presidential-election",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "LeRoiSoleil",
+      "pseudonym": "Intentional-Star",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2dd64ab919f88bb283609c3b960f7feb896f5befcc864be9cbbf161b825bc732",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Gabriel Attal win the 2027 French presidential election?",
+    "market_slug": "next-french-presidential-election",
+    "amount": 1556.59541,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2705 SKIP  \n\u0412 \u043e\u043f\u0440\u043e\u0441\u0435 Odoxa (25\u201327 \u043c\u0430\u044f 2026) \u0416\u043e\u0440\u0434\u0430\u043d \u0411\u0430\u0440\u0434\u0435\u043b\u043b\u0430 \u043f\u043e\u0431\u0435\u0436\u0434\u0430\u0435\u0442 \u0413\u0430\u0431\u0440\u0438\u044d\u043b\u044f \u0410\u0442\u0442\u0430\u043b\u044f \u0432\u043e \u0432\u0442\u043e\u0440\u043e\u043c \u0442\u0443\u0440\u0435 57%\u201343%.",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
