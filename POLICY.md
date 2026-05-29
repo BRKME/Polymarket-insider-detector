@@ -476,10 +476,45 @@ Source: Anthropic engineer case study, 86M trades analysis.
 
 ---
 
+## AI Analysis Principles (May 2026)
+
+### Правило #1: Объективный анализ, не подтверждение ставки
+
+**НИКОГДА** не просить AI "подтвердить" или "найти факты ЗА ставку трейдера".
+
+Это создаёт confirmation bias: AI ищет подтверждение любой стороне и находит.
+Реальный пример: SK Brann — AI сказал СТАВИТЬ и за Brann, и против Brann
+в один и тот же момент, потому что искал подтверждение для каждого трейдера.
+
+**Правильный подход:**
+1. AI анализирует РЫНОК объективно (обе стороны)
+2. Находит факты для ОБЕИХ команд/исходов
+3. Делает ОДИН вывод — кто фаворит
+4. Сравнивает с позицией трейдера
+5. COPY если факты совпадают, SKIP если нет
+
+**Промпт:** "Дай ОБЪЕКТИВНЫЙ анализ. Анализируй ОБЕИХ участников.
+Потом сравни с позицией трейдера."
+
+**Запрещённый промпт:** "Поддерживают ли факты ставку на X?"
+
+### Правило #2: Нет выдумкам
+
+AI не должен выдумывать статистику. Каждый факт — из поиска.
+Если данных нет → NO_DATA, не COPY.
+
+### Правило #3: Одна модель — один вердикт
+
+GPT удалён (33% WR, выдумывал данные). Только Grok с X Search + Web Search.
+Одна модель = один вердикт = нет противоречий.
+
+---
+
 ## Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
+| 3.2 | 2026-05 | AI objectivity principle, GPT removed, esports blocked, Grok with X Search |
 | 3.1 | 2026-05 | 71x engineer insights: trader filtering, category specialization, per-trader WR |
 | 3.0 | 2026-04 | Research-backed rules: maker execution, MAX_ODDS 0.90, validated WR data |
 | 2.5 | 2026-04 | Resolution tracker fix, AI web search, Whale Watch, filter audit |
