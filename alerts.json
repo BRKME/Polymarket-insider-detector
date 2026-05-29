@@ -1,123 +1,5 @@
 [
   {
-    "market": "Madrid Open: Anhelina Kalinina vs Naomi Osaka",
-    "market_slug": "wta-kalinin-osaka-2026",
-    "event_slug": "wta-kalinin-osaka-2026",
-    "wallet": "0xe807b8e5e8d8d442e726b23f832c08615d30307c",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($6,280)",
-        "Low activity (19 txns)"
-      ],
-      "amount": 6279.878780337501,
-      "odds": 0.7899625,
-      "raw_price": 0.7899625,
-      "outcome": "Naomi Osaka",
-      "potential_pnl": 1669.7122196625005,
-      "pnl_multiplier": 0.2658828741870659,
-      "wallet_age_days": 0,
-      "total_activities": 19
-    },
-    "timestamp": "2026-04-25T19:58:44.432510",
-    "trade_hash": "0x92f16e5b809882752695295c004cc0b49d4029cde78342826b8bbd76a03799f9",
-    "trade_timestamp": 1777146824,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Naomi Osaka",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.7899625,
-      "effective_price": 0.7899625,
-      "size": 7949.591,
-      "amount": 6279.878780337501,
-      "potential_pnl": 1669.7122196625005,
-      "pnl_multiplier": 0.2658828741870659,
-      "is_no": false,
-      "conditionId": "0x615e68fe17682d5607773703484e5cdf52fb9dccb6760091f13f675a2551b324",
-      "slug": "wta-kalinin-osaka-2026",
-      "eventSlug": "wta-kalinin-osaka-2026-04-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+49.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2979925,
-      "market_price": 0.7899625,
-      "edge": 0.49197,
-      "edge_percent": 49.197,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Kalinina maintains high performance level",
-          "Osaka returns to peak form",
-          "Match conditions favor Osaka's playing style"
-        ],
-        "weakest_link": "Osaka returns to peak form"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Kalinina's recent performance",
-        "Osaka's comeback narrative"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 105,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.49197,
-      "edge_percent": 49.197
-    },
-    "financial_analyst": {
-      "signal_quality": 81.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 49.2,
-      "signal_strength": 105.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Naomi Osaka has a strong recent record and is favored to win.\nOver the past 10 matches, Osaka holds a 7-3 record, and in the last 52 weeks, she has a 32-14 record, equating to a 69.6% win rate. (tennisratio.com) She is currently ranked No. 15 in the WTA rankings. (en.wikipedia.org) In her most recent match, she defeated Camila Osorio 6-2, 7-5. (thestatszone.com)\nWhile Anhelina Kalinina has also been in good form, with a 34-9 record over the past 52 weeks (79.1% win rate), (tennisratio.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042880+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x2c5fa8e84ef53d8fa610d3b15282a56dcc3ba50e3c53afe0f3778f72252d86e6",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
@@ -30968,6 +30850,118 @@
     "market_slug": "mlb-mil-hou-2026-05-29",
     "amount": 24750.000000000004,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBrewers 33-20, Astros 26-32\nAstros \u0431\u0435\u0437 Altuve (oblique, \u0434\u043e \u0441\u0435\u0440\u0435\u0434\u0438\u043d\u044b \u0438\u044e\u043d\u044f), Hader, Diaz, Correa \u0438 Loperfido \u043d\u0430 IL",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "market": "Los Angeles Angels vs. Tampa Bay Rays",
+    "market_slug": "mlb-laa-tb-2026",
+    "event_slug": "mlb-laa-tb-2026",
+    "wallet": "0x677a4402f0c71955ba7b017ffb7cd43756af1d52",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($4,760)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 4759.609999,
+      "odds": 0.5899999999652913,
+      "raw_price": 0.5899999999652913,
+      "outcome": "Tampa Bay Rays",
+      "potential_pnl": 3307.5255930000003,
+      "pnl_multiplier": 0.6949152543369972,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-05-29T22:41:42.169573",
+    "trade_hash": "0xeb0384af10c9bba0e10785a1675b84b3b8f33dde7b1cbd2b3a33c8e72413f6e3",
+    "trade_timestamp": 1780094174,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Tampa Bay Rays",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.5899999999652913,
+      "effective_price": 0.5899999999652913,
+      "size": 8067.135592,
+      "amount": 4759.609999,
+      "potential_pnl": 3307.5255930000003,
+      "pnl_multiplier": 0.6949152543369972,
+      "is_no": false,
+      "conditionId": "0xd9535524d86aac82c8024bd0ef9e53c8dabc26f0a4c2a1d6e53c2e4ef56f8d63",
+      "slug": "mlb-laa-tb-2026",
+      "eventSlug": "mlb-laa-tb-2026-05-29"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+33.2%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2579999999930582,
+      "market_price": 0.5899999999652913,
+      "edge": 0.33199999997223306,
+      "edge_percent": 33.19999999722331,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Angels' key players perform exceptionally well",
+          "Rays' key players underperform",
+          "Injuries affect team dynamics"
+        ],
+        "weakest_link": "Rays' key players underperform"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Angels' recent performance trends",
+        "Rays' historical matchups against Angels"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.33199999997223306,
+      "edge_percent": 33.19999999722331
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 33.2,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nRays record 34-19 (1st AL East), Angels 22-35 (5th AL West)\nRays starter Martinez 4-1, 1.51 ERA; Angels starter Ure\u00f1a 2-4, 2.58 ERA",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
