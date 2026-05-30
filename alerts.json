@@ -1,114 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xc41eec4cf4a1c3e7956df43f550d5250c45f6a6955ea244bbf85b5bb3e0d40de",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.5892408835,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x61350a67db3cf369d6a463751902870a3c09efa0",
-      "side": "BUY",
-      "asset": "17409208386936183539185174424903687080798391159902843473542170178980175079819",
-      "conditionId": "0x30d4ed163ad47e0702eb35eafeaf7a939bc4d37bcb0c16f780c2a7157c9cac24",
-      "size": 3508.98549,
-      "price": 0.321636375311289,
-      "timestamp": 1777204436,
-      "title": "LoL: Weibo Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
-      "slug": "lol-wb-blg-2026-04-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-wb-blg-2026-04-26",
-      "outcome": "Weibo Gaming",
-      "outcomeIndex": 0,
-      "name": "stupidoso",
-      "pseudonym": "Extroverted-Accountant",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xc41eec4cf4a1c3e7956df43f550d5250c45f6a6955ea244bbf85b5bb3e0d40de",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Weibo Gaming vs Bilibili Gaming (BO3) - LPL Group Ascend",
-    "market_slug": "lol-wb-blg-2026-04-26",
-    "amount": 1128.6173740235074,
-    "ai_context": "\u274c SKIP \u2014 Bilibili Gaming has dominated recent matchups and is on a 10-match winning streak.\nIn their last 10 matches, Bilibili Gaming has won all 10, while Weibo Gaming has a 5-5 record. Historically, Bilibili Gaming leads the head-to-head with 17 wins to Weibo Gaming's 6. (strafe.com) Given Bilibili Gaming's current form and historical advantage, the trader's bet on Weibo Gaming appears risky.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043031+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x71570e5541d239390eadd255b95063c7577777d712dd62b98dc307dd9a029e81",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xe6dde73456b7f7c44801a6559c358d26bdfcedaf",
-      "side": "BUY",
-      "asset": "4210384906807271563665380356911542602146833241620633969762484064398651656390",
-      "conditionId": "0x3934741448ec9a1a90746a9fd4388b151dffe282d5bdc37634d7a8911f9ce3c8",
-      "size": 4949,
-      "price": 0.66,
-      "timestamp": 1777206534,
-      "title": "LoL: Weibo Gaming vs Bilibili Gaming - Game 2 Winner",
-      "slug": "lol-wb-blg-2026-04-26-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-wb-blg-2026-04-26",
-      "outcome": "Bilibili Gaming",
-      "outcomeIndex": 1,
-      "name": "NiuBot",
-      "pseudonym": "Affectionate-Blast",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x71570e5541d239390eadd255b95063c7577777d712dd62b98dc307dd9a029e81",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Weibo Gaming vs Bilibili Gaming - Game 2 Winner",
-    "market_slug": "lol-wb-blg-2026-04-26",
-    "amount": 3266.34,
-    "ai_context": "\u274c SKIP \u2014 Bilibili Gaming has a losing head-to-head record against Weibo Gaming and has recently lost to them.\nIn their last 10 meetings, Weibo Gaming leads with 7 wins to Bilibili Gaming's 3, including a 2-0 sweep in their most recent best-of-3 series last month. (sportsbook.dexwin.bet)\nHowever, the trader may have access to insider information or analysis not yet public.\nGiven the clear advantage of Weibo Gaming in recent matchups, it would be prudent to reconsider the bet on Bilibili Gaming.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043041+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x33fcd1cc15da30a18bbf9fc67459582a5e482e76d31cdd45d5dac5564ff3dd21",
     "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
     "trader": {
@@ -30702,5 +30594,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x186a6323b6d61c7172dc03c91b231eb8cdddb36c556ea23b8099b99caf8338fa",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11723632.779596625,
+      "volume": 292570579.14240295,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x14ecf9e34eef5f48547c7555e42dd8a4fece29d6",
+      "side": "SELL",
+      "asset": "98995454929502090253677005499136815786618457974539379472945759013797338791883",
+      "conditionId": "0x26f410f7518fa199678ef57f02637fc88be9b3b593346b00946d7ea451f4521b",
+      "size": 6861.58,
+      "price": 0.15682944161548798,
+      "timestamp": 1780162808,
+      "title": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+      "slug": "will-ousmane-dembl-win-the-2026-ballon-dor",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ballon-dor-winner-2025-vTCj-1ZkJzga.jpg",
+      "eventSlug": "ballon-dor-winner-2026",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x186a6323b6d61c7172dc03c91b231eb8cdddb36c556ea23b8099b99caf8338fa",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Ousmane Demb\u00e9l\u00e9 win the 2026 Ballon d'Or?",
+    "market_slug": "ballon-dor-winner-2026",
+    "amount": 1076.09776,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n\u0414\u0435\u043c\u0431\u0435\u043b\u0435 \u2014 \u043f\u043e\u0431\u0435\u0434\u0438\u0442\u0435\u043b\u044c Ballon d'Or 2025, \u0432\u0442\u043e\u0440\u043e\u0439 \u0444\u0430\u0432\u043e\u0440\u0438\u0442 2026 \u043f\u043e \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u0430\u043c (9/2, ~18%)\n\u0412 prediction market Kalshi \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u043e\u0431\u0435\u0434\u044b \u0414\u0435\u043c\u0431\u0435\u043b\u0435 24% (Kane 23%)[[1]](",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x03bfc493519509be284a0c836c271291ad73ccfd01ce362425ecf5e4899ff84f",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692177,
+      "volume": 529047708.50599104,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "BUY",
+      "asset": "57881479704847872943544095137157098030396673130860692546874262450849694058049",
+      "conditionId": "0x215be7e1cbc744ce1a85fb891db92b53f933712b5a556e556657c3254f63d260",
+      "size": 1247,
+      "price": 0.43,
+      "timestamp": 1780163110,
+      "title": "Spurs vs. Thunder",
+      "slug": "nba-sas-okc-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-okc-2026-05-30",
+      "outcome": "Spurs",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x03bfc493519509be284a0c836c271291ad73ccfd01ce362425ecf5e4899ff84f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spurs vs. Thunder",
+    "market_slug": "nba-sas-okc-2026-05-30",
+    "amount": 536.21,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpurs \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 6 118-91 \u0438 \u0441\u0440\u0430\u0432\u043d\u044f\u043b\u0438 \u0441\u0435\u0440\u0438\u044e 3-3\nThunder \u0431\u0435\u0437 Jalen Williams (hamstring) \u0438 Ajay Mitchell (calf) \u0432 Game 7",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
