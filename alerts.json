@@ -1,123 +1,5 @@
 [
   {
-    "market": "Spurs vs. Trail Blazers",
-    "market_slug": "nba-sas-por-2026",
-    "event_slug": "nba-sas-por-2026",
-    "wallet": "0x581afb4c39b8071ed8bed0479fb33e2932c7c719",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (1d old)",
-        "Large bet ($1,874)",
-        "Low activity (5 txns)"
-      ],
-      "amount": 1874.404056201632,
-      "odds": 0.6599999999442367,
-      "raw_price": 0.6599999999442367,
-      "outcome": "Spurs",
-      "potential_pnl": 965.6020897983681,
-      "pnl_multiplier": 0.51515151527953,
-      "wallet_age_days": 1,
-      "total_activities": 5
-    },
-    "timestamp": "2026-04-26T10:25:50.599082",
-    "trade_hash": "0xb434b096eaf79fa643956ecfaf7dddc41dcdbfdfb589657a9ac980a7371f5866",
-    "trade_timestamp": 1777198818,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Spurs",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.6599999999442367,
-      "effective_price": 0.6599999999442367,
-      "size": 2840.006146,
-      "amount": 1874.404056201632,
-      "potential_pnl": 965.6020897983681,
-      "pnl_multiplier": 0.51515151527953,
-      "is_no": false,
-      "conditionId": "0x8ff9faf0ff030925d920a79ab8012493c53dfc817d27e1c0ca75653258ff266d",
-      "slug": "nba-sas-por-2026",
-      "eventSlug": "nba-sas-por-2026-04-26"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+38.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.27199999998884733,
-      "market_price": 0.6599999999442367,
-      "edge": 0.3879999999553894,
-      "edge_percent": 38.79999999553894,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Spurs maintain current form",
-          "Trail Blazers underperform",
-          "Injury status of key players"
-        ],
-        "weakest_link": "Injury status of key players"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Spurs' recent performance trends",
-        "Trail Blazers' roster changes"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3879999999553894,
-      "edge_percent": 38.79999999553894
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 38.8,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Spurs have won 3 of the last 4 matchups against the Trail Blazers, including a decisive 120-108 victory on April 24, 2026.\nNBA Schedule\nTrail Blazers (POR) @ Spurs (SAS) on Wednesday, Apr 08, 2026 at 06:30 PM PDT. Final score: POR 101 - SAS 112\nTrail Blazers (POR) @ Spurs (SAS) on Sunday, Apr 19, 2026 at 06:00 PM PDT. Final score: POR 98 - SAS 111\nTrail Blazers (POR) @ Spurs (SAS) on Tuesday, Apr 21, 2026 at 05:00 PM PDT.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043011+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x191534961fdd46f40e98c7179e90fcb122890d8b15d7293cf52f1b44cc5a7ce7",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
@@ -30778,5 +30660,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7ce1264b40adfe89887caf5c22b95eb83b393f94ff6580daa1d1b8659fe8b849",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 4,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 9139777.246979974,
+      "volume": 832552653.2405623,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x86fbea68d619daf670185ecd38a69aa90f7703d4",
+      "side": "BUY",
+      "asset": "48266155784016844137166283546442505319002353733298913457784203021568892550163",
+      "conditionId": "0x5dc96d5b6d416507a833231f23a08c69cd04592031519e2d225e2d9860e978cf",
+      "size": 7575.757574,
+      "price": 0.32999999994456,
+      "timestamp": 1780155573,
+      "title": "Will Arsenal FC win on 2026-05-30?",
+      "slug": "ucl-psg-ars-2026-05-30-ars",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
+      "eventSlug": "ucl-psg-ars-2026-05-30",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7ce1264b40adfe89887caf5c22b95eb83b393f94ff6580daa1d1b8659fe8b849",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Arsenal FC win on 2026-05-30?",
+    "market_slug": "ucl-psg-ars-2026-05-30",
+    "amount": 2499.9999989999997,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nUCL final: PSG vs Arsenal (neutral Pusk\u00e1s Ar\u00e9na)\nH2H balanced (PSG 2 wins, Arsenal 2-3 wins, 2 draws in 7 meetings)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
