@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x2c5fa8e84ef53d8fa610d3b15282a56dcc3ba50e3c53afe0f3778f72252d86e6",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 7,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425002,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
-      "side": "BUY",
-      "asset": "41772102129198252435268395441232788537892915035660994488552295928531028880890",
-      "conditionId": "0xf752c3ec9526de39530718246fcf9a69c4bc883191c8fc994eb4d43990c49030",
-      "size": 6148.3871,
-      "price": 0.39,
-      "timestamp": 1777147114,
-      "title": "Thunder vs. Suns",
-      "slug": "nba-okc-phx-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-okc-phx-2026-04-25",
-      "outcome": "Suns",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2c5fa8e84ef53d8fa610d3b15282a56dcc3ba50e3c53afe0f3778f72252d86e6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Thunder vs. Suns",
-    "market_slug": "nba-okc-phx-2026-04-25",
-    "amount": 2397.870969,
-    "ai_context": "\u274c SKIP \u2014 The Suns have lost their last two games against the Thunder by double digits.\nIn their most recent matchup on April 22, 2026, the Suns were defeated 120-107, with Shai Gilgeous-Alexander scoring 37 points and dishing out 9 assists. (elpais.com)\nAdditionally, the Suns have been inconsistent in recent games, including a narrow 114-110 loss to the Portland Trail Blazers in a play-in game on April 15, 2026. (axios.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042893+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x87f53b540153ed64565f2a8566ac550981ac6c94a85cba8561b0a6e14d30b255",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30962,6 +30908,54 @@
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     },
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nRays record 34-19 (1st AL East), Angels 22-35 (5th AL West)\nRays starter Martinez 4-1, 1.51 ERA; Angels starter Ure\u00f1a 2-4, 2.58 ERA",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa5d82483222920b6ee8a74d683fbc79761c83545d0790617a5052745c00eaaab",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x815fe12910e7de5f1d7ca1b96c4bbfc0eeae1eef",
+      "side": "BUY",
+      "asset": "87023628662031558450555551627920359019502992989828050868124709276063892485736",
+      "conditionId": "0x68424689d60b2d19942c79d43218515fedf3b244708f7913b4971d96b163d71b",
+      "size": 1084,
+      "price": 0.43,
+      "timestamp": 1780098966,
+      "title": "San Diego Padres vs. Washington Nationals: O/U 11.5",
+      "slug": "mlb-sd-wsh-2026-05-29-total-11pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-sd-wsh-2026-05-29",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "blank7633",
+      "pseudonym": "Spectacular-Seizure",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa5d82483222920b6ee8a74d683fbc79761c83545d0790617a5052745c00eaaab",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "San Diego Padres vs. Washington Nationals: O/U 11.5",
+    "market_slug": "mlb-sd-wsh-2026-05-29",
+    "amount": 617.8800000000001,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nPadres \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u0438\u0433\u0440\u0430\u0445: totals 3, 7 \u0438 3 \u0440\u0430\u043d\u0430\nNationals \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 3 \u0438\u0433\u0440\u0430\u0445: totals 5, 9 \u0438 12 \u0440\u0430\u043d\u0430 (2 \u0438\u0437 3 under 11.5)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
