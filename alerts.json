@@ -1,168 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x33fcd1cc15da30a18bbf9fc67459582a5e482e76d31cdd45d5dac5564ff3dd21",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764626998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8d5d93af87298f1781fd96ba4ffa5d63e554191d",
-      "side": "BUY",
-      "asset": "52966441453079127381715496666114895394936117116095551683095132543115272088981",
-      "conditionId": "0xca945ddcb5c88abf272ffa8e3afb64894303d18e981655204c37647f757648c3",
-      "size": 3624.5074449999997,
-      "price": 0.5899999999046229,
-      "timestamp": 1777206834,
-      "title": "Will Como 1907 win on 2026-04-26?",
-      "slug": "sea-gen-com-2026-04-26-com",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-gen-com-2026-04-26",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "DZC188",
-      "pseudonym": "Warmhearted-Shame",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x33fcd1cc15da30a18bbf9fc67459582a5e482e76d31cdd45d5dac5564ff3dd21",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Como 1907 win on 2026-04-26?",
-    "market_slug": "sea-gen-com-2026-04-26",
-    "amount": 2138.459392204305,
-    "ai_context": "\u2705 COPY \u2014 Como 1907 is in strong form, having won their last five matches, while Genoa has lost four of their last five.\nComo 1907's recent form includes a 5-0 victory over Pisa on March 22, a 2-1 win against Roma on March 15, and a 0-0 draw against Inter Milan on March 3. Genoa's recent form includes a 2-1 win against Sassuolo on April 12, a 2-0 loss to Juventus on April 6, and a 2-0 loss to Udinese on March 20. (foxsports.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043050+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4196b58a9619a0c8335e2b489b92ac4dac6e0d1fa6b3be28eb4bf7563b1fd5bf",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xaa00bd99d8c8c3f0221c4d10803f7d6c95a3f736",
-      "side": "BUY",
-      "asset": "51787971317079586383268383659068301655997057994949799533205021964271786922624",
-      "conditionId": "0xfb174f89579bbb92d6df902fd69770e0d30a033006612d02fab6bcd38a68473a",
-      "size": 7471.958317,
-      "price": 0.6627520637978547,
-      "timestamp": 1777213738,
-      "title": "Dota 2: BetBoom Team vs Aurora - Game 3 Winner",
-      "slug": "dota2-bb4-aur1-2026-04-26-game3",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/dota2-7ffacddb21.jpg",
-      "eventSlug": "dota2-bb4-aur1-2026-04-26",
-      "outcome": "BetBoom Team",
-      "outcomeIndex": 0,
-      "name": "Diablotrade2k27",
-      "pseudonym": "Lazy-Act-Availability",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4196b58a9619a0c8335e2b489b92ac4dac6e0d1fa6b3be28eb4bf7563b1fd5bf",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Dota 2: BetBoom Team vs Aurora - Game 3 Winner",
-    "market_slug": "dota2-bb4-aur1-2026-04-26",
-    "amount": 4952.055795203295,
-    "ai_context": "\u2705 COPY \u2014 BetBoom Team has a strong recent record and a favorable head-to-head against Aurora.\nBetBoom Team has won 7 of their last 10 matches, including a 3-1 victory over Aurora in the DreamLeague Season 28 Eastern Europe Closed Qualifier. (rdy.gg) Aurora has a 71% win rate over the past six months, indicating consistent high-level performance. (bo3.gg)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043059+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xecc441790b7efef0264ec5bb56852a7c037bada39895145cf0ae8e40bf6f6e1e",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 9,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2eb10cb8596bf8c8ef409f72cfb5eb6438054ea4",
-      "side": "BUY",
-      "asset": "55817201584479912312720142395564785578289458474649701906804924088458846885928",
-      "conditionId": "0x8e12fec953e831f0e3371a331899202dacc11b6679201a2407e1b2a549268608",
-      "size": 37225.81426000001,
-      "price": 0.72,
-      "timestamp": 1777219142,
-      "title": "Will FC Internazionale Milano win on 2026-04-26?",
-      "slug": "sea-tor-int-2026-04-26-int",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-tor-int-2026-04-26",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "Lacosteboy",
-      "pseudonym": "Wilted-Opossum",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xecc441790b7efef0264ec5bb56852a7c037bada39895145cf0ae8e40bf6f6e1e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will FC Internazionale Milano win on 2026-04-26?",
-    "market_slug": "sea-tor-int-2026-04-26",
-    "amount": 26802.586267200004,
-    "ai_context": "\u2705 COPY \u2014 Inter Milan has a strong recent record against Torino FC, winning their last five encounters.\nIn their most recent match on April 21, 2026, Inter Milan defeated Calcio Como 3-2. (betbrain.com) Torino FC's recent form includes a 0-0 draw against US Cremonese on April 19, 2026. (whenkickoff.com)\nGiven Inter Milan's recent form and their favorable head-to-head record against Torino FC, the trader's bet on Inter Milan winning at 72% odds appears well-supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043068+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x747da877cfa1871328f4e00d32526d88fb9232c119f14c5aa8040d549ed93d4f",
     "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
     "trader": {
@@ -30687,6 +30525,214 @@
     "market_slug": "nba-sas-okc-2026-05-30",
     "amount": 536.21,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpurs \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 6 118-91 \u0438 \u0441\u0440\u0430\u0432\u043d\u044f\u043b\u0438 \u0441\u0435\u0440\u0438\u044e 3-3\nThunder \u0431\u0435\u0437 Jalen Williams (hamstring) \u0438 Ajay Mitchell (calf) \u0432 Game 7",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "market": "World Championships: Canada vs. Finland",
+    "market_slug": "wch-ndr-rdr-2026",
+    "event_slug": "wch-ndr-rdr-2026",
+    "wallet": "0x33ca8fd58d834eef4d6d66af4fb16116c1971d0c",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,185)",
+        "Low activity (10 txns)"
+      ],
+      "amount": 1185.059997,
+      "odds": 0.8098223264530834,
+      "raw_price": 0.8098223264530834,
+      "outcome": "Canada",
+      "potential_pnl": 278.29802399999994,
+      "pnl_multiplier": 0.23483876318879737,
+      "wallet_age_days": 0,
+      "total_activities": 10
+    },
+    "timestamp": "2026-05-30T18:45:23.068551",
+    "trade_hash": "0x21f687840ad8d2cb608fd2148848397d932ab5e48ec9fb3c594f851c3b850aef",
+    "trade_timestamp": 1780166213,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Canada",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.8098223264530834,
+      "effective_price": 0.8098223264530834,
+      "size": 1463.358021,
+      "amount": 1185.059997,
+      "potential_pnl": 278.29802399999994,
+      "pnl_multiplier": 0.23483876318879737,
+      "is_no": false,
+      "conditionId": "0x34919373b12333b94f155774b956371fc8dd4ab7bb49ec131314b1e1127b9a35",
+      "slug": "wch-ndr-rdr-2026",
+      "eventSlug": "wch-can-fin-2026-05-30"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+50.8%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.3019644652906167,
+      "market_price": 0.8098223264530834,
+      "edge": 0.5078578611624667,
+      "edge_percent": 50.78578611624667,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Canada's team performs exceptionally well",
+          "Finland's team underperforms",
+          "Key players on Canada remain healthy"
+        ],
+        "weakest_link": "Finland's team underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Canada's historical performance in championships",
+        "Recent matchups between Canada and Finland"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.5078578611624667,
+      "edge_percent": 50.78578611624667
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 50.79,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 (WC 2023-2025, \u041e\u043b\u0438\u043c\u043f\u0438\u0430\u0434\u0430 2026) Canada \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0440\u0430\u0437\u0430 (5-3, 4-1, 3-2), Finland \u0442\u043e\u043b\u044c\u043a\u043e 1 \u0440\u0430\u0437 \u0432 SO (2-1 \u0432 2025)\nCanada \u0432\u044b\u0448\u043b\u0430 \u0432 \u043f\u043e\u043b\u0443\u0444\u0438\u043d\u0430\u043b, \u043f\u043e\u0431\u0435\u0434\u0438\u0432 USA 4-0 \u0432 1/4 \u0444\u0438\u043d\u0430\u043b\u0430; F...",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb4a8a9e0afc72a324bbb0a14493929f7708dddfc43f90f3dcf530258b37d5a0f",
+    "wallet": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+    "trader": {
+      "rank": 27,
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "username": "SeriouslySirius",
+      "profit": 3648171.8070388865,
+      "volume": 192646024.93522802,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdbdd45150249e229eb4ca8aa48a30dca21faa5de",
+      "side": "BUY",
+      "asset": "111981525496180214533440234392414764963856677671927647491275311917102460163287",
+      "conditionId": "0x34919373b12333b94f155774b956371fc8dd4ab7bb49ec131314b1e1127b9a35",
+      "size": 1295.21,
+      "price": 0.20772075570756865,
+      "timestamp": 1780167331,
+      "title": "World Championships: Canada vs. Finland",
+      "slug": "wch-ndr-rdr-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/hockey-shl-5ebf2bfd88.png",
+      "eventSlug": "wch-can-fin-2026-05-30",
+      "outcome": "Finland",
+      "outcomeIndex": 1,
+      "name": "0xdbdd45150249e229eB4cA8aa48A30Dca21Faa5de-1757094771846",
+      "pseudonym": "Vigilant-Environment",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb4a8a9e0afc72a324bbb0a14493929f7708dddfc43f90f3dcf530258b37d5a0f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "World Championships: Canada vs. Finland",
+    "market_slug": "wch-can-fin-2026-05-30",
+    "amount": 1026.1680000000001,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H \u0432 \u0427\u041c: 10 \u043f\u043e\u0431\u0435\u0434 \u0443 Canada, 10 \u0443 Finland, 1 \u043d\u0438\u0447\u044c\u044f (21 \u043c\u0430\u0442\u0447)\n\u0412 2025 \u0427\u041c Finland \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 Canada 2-1 \u043f\u043e \u0431\u0443\u043b\u043b\u0438\u0442\u0430\u043c",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x740ef2bd167526b1ce4de20ea05cd2c1c5905ad7ec8ae09e89f425b60e168928",
+    "wallet": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+    "trader": {
+      "rank": 27,
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "username": "SeriouslySirius",
+      "profit": 3648171.8070388865,
+      "volume": 192646024.93522802,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xffe7bc0ace62133defaab3133f436034115e471d",
+      "side": "BUY",
+      "asset": "104259436423064082971150541232006260758664018969024622611484550356541952860834",
+      "conditionId": "0x6e9f90a6f471b52d03499a81586ca478519474eb152f1327c8c767f020d62529",
+      "size": 1453.060972,
+      "price": 0.8182106738188547,
+      "timestamp": 1780167331,
+      "title": "Will PSG win the 2025\u201326 Champions League?",
+      "slug": "will-psg-win-the-202526-champions-league",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
+      "eventSlug": "uefa-champions-league-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "kleomarcus",
+      "pseudonym": "Creepy-Misfit",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x740ef2bd167526b1ce4de20ea05cd2c1c5905ad7ec8ae09e89f425b60e168928",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will PSG win the 2025\u201326 Champions League?",
+    "market_slug": "uefa-champions-league-winner",
+    "amount": 1188.909997,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nPSG \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u043e\u0431\u0430 \u043c\u0430\u0442\u0447\u0430 \u043f\u043e\u043b\u0443\u0444\u0438\u043d\u0430\u043b\u0430 \u0443 Arsenal \u0432 2025 (1-0 \u0438 2-1)[[1]](\nPSG \u2014 \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u044b \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u043e\u0432 \u043d\u0430 \u0444\u0438\u043d\u0430\u043b (\u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u044b 4/6\u20137/5, ~55\u201360% \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c)[[2]](",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
