@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x747da877cfa1871328f4e00d32526d88fb9232c119f14c5aa8040d549ed93d4f",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 9,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6815040a7176c958e6ff8818bfe188e80dbd9edb",
-      "side": "BUY",
-      "asset": "89064299181143394148709327473509743882930252400518549241798110493431019910983",
-      "conditionId": "0xe9cde4bf7fa69dd5832fef13a2e6a0c6ebd322e4a1658b8a5f8c41c05494528a",
-      "size": 31393.650795,
-      "price": 0.629999999988975,
-      "timestamp": 1777223344,
-      "title": "Cavaliers vs. Raptors",
-      "slug": "nba-cle-tor-2026-04-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cle-tor-2026-04-26",
-      "outcome": "Cavaliers",
-      "outcomeIndex": 0,
-      "name": "pilotbaby",
-      "pseudonym": "Cylindrical-Ambulance",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x747da877cfa1871328f4e00d32526d88fb9232c119f14c5aa8040d549ed93d4f",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cavaliers vs. Raptors",
-    "market_slug": "nba-cle-tor-2026-04-26",
-    "amount": 19778.000000503886,
-    "ai_context": "\u2705 COPY \u2014 Cavaliers lead the series 2-1 and have a strong playoff record against the Raptors.\nThe Cavaliers have won two of the first three games in their playoff series against the Raptors, with a 12-2 all-time playoff record against Toronto. (si.com)\nIn their most recent game on April 23, 2026, the Cavaliers lost to the Raptors 104-126.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043077+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x71b7a6a4b532ef5c4e1b204c1a7aa733dd74089ecccd8db05fecbaff7cefa056",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -30736,5 +30682,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0426bcdb21ea1b817d7c93dffdb041fc89b7ef554b3a5fb1c6423557ab36e49a",
+    "wallet": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+    "trader": {
+      "rank": 18,
+      "address": "0x006cc834cc092684f1b56626e23bedb3835c16ea",
+      "username": "0x006cc834Cc092684F1B56626E23BEdB3835c16ea-1729683673397",
+      "profit": 4559034.956263406,
+      "volume": 60895638.47765601,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa252a7efd9572128117c869fa4f064bed37edbf4",
+      "side": "SELL",
+      "asset": "11821099221648235909237278565438370221223887076767883882080957574594263548813",
+      "conditionId": "0xb71f627ef32b3b358419cba028824cebdbc54534780c7ed4db8583f68542130c",
+      "size": 1500,
+      "price": 0.28,
+      "timestamp": 1780177578,
+      "title": "Toronto Blue Jays vs. Baltimore Orioles",
+      "slug": "mlb-tor-bal-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-tor-bal-2026-05-30",
+      "outcome": "Baltimore Orioles",
+      "outcomeIndex": 1,
+      "name": "msm299",
+      "pseudonym": "Striped-Territory",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4352730-3e14db79-0f50-4870-b03c-3ed992c09af6.jpeg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0426bcdb21ea1b817d7c93dffdb041fc89b7ef554b3a5fb1c6423557ab36e49a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Toronto Blue Jays vs. Baltimore Orioles",
+    "market_slug": "mlb-tor-bal-2026-05-30",
+    "amount": 1080.0,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP  \nBlue Jays \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2-1 \u0443 Orioles 28 \u043c\u0430\u044f 2026, \u0432\u0435\u0434\u0443\u0442 \u0432 \u0441\u0435\u0440\u0438\u0438 1-0  \nOrioles 26-31, Blue Jays 28-29; Blue Jays \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 10 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 14 \u043c\u0430\u0442\u0447\u0435\u0439",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
