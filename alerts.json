@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x191534961fdd46f40e98c7179e90fcb122890d8b15d7293cf52f1b44cc5a7ce7",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x29441957a028c39450fd399e0e6324612f45cc4e",
-      "side": "BUY",
-      "asset": "85431511004202566914069507572392275682317272912073267136060964947265931938304",
-      "conditionId": "0x3d1ca5144fd5541f8e0216ecc01b17b56882e80e4b55b64893747cfe17104e8c",
-      "size": 1125.2918,
-      "price": 0.893963412750134,
-      "timestamp": 1777199030,
-      "title": "LoL: Nongshim Red Force vs Gen.G (BO3) - LCK Rounds 1-2",
-      "slug": "lol-ns-gen-2026-04-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-ns-gen-2026-04-26",
-      "outcome": "Gen.G",
-      "outcomeIndex": 1,
-      "name": "DiscipleOfChrist",
-      "pseudonym": "Grand-Role",
-      "bio": "DiscipleOfChrist",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7554935-2a7ee83e-4882-4d42-a9ef-1b8532887c4d.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x191534961fdd46f40e98c7179e90fcb122890d8b15d7293cf52f1b44cc5a7ce7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Nongshim Red Force vs Gen.G (BO3) - LCK Rounds 1-2",
-    "market_slug": "lol-ns-gen-2026-04-26",
-    "amount": 1005.9696978677413,
-    "ai_context": "\u2705 COPY \u2014 Gen.G has a perfect 5-0 record against Nongshim RedForce in their last five encounters.\nIn their most recent match on August 20, 2025, Gen.G secured a 2-0 victory over Nongshim RedForce. (strafe.com)\nAdditionally, Gen.G has demonstrated strong recent form, securing a 2-0 victory against BNK FEARX on April 5, 2026. (bo3.gg)\nGiven Gen.G's consistent dominance over Nongshim RedForce and their recent strong performances, the trader's bet on Gen.G is well-supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043021+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xc41eec4cf4a1c3e7956df43f550d5250c45f6a6955ea244bbf85b5bb3e0d40de",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -30705,6 +30651,54 @@
     "market_slug": "ucl-psg-ars-2026-05-30",
     "amount": 2499.9999989999997,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nUCL final: PSG vs Arsenal (neutral Pusk\u00e1s Ar\u00e9na)\nH2H balanced (PSG 2 wins, Arsenal 2-3 wins, 2 draws in 7 meetings)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5232215333ffb97bbe937a767af6d7450aadc1eb54bdec86c273b1befcb00c6e",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11723632.779596625,
+      "volume": 292570579.142403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x58b3380f71bd6c706dd398a5e60bde55fa3a653c",
+      "side": "SELL",
+      "asset": "107018236047799740939396147330868903650510376124741024862348850945359659519120",
+      "conditionId": "0x6f9421adeffbd81d20bb504ea2b74f979c187af6fe1b78a6033e3e3fe471e109",
+      "size": 3100,
+      "price": 0.39064716129032256,
+      "timestamp": 1780158889,
+      "title": "Roland Garros ATP: Matteo Arnaldi vs Raphael Collignon",
+      "slug": "atp-arnaldi-collign-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-arnaldi-collign-2026-05-30",
+      "outcome": "Matteo Arnaldi",
+      "outcomeIndex": 0,
+      "name": "timetowander",
+      "pseudonym": "Moist-Dame",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5232215333ffb97bbe937a767af6d7450aadc1eb54bdec86c273b1befcb00c6e",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Matteo Arnaldi vs Raphael Collignon",
+    "market_slug": "atp-arnaldi-collign-2026-05-30",
+    "amount": 1211.0062,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nCollignon ATP 62, Arnaldi 104; H2H 0-0\nCollignon 2R RG: beat Shelton 6-4 7-5 6-4; Arnaldi 2R: beat Tsitsipas 7-6(2) 5-7 6-3 6-2",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
