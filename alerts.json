@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x71b7a6a4b532ef5c4e1b204c1a7aa733dd74089ecccd8db05fecbaff7cefa056",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2e01832a5646266682fe53adb6e428bc9d7c0875",
-      "side": "BUY",
-      "asset": "96017834667277346209400595012200511732225955280429218140922779061424591683484",
-      "conditionId": "0x9b94e927fdd5228e9063a2793fac3206065e1f970e988a33f3664ce76430b638",
-      "size": 3940,
-      "price": 0.5,
-      "timestamp": 1777236554,
-      "title": "Celtics vs. 76ers: O/U 213.5",
-      "slug": "nba-bos-phi-2026-04-26-total-213pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-bos-phi-2026-04-26",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "yyd33886",
-      "pseudonym": "Chubby-Special",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x71b7a6a4b532ef5c4e1b204c1a7aa733dd74089ecccd8db05fecbaff7cefa056",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Celtics vs. 76ers: O/U 213.5",
-    "market_slug": "nba-bos-phi-2026-04-26",
-    "amount": 1970.0,
-    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Celtics and 76ers have consistently exceeded the 213.5 total points line.\nIn their last three encounters, the total points were 217 (109-108), 202 (102-100), and 214 (114-98), all surpassing the 213.5 threshold. (statmuse.com)\nGiven this trend, betting on the Over appears to be a sound decision.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043086+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x8d3d04631ed4f4746fe793a10ab851e34d35458c52849538963c8b88f889a8d9",
     "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
     "trader": {
@@ -30730,5 +30676,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xab4b8c33a4ccf75ad26fed2356c4910c1ef44b1f020dab436ce1b3f1c9a3fa43",
+    "wallet": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+    "trader": {
+      "rank": 27,
+      "address": "0x16b29c50f2439faf627209b2ac0c7bbddaa8a881",
+      "username": "SeriouslySirius",
+      "profit": 3648171.807038876,
+      "volume": 192646024.935228,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x5268527977f700f9bf9b6d5cd843859e4e70135d",
+      "side": "BUY",
+      "asset": "11909664200505609611322936475502024005663073921328168948530145406679311982634",
+      "conditionId": "0xb71f627ef32b3b358419cba028824cebdbc54534780c7ed4db8583f68542130c",
+      "size": 3176.32,
+      "price": 0.7126367620390892,
+      "timestamp": 1780181193,
+      "title": "Toronto Blue Jays vs. Baltimore Orioles",
+      "slug": "mlb-tor-bal-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-tor-bal-2026-05-30",
+      "outcome": "Toronto Blue Jays",
+      "outcomeIndex": 0,
+      "name": "HomeRunHazard",
+      "pseudonym": "Powerless-Savannah",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xab4b8c33a4ccf75ad26fed2356c4910c1ef44b1f020dab436ce1b3f1c9a3fa43",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Toronto Blue Jays vs. Baltimore Orioles",
+    "market_slug": "mlb-tor-bal-2026-05-30",
+    "amount": 2263.5624,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBlue Jays 29-29 (3rd AL East, L10 8-2), Orioles 26-32 (4th AL East)[[1]](\nBlue Jays won last 2 games of series vs Orioles (incl. 2-1 on 5/28)[[2]](",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
