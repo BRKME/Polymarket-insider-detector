@@ -1,59 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5de63c95e831ac7bee1585cf94e9cd6fa49a98d39c35bbe3e5fb02cb7a3379dc",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xd9c4f7323b02bcb3e476291e9203239667006f95",
-      "side": "BUY",
-      "asset": "74795091158427558552989913116388464999631484148523800630306214643247739451692",
-      "conditionId": "0x24688d708149e4fb2a05053d516336e336207e4ddd8dda485cca41e51a29110b",
-      "size": 9841,
-      "price": 0.47,
-      "timestamp": 1777182826,
-      "title": "Will Manchester United FC win on 2026-04-27?",
-      "slug": "epl-mun-bre-2026-04-27-mun",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-mun-bre-2026-04-27",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "MildredBK",
-      "pseudonym": "Skinny-Broccoli",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6187182-77d32d03-dc96-423c-a1e3-f2342d314d0c.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5de63c95e831ac7bee1585cf94e9cd6fa49a98d39c35bbe3e5fb02cb7a3379dc",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Manchester United FC win on 2026-04-27?",
-    "market_slug": "epl-mun-bre-2026-04-27",
-    "amount": 4625.2699999999995,
-    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form and head-to-head statistics favor Manchester United FC.\nManchester United FC is currently third in the English Premier League with 55 points after 31 matches, while Brentford FC is seventh with 46 points. (mufcinfo.com) In their most recent matches, Manchester United secured a 3-1 victory against Aston Villa on March 15, 2026, and a 2-2 draw against AFC Bournemouth on March 20, 2026. (foxsports.",
-    "ai_verdict": "LEAN_COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043000+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-27 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Spurs vs. Trail Blazers",
     "market_slug": "nba-sas-por-2026",
     "event_slug": "nba-sas-por-2026",
@@ -30784,5 +30730,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x1df7fffc1d91a3fc9f001310da951db5f93a5b56938ad1677ea55941dccfd1d4",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11726044.192594146,
+      "volume": 292570579.142403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x1e33447f03ad92e650a05e403cd7d69cbe7fafb3",
+      "side": "BUY",
+      "asset": "70792025251701276137630240541639993331921983728534415103187776956501493379984",
+      "conditionId": "0x68b0ae45c74bc5ef9f1500df5512a3cb0031d26fb68b52b39a892f5a6737f0c4",
+      "size": 2439.987094,
+      "price": 0.6147573492042413,
+      "timestamp": 1780150453,
+      "title": "Roland Garros ATP: Matteo Berrettini vs Francisco Comesana",
+      "slug": "atp-berrett-comesan-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-berrett-comesan-2026-05-30",
+      "outcome": "Matteo Berrettini",
+      "outcomeIndex": 0,
+      "name": "Lne89",
+      "pseudonym": "Feisty-Fight",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x1df7fffc1d91a3fc9f001310da951db5f93a5b56938ad1677ea55941dccfd1d4",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Matteo Berrettini vs Francisco Comesana",
+    "market_slug": "atp-berrett-comesan-2026-05-30",
+    "amount": 1499.999998,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBerrettini 2026 record 8-9, Comesana 4-12\nBerrettini \u0444\u0430\u0432\u043e\u0440\u0438\u0442 \u0441 \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u043e\u043c ~1.46 (-220) \u043d\u0430 Roland Garros 2026",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
