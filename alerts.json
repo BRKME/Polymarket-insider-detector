@@ -1,113 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x87f53b540153ed64565f2a8566ac550981ac6c94a85cba8561b0a6e14d30b255",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf4c3833d5376fb84d521df598fdd451b85fcdbb5",
-      "side": "SELL",
-      "asset": "81158099902982127767655382821085776846834135588627211437287604861607234240992",
-      "conditionId": "0x2192a9594fcbba5de511de143814109a0874897b9c2ffa4f53f37194400dc276",
-      "size": 4202.69,
-      "price": 0.7736976079606157,
-      "timestamp": 1777149214,
-      "title": "Will Club Atl\u00e9tico de Madrid win on 2026-04-25?",
-      "slug": "lal-mad-bil-2026-04-25-mad",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-mad-bil-2026-04-25",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "cxrrich",
-      "pseudonym": "False-Spasm",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x87f53b540153ed64565f2a8566ac550981ac6c94a85cba8561b0a6e14d30b255",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Club Atl\u00e9tico de Madrid win on 2026-04-25?",
-    "market_slug": "lal-mad-bil-2026-04-25",
-    "amount": 3251.6112,
-    "ai_context": "\u274c SKIP \u2014 Atl\u00e9tico Madrid has lost four consecutive league matches and is facing a strong Athletic Club team.\nAtl\u00e9tico Madrid has lost four consecutive league matches, including a 1-0 defeat to Athletic Club on December 6, 2025. (footballan.com) Athletic Club is currently ninth in the league, just one point behind Real Sociedad and three points behind Celta and Getafe. (as.com) However, the trader may have access to insider information or sharp analysis not yet public.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042905+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xacc3806d5dfecc4b048dc912c7558bc604f33b2d9e5da8b387d70c876ac9efa7",
-    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-    "trader": {
-      "rank": 12,
-      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
-      "username": "BetTom42",
-      "profit": 5642135.735356,
-      "volume": 11212839.523403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1d603dad31fac599c1de6b6002d066993460453d",
-      "side": "BUY",
-      "asset": "22334377791140002056209089209804890592803004640771654906225350516509539158966",
-      "conditionId": "0xf752c3ec9526de39530718246fcf9a69c4bc883191c8fc994eb4d43990c49030",
-      "size": 1149.662918,
-      "price": 0.8899999999826036,
-      "timestamp": 1777151616,
-      "title": "Thunder vs. Suns",
-      "slug": "nba-okc-phx-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-okc-phx-2026-04-25",
-      "outcome": "Thunder",
-      "outcomeIndex": 0,
-      "name": "Ru386",
-      "pseudonym": "Chilly-Surrounds",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xacc3806d5dfecc4b048dc912c7558bc604f33b2d9e5da8b387d70c876ac9efa7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Thunder vs. Suns",
-    "market_slug": "nba-okc-phx-2026-04-25",
-    "amount": 1023.1999969999999,
-    "ai_context": "\u2705 COPY \u2014 Thunder have won 3 of the last 4 matchups against the Suns, including a decisive 119-84 victory on April 19, 2026.\nIn the most recent game on April 22, 2026, the Thunder secured a 120-107 win over the Suns. (elpais.com)\nThe Thunder have demonstrated consistent dominance over the Suns in recent matchups, with a strong performance in their latest game.\nGiven the Thunder's recent form and head-to-head record, the trader's bet on the Thunder is well-supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042922+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Valorant: FURIA Esports vs KR\u00dc Esports - Map 2 Winner",
     "market_slug": "val-fur-kru1-2026-04-25-game2",
     "event_slug": "val-fur-kru1-2026-04-25-game2",
@@ -30959,5 +30851,101 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8bc1180d82aeac90933ef9ab7a5561f1d81e5bca2eaac3cb359facc7bcc7a1f7",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11725125.532499181,
+      "volume": 292548333.334153,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x32b484581fc5606de9c1e43af4636b6be9bc8b21",
+      "side": "BUY",
+      "asset": "21397422589879803522488375172913562805167469503053305050103496090884867406737",
+      "conditionId": "0xac101507e193032a9ddcd4aaea792bfaa69f330f9ac14a27154fbb1b0618cc75",
+      "size": 692.784083,
+      "price": 0.879999999942262,
+      "timestamp": 1780105292,
+      "title": "San Diego Padres vs. Washington Nationals",
+      "slug": "mlb-sd-wsh-2026-05-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-sd-wsh-2026-05-29",
+      "outcome": "San Diego Padres",
+      "outcomeIndex": 0,
+      "name": "0x32b484581fc5606dE9C1e43AF4636b6Be9BC8B21-1774274303653",
+      "pseudonym": "Faithful-Jazz",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8bc1180d82aeac90933ef9ab7a5561f1d81e5bca2eaac3cb359facc7bcc7a1f7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "San Diego Padres vs. Washington Nationals",
+    "market_slug": "mlb-sd-wsh-2026-05-29",
+    "amount": 609.649993,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nPadres 31-24, Nationals 29-28\nH2H: Padres 10-2 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 12 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 (\u0441 2024)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x78b226583cfa90eb013e5c0b67674f8d587437be307a6a0b0caec4babcb240a2",
+    "wallet": "0x9495425feeb0c250accb89275c97587011b19a27",
+    "trader": {
+      "rank": 25,
+      "address": "0x9495425feeb0c250accb89275c97587011b19a27",
+      "username": "LaBradfordSmith22",
+      "profit": 3732027.937323708,
+      "volume": 107751117.387958,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfc0847fe2ea938d6e2624650eb29ef8d8142a137",
+      "side": "BUY",
+      "asset": "49501008541838786071694701812156084516687580801430408873345880720854454402726",
+      "conditionId": "0x819009b814a3ff35b3e7e83d6d40026570d8e00ebe8274042a085ad3d028fe03",
+      "size": 4878.06,
+      "price": 0.16447501670746156,
+      "timestamp": 1780106199,
+      "title": "New York Yankees vs. Athletics",
+      "slug": "mlb-nyy-oak-2026-05-29",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nyy-oak-2026-05-29",
+      "outcome": "Athletics",
+      "outcomeIndex": 1,
+      "name": "0xfC0847fe2Ea938D6e2624650eB29eF8d8142A137-1771999665274",
+      "pseudonym": "Wonderful-Patio",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x78b226583cfa90eb013e5c0b67674f8d587437be307a6a0b0caec4babcb240a2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Yankees vs. Athletics",
+    "market_slug": "mlb-nyy-oak-2026-05-29",
+    "amount": 4075.7410000000004,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nYankees 34-22, Athletics 27-29\nYankees \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u0441 \u0440\u0430\u0437\u043d\u0438\u0446\u0435\u0439 15-1, 7-0, 4-3",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
