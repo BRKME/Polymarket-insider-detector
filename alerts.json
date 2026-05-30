@@ -1,295 +1,5 @@
 [
   {
-    "market": "Valorant: FURIA Esports vs KR\u00dc Esports - Map 2 Winner",
-    "market_slug": "val-fur-kru1-2026-04-25-game2",
-    "event_slug": "val-fur-kru1-2026-04-25-game2",
-    "wallet": "0x2c4df36e77efa9da5e3d7607d46796e5b46820cc",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($2,703)",
-        "Low activity (15 txns)"
-      ],
-      "amount": 2703.1261109378966,
-      "odds": 0.54805594,
-      "raw_price": 0.54805594,
-      "outcome": "FURIA Esports",
-      "potential_pnl": 2229.082289062104,
-      "pnl_multiplier": 0.8246312593564809,
-      "wallet_age_days": 0,
-      "total_activities": 15
-    },
-    "timestamp": "2026-04-25T21:50:36.857883",
-    "trade_hash": "0xdc0c5caab46faddcdab413c1de072527ba3397800c70ed39ecbd2efa616dbc00",
-    "trade_timestamp": 1777153736,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "FURIA Esports",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.54805594,
-      "effective_price": 0.54805594,
-      "size": 4932.2084,
-      "amount": 2703.1261109378966,
-      "potential_pnl": 2229.082289062104,
-      "pnl_multiplier": 0.8246312593564809,
-      "is_no": false,
-      "conditionId": "0xabcac7adf7dbbd90f40d0cd20221e317233ccd0499edc3c0896985b27c4d7d5b",
-      "slug": "val-fur-kru1-2026-04-25-game2",
-      "eventSlug": "val-fur-kru1-2026-04-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.8%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24961118799999998,
-      "market_price": 0.54805594,
-      "edge": 0.29844475200000004,
-      "edge_percent": 29.844475200000005,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "FURIA Esports performs well on the selected map",
-          "KR\u00dc Esports struggles with the current meta",
-          "team morale and synergy are high for FURIA"
-        ],
-        "weakest_link": "KR\u00dc Esports struggles with the current meta"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "recent performance trends of both teams",
-        "map-specific strategies and player matchups"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29844475200000004,
-      "edge_percent": 29.844475200000005
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.84,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 FURIA Esports has a 71% head-to-head win rate against KR\u00dc Esports and has demonstrated improved form over the past six months.\nFURIA Esports has a 71% head-to-head win rate against KR\u00dc Esports, indicating a clear tactical advantage. (bo3.gg) Additionally, FURIA's recent form shows a 44% win rate over the past six months, suggesting improved performance compared to KR\u00dc Esports, which has a 0% win rate in the same period. (bo3.gg) Therefore, the facts support the bet on FURIA Esports.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042934+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "market": "Knicks vs. Hawks",
-    "market_slug": "nba-nyk-atl-2026",
-    "event_slug": "nba-nyk-atl-2026",
-    "wallet": "0x02ecdae46ea4f6a069a6bd0444cdd7da48fde1e3",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,282)",
-        "Low activity (13 txns)"
-      ],
-      "amount": 1282.35586280552,
-      "odds": 0.5399999998338845,
-      "raw_price": 0.5399999998338845,
-      "outcome": "Knicks",
-      "potential_pnl": 1092.37721719448,
-      "pnl_multiplier": 0.851851852421521,
-      "wallet_age_days": 2,
-      "total_activities": 13
-    },
-    "timestamp": "2026-04-25T21:50:40.652876",
-    "trade_hash": "0x3ed07ee5f4b79f8c98be98cb9bd2773f7a0d7215a39eb7ccb47a8b66f3d94a09",
-    "trade_timestamp": 1777153732,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Knicks",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.5399999998338845,
-      "effective_price": 0.5399999998338845,
-      "size": 2374.73308,
-      "amount": 1282.35586280552,
-      "potential_pnl": 1092.37721719448,
-      "pnl_multiplier": 0.851851852421521,
-      "is_no": false,
-      "conditionId": "0xe4eb7a4c4ecdc4746af0adbe7e7f1aee31e459c04b9b6101e914fed1c8c1a88f",
-      "slug": "nba-nyk-atl-2026",
-      "eventSlug": "nba-nyk-atl-2026-04-25"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+29.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.24799999996677688,
-      "market_price": 0.5399999998338845,
-      "edge": 0.29199999986710756,
-      "edge_percent": 29.199999986710758,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Knicks maintain current roster health",
-          "Hawks underperform relative to expectations",
-          "Key players for both teams perform at peak levels"
-        ],
-        "weakest_link": "Hawks underperform relative to expectations"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Injury reports and player availability"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.29199999986710756,
-      "edge_percent": 29.199999986710758
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 29.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Knicks, and they have a strong recent record.\nIn the last four matchups, the Knicks have won three, including a 113-102 victory on April 18 and a 108-105 win on April 6. (covers.com) Over the past two months, the Knicks have an 18-9 record. (statmuse.com) The upcoming game on April 25 is set to take place in Atlanta.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042945+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x754892a81c654e634092beefe19aaa0297ec5cb0d254362612b0d1cc16b6bea2",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 18,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4526176.046413308,
-      "volume": 185491941.6320829,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xea325cab4f4ac5bb2ff4cfba98893fb0cdf38870",
-      "side": "BUY",
-      "asset": "91098932085707045917326215606585213548845750816647673884343508580811327204330",
-      "conditionId": "0x68c7f0cde3f598fa00cffd659b364f8811425671c335b292a6a3d7369091e900",
-      "size": 6584.12,
-      "price": 0.48,
-      "timestamp": 1777156118,
-      "title": "UFC Fight Night: Davey Grant vs. Adrian Luna Martinetti (Bantamweight, Main Card)",
-      "slug": "ufc-dav3-adr8-2026-04-25",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/ufc-logo-37bbbd28e6.png",
-      "eventSlug": "ufc-dav3-adr8-2026-04-25",
-      "outcome": "Adrian Luna Martinetti",
-      "outcomeIndex": 1,
-      "name": "Luckyboy29",
-      "pseudonym": "Natural-Browser",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x754892a81c654e634092beefe19aaa0297ec5cb0d254362612b0d1cc16b6bea2",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "UFC Fight Night: Davey Grant vs. Adrian Luna Martinetti (Bantamweight, Main Card)",
-    "market_slug": "ufc-dav3-adr8-2026-04-25",
-    "amount": 3160.3776,
-    "ai_context": "\u2705 COPY \u2014 Adrian Luna Martinetti is on a 17-fight winning streak and has a dominant UFC debut performance.\nLuna Martinetti boasts an impressive 17-1 MMA record, with his sole loss dating back to 2023. He recently secured a UFC contract after a standout performance on Dana White's Contender Series. (as.com) In his UFC debut, he dominated Mark Vologdin, showcasing his striking and grappling skills. (clutchpoints.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.042955+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-25 >7 days ago, removed from API"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0xc605f8189019d5541fa3b4107560f9eb05ffc156214fb4fe04fed5c3d96a7858",
     "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
@@ -31011,5 +30721,149 @@
       "model_correct": null,
       "pnl": -4075.74
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcaf3e65954ca2c36750541691849eca8bfe4aeb8b13dfb61c5343e22965879d7",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11726044.192594146,
+      "volume": 292570579.14240307,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x9770ca178764cdca1271934ad613ad7ab4a10ff5",
+      "side": "BUY",
+      "asset": "92510871356723829428225500176712550604399413683972957066419376070139154361626",
+      "conditionId": "0x0c9b6cf4daae2f9702f5434ea30c1a28f88ca109b8c653d39c602de265806c42",
+      "size": 10000,
+      "price": 0.67,
+      "timestamp": 1780141115,
+      "title": "Game Handicap: BLG (-1.5) vs Team WE (+1.5)",
+      "slug": "lol-blg-we-2026-05-30-game-handicap-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-blg-we-2026-05-30",
+      "outcome": "Bilibili Gaming",
+      "outcomeIndex": 0,
+      "name": "Antojno66",
+      "pseudonym": "Grumpy-Rawhide",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7387840-6caa45cc-5f0a-4e4c-a24a-2a0c20212523.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcaf3e65954ca2c36750541691849eca8bfe4aeb8b13dfb61c5343e22965879d7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Game Handicap: BLG (-1.5) vs Team WE (+1.5)",
+    "market_slug": "lol-blg-we-2026-05-30",
+    "amount": 6700.0,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBLG 10-0 \u0432 H2H \u043f\u0440\u043e\u0442\u0438\u0432 WE (18-4 \u043f\u043e \u043a\u0430\u0440\u0442\u0430\u043c), \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 29.04.2026\nBLG 24-8 (75%) \u0432 LPL 2026 Split 2, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043c\u0430\u0442\u0447\u0438: 2-0 AL, 2-0 TES",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8b486e2cc49c80591153b569041e600182005a3b7ce5e9a521f0aa737cee4b25",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692177,
+      "volume": 529047708.50599104,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xecb5271853d083c561792d1bc4be8a555ce672d7",
+      "side": "SELL",
+      "asset": "103154623532518554089095099245122220088780191217460095259829646627521650600510",
+      "conditionId": "0x47a88a03c3a034e7fbb03a7dd7317ad8c060b3dd0be1469d76ece9512283491d",
+      "size": 1233.33,
+      "price": 0.4796405665961259,
+      "timestamp": 1780141417,
+      "title": "Roland Garros ATP: Francisco Cerundolo vs Zachary Svajda",
+      "slug": "atp-cerundo-svajda-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-cerundo-svajda-2026-05-30",
+      "outcome": "Zachary Svajda",
+      "outcomeIndex": 1,
+      "name": "pkcccc",
+      "pseudonym": "Purple-Buck",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8b486e2cc49c80591153b569041e600182005a3b7ce5e9a521f0aa737cee4b25",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Francisco Cerundolo vs Zachary Svajda",
+    "market_slug": "atp-cerundo-svajda-2026-05-30",
+    "amount": 641.7749,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nH2H 1-1 (Cerundolo win US Open 2023, Svajda win Winston-Salem 6-4 6-4 2024)\n\u041e\u0431\u0430 \u043c\u0430\u0442\u0447\u0430 \u043d\u0430 \u0445\u0430\u0440\u0434\u0435, \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435 \u0432\u0441\u0442\u0440\u0435\u0447 \u043d\u0435 \u0431\u044b\u043b\u043e",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x092149843841b27b25d00f7a3b13d32f674b3d77b102c20668e4e963a7472ff5",
+    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+    "trader": {
+      "rank": 20,
+      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
+      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
+      "profit": 4235173.077927429,
+      "volume": 476826628.21783304,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xbee54d90051720e27921dc6874f02d646ffca636",
+      "side": "BUY",
+      "asset": "101299739129708054962159657886600653448919235213351754467315086306857438285216",
+      "conditionId": "0x9cbee51cee8b872688153db5bc563c733e227e04578f73906679760d0012d0f4",
+      "size": 313344,
+      "price": 0.6,
+      "timestamp": 1780141718,
+      "title": "Roland Garros ATP: Juan Manuel Cerundolo vs Martin Landaluce",
+      "slug": "atp-cerund-landalu-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-cerund-landalu-2026-05-30",
+      "outcome": "Juan Manuel Cerundolo",
+      "outcomeIndex": 0,
+      "name": "downtownfee",
+      "pseudonym": "Limp-Psychoanalyst",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x092149843841b27b25d00f7a3b13d32f674b3d77b102c20668e4e963a7472ff5",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Juan Manuel Cerundolo vs Martin Landaluce",
+    "market_slug": "atp-cerund-landalu-2026-05-30",
+    "amount": 188006.4,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nCerundolo \u0432\u044b\u0438\u0433\u0440\u0430\u043b \u0443 \u0421\u0438\u043d\u043d\u0435\u0440\u0430 3-6 2-6 7-5 6-1 6-1 \u0432 1/8 \u0444\u0438\u043d\u0430\u043b\u0430 RG (\u043a\u0430\u043c\u0431\u044d\u043a \u0441 0-2)[[1]](\nLandaluce \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 4 \u0441\u0435\u0442\u0430 \u0432 \u0434\u0432\u0443\u0445 \u043c\u0430\u0442\u0447\u0430\u0445 RG (8 vs 10 \u0443 Cerundolo), H2H \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442[[2]](",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
