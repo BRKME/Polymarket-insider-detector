@@ -1,179 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x7cd1aaf6100534a3157dbadb9d0fc6bfcd69e75d033820d36dab6b97167ea01b",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x0ebbb3e9fde570bb7f6c452e9f9eee4ec6eacb1a",
-      "side": "BUY",
-      "asset": "10485721502839380683153878984328375781937554169039361319472933917079263823234",
-      "conditionId": "0x8b45ecd8fe2159061c7dcca8fb2d7444b216f7ced521a72be3d0a3a84df3246a",
-      "size": 6495.40367,
-      "price": 0.8356394932892538,
-      "timestamp": 1777316090,
-      "title": "Madrid Open: Adolfo Vallejo vs Flavio Cobolli",
-      "slug": "atp-vallejo-cobolli-2026-04-27",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-vallejo-cobolli-2026-04-27",
-      "outcome": "Flavio Cobolli",
-      "outcomeIndex": 1,
-      "name": "0x0eBBb3e9fDe570Bb7F6c452E9F9Eee4EC6EaCB1A-1773005453663",
-      "pseudonym": "Confused-Birthday",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7cd1aaf6100534a3157dbadb9d0fc6bfcd69e75d033820d36dab6b97167ea01b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Adolfo Vallejo vs Flavio Cobolli",
-    "market_slug": "atp-vallejo-cobolli-2026-04-27",
-    "amount": 5427.815831507959,
-    "ai_context": "\u2705 COPY \u2014 Flavio Cobolli's recent form and higher ranking support the bet.\nCobolli is currently ranked No. 13, with a career-high ranking achieved on March 30, 2026. (en.wikipedia.org) In his last five matches, he has won four, including a semifinal victory over Alexander Zverev at the BMW Open in Munich on April 13, 2026. (matchstat.com) In contrast, Adolfo Daniel Vallejo, ranked No.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Flavio Cobolli",
-      "checked_at": "2026-05-31T13:08:38.230435+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1067.59,
-      "pnl_flat": 0.2,
-      "roi": 19.7,
-      "source": "gamma"
-    }
-  },
-  {
-    "market": "Will Bitcoin dip to $75,000 in April?",
-    "market_slug": "will-bitcoin-dip-to-75000-in-april",
-    "event_slug": "will-bitcoin-dip-to-75000-in-april",
-    "wallet": "0xa2d07c89e124c0c04087368ade30d884348946cf",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($12,756)",
-        "Low activity (16 txns)"
-      ],
-      "amount": 12755.658671924648,
-      "odds": 0.4913170971001355,
-      "raw_price": 0.4913170971001355,
-      "outcome": "Yes",
-      "potential_pnl": 13206.512698075352,
-      "pnl_multiplier": 1.0353454131806645,
-      "wallet_age_days": 0,
-      "total_activities": 16
-    },
-    "timestamp": "2026-04-27T21:10:33.332224",
-    "trade_hash": "0x02297c29fb2a89c6954dcfbad0ca3d97def17628c7d0b141dc98676456a38ab9",
-    "trade_timestamp": 1777323852,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.4913170971001355,
-      "effective_price": 0.4913170971001355,
-      "size": 25962.17137,
-      "amount": 12755.658671924648,
-      "potential_pnl": 13206.512698075352,
-      "pnl_multiplier": 1.0353454131806645,
-      "is_no": false,
-      "conditionId": "0xa05c869fcd6edef0b6e3ee0f11c67c7cd372f29afd88e2a837cd9458c19b4411",
-      "slug": "will-bitcoin-dip-to-75000-in-april",
-      "eventSlug": "what-price-will-bitcoin-hit-in-april-2026"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+33.3%)"
-      ],
-      "category": "crypto",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.15826341942002708,
-      "market_price": 0.4913170971001355,
-      "edge": 0.3330536776801084,
-      "edge_percent": 33.30536776801084,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Increased regulatory scrutiny on cryptocurrencies",
-          "Significant market sell-off triggered by macroeconomic factors",
-          "Negative sentiment from influential market players or media"
-        ],
-        "weakest_link": "Increased regulatory scrutiny on cryptocurrencies"
-      },
-      "category": "crypto",
-      "narrative_drivers": [
-        "Market reactions to inflation and interest rate changes",
-        "Technological developments or setbacks in the Bitcoin ecosystem"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.3330536776801084,
-      "edge_percent": 33.30536776801084
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 33.31,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Recent data indicates a significant chance of Bitcoin reaching $75,000 by April 2026.\nAs of April 21, 2026, Bitcoin's closing price was $76,352.78, up 11.9% for the month. (statmuse.com) Prediction markets assign a 47.5% probability to Bitcoin reaching $75,000 by April 2026. (coingecko.com) Additionally, technical analysis suggests resistance around $74,000\u2013$75,000, with some models giving Bitcoin about a 65% chance of reaching ~$75K in April. (moneymagpie.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-28T09:45:23.403616+00:00",
-      "insider_win": false,
-      "model_correct": true,
-      "pnl": -12755.66
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x11f60329dbf402e417428639250e9834f0d4ea402c14b2fb28cba9a78ac5a367",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -31373,5 +31200,101 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3f28dc448bc2582a6d6f5465b46d587fa4938398f997759c4bd8322f2c88e88f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xeb22f4735df6bd5d14e1b5fd10faefa7757d808a",
+      "side": "BUY",
+      "asset": "55115078421062885512539156303747803058407616201213034911037320915726138659123",
+      "conditionId": "0x5db999fad322cea2914535aae5517060c3f80ad6d8c0231cde2124a434d16846",
+      "size": 5000,
+      "price": 0.14,
+      "timestamp": 1780239918,
+      "title": "Will the U.S. invade Iran before 2027?",
+      "slug": "will-the-us-invade-iran-before-2027",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-the-us-invade-iran-in-2025-0Eh3J0ku_Fbj.jpg",
+      "eventSlug": "will-the-us-invade-iran-before-2027",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "BigRabbit",
+      "pseudonym": "Needy-Cenotaph",
+      "bio": "betmoar-70444",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3030523-178978b0-e731-4b93-a5f5-f33ec257c201.jpg",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3f28dc448bc2582a6d6f5465b46d587fa4938398f997759c4bd8322f2c88e88f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the U.S. invade Iran before 2027?",
+    "market_slug": "will-the-us-invade-iran-before-2027",
+    "amount": 700.0000000000001,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nPolymarket: \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c Yes \u043f\u043e \u0440\u044b\u043d\u043a\u0443 \"US invade Iran before 2027\" \u2014 18% (\u043e\u0431\u044a\u0451\u043c >$4 \u043c\u043b\u043d).",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf03c23ee76e94dd66094aa0955df025167409df7e8bce408a83d3de34dc0cdbd",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc0f89d4e30b3ab40ab1f1979ebdcf8a02c39ae2e",
+      "side": "BUY",
+      "asset": "76197594419458836596217204904116797648498106807466378718150788439962473991867",
+      "conditionId": "0x3de9f07d0f76d3f4c5453510ce6535a905a8815a3c5925ad71e1c6ea0f4f0dfd",
+      "size": 4844,
+      "price": 0.4999875103220479,
+      "timestamp": 1780240221,
+      "title": "Will Union Bordeaux Begles win?",
+      "slug": "rutopft-tou-bor-2026-05-30-bor",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/rugby-icon-ef29c18673.jpg",
+      "eventSlug": "rutopft-tou-bor-2026-05-30",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "lukibazdonauki754",
+      "pseudonym": "Potable-Scaffold",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf03c23ee76e94dd66094aa0955df025167409df7e8bce408a83d3de34dc0cdbd",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Union Bordeaux Begles win?",
+    "market_slug": "rutopft-tou-bor-2026-05-30",
+    "amount": 2422.0605,
+    "ai_context": "[CONSENSUS:NO_DATA] [Grok] \u274c SKIP\n\u041d\u0435\u0442 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0445 \u0444\u0430\u043a\u0442\u043e\u0432 \u0432 \u043f\u043e\u043b\u044c\u0437\u0443 \u043f\u043e\u0431\u0435\u0434\u044b \u0422\u0443\u043b\u043e\u043d \u0438\u043b\u0438 \u043d\u0438\u0447\u044c\u0435\u0439 (\u043f\u0440\u043e\u0433\u043d\u043e\u0437\u044b \u0438 H2H \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u0437\u0430 \u0411\u043e\u0440\u0434\u043e)\n\u0411\u043e\u0440\u0434\u043e \u0432 \u0441\u0435\u0440\u0438\u0438 \u0438\u0437 4 \u043f\u043e\u0431\u0435\u0434, \u0422\u0443\u043b\u043e\u043d \u043d\u0430 \u0441\u043f\u0430\u0434\u0435 (\u043d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u0417\u0410 \u0441\u0442\u0430\u0432\u043a\u0443 \u043d\u0430 No)",
+    "ai_verdict": "NO_DATA",
+    "ai_model": "Grok",
+    "ai_consensus": "NO_DATA"
   }
 ]
