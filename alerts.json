@@ -1,123 +1,5 @@
 [
   {
-    "market": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
-    "market_slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
-    "event_slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
-    "wallet": "0xea7957606f259bcba522a4681494555547a7a9cc",
-    "analysis": {
-      "score": 85,
-      "flags": [
-        "Against trend (9.0% effective odds)",
-        "Large bet ($1,125)",
-        "Pre-event latency: 3645m"
-      ],
-      "amount": 1124.9999999999995,
-      "odds": 0.08999999999999997,
-      "raw_price": 0.91,
-      "outcome": "No",
-      "potential_pnl": 11375.0,
-      "pnl_multiplier": 10.111111111111116,
-      "wallet_age_days": 496,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-27T11:23:30.502269",
-    "trade_hash": "0x12e0623dafecf37182e2f3cc23f561c5dc585adf2622e43768d9b4514a139480",
-    "trade_timestamp": 1777288506,
-    "latency": {
-      "latency_seconds": 218694.0,
-      "latency_minutes": 3644.9,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-04-27T11:15:06+00:00",
-      "event_time": "2026-04-30T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.91,
-      "effective_price": 0.08999999999999997,
-      "size": 12500.0,
-      "amount": 1124.9999999999995,
-      "potential_pnl": 11375.0,
-      "pnl_multiplier": 10.111111111111116,
-      "is_no": true,
-      "conditionId": "0xe31a6c763685129123cb6a0f729bfce04b768c5a22cb09c5610406df1a302465",
-      "slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
-      "eventSlug": "trump-announces-us-blockade-of-hormuz-lifted-by"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+70.4%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.20600000000000002,
-      "market_price": 0.91,
-      "edge": 0.704,
-      "edge_percent": 70.39999999999999,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Diplomatic negotiations between the U.S. and Iran yield positive results.",
-          "Regional stability in the Middle East is achieved.",
-          "Support from key allies for lifting the blockade is secured."
-        ],
-        "weakest_link": "Regional stability in the Middle East is achieved."
-      },
-      "category": "geopolitics",
-      "narrative_drivers": [
-        "Changes in U.S. foreign policy under the current administration.",
-        "Influence of oil prices and global energy demands."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 120,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 85,
-      "insider_position": "NO",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.704,
-      "edge_percent": 70.39999999999999
-    },
-    "financial_analyst": {
-      "signal_quality": 84.0,
-      "stance": "HIGH_CONVICTION",
-      "edge_percent": 70.4,
-      "signal_strength": 120.0,
-      "insider_score": 85.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate the U.S. has lifted the blockade, making Trump's announcement unlikely by April 30, 2026. On April 17, 2026, Iran declared the Strait of Hormuz fully open for commercial vessels during the ceasefire period, with conditions set by Tehran. (icis.com) President Trump acknowledged this by expressing gratitude for Iran's announcement. (euronews.",
-    "ai_verdict": "SKIP",
-    "resolution_last_check": "2026-05-28T09:45:21.093702+00:00"
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x5c2f936e9af25b4d16756f93fa01df648e27091936efa848419ee67ba081243e",
     "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
@@ -30838,6 +30720,54 @@
     "market_slug": "wta-kostyuk-swiatek-2026-05-31",
     "amount": 6039.7528999999995,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H: Swiatek leads 3-0 (1-0 on clay, won RG 2021 2-0 sets)\nSwiatek 4-time RG champion, 43-3 record at tournament (93% wins)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xeed963afbdff24964aeb979fae95c90af2a5a0bc741879bc114bbacd7d06369a",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11623559.14019955,
+      "volume": 292570579.1424031,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x30669f24ee49dd332100acc455f5a291d9c498d9",
+      "side": "BUY",
+      "asset": "50332961497593692993324871245725139284154864846191083873206150210740722059186",
+      "conditionId": "0xfd5dd99f32e128c927336b94cbee3faf729fee2d840d8de013770bd388824f86",
+      "size": 962.7931,
+      "price": 0.87,
+      "timestamp": 1780228462,
+      "title": "Roland Garros ATP: Rafael Jodar vs Pablo Carreno Busta",
+      "slug": "atp-jodar-busta-2026-05-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-jodar-busta-2026-05-31",
+      "outcome": "Rafael Jodar",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xeed963afbdff24964aeb979fae95c90af2a5a0bc741879bc114bbacd7d06369a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Rafael Jodar vs Pablo Carreno Busta",
+    "market_slug": "atp-jodar-busta-2026-05-31",
+    "amount": 837.629997,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nJodar \u211629 ATP, Carreno Busta \u211689\nJodar 20-9 \u0432 2026, Carreno Busta 3-7 \u0432 2026",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
