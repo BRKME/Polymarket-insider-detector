@@ -144,12 +144,22 @@ def _clean_ai_response(text: str) -> str:
     """Clean markdown, URLs, and junk from AI response."""
     text = text.strip('"').strip("'").strip()
     text = re.sub(r'\[([^\]]+)\]\([^\)]+\)', r'\1', text)  # [text](url) → text
+    # Broken citation footnotes Grok leaves behind: "[1](", "[[2]](", "[3]"
+    text = re.sub(r'\[+\d+\]+\(+', '', text)                # [1](  [[2]](  → removed
+    text = re.sub(r'\[+\d+\]+', '', text)                   # [1]  [[2]]    → removed
     text = re.sub(r'#{1,3}\s*', '', text)                   # ## headers → plain
     text = re.sub(r'https?://\S+', '', text)                # raw URLs
     text = re.sub(r'\*\*([^*]+)\*\*', r'\1', text)          # **bold** → plain
+    # Facts often arrive glued: ")Teichmann" or ". Earlier" with no break.
+    # Put each sentence-fact on its own bullet line for readability.
+    text = re.sub(r'\)\s*(?=[A-ZА-Я])', ')\n', text)        # ...6-2)Teichmann → newline
+    text = re.sub(r'\.\s+(?=[A-ZА-Я])', '.\n', text)        # end-of-fact → newline
+    text = re.sub(r'\s+([.,;])', r'\1', text)               # drop space before punct
     text = re.sub(r'\n{2,}', '\n', text)                    # multi newlines
-    text = re.sub(r'^\s*[-•]\s*', '', text, flags=re.MULTILINE)  # bullet points
-    return text.strip()
+    text = re.sub(r'^\s*[-•]\s*', '', text, flags=re.MULTILINE)  # strip existing bullets
+    # Re-add a clean bullet to each non-empty line
+    lines = [l.strip().rstrip('.') for l in text.split('\n') if l.strip()]
+    return '\n'.join(f"• {l}" for l in lines)
 
 
 def generate_trade_context(
