@@ -7,6 +7,16 @@ on:
   
   # Allow manual trigger
   workflow_dispatch:
+    inputs:
+      mode:
+        description: 'run = normal | retry-expired = re-queue old EXPIRED then run | rebuild = recompute stats from disk'
+        required: false
+        default: 'run'
+        type: choice
+        options:
+          - run
+          - retry-expired
+          - rebuild
 
 concurrency:
   group: resolution-tracker
@@ -44,7 +54,16 @@ jobs:
           echo "════════════════════════════════════════════════"
           echo "Resolution Tracker — $(date -u +'%Y-%m-%d %H:%M UTC')"
           echo "════════════════════════════════════════════════"
-          python resolution_tracker.py
+          MODE="${{ github.event.inputs.mode || 'run' }}"
+          echo "Mode: $MODE"
+          if [ "$MODE" = "retry-expired" ]; then
+            python resolution_tracker.py retry-expired
+            python resolution_tracker.py            # then resolve the re-queued ones
+          elif [ "$MODE" = "rebuild" ]; then
+            python resolution_tracker.py rebuild
+          else
+            python resolution_tracker.py
+          fi
       
       - name: Commit and push changes
         if: success()
