@@ -1246,7 +1246,14 @@
     "amount": 1168.83006,
     "ai_context": "\u2705 COPY \u2014 The New York Knicks have demonstrated strong performance this season, finishing with a 53-29 record and securing the Atlantic Division's second place. (statmuse.com) Their recent form includes a decisive 126-97 victory over the Atlanta Hawks on April 28, 2026. (basketball-reference.com) While the Knicks have shown resilience, the trader's bet on them winning the 2026 NBA Finals is supported by their current form and season performance.",
     "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-28T09:45:31.760212+00:00"
+    "resolution_last_check": "2026-05-28T09:45:31.760212+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:34:28.214201+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1168.83
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -16373,7 +16380,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "Dual",
     "ai_consensus": "SPLIT",
-    "resolution_last_check": "2026-05-28T09:46:34.846967+00:00"
+    "resolution_last_check": "2026-05-28T09:46:34.846967+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:34:35.780121+00:00",
+      "insider_win": false,
+      "model_correct": true,
+      "pnl": -1003.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -26632,7 +26646,14 @@
     "ai_verdict": "SKIP",
     "ai_model": "GPT",
     "ai_consensus": "SKIP",
-    "resolution_last_check": "2026-05-28T09:47:54.898125+00:00"
+    "resolution_last_check": "2026-05-28T09:47:54.898125+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:34:47.803923+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2806.98
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29831,7 +29852,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBLG 10-0 \u0432 H2H \u043f\u0440\u043e\u0442\u0438\u0432 WE (18-4 \u043f\u043e \u043a\u0430\u0440\u0442\u0430\u043c), \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2-0 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0439 \u0432\u0441\u0442\u0440\u0435\u0447\u0435 29.04.2026\nBLG 24-8 (75%) \u0432 LPL 2026 Split 2, \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 \u043c\u0430\u0442\u0447\u0438: 2-0 AL, 2-0 TES",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Team WE",
+      "checked_at": "2026-05-31T08:34:55.376914+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -6700.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29879,7 +29907,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nH2H 1-1 (Cerundolo win US Open 2023, Svajda win Winston-Salem 6-4 6-4 2024)\n\u041e\u0431\u0430 \u043c\u0430\u0442\u0447\u0430 \u043d\u0430 \u0445\u0430\u0440\u0434\u0435, \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435 \u0432\u0441\u0442\u0440\u0435\u0447 \u043d\u0435 \u0431\u044b\u043b\u043e",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Zachary Svajda",
+      "checked_at": "2026-05-31T08:34:56.743065+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 696.26
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29927,7 +29962,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nCerundolo \u0432\u044b\u0438\u0433\u0440\u0430\u043b \u0443 \u0421\u0438\u043d\u043d\u0435\u0440\u0430 3-6 2-6 7-5 6-1 6-1 \u0432 1/8 \u0444\u0438\u043d\u0430\u043b\u0430 RG (\u043a\u0430\u043c\u0431\u044d\u043a \u0441 0-2)[[1]](\nLandaluce \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b 4 \u0441\u0435\u0442\u0430 \u0432 \u0434\u0432\u0443\u0445 \u043c\u0430\u0442\u0447\u0430\u0445 RG (8 vs 10 \u0443 Cerundolo), H2H \u043e\u0442\u0441\u0443\u0442\u0441\u0442\u0432\u0443\u0435\u0442[[2]](",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Cerundolo",
+      "checked_at": "2026-05-31T08:34:58.009528+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 125337.6
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -29975,7 +30017,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nH2H: 0-0 (\u043f\u0435\u0440\u0432\u0430\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430)\nCerundolo \u043d\u0430 \u0441\u0435\u0440\u0438\u0438 \u0438\u0437 7 \u043f\u043e\u0431\u0435\u0434 \u043f\u043e\u0434\u0440\u044f\u0434 (\u0432 \u0442.\u0447. \u043d\u0430\u0434 Sinner \u0432 R2 RG)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Cerundolo",
+      "checked_at": "2026-05-31T08:34:58.009588+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1934.9
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30023,7 +30072,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nArsenal unbeaten \u0432 14 \u043c\u0430\u0442\u0447\u0430\u0445 \u041b\u0427 \u044d\u0442\u043e\u0433\u043e \u0441\u0435\u0437\u043e\u043d\u0430 (11 \u043f\u043e\u0431\u0435\u0434, 3 \u043d\u0438\u0447\u044c\u0438\u0445)\nH2H: Arsenal \u043d\u0435 \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 5 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0445 \u043c\u0430\u0442\u0447\u0430\u0445 \u043f\u0440\u043e\u0442\u0438\u0432 PSG (2 \u043f\u043e\u0431\u0435\u0434\u044b, 3 \u043d\u0438\u0447\u044c\u0438\u0445)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:34:58.009622+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -29527.36
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30071,7 +30127,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nPolymarket: \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u0440\u043e\u0434\u0430\u0436\u0438 \u043b\u044e\u0431\u043e\u0433\u043e BTC MicroStrategy \u043a 31 \u043c\u0430\u044f 2026 \u2014 19,6% (\u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0434\u0430\u043d\u043d\u044b\u0445).",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:34:59.225769+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2764.43
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30119,7 +30182,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBerrettini 2026 record 8-9, Comesana 4-12\nBerrettini \u0444\u0430\u0432\u043e\u0440\u0438\u0442 \u0441 \u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u043e\u043c ~1.46 (-220) \u043d\u0430 Roland Garros 2026",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Over 3.5",
+      "checked_at": "2026-05-31T08:35:00.537177+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1500.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30167,7 +30237,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nUCL final: PSG vs Arsenal (neutral Pusk\u00e1s Ar\u00e9na)\nH2H balanced (PSG 2 wins, Arsenal 2-3 wins, 2 draws in 7 meetings)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:35:00.537239+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2500.0
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30215,7 +30292,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nCollignon ATP 62, Arnaldi 104; H2H 0-0\nCollignon 2R RG: beat Shelton 6-4 7-5 6-4; Arnaldi 2R: beat Tsitsipas 7-6(2) 5-7 6-3 6-2",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-31T08:35:01.817142+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1211.01
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30263,7 +30347,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n\u0414\u0435\u043c\u0431\u0435\u043b\u0435 \u2014 \u043f\u043e\u0431\u0435\u0434\u0438\u0442\u0435\u043b\u044c Ballon d'Or 2025, \u0432\u0442\u043e\u0440\u043e\u0439 \u0444\u0430\u0432\u043e\u0440\u0438\u0442 2026 \u043f\u043e \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u0430\u043c (9/2, ~18%)\n\u0412 prediction market Kalshi \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u043f\u043e\u0431\u0435\u0434\u044b \u0414\u0435\u043c\u0431\u0435\u043b\u0435 24% (Kane 23%)[[1]](",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-05-31T08:35:03.099168+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30311,7 +30396,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpurs \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 6 118-91 \u0438 \u0441\u0440\u0430\u0432\u043d\u044f\u043b\u0438 \u0441\u0435\u0440\u0438\u044e 3-3\nThunder \u0431\u0435\u0437 Jalen Williams (hamstring) \u0438 Ajay Mitchell (calf) \u0432 Game 7",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-31T08:35:04.196613+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -536.21
+    }
   },
   {
     "market": "World Championships: Canada vs. Finland",
@@ -30423,7 +30515,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\n\u0412 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 (WC 2023-2025, \u041e\u043b\u0438\u043c\u043f\u0438\u0430\u0434\u0430 2026) Canada \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u0440\u0430\u0437\u0430 (5-3, 4-1, 3-2), Finland \u0442\u043e\u043b\u044c\u043a\u043e 1 \u0440\u0430\u0437 \u0432 SO (2-1 \u0432 2025)\nCanada \u0432\u044b\u0448\u043b\u0430 \u0432 \u043f\u043e\u043b\u0443\u0444\u0438\u043d\u0430\u043b, \u043f\u043e\u0431\u0435\u0434\u0438\u0432 USA 4-0 \u0432 1/4 \u0444\u0438\u043d\u0430\u043b\u0430; F...",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Finland",
+      "checked_at": "2026-05-31T08:35:06.456194+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1185.06
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30471,7 +30570,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H \u0432 \u0427\u041c: 10 \u043f\u043e\u0431\u0435\u0434 \u0443 Canada, 10 \u0443 Finland, 1 \u043d\u0438\u0447\u044c\u044f (21 \u043c\u0430\u0442\u0447)\n\u0412 2025 \u0427\u041c Finland \u043f\u043e\u0431\u0435\u0434\u0438\u043b\u0438 Canada 2-1 \u043f\u043e \u0431\u0443\u043b\u043b\u0438\u0442\u0430\u043c",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Finland",
+      "checked_at": "2026-05-31T08:35:06.456256+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 3913.96
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30519,7 +30625,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nPSG \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u043e\u0431\u0430 \u043c\u0430\u0442\u0447\u0430 \u043f\u043e\u043b\u0443\u0444\u0438\u043d\u0430\u043b\u0430 \u0443 Arsenal \u0432 2025 (1-0 \u0438 2-1)[[1]](\nPSG \u2014 \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u044b \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u043e\u0432 \u043d\u0430 \u0444\u0438\u043d\u0430\u043b (\u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442\u044b 4/6\u20137/5, ~55\u201360% \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c)[[2]](",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-05-31T08:35:06.456286+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1188.91
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30567,7 +30680,14 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP  \nBlue Jays \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 2-1 \u0443 Orioles 28 \u043c\u0430\u044f 2026, \u0432\u0435\u0434\u0443\u0442 \u0432 \u0441\u0435\u0440\u0438\u0438 1-0  \nOrioles 26-31, Blue Jays 28-29; Blue Jays \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 10 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 14 \u043c\u0430\u0442\u0447\u0435\u0439",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Baltimore Orioles",
+      "checked_at": "2026-05-31T08:35:07.727991+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2777.14
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30615,7 +30735,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBlue Jays 29-29 (3rd AL East, L10 8-2), Orioles 26-32 (4th AL East)[[1]](\nBlue Jays won last 2 games of series vs Orioles (incl. 2-1 on 5/28)[[2]](",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Baltimore Orioles",
+      "checked_at": "2026-05-31T08:35:07.728094+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2263.56
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30663,7 +30790,14 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpurs \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 6 118-91, \u0441\u0435\u0440\u0438\u044f 3-3\nThunder \u0431\u0435\u0437 Jalen Williams (hamstring OUT) \u0438 Ajay Mitchell (calf OUT) \u043d\u0430 Game 7",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Over",
+      "checked_at": "2026-05-31T08:35:07.728122+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1519.62
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30711,6 +30845,7 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nSpain \u2014 \u0444\u0430\u0432\u043e\u0440\u0438\u0442 \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u043e\u0432 +475, \u0424\u0440\u0430\u043d\u0446\u0438\u044f +500 (DraftKings/FanDuel/Fox Sports, \u043c\u0430\u0439 2026)\n\u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0432\u044b\u0448\u043b\u0430 \u0432 \u0444\u0438\u043d\u0430\u043b\u044b \u0427\u041c-2018 \u0438 \u0427\u041c-2022, \u043d\u043e \u0418\u0441\u043f\u0430\u043d\u0438\u044f \u0441\u0435\u0439\u0447\u0430\u0441 \u0432\u043e\u0437\u0433\u043b\u0430\u0432\u043b\u044f\u0435\u0442 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0438 odds \u043a\u0430\u043a solo favorite",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution_last_check": "2026-05-31T08:35:07.728145+00:00"
   }
 ]
