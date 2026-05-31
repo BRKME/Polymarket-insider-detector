@@ -14,6 +14,17 @@ FLAT_STAKE = 1.0            # $ we treat every signal as betting (flat staking)
 EXPIRE_AFTER_DAYS = 21      # safety net only; resolution is attempted regardless of age
 CLOB_API_URL = "https://clob.polymarket.com"
 
+# ── Edge filter (validated out-of-sample, 2026-05) ─────────────────────────
+# Walk-forward result on 396 resolved alerts: the only consistent positive-ROI
+# region is the mid-odds band. Expensive favorites (odds>0.7) lose -42% ROI,
+# extreme longshots are noise. NO-side in this band wins ~76% (all 5 time folds
+# profitable). These bounds are FROZEN — do not re-fit to maximise ROI.
+ODDS_FILTER_MIN = 0.10      # skip entries cheaper than this (longshot noise)
+ODDS_FILTER_MAX = 0.70      # skip entries more expensive than this (favorite trap)
+# YES-side and AI=SKIP signals still pass the gate (we keep collecting them),
+# but are de-emphasised in Telegram. NO-side + AI COPY is the strongest tier.
+PRIORITY_NO_SIDE = True     # highlight NO-side signals as priority in Telegram
+
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (median insider bet = $1,447, $1500 cuts 57%)
 ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)
