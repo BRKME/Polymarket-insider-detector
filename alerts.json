@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x0cfe039f2e4c43f5ba1254a7094289249b9fd99f66fb9d9f3ba0bc005abaadb9",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
-      "side": "BUY",
-      "asset": "56880175393932454581144770528427485936933207650358188666285643124300135349353",
-      "conditionId": "0x28047a042b014f25c767d74ef95bb73d0fac42b5618081c919f627e5bb95d82b",
-      "size": 13653,
-      "price": 0.51,
-      "timestamp": 1777406742,
-      "title": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
-      "slug": "cricipl-mum-sun-2026-04-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
-      "eventSlug": "cricipl-mum-sun-2026-04-29",
-      "outcome": "Mumbai Indians",
-      "outcomeIndex": 0,
-      "name": "SunlineTicker",
-      "pseudonym": "Far-Precipitation",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x0cfe039f2e4c43f5ba1254a7094289249b9fd99f66fb9d9f3ba0bc005abaadb9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
-    "market_slug": "cricipl-mum-sun-2026-04-29",
-    "amount": 6963.03,
-    "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 15 out of 25 encounters.\nIn their most recent match on March 27, 2024, Sunrisers Hyderabad set a record for the highest-ever team total in IPL history by posting 277/3 against Mumbai Indians. (sportsdunia.com)\nHowever, Mumbai Indians have won 13 of the 20 matches between the two teams. (sportspundit.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Sunrisers Hyderabad",
-      "checked_at": "2026-05-31T13:08:44.683545+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -6963.03,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb3c9fabafcb7bc77f03f794cdf724a16093b1a6a830f040da4376c7a3cc7f3a2",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31281,5 +31225,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x20d593d8e79ba0399bd8949ee93f74a50e26c33e10da1cd1c8d29bfb7ec61566",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xe2b1fc269d0c2e27da11fadd1d9596fe28227d2a",
+      "side": "SELL",
+      "asset": "35600405023007026690792769618276046675588493623969149550929635257490271313011",
+      "conditionId": "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21",
+      "size": 1974.99,
+      "price": 0.5,
+      "timestamp": 1780263144,
+      "title": "Strait of Hormuz traffic returns to normal by July 31?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "New.Jeans",
+      "pseudonym": "Glaring-Epee",
+      "bio": "Choose Rich",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/a8f070eb41e2830665e63ccc0642cac6_New-Jeans_1688928761832.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x20d593d8e79ba0399bd8949ee93f74a50e26c33e10da1cd1c8d29bfb7ec61566",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by July 31?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-july-31",
+    "amount": 987.495,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u041f\u043e \u0434\u0430\u043d\u043d\u044b\u043c Kalshi (\u043c\u0430\u0439 2026), \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0430 \u0442\u0440\u0430\u0444\u0438\u043a\u0430 \u043a \u043d\u043e\u0440\u043c\u0435 \u043a 1 \u0438\u044e\u043b\u044f \u2014 \u0442\u043e\u043b\u044c\u043a\u043e 38%, \u043a 1 \u0430\u0432\u0433\u0443\u0441\u0442\u0430 \u2014 60%\n\u2022 \u0422\u0440\u0430\u0444\u0438\u043a \u0432 Hormuz \u0441 27 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u043d\u0430 \u0443\u0440\u043e\u0432\u043d\u0435 10% DWT / 21% \u0442\u0440\u0430\u043d\u0437\u0438\u0442\u043e\u0432 (20 \u0441\u0443\u0434\u043e\u0432...",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
