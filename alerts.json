@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xf18159d6a14d097172c6671a7324f8410fc7821fc6e2a9419730c7d59c4aa1c6",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8bc2f8994458800d9c4dbd1d4507b32e4f7a4c80",
-      "side": "BUY",
-      "asset": "99245585979844144960758602992634910767220726011933723157814870785954303767279",
-      "conditionId": "0x4681b4b23ba2dfb51998b5fadb3732ab482841b899a88a72943f1071574c2aa8",
-      "size": 2298.850569,
-      "price": 0.86999999998695,
-      "timestamp": 1777390826,
-      "title": "Cagliari: Zachary Svajda vs Hubert Hurkacz",
-      "slug": "atp-svajda-hurkacz-2026-04-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-svajda-hurkacz-2026-04-28",
-      "outcome": "Hubert Hurkacz",
-      "outcomeIndex": 1,
-      "name": "0x8Bc2f8994458800d9C4DBD1d4507b32e4F7a4C80-1758128210877",
-      "pseudonym": "Sour-Basket",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf18159d6a14d097172c6671a7324f8410fc7821fc6e2a9419730c7d59c4aa1c6",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cagliari: Zachary Svajda vs Hubert Hurkacz",
-    "market_slug": "atp-svajda-hurkacz-2026-04-28",
-    "amount": 1999.9999950000001,
-    "ai_context": "\u2705 COPY \u2014 Hurkacz has a superior head-to-head record and recent form compared to Svajda.\nHurkacz has won 3 of their last 10 matches, while Svajda has won 4 of theirs. (stevegtennis.com) Additionally, Hurkacz has a 66.7% win rate on clay over the past 52 weeks, whereas Svajda has a 41.7% win rate on hard courts. (tennisratio.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Hurkacz",
-      "checked_at": "2026-05-31T13:08:42.180479+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 298.85,
-      "pnl_flat": 0.15,
-      "roi": 14.9,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xca56a162e2240cf2439529668042361db521a2e235a6c3c7d12d310be802c7b5",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -31285,6 +31229,54 @@
     "market_slug": "mlb-min-pit-2026-05-31",
     "amount": 7414.0,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H 30.05.26: Pirates 10 - Twins 9 (19 runs, over 7.5)\n\u2022 H2H 29.05.26: Pirates 6 - Twins 5 (11 runs, over 7.5)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3468aef72a730c5ce4b9c8ca7d6fee27e54a9bf6b2c9bbc8b7f0fac585ad672a",
+    "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "trader": {
+      "rank": 20,
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "username": "surfandturf",
+      "profit": 4505526.985547225,
+      "volume": 54916546.374567,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x66d1cf4afe7eec9c30d530e473b3bd58f62bc18f",
+      "side": "BUY",
+      "asset": "55717514523850729621829598893747488226095092788249545739374785511473389476473",
+      "conditionId": "0x4d6be440b2c35e9de122c82dd13284f6b139b523e8a332ae662d9badd4f622f8",
+      "size": 2269.41,
+      "price": 0.452763713916833,
+      "timestamp": 1780249272,
+      "title": "Roland Garros ATP: Jakub Mensik vs Andrey Rublev",
+      "slug": "atp-mensik-rublev-2026-05-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-mensik-rublev-2026-05-31",
+      "outcome": "Andrey Rublev",
+      "outcomeIndex": 1,
+      "name": "0x66D1cf4AFe7EEC9c30d530E473b3BD58F62bc18f-1766226105389",
+      "pseudonym": "Flimsy-Notebook",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3468aef72a730c5ce4b9c8ca7d6fee27e54a9bf6b2c9bbc8b7f0fac585ad672a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros ATP: Jakub Mensik vs Andrey Rublev",
+    "market_slug": "atp-mensik-rublev-2026-05-31",
+    "amount": 1241.9035,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Mensik \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 2-0 (Doha 2024: 6-4 7-6; Shanghai 2024: 6-7(7) 6-4 6-3)\n\u2022 Mensik \u0432\u044b\u0438\u0433\u0440\u0430\u043b R3 \u0443 de Minaur 0-6 6-2 6-2 6-3 \u043d\u0430 RG 2026",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
