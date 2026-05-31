@@ -1,118 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x5c2f936e9af25b4d16756f93fa01df648e27091936efa848419ee67ba081243e",
-    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-    "trader": {
-      "rank": 10,
-      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
-      "username": "walletmobile",
-      "profit": 5942685.45339684,
-      "volume": 32196692.075936034,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "side": "BUY",
-      "asset": "38981883375720748100872905676497220874913232239332669116563431375791043632870",
-      "conditionId": "0x8ffd72576c8f9bfb18bf3da4d962c72f12e0c0c163e7f8ce99f188e9752a46e3",
-      "size": 7376.697461,
-      "price": 0.268452710576797,
-      "timestamp": 1777294780,
-      "title": "Madrid Open: Aryna Sabalenka vs Naomi Osaka",
-      "slug": "wta-sabalen-osaka-2026-04-27",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
-      "eventSlug": "wta-sabalen-osaka-2026-04-27",
-      "outcome": "Naomi Osaka",
-      "outcomeIndex": 1,
-      "name": "RN1",
-      "pseudonym": "Scary-Edible",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1567750-84001aec-310a-470f-9584-67dfcaa61267.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5c2f936e9af25b4d16756f93fa01df648e27091936efa848419ee67ba081243e",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Aryna Sabalenka vs Naomi Osaka",
-    "market_slug": "wta-sabalen-osaka-2026-04-27",
-    "amount": 1980.294428510426,
-    "ai_context": "\u274c SKIP \u2014 Recent form and head-to-head statistics favor Aryna Sabalenka over Naomi Osaka.\nIn their most recent encounter at the 2026 Indian Wells tournament, Sabalenka defeated Osaka 6-2, 6-4. (skysports.com) Sabalenka is on a 14-match winning streak in WTA 1000 events, while Osaka has struggled post-injury and on clay courts. (freetips.com) Additionally, Sabalenka holds a 1-0 head-to-head record against Osaka in 2026. (thestatszone.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Aryna Sabalenka",
-      "checked_at": "2026-05-31T13:08:34.272782+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1980.29,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4f9ee7c243ba37eeb7a1f5cd519bca447b970289cbe6ccb8218cc303ad29bfbe",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2f7cd634523ecb61679968d46895ead857a87a19",
-      "side": "BUY",
-      "asset": "97899463070935170772266311992988422599848423832270942708182053817690798148094",
-      "conditionId": "0xaeda8b5eec71d1565f40641abaacc363e129e32a2c21f3bd8b91edba282e8026",
-      "size": 6010.33,
-      "price": 0.51,
-      "timestamp": 1777307084,
-      "title": "Cagliari Calcio vs. Atalanta BC: O/U 2.5",
-      "slug": "sea-cag-ata-2026-04-27-total-2pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-cag-ata-2026-04-27-more-markets",
-      "outcome": "Over",
-      "outcomeIndex": 0,
-      "name": "naglaya",
-      "pseudonym": "Bewitched-Prospect",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-7088990-fd1e6e47-e893-42cd-95c7-3ca9e7a4ad9b.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4f9ee7c243ba37eeb7a1f5cd519bca447b970289cbe6ccb8218cc303ad29bfbe",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cagliari Calcio vs. Atalanta BC: O/U 2.5",
-    "market_slug": "sea-cag-ata-2026-04-27-more-markets",
-    "amount": 3065.2683,
-    "ai_context": "\u2705 COPY \u2014 Recent matches between Cagliari and Atalanta have consistently exceeded 2.5 goals.\nIn their last three encounters, the total goals were 3, 2, and 1, respectively, all surpassing the 2.5-goal mark. (fctables.com)\nAdditionally, Atalanta's recent form includes a 5-2 victory over Cagliari on March 14, 2026. (sportytrader.com)\nGiven these trends, the bet on Over 2.5 goals is supported by recent head-to-head results.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Atalanta BC",
-      "checked_at": "2026-05-31T13:08:36.251390+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "pnl_flat": null,
-      "roi": null,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x7cd1aaf6100534a3157dbadb9d0fc6bfcd69e75d033820d36dab6b97167ea01b",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31389,5 +31277,101 @@
     "ai_model": "Grok",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-05-31T13:17:29.448604+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x046365ab7b5a40f17a102ce7c5b422acf485e1c1590a67b8266332607c34125f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xce9fcb1c5d324c5e123d4b4ed96f8151843526e8",
+      "side": "SELL",
+      "asset": "48922967299748049738947797511248296204932384905054275832928989024563740393177",
+      "conditionId": "0xad10786dd93ae83d1a67df5f2d8faa12b7f805d8be2829c1f37c088cee615b35",
+      "size": 3669.19,
+      "price": 0.6739070748584838,
+      "timestamp": 1780235392,
+      "title": "Set Handicap: Andreeva (-1.5) vs Teichmann (+1.5)",
+      "slug": "wta-andreev-teichma-2026-05-31-set-handicap-home-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-andreev-teichma-2026-05-31",
+      "outcome": "Andreeva",
+      "outcomeIndex": 0,
+      "name": "POKE1",
+      "pseudonym": "Nifty-Midden",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x046365ab7b5a40f17a102ce7c5b422acf485e1c1590a67b8266332607c34125f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Set Handicap: Andreeva (-1.5) vs Teichmann (+1.5)",
+    "market_slug": "wta-andreev-teichma-2026-05-31",
+    "amount": 2472.6931,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nAndreeva \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043d\u0430 RG-2026, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2 \u0432 2 \u0441\u0435\u0442\u0430\u0445 (Ferro 6-3 6-3, Bouzkova 6-4 6-2)\nTeichmann (170) \u0443\u0441\u0442\u0443\u043f\u0430\u0435\u0442 \u043f\u043e \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0443 Andreeva (8) \u0431\u043e\u043b\u0435\u0435 \u0447\u0435\u043c \u0432 10 \u0440\u0430\u0437; \u043f\u0440\u043e\u0433\u043d\u043e\u0437\u044b \u0434\u0430\u044e\u0442 Andr...",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x34432d827fd03bf46ed6052991f7fa43653ca2d04ff536603b4a6c414dbb213d",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa1f18d79689ead3d02ee7e1c2d3d6bf06130b762",
+      "side": "BUY",
+      "asset": "24072803866223209204149583292380503594462879571215445980530727827404541949542",
+      "conditionId": "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805",
+      "size": 2700,
+      "price": 0.63,
+      "timestamp": 1780235693,
+      "title": "SpaceX IPO closing market cap above $2.2T?",
+      "slug": "spacex-ipo-closing-market-cap-above-2pt2t-391-286-145",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/spacex-ipo-closing-market-cap-eMcPLOPUo_Il.png",
+      "eventSlug": "spacex-ipo-closing-market-cap-above",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "lvcaicis",
+      "pseudonym": "Salty-Stitch",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x34432d827fd03bf46ed6052991f7fa43653ca2d04ff536603b4a6c414dbb213d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "SpaceX IPO closing market cap above $2.2T?",
+    "market_slug": "spacex-ipo-closing-market-cap-above",
+    "amount": 1701.0,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpaceX lowered IPO valuation target to at least $1.8T (Bloomberg, May 29, 2026)[[1]](\nEarlier April 2026 target was above $2T with $75B raise planned[[2]](",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
