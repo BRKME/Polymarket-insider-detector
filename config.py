@@ -4,6 +4,16 @@ import os
 GAMMA_API_URL = "https://gamma-api.polymarket.com"
 DATA_API_URL = "https://data-api.polymarket.com"
 
+# ── Measurement / accounting ───────────────────────────────────────────────
+# Real P&L is tracked at OUR fixed stake, not the whale's notional.
+# This is the number that actually reflects edge on a $200 bankroll.
+FLAT_STAKE = 1.0            # $ we treat every signal as betting (flat staking)
+# Only give up on a market (mark EXPIRED) after this many days AND after every
+# resolution source has genuinely failed. Was previously a blind 7-day cutoff
+# applied *before* any API call — the root cause of 62% of signals never resolving.
+EXPIRE_AFTER_DAYS = 21      # safety net only; resolution is attempted regardless of age
+CLOB_API_URL = "https://clob.polymarket.com"
+
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (median insider bet = $1,447, $1500 cuts 57%)
 ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)
