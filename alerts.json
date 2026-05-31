@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x11f60329dbf402e417428639250e9834f0d4ea402c14b2fb28cba9a78ac5a367",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 11,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7628525.320149013,
-      "volume": 475189522.223603,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
-      "side": "BUY",
-      "asset": "30797576059611502989453079136959360575222924704554700188870869323117555458617",
-      "conditionId": "0x667dba48f8654227a57183d3f514fd7642fd3b7fd701d35cce94b3307545eb70",
-      "size": 3000,
-      "price": 0.59,
-      "timestamp": 1777382722,
-      "title": "Saint-Malo: Diane Parry vs Yasmine Kabbaj",
-      "slug": "wta-parry-kabbaj-2026-04-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
-      "eventSlug": "wta-parry-kabbaj-2026-04-28",
-      "outcome": "Yasmine Kabbaj",
-      "outcomeIndex": 1,
-      "name": "tradecraft",
-      "pseudonym": "Slow-Escape",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x11f60329dbf402e417428639250e9834f0d4ea402c14b2fb28cba9a78ac5a367",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Saint-Malo: Diane Parry vs Yasmine Kabbaj",
-    "market_slug": "wta-parry-kabbaj-2026-04-28",
-    "amount": 1770.0,
-    "ai_context": "\u274c SKIP \u2014 Yasmine Kabbaj has a losing record in her recent matches and is set to face a higher-ranked opponent.\nKabbaj has lost three of her last five matches, including a 2-0 defeat to Lucie Nguyen Tan on April 27, 2026. Diane Parry, ranked 95, has won three of her last five matches, including a 2-0 victory over Marta Kostyuk on April 14, 2026. (aiscore.com)\nGiven these recent performances, the trader's bet on Kabbaj appears to be against the current form of both players.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Yasmine Kabbaj",
-      "checked_at": "2026-05-31T13:08:40.202132+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1230.0,
-      "pnl_flat": 0.69,
-      "roi": 69.5,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xf18159d6a14d097172c6671a7324f8410fc7821fc6e2a9419730c7d59c4aa1c6",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31296,5 +31240,53 @@
     "ai_verdict": "NO_DATA",
     "ai_model": "Grok",
     "ai_consensus": "NO_DATA"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x215924ac5c14a185e8ff455e15e6ad5d600ea89cdcc9360efe70d81e0e94c043",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x27f738fe203827445690339104aae35b20bc44b0",
+      "side": "BUY",
+      "asset": "97650842647585387859139577210158185101387555872219280385299161502407161469299",
+      "conditionId": "0x980da88d0dc87bdde8c7ef0f03425c08ab003fac2ee4e7532f28f1adad441e19",
+      "size": 14828,
+      "price": 0.5,
+      "timestamp": 1780244443,
+      "title": "Minnesota Twins vs. Pittsburgh Pirates: O/U 7.5",
+      "slug": "mlb-min-pit-2026-05-31-total-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-min-pit-2026-05-31",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "ic4cream",
+      "pseudonym": "Hateful-Chord",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x215924ac5c14a185e8ff455e15e6ad5d600ea89cdcc9360efe70d81e0e94c043",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Minnesota Twins vs. Pittsburgh Pirates: O/U 7.5",
+    "market_slug": "mlb-min-pit-2026-05-31",
+    "amount": 7414.0,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H 30.05.26: Pirates 10 - Twins 9 (19 runs, over 7.5)\n\u2022 H2H 29.05.26: Pirates 6 - Twins 5 (11 runs, over 7.5)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
