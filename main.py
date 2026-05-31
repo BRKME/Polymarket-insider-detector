@@ -386,6 +386,13 @@ def scan_top_traders(tracked_hashes: set) -> List[Dict]:
                 if effective_odds >= 0.90:
                     tt_low_roi += 1
                     continue
+
+                # Frozen edge window (validated OOS 2026-05): only mid-odds has
+                # positive ROI. Outside [MIN,MAX] is the -P&L region — skip it.
+                from config import ODDS_FILTER_MIN, ODDS_FILTER_MAX
+                if not (ODDS_FILTER_MIN <= effective_odds < ODDS_FILTER_MAX):
+                    tt_low_roi += 1
+                    continue
                 market_slug = trade.get('eventSlug', '') or trade.get('slug', '') or trade.get('market', {}).get('slug', '')
                 
                 # Skip traders with proven bad track record
