@@ -880,6 +880,20 @@ def format_top_trader_alert(alert: Dict) -> str:
         if grok_display:
             ai_lines.append(grok_display)
     
+    # === Priority tier (data-driven, 2026-05) ===
+    # NO-side wins ~76% in-filter; NO + AI COPY hit 88% WR. YES-side loses
+    # regardless of AI. Surface this as a banner so the channel reads at a glance.
+    is_no = outcome_lower == 'no'
+    grok_copy = grok_v in ("COPY", "LEAN_COPY")
+    if is_no and grok_copy:
+        priority_banner = "🔥 ПРИОРИТЕТ — NO + AI ЗА (лучший сетап)"
+    elif is_no:
+        priority_banner = "✅ ПРИОРИТЕТ — сторона NO"
+    elif grok_copy:
+        priority_banner = "🟢 AI ЗА (сторона YES — слабее)"
+    else:
+        priority_banner = "⚪ обычный (YES / AI против — низкий приоритет)"
+
     # === Assemble message ===
     sep = "—————————————————————"
     
@@ -889,7 +903,8 @@ def format_top_trader_alert(alert: Dict) -> str:
     else:
         trader_line = f"{username} #{rank} · ставит ${amount:,.0f} на {position}{trader_wr}"
     
-    message = f"""{market}
+    message = f"""{priority_banner}
+{market}
 {verdict_line}
 {sep}
 {trader_line}
