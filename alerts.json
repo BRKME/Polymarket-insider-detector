@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x5b913f18f35a0d0b96d212a64a0460d2ed085e080cb1ac5a0172055ab5ebca18",
-    "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-    "trader": {
-      "rank": 19,
-      "address": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
-      "username": "0x2a2C53bD278c04DA9962Fcf96490E17F3DfB9Bc1-1772479215461",
-      "profit": 4090515.2683858806,
-      "volume": 405503634.1595849,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x27f738fe203827445690339104aae35b20bc44b0",
-      "side": "BUY",
-      "asset": "72191583546025361831225777665974697708285902529660640935369192804892327952658",
-      "conditionId": "0xcbf01cda2e913effbb571f2e1303b3517f566e611899f28a7175d4b061386fbc",
-      "size": 1611.8689,
-      "price": 0.69,
-      "timestamp": 1777241056,
-      "title": "Celtics vs. 76ers",
-      "slug": "nba-bos-phi-2026-04-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-bos-phi-2026-04-26",
-      "outcome": "Celtics",
-      "outcomeIndex": 0,
-      "name": "ic4cream",
-      "pseudonym": "Hateful-Chord",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5b913f18f35a0d0b96d212a64a0460d2ed085e080cb1ac5a0172055ab5ebca18",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Celtics vs. 76ers",
-    "market_slug": "nba-bos-phi-2026-04-26",
-    "amount": 1112.189541,
-    "ai_context": "\u2705 COPY \u2014 Celtics have won 2 of the last 3 games against the 76ers, including a decisive 123-91 victory in Game 1.\nIn the most recent matchup on April 24, 2026, the Celtics secured a 108-100 win over the 76ers. (vegasinsider.com) Additionally, the 76ers are missing star center Joel Embiid due to an appendectomy, which could impact their performance. (axios.com)\nGiven the Celtics' recent victories and the 76ers' injury concerns, the trader's bet on the Celtics appears well-supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043105+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xb90cac033aeb0b5f5a9892ed608c11f875994d89726e82d6487adad298291195",
     "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
     "trader": {
@@ -30718,5 +30664,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf5fd3accf21d440861e32fb682453f78df4b1a5737ce586245093d14820705b7",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11623679.710849423,
+      "volume": 292570579.14240307,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xaf9f43cd760492b6fb0853e4d79d7fcf1314f6a3",
+      "side": "BUY",
+      "asset": "108233603819467706476318984012158651931658302669301887462181073562758483842092",
+      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "size": 3540,
+      "price": 0.17,
+      "timestamp": 1780207093,
+      "title": "Will France win the 2026 FIFA World Cup?",
+      "slug": "will-france-win-the-2026-fifa-world-cup-924",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
+      "eventSlug": "world-cup-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "JeremyWade",
+      "pseudonym": "Exemplary-House",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf5fd3accf21d440861e32fb682453f78df4b1a5737ce586245093d14820705b7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will France win the 2026 FIFA World Cup?",
+    "market_slug": "world-cup-winner",
+    "amount": 601.8000000000001,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nSpain \u2014 \u0444\u0430\u0432\u043e\u0440\u0438\u0442 \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u043e\u0432 +475, \u0424\u0440\u0430\u043d\u0446\u0438\u044f +500 (DraftKings/FanDuel/Fox Sports, \u043c\u0430\u0439 2026)\n\u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0432\u044b\u0448\u043b\u0430 \u0432 \u0444\u0438\u043d\u0430\u043b\u044b \u0427\u041c-2018 \u0438 \u0427\u041c-2022, \u043d\u043e \u0418\u0441\u043f\u0430\u043d\u0438\u044f \u0441\u0435\u0439\u0447\u0430\u0441 \u0432\u043e\u0437\u0433\u043b\u0430\u0432\u043b\u044f\u0435\u0442 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0438 odds \u043a\u0430\u043a solo favorite",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
