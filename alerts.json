@@ -1,59 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xb90cac033aeb0b5f5a9892ed608c11f875994d89726e82d6487adad298291195",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "trader": {
-      "rank": 6,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7653945.130656029,
-      "volume": 470310968.4408411,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc97485a44146b5db0b8b121358f57cf297cdb33b",
-      "side": "BUY",
-      "asset": "80753154364594934026676539529028375641976744272467520480324693522482094341752",
-      "conditionId": "0x771017bf4abbf6c442dd7a800d71acebe4cecb3ad65fc22c536f8347b4ca0796",
-      "size": 8799.64,
-      "price": 0.44,
-      "timestamp": 1777252762,
-      "title": "Spread: Rockets (-2.5)",
-      "slug": "nba-lal-hou-2026-04-26-spread-home-2pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-hou-2026-04-26",
-      "outcome": "Lakers",
-      "outcomeIndex": 1,
-      "name": "lu1zzz",
-      "pseudonym": "Tough-Nexus",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb90cac033aeb0b5f5a9892ed608c11f875994d89726e82d6487adad298291195",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spread: Rockets (-2.5)",
-    "market_slug": "nba-lal-hou-2026-04-26",
-    "amount": 3871.8415999999997,
-    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Lakers, and the Rockets have struggled against them.\nThe Lakers have won their last three matchups against the Rockets, including a 112-108 victory on April 24, 2026. (vegasinsider.com) Additionally, the Rockets have been inconsistent, losing to the Lakers in their recent games. (houston.com)\nGiven the Lakers' recent dominance over the Rockets and the Rockets' recent struggles, the trader's bet on the Lakers to cover the -2.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043114+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
     "market": "Will Donald Trump announce that the United States blockade of the Strait of Hormuz has been lifted by April 30, 2026?",
     "market_slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
     "event_slug": "will-donald-trump-announce-that-the-united-states-blockade-of-the-strait-of-hormuz-has-been-lifted-by-april-30-2026-731",
@@ -30847,5 +30793,53 @@
     "ai_model": "Grok",
     "ai_consensus": "SKIP",
     "resolution_last_check": "2026-05-31T08:35:07.728145+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x256fa821acf9bf85cd1ac099cc2d2518b02d43f01dc4386bb1541f29d7b2b4f2",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf4020197086a05ebac5567ce33ffba7ba4dbce7a",
+      "side": "SELL",
+      "asset": "8707375206967678825216329277019962456057036291350429354861140387688165802930",
+      "conditionId": "0x44d3740ef13c165ea99faff0240714b56df620271d59dd7d8914e07c0fd88c0d",
+      "size": 10223.9,
+      "price": 0.4092515674057845,
+      "timestamp": 1780223650,
+      "title": "Roland Garros WTA: Marta Kostyuk vs Iga Swiatek",
+      "slug": "wta-kostyuk-swiatek-2026-05-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-kostyuk-swiatek-2026-05-31",
+      "outcome": "Iga Swiatek",
+      "outcomeIndex": 1,
+      "name": "0xf4020197086a05eBaC5567ce33ffBa7BA4dBCe7a-1731777873905",
+      "pseudonym": "Terrible-Brownie",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x256fa821acf9bf85cd1ac099cc2d2518b02d43f01dc4386bb1541f29d7b2b4f2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Roland Garros WTA: Marta Kostyuk vs Iga Swiatek",
+    "market_slug": "wta-kostyuk-swiatek-2026-05-31",
+    "amount": 6039.7528999999995,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nH2H: Swiatek leads 3-0 (1-0 on clay, won RG 2021 2-0 sets)\nSwiatek 4-time RG champion, 43-3 record at tournament (93% wins)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
