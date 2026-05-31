@@ -15,6 +15,18 @@ from functools import lru_cache
 import hashlib
 
 
+def _clean_ai_text(text: str) -> str:
+    """Strip broken citation footnotes and tidy spacing in displayed AI text."""
+    if not text:
+        return text
+    text = re.sub(r'\[+\d+\]+\(+', '', text)   # [1](  [[2]]( → removed
+    text = re.sub(r'\[+\d+\]+', '', text)      # [1]  [[2]]   → removed
+    text = re.sub(r'\s+([.,;])', r'\1', text)  # space before punctuation
+    text = re.sub(r'\(\s+', '(', text)         # "( x" → "(x"
+    text = re.sub(r'[ \t]{2,}', ' ', text)
+    return text.strip()
+
+
 def extract_market_subject(market_title: str) -> Optional[str]:
     """
     Extract subject from market title for clearer YES/NO display.
@@ -714,9 +726,9 @@ def _extract_ai_short(ai_context: str, model: str) -> str:
         elif line.startswith('- '):
             bullets.append('• ' + line[2:])
     
-    # If bullets found, return first 2
+    # If bullets found, return first 2 (cleaned of any leftover broken citations)
     if bullets:
-        return '\n'.join(bullets[:2])
+        return _clean_ai_text('\n'.join(bullets[:2]))
     
     # Fallback: split into sentences, format as bullets
     sentences = re.split(r'\.(?!\d)', text)
@@ -727,9 +739,9 @@ def _extract_ai_short(ai_context: str, model: str) -> str:
             if not s.endswith('.'):
                 s += '.'
             result.append(f"• {s}")
-        return '\n'.join(result)
+        return _clean_ai_text('\n'.join(result))
     
-    return text[:180] if len(text) > 180 else text
+    return _clean_ai_text(text[:180] if len(text) > 180 else text)
 
 
 def format_top_trader_alert(alert: Dict) -> str:
@@ -763,25 +775,25 @@ def format_top_trader_alert(alert: Dict) -> str:
     amount = size * price
     odds_display = f"{price*100:.0f}%"
     
-    # Format position display
+    # Format position display (odds shown separately as "вход X%", not here)
     if outcome_lower in ['yes', 'no']:
         market_title = trade.get('title', '') or alert.get('market', '')
         subject = extract_market_subject(market_title)
         if subject and outcome_lower == 'no':
-            position = f"Against {subject} = {odds_display}"
+            position = f"Against {subject}"
         elif subject and outcome_lower == 'yes':
-            position = f"{subject} ✓ = {odds_display}"
+            position = f"{subject} ✓"
         else:
-            position = f"{outcome_name.upper()} = {odds_display}"
+            position = f"{outcome_name.upper()}"
     elif outcome_lower in ['over', 'under']:
         market_title = trade.get('title', '') or alert.get('market', '')
         ou_line = extract_ou_line(market_title)
         if ou_line:
-            position = f"{outcome_name} {ou_line} = {odds_display}"
+            position = f"{outcome_name} {ou_line}"
         else:
-            position = f"{outcome_name} = {odds_display}"
+            position = f"{outcome_name}"
     else:
-        position = f"{outcome_name} = {odds_display}"
+        position = f"{outcome_name}"
     
     # Get market name from trade data (title field, not nested market)
     market = trade.get('title', '') or alert.get('market', '')
@@ -833,17 +845,8 @@ def format_top_trader_alert(alert: Dict) -> str:
                 effective_odds = 0.5
             
             outcome_str = str(trade.get('outcome', 'Yes'))
-            contra = contrarian_check("TOP_TRADER", outcome_str, stats)
-            
-            if contra:
-                opp_odds = 1 - effective_odds
-                k = kelly_size(opp_odds, contra["opposite_wr"], 200)
-                if k["action"] == "BET":
-                    rec_amount = f" · {k['bet_amount']:.0f} USD"
-            else:
-                k = kelly_size(effective_odds, wr, 200)
-                if k["action"] == "BET":
-                    rec_amount = f" · {k['bet_amount']:.0f} USD"
+            # Kelly sizing removed: we stake a fixed $5-10, not Kelly off $200.
+            # The dynamic USD number was misleading. rec_amount stays empty.
     except Exception:
         pass
     
@@ -858,54 +861,58 @@ def format_top_trader_alert(alert: Dict) -> str:
     except Exception:
         pass
     
-    # === Build verdict line (Grok only) ===
+    # === Banner with merged AI verdict (single line, no duplicate) ===
     grok_v = ai.get("grok_verdict", "NONE")
-    
-    if grok_v == "COPY":
-        verdict_line = f"🟢 ВЕРДИКТ AI: СТАВИТЬ{rec_amount}"
-    elif grok_v == "SKIP":
-        verdict_line = f"🔴 ВЕРДИКТ AI: ПРОПУСТИТЬ"
-    elif grok_v == "NO_DATA":
-        verdict_line = f"⚪ ВЕРДИКТ AI: НЕТ ДАННЫХ"
+    grok_copy = grok_v in ("COPY", "LEAN_COPY")
+
+    # Market kind: binary YES/NO vs named (handicap / "A vs B" / team / player).
+    # The validated NO-side edge ONLY exists on binary markets. On named markets
+    # there is no NO side, so a YES/NO banner is meaningless — neutral tag instead.
+    is_binary = outcome_lower in ("yes", "no", "over", "under")
+    is_no = outcome_lower in ("no", "under")
+
+    if is_binary:
+        if is_no and grok_copy:
+            priority_banner = "🔥 ПРИОРИТЕТ · NO + AI ЗА — лучший сетап"
+        elif is_no:
+            tail = " · но AI против" if grok_v == "SKIP" else ""
+            priority_banner = f"✅ ПРИОРИТЕТ · сторона NO{tail}"
+        elif grok_copy:
+            priority_banner = "🟡 СЛАБЫЙ · сторона YES статистически проигрывает"
+        else:
+            priority_banner = "⚪ НИЗКИЙ · YES + AI против — пропуск"
     else:
-        verdict_line = ""
-    
+        # Named market (handicap / player / team) — NO-edge does not apply.
+        if grok_copy:
+            priority_banner = "🟢 AI ЗА · рынок с именами (не бинарный)"
+        elif grok_v == "SKIP":
+            priority_banner = "🔴 AI ПРОТИВ · рынок с именами"
+        else:
+            priority_banner = "⚪ рынок с именами"
+
     # === Format AI reasoning ===
     ai_lines = []
     if grok_v != "NONE":
         grok_display = _extract_ai_short(ai_context, "Grok")
         if not grok_display:
-            # Single model format — no [Grok] tag
             grok_display = _extract_ai_short_single(ai_context)
         if grok_display:
             ai_lines.append(grok_display)
-    
-    # === Priority tier (data-driven, 2026-05) ===
-    # NO-side wins ~76% in-filter; NO + AI COPY hit 88% WR. YES-side loses
-    # regardless of AI. Surface this as a banner so the channel reads at a glance.
-    is_no = outcome_lower == 'no'
-    grok_copy = grok_v in ("COPY", "LEAN_COPY")
-    if is_no and grok_copy:
-        priority_banner = "🔥 ПРИОРИТЕТ — NO + AI ЗА (лучший сетап)"
-    elif is_no:
-        priority_banner = "✅ ПРИОРИТЕТ — сторона NO"
-    elif grok_copy:
-        priority_banner = "🟢 AI ЗА (сторона YES — слабее)"
-    else:
-        priority_banner = "⚪ обычный (YES / AI против — низкий приоритет)"
 
     # === Assemble message ===
     sep = "—————————————————————"
-    
-    # Trader line
+
+    # Trader line — label both numbers so they're not confused:
+    #   "вход X%"  = entry odds (price paid)
+    #   "трейдер Y% WR" = trader's historical win rate
+    tw = trader_wr.replace(" · ", " · трейдер ") if trader_wr else ""
     if username.startswith("Trader #"):
-        trader_line = f"{username} · ставит ${amount:,.0f} на {position}{trader_wr}"
+        trader_line = f"{username} · ${amount:,.0f} на {position} · вход {odds_display}{tw}"
     else:
-        trader_line = f"{username} #{rank} · ставит ${amount:,.0f} на {position}{trader_wr}"
-    
+        trader_line = f"{username} #{rank} · ${amount:,.0f} на {position} · вход {odds_display}{tw}"
+
     message = f"""{priority_banner}
 {market}
-{verdict_line}
 {sep}
 {trader_line}
 {sep}"""
