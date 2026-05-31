@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xb3c9fabafcb7bc77f03f794cdf724a16093b1a6a830f040da4376c7a3cc7f3a2",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x4df332e27f9ee3224f52ce30e3ce15c1075e788f",
-      "side": "BUY",
-      "asset": "56880175393932454581144770528427485936933207650358188666285643124300135349353",
-      "conditionId": "0x28047a042b014f25c767d74ef95bb73d0fac42b5618081c919f627e5bb95d82b",
-      "size": 3413,
-      "price": 0.51,
-      "timestamp": 1777406742,
-      "title": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
-      "slug": "cricipl-mum-sun-2026-04-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
-      "eventSlug": "cricipl-mum-sun-2026-04-29",
-      "outcome": "Mumbai Indians",
-      "outcomeIndex": 0,
-      "name": "SunlineTicker",
-      "pseudonym": "Far-Precipitation",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb3c9fabafcb7bc77f03f794cdf724a16093b1a6a830f040da4376c7a3cc7f3a2",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Indian Premier League: Mumbai Indians vs Sunrisers Hyderabad",
-    "market_slug": "cricipl-mum-sun-2026-04-29",
-    "amount": 1740.63,
-    "ai_context": "\u2705 COPY \u2014 Mumbai Indians have a strong head-to-head record against Sunrisers Hyderabad, winning 13 out of 20 matches.\nIn their last five encounters, Mumbai Indians have won three times, including victories on April 23, 2025, and April 17, 2025. (sportspundit.com)\nGiven this favorable record, the bet on Mumbai Indians is supported by recent performance.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Sunrisers Hyderabad",
-      "checked_at": "2026-05-31T13:08:44.683604+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1740.63,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x2dfc724b683d9eccbe0c0e25fa27934c61ee0139072104ac0d8210914a5130ff",
     "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
     "trader": {
@@ -31273,5 +31217,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xcbcc694da49e088fcd6a6abdf5c5de577bca79c0b5a830ac441f5c4eee38ee5b",
+    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
+    "trader": {
+      "rank": 15,
+      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
+      "username": "alexmulti",
+      "profit": 4804855.613376001,
+      "volume": 9949068.653841998,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "113011720858659516990914631176839710466392226020051367327316133452676786812993",
+      "conditionId": "0x7a6bd71bcc1f8cbd5c207ac58a0d4ee2789a0f4e4fb31ae7812d903ef271e8a7",
+      "size": 1254.37,
+      "price": 0.53,
+      "timestamp": 1780267363,
+      "title": "Chicago Cubs vs. St. Louis Cardinals",
+      "slug": "mlb-chc-stl-2026-05-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-chc-stl-2026-05-31",
+      "outcome": "St. Louis Cardinals",
+      "outcomeIndex": 1,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xcbcc694da49e088fcd6a6abdf5c5de577bca79c0b5a830ac441f5c4eee38ee5b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Chicago Cubs vs. St. Louis Cardinals",
+    "market_slug": "mlb-chc-stl-2026-05-31",
+    "amount": 589.5538999999999,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Cubs 32-27, Cardinals 30-26\n\u2022 Cubs 9-6 \u043f\u0440\u043e\u0442\u0438\u0432 Cardinals \u0441 \u043d\u0430\u0447\u0430\u043b\u0430 \u043f\u0440\u043e\u0448\u043b\u043e\u0433\u043e \u0441\u0435\u0437\u043e\u043d\u0430; \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u0441\u0443\u0431\u0431\u043e\u0442\u0443 6-1",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
