@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x8d3d04631ed4f4746fe793a10ab851e34d35458c52849538963c8b88f889a8d9",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11826232.795573022,
-      "volume": 286296207.97341496,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x3e2f4c1fa1d09f259614cb77466a3eb7336baaf8",
-      "side": "BUY",
-      "asset": "59005039819817191572790632185216584675790282938177567233176230080432531995226",
-      "conditionId": "0x8ff9faf0ff030925d920a79ab8012493c53dfc817d27e1c0ca75653258ff266d",
-      "size": 19754,
-      "price": 0.59,
-      "timestamp": 1777238654,
-      "title": "Spurs vs. Trail Blazers",
-      "slug": "nba-sas-por-2026-04-26",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-sas-por-2026-04-26",
-      "outcome": "Spurs",
-      "outcomeIndex": 0,
-      "name": "Onomatopoeia777",
-      "pseudonym": "Scrawny-Washcloth",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x8d3d04631ed4f4746fe793a10ab851e34d35458c52849538963c8b88f889a8d9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Spurs vs. Trail Blazers",
-    "market_slug": "nba-sas-por-2026-04-26",
-    "amount": 11654.859999999999,
-    "ai_context": "\u2705 COPY \u2014 Spurs have won 7 of their last 10 games against the Trail Blazers, including 2 of the last 3.\nIn their most recent matchup on April 8, 2026, the Spurs defeated the Trail Blazers 112-101. (espn.com)\nThe Spurs have a strong track record against the Trail Blazers, winning 7 of their last 10 encounters. In their most recent game on April 8, 2026, the Spurs secured a 112-101 victory. (espn.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "EXPIRED",
-      "checked_at": "2026-05-28T09:45:13.043096+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "note": "Market date 2026-04-26 >7 days ago, removed from API"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x5b913f18f35a0d0b96d212a64a0460d2ed085e080cb1ac5a0172055ab5ebca18",
     "wallet": "0x2a2c53bd278c04da9962fcf96490e17f3dfb9bc1",
     "trader": {
@@ -30721,6 +30667,54 @@
     "market_slug": "mlb-tor-bal-2026-05-30",
     "amount": 2263.5624,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nBlue Jays 29-29 (3rd AL East, L10 8-2), Orioles 26-32 (4th AL East)[[1]](\nBlue Jays won last 2 games of series vs Orioles (incl. 2-1 on 5/28)[[2]](",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x805775b982dab13eebc6509dc2cc6363dc2709d1104a43a94913ca57fad4a9c0",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 4,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 9165621.142932145,
+      "volume": 836488654.228434,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x53757615de1c42b83f893b79d4241a009dc2aeea",
+      "side": "SELL",
+      "asset": "57881479704847872943544095137157098030396673130860692546874262450849694058049",
+      "conditionId": "0x215be7e1cbc744ce1a85fb891db92b53f933712b5a556e556657c3254f63d260",
+      "size": 2666,
+      "price": 0.57,
+      "timestamp": 1780191439,
+      "title": "Spurs vs. Thunder",
+      "slug": "nba-sas-okc-2026-05-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-sas-okc-2026-05-30",
+      "outcome": "Spurs",
+      "outcomeIndex": 0,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x805775b982dab13eebc6509dc2cc6363dc2709d1104a43a94913ca57fad4a9c0",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spurs vs. Thunder",
+    "market_slug": "nba-sas-okc-2026-05-30",
+    "amount": 1519.62,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpurs \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 6 118-91, \u0441\u0435\u0440\u0438\u044f 3-3\nThunder \u0431\u0435\u0437 Jalen Williams (hamstring OUT) \u0438 Ajay Mitchell (calf OUT) \u043d\u0430 Game 7",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
