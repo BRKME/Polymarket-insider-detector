@@ -1,53 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xca56a162e2240cf2439529668042361db521a2e235a6c3c7d12d310be802c7b5",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x1f361ef9bbb97c16e988a8314a6c50ff67ea2819",
-      "side": "SELL",
-      "asset": "108233603819467706476318984012158651931658302669301887462181073562758483842092",
-      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
-      "size": 14705.88,
-      "price": 0.156,
-      "timestamp": 1777402232,
-      "title": "Will France win the 2026 FIFA World Cup?",
-      "slug": "will-france-win-the-2026-fifa-world-cup-924",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-france-win-the-2026-fifa-world-cup-924-HpDpNpZGzhE6.png",
-      "eventSlug": "2026-fifa-world-cup-winner-595",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "Hernr121221",
-      "pseudonym": "Feline-Achiever",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xca56a162e2240cf2439529668042361db521a2e235a6c3c7d12d310be802c7b5",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will France win the 2026 FIFA World Cup?",
-    "market_slug": "2026-fifa-world-cup-winner-595",
-    "amount": 2294.11728,
-    "ai_context": "\u2705 COPY \u2014 France's recent form and squad strength support their World Cup prospects.\nFrance qualified for the 2026 World Cup with a 4-0 victory over Ukraine, maintaining an unbeaten record in their group. (fifa.com) They have reclaimed the top spot in the FIFA/Coca-Cola Men's World Ranking as of April 2026. (inside.fifa.com) Despite the injury of forward Hugo Ekitike, who will miss the World Cup due to an Achilles injury, (vanguardngr.",
-    "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-28T09:45:24.860744+00:00"
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x0cfe039f2e4c43f5ba1254a7094289249b9fd99f66fb9d9f3ba0bc005abaadb9",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31277,6 +31230,54 @@
     "market_slug": "atp-mensik-rublev-2026-05-31",
     "amount": 1241.9035,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Mensik \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 2-0 (Doha 2024: 6-4 7-6; Shanghai 2024: 6-7(7) 6-4 6-3)\n\u2022 Mensik \u0432\u044b\u0438\u0433\u0440\u0430\u043b R3 \u0443 de Minaur 0-6 6-2 6-2 6-3 \u043d\u0430 RG 2026",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x868dde3f43e3a9af64e8e15f91d9aa0aba095a7fba97df86a8d878b4bdc05c0d",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x412fe1a101554f0b382181c3af932e4b2d8030fa",
+      "side": "BUY",
+      "asset": "90884158449500117753191452443255316147881262479606195470721492067939323305969",
+      "conditionId": "0x08333ec42112113ce820fcc1a5d54a90aae15c2d34989c477b75c1fcc17d8847",
+      "size": 3131.94,
+      "price": 0.66,
+      "timestamp": 1780260428,
+      "title": "New York Yankees vs. Athletics",
+      "slug": "mlb-nyy-oak-2026-05-31",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nyy-oak-2026-05-31",
+      "outcome": "Athletics",
+      "outcomeIndex": 1,
+      "name": "GrizzliesSuck",
+      "pseudonym": "Drab-Funding",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x868dde3f43e3a9af64e8e15f91d9aa0aba095a7fba97df86a8d878b4bdc05c0d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Yankees vs. Athletics",
+    "market_slug": "mlb-nyy-oak-2026-05-31",
+    "amount": 1064.8596,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Yankees record 35-22 vs Athletics 27-30 (2026 season)\n\u2022 Yankees 2-3 in 2026 H2H series meetings",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
