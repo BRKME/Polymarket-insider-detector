@@ -1,118 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x2dfc724b683d9eccbe0c0e25fa27934c61ee0139072104ac0d8210914a5130ff",
-    "wallet": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-    "trader": {
-      "rank": 5,
-      "address": "0xd235973291b2b75ff4070e9c0b01728c520b0f29",
-      "username": "zxgngl",
-      "profit": 7807265.589240883,
-      "volume": 40551790.62184699,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x46986132369d9c20140e2fbdedd008cc4bf3d7a5",
-      "side": "BUY",
-      "asset": "108841996491512011644960110386605070587088270415908267253561407680456631957382",
-      "conditionId": "0x3a0e803db220c314dfe56790d78a112ae0f61ae0ef373929940b7768464482cf",
-      "size": 3465.982027,
-      "price": 0.7789999999904789,
-      "timestamp": 1777406870,
-      "title": "Madrid Open: Aryna Sabalenka vs Hailey Baptiste",
-      "slug": "wta-sabalen-baptist-2026-04-28",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
-      "eventSlug": "wta-sabalen-baptist-2026-04-28",
-      "outcome": "Aryna Sabalenka",
-      "outcomeIndex": 0,
-      "name": "Artfulone",
-      "pseudonym": "Merry-Boat",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x2dfc724b683d9eccbe0c0e25fa27934c61ee0139072104ac0d8210914a5130ff",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Aryna Sabalenka vs Hailey Baptiste",
-    "market_slug": "wta-sabalen-baptist-2026-04-28",
-    "amount": 2699.999999,
-    "ai_context": "\u2705 COPY \u2014 Aryna Sabalenka has been in exceptional form, with a 23-1 record this season and a recent victory over Hailey Baptiste.\nSabalenka has won 23 of her 24 matches this season, including a 6-4, 6-4 win over Baptiste in the Miami Open quarterfinals. (espn.com) She also secured a 7-5, 6-2 victory over Peyton Stearns in the Madrid Open first round. (elpais.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Hailey Baptiste",
-      "checked_at": "2026-05-31T13:08:46.487332+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2700.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xbad5f96f3913112147cb7b00fc0e7fafc7085ac2d8531cc770ba2ee75587fd48",
-    "wallet": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-    "trader": {
-      "rank": 7,
-      "address": "0x863134d00841b2e200492805a01e1e2f5defaa53",
-      "username": "RepTrump",
-      "profit": 7532409.671579,
-      "volume": 13983231.103425,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x8c818a866e6a4e5821a4faac8418903e33e3dcd3",
-      "side": "BUY",
-      "asset": "63226464884689819537581943412129054500971928937312073473754558656962813428209",
-      "conditionId": "0xe615cb213bb989ec21df153f65e12d1ad9684dfb5864463a6acfab750830beeb",
-      "size": 1300,
-      "price": 0.83,
-      "timestamp": 1777406926,
-      "title": "Will FC Bayern M\u00fcnchen win on 2026-04-28?",
-      "slug": "ucl-psg1-bay1-2026-04-28-bay1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
-      "eventSlug": "ucl-psg1-bay1-2026-04-28",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "Sharkbets.pro",
-      "pseudonym": "Mysterious-Guard",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1901992-ead50760-514e-4cba-86f8-46f183f7b377.jpg",
-      "profileImageOptimized": "",
-      "transactionHash": "0xbad5f96f3913112147cb7b00fc0e7fafc7085ac2d8531cc770ba2ee75587fd48",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will FC Bayern M\u00fcnchen win on 2026-04-28?",
-    "market_slug": "ucl-psg1-bay1-2026-04-28",
-    "amount": 1079.0,
-    "ai_context": "\u274c SKIP \u2014 FC Bayern M\u00fcnchen is currently playing against Paris Saint-Germain in the Champions League semi-final first leg.\nThe match is ongoing, with Bayern having equalized after PSG took the lead. (elpais.com) Given the live nature of the game, it's challenging to assess the outcome. However, the trader's bet on \"No\" at 83% odds suggests a belief that Bayern will not win. Without further context or insider information, it's difficult to determine the accuracy of this assessment.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-05-31T13:08:48.442409+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -221.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x1c9011b92412a82cb6d0ecfce891b88957cfc5b346988beaf96f219de9484b14",
     "wallet": "0x507e52ef684ca2dd91f90a9d26d149dd3288beae",
     "trader": {
@@ -31338,5 +31226,101 @@
       "roi": 88.7,
       "source": "gamma"
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x0400401ccbdcc6006959c7b08f933e1878019bd900b095e32afa1f8caf14c83b",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "side": "BUY",
+      "asset": "74261494168134318054204742654782573537543189807043585959725335890699520011718",
+      "conditionId": "0x2fa2ed3dbea1ae716be3d8d230a231108d553ae85006f7bb811998d60b637ecb",
+      "size": 2088.76,
+      "price": 0.67599518374538,
+      "timestamp": 1780316484,
+      "title": "Perugia: Timofey Skatov vs Vilius Gaubas",
+      "slug": "atp-skatov-gaubas-2026-06-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-skatov-gaubas-2026-06-01",
+      "outcome": "Vilius Gaubas",
+      "outcomeIndex": 1,
+      "name": "tradecraft",
+      "pseudonym": "Slow-Escape",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x0400401ccbdcc6006959c7b08f933e1878019bd900b095e32afa1f8caf14c83b",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Perugia: Timofey Skatov vs Vilius Gaubas",
+    "market_slug": "atp-skatov-gaubas-2026-06-01",
+    "amount": 676.7683000000001,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Gaubas ranked 133 (high 101), Skatov 189 (high 123); Gaubas YTD 6-4, Skatov recent losses in Chisinau and RG qual\n\u2022 No H2H; previews predict Gaubas win, odds imply ~64% for Gaubas on cla...",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xc599d083892fa2bd6126247b51f4fa7656377a8eab937b4c570f50e0b9035704",
+    "wallet": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+    "trader": {
+      "rank": 14,
+      "address": "0xe90bec87d9ef430f27f9dcfe72c34b76967d5da2",
+      "username": "gmanas",
+      "profit": 4955880.748692178,
+      "volume": 529047708.505991,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf284ad6d607f777f34bc643cea587c33a886b9f9",
+      "side": "SELL",
+      "asset": "5579859909397581925119433456282978473087693004498051770318265701318284183073",
+      "conditionId": "0xd9933a54c518e773050255ea9dba01a71e1a41f49311ed078ae4a6f7e76b1625",
+      "size": 4585.15,
+      "price": 0.8563134553940438,
+      "timestamp": 1780317089,
+      "title": "Iran closes its airspace by June 15?",
+      "slug": "iran-closes-its-airspace-by-june-15",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-iran-close-its-airspace-by-Djo8VXRKur_C.jpg",
+      "eventSlug": "iran-closes-its-airspace-by",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "strike123",
+      "pseudonym": "Testy-Boycott",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xc599d083892fa2bd6126247b51f4fa7656377a8eab937b4c570f50e0b9035704",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Iran closes its airspace by June 15?",
+    "market_slug": "iran-closes-its-airspace-by",
+    "amount": 658.8243600000001,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u0418\u0440\u0430\u043d \u0437\u0430\u043a\u0440\u044b\u043b \u0437\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u0441\u0435\u043a\u0442\u043e\u0440 \u0432\u043e\u0437\u0434\u0443\u0448\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0430 \u0441 22 \u043f\u043e 25 \u043c\u0430\u044f 2026 (NOTAM OIIX A1010/26)\n\u2022 \u041d\u0430 1 \u0438\u044e\u043d\u044f 2026 \u043d\u0435\u0442 \u043d\u043e\u0432\u044b\u0445 NOTAM \u0438\u043b\u0438 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0439 \u043e \u043f\u043e\u043b\u043d\u043e\u043c/\u043c\u0430\u0441\u0448\u0442\u0430\u0431\u043d\u043e\u043c \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u0438 \u0434\u043e 15 \u0438\u044e\u043d\u044f",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
