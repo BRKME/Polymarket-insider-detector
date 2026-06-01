@@ -30832,7 +30832,17 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-05-31T13:17:29.448604+00:00"
+    "resolution_last_check": "2026-05-31T13:17:29.448604+00:00",
+    "resolution": {
+      "outcome": "Rafael Jodar",
+      "checked_at": "2026-06-01T11:09:54.875323+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 125.16,
+      "pnl_flat": 0.15,
+      "roi": 14.9,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30880,7 +30890,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nAndreeva \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 3 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u043c\u0430\u0442\u0447\u0430 \u043d\u0430 RG-2026, \u0432\u043a\u043b\u044e\u0447\u0430\u044f 2 \u0432 2 \u0441\u0435\u0442\u0430\u0445 (Ferro 6-3 6-3, Bouzkova 6-4 6-2)\nTeichmann (170) \u0443\u0441\u0442\u0443\u043f\u0430\u0435\u0442 \u043f\u043e \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0443 Andreeva (8) \u0431\u043e\u043b\u0435\u0435 \u0447\u0435\u043c \u0432 10 \u0440\u0430\u0437; \u043f\u0440\u043e\u0433\u043d\u043e\u0437\u044b \u0434\u0430\u044e\u0442 Andr...",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Mirra Andreeva",
+      "checked_at": "2026-06-01T11:09:56.691378+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1196.5,
+      "pnl_flat": 0.48,
+      "roi": 48.4,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30928,7 +30948,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2705 COPY\nSpaceX lowered IPO valuation target to at least $1.8T (Bloomberg, May 29, 2026)[[1]](\nEarlier April 2026 target was above $2T with $75B raise planned[[2]](",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-06-01T11:09:57.149904+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30976,7 +30997,8 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u274c SKIP\nPolymarket: \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c Yes \u043f\u043e \u0440\u044b\u043d\u043a\u0443 \"US invade Iran before 2027\" \u2014 18% (\u043e\u0431\u044a\u0451\u043c >$4 \u043c\u043b\u043d).",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution_last_check": "2026-06-01T11:09:57.149946+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31024,7 +31046,17 @@
     "ai_context": "[CONSENSUS:NO_DATA] [Grok] \u274c SKIP\n\u041d\u0435\u0442 \u043a\u043e\u043d\u043a\u0440\u0435\u0442\u043d\u044b\u0445 \u0444\u0430\u043a\u0442\u043e\u0432 \u0432 \u043f\u043e\u043b\u044c\u0437\u0443 \u043f\u043e\u0431\u0435\u0434\u044b \u0422\u0443\u043b\u043e\u043d \u0438\u043b\u0438 \u043d\u0438\u0447\u044c\u0435\u0439 (\u043f\u0440\u043e\u0433\u043d\u043e\u0437\u044b \u0438 H2H \u0432 \u043e\u0441\u043d\u043e\u0432\u043d\u043e\u043c \u0437\u0430 \u0411\u043e\u0440\u0434\u043e)\n\u0411\u043e\u0440\u0434\u043e \u0432 \u0441\u0435\u0440\u0438\u0438 \u0438\u0437 4 \u043f\u043e\u0431\u0435\u0434, \u0422\u0443\u043b\u043e\u043d \u043d\u0430 \u0441\u043f\u0430\u0434\u0435 (\u043d\u0435\u0442 \u0434\u0430\u043d\u043d\u044b\u0445 \u0417\u0410 \u0441\u0442\u0430\u0432\u043a\u0443 \u043d\u0430 No)",
     "ai_verdict": "NO_DATA",
     "ai_model": "Grok",
-    "ai_consensus": "NO_DATA"
+    "ai_consensus": "NO_DATA",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-06-01T11:09:58.924025+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2422.06,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31072,7 +31104,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H 30.05.26: Pirates 10 - Twins 9 (19 runs, over 7.5)\n\u2022 H2H 29.05.26: Pirates 6 - Twins 5 (11 runs, over 7.5)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Pittsburgh Pirates",
+      "checked_at": "2026-06-01T11:10:00.515492+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null,
+      "pnl_flat": null,
+      "roi": null,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31120,7 +31162,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Mensik \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 2-0 (Doha 2024: 6-4 7-6; Shanghai 2024: 6-7(7) 6-4 6-3)\n\u2022 Mensik \u0432\u044b\u0438\u0433\u0440\u0430\u043b R3 \u0443 de Minaur 0-6 6-2 6-2 6-3 \u043d\u0430 RG 2026",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Jakub Mensik",
+      "checked_at": "2026-06-01T11:10:02.141709+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1027.51,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31168,7 +31220,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Yankees record 35-22 vs Athletics 27-30 (2026 season)\n\u2022 Yankees 2-3 in 2026 H2H series meetings",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "New York Yankees",
+      "checked_at": "2026-06-01T11:10:03.816834+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2067.08,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31216,7 +31278,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u041f\u043e \u0434\u0430\u043d\u043d\u044b\u043c Kalshi (\u043c\u0430\u0439 2026), \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c \u0432\u043e\u0437\u0432\u0440\u0430\u0442\u0430 \u0442\u0440\u0430\u0444\u0438\u043a\u0430 \u043a \u043d\u043e\u0440\u043c\u0435 \u043a 1 \u0438\u044e\u043b\u044f \u2014 \u0442\u043e\u043b\u044c\u043a\u043e 38%, \u043a 1 \u0430\u0432\u0433\u0443\u0441\u0442\u0430 \u2014 60%\n\u2022 \u0422\u0440\u0430\u0444\u0438\u043a \u0432 Hormuz \u0441 27 \u0444\u0435\u0432\u0440\u0430\u043b\u044f 2026 \u043d\u0430 \u0443\u0440\u043e\u0432\u043d\u0435 10% DWT / 21% \u0442\u0440\u0430\u043d\u0437\u0438\u0442\u043e\u0432 (20 \u0441\u0443\u0434\u043e\u0432...",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-06-01T11:10:04.164881+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31264,6 +31327,16 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Cubs 32-27, Cardinals 30-26\n\u2022 Cubs 9-6 \u043f\u0440\u043e\u0442\u0438\u0432 Cardinals \u0441 \u043d\u0430\u0447\u0430\u043b\u0430 \u043f\u0440\u043e\u0448\u043b\u043e\u0433\u043e \u0441\u0435\u0437\u043e\u043d\u0430; \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 \u0441\u0443\u0431\u0431\u043e\u0442\u0443 6-1",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "St. Louis Cardinals",
+      "checked_at": "2026-06-01T11:10:05.785516+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 589.55,
+      "pnl_flat": 0.89,
+      "roi": 88.7,
+      "source": "gamma"
+    }
   }
 ]
