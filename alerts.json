@@ -31052,7 +31052,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Gaubas ranked 133 (high 101), Skatov 189 (high 123); Gaubas YTD 6-4, Skatov recent losses in Chisinau and RG qual\n\u2022 No H2H; previews predict Gaubas win, odds imply ~64% for Gaubas on cla...",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Timofey Skatov",
+      "checked_at": "2026-06-02T10:04:32.566042+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1411.99,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31100,7 +31110,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u0418\u0440\u0430\u043d \u0437\u0430\u043a\u0440\u044b\u043b \u0437\u0430\u043f\u0430\u0434\u043d\u044b\u0439 \u0441\u0435\u043a\u0442\u043e\u0440 \u0432\u043e\u0437\u0434\u0443\u0448\u043d\u043e\u0433\u043e \u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0430 \u0441 22 \u043f\u043e 25 \u043c\u0430\u044f 2026 (NOTAM OIIX A1010/26)\n\u2022 \u041d\u0430 1 \u0438\u044e\u043d\u044f 2026 \u043d\u0435\u0442 \u043d\u043e\u0432\u044b\u0445 NOTAM \u0438\u043b\u0438 \u043e\u0431\u044a\u044f\u0432\u043b\u0435\u043d\u0438\u0439 \u043e \u043f\u043e\u043b\u043d\u043e\u043c/\u043c\u0430\u0441\u0448\u0442\u0430\u0431\u043d\u043e\u043c \u0437\u0430\u043a\u0440\u044b\u0442\u0438\u0438 \u0434\u043e 15 \u0438\u044e\u043d\u044f",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-06-02T10:04:32.947269+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31148,7 +31159,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u041a\u0430\u043d\u0430\u0434\u0430 30-\u0435 \u043c\u0435\u0441\u0442\u043e \u0432 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0435 FIFA, \u0423\u0437\u0431\u0435\u043a\u0438\u0441\u0442\u0430\u043d 50-\u0435 (\u0430\u043f\u0440\u0435\u043b\u044c 2026)\n\u2022 \u041a\u0430\u043d\u0430\u0434\u0430 \u2014 \u0444\u0430\u0432\u043e\u0440\u0438\u0442 \u0431\u0443\u043a\u043c\u0435\u043a\u0435\u0440\u043e\u0432 (\u043a\u043e\u044d\u0444\u0444\u0438\u0446\u0438\u0435\u043d\u0442 ~1.55\u20131.80 \u043d\u0430 \u043f\u043e\u0431\u0435\u0434\u0443 \u0434\u043e\u043c\u0430)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-06-02T10:04:35.175832+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 893.1,
+      "pnl_flat": 0.64,
+      "roi": 63.9,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31196,7 +31217,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Tigers 22-38, Rays 36-20 (Rays 21-6 \u0434\u043e\u043c\u0430)\n\u2022 Tigers \u043f\u0440\u043e\u0438\u0433\u0440\u0430\u043b\u0438 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 4+ \u043c\u0430\u0442\u0447\u0430, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u0441\u0432\u0438\u0442\u0447 \u0443 White Sox (\u0432\u0441\u0435\u0433\u043e 5 \u0440\u0430\u043d\u043e\u0432)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Detroit Tigers",
+      "checked_at": "2026-06-02T10:04:37.191476+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 4692.76,
+      "pnl_flat": 1.44,
+      "roi": 143.9,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31244,6 +31275,16 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Royals 22-37, Reds 30-28; Royals 2-8 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445\n\u2022 \u0412\u0435\u0440\u043e\u044f\u0442\u043d\u044b\u0435 \u043f\u0438\u0442\u0447\u0435\u0440\u044b: Avila (Royals, ERA ~5.06 \u043d\u0435\u0434\u0430\u0432\u043d\u043e) vs Burns/Abbott (Reds, ERA ~1.96-3.88)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Kansas City Royals",
+      "checked_at": "2026-06-02T10:04:39.306894+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 6111.05,
+      "pnl_flat": 1.22,
+      "roi": 122.2,
+      "source": "gamma"
+    }
   }
 ]
