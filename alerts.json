@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xd977d8960aeac3e260a4cbe8d9c14bb702566c87124a49cc9f663643efb8e511",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 11997090.88273102,
-      "volume": 287436118.65801406,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x85b9e9226c56d4f2a3ff92c56b745f42498f906d",
-      "side": "SELL",
-      "asset": "46985784934245469874674051973070583024711389039998687745451745904831527332283",
-      "conditionId": "0x852fcfca1dfa1372b768aa6df2269d20564378bb6fe9c64bba3bc040370c1efd",
-      "size": 1738.17,
-      "price": 0.68,
-      "timestamp": 1777435008,
-      "title": "Will Bayern Munich win the 2025\u201326 Champions League?",
-      "slug": "will-bayern-munich-win-the-202526-champions-league",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uefa-champions-league-2025-26-which-teams-qualify-StbSIjaEx2St.png",
-      "eventSlug": "uefa-champions-league-winner",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "thefakenick",
-      "pseudonym": "Sizzling-Scallion",
-      "bio": "Everything is obvious in hindsight",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xd977d8960aeac3e260a4cbe8d9c14bb702566c87124a49cc9f663643efb8e511",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Bayern Munich win the 2025\u201326 Champions League?",
-    "market_slug": "uefa-champions-league-winner",
-    "amount": 1181.9556000000002,
-    "ai_context": "\u274c SKIP \u2014 Bayern Munich's recent form and upcoming fixtures suggest challenges in securing the 2025\u201326 Champions League title.\nIn the quarter-finals, Bayern Munich faced Real Madrid, with the first leg scheduled for April 7, 2026, at the Santiago Bernab\u00e9u Stadium. (elpais.com) The second leg is set for May 3, 2026, at the Allianz Arena. Additionally, Bayern Munich is contending with injuries to key players, including Harry Kane, whose fitness remains uncertain. (elpais.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-28T09:45:30.310665+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 556.21
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x3528622976d1123bef495626078c4fb17747bd457326928631a7c2055e62505d",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -31286,5 +31233,53 @@
       "roi": 122.2,
       "source": "gamma"
     }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x41a55472c2eb6808833b72995f3d7b92df2fd964771e689652ec43eaed91fd5f",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x4d6bb78e623a8c6b97523ef2a145de8e9fd95cd9",
+      "side": "SELL",
+      "asset": "64487193192071500623254235236408216943093711054940479983357262631065525358559",
+      "conditionId": "0x15547c213aa975835880a5b7e4f9813013f2ac079c2efb39734e2f6cf426487c",
+      "size": 1208.79,
+      "price": 0.56,
+      "timestamp": 1780424427,
+      "title": "Birmingham: Jack Pinnington Jones vs Aleksandar Vukic",
+      "slug": "atp-jones-vukic-2026-06-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-jones-vukic-2026-06-01",
+      "outcome": "Jack Pinnington Jones",
+      "outcomeIndex": 0,
+      "name": "Emba777",
+      "pseudonym": "Golden-Selling",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x41a55472c2eb6808833b72995f3d7b92df2fd964771e689652ec43eaed91fd5f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Birmingham: Jack Pinnington Jones vs Aleksandar Vukic",
+    "market_slug": "atp-jones-vukic-2026-06-01",
+    "amount": 676.9224,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 \u041d\u0435\u0442 H2H (0-0 \u043f\u043e ATP)\n\u2022 Vukic \u0432\u044b\u0448\u0435 \u0432 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0435 (96 vs 132)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
