@@ -1,118 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x3528622976d1123bef495626078c4fb17747bd457326928631a7c2055e62505d",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 15,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa1360dbbc43a66cfdbccd72ee8aa868d478c97de",
-      "side": "BUY",
-      "asset": "105509530658065521929005822649620491538474208103684744366955937109627519057368",
-      "conditionId": "0x94a2b2a1b9227e44fc464614e63dfca6d4082310291c35623c3d34b70aa53693",
-      "size": 50000,
-      "price": 0.43,
-      "timestamp": 1777477206,
-      "title": "Will Arsenal FC win on 2026-04-29?",
-      "slug": "ucl-atm1-ars-2026-04-29-ars",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
-      "eventSlug": "ucl-atm1-ars-2026-04-29",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "jdsahgf",
-      "pseudonym": "Growing-Farmland-Emphasis",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x3528622976d1123bef495626078c4fb17747bd457326928631a7c2055e62505d",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-04-29?",
-    "market_slug": "ucl-atm1-ars-2026-04-29",
-    "amount": 21500.0,
-    "ai_context": "\u274c SKIP \u2014 Arsenal is set to face Atl\u00e9tico Madrid in the first leg of the Champions League semifinals today, April 29, 2026, at 3:00 PM EDT. The match will take place at Atl\u00e9tico's home stadium, the Metropolitano, in Madrid. (theguardian.com) Arsenal's recent form includes a 2-0 loss to Manchester City on April 19 and a 2-0 victory over Newcastle United on April 25. (espn.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T13:08:55.746202+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -21500.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "clob"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0xf85473003797251537b4046cc9687dd33fb915a5692c6898ed9b806bf6e37c3b",
-    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-    "trader": {
-      "rank": 3,
-      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "username": "kch123",
-      "profit": 12003748.66936255,
-      "volume": 287448607.2302161,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa1360dbbc43a66cfdbccd72ee8aa868d478c97de",
-      "side": "BUY",
-      "asset": "105509530658065521929005822649620491538474208103684744366955937109627519057368",
-      "conditionId": "0x94a2b2a1b9227e44fc464614e63dfca6d4082310291c35623c3d34b70aa53693",
-      "size": 5000,
-      "price": 0.65,
-      "timestamp": 1777492666,
-      "title": "Will Arsenal FC win on 2026-04-29?",
-      "slug": "ucl-atm1-ars-2026-04-29-ars",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/champions-league-pic-QIUFsL8vaDdq.png",
-      "eventSlug": "ucl-atm1-ars-2026-04-29",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "jdsahgf",
-      "pseudonym": "Growing-Farmland-Emphasis",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xf85473003797251537b4046cc9687dd33fb915a5692c6898ed9b806bf6e37c3b",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-04-29?",
-    "market_slug": "ucl-atm1-ars-2026-04-29",
-    "amount": 3250.0,
-    "ai_context": "\u274c SKIP \u2014 Arsenal's recent form and injury list raise concerns about their chances in the upcoming match.\nArsenal has suffered defeats in their last two matches, including a 2-1 loss to Southampton on April 4 and a 1-2 loss to AFC Bournemouth on April 11. Additionally, key players such as Bukayo Saka (Achilles), Martin \u00d8degaard (knee), and Jurrien Timber (ankle) are sidelined, potentially impacting their performance. (espn.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T13:08:55.746396+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -3250.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "clob"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa038b93182f0f88dd08ddff3db9067db3adfcf1da8b5f70cc8ac7c4cf1a4f5e4",
     "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
     "trader": {
@@ -31281,5 +31169,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3fe098b56f7216e1822aba8499547cc555ce5e6879ad19b7ce799f6e14a735db",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf807bf2f9de09f9562009575ca77d67cafe9c5dc",
+      "side": "SELL",
+      "asset": "68283792174293775430535402015214113701251372409839518501034763677920213819299",
+      "conditionId": "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633",
+      "size": 1999.99,
+      "price": 0.28235286176430885,
+      "timestamp": 1780450940,
+      "title": "US-Iran nuclear deal by June 30?",
+      "slug": "us-iran-nuclear-deal-by-june-30",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/us-x-iran-nuclear-deal-in-2025-3rpCC4Kl23Lc.jpg",
+      "eventSlug": "us-iran-nuclear-deal-by-june-30",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "shorny",
+      "pseudonym": "Difficult-Purchase",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3fe098b56f7216e1822aba8499547cc555ce5e6879ad19b7ce799f6e14a735db",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "US-Iran nuclear deal by June 30?",
+    "market_slug": "us-iran-nuclear-deal-by-june-30",
+    "amount": 564.7029000000001,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 \u041f\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044e \u043d\u0430 2 \u0438\u044e\u043d\u044f 2026 \u0421\u0428\u0410 \u0438 \u0418\u0440\u0430\u043d \u0434\u043e\u0441\u0442\u0438\u0433\u043b\u0438 \u043b\u0438\u0448\u044c \u043f\u0440\u0435\u0434\u0432\u0430\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u0441\u043e\u0433\u043b\u0430\u0448\u0435\u043d\u0438\u044f \u043e 60-\u0434\u043d\u0435\u0432\u043d\u043e\u043c \u043f\u0440\u043e\u0434\u043b\u0435\u043d\u0438\u0438 \u043f\u0435\u0440\u0435\u043c\u0438\u0440\u0438\u044f \u0438 \u0437\u0430\u043f\u0443\u0441\u043a\u0435 \u043f\u0435\u0440\u0435\u0433\u043e\u0432\u043e\u0440\u043e\u0432 \u043f\u043e \u044f\u0434\u0435\u0440\u043d\u043e\u0439 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u0435, \u0430 \u043d\u0435 \u043f\u043e\u043b\u043d\u043e\u0446\u0435\u043d\u043d\u043e\u0439 \u044f\u0434\u0435\u0440\u043d\u043e\u0439 \u0441\u0434\u0435...",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8df61db251a66cbb37ffab64dc7ed0e58d07fb0c34c9e4c86979637c7779d82f",
+    "wallet": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+    "trader": {
+      "rank": 26,
+      "address": "0xdb27bf2ac5d428a9c63dbc914611036855a6c56e",
+      "username": "DrPufferfish",
+      "profit": 3649310.564163555,
+      "volume": 248466180.92618093,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xec5625bde94bdf224d6d941e612a403989921816",
+      "side": "BUY",
+      "asset": "21824609976117105848555444850550421549651562100464735804855968490014825878128",
+      "conditionId": "0x9bb9f7c70674e2043580bf634753858eded9b360252c06f891688b95a542ac46",
+      "size": 6000,
+      "price": 0.64,
+      "timestamp": 1780451843,
+      "title": "Knicks vs. Spurs",
+      "slug": "nba-nyk-sas-2026-06-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-sas-2026-06-03",
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "name": "",
+      "pseudonym": "",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8df61db251a66cbb37ffab64dc7ed0e58d07fb0c34c9e4c86979637c7779d82f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Spurs",
+    "market_slug": "nba-nyk-sas-2026-06-03",
+    "amount": 2160.0,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Spurs 62-20 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043a\u0435, Knicks 53-29; Spurs -205 \u043d\u0430 \u043f\u043e\u0431\u0435\u0434\u0443 \u0432 \u0441\u0435\u0440\u0438\u0438 \u0438 Game 1\n\u2022 \u041c\u043e\u0434\u0435\u043b\u0438 \u0434\u0430\u044e\u0442 Spurs 58-68% \u0448\u0430\u043d\u0441\u043e\u0432 \u043d\u0430 \u043f\u043e\u0431\u0435\u0434\u0443 \u0432 Game 1 (Spurs -4.5/-6.5)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
