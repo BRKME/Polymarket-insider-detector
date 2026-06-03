@@ -1,182 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa5598145e19499228d9ae24f316305318300453698116e176cffae24a3d929c0",
-    "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-    "trader": {
-      "rank": 11,
-      "address": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
-      "username": "KeyTransporter",
-      "profit": 5711459.802519929,
-      "volume": 20086062.154324993,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2687cb380661a0041bf4c4cf3945a034b79e1363",
-      "side": "SELL",
-      "asset": "48758486425438602097230699966267145027460929514527168155793090881385634316204",
-      "conditionId": "0x1b2ed75f75bebfa128fdd02a7e7165dd8c8bf71fda9be1dcf80fd16dbff67029",
-      "size": 1674,
-      "price": 0.8039924731182796,
-      "timestamp": 1777499580,
-      "title": "Counter-Strike: Natus Vincere vs FaZe (BO3) - BLAST Rivals Group B",
-      "slug": "cs2-navi-faze-2026-04-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-navi-faze-2026-04-29",
-      "outcome": "Natus Vincere",
-      "outcomeIndex": 0,
-      "name": "WeekndBets",
-      "pseudonym": "Shocked-Objective",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4589584-04da318e-074a-4ce0-bdda-0793a2096eef.png",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa5598145e19499228d9ae24f316305318300453698116e176cffae24a3d929c0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: Natus Vincere vs FaZe (BO3) - BLAST Rivals Group B",
-    "market_slug": "cs2-navi-faze-2026-04-29",
-    "amount": 1345.8834,
-    "ai_context": "\u2705 COPY \u2014 Natus Vincere has demonstrated strong recent form, including a major victory over FaZe Clan.\nIn March 2024, Natus Vincere won the PGL CS2 Major Copenhagen 2024, defeating FaZe Clan 2-1 in the finals. Justinas \"jL\" Lekavi\u010dius was named the Most Valuable Player of the tournament. (en.wikipedia.org)\nAdditionally, Natus Vincere has consistently reached grand finals in recent tournaments, securing victories in three of them:\nEsports World Cup 2024, defeating G2 2-1.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Natus Vincere",
-      "checked_at": "2026-05-31T13:08:57.742780+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 328.12,
-      "pnl_flat": 0.24,
-      "roi": 24.4,
-      "source": "gamma"
-    }
-  },
-  {
-    "market": "Spread: Pistons (-9.5)",
-    "market_slug": "nba-orl-det-2026-04-29-spread-home-9pt5",
-    "event_slug": "nba-orl-det-2026-04-29-spread-home-9pt5",
-    "wallet": "0xc0c067a705aea4be68c5ac7583af24a48105a6e7",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (2d old)",
-        "Large bet ($1,271)",
-        "Low activity (16 txns)"
-      ],
-      "amount": 1270.94,
-      "odds": 0.53,
-      "raw_price": 0.53,
-      "outcome": "Pistons",
-      "potential_pnl": 1127.06,
-      "pnl_multiplier": 0.8867924528301886,
-      "wallet_age_days": 2,
-      "total_activities": 16
-    },
-    "timestamp": "2026-04-29T22:39:51.371060",
-    "trade_hash": "0xabbc295b7203e6d8cc3ccf04e62d31f1ab76c488e0bbb19e449cc396a9a0ceb7",
-    "trade_timestamp": 1777501856,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Pistons",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.53,
-      "effective_price": 0.53,
-      "size": 2398.0,
-      "amount": 1270.94,
-      "potential_pnl": 1127.06,
-      "pnl_multiplier": 0.8867924528301886,
-      "is_no": false,
-      "conditionId": "0x4a0a6f28646ef5891492c1b884be0b2b2c6822474b939bb71b2f88aff0a89dba",
-      "slug": "nba-orl-det-2026-04-29-spread-home-9pt5",
-      "eventSlug": "nba-orl-det-2026-04-29"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+28.4%)"
-      ],
-      "category": "other",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.246,
-      "market_price": 0.53,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Pistons maintain a strong home-court advantage",
-          "Opponent struggles with defensive matchups",
-          "Key players for Pistons remain healthy"
-        ],
-        "weakest_link": "Opponent struggles with defensive matchups"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Pistons' recent performance trends",
-        "Public sentiment on team morale and player dynamics"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.28400000000000003,
-      "edge_percent": 28.400000000000002
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 28.4,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Pistons have lost three consecutive games and are on the brink of playoff elimination.\nThey've been eliminated from playoff contention last week. (axios.com)\nHowever, the trader may know about a lineup change not yet public.\nGiven the Pistons' recent struggles and the high spread, betting on them to cover may not be advisable.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Pistons",
-      "checked_at": "2026-05-31T13:09:00.684742+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 1127.06,
-      "pnl_flat": 0.89,
-      "roi": 88.7,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x946c1e8f6215c44ea890ed3e276664b157dbeb832d6cf052b27b333610f5ac78",
     "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
     "trader": {
@@ -31271,5 +31095,165 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "market": "Will France win the 2026 FIFA World Cup?",
+    "market_slug": "will-france-win-the-2026-fifa-world-cup-924",
+    "event_slug": "will-france-win-the-2026-fifa-world-cup-924",
+    "wallet": "0x8e7610d0e1ebcaffc1c173b1b37ac06947b1f0f2",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (1d old)",
+        "Large bet ($1,343)",
+        "Low activity (9 txns)"
+      ],
+      "amount": 1342.8299989999998,
+      "odds": 0.17099999990627554,
+      "raw_price": 0.17099999990627554,
+      "outcome": "Yes",
+      "potential_pnl": 6509.977017,
+      "pnl_multiplier": 4.8479532195795105,
+      "wallet_age_days": 1,
+      "total_activities": 9
+    },
+    "timestamp": "2026-06-03T15:58:13.947286",
+    "trade_hash": "0xd9dd5bc20a26b2ba689b8e3f321682a82716382a2b5b4357a0ee3af8e2c1f6ba",
+    "trade_timestamp": 1780501950,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.17099999990627554,
+      "effective_price": 0.17099999990627554,
+      "size": 7852.807016,
+      "amount": 1342.8299989999998,
+      "potential_pnl": 6509.977017,
+      "pnl_multiplier": 4.8479532195795105,
+      "is_no": false,
+      "conditionId": "0x9b6fef249040fd17e9c107955b37ac2c3e923509b6b0ff01cc463a331ddeb894",
+      "slug": "will-france-win-the-2026-fifa-world-cup-924",
+      "eventSlug": "world-cup-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 18,
+      "flags": [
+        "Moderate mispricing edge (+7.7%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": false
+    },
+    "mispricing": {
+      "rational_estimate": 0.09419999998125511,
+      "market_price": 0.17099999990627554,
+      "edge": 0.07679999992502043,
+      "edge_percent": 7.679999992502043,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "MODERATE",
+      "base_rate_class": "occasional",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "occasional",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Strong performance in qualifying matches",
+          "Key players remain healthy and in form",
+          "Effective coaching and strategy during the tournament"
+        ],
+        "weakest_link": "Strong performance in qualifying matches"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent success in international tournaments",
+        "Emerging young talent in the national team"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 18,
+      "is_irrational": false,
+      "is_mispriced": true,
+      "edge": 0.07679999992502043,
+      "edge_percent": 7.679999992502043
+    },
+    "financial_analyst": {
+      "signal_quality": 29.1,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 7.68,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u0424\u0440\u0430\u043d\u0446\u0438\u044f \u21161 \u0432 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0435 FIFA (1877 \u043e\u0447\u043a\u043e\u0432, \u043e\u043f\u0435\u0440\u0435\u0436\u0430\u0435\u0442 \u0418\u0441\u043f\u0430\u043d\u0438\u044e)\n\u2022 \u041f\u043e \u0442\u0435\u043a\u0443\u0449\u0438\u043c \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0430\u043c \u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0438 \u0418\u0441\u043f\u0430\u043d\u0438\u044f \u2014 \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u044b\u0435 \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u044b (+475, ~17% \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbd28ad2c48a5c9be1707a714f08f6d80a4f572f97960c6c6414b31b0c61ba6e2",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "side": "BUY",
+      "asset": "114185877955279661962729185654795506086673006873268032317273729154435641512661",
+      "conditionId": "0x2b150ab051176999ea00fe6239010de8bbf9c9913e345af55413f7268192eb82",
+      "size": 1928.15,
+      "price": 0.64,
+      "timestamp": 1780502143,
+      "title": "Tyler: Blaise Bicknell vs Johannus Monday",
+      "slug": "atp-bicknel-monday-2026-06-01",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-bicknel-monday-2026-06-01",
+      "outcome": "Johannus Monday",
+      "outcomeIndex": 1,
+      "name": "swisstony",
+      "pseudonym": "Frail-Possible",
+      "bio": "loincloth chic",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbd28ad2c48a5c9be1707a714f08f6d80a4f572f97960c6c6414b31b0c61ba6e2",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Tyler: Blaise Bicknell vs Johannus Monday",
+    "market_slug": "atp-bicknel-monday-2026-06-01",
+    "amount": 694.134,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Bicknell leads 2-1 (\u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u2014 \u043f\u043e\u0431\u0435\u0434\u0430 Bicknell 6-4 5-7 7-5 \u0432 Winston-Salem 2025)\n\u2022 Monday rank 290, Bicknell 316 (\u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043c\u0430\u0442\u0447\u0430)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
