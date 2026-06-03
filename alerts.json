@@ -1,192 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x904c9d4a088b95b53d9ca0967984fd5048eddbfe20df461dfd53ed6e240323d1",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
-      "side": "BUY",
-      "asset": "78861433980812072231401629120325997123786665902751002514954674922124206499190",
-      "conditionId": "0xfefabc643cdf485ff8465bca41e066e5afb3c36abea93b823bab4de7d9bcd0f2",
-      "size": 2859,
-      "price": 0.73,
-      "timestamp": 1777511912,
-      "title": "Canadiens vs. Lightning",
-      "slug": "nhl-mon-tb-2026-04-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
-      "eventSlug": "nhl-mon-tb-2026-04-29",
-      "outcome": "Canadiens",
-      "outcomeIndex": 0,
-      "name": "kch123",
-      "pseudonym": "Aggravating-Grin",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x904c9d4a088b95b53d9ca0967984fd5048eddbfe20df461dfd53ed6e240323d1",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Canadiens vs. Lightning",
-    "market_slug": "nhl-mon-tb-2026-04-29",
-    "amount": 2087.07,
-    "ai_context": "\u2705 COPY \u2014 Canadiens have won 2 of their last 3 games against the Lightning, including a recent 2-1 victory.\nIn their most recent matchup on April 9, 2026, the Canadiens defeated the Lightning 2-1.  Prior to that, the Canadiens secured a 5-2 win on December 29, 2024. (rantsports.com) The Lightning's only recent victory was a 5-4 win on December 28, 2025. (rantsports.com)\nThe Canadiens' recent form includes a 2-1 win over the Lightning on April 9, 2026.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Canadiens",
-      "checked_at": "2026-05-31T13:09:02.689449+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 771.93,
-      "pnl_flat": 0.37,
-      "roi": 37.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "market": "Rockets vs. Lakers",
-    "market_slug": "nba-hou-lal-2026",
-    "event_slug": "nba-hou-lal-2026",
-    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-    "analysis": {
-      "score": 75,
-      "flags": [
-        "Against trend (9.0% effective odds)",
-        "Large bet ($1,293)",
-        "Top trader #5 ($7,854,486 profit)"
-      ],
-      "amount": 1293.3549,
-      "odds": 0.09,
-      "raw_price": 0.09,
-      "outcome": "Lakers",
-      "potential_pnl": 13077.2551,
-      "pnl_multiplier": 10.11111111111111,
-      "wallet_age_days": 294,
-      "total_activities": 100
-    },
-    "timestamp": "2026-04-30T04:44:35.213469",
-    "trade_hash": "0x05138c8dcd66ccbc98c4ab5d219ef840b8e7cd64d0933317039fca662f328de5",
-    "trade_timestamp": 1777523652,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": {
-      "rank": 5,
-      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
-      "username": "RN1",
-      "profit": 7854486.119309284,
-      "volume": 482382476.91690904,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade_data": {
-      "outcome": "Lakers",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.09,
-      "effective_price": 0.09,
-      "size": 14370.61,
-      "amount": 1293.3549,
-      "potential_pnl": 13077.2551,
-      "pnl_multiplier": 10.11111111111111,
-      "is_no": false,
-      "conditionId": "0x29c64bffbe80724944b355dab89b0b106715fece2ccb8be6c81402e4e008999c",
-      "slug": "nba-hou-lal-2026",
-      "eventSlug": "nba-hou-lal-2026-04-29"
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Longshot (9%) in medium bias category (sports)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.078,
-      "market_price": 0.09,
-      "edge": 0.011999999999999997,
-      "edge_percent": 1.1999999999999997,
-      "min_edge_required": 0.05,
-      "is_mispriced": false,
-      "edge_quality": "WEAK",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Rockets must outperform expectations in upcoming games",
-          "Lakers must underperform relative to their current form",
-          "Injuries to key Lakers players must occur"
-        ],
-        "weakest_link": "Injuries to key Lakers players must occur"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Rockets' recent performance improvements",
-        "Lakers' inconsistent play"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "INSIDER_ONLY",
-      "signal_emoji": "\ud83d\udc41\ufe0f",
-      "signal_strength": 75,
-      "interpretation": "Insider activity detected, no clear mispricing",
-      "action_suggestion": "Monitor: insider signal only, no statistical edge",
-      "insider_score": 75,
-      "insider_position": "NO",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": false,
-      "edge": 0.011999999999999997,
-      "edge_percent": 1.1999999999999997
-    },
-    "financial_analyst": {
-      "signal_quality": 26.8,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 1.2,
-      "signal_strength": 75.0,
-      "insider_score": 75.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 The Lakers have dominated the recent matchups against the Rockets, winning four consecutive games, including a decisive 115-96 victory on April 26, 2026. (covers.com) Additionally, the Rockets are currently trailing 3-0 in the playoff series, with Game 4 underway, further indicating the Lakers' strong performance. (cbssports.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Rockets",
-      "checked_at": "2026-05-31T13:09:05.723747+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1293.35,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x81fcc38f685a3f3f50272861e32ccfcbd8c7f6ce8208006ec2665b303e5f60fa",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -31250,5 +31064,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x02481b0afbda43ad3239fe983f8a23c159bd80266025c2798101107e4a860f7f",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 4,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 9479312.424244843,
+      "volume": 849064805.9957811,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "8017440315841559257730751356443312314423021397613380667773080412842868941962",
+      "conditionId": "0x899497dec65937953f70e545abfc43ea607edf966f7922c443a38b4a5103d4a1",
+      "size": 1644.84,
+      "price": 0.6,
+      "timestamp": 1780524769,
+      "title": "Spread: Spurs (-7.5)",
+      "slug": "nba-nyk-sas-2026-06-03-spread-home-7pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-sas-2026-06-03",
+      "outcome": "Knicks",
+      "outcomeIndex": 1,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x02481b0afbda43ad3239fe983f8a23c159bd80266025c2798101107e4a860f7f",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Spurs (-7.5)",
+    "market_slug": "nba-nyk-sas-2026-06-03",
+    "amount": 986.9039999999999,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Spurs 62-20, Knicks 53-29 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e\u043c \u0441\u0435\u0437\u043e\u043d\u0435\n\u2022 H2H 2025-26: Spurs 1-2, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 134-132 \u0434\u043e\u043c\u0430 31 \u0434\u0435\u043a\u0430\u0431\u0440\u044f",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xf4860146738cc38d7ab0be1620e2519bedd8952d5f8e49a99eb601b1d7febd30",
+    "wallet": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+    "trader": {
+      "rank": 29,
+      "address": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+      "username": "gmpm",
+      "profit": 3530847.5828178823,
+      "volume": 85100130.830447,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "115475966697690617537437171814889386953404120421505043172526854327859551940505",
+      "conditionId": "0x936cc94f97f011e334f3624b3a706db3bfdbe46937e4d41b06e96b750a052cdb",
+      "size": 7281,
+      "price": 0.44,
+      "timestamp": 1780525672,
+      "title": "Baltimore Orioles vs. Boston Red Sox",
+      "slug": "mlb-bal-bos-2026-06-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-bal-bos-2026-06-03",
+      "outcome": "Baltimore Orioles",
+      "outcomeIndex": 0,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xf4860146738cc38d7ab0be1620e2519bedd8952d5f8e49a99eb601b1d7febd30",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Baltimore Orioles vs. Boston Red Sox",
+    "market_slug": "mlb-bal-bos-2026-06-03",
+    "amount": 3203.64,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Orioles 29-32, Red Sox 25-34\n\u2022 Orioles \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4-2 \u0443 Red Sox 2 \u0438\u044e\u043d\u044f 2026 \u043d\u0430 Fenway Park (H2H)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
