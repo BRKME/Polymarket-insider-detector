@@ -1,60 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa038b93182f0f88dd08ddff3db9067db3adfcf1da8b5f70cc8ac7c4cf1a4f5e4",
-    "wallet": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-    "trader": {
-      "rank": 4,
-      "address": "0x78b9ac44a6d7d7a076c14e0ad518b301b63c6b76",
-      "username": "Len9311238",
-      "profit": 8709972.988069998,
-      "volume": 16402744.764626998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x2b51107e8d030397ea728a794405ffbcf1d2e165",
-      "side": "BUY",
-      "asset": "20257190540739490630509657713144742134547949967093643458458133445357169845406",
-      "conditionId": "0x713641f745d71f6ec61f906237ffca3c8583f251e49384429a63ceb0ccdb2d37",
-      "size": 34993.36,
-      "price": 0.03340148130959702,
-      "timestamp": 1777499280,
-      "title": "Will the New York Knicks win the 2026 NBA Finals?",
-      "slug": "will-the-new-york-knicks-win-the-2026-nba-finals",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba-finals-points-leader-7g2ZEZvMXxLb.jpg",
-      "eventSlug": "2026-nba-champion",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "aaabbb",
-      "pseudonym": "Favorite-Minimum",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa038b93182f0f88dd08ddff3db9067db3adfcf1da8b5f70cc8ac7c4cf1a4f5e4",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will the New York Knicks win the 2026 NBA Finals?",
-    "market_slug": "2026-nba-champion",
-    "amount": 1168.83006,
-    "ai_context": "\u2705 COPY \u2014 The New York Knicks have demonstrated strong performance this season, finishing with a 53-29 record and securing the Atlantic Division's second place. (statmuse.com) Their recent form includes a decisive 126-97 victory over the Atlanta Hawks on April 28, 2026. (basketball-reference.com) While the Knicks have shown resilience, the trader's bet on them winning the 2026 NBA Finals is supported by their current form and season performance.",
-    "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-28T09:45:31.760212+00:00",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T08:34:28.214201+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1168.83
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa5598145e19499228d9ae24f316305318300453698116e176cffae24a3d929c0",
     "wallet": "0x94f199fb7789f1aef7fff6b758d6b375100f4c7a",
     "trader": {
@@ -31277,5 +31223,53 @@
     "ai_model": "Grok",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-06-03T10:43:42.938294+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x939de2bae5eec244029a9f968a1ac47506d840e947327d489776bec3e42caabb",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x6e021a82c12e01886444ab3e918114faaf11d70a",
+      "side": "SELL",
+      "asset": "50246299698758633013257842042966449546094944165898321556120093521741246980455",
+      "conditionId": "0x948db5a70a50501a4bf7f9951291d042a3486e895cf8d3652db556a208ce2da9",
+      "size": 883.75,
+      "price": 0.6003960396039604,
+      "timestamp": 1780486159,
+      "title": "T20 Scotland Tri-Series, Women: Scotland vs Netherlands",
+      "slug": "crint-sco5-nld4-2026-06-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/cricket-ball-a0b0bf2dc9.png",
+      "eventSlug": "crint-sco5-nld4-2026-06-03",
+      "outcome": "Scotland",
+      "outcomeIndex": 0,
+      "name": "NonTificant",
+      "pseudonym": "Private-Faithful",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x939de2bae5eec244029a9f968a1ac47506d840e947327d489776bec3e42caabb",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "T20 Scotland Tri-Series, Women: Scotland vs Netherlands",
+    "market_slug": "crint-sco5-nld4-2026-06-03",
+    "amount": 530.6,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0438\u044f \u043e\u0431\u044b\u0433\u0440\u0430\u043b\u0430 \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b 9 wicket\u0430\u043c\u0438 28 \u043c\u0430\u044f 2026 (144/1 \u043f\u0440\u0435\u0441\u043b\u0435\u0434\u0443\u044f 141/8)\n\u2022 H2H: \u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0438\u044f \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 2 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043e\u0431\u0435 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0435 (2024, 2026)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
