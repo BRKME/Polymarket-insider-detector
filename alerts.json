@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x946c1e8f6215c44ea890ed3e276664b157dbeb832d6cf052b27b333610f5ac78",
-    "wallet": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-    "trader": {
-      "rank": 18,
-      "address": "0xdc876e6873772d38716fda7f2452a78d426d7ab6",
-      "username": "432614799197",
-      "profit": 4526176.046413317,
-      "volume": 185485956.8620829,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xcae657bdaa98c95c03ff1bfdd69d002df354a0e7",
-      "side": "SELL",
-      "asset": "97252373406884174080147823976189608062800905314440975894170444084176537621257",
-      "conditionId": "0x561e400fc730dd5d6d580c04e7ce626caab7277fb3cec60f78879e2228b6da9b",
-      "size": 3000,
-      "price": 0.8500362666666667,
-      "timestamp": 1777506186,
-      "title": "Over $10M committed to the Printr public sale?",
-      "slug": "over-10m-committed-to-the-printr-public-sale",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/printr-public-sale-total-commitments-bEQ-dWPkB96q.jpg",
-      "eventSlug": "printr-public-sale-total-commitments",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "",
-      "pseudonym": "",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x946c1e8f6215c44ea890ed3e276664b157dbeb832d6cf052b27b333610f5ac78",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Over $10M committed to the Printr public sale?",
-    "market_slug": "printr-public-sale-total-commitments",
-    "amount": 2550.1088,
-    "ai_context": "\u274c SKIP \u2014 The Printr public sale has a target raise of $2 million, with current commitments significantly below $10 million.\nThe sale aims to raise $2 million, with a minimum commitment of $200 USDC and a maximum of $200,000 USDC. As of April 29, 2026, the total commitments are approximately $2.5 million, with the largest commitment being $200,000 USDC. (sale.printr.money) However, the trader may have access to information about upcoming large commitments not yet publicly disclosed.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-05-28T09:45:33.323873+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2550.11
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x904c9d4a088b95b53d9ca0967984fd5048eddbfe20df461dfd53ed6e240323d1",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -31252,6 +31199,54 @@
     "market_slug": "atp-bicknel-monday-2026-06-01",
     "amount": 694.134,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Bicknell leads 2-1 (\u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u2014 \u043f\u043e\u0431\u0435\u0434\u0430 Bicknell 6-4 5-7 7-5 \u0432 Winston-Salem 2025)\n\u2022 Monday rank 290, Bicknell 316 (\u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043c\u0430\u0442\u0447\u0430)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x496ba23915da75e48997c995c7f908d34e5207681ccb537e41cb77e05c42d24d",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xfe787d2da716d60e8acff57fb87eb13cd4d10319",
+      "side": "BUY",
+      "asset": "115411702272892706757570017792860332795471024133077289446661117769150718285389",
+      "conditionId": "0x098a2cbe31d3d7e326d0e3b182ca017c800d6f04bc4508e115b8683ff690b2aa",
+      "size": 5897.390688,
+      "price": 0.2820196400391508,
+      "timestamp": 1780516021,
+      "title": "Foggia: Varvara Lepchenko vs Tyra Caterina Grant",
+      "slug": "wta-lepchen-grant-2026-06-03",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-lepchen-grant-2026-06-03",
+      "outcome": "Varvara Lepchenko",
+      "outcomeIndex": 0,
+      "name": "ferrariChampions2026",
+      "pseudonym": "Glaring-Salt",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x496ba23915da75e48997c995c7f908d34e5207681ccb537e41cb77e05c42d24d",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Foggia: Varvara Lepchenko vs Tyra Caterina Grant",
+    "market_slug": "wta-lepchen-grant-2026-06-03",
+    "amount": 1663.179999,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Lepchenko 2026: 8-10, Grant \u0432 \u0445\u043e\u0440\u043e\u0448\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u0441 \u043d\u0435\u0434\u0430\u0432\u043d\u0438\u043c\u0438 \u043f\u043e\u0431\u0435\u0434\u0430\u043c\u0438 \u043d\u0430 clay ITF/WTA\n\u2022 H2H: 0 \u0432\u0441\u0442\u0440\u0435\u0447, \u043f\u0435\u0440\u0432\u0430\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u043d\u0430 \u0442\u0443\u0440\u043d\u0438\u0440\u0435",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
