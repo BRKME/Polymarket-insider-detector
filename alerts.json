@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xaa3751dae1f21894dea1b63ce5748eef9bcd26a6db4a4482c616cac1074317dd",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 16,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "63291245268602497999710710926410559302037109342677799993080242306208972452677",
-      "conditionId": "0x3956f8597a0ee406a03be544fb2e71c9f92e67efef70df0862df04ff69ede24e",
-      "size": 1815.5,
-      "price": 0.88,
-      "timestamp": 1777575782,
-      "title": "Nottingham Forest FC vs. Aston Villa FC: O/U 4.5",
-      "slug": "uel-not-ast4-2026-04-30-total-4pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/uel.png",
-      "eventSlug": "uel-not-ast4-2026-04-30-more-markets",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xaa3751dae1f21894dea1b63ce5748eef9bcd26a6db4a4482c616cac1074317dd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Nottingham Forest FC vs. Aston Villa FC: O/U 4.5",
-    "market_slug": "uel-not-ast4-2026-04-30-more-markets",
-    "amount": 1597.64,
-    "ai_context": "\u2705 COPY \u2014 Recent matches between Nottingham Forest and Aston Villa have consistently exceeded 4.5 total goals.\nIn their last three encounters, the total goals were 3, 4, and 2, respectively, all surpassing the 4.5 goal mark. (statmuse.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Aston Villa FC",
-      "checked_at": "2026-05-31T13:09:13.478338+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "pnl_flat": null,
-      "roi": null,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa187ceb1ba1fc77394093d0b6e10c9a4878bf2becd636c88ccee5cabc31df7c9",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -31195,6 +31139,54 @@
     "market_slug": "atp-shick-imamura-2026-06-04",
     "amount": 951.3912,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Shick ATP-\u0440\u0430\u043d\u0433 343, Imamura 442\n\u2022 Shick 8 \u043f\u043e\u0431\u0435\u0434 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445 (Imamura \u2014 7)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbc58ebca2f586cd564200456425ba21948fa917500ef13709a95d114cc6fb224",
+    "wallet": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+    "trader": {
+      "rank": 22,
+      "address": "0x9f2fe025f84839ca81dd8e0338892605702d2ca8",
+      "username": "surfandturf",
+      "profit": 4255683.8922092235,
+      "volume": 58170768.22169001,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x182bd8bf2f11a572c4ec686aae3a0d919adcf3d3",
+      "side": "SELL",
+      "asset": "77669758102929718590160851391714019116736856202333459817343190730743895177270",
+      "conditionId": "0x348cd9adf4f6855f58bd9c6dbf9ff251c4142ef77233a5dc95c65b4b61cd2187",
+      "size": 35000,
+      "price": 0.83,
+      "timestamp": 1780613623,
+      "title": "Strait of Hormuz traffic returns to normal by end of June?",
+      "slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-ships-transit-the-strait-of-hormuz-on-any-day-in-march-ERARnetK0FJm.jpg",
+      "eventSlug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "peoplearestrange",
+      "pseudonym": "Weird-Calorie",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbc58ebca2f586cd564200456425ba21948fa917500ef13709a95d114cc6fb224",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Strait of Hormuz traffic returns to normal by end of June?",
+    "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
+    "amount": 5950.000000000002,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u041f\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044e \u043d\u0430 4 \u0438\u044e\u043d\u044f 2026 \u043f\u0440\u043e\u043b\u0438\u0432 \u0437\u0430\u043a\u0440\u044b\u0442 \u0441 4 \u043c\u0430\u0440\u0442\u0430 (92 \u0434\u043d\u044f), \u0442\u0440\u0430\u0444\u0438\u043a \u2014 10% \u043e\u0442 \u043d\u043e\u0440\u043c\u044b (10 \u0441\u0443\u0434\u043e\u0432/\u0434\u0435\u043d\u044c \u043f\u0440\u043e\u0442\u0438\u0432 60)\n\u2022 \u041f\u0440\u043e\u0433\u043d\u043e\u0437 DHL (\u043c\u0430\u0439 2026): \u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0430\u0439\u043c\u0451\u0442 4\u20136 \u043c\u0435\u0441\u044f\u0446\u0435\u0432",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
