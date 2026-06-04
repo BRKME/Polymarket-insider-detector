@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x81fcc38f685a3f3f50272861e32ccfcbd8c7f6ce8208006ec2665b303e5f60fa",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xe6dde73456b7f7c44801a6559c358d26bdfcedaf",
-      "side": "BUY",
-      "asset": "28566235647745140324272418211539415070831226197180722514331674870399690212442",
-      "conditionId": "0xa1fd631a50fccfea882246f7f90652e932f8f1cbc04154da3fd3af63ec322ea6",
-      "size": 4996.774192,
-      "price": 0.30999999989593285,
-      "timestamp": 1777553948,
-      "title": "LoL: Ultra Prime vs EDward Gaming - Game 2 Winner",
-      "slug": "lol-up-edg-2026-04-30-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-up-edg-2026-04-30",
-      "outcome": "Ultra Prime",
-      "outcomeIndex": 0,
-      "name": "NiuBot",
-      "pseudonym": "Affectionate-Blast",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x81fcc38f685a3f3f50272861e32ccfcbd8c7f6ce8208006ec2665b303e5f60fa",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Ultra Prime vs EDward Gaming - Game 2 Winner",
-    "market_slug": "lol-up-edg-2026-04-30",
-    "amount": 1548.999999,
-    "ai_context": "\u274c SKIP \u2014 Ultra Prime's recent form and head-to-head record against EDward Gaming do not support this bet.\nUltra Prime has a 1-1 record in the current LPL 2026 Split 2, with a loss to ThunderTalk Gaming and a win against LGD Gaming. Their overall head-to-head record against EDward Gaming is 4 wins to 10 losses. In their most recent encounter on March 27, 2026, Ultra Prime won 2-1. (freetips.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "EDward Gaming",
-      "checked_at": "2026-05-31T13:09:07.504395+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1549.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x97f0d3ae27da5c844d3eafd85a35eb39d07dc0ab6c05c72578b91351407dbd48",
     "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
     "trader": {
@@ -31157,6 +31101,54 @@
     "market_slug": "mlb-bal-bos-2026-06-03",
     "amount": 3203.64,
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Orioles 29-32, Red Sox 25-34\n\u2022 Orioles \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4-2 \u0443 Red Sox 2 \u0438\u044e\u043d\u044f 2026 \u043d\u0430 Fenway Park (H2H)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x8a2b8e0ea635f022049264865708aea2e86ed07a45ac7d6d8fb420aca1caa4d9",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x3aadf692b80874212dc744726fd182fd76ee4e00",
+      "side": "BUY",
+      "asset": "102227184035967850089766981958743064457339118173548431660886438726896222843254",
+      "conditionId": "0xb6b3d7a2037b3faa7e1306d741840d453432902d73cc9a146a035e40271eae73",
+      "size": 5000,
+      "price": 0.641,
+      "timestamp": 1780531087,
+      "title": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+      "slug": "will-the-san-antonio-spurs-win-the-2026-nba-finals",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nba-finals-points-leader-7g2ZEZvMXxLb.jpg",
+      "eventSlug": "2026-nba-champion",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "wintersnow",
+      "pseudonym": "Terrible-Crayfish",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x8a2b8e0ea635f022049264865708aea2e86ed07a45ac7d6d8fb420aca1caa4d9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will the San Antonio Spurs win the 2026 NBA Finals?",
+    "market_slug": "2026-nba-champion",
+    "amount": 3205.0,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Spurs -185 \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u044b \u0432 \u0444\u0438\u043d\u0430\u043b\u0435 \u041d\u0411\u0410-2026 \u043f\u0440\u043e\u0442\u0438\u0432 Knicks (\u043f\u043e \u0434\u0430\u043d\u043d\u044b\u043c ESPN, FanDuel, Yahoo)\n\u2022 Spurs \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043a\u0443 62-20 (2-\u0435 \u043c\u0435\u0441\u0442\u043e \u0417\u0430\u043f\u0430\u0434)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
