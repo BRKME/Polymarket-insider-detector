@@ -30751,7 +30751,17 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-06-03T10:43:42.938294+00:00"
+    "resolution_last_check": "2026-06-03T10:43:42.938294+00:00",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-06-04T09:43:21.202242+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3840.0,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30799,7 +30809,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0438\u044f \u043e\u0431\u044b\u0433\u0440\u0430\u043b\u0430 \u041d\u0438\u0434\u0435\u0440\u043b\u0430\u043d\u0434\u044b 9 wicket\u0430\u043c\u0438 28 \u043c\u0430\u044f 2026 (144/1 \u043f\u0440\u0435\u0441\u043b\u0435\u0434\u0443\u044f 141/8)\n\u2022 H2H: \u0428\u043e\u0442\u043b\u0430\u043d\u0434\u0438\u044f \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0430 2 \u0438\u0437 4 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043e\u0431\u0435 \u0434\u043e\u043c\u0430\u0448\u043d\u0438\u0435 (2024, 2026)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Netherlands",
+      "checked_at": "2026-06-04T09:43:22.982625+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -530.6,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "market": "Will France win the 2026 FIFA World Cup?",
@@ -30911,7 +30931,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u0424\u0440\u0430\u043d\u0446\u0438\u044f \u21161 \u0432 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0435 FIFA (1877 \u043e\u0447\u043a\u043e\u0432, \u043e\u043f\u0435\u0440\u0435\u0436\u0430\u0435\u0442 \u0418\u0441\u043f\u0430\u043d\u0438\u044e)\n\u2022 \u041f\u043e \u0442\u0435\u043a\u0443\u0449\u0438\u043c \u043a\u043e\u0442\u0438\u0440\u043e\u0432\u043a\u0430\u043c \u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0438 \u0418\u0441\u043f\u0430\u043d\u0438\u044f \u2014 \u0441\u043e\u0432\u043c\u0435\u0441\u0442\u043d\u044b\u0435 \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u044b (+475, ~17% \u0432\u0435\u0440\u043e\u044f\u0442\u043d\u043e\u0441\u0442\u044c)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-06-04T09:43:22.982693+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30959,7 +30980,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Bicknell leads 2-1 (\u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u2014 \u043f\u043e\u0431\u0435\u0434\u0430 Bicknell 6-4 5-7 7-5 \u0432 Winston-Salem 2025)\n\u2022 Monday rank 290, Bicknell 316 (\u043d\u0430 \u043c\u043e\u043c\u0435\u043d\u0442 \u043c\u0430\u0442\u0447\u0430)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Blaise Bicknell",
+      "checked_at": "2026-06-04T09:43:24.657384+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1234.02,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31007,7 +31038,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Lepchenko 2026: 8-10, Grant \u0432 \u0445\u043e\u0440\u043e\u0448\u0435\u0439 \u0444\u043e\u0440\u043c\u0435 \u0441 \u043d\u0435\u0434\u0430\u0432\u043d\u0438\u043c\u0438 \u043f\u043e\u0431\u0435\u0434\u0430\u043c\u0438 \u043d\u0430 clay ITF/WTA\n\u2022 H2H: 0 \u0432\u0441\u0442\u0440\u0435\u0447, \u043f\u0435\u0440\u0432\u0430\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u043d\u0430 \u0442\u0443\u0440\u043d\u0438\u0440\u0435",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Tyra Caterina Grant",
+      "checked_at": "2026-06-04T09:43:26.250434+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1663.18,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31055,7 +31096,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Spurs 62-20, Knicks 53-29 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043d\u043e\u043c \u0441\u0435\u0437\u043e\u043d\u0435\n\u2022 H2H 2025-26: Spurs 1-2, \u0432\u043a\u043b\u044e\u0447\u0430\u044f \u043f\u043e\u0431\u0435\u0434\u0443 134-132 \u0434\u043e\u043c\u0430 31 \u0434\u0435\u043a\u0430\u0431\u0440\u044f",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-06-04T09:43:27.743474+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 657.94,
+      "pnl_flat": 0.67,
+      "roi": 66.7,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31103,7 +31154,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Orioles 29-32, Red Sox 25-34\n\u2022 Orioles \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 4-2 \u0443 Red Sox 2 \u0438\u044e\u043d\u044f 2026 \u043d\u0430 Fenway Park (H2H)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Boston Red Sox",
+      "checked_at": "2026-06-04T09:43:29.317901+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3203.64,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31151,6 +31212,7 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Spurs -185 \u0444\u0430\u0432\u043e\u0440\u0438\u0442\u044b \u0432 \u0444\u0438\u043d\u0430\u043b\u0435 \u041d\u0411\u0410-2026 \u043f\u0440\u043e\u0442\u0438\u0432 Knicks (\u043f\u043e \u0434\u0430\u043d\u043d\u044b\u043c ESPN, FanDuel, Yahoo)\n\u2022 Spurs \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u043b\u0438 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043a\u0443 62-20 (2-\u0435 \u043c\u0435\u0441\u0442\u043e \u0417\u0430\u043f\u0430\u0434)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-06-04T09:43:29.662027+00:00"
   }
 ]
