@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x97f0d3ae27da5c844d3eafd85a35eb39d07dc0ab6c05c72578b91351407dbd48",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xde1d31dafca37c89fb7aebc4371cfe54be3d44a6",
-      "side": "BUY",
-      "asset": "71285240616390675631208599154440828205323492324495469406281790261838342166737",
-      "conditionId": "0x461c6924c3eb7f664ea68f300574ab6f220b022eed9feaaf2fb6360f1fda30d0",
-      "size": 4011.484847,
-      "price": 0.32999999987286505,
-      "timestamp": 1777571374,
-      "title": "Madrid Open: Flavio Cobolli vs Alexander Zverev",
-      "slug": "atp-cobolli-zverev-2026-04-29",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
-      "eventSlug": "atp-cobolli-zverev-2026-04-29",
-      "outcome": "Flavio Cobolli",
-      "outcomeIndex": 0,
-      "name": "0xDE1D31dAFca37c89FB7aebC4371CFE54Be3D44a6-1776259363293",
-      "pseudonym": "Bouncy-Spec-Kilt",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x97f0d3ae27da5c844d3eafd85a35eb39d07dc0ab6c05c72578b91351407dbd48",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Madrid Open: Flavio Cobolli vs Alexander Zverev",
-    "market_slug": "atp-cobolli-zverev-2026-04-29",
-    "amount": 1323.789999,
-    "ai_context": "\u2705 COPY \u2014 Flavio Cobolli has demonstrated strong recent form, including a notable victory over Daniil Medvedev at the Madrid Open.\nCobolli advanced to the quarterfinals of the Madrid Open by defeating Medvedev 6-3, 5-7, 6-4 in the Round of 16. (sportsmole.co.uk) Additionally, he secured a title at the ATP 500 tournament in Acapulco, defeating Frances Tiafoe 7-6(4), 6-4 in the final. (as.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Alexander Zverev",
-      "checked_at": "2026-05-31T13:09:09.482645+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1323.79,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x5ca539a892802f68a84961da41076bbc0e4255990708fe3b2b8ca14556e31826",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31214,5 +31158,53 @@
     "ai_model": "Grok",
     "ai_consensus": "COPY",
     "resolution_last_check": "2026-06-04T09:43:29.662027+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb4964d0dcdedfa8efc5f2fdd28edee8ea8b59a9f2dfd973c9e851e312697a83a",
+    "wallet": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+    "trader": {
+      "rank": 29,
+      "address": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+      "username": "gmpm",
+      "profit": 3530847.5828178823,
+      "volume": 85100130.830447,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd84949634cf9aac74cab066cb978ac33ac676ac7",
+      "side": "BUY",
+      "asset": "75688209583286171056400034576676230176281287564453693089142022126787553034210",
+      "conditionId": "0x280f8e4b00877ddf567c6f95604ccefd5d08c171bffe80d71b0c0eb839e3b177",
+      "size": 2406.24,
+      "price": 0.65,
+      "timestamp": 1780573560,
+      "title": "Perugia: Andrea Pellegrino vs Roberto Carballes Baena",
+      "slug": "atp-pellegr-baena-2026-06-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-pellegr-baena-2026-06-04",
+      "outcome": "Andrea Pellegrino",
+      "outcomeIndex": 0,
+      "name": "angelat0",
+      "pseudonym": "Accurate-Discretion",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb4964d0dcdedfa8efc5f2fdd28edee8ea8b59a9f2dfd973c9e851e312697a83a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Perugia: Andrea Pellegrino vs Roberto Carballes Baena",
+    "market_slug": "atp-pellegr-baena-2026-06-04",
+    "amount": 1564.0559999999998,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Carballes Baena \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 2-1 (\u0432\u0441\u0435 \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435), \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u2014 \u043f\u043e\u0431\u0435\u0434\u0430 6-2 6-1 \u0432 Florence Challenger 2018\n\u2022 \u041e\u0431\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 1/8 \u0444\u0438\u043d\u0430\u043b\u0430 \u0432 Perugia Challenger 2026 \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435 (Pellegrino...",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
