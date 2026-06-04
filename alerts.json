@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x5ca539a892802f68a84961da41076bbc0e4255990708fe3b2b8ca14556e31826",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x851c7863bd0e0ad5f8118cf57d304e754e0cdafd",
-      "side": "BUY",
-      "asset": "114940775952390233136841086743439972823323664132195957476936149506896581762151",
-      "conditionId": "0x5360d3d712f14b4145ca52c07aeb545452138d308a44e39cfb776320103f7845",
-      "size": 2590.909089,
-      "price": 0.4399999999382456,
-      "timestamp": 1777575158,
-      "title": "Knicks vs. Hawks",
-      "slug": "nba-nyk-atl-2026-04-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-nyk-atl-2026-04-30",
-      "outcome": "Hawks",
-      "outcomeIndex": 1,
-      "name": "Watchmytradesbit3h",
-      "pseudonym": "Limited-Cry",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5ca539a892802f68a84961da41076bbc0e4255990708fe3b2b8ca14556e31826",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Knicks vs. Hawks",
-    "market_slug": "nba-nyk-atl-2026-04-30",
-    "amount": 1139.9999990000001,
-    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Hawks, and they have a strong home-court advantage.\nIn the last five matchups, the Hawks have won three games, including a 109-108 victory on April 23, 2026. At home, the Hawks have a 74% win rate this season, compared to the Knicks' 65% away win rate. (sportspundit.com)\nGiven these factors, the trader's bet on the Hawks is supported by recent performance and home-court advantage.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Knicks",
-      "checked_at": "2026-05-31T13:09:11.467876+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1140.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xaa3751dae1f21894dea1b63ce5748eef9bcd26a6db4a4482c616cac1074317dd",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -31206,5 +31150,53 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xbe5a58454f17bb03097c898c3e5e24d2f84c0651f5c8f0186f9d31f358658694",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xde9f7f4e77a1595623ceb58e469f776257ccd43c",
+      "side": "BUY",
+      "asset": "36041563315867135813067224127925869812019832926018027561071317802903627673248",
+      "conditionId": "0xb17c9ec7f7fc3ba7393e3687295edca50c5f8b25173f3a1d48eb10b8f254729c",
+      "size": 1961.4,
+      "price": 0.48505720403793207,
+      "timestamp": 1780593742,
+      "title": "Tyler: Braden Shick vs Masamichi Imamura",
+      "slug": "atp-shick-imamura-2026-06-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/atp-tour-b4390c4fb8.jpg",
+      "eventSlug": "atp-shick-imamura-2026-06-04",
+      "outcome": "Braden Shick",
+      "outcomeIndex": 0,
+      "name": "tradecraft",
+      "pseudonym": "Slow-Escape",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-1439403-31bec8e6-a9d5-45d6-8c20-964f07c7fdb2.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0xbe5a58454f17bb03097c898c3e5e24d2f84c0651f5c8f0186f9d31f358658694",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Tyler: Braden Shick vs Masamichi Imamura",
+    "market_slug": "atp-shick-imamura-2026-06-04",
+    "amount": 951.3912,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Shick ATP-\u0440\u0430\u043d\u0433 343, Imamura 442\n\u2022 Shick 8 \u043f\u043e\u0431\u0435\u0434 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445 (Imamura \u2014 7)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
