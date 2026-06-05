@@ -31040,7 +31040,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Carballes Baena \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 2-1 (\u0432\u0441\u0435 \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435), \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u044f\u044f \u0432\u0441\u0442\u0440\u0435\u0447\u0430 \u2014 \u043f\u043e\u0431\u0435\u0434\u0430 6-2 6-1 \u0432 Florence Challenger 2018\n\u2022 \u041e\u0431\u0430 \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 1/8 \u0444\u0438\u043d\u0430\u043b\u0430 \u0432 Perugia Challenger 2026 \u043d\u0430 \u0433\u0440\u0443\u043d\u0442\u0435 (Pellegrino...",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Andrea Pellegrino",
+      "checked_at": "2026-06-05T09:31:32.165277+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 842.18,
+      "pnl_flat": 0.54,
+      "roi": 53.8,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31088,7 +31098,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Shick ATP-\u0440\u0430\u043d\u0433 343, Imamura 442\n\u2022 Shick 8 \u043f\u043e\u0431\u0435\u0434 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u043c\u0430\u0442\u0447\u0430\u0445 (Imamura \u2014 7)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Braden Shick",
+      "checked_at": "2026-06-05T09:31:34.164278+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1010.01,
+      "pnl_flat": 1.06,
+      "roi": 106.2,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31136,7 +31156,8 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 \u041f\u043e \u0441\u043e\u0441\u0442\u043e\u044f\u043d\u0438\u044e \u043d\u0430 4 \u0438\u044e\u043d\u044f 2026 \u043f\u0440\u043e\u043b\u0438\u0432 \u0437\u0430\u043a\u0440\u044b\u0442 \u0441 4 \u043c\u0430\u0440\u0442\u0430 (92 \u0434\u043d\u044f), \u0442\u0440\u0430\u0444\u0438\u043a \u2014 10% \u043e\u0442 \u043d\u043e\u0440\u043c\u044b (10 \u0441\u0443\u0434\u043e\u0432/\u0434\u0435\u043d\u044c \u043f\u0440\u043e\u0442\u0438\u0432 60)\n\u2022 \u041f\u0440\u043e\u0433\u043d\u043e\u0437 DHL (\u043c\u0430\u0439 2026): \u043d\u043e\u0440\u043c\u0430\u043b\u0438\u0437\u0430\u0446\u0438\u044f \u0437\u0430\u0439\u043c\u0451\u0442 4\u20136 \u043c\u0435\u0441\u044f\u0446\u0435\u0432",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution_last_check": "2026-06-05T09:31:34.164335+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31184,6 +31205,16 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Carolina Hurricanes regular season record 53-22-7 (113 pts, 1st in Metro), Golden Knights 39-26-17 (95 pts)\n\u2022 Carolina favored at -161 for Game 2 (implied ~62% win probability); both tea...",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Hurricanes",
+      "checked_at": "2026-06-05T09:31:36.349081+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -3112.09,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   }
 ]
