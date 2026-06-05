@@ -1,59 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa187ceb1ba1fc77394093d0b6e10c9a4878bf2becd636c88ccee5cabc31df7c9",
-    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-    "trader": {
-      "rank": 8,
-      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "username": "swisstony",
-      "profit": 6794264.785563693,
-      "volume": 714784625.687823,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x7476205b5c7dbb238bc7d6c3101a61c164d7f26a",
-      "side": "SELL",
-      "asset": "93730658350732768649834008472861182019192630377489777653117511245710309885595",
-      "conditionId": "0xe546672750517f62c45a5a00067481981e62b9c20fa8220203232c9dc8fd2093",
-      "size": 17992.83,
-      "price": 0.87,
-      "timestamp": 1777583638,
-      "title": "Russia x Ukraine ceasefire by June 30, 2026?",
-      "slug": "russia-x-ukraine-ceasefire-by-june-30-2026",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/russia-x-ukraine-ceasefire-in-2025-w2voYOygx80B.jpg",
-      "eventSlug": "russia-x-ukraine-ceasefire-by-june-30-2026",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "DarthMaulReturns",
-      "pseudonym": "High-Puppy",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa187ceb1ba1fc77394093d0b6e10c9a4878bf2becd636c88ccee5cabc31df7c9",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Russia x Ukraine ceasefire by June 30, 2026?",
-    "market_slug": "russia-x-ukraine-ceasefire-by-june-30-2026",
-    "amount": 15653.762100000002,
-    "ai_context": "\u274c SKIP \u2014 Recent developments indicate a lack of progress toward a ceasefire by June 30, 2026.\nDespite a 32-hour Orthodox Easter truce in April 2026, both Russia and Ukraine reported violations, with ongoing military operations. (apnews.com) Additionally, Russian advances and Ukrainian counterattacks have diminished hopes for a ceasefire by June 30, 2026. (cryptobriefing.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-05-28T09:45:34.677829+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -15653.76
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x8a17339bb10384bf247ab125cb7ae2c5e488f75eb49d5978be5fd4bf27ce7cd5",
     "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
     "trader": {
@@ -31190,5 +31137,53 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x3515222ada0b59d9274efec9ce7cbcacaec56d02fd677d5b9a2ce017765d4b86",
+    "wallet": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+    "trader": {
+      "rank": 3,
+      "address": "0x6a72f61820b26b1fe4d956e17b6dc2a1ea3033ee",
+      "username": "kch123",
+      "profit": 11625248.184171505,
+      "volume": 292593717.15950495,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x15dcf79ffaae8a1390addda4e2ae7edec06877c8",
+      "side": "BUY",
+      "asset": "21330573423235633760686264664806621787401620522085624053107024725120634134182",
+      "conditionId": "0xedfd694c155ccbcc8bb4e819b5d220da28d9262766ec887a79bb27a78f5d6ae0",
+      "size": 7780.225,
+      "price": 0.4,
+      "timestamp": 1780616629,
+      "title": "Golden Knights vs. Hurricanes",
+      "slug": "nhl-las-car-2026-06-04",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-las-car-2026-06-04",
+      "outcome": "Golden Knights",
+      "outcomeIndex": 0,
+      "name": "Bulboor",
+      "pseudonym": "Studious-Diadem",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-5081209-735faf00-09e1-4715-9adb-b0b4df1724d3.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x3515222ada0b59d9274efec9ce7cbcacaec56d02fd677d5b9a2ce017765d4b86",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Golden Knights vs. Hurricanes",
+    "market_slug": "nhl-las-car-2026-06-04",
+    "amount": 3112.09,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Carolina Hurricanes regular season record 53-22-7 (113 pts, 1st in Metro), Golden Knights 39-26-17 (95 pts)\n\u2022 Carolina favored at -161 for Game 2 (implied ~62% win probability); both tea...",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
