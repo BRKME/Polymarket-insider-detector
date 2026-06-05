@@ -1,174 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xb70707ed819d9c11c4d8f7c60dc4b508a2489596a2cc9e69b8d838008e294089",
-    "wallet": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-    "trader": {
-      "rank": 19,
-      "address": "0x16f91db2592924cfed6e03b7e5cb5bb1e32299e3",
-      "username": "Jenzigo",
-      "profit": 4049827.0941029997,
-      "volume": 9457725.034338009,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xdd882a70680633a75516f6ed5fce443e2d96dadb",
-      "side": "BUY",
-      "asset": "98068494157531920809701846538403334522158355046017817311785363913507818920084",
-      "conditionId": "0x6843f7e4f8d88e4292b3489b24cd928b758ffd1fb469e371c178ee82c292524b",
-      "size": 2552,
-      "price": 0.67,
-      "timestamp": 1777587540,
-      "title": "Counter-Strike: FaZe vs FURIA (BO3) - BLAST Rivals Group B",
-      "slug": "cs2-faze-furia-2026-04-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/counter-strike-image-16c415c538.png",
-      "eventSlug": "cs2-faze-furia-2026-04-30",
-      "outcome": "FURIA",
-      "outcomeIndex": 1,
-      "name": "Taoli1",
-      "pseudonym": "Itchy-Caterpillar",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xb70707ed819d9c11c4d8f7c60dc4b508a2489596a2cc9e69b8d838008e294089",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Counter-Strike: FaZe vs FURIA (BO3) - BLAST Rivals Group B",
-    "market_slug": "cs2-faze-furia-2026-04-30",
-    "amount": 1709.8400000000001,
-    "ai_context": "\u2705 COPY \u2014 FURIA has a strong recent record and favorable head-to-head against FaZe.\nFURIA has won 2 of the last 3 matches against FaZe, including a 2-0 victory in April 2023. (game-tournaments.com) In their most recent match on April 29, 2026, FaZe lost 0-2 to Natus Vincere, continuing a 5-match losing streak. (blast.tv)\nGiven FURIA's recent form and favorable head-to-head record, the trader's bet on FURIA is supported by current data.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "FURIA",
-      "checked_at": "2026-05-31T13:09:17.278996+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 842.16,
-      "pnl_flat": 0.49,
-      "roi": 49.3,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x690ae4c2719f775ea1e63b2181d2c9094f7b3a05d70ef9621db853c8ff9fd08c",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.51568201,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x5b6331e7ff0831a3fe2ed12004747db1a9c911a4",
-      "side": "BUY",
-      "asset": "41054916495347957510087691174345858426588337259427885853416998968409113903196",
-      "conditionId": "0xdaf176c727f45efe8bf877d8311e11f203a8fd6bc7fcfd886bdd31748beaf44f",
-      "size": 4067.1,
-      "price": 0.7,
-      "timestamp": 1777593256,
-      "title": "Nuggets vs. Timberwolves",
-      "slug": "nba-den-min-2026-04-30",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-den-min-2026-04-30",
-      "outcome": "Nuggets",
-      "outcomeIndex": 0,
-      "name": "neutralwave23",
-      "pseudonym": "Monstrous-Dew",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x690ae4c2719f775ea1e63b2181d2c9094f7b3a05d70ef9621db853c8ff9fd08c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Nuggets vs. Timberwolves",
-    "market_slug": "nba-den-min-2026-04-30",
-    "amount": 2846.97,
-    "ai_context": "\u274c SKIP \u2014 Nuggets have lost 4 consecutive games to the Timberwolves, including 3 in the past week.\nIn their last 3 matchups, the Nuggets averaged 105.3 points per game, while the Timberwolves averaged 113.3 points per game. The Nuggets have also lost 4 consecutive games to the Timberwolves, including 3 in the past week. (landofbasketball.com)\nHowever, the trader may have access to insider information or sharp analysis not yet public.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Timberwolves",
-      "checked_at": "2026-05-31T13:09:19.224665+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2846.97,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x387994d24a59fc30a38988f54dd53c0f586ce9c64a60f4ac2494297d556fed7a",
-    "wallet": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-    "trader": {
-      "rank": 9,
-      "address": "0x8119010a6e589062aa03583bb3f39ca632d9f887",
-      "username": "PrincessCaro",
-      "profit": 6083643.099591745,
-      "volume": 23520809.952867005,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xc44f432b014f36679e13615f95996eac32bbd49f",
-      "side": "BUY",
-      "asset": "27821636789430584337790912811259284640680358845414665484074156979404575874681",
-      "conditionId": "0xc9e1eab0d41f1672837791011314ab7515992765f16fd3e30f7a69b24b21b442",
-      "size": 5626,
-      "price": 0.49,
-      "timestamp": 1777593874,
-      "title": "Nuggets vs. Timberwolves: O/U 224.5",
-      "slug": "nba-den-min-2026-04-30-total-224pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-den-min-2026-04-30",
-      "outcome": "Under",
-      "outcomeIndex": 1,
-      "name": "Zywoo123",
-      "pseudonym": "Superb-Steamroller",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x387994d24a59fc30a38988f54dd53c0f586ce9c64a60f4ac2494297d556fed7a",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Nuggets vs. Timberwolves: O/U 224.5",
-    "market_slug": "nba-den-min-2026-04-30",
-    "amount": 2756.74,
-    "ai_context": "\u2705 COPY \u2014 Recent matchups between the Nuggets and Timberwolves have consistently exceeded the 224.5 total points line.\nIn their last three encounters, the total points were 231, 280, and 235, all surpassing the 224.5 threshold. (landofbasketball.com)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Timberwolves",
-      "checked_at": "2026-05-31T13:09:20.871324+00:00",
-      "insider_win": null,
-      "model_correct": null,
-      "pnl": null,
-      "pnl_flat": null,
-      "roi": null,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x9a9680e3ea01bc01c0db009f3d88d7d0390b74e36c374562cf96bb54aebf4ccd",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31205,6 +31037,214 @@
     "market_slug": "nba-nyk-sas-2026-06-05",
     "amount": 2500.0,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u0432\u0441\u0442\u0440\u0435\u0447\u0438: totals 200 (105-95), 266 (134-132), 203 (114-89)\n\u2022 Knicks playoffs: 15 \u0438\u0433\u0440, \u0441\u0440\u0435\u0434\u043d\u0438\u0435 ~118-120 \u043e\u0447\u043a\u043e\u0432 \u0437\u0430 \u043c\u0430\u0442\u0447 (\u0441\u0435\u0440\u0438\u044f \u0441 76ers 124.3)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "market": "Knicks vs. Spurs",
+    "market_slug": "nba-nyk-sas-2026",
+    "event_slug": "nba-nyk-sas-2026",
+    "wallet": "0xf8371076fb3df0fcfcdb4d9f16bbe98bb241bd42",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($1,905)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 1905.3899980000003,
+      "odds": 0.6799999999286236,
+      "raw_price": 0.6799999999286236,
+      "outcome": "Spurs",
+      "potential_pnl": 896.6541169999998,
+      "pnl_multiplier": 0.47058823544847833,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-06-05T23:36:18.442578",
+    "trade_hash": "0xd597e9c481ef1521b9f726aae7b2af232e2f0d484d58e67af1f3d3eb298a1a84",
+    "trade_timestamp": 1780702282,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Spurs",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.6799999999286236,
+      "effective_price": 0.6799999999286236,
+      "size": 2802.044115,
+      "amount": 1905.3899980000003,
+      "potential_pnl": 896.6541169999998,
+      "pnl_multiplier": 0.47058823544847833,
+      "is_no": false,
+      "conditionId": "0x17e2f3347e34d8a13572baf10c9b4eb3291217868a0fb84b37f36c80f8e2105a",
+      "slug": "nba-nyk-sas-2026",
+      "eventSlug": "nba-nyk-sas-2026-06-05"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+40.4%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2759999999857247,
+      "market_price": 0.6799999999286236,
+      "edge": 0.40399999994289887,
+      "edge_percent": 40.399999994289885,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Knicks maintain current roster health",
+          "Spurs underperform relative to expectations",
+          "Key players on both teams perform at peak levels"
+        ],
+        "weakest_link": "Spurs underperform relative to expectations"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "team performance trends",
+        "player injuries"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.40399999994289887,
+      "edge_percent": 40.399999994289885
+    },
+    "financial_analyst": {
+      "signal_quality": 81.0,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 40.4,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 1 \u0424\u0438\u043d\u0430\u043b\u0430 105-95 \u0438 \u0432\u0435\u0434\u0443\u0442 \u0441\u0435\u0440\u0438\u044e 1-0\n\u2022 Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Spurs (\u0432\u043a\u043b\u044e\u0447\u0430\u044f 124-113 \u0438 114-89)",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x69144398f26c7eaa14c35a0af9a483c4500fd9b36b4e972d48b40aaf39aa5b3c",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x86e99faea12fccd8925de5d9f052471baf7a4cdf",
+      "side": "BUY",
+      "asset": "92467415892977626519514464000458144625729528422630477743040506111963951218305",
+      "conditionId": "0xe49b880dec88300fc988c1b9a17e5df8baade7f9a34e0b80ab51dd16c256b67e",
+      "size": 2272.727271,
+      "price": 0.4399999998944,
+      "timestamp": 1780702459,
+      "title": "Knicks vs. Spurs: O/U 214.5",
+      "slug": "nba-nyk-sas-2026-06-05-total-214pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-sas-2026-06-05",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "junifund",
+      "pseudonym": "Mortified-Keystone",
+      "bio": "run it.",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-8128770-cb1f2a45-5243-495f-afd8-7a3042290ade.png",
+      "profileImageOptimized": "",
+      "transactionHash": "0x69144398f26c7eaa14c35a0af9a483c4500fd9b36b4e972d48b40aaf39aa5b3c",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Knicks vs. Spurs: O/U 214.5",
+    "market_slug": "nba-nyk-sas-2026-06-05",
+    "amount": 1272.727272,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Game 1 Finals: Knicks 105 \u2013 Spurs 95 (total 200 \u043e\u0447\u043a\u043e\u0432)\n\u2022 H2H 1 \u043c\u0430\u0440\u0442\u0430 2026: Spurs 89 \u2013 Knicks 114 (total 203 \u043e\u0447\u043a\u043e\u0432)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xd6f1514e4021b0cf10886ba7ce329e260e3b9314171f5c8a6e8949f3ed0b2152",
+    "wallet": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+    "trader": {
+      "rank": 28,
+      "address": "0xee613b3fc183ee44f9da9c05f53e2da107e3debf",
+      "username": "sovereign2013",
+      "profit": 3588720.218017623,
+      "volume": 399254826.47477794,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x163eff4d251df4bfc95c49f4d90cd1bf224edc5b",
+      "side": "BUY",
+      "asset": "21741288609339199845882012117651999417510171480468979477406413662115132028352",
+      "conditionId": "0x39d303c92b5f1d195d26023d44b51fe547dd1c8257f8e413bfd8764d0a6b4fb4",
+      "size": 20000,
+      "price": 0.49,
+      "timestamp": 1780703362,
+      "title": "Spread: Spurs (-6.5)",
+      "slug": "nba-nyk-sas-2026-06-05-spread-home-6pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
+      "eventSlug": "nba-nyk-sas-2026-06-05",
+      "outcome": "Knicks",
+      "outcomeIndex": 1,
+      "name": "0x163EfF4d251dF4BFC95C49f4D90Cd1bF224eDC5B-1768366778047",
+      "pseudonym": "Definitive-Reject",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xd6f1514e4021b0cf10886ba7ce329e260e3b9314171f5c8a6e8949f3ed0b2152",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Spread: Spurs (-6.5)",
+    "market_slug": "nba-nyk-sas-2026-06-05",
+    "amount": 9800.0,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Spurs 62-20 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043a\u0435, Knicks 53-29\n\u2022 \u0412 \u0444\u0438\u043d\u0430\u043b\u0430\u0445 Spurs \u0434\u043e\u043c\u0430, Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 1 \u043d\u0430 \u0432\u044b\u0435\u0437\u0434\u0435 105-95",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
