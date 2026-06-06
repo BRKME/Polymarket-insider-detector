@@ -30983,7 +30983,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0435 3 \u0432\u0441\u0442\u0440\u0435\u0447\u0438: totals 200 (105-95), 266 (134-132), 203 (114-89)\n\u2022 Knicks playoffs: 15 \u0438\u0433\u0440, \u0441\u0440\u0435\u0434\u043d\u0438\u0435 ~118-120 \u043e\u0447\u043a\u043e\u0432 \u0437\u0430 \u043c\u0430\u0442\u0447 (\u0441\u0435\u0440\u0438\u044f \u0441 76ers 124.3)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-06-06T08:24:26.931602+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null,
+      "pnl_flat": null,
+      "roi": null,
+      "source": "gamma"
+    }
   },
   {
     "market": "Knicks vs. Spurs",
@@ -31095,7 +31105,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 1 \u0424\u0438\u043d\u0430\u043b\u0430 105-95 \u0438 \u0432\u0435\u0434\u0443\u0442 \u0441\u0435\u0440\u0438\u044e 1-0\n\u2022 Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 3 \u0438\u0437 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 4 \u0432\u0441\u0442\u0440\u0435\u0447 \u0441 Spurs (\u0432\u043a\u043b\u044e\u0447\u0430\u044f 124-113 \u0438 114-89)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-06-06T08:24:29.441673+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -1905.39,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31143,7 +31163,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Game 1 Finals: Knicks 105 \u2013 Spurs 95 (total 200 \u043e\u0447\u043a\u043e\u0432)\n\u2022 H2H 1 \u043c\u0430\u0440\u0442\u0430 2026: Spurs 89 \u2013 Knicks 114 (total 203 \u043e\u0447\u043a\u043e\u0432)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-06-06T08:24:31.037303+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null,
+      "pnl_flat": null,
+      "roi": null,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31191,7 +31221,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Spurs 62-20 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043a\u0435, Knicks 53-29\n\u2022 \u0412 \u0444\u0438\u043d\u0430\u043b\u0430\u0445 Spurs \u0434\u043e\u043c\u0430, Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 1 \u043d\u0430 \u0432\u044b\u0435\u0437\u0434\u0435 105-95",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Knicks",
+      "checked_at": "2026-06-06T08:24:32.613846+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 10200.0,
+      "pnl_flat": 1.04,
+      "roi": 104.1,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31239,6 +31279,7 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Eala \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 1-0, \u043f\u043e\u0431\u0435\u0434\u0430 6-4 6-3 (ITF Trnava, \u0444\u0435\u0432\u0440\u0430\u043b\u044c 2025)\n\u2022 Eala \u2014 37-\u044f \u0432 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0435 WTA, Masarova \u2014 132-\u044f",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution_last_check": "2026-06-06T08:24:33.083091+00:00"
   }
 ]
