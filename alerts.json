@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x9a9680e3ea01bc01c0db009f3d88d7d0390b74e36c374562cf96bb54aebf4ccd",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x32ccd9015a900fde62040162a04bedf093c668b3",
-      "side": "BUY",
-      "asset": "107446662263224422828315946736342360281118881130078612113754998952485025928010",
-      "conditionId": "0xcdb6db51cca976fcc67808368060ff90789d05926bd8d31e7da620f87221aff0",
-      "size": 29210.87,
-      "price": 0.36,
-      "timestamp": 1777633790,
-      "title": "Game Handicap: WB (-1.5) vs Invictus Gaming (+1.5)",
-      "slug": "lol-wb-ig1-2026-05-01-game-handicap-away-1pt5",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-wb-ig1-2026-05-01",
-      "outcome": "Weibo Gaming",
-      "outcomeIndex": 0,
-      "name": "pilotlady",
-      "pseudonym": "Bumpy-Accessory",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x9a9680e3ea01bc01c0db009f3d88d7d0390b74e36c374562cf96bb54aebf4ccd",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Game Handicap: WB (-1.5) vs Invictus Gaming (+1.5)",
-    "market_slug": "lol-wb-ig1-2026-05-01",
-    "amount": 10515.913199999999,
-    "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 77% of their recent encounters.\nIn their last five meetings, Weibo Gaming secured victories with scores of 2-0 on March 30, 3-0 on February 25, 2-0 on February 6, and 2-1 on January 14. (bo3.gg) Additionally, Weibo Gaming has a 0% win rate in the last month, indicating alarming short-term form issues. (bo3.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Invictus Gaming",
-      "checked_at": "2026-05-31T13:09:22.710925+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -10515.91,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0xa3136fed0cce42bf064b9a5e0af61bd96b56e624e1d4bb265daf6041826b53c0",
     "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
     "trader": {
@@ -31245,6 +31189,54 @@
     "market_slug": "nba-nyk-sas-2026-06-05",
     "amount": 9800.0,
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Spurs 62-20 \u0432 \u0440\u0435\u0433\u0443\u043b\u044f\u0440\u043a\u0435, Knicks 53-29\n\u2022 \u0412 \u0444\u0438\u043d\u0430\u043b\u0430\u0445 Spurs \u0434\u043e\u043c\u0430, Knicks \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 Game 1 \u043d\u0430 \u0432\u044b\u0435\u0437\u0434\u0435 105-95",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x51470284a0d1832fbe8eda9c22569f0d776c1730bf634e148027476dc40a2702",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568201,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xccd81fbd3395dc43a0531f8484b21c2462daf4de",
+      "side": "BUY",
+      "asset": "44516911155680661162317779867591963794425232701378718606266415684470397008342",
+      "conditionId": "0xe6d9d0a009d653a82483999fde6a17b10ad1d3d41e0952a03649149771af4061",
+      "size": 1896.023808,
+      "price": 0.419999999810129,
+      "timestamp": 1780732854,
+      "title": "Birmingham: Alexandra Eala vs Rebeka Masarova",
+      "slug": "wta-eala-masarov-2026-06-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wta-logo-41f331bdf1.png",
+      "eventSlug": "wta-eala-masarov-2026-06-06",
+      "outcome": "Rebeka Masarova",
+      "outcomeIndex": 1,
+      "name": "0F62",
+      "pseudonym": "Trivial-Ravioli",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x51470284a0d1832fbe8eda9c22569f0d776c1730bf634e148027476dc40a2702",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Birmingham: Alexandra Eala vs Rebeka Masarova",
+    "market_slug": "wta-eala-masarov-2026-06-06",
+    "amount": 1099.693809,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 H2H: Eala \u043b\u0438\u0434\u0438\u0440\u0443\u0435\u0442 1-0, \u043f\u043e\u0431\u0435\u0434\u0430 6-4 6-3 (ITF Trnava, \u0444\u0435\u0432\u0440\u0430\u043b\u044c 2025)\n\u2022 Eala \u2014 37-\u044f \u0432 \u0440\u0435\u0439\u0442\u0438\u043d\u0433\u0435 WTA, Masarova \u2014 132-\u044f",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
