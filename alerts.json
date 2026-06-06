@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0xa3136fed0cce42bf064b9a5e0af61bd96b56e624e1d4bb265daf6041826b53c0",
-    "wallet": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-    "trader": {
-      "rank": 13,
-      "address": "0x23786fdad0073692157c6d7dc81f281843a35fcb",
-      "username": "mikatrade77",
-      "profit": 5147998.544602999,
-      "volume": 10884765.388775,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x9b491485819135564450669aeadb2d85f7b104a8",
-      "side": "BUY",
-      "asset": "20629446428019341295300119091473735998802531289120829584782736335411392005288",
-      "conditionId": "0x7127a11d6b7d8305060f731ecafc952dbdcdc50be1362a38100ff239887a6fc1",
-      "size": 8928.571427,
-      "price": 0.55999999998656,
-      "timestamp": 1777634398,
-      "title": "LoL: Hanwha Life Esports vs T1 - Game 2 Winner",
-      "slug": "lol-hle1-t1-2026-05-01-game2",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-hle1-t1-2026-05-01",
-      "outcome": "Hanwha Life Esports",
-      "outcomeIndex": 0,
-      "name": "htfjyf",
-      "pseudonym": "Elderly-Necklace",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0xa3136fed0cce42bf064b9a5e0af61bd96b56e624e1d4bb265daf6041826b53c0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Hanwha Life Esports vs T1 - Game 2 Winner",
-    "market_slug": "lol-hle1-t1-2026-05-01",
-    "amount": 4999.999999000001,
-    "ai_context": "\u2705 COPY \u2014 Hanwha Life Esports has a strong recent record and a favorable head-to-head against T1.\nThey secured 1st place in the 2025 First Stand Tournament with a 3-1 victory. (liquipedia.net) In their most recent encounter, Hanwha Life Esports defeated T1 3-2 in the 2024 LCK Summer Finals. (liquipedia.net)",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Hanwha Life Esports",
-      "checked_at": "2026-05-31T13:09:24.526608+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 3928.57,
-      "pnl_flat": 0.79,
-      "roi": 78.6,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x5b794a9b8f2480cd4b5b51d41b0927ef8825787bfcffe0dcad6017f473eb7752",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31281,5 +31225,53 @@
     "ai_model": "Grok",
     "ai_consensus": "SKIP",
     "resolution_last_check": "2026-06-06T08:24:33.083091+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x2d0e40667ed9dc55e98621b8534e35dae2ee133547dbda5e5482f0db251689ca",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.51568202,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd218e474776403a330142299f7796e8ba32eb5c9",
+      "side": "BUY",
+      "asset": "92827417009887627656279362525317849309821905918650547490799438436173703158107",
+      "conditionId": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a",
+      "size": 900,
+      "price": 0.39,
+      "timestamp": 1780746105,
+      "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+      "slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-keiko-fujimori-win-the-2026-peruvian-presidential-election-U834gpRSgT_T.jpg",
+      "eventSlug": "peru-presidential-election-winner",
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "name": "cigarettes",
+      "pseudonym": "Attentive-Crewman",
+      "bio": "broken grid",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x2d0e40667ed9dc55e98621b8534e35dae2ee133547dbda5e5482f0db251689ca",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+    "market_slug": "peru-presidential-election-winner",
+    "amount": 549.0,
+    "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Ipsos (29\u201330 May): Fujimori 38%, S\u00e1nchez 35%; Datum (26\u201330 May): Fujimori 39.8%, S\u00e1nchez 35.9%\n\u2022 Polymarket/Kalshi (6 June): Fujimori win probability 61\u201363%",
+    "ai_verdict": "SKIP",
+    "ai_model": "Grok",
+    "ai_consensus": "SKIP"
   }
 ]
