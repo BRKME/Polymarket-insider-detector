@@ -1,181 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x5b794a9b8f2480cd4b5b51d41b0927ef8825787bfcffe0dcad6017f473eb7752",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x13414a77a4be48988851c73dfd824d0168e70853",
-      "side": "BUY",
-      "asset": "20666024733457898655147468370671060346968198255485787443319573651607606614559",
-      "conditionId": "0x0ed57fcb218fe00090d39bbcb737fcc48ae35b815db884969cb6ace61708588c",
-      "size": 4552,
-      "price": 0.3399231107205624,
-      "timestamp": 1777636794,
-      "title": "LoL: Weibo Gaming vs Invictus Gaming - Game 1 Winner",
-      "slug": "lol-wb-ig1-2026-05-01-game1",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
-      "eventSlug": "lol-wb-ig1-2026-05-01",
-      "outcome": "Weibo Gaming",
-      "outcomeIndex": 0,
-      "name": "NRASCHATTER",
-      "pseudonym": "Practical-Alcohol",
-      "bio": "",
-      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-4043939-c1695cf1-492c-45e6-a5c4-537e510cea02.webp",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5b794a9b8f2480cd4b5b51d41b0927ef8825787bfcffe0dcad6017f473eb7752",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "LoL: Weibo Gaming vs Invictus Gaming - Game 1 Winner",
-    "market_slug": "lol-wb-ig1-2026-05-01",
-    "amount": 1547.3300000000002,
-    "ai_context": "\u2705 COPY \u2014 Weibo Gaming has a strong head-to-head record against Invictus Gaming, winning 14 out of 18 matches.\nIn their most recent encounter on April 15, 2026, Weibo Gaming secured a 2-1 victory. (tips.gg)\nWeibo Gaming's recent form includes a win streak, while Invictus Gaming is on a one-match losing streak. (tips.gg)\nGiven Weibo Gaming's favorable head-to-head record and current form, the trader's bet is supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Invictus Gaming",
-      "checked_at": "2026-05-31T13:09:26.187445+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1547.33,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "market": "Madrid Open: Alexander Blockx vs Alexander Zverev",
-    "market_slug": "atp-blockx-zverev-2026",
-    "event_slug": "atp-blockx-zverev-2026",
-    "wallet": "0x21502ae2c6b2cbe17db1e77affde6a0e311feee6",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,821)",
-        "Low activity (5 txns)"
-      ],
-      "amount": 1820.72,
-      "odds": 0.22,
-      "raw_price": 0.22,
-      "outcome": "Alexander Blockx",
-      "potential_pnl": 6455.28,
-      "pnl_multiplier": 3.5454545454545454,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-05-01T17:34:21.187780",
-    "trade_hash": "0x37ae580d8a745bfe5a80dabc42717749110a831339bc9209ab2527af3c4b5c74",
-    "trade_timestamp": 1777656432,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Alexander Blockx",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.22,
-      "effective_price": 0.22,
-      "size": 8276.0,
-      "amount": 1820.72,
-      "potential_pnl": 6455.28,
-      "pnl_multiplier": 3.5454545454545454,
-      "is_no": false,
-      "conditionId": "0x0faf74ae738701b13809aeab09097ac938d8c2419b6e1b222c56002e709d0eda",
-      "slug": "atp-blockx-zverev-2026",
-      "eventSlug": "atp-blockx-zverev-2026-05-01"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+15.6%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.064,
-      "market_price": 0.22,
-      "edge": 0.156,
-      "edge_percent": 15.6,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "rare",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "rare",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Blockx must significantly outperform expectations in terms of skill and performance.",
-          "Zverev must underperform or face unexpected challenges during the match.",
-          "External factors such as injury or mental state affecting Zverev's performance."
-        ],
-        "weakest_link": "Blockx must significantly outperform expectations in terms of skill and performance."
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Emerging talent vs established player dynamics.",
-        "Recent performance trends of both players."
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.156,
-      "edge_percent": 15.6
-    },
-    "financial_analyst": {
-      "signal_quality": 44.4,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 15.6,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Alexander Blockx has demonstrated exceptional form, reaching the Madrid Open semifinals after defeating top players.\nBlockx, currently ranked No. 69, has advanced to the semifinals of the Madrid Open, defeating defending champion Casper Ruud with a 6-4, 6-4 victory. (as.com) He has also secured wins against notable opponents such as F\u00e9lix Auger-Aliassime and Francisco Cer\u00fandolo, showcasing his rising talent. (elpais.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Alexander Zverev",
-      "checked_at": "2026-05-31T13:09:29.228969+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1820.72,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
     "market": "Strait of Hormuz traffic returns to normal by end of June?",
     "market_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
     "event_slug": "strait-of-hormuz-traffic-returns-to-normal-by-end-of-june",
@@ -31273,5 +31097,101 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x7c621e5e9f448c4c9bf7c1cf658ee3e6e5f200850c17a6535dc4f218e69ae966",
+    "wallet": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+    "trader": {
+      "rank": 12,
+      "address": "0x885783760858e1bd5dd09a3c3f916cfa251ac270",
+      "username": "BetTom42",
+      "profit": 5642135.735356,
+      "volume": 11212839.523403,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xf37598dcc5491b398aa72d92ac79e17712a3f105",
+      "side": "BUY",
+      "asset": "6897657911859357355014366547654626730816588315430430322440971410503339320594",
+      "conditionId": "0x64ab7084e8dfceba2f2d35e91702b742497d98f8108cb23fa52e90af2bb5c7da",
+      "size": 3234.424837,
+      "price": 0.3088648057521703,
+      "timestamp": 1780764640,
+      "title": "Will Panama win on 2026-06-06?",
+      "slug": "fif-pan-bih-2026-06-06-pan",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fif.png",
+      "eventSlug": "fif-pan-bih-2026-06-06",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "aminem9",
+      "pseudonym": "Bustling-Alarm",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x7c621e5e9f448c4c9bf7c1cf658ee3e6e5f200850c17a6535dc4f218e69ae966",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Panama win on 2026-06-06?",
+    "market_slug": "fif-pan-bih-2026-06-06",
+    "amount": 998.9999990000001,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Panama +210 (implied ~32% win prob) vs Bosnia +115 in ESPN odds for the friendly\n\u2022 Bosnia slight favorites per bookmakers due to superior squad quality; first H2H ever",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x663be9bee162bcd0b644750aa6337bb207985e4ead34b3261cbbd14a5ba70fc6",
+    "wallet": "0x019782cab5d844f02bafb71f512758be78579f3c",
+    "trader": {
+      "rank": 26,
+      "address": "0x019782cab5d844f02bafb71f512758be78579f3c",
+      "username": "majorexploiter",
+      "profit": 3668541.581104434,
+      "volume": 9413714.671942003,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd48a81db62f742c4e42d86dfc23a7ee345366e90",
+      "side": "BUY",
+      "asset": "30525369080213256101574955305264592499858471259899008659803155524585433778654",
+      "conditionId": "0x6e0d74258c318d58579cffcbc1e9886790eeb0b837b0c208d6463bfc262d56f3",
+      "size": 17011.162789,
+      "price": 0.4299999999841281,
+      "timestamp": 1780764945,
+      "title": "Kansas City Royals vs. Minnesota Twins",
+      "slug": "mlb-kc-min-2026-06-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-kc-min-2026-06-06",
+      "outcome": "Kansas City Royals",
+      "outcomeIndex": 0,
+      "name": "NiFengFanPan",
+      "pseudonym": "Orderly-Venture",
+      "bio": "Wen Zhong Qiu Sheng",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-3358711-e85e8a4d-0015-4638-8326-28b28b4859ed.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x663be9bee162bcd0b644750aa6337bb207985e4ead34b3261cbbd14a5ba70fc6",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Kansas City Royals vs. Minnesota Twins",
+    "market_slug": "mlb-kc-min-2026-06-06",
+    "amount": 7314.799999000001,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Royals 25-38, Twins 29-35; Royals snapped 6-game losing streak with wins over Reds, Twins 3-7 in last 10 games\n\u2022 H2H 2026: Royals won last meeting 8-6 vs Twins (June 4)",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
