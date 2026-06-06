@@ -1,61 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x7026cbdc9f4f37d28a3e7d227a12c27ba495b8330a003ed4bca4ee45ce012ed7",
-    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-    "trader": {
-      "rank": 1,
-      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
-      "username": "Theo4",
-      "profit": 22053933.752321757,
-      "volume": 43013258.515682004,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "27119555845767968289932394557422754121689277879563254506110196283407170516084",
-      "conditionId": "0xd82dbbed1d037c229288034e590289393a32d3be41ac2dd81438b2c7b8b2320c",
-      "size": 4763,
-      "price": 0.34,
-      "timestamp": 1777664090,
-      "title": "Will US Lecce win on 2026-05-01?",
-      "slug": "sea-pis-lec-2026-05-01-lec",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Serie-A-Logo.png",
-      "eventSlug": "sea-pis-lec-2026-05-01",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x7026cbdc9f4f37d28a3e7d227a12c27ba495b8330a003ed4bca4ee45ce012ed7",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will US Lecce win on 2026-05-01?",
-    "market_slug": "sea-pis-lec-2026-05-01",
-    "amount": 1619.42,
-    "ai_context": "\u274c SKIP \u2014 US Lecce has been in poor form recently, losing four consecutive matches and failing to score in three of them. Their most recent match was a 2-0 loss to Cagliari on February 16, 2026. (footinsights.com) Additionally, their upcoming opponent, Juventus, has a strong record against Lecce, winning nine of their last 15 encounters. (footystats.org) However, the trader may have access to insider information or analysis not yet public.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T13:09:31.700049+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1619.42,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
     "market": "Will George Russell be the 2026 F1 Drivers' Champion?",
     "market_slug": "will-george-russell-be-the-2026-f1-drivers-champion",
     "event_slug": "will-george-russell-be-the-2026-f1-drivers-champion",
@@ -31194,5 +31138,113 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP"
+  },
+  {
+    "market": "San Francisco Giants vs. Chicago Cubs",
+    "market_slug": "mlb-sf-chc-2026",
+    "event_slug": "mlb-sf-chc-2026",
+    "wallet": "0x2f0d89d1694ccf3baf971d3955fdfb1047866382",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($5,000)",
+        "Low activity (18 txns)"
+      ],
+      "amount": 4999.999999000001,
+      "odds": 0.4793057867769809,
+      "raw_price": 0.4793057867769809,
+      "outcome": "San Francisco Giants",
+      "potential_pnl": 5431.753877,
+      "pnl_multiplier": 1.0863507756172701,
+      "wallet_age_days": 0,
+      "total_activities": 18
+    },
+    "timestamp": "2026-06-06T21:12:53.605163",
+    "trade_hash": "0xbfdce8834a5633d7317fc09810f13bc6a766472beb05d7d22768ac336ceb7e39",
+    "trade_timestamp": 1780780008,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "San Francisco Giants",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.4793057867769809,
+      "effective_price": 0.4793057867769809,
+      "size": 10431.753876,
+      "amount": 4999.999999000001,
+      "potential_pnl": 5431.753877,
+      "pnl_multiplier": 1.0863507756172701,
+      "is_no": false,
+      "conditionId": "0xc0334db3b06e46eac72846a1dec1f70089dcf8a47993506142a75ec935d40f5c",
+      "slug": "mlb-sf-chc-2026",
+      "eventSlug": "mlb-sf-chc-2026-06-06"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+24.3%)"
+      ],
+      "category": "sports",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.03,
+        "min_edge": 0.05
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.23586115735539617,
+      "market_price": 0.4793057867769809,
+      "edge": 0.2434446294215847,
+      "edge_percent": 24.344462942158472,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Giants' key players perform exceptionally well",
+          "Cubs' pitching staff underperforms",
+          "Weather conditions favor the Giants"
+        ],
+        "weakest_link": "Cubs' pitching staff underperforms"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Recent performance trends of both teams",
+        "Injuries affecting key players"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.2434446294215847,
+      "edge_percent": 24.344462942158472
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 24.34,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
   }
 ]
