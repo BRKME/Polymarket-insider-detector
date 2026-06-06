@@ -1,236 +1,5 @@
 [
   {
-    "market": "Will George Russell be the 2026 F1 Drivers' Champion?",
-    "market_slug": "will-george-russell-be-the-2026-f1-drivers-champion",
-    "event_slug": "will-george-russell-be-the-2026-f1-drivers-champion",
-    "wallet": "0xd670329869c2ede17d12ab0a2cb25ec43e7e7788",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,233)",
-        "Low activity (1 txns)"
-      ],
-      "amount": 1232.67,
-      "odds": 0.3943364460822479,
-      "raw_price": 0.3943364460822479,
-      "outcome": "Yes",
-      "potential_pnl": 1893.2647500000003,
-      "pnl_multiplier": 1.5359055951714573,
-      "wallet_age_days": 0,
-      "total_activities": 1
-    },
-    "timestamp": "2026-05-01T20:37:09.588714",
-    "trade_hash": "0x42195acb79fb7542035c243a05401559925ce0b47c7490083972243404e19076",
-    "trade_timestamp": 1777667606,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.3943364460822479,
-      "effective_price": 0.3943364460822479,
-      "size": 3125.93475,
-      "amount": 1232.67,
-      "potential_pnl": 1893.2647500000003,
-      "pnl_multiplier": 1.5359055951714573,
-      "is_no": false,
-      "conditionId": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
-      "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
-      "eventSlug": "2026-f1-drivers-champion"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.5%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.13886728921644959,
-      "market_price": 0.3943364460822479,
-      "edge": 0.2554691568657983,
-      "edge_percent": 25.54691568657983,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "occasional",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "occasional",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "George Russell secures a competitive car for the 2026 season",
-          "Russell consistently performs at a championship-winning level",
-          "Key competitors underperform or face significant challenges"
-        ],
-        "weakest_link": "Key competitors underperform or face significant challenges"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "team performance",
-        "driver skill"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.2554691568657983,
-      "edge_percent": 25.54691568657983
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.55,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Recent developments indicate strong support for Russell's championship prospects.\nMercedes has confirmed Russell's contract extension for the 2026 season, ensuring stability for the team. (formula1.com) Additionally, Russell is considered a heavy favorite for the 2026 Drivers' Championship, with bookmakers placing him among the top contenders. (oddschecker.com) His confidence in Mercedes' prospects further underscores his readiness to challenge for the title. (skysports.com)",
-    "ai_verdict": "COPY",
-    "resolution_last_check": "2026-05-28T09:45:36.488448+00:00"
-  },
-  {
-    "market": "Texas Rangers vs. Detroit Tigers",
-    "market_slug": "mlb-tex-det-2026",
-    "event_slug": "mlb-tex-det-2026",
-    "wallet": "0x44904a7b60fd25b8b91226b724c2915075c388d5",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "New wallet (0d old)",
-        "Large bet ($1,928)",
-        "Low activity (5 txns)"
-      ],
-      "amount": 1927.5599989999998,
-      "odds": 0.48999999991611154,
-      "raw_price": 0.48999999991611154,
-      "outcome": "Texas Rangers",
-      "potential_pnl": 2006.235918,
-      "pnl_multiplier": 1.040816326880002,
-      "wallet_age_days": 0,
-      "total_activities": 5
-    },
-    "timestamp": "2026-05-01T22:12:23.669289",
-    "trade_hash": "0xc7502821e194c217d160f1796c2d3e400d4ff0a42f344dcf60b2a890de8cd25f",
-    "trade_timestamp": 1777673016,
-    "latency": null,
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "Texas Rangers",
-      "outcomeIndex": 0,
-      "normalized_position": "YES",
-      "side": "BUY",
-      "price": 0.48999999991611154,
-      "effective_price": 0.48999999991611154,
-      "size": 3933.795917,
-      "amount": 1927.5599989999998,
-      "potential_pnl": 2006.235918,
-      "pnl_multiplier": 1.040816326880002,
-      "is_no": false,
-      "conditionId": "0xa1693715d3cf225919651aef8903dc8ccedf5534d1b18643ef41941d42f265ce",
-      "slug": "mlb-tex-det-2026",
-      "eventSlug": "mlb-tex-det-2026-05-01"
-    },
-    "irrationality": {
-      "irrationality_score": 35,
-      "flags": [
-        "Large mispricing edge (+25.2%)"
-      ],
-      "category": "sports",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.03,
-        "min_edge": 0.05
-      },
-      "is_irrational": true
-    },
-    "mispricing": {
-      "rational_estimate": 0.2379999999832223,
-      "market_price": 0.48999999991611154,
-      "edge": 0.25199999993288924,
-      "edge_percent": 25.199999993288923,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Texas Rangers maintain current performance level",
-          "Detroit Tigers underperform",
-          "Injuries to key players on opposing teams"
-        ],
-        "weakest_link": "Detroit Tigers underperform"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Recent performance trends of both teams",
-        "Fan sentiment and support for the Rangers"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "CONFLICT",
-      "signal_emoji": "\u26a0\ufe0f",
-      "signal_strength": 70,
-      "interpretation": "Insider buying YES despite statistical overpricing",
-      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
-      "insider_score": 70,
-      "insider_position": "YES",
-      "irrationality_score": 35,
-      "is_irrational": true,
-      "is_mispriced": true,
-      "edge": 0.25199999993288924,
-      "edge_percent": 25.199999993288923
-    },
-    "financial_analyst": {
-      "signal_quality": 46.0,
-      "stance": "WATCH_ONLY",
-      "edge_percent": 25.2,
-      "signal_strength": 70.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u2705 COPY \u2014 Recent head-to-head results favor the Texas Rangers.\nIn their last six matchups, the Rangers won four games, including a 2-0 victory on July 19, 2025. (champsorchumps.us)\nAdditionally, the Rangers have a strong record against the Tigers, leading the all-time series 346-382. (statmuse.com)\nWhile the Rangers finished the 2025 season with an 81-81 record, (baseball-reference.com)their recent head-to-head performance against the Tigers suggests a favorable outcome.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Texas Rangers",
-      "checked_at": "2026-05-31T13:09:35.120219+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 2006.24,
-      "pnl_flat": 1.04,
-      "roi": 104.1,
-      "source": "gamma"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x5b553a91c7ebec0a7594377645aeff0b73f326dd55cef99b8c0e92f1373c8315",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
@@ -31246,5 +31015,157 @@
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
     }
+  },
+  {
+    "market": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+    "market_slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
+    "event_slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
+    "wallet": "0x0da85d59ac883b487b5c1b01c3b9c918a6c59e6e",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($10,000)",
+        "Low activity (3 txns)"
+      ],
+      "amount": 9999.999998,
+      "odds": 0.6361837493531581,
+      "raw_price": 0.6361837493531581,
+      "outcome": "Yes",
+      "potential_pnl": 5718.729077,
+      "pnl_multiplier": 0.5718729078143746,
+      "wallet_age_days": 0,
+      "total_activities": 3
+    },
+    "timestamp": "2026-06-06T23:17:16.300688",
+    "trade_hash": "0xb7f8e917b78b99d7b1cab5ecd68b57ac7d0a074170d646b37eccff63d031e643",
+    "trade_timestamp": 1780787442,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "normalized_position": "YES",
+      "side": "BUY",
+      "price": 0.6361837493531581,
+      "effective_price": 0.6361837493531581,
+      "size": 15718.729075,
+      "amount": 9999.999998,
+      "potential_pnl": 5718.729077,
+      "pnl_multiplier": 0.5718729078143746,
+      "is_no": false,
+      "conditionId": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a",
+      "slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
+      "eventSlug": "peru-presidential-election-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+36.9%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.2672367498706316,
+      "market_price": 0.6361837493531581,
+      "edge": 0.3689469994825265,
+      "edge_percent": 36.89469994825265,
+      "min_edge_required": 0.03,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "common",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "common",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Keiko Fujimori secures a strong party base and support from key political allies",
+          "Economic conditions in Peru improve, reducing public dissatisfaction",
+          "Effective campaigning that resonates with voters' concerns and aspirations"
+        ],
+        "weakest_link": "Economic conditions in Peru improve, reducing public dissatisfaction"
+      },
+      "category": "politics_near",
+      "narrative_drivers": [
+        "Public sentiment towards Fujimori's political legacy and family name",
+        "The impact of opposition candidates and their platforms on the election landscape"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "CONFLICT",
+      "signal_emoji": "\u26a0\ufe0f",
+      "signal_strength": 70,
+      "interpretation": "Insider buying YES despite statistical overpricing",
+      "action_suggestion": "Requires manual analysis: insider may have real info OR is part of irrational crowd",
+      "insider_score": 70,
+      "insider_position": "YES",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.3689469994825265,
+      "edge_percent": 36.89469994825265
+    },
+    "financial_analyst": {
+      "signal_quality": 46.0,
+      "stance": "WATCH_ONLY",
+      "edge_percent": 36.89,
+      "signal_strength": 70.0,
+      "insider_score": 70.0,
+      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    }
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa1516bca28ac6ed065fe53361903fcca700e6d3a738b90b54b13f719efca5690",
+    "wallet": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+    "trader": {
+      "rank": 5,
+      "address": "0x2005d16a84ceefa912d4e380cd32e7ff827875ea",
+      "username": "RN1",
+      "profit": 9433959.96679925,
+      "volume": 618437708.9536142,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x109fb8a89bc302e94fe3e930a493f8486d826b8c",
+      "side": "BUY",
+      "asset": "92414594351671835261391500979660097006383067088013751434865378783612714651002",
+      "conditionId": "0x5833eb918b6df030934f699e3d477db4ededda8f4d1b7e118a91029ab2d4d152",
+      "size": 10000,
+      "price": 0.51,
+      "timestamp": 1780787836,
+      "title": "Hurricanes vs. Golden Knights",
+      "slug": "nhl-car-las-2026-06-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-car-las-2026-06-06",
+      "outcome": "Hurricanes",
+      "outcomeIndex": 0,
+      "name": "Demirim",
+      "pseudonym": "Altruistic-Extreme",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa1516bca28ac6ed065fe53361903fcca700e6d3a738b90b54b13f719efca5690",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Hurricanes vs. Golden Knights",
+    "market_slug": "nhl-car-las-2026-06-06",
+    "amount": 5100.0
   }
 ]
