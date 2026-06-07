@@ -1,36 +1,204 @@
-name: Event Scanner (v5)
+"""
+event_scanner.py — direct event-market scanner (v5 strategy).
 
-on:
-  schedule:
-    - cron: '0 */6 * * *'   # every 6 hours — events aren't time-critical
-  workflow_dispatch:
+Replaces the whale-copy approach. Instead of reacting to large trades (which
+skew toward sports, where we have no edge), we scan event markets directly and
+flag the only region with a validated, theory-backed edge:
 
-jobs:
-  scan:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
+    EVENT (not sport) + NO side underpriced + market overprices YES.
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '3.11'
+Edge source: optimism/longshot bias on binary event markets. Crowds overpay for
+"YES, it will happen", so NO is systematically underpriced. Confirmed in our data
+(NO on events: WR ~81%). Sport has no such bias and is excluded.
 
-      - name: Install deps
-        run: pip install requests
+Pipeline:
+  1. Fetch active markets (collector.get_active_markets / priority).
+  2. Gate: event-only, binary, NO in [0.10, 0.50], min liquidity, time window.
+  3. AI estimates true P(YES). Trade only if market overprices YES by >= EDGE_MIN.
+  4. Emit candidate with explicit "market X% vs estimate Y%" reasoning.
 
-      - name: Run event scan
-        env:
-          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          echo "Event scan — $(date -u +'%Y-%m-%d %H:%M UTC')"
-          python scan_events.py
+This module is pure logic + Gamma reads. AI call is injected so it can be tested
+offline. No keys handled here.
+"""
+from __future__ import annotations
+import json
+import re
+from dataclasses import dataclass, asdict
+from datetime import datetime, timezone
+from typing import Dict, List, Optional, Callable
 
-      - name: Commit journal + seen state
-        run: |
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add event_journal.jsonl event_seen.json 2>/dev/null || true
-          git diff --staged --quiet || git commit -m "event scan: update journal [skip ci]"
-          git push || echo "nothing to push"
+from config import (
+    ODDS_FILTER_MIN, ODDS_FILTER_MAX,
+)
+
+# ── Strategy constants (frozen; see changelog) ─────────────────────────────
+NO_ODDS_MIN = 0.10          # skip NO cheaper than this (resolution-risk longshots)
+NO_ODDS_MAX = 0.50          # only underpriced NO; >0.5 means market already favors NO
+MIN_LIQUIDITY = 5_000       # $ — thin markets have unreliable prices & bad fills
+MIN_HOURS_TO_RESOLVE = 12   # avoid HFT/last-minute markets
+MAX_DAYS_TO_RESOLVE = 120   # avoid capital locked for months
+EDGE_MIN = 0.15             # required gap: market P(YES) - AI P(YES) >= 15pp
+MIN_CONFIDENCE = "medium"   # ignore low-confidence AI estimates (too noisy to trade)
+_CONF_RANK = {"low": 0, "medium": 1, "high": 2}
+
+# Sport / HFT exclusion — these are the streams where we have NO edge.
+SPORT_MARKERS = [
+    " vs ", " vs. ", "win on", "beat ", "handicap", "-1.5", "+1.5", "-2.5", "+2.5",
+    "moneyline", "nba", "nfl", "nhl", "mlb", "wta", "atp", "fifa", "ucl", "epl",
+    "la liga", "serie a", "bundesliga", "friendly", "match", "vs the",
+]
+HFT_MARKERS = ["15m", "15 min", "updown", "up or down", "this hour", "next hour"]
+
+
+@dataclass
+class Candidate:
+    question: str
+    condition_id: str
+    market_yes_price: float     # market-implied P(YES)
+    no_price: float             # price of the NO token (our entry)
+    ai_yes_estimate: float      # AI's independent P(YES)
+    edge: float                 # market_yes_price - ai_yes_estimate
+    liquidity: float
+    end_date: str
+    reasoning: str
+    slug: str = ""
+
+    def to_alert(self) -> Dict:
+        return asdict(self)
+
+
+def _is_sport_or_hft(question: str) -> bool:
+    q = f" {question.lower()} "
+    return any(m in q for m in SPORT_MARKERS) or any(m in q for m in HFT_MARKERS)
+
+
+def _parse_prices(market: Dict) -> Optional[tuple]:
+    """Return (yes_price, no_price) for a binary Yes/No market, else None."""
+    outcomes = market.get("outcomes")
+    prices = market.get("outcomePrices")
+    # Gamma returns these as JSON strings sometimes.
+    if isinstance(outcomes, str):
+        try: outcomes = json.loads(outcomes)
+        except Exception: return None
+    if isinstance(prices, str):
+        try: prices = json.loads(prices)
+        except Exception: return None
+    if not outcomes or not prices or len(outcomes) != 2 or len(prices) != 2:
+        return None
+    labels = [str(o).strip().lower() for o in outcomes]
+    if set(labels) != {"yes", "no"}:
+        return None  # named / multi-outcome market — no YES/NO bias to exploit
+    try:
+        pmap = {labels[i]: float(prices[i]) for i in range(2)}
+    except Exception:
+        return None
+    yes, no = pmap.get("yes", 0.0), pmap.get("no", 0.0)
+    if not (0 < yes < 1 and 0 < no < 1):
+        return None
+    return yes, no
+
+
+def _hours_to_resolve(market: Dict) -> Optional[float]:
+    ed = market.get("endDate") or market.get("end_date")
+    if not ed:
+        return None
+    try:
+        end = datetime.fromisoformat(str(ed).replace("Z", "+00:00"))
+        return (end - datetime.now(timezone.utc)).total_seconds() / 3600
+    except Exception:
+        return None
+
+
+def passes_gate(market: Dict) -> Optional[tuple]:
+    """
+    Structural gate (no AI yet). Returns (yes_price, no_price, liq, hours) if the
+    market is a tradeable event-NO candidate, else None.
+    """
+    q = market.get("question", "") or market.get("title", "")
+    if not q or _is_sport_or_hft(q):
+        return None
+
+    parsed = _parse_prices(market)
+    if not parsed:
+        return None
+    yes_price, no_price = parsed
+
+    # NO must be in the underpriced band.
+    if not (NO_ODDS_MIN <= no_price < NO_ODDS_MAX):
+        return None
+
+    liq = float(market.get("liquidity", 0) or market.get("volume", 0) or 0)
+    if liq < MIN_LIQUIDITY:
+        return None
+
+    hrs = _hours_to_resolve(market)
+    if hrs is None or not (MIN_HOURS_TO_RESOLVE <= hrs <= MAX_DAYS_TO_RESOLVE * 24):
+        return None
+
+    return yes_price, no_price, liq, hrs
+
+
+def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> Optional[Candidate]:
+    """
+    Full evaluation: structural gate + AI mispricing check.
+    `ai_estimate_fn(question)` returns {"prob": 0..1, "conf": str, "why": str} or None.
+    Injected for testability.
+    """
+    gated = passes_gate(market)
+    if not gated:
+        return None
+    yes_price, no_price, liq, _ = gated
+
+    q = market.get("question", "") or market.get("title", "")
+    est = ai_estimate_fn(q)
+    if not est or est.get("prob") is None:
+        return None
+
+    # Skip low-confidence estimates — they're too noisy to bet on.
+    if _CONF_RANK.get(est.get("conf", "low"), 0) < _CONF_RANK[MIN_CONFIDENCE]:
+        return None
+
+    ai_yes = float(est["prob"])
+    if not (0 <= ai_yes <= 1):
+        return None
+
+    edge = yes_price - ai_yes          # market overprices YES by this much
+    if edge < EDGE_MIN:
+        return None                    # not enough mispricing — skip
+
+    why = est.get("why", "")
+    reasoning = (
+        f"Рынок оценивает YES в {yes_price*100:.0f}%, "
+        f"независимая оценка — {ai_yes*100:.0f}% (увер.: {est.get('conf')}). "
+        f"YES переоценён на {edge*100:.0f} п.п. → NO недооценён. "
+        f"Вход в NO по {no_price*100:.0f}%."
+    )
+    if why:
+        reasoning += f"\n{why}"
+    return Candidate(
+        question=q,
+        condition_id=market.get("conditionId", ""),
+        market_yes_price=round(yes_price, 4),
+        no_price=round(no_price, 4),
+        ai_yes_estimate=round(ai_yes, 4),
+        edge=round(edge, 4),
+        liquidity=round(liq, 2),
+        end_date=str(market.get("endDate", "")),
+        reasoning=reasoning,
+        slug=market.get("slug", ""),
+    )
+
+
+def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
+    """Run the full pipeline over a list of markets, return ranked candidates."""
+    out = []
+    for m in markets:
+        try:
+            c = evaluate(m, ai_estimate_fn)
+            if c:
+                out.append(c)
+        except Exception:
+            continue
+    # Strongest mispricing first.
+    out.sort(key=lambda c: c.edge, reverse=True)
+    return out
