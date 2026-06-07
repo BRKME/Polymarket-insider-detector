@@ -308,3 +308,111 @@ def generate_trade_context(
     except Exception as e:
         logger.warning(f"AI context failed: {e}")
         return None
+
+
+# ════════════════════════════════════════════════════════════════════════
+# v5 — Probability estimator for the event-market scanner.
+# Asks Grok for an INDEPENDENT P(YES) on a binary event market, with web/X
+# search for fresh facts. Used to detect mispricing vs the market price.
+# Model-agnostic by design: swap the transport here to change provider.
+# ════════════════════════════════════════════════════════════════════════
+
+ESTIMATOR_SYSTEM = """Ты независимый прогнозист-аналитик событийных рынков.
+Тебе дают вопрос бинарного рынка (исход YES/NO) и просят оценить ИСТИННУЮ
+вероятность исхода YES.
+
+ЗАДАЧА: вернуть число от 0 до 100 — твою оценку вероятности YES в процентах.
+
+ПРАВИЛА:
+1. Ищи свежие факты через web_search/x_search. Не выдумывай.
+2. Оценивай НЕЗАВИСИМО. Не привязывайся к рыночной цене (её тебе не дают).
+3. Базовые ставки имеют значение: большинство «случится ли X к дате Y?»
+   событий НЕ происходят в срок. Не завышай вероятность YES из оптимизма.
+4. Если фактов мало — давай консервативную оценку и низкую уверенность.
+5. Никаких эмоций, только вероятность.
+
+ФОРМАТ ОТВЕТА (строго):
+PROB: <число 0-100>
+CONF: <low|medium|high>
+WHY: <1-2 коротких факта, обоснующих оценку>
+"""
+
+
+def estimate_probability(question: str) -> Optional[dict]:
+    """
+    Estimate independent P(YES) for a binary event-market question.
+
+    Returns {"prob": float 0..1, "conf": str, "why": str} or None on failure.
+    Confidence is surfaced so the scanner can require 'medium'+ before trading.
+    """
+    if not question or not XAI_API_KEY:
+        return None
+
+    prompt = (
+        f"Вопрос рынка: «{question}»\n\n"
+        f"Оцени истинную вероятность исхода YES. Сначала найди свежие факты, "
+        f"потом дай число. Ответ строго в требуемом формате."
+    )
+
+    try:
+        import requests as req
+        payload = {
+            "model": "grok-4.3",
+            "input": [
+                {"role": "system", "content": ESTIMATOR_SYSTEM},
+                {"role": "user", "content": prompt},
+            ],
+            "tools": [{"type": "x_search"}, {"type": "web_search"}],
+        }
+        resp = req.post(
+            "https://api.x.ai/v1/responses",
+            headers={
+                "Content-Type": "application/json",
+                "Authorization": f"Bearer {XAI_API_KEY}",
+            },
+            json=payload,
+            timeout=60,
+        )
+        if resp.status_code != 200:
+            print(f"  ❌ estimator HTTP {resp.status_code}: {resp.text[:160]}")
+            return None
+
+        data = resp.json()
+        parts = []
+        for block in data.get("output", []):
+            bt = block.get("type")
+            if bt == "message":
+                for c in block.get("content", []):
+                    if c.get("type") in ("output_text", "text"):
+                        parts.append(c.get("text", ""))
+            elif bt in ("output_text", "text"):
+                parts.append(block.get("text", ""))
+        text = "\n".join(parts).strip() or data.get("output_text", "")
+        if not text:
+            return None
+        return _parse_probability(text)
+    except Exception as e:
+        print(f"  ❌ estimator error: {e}")
+        return None
+
+
+def _parse_probability(text: str) -> Optional[dict]:
+    """Parse 'PROB: 45 / CONF: medium / WHY: ...' from estimator output."""
+    prob_m = re.search(r'PROB:\s*([0-9]{1,3}(?:\.[0-9]+)?)', text, re.IGNORECASE)
+    if not prob_m:
+        # Fallback: first standalone percentage in the text.
+        prob_m = re.search(r'\b([0-9]{1,3})\s*%', text)
+    if not prob_m:
+        return None
+    prob = float(prob_m.group(1))
+    if prob > 1:
+        prob = prob / 100.0
+    prob = max(0.0, min(1.0, prob))
+
+    conf_m = re.search(r'CONF:\s*(low|medium|high)', text, re.IGNORECASE)
+    conf = conf_m.group(1).lower() if conf_m else "low"
+
+    why_m = re.search(r'WHY:\s*(.+)', text, re.IGNORECASE | re.DOTALL)
+    why = _clean_ai_response(why_m.group(1).strip()) if why_m else ""
+
+    return {"prob": round(prob, 4), "conf": conf, "why": why}
