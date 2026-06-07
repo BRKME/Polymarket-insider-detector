@@ -5,6 +5,9 @@ on:
     - cron: '0 */6 * * *'   # every 6 hours — events aren't time-critical
   workflow_dispatch:
 
+permissions:
+  contents: write           # allow committing the journal back
+
 jobs:
   scan:
     runs-on: ubuntu-latest
@@ -25,7 +28,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           echo "Event scan — $(date -u +'%Y-%m-%d %H:%M UTC')"
-          python diag_sources.py
+          python scan_events.py
 
       - name: Commit journal + seen state
         run: |
