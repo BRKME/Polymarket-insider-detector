@@ -97,15 +97,53 @@ def run() -> None:
     markets = collector.get_active_markets(limit=MARKET_FETCH_LIMIT)
     print(f"  fetched {len(markets)} active markets")
 
-    # Cheap structural gate first (no AI), so we only spend Grok calls on
-    # markets that already passed event/NO/liquidity/time filters.
+    # Show the raw field shapes of the first market once — lets us spot when
+    # live Gamma returns prices/liquidity in a different format than expected.
+    if markets:
+        m0 = markets[0]
+        print("  --- sample market fields ---")
+        for k in ("question", "outcomes", "outcomePrices", "liquidity",
+                  "volume", "endDate", "conditionId", "slug"):
+            print(f"    {k}: {type(m0.get(k)).__name__} = {repr(m0.get(k))[:70]}")
+
+    # Cheap structural gate first (no AI). Track WHY each market fails so a
+    # zero-candidate run is debuggable from the log alone.
+    funnel = {"sport_or_hft": 0, "not_binary_yesno": 0, "no_out_of_band": 0,
+              "low_liquidity": 0, "bad_time": 0, "already_seen": 0, "PASS": 0}
+    no_band_count = 0
     gated = []
     for m in markets:
         cid = m.get("conditionId", "")
         if cid in seen:
+            funnel["already_seen"] += 1
             continue
-        if es.passes_gate(m):
-            gated.append(m)
+        q = m.get("question", "") or m.get("title", "")
+        if not q or es._is_sport_or_hft(q):
+            funnel["sport_or_hft"] += 1
+            continue
+        parsed = es._parse_prices(m)
+        if not parsed:
+            funnel["not_binary_yesno"] += 1
+            continue
+        _, no_price = parsed
+        if not (es.NO_ODDS_MIN <= no_price < es.NO_ODDS_MAX):
+            funnel["no_out_of_band"] += 1
+            continue
+        no_band_count += 1
+        liq = float(m.get("liquidity", 0) or m.get("volume", 0) or 0)
+        if liq < es.MIN_LIQUIDITY:
+            funnel["low_liquidity"] += 1
+            continue
+        hrs = es._hours_to_resolve(m)
+        if hrs is None or not (es.MIN_HOURS_TO_RESOLVE <= hrs <= es.MAX_DAYS_TO_RESOLVE * 24):
+            funnel["bad_time"] += 1
+            continue
+        funnel["PASS"] += 1
+        gated.append(m)
+
+    print(f"  --- gate funnel ---")
+    for k, v in funnel.items():
+        print(f"    {k}: {v}")
     print(f"  {len(gated)} passed structural gate (event + NO 0.1-0.5 + liquid)")
 
     gated = gated[:MAX_AI_CALLS]  # cost cap
