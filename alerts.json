@@ -30482,7 +30482,17 @@
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
     "ai_consensus": "SKIP",
-    "resolution_last_check": "2026-06-06T08:24:33.083091+00:00"
+    "resolution_last_check": "2026-06-06T08:24:33.083091+00:00",
+    "resolution": {
+      "outcome": "Alexandra Eala",
+      "checked_at": "2026-06-07T08:45:13.125671+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -796.33,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30530,7 +30540,8 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Ipsos (29\u201330 May): Fujimori 38%, S\u00e1nchez 35%; Datum (26\u201330 May): Fujimori 39.8%, S\u00e1nchez 35.9%\n\u2022 Polymarket/Kalshi (6 June): Fujimori win probability 61\u201363%",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution_last_check": "2026-06-07T08:45:13.125736+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30578,7 +30589,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Panama +210 (implied ~32% win prob) vs Bosnia +115 in ESPN odds for the friendly\n\u2022 Bosnia slight favorites per bookmakers due to superior squad quality; first H2H ever",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-06-07T08:45:15.303950+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2235.42,
+      "pnl_flat": 2.24,
+      "roi": 223.8,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30626,7 +30647,17 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Royals 25-38, Twins 29-35; Royals snapped 6-game losing streak with wins over Reds, Twins 3-7 in last 10 games\n\u2022 H2H 2026: Royals won last meeting 8-6 vs Twins (June 4)",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "Kansas City Royals",
+      "checked_at": "2026-06-07T08:45:17.385304+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 9696.36,
+      "pnl_flat": 1.33,
+      "roi": 132.6,
+      "source": "gamma"
+    }
   },
   {
     "market": "Spread: Minnesota Twins (-1.5)",
@@ -30738,7 +30769,17 @@
     "ai_context": "[CONSENSUS:SKIP] [Grok] \u2022 \u274c SKIP\n\u2022 Twins 29-35, Royals 25-39; both 3-7 \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 10 \u0438\u0433\u0440\u0430\u0445\n\u2022 H2H 2026: \u0441\u0435\u0440\u0438\u044f 1-1 (Royals 8-6, Twins 5-3)",
     "ai_verdict": "SKIP",
     "ai_model": "Grok",
-    "ai_consensus": "SKIP"
+    "ai_consensus": "SKIP",
+    "resolution": {
+      "outcome": "Kansas City Royals",
+      "checked_at": "2026-06-07T08:45:20.213030+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1176.06,
+      "pnl_flat": 0.64,
+      "roi": 63.9,
+      "source": "gamma"
+    }
   },
   {
     "market": "San Francisco Giants vs. Chicago Cubs",
@@ -30846,6 +30887,16 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
+    },
+    "resolution": {
+      "outcome": "Chicago Cubs",
+      "checked_at": "2026-06-07T08:45:23.240412+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5000.0,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
     }
   },
   {
@@ -30954,7 +31005,8 @@
       "signal_strength": 70.0,
       "insider_score": 70.0,
       "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    }
+    },
+    "resolution_last_check": "2026-06-07T08:45:23.240490+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -30998,7 +31050,17 @@
     },
     "market": "Hurricanes vs. Golden Knights",
     "market_slug": "nhl-car-las-2026-06-06",
-    "amount": 5100.0
+    "amount": 5100.0,
+    "resolution": {
+      "outcome": "Golden Knights",
+      "checked_at": "2026-06-07T08:45:25.030101+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -5100.0,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31042,7 +31104,17 @@
     },
     "market": "Hurricanes vs. Golden Knights",
     "market_slug": "nhl-car-las-2026-06-06",
-    "amount": 15000.0
+    "amount": 15000.0,
+    "resolution": {
+      "outcome": "Golden Knights",
+      "checked_at": "2026-06-07T08:45:25.030168+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 15000.0,
+      "pnl_flat": 1.0,
+      "roi": 100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31086,7 +31158,8 @@
     },
     "market": "Game Handicap: TES (-1.5) vs Team WE (+1.5)",
     "market_slug": "lol-tes-we-2026-06-07",
-    "amount": 2445.564222
+    "amount": 2445.564222,
+    "resolution_last_check": "2026-06-07T08:45:25.584257+00:00"
   },
   {
     "market": "Will Alexander Zverev win the 2026 Men's French Open?",
@@ -31194,6 +31267,7 @@
       "signal_strength": 105.0,
       "insider_score": 70.0,
       "risk_note": "High stake detected \u2014 copy with reduced sizing (25-40% of source risk)."
-    }
+    },
+    "resolution_last_check": "2026-06-07T08:45:25.943151+00:00"
   }
 ]
