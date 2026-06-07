@@ -1,0 +1,36 @@
+name: Event Scanner (v5)
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'   # every 6 hours — events aren't time-critical
+  workflow_dispatch:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Run event scan
+        env:
+          XAI_API_KEY: ${{ secrets.XAI_API_KEY }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          echo "Event scan — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          python scan_events.py
+
+      - name: Commit journal + seen state
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add event_journal.jsonl event_seen.json 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "event scan: update journal [skip ci]"
+          git push || echo "nothing to push"
