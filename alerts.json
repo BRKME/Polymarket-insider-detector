@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x72604e8155f61a2431b287e67fac56718fe35b0a773a9a1cabc041227b4ba5a0",
-    "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
-    "trader": {
-      "rank": 20,
-      "address": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
-      "username": "reachingthesky",
-      "profit": 3742635.156562068,
-      "volume": 13750266.834776,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xf6de8f922f3e7cefb31eb87799059c949c0f95e8",
-      "side": "BUY",
-      "asset": "54754929907720209668809079943681031433684783617588893287676385583188854303727",
-      "conditionId": "0x7f5736786ed94a48af9061c85a22f092b9a59b67cbf43859d8d8bb297fc1ba0b",
-      "size": 7100,
-      "price": 0.30343067605633806,
-      "timestamp": 1777690234,
-      "title": "Lakers vs. Rockets",
-      "slug": "nba-lal-hou-2026-05-01",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-lal-hou-2026-05-01",
-      "outcome": "Rockets",
-      "outcomeIndex": 1,
-      "name": "0xF6dE8F922f3E7cefB31eb87799059C949c0f95e8-1761286617423",
-      "pseudonym": "Milky-Mean",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x72604e8155f61a2431b287e67fac56718fe35b0a773a9a1cabc041227b4ba5a0",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Lakers vs. Rockets",
-    "market_slug": "nba-lal-hou-2026-05-01",
-    "amount": 2154.3578,
-    "ai_context": "\u274c SKIP \u2014 The Rockets have lost 2 of their last 3 games against the Lakers and are missing key players due to injuries.\nIn their most recent matchup on March 18, 2026, the Rockets lost 116-124 to the Lakers. Additionally, the Rockets are without center Steven Adams, who is out for the season due to an ankle injury, and point guard Fred VanVleet, who is out for the season with an ACL injury. (covers.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "Lakers",
-      "checked_at": "2026-05-31T13:09:39.301154+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2154.36,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x91fcfb7afd81d46a38759076d433b8d34848e6f8937e7092c8ae8cff898f7597",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -31155,5 +31099,49 @@
     "market": "Hurricanes vs. Golden Knights",
     "market_slug": "nhl-car-las-2026-06-06",
     "amount": 15000.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xa1ee253bbc2a207139ad5bedab4fb34a983840c300aab2e5f8d3597ad14b9504",
+    "wallet": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+    "trader": {
+      "rank": 29,
+      "address": "0x14964aefa2cd7caff7878b3820a690a03c5aa429",
+      "username": "gmpm",
+      "profit": 3530847.5828178823,
+      "volume": 85100130.83044697,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdbca2d03c77b563b1391a2f5ca19597bb741ca8d",
+      "side": "BUY",
+      "asset": "114856123939206887228134340151369183717154730471078629695758744196002786259933",
+      "conditionId": "0x3aa3dbb98127b19b8a5f2b65c9a892cc4add08b8f2d4a92e2d175865d75e3016",
+      "size": 4445.564221,
+      "price": 0.4498866509570102,
+      "timestamp": 1780808911,
+      "title": "Game Handicap: TES (-1.5) vs Team WE (+1.5)",
+      "slug": "lol-tes-we-2026-06-07-game-handicap-away-1pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-of-legends-61a4f083a6.png",
+      "eventSlug": "lol-tes-we-2026-06-07",
+      "outcome": "Team WE",
+      "outcomeIndex": 1,
+      "name": "TIENWEI",
+      "pseudonym": "Handsome-Sousaphone",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xa1ee253bbc2a207139ad5bedab4fb34a983840c300aab2e5f8d3597ad14b9504",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Game Handicap: TES (-1.5) vs Team WE (+1.5)",
+    "market_slug": "lol-tes-we-2026-06-07",
+    "amount": 2445.564222
   }
 ]
