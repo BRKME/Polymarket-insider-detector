@@ -40,27 +40,43 @@ def make_request_with_retry(url: str, params: dict, max_retries: int = MAX_RETRI
     return None
 
 def get_active_markets(limit: int = 50) -> List[Dict]:
-    """Fetch active markets sorted by volume"""
+    """Fetch active markets sorted by LIQUIDITY (not volume).
+
+    Volume sort returns HFT 'Up or Down 5min' junk with null prices. Liquidity
+    sort returns real markets with populated outcomePrices/liquidity/endDate.
+    Paginates so we can pull a wide slice (event markets with NO in 0.1-0.5 are
+    mid-liquidity, not top-5, so a large window is needed).
+    """
     url = f"{GAMMA_API_URL}/markets"
-    params = {
-        "limit": limit,
-        "active": "true",
-        "closed": "false",
-        "order": "volume24hr",
-        "_sort": "volume24hr:desc"
-    }
-    
-    try:
-        time.sleep(REQUEST_DELAY)
-        response = make_request_with_retry(url, params)
-        if response:
-            data = response.json()
-            print(f"[{datetime.now()}] ✓ Fetched {len(data)} markets")
-            return data
-        return []
-    except Exception as e:
-        print(f"[{datetime.now()}] ❌ Error fetching markets: {e}")
-        return []
+    out: List[Dict] = []
+    page_size = 100
+    offset = 0
+    while len(out) < limit:
+        params = {
+            "active": "true",
+            "closed": "false",
+            "limit": min(page_size, limit - len(out)),
+            "offset": offset,
+            "order": "liquidityNum",
+            "ascending": "false",
+        }
+        try:
+            time.sleep(REQUEST_DELAY)
+            response = make_request_with_retry(url, params)
+            if not response:
+                break
+            batch = response.json()
+            if not batch:
+                break
+            out.extend(batch)
+            offset += len(batch)
+            if len(batch) < params["limit"]:
+                break
+        except Exception as e:
+            print(f"[{datetime.now()}] ❌ Error fetching markets: {e}")
+            break
+    print(f"[{datetime.now()}] ✓ Fetched {len(out)} markets (by liquidity)")
+    return out
 
 
 def get_geopolitical_markets(limit: int = 50) -> List[Dict]:
