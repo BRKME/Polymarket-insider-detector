@@ -27,7 +27,7 @@ from ai_context import estimate_probability
 
 JOURNAL = Path("event_journal.jsonl")   # one JSON line per alerted candidate
 SEEN = Path("event_seen.json")          # condition_ids already alerted
-MARKET_FETCH_LIMIT = 200                 # how many active markets to pull
+MARKET_FETCH_LIMIT = 500                 # wide slice — event NO-markets are mid-liquidity
 MAX_AI_CALLS = 40                        # cap Grok calls per run (cost control)
 
 
