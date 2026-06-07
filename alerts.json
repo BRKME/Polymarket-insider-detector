@@ -1,132 +1,5 @@
 [
   {
-    "market": "Will Manchester City FC win on 2026-05-04?",
-    "market_slug": "epl-eve-mac-2026-05-04-mac",
-    "event_slug": "epl-eve-mac-2026-05-04-mac",
-    "wallet": "0x51f93522a37c5c2464890fabd10a0d0e092526f8",
-    "analysis": {
-      "score": 70,
-      "flags": [
-        "Recent wallet (7d old)",
-        "Large bet ($1,980)",
-        "Pre-event latency: 2367m"
-      ],
-      "amount": 1979.9999999999998,
-      "odds": 0.6599999999999999,
-      "raw_price": 0.34,
-      "outcome": "No",
-      "potential_pnl": 1020.0000000000002,
-      "pnl_multiplier": 0.5151515151515154,
-      "wallet_age_days": 7,
-      "total_activities": 20
-    },
-    "timestamp": "2026-05-02T08:42:55.488257",
-    "trade_hash": "0xd75473c0960210a91b7dbdadff95db3ccadbc42afaf9a801e43cbead05c20994",
-    "trade_timestamp": 1777710806,
-    "latency": {
-      "latency_seconds": 141994.0,
-      "latency_minutes": 2366.5666666666666,
-      "is_pre_event": true,
-      "severity": "CRITICAL",
-      "trade_time": "2026-05-02T08:33:26+00:00",
-      "event_time": "2026-05-04T00:00:00+00:00"
-    },
-    "wallet_stats": null,
-    "top_trader": null,
-    "trade_data": {
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "normalized_position": "NO",
-      "side": "BUY",
-      "price": 0.34,
-      "effective_price": 0.6599999999999999,
-      "size": 3000.0,
-      "amount": 1979.9999999999998,
-      "potential_pnl": 1020.0000000000002,
-      "pnl_multiplier": 0.5151515151515154,
-      "is_no": true,
-      "conditionId": "0x998d69f881036ac580f6dc0a18b6c3ec48f167fd00799db9e58bf43e07b4b27e",
-      "slug": "epl-eve-mac-2026-05-04-mac",
-      "eventSlug": "epl-eve-mac-2026-05-04"
-    },
-    "irrationality": {
-      "irrationality_score": 25,
-      "flags": [
-        "Significant mispricing edge (+13.2%)"
-      ],
-      "category": "politics_near",
-      "category_info": {
-        "strength": "medium",
-        "typical_overpricing": 0.02,
-        "min_edge": 0.03
-      },
-      "is_irrational": false
-    },
-    "mispricing": {
-      "rational_estimate": 0.208,
-      "market_price": 0.34,
-      "edge": 0.13200000000000003,
-      "edge_percent": 13.200000000000003,
-      "min_edge_required": 0.05,
-      "is_mispriced": true,
-      "edge_quality": "STRONG",
-      "base_rate_class": "common",
-      "confidence": "medium"
-    },
-    "factors": {
-      "base_rate_class": "common",
-      "structural_feasibility": {
-        "independent_conditions_required": 3,
-        "conditions": [
-          "Strong squad performance",
-          "Key player fitness",
-          "Favorable match conditions"
-        ],
-        "weakest_link": "Key player fitness"
-      },
-      "category": "sports",
-      "narrative_drivers": [
-        "Team's historical performance",
-        "Fan and media expectations"
-      ],
-      "confidence_in_analysis": "medium"
-    },
-    "combined_signal": {
-      "signal_type": "ALPHA",
-      "signal_emoji": "\ud83d\udd25",
-      "signal_strength": 95,
-      "interpretation": "Smart money (NO) confirms YES is overpriced",
-      "action_suggestion": "High conviction: insider + statistics aligned",
-      "insider_score": 70,
-      "insider_position": "NO",
-      "irrationality_score": 25,
-      "is_irrational": false,
-      "is_mispriced": true,
-      "edge": 0.13200000000000003,
-      "edge_percent": 13.200000000000003
-    },
-    "financial_analyst": {
-      "signal_quality": 73.8,
-      "stance": "SELECTIVE",
-      "edge_percent": 13.2,
-      "signal_strength": 95.0,
-      "insider_score": 70.0,
-      "risk_note": "Use fixed fractional risk (1-2% bankroll) and avoid averaging down."
-    },
-    "ai_context": "\u274c SKIP \u2014 Manchester City is in strong form and has a favorable head-to-head record against Everton.\nThey've won their last two matches, including a 1-0 victory at Burnley on April 22, 2026. (mancity.com) Additionally, Manchester City has an excellent away record this season, with 9 wins, 4 draws, and 4 losses. (footystats.org) Everton has been inconsistent, with recent results including a 2-1 loss to Arsenal on April 11, 2026. (skysports.",
-    "ai_verdict": "SKIP",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T13:09:44.206296+00:00",
-      "insider_win": true,
-      "model_correct": true,
-      "pnl": 1020.0,
-      "pnl_flat": 0.52,
-      "roi": 51.5,
-      "source": "gamma"
-    }
-  },
-  {
     "type": "TOP_TRADER",
     "trade_hash": "0x31668caf2ba92f9174d575148a2b8fbd7a3daba5240ff6cca0c50e79f30fd36c",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
@@ -31269,5 +31142,49 @@
       "risk_note": "High stake detected \u2014 copy with reduced sizing (25-40% of source risk)."
     },
     "resolution_last_check": "2026-06-07T08:45:25.943151+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb833fa50733271725f2c4d9a4fc078dee36ad8fab669d39749d297eef0fbd177",
+    "wallet": "0x019782cab5d844f02bafb71f512758be78579f3c",
+    "trader": {
+      "rank": 26,
+      "address": "0x019782cab5d844f02bafb71f512758be78579f3c",
+      "username": "majorexploiter",
+      "profit": 3668541.581104434,
+      "volume": 9413714.671942003,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
+      "side": "BUY",
+      "asset": "26654101287349265721254086118599316212221936691088962860149455150579108152824",
+      "conditionId": "0xffeb9a62a66aca79403befa0d016fb2718758842a1e0e50dd16369d54b2f0c3e",
+      "size": 3685.53,
+      "price": 0.6,
+      "timestamp": 1780855779,
+      "title": "Chicago Sky vs. Toronto Tempo",
+      "slug": "wnba-chi-tor-2026-06-07",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/wnba-logo-PAR4befDAubM.png",
+      "eventSlug": "wnba-chi-tor-2026-06-07",
+      "outcome": "Toronto Tempo",
+      "outcomeIndex": 1,
+      "name": "mooseborzoi",
+      "pseudonym": "Agitated-Bricklaying",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb833fa50733271725f2c4d9a4fc078dee36ad8fab669d39749d297eef0fbd177",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Chicago Sky vs. Toronto Tempo",
+    "market_slug": "wnba-chi-tor-2026-06-07",
+    "amount": 1474.2120000000002
   }
 ]
