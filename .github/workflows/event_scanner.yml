@@ -25,7 +25,7 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           echo "Event scan — $(date -u +'%Y-%m-%d %H:%M UTC')"
-          python scan_events.py
+          python diag_sources.py
 
       - name: Commit journal + seen state
         run: |
