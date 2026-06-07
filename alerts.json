@@ -1,61 +1,5 @@
 [
   {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x91fcfb7afd81d46a38759076d433b8d34848e6f8937e7092c8ae8cff898f7597",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515402,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xa7969c68e15f9579016e837f510e94bca42282fd",
-      "side": "BUY",
-      "asset": "74109112469864635875810572842639094617308380763929845382207559499626872175428",
-      "conditionId": "0x7775bc01314cb9d5a485c844c8d6627dd844dc1b8621f86055137b0dd55904a1",
-      "size": 18423.085226,
-      "price": 0.4342378000678093,
-      "timestamp": 1777699242,
-      "title": "Will Vissel K\u014dbe win on 2026-05-02?",
-      "slug": "j1100-gam-vis-2026-05-02-vis",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/japan-league-a40db9c2f9.png",
-      "eventSlug": "j1100-gam-vis-2026-05-02",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "alexinho67",
-      "pseudonym": "Mountainous-Effectiveness",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x91fcfb7afd81d46a38759076d433b8d34848e6f8937e7092c8ae8cff898f7597",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Vissel K\u014dbe win on 2026-05-02?",
-    "market_slug": "j1100-gam-vis-2026-05-02",
-    "amount": 7999.999999,
-    "ai_context": "\u2705 COPY \u2014 Vissel K\u014dbe has been in strong form recently, winning 4 of their last 5 matches.\nThey secured victories against Nagoya Grampus (3-2), Fagiano Okayama (4-1), Shimizu S-Pulse (2-0), and Avispa Fukuoka (2-1). (espn.com) Gamba Osaka has been inconsistent, losing 3 of their last 10 matches. (azscore.com) Given Vissel K\u014dbe's recent performance and Gamba Osaka's struggles, the trader's bet is supported.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T13:09:41.256861+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -8000.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
     "market": "Will Manchester City FC win on 2026-05-04?",
     "market_slug": "epl-eve-mac-2026-05-04-mac",
     "event_slug": "epl-eve-mac-2026-05-04-mac",
@@ -31143,5 +31087,113 @@
     "market": "Game Handicap: TES (-1.5) vs Team WE (+1.5)",
     "market_slug": "lol-tes-we-2026-06-07",
     "amount": 2445.564222
+  },
+  {
+    "market": "Will Alexander Zverev win the 2026 Men's French Open?",
+    "market_slug": "will-alexander-zverev-win-the-2026-mens-french-open",
+    "event_slug": "will-alexander-zverev-win-the-2026-mens-french-open",
+    "wallet": "0xe9ebfa078b8786783ef36e7eed7090d535aebdc3",
+    "analysis": {
+      "score": 70,
+      "flags": [
+        "New wallet (0d old)",
+        "Large bet ($51,963)",
+        "Low activity (1 txns)"
+      ],
+      "amount": 51963.090469999996,
+      "odds": 0.78075493586765,
+      "raw_price": 0.21924506413235,
+      "outcome": "No",
+      "potential_pnl": 14591.839999000003,
+      "pnl_multiplier": 0.2808116273881815,
+      "wallet_age_days": 0,
+      "total_activities": 1
+    },
+    "timestamp": "2026-06-07T08:22:01.022899",
+    "trade_hash": "0xe20b0c359004cdc0a6f3d4f15eb156b874b86a685e849ae36676b62876c6411b",
+    "trade_timestamp": 1780819864,
+    "latency": null,
+    "wallet_stats": null,
+    "top_trader": null,
+    "trade_data": {
+      "outcome": "No",
+      "outcomeIndex": 1,
+      "normalized_position": "NO",
+      "side": "BUY",
+      "price": 0.21924506413235,
+      "effective_price": 0.78075493586765,
+      "size": 66554.930469,
+      "amount": 51963.090469999996,
+      "potential_pnl": 14591.839999000003,
+      "pnl_multiplier": 0.2808116273881815,
+      "is_no": true,
+      "conditionId": "0x739e756119534672538d8df821a5b3321e2c802d80afff0c5790126be9b41281",
+      "slug": "will-alexander-zverev-win-the-2026-mens-french-open",
+      "eventSlug": "2026-mens-french-open-winner"
+    },
+    "irrationality": {
+      "irrationality_score": 35,
+      "flags": [
+        "Large mispricing edge (+15.5%)"
+      ],
+      "category": "politics_near",
+      "category_info": {
+        "strength": "medium",
+        "typical_overpricing": 0.02,
+        "min_edge": 0.03
+      },
+      "is_irrational": true
+    },
+    "mispricing": {
+      "rational_estimate": 0.06384901282647001,
+      "market_price": 0.21924506413235,
+      "edge": 0.15539605130588,
+      "edge_percent": 15.539605130587999,
+      "min_edge_required": 0.05,
+      "is_mispriced": true,
+      "edge_quality": "STRONG",
+      "base_rate_class": "rare",
+      "confidence": "medium"
+    },
+    "factors": {
+      "base_rate_class": "rare",
+      "structural_feasibility": {
+        "independent_conditions_required": 3,
+        "conditions": [
+          "Zverev maintains peak physical condition and avoids major injuries",
+          "Zverev continues to improve his clay court performance",
+          "Zverev successfully competes against top-ranked players in the lead-up to the tournament"
+        ],
+        "weakest_link": "Zverev successfully competes against top-ranked players in the lead-up to the tournament"
+      },
+      "category": "sports",
+      "narrative_drivers": [
+        "Zverev's historical performance on clay courts",
+        "Emergence of new competitors in men's tennis"
+      ],
+      "confidence_in_analysis": "medium"
+    },
+    "combined_signal": {
+      "signal_type": "ALPHA",
+      "signal_emoji": "\ud83d\udd25",
+      "signal_strength": 105,
+      "interpretation": "Smart money (NO) confirms YES is overpriced",
+      "action_suggestion": "High conviction: insider + statistics aligned",
+      "insider_score": 70,
+      "insider_position": "NO",
+      "irrationality_score": 35,
+      "is_irrational": true,
+      "is_mispriced": true,
+      "edge": 0.15539605130588,
+      "edge_percent": 15.539605130587999
+    },
+    "financial_analyst": {
+      "signal_quality": 79.3,
+      "stance": "HIGH_CONVICTION",
+      "edge_percent": 15.54,
+      "signal_strength": 105.0,
+      "insider_score": 70.0,
+      "risk_note": "High stake detected \u2014 copy with reduced sizing (25-40% of source risk)."
+    }
   }
 ]
