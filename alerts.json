@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x31668caf2ba92f9174d575148a2b8fbd7a3daba5240ff6cca0c50e79f30fd36c",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 16,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xeb739f5e4f45b0b68688bb252f08327bc01653b0",
-      "side": "BUY",
-      "asset": "46499122550938431002223886101335814676864426110808790004885728558811880243848",
-      "conditionId": "0xb9a9972f67fa61cae96bc0a7676935aa18ad9a886646ae9d0c2789e8eae3ff5d",
-      "size": 4000,
-      "price": 0.38,
-      "timestamp": 1777711848,
-      "title": "Will Brighton & Hove Albion FC win on 2026-05-02?",
-      "slug": "epl-new-bri-2026-05-02-bri",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-new-bri-2026-05-02",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "WINSONS",
-      "pseudonym": "Tense-Hometown",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x31668caf2ba92f9174d575148a2b8fbd7a3daba5240ff6cca0c50e79f30fd36c",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Brighton & Hove Albion FC win on 2026-05-02?",
-    "market_slug": "epl-new-bri-2026-05-02",
-    "amount": 1520.0,
-    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent form shows Brighton & Hove Albion has been inconsistent, but the trader's confidence suggests they have additional insights.\nBrighton & Hove Albion's recent form includes:\nApril 18, 2026: Lost 2-1 to Tottenham Hotspur.\nApril 21, 2026: Defeated Chelsea 3-1.\nApril 26, 2026: Lost 1-0 to Chelsea.\nTheir overall record this season is 12 wins, 10 draws, and 10 losses, placing them 9th in the Premier League. (footystats.",
-    "ai_verdict": "LEAN_COPY",
-    "resolution": {
-      "outcome": "No",
-      "checked_at": "2026-05-31T13:09:46.201345+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1520.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x40b9ce5b1bf7cd3fd4962b424f77ad988e4ebf48534ccdd937c5a99ba165adf4",
     "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
     "trader": {
@@ -31186,5 +31130,49 @@
     "market": "Chicago Sky vs. Toronto Tempo",
     "market_slug": "wnba-chi-tor-2026-06-07",
     "amount": 1474.2120000000002
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xedb623acf53e01f47700d706834fb70329c0d84ef263fa9d82f0bb64710e0c35",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xc72d7dcdb23597d143a83536fb97b1d7db7efc21",
+      "side": "BUY",
+      "asset": "9412911081229942152286206361927006404333040502115383650546259931724388834380",
+      "conditionId": "0x9feb1d1e882e3aeb7b9ff9932a0f5fc1ce446c75b846062a9192763431df9e0d",
+      "size": 7056.91,
+      "price": 0.6,
+      "timestamp": 1780872072,
+      "title": "Jordan vs. Colombia: O/U 3.5",
+      "slug": "fif-jor-col-2026-06-07-total-3pt5",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/fif.png",
+      "eventSlug": "fif-jor-col-2026-06-07-more-markets",
+      "outcome": "Under",
+      "outcomeIndex": 1,
+      "name": "HongYunX",
+      "pseudonym": "Waterlogged-Grade",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xedb623acf53e01f47700d706834fb70329c0d84ef263fa9d82f0bb64710e0c35",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Jordan vs. Colombia: O/U 3.5",
+    "market_slug": "fif-jor-col-2026-06-07-more-markets",
+    "amount": 2822.764
   }
 ]
