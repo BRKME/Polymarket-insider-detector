@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x5b553a91c7ebec0a7594377645aeff0b73f326dd55cef99b8c0e92f1373c8315",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.90515403,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
-      "side": "BUY",
-      "asset": "3458579677480418407462245282172328323357098371506388156545148696750943551593",
-      "conditionId": "0x35bc448835668de4119613dd2f06ff6db94548d656783eb0a779b732f268f019",
-      "size": 3096,
-      "price": 0.67,
-      "timestamp": 1777680024,
-      "title": "Cavaliers vs. Raptors",
-      "slug": "nba-cle-tor-2026-05-01",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/super+cool+basketball+in+red+and+blue+wow.png",
-      "eventSlug": "nba-cle-tor-2026-05-01",
-      "outcome": "Cavaliers",
-      "outcomeIndex": 0,
-      "name": "swisstony",
-      "pseudonym": "Frail-Possible",
-      "bio": "loincloth chic",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x5b553a91c7ebec0a7594377645aeff0b73f326dd55cef99b8c0e92f1373c8315",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Cavaliers vs. Raptors",
-    "market_slug": "nba-cle-tor-2026-05-01",
-    "amount": 2074.32,
-    "ai_context": "\ud83d\udfe1 LEAN COPY \u2014 Recent matchups show a split between the Cavaliers and Raptors, but the Cavaliers have a slight edge in the season series.\nIn their last five encounters, the Cavaliers have won three games, including a 126-113 victory on April 18, 2026, and a 115-105 win on April 20, 2026. (sportspundit.com) However, the Raptors have also secured two wins, including a 126-104 victory on April 23, 2026, and a 93-89 win on April 26, 2026. (champsorchumps.",
-    "ai_verdict": "LEAN_COPY",
-    "resolution": {
-      "outcome": "Raptors",
-      "checked_at": "2026-05-31T13:09:37.357054+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -2074.32,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x72604e8155f61a2431b287e67fac56718fe35b0a773a9a1cabc041227b4ba5a0",
     "wallet": "0xefbc5fec8d7b0acdc8911bdd9a98d6964308f9a2",
     "trader": {
@@ -31167,5 +31111,49 @@
     "market": "Hurricanes vs. Golden Knights",
     "market_slug": "nhl-car-las-2026-06-06",
     "amount": 5100.0
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x5568725c69c71d6dfb0d14c79ba0a704e7226ce4d198048e53ea84d96e2bac6a",
+    "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+    "trader": {
+      "rank": 1,
+      "address": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
+      "username": "Theo4",
+      "profit": 22053933.752321757,
+      "volume": 43013258.515682004,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xdb859a551fcf56e49416160911476bea7307152f",
+      "side": "BUY",
+      "asset": "72034199679685605777746108880436699468836661260225341006687916047384310465181",
+      "conditionId": "0x5833eb918b6df030934f699e3d477db4ededda8f4d1b7e118a91029ab2d4d152",
+      "size": 30000,
+      "price": 0.5,
+      "timestamp": 1780791151,
+      "title": "Hurricanes vs. Golden Knights",
+      "slug": "nhl-car-las-2026-06-06",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/nhl.png",
+      "eventSlug": "nhl-car-las-2026-06-06",
+      "outcome": "Golden Knights",
+      "outcomeIndex": 1,
+      "name": "AV23IUa",
+      "pseudonym": "Courageous-Robin",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0x5568725c69c71d6dfb0d14c79ba0a704e7226ce4d198048e53ea84d96e2bac6a",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Hurricanes vs. Golden Knights",
+    "market_slug": "nhl-car-las-2026-06-06",
+    "amount": 15000.0
   }
 ]
