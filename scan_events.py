@@ -135,7 +135,9 @@ def run() -> None:
             funnel["low_liquidity"] += 1
             continue
         hrs = es._hours_to_resolve(m)
-        if hrs is None or not (es.MIN_HOURS_TO_RESOLVE <= hrs <= es.MAX_DAYS_TO_RESOLVE * 24):
+        too_late = (es.MAX_DAYS_TO_RESOLVE is not None
+                    and hrs is not None and hrs > es.MAX_DAYS_TO_RESOLVE * 24)
+        if hrs is None or hrs < es.MIN_HOURS_TO_RESOLVE or too_late:
             funnel["bad_time"] += 1
             continue
         funnel["PASS"] += 1
