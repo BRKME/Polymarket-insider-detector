@@ -53,11 +53,22 @@ def _append_journal(candidate: es.Candidate) -> None:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
 
+def _market_url(c: es.Candidate) -> str:
+    # /event/<eventSlug> is the only slug the site reliably resolves. The market
+    # slug carries a numeric id tail that 404s and can't be safely trimmed
+    # (the date looks like the same tail), so we don't guess — if there's no
+    # event slug, link to a site search by the question, which always resolves.
+    if c.event_slug:
+        return f"https://polymarket.com/event/{c.event_slug}"
+    from urllib.parse import quote_plus
+    return f"https://polymarket.com/markets?_q={quote_plus(c.question)}"
+
+
 def _format_alert(c: es.Candidate) -> str:
     end = c.end_date[:10] if c.end_date else "?"
     edge_pct = c.edge * 100
     fire = "🔥" if c.edge >= 0.25 else "✅"
-    url = f"https://polymarket.com/event/{c.slug}" if c.slug else ""
+    url = _market_url(c)
     msg = (
         f"{fire} СОБЫТИЕ · ставка NO (мисприсинг)\n"
         f"{c.question}\n"
@@ -103,7 +114,7 @@ def run() -> None:
         m0 = markets[0]
         print("  --- sample market fields ---")
         for k in ("question", "outcomes", "outcomePrices", "liquidity",
-                  "volume", "endDate", "conditionId", "slug"):
+                  "volume", "endDate", "conditionId", "slug", "eventSlug"):
             print(f"    {k}: {type(m0.get(k)).__name__} = {repr(m0.get(k))[:70]}")
 
     # Cheap structural gate first (no AI). Track WHY each market fails so a
