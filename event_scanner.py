@@ -63,7 +63,8 @@ class Candidate:
     liquidity: float
     end_date: str
     reasoning: str
-    slug: str = ""
+    slug: str = ""               # market slug (fallback)
+    event_slug: str = ""         # event slug — this is what /event/<slug> needs
     band: str = "core"          # "core" (0.10-0.50, validated) or "extended"
 
     def to_alert(self) -> Dict:
@@ -180,6 +181,15 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     )
     if why:
         reasoning += f"\n{why}"
+    # The site opens markets at /event/<eventSlug>. Market.slug often carries a
+    # numeric conditionId tail that 404s. Prefer the parent event's slug.
+    ev_slug = ""
+    events = market.get("events")
+    if isinstance(events, list) and events and isinstance(events[0], dict):
+        ev_slug = events[0].get("slug", "") or ""
+    if not ev_slug:
+        ev_slug = market.get("eventSlug", "") or ""
+
     return Candidate(
         question=q,
         condition_id=market.get("conditionId", ""),
@@ -191,6 +201,7 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
         end_date=str(market.get("endDate", "")),
         reasoning=reasoning,
         slug=market.get("slug", ""),
+        event_slug=ev_slug,
         band=("core" if CORE_NO_MIN <= no_price < CORE_NO_MAX else "extended"),
     )
 
