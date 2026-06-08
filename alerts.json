@@ -28827,7 +28827,17 @@
     "ai_verdict": "COPY",
     "ai_model": "Grok",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-06-02T10:04:32.947269+00:00"
+    "resolution_last_check": "2026-06-02T10:04:32.947269+00:00",
+    "resolution": {
+      "outcome": "Yes",
+      "checked_at": "2026-06-08T10:17:49.594785+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -658.82,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -30864,7 +30874,17 @@
     "market": "Game Handicap: TES (-1.5) vs Team WE (+1.5)",
     "market_slug": "lol-tes-we-2026-06-07",
     "amount": 2445.564222,
-    "resolution_last_check": "2026-06-07T08:45:25.584257+00:00"
+    "resolution_last_check": "2026-06-07T08:45:25.584257+00:00",
+    "resolution": {
+      "outcome": "Top Esports",
+      "checked_at": "2026-06-08T10:17:51.754038+00:00",
+      "insider_win": false,
+      "model_correct": null,
+      "pnl": -2000.0,
+      "pnl_flat": -1.0,
+      "roi": -100.0,
+      "source": "gamma"
+    }
   },
   {
     "market": "Will Alexander Zverev win the 2026 Men's French Open?",
@@ -30973,7 +30993,17 @@
       "insider_score": 70.0,
       "risk_note": "High stake detected \u2014 copy with reduced sizing (25-40% of source risk)."
     },
-    "resolution_last_check": "2026-06-07T08:45:25.943151+00:00"
+    "resolution_last_check": "2026-06-07T08:45:25.943151+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-06-08T10:17:54.577019+00:00",
+      "insider_win": true,
+      "model_correct": true,
+      "pnl": 14591.84,
+      "pnl_flat": 0.28,
+      "roi": 28.1,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31017,7 +31047,17 @@
     },
     "market": "Chicago Sky vs. Toronto Tempo",
     "market_slug": "wnba-chi-tor-2026-06-07",
-    "amount": 1474.2120000000002
+    "amount": 1474.2120000000002,
+    "resolution": {
+      "outcome": "Toronto Tempo",
+      "checked_at": "2026-06-08T10:17:56.577568+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 1474.21,
+      "pnl_flat": 0.67,
+      "roi": 66.7,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31061,7 +31101,17 @@
     },
     "market": "Jordan vs. Colombia: O/U 3.5",
     "market_slug": "fif-jor-col-2026-06-07-more-markets",
-    "amount": 2822.764
+    "amount": 2822.764,
+    "resolution": {
+      "outcome": "Colombia",
+      "checked_at": "2026-06-08T10:17:58.575802+00:00",
+      "insider_win": null,
+      "model_correct": null,
+      "pnl": null,
+      "pnl_flat": null,
+      "roi": null,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31105,7 +31155,8 @@
     },
     "market": "Will Roberto S\u00e1nchez Palomino win the 2026 Peruvian presidential election?",
     "market_slug": "peru-presidential-election-winner",
-    "amount": 1162.0198
+    "amount": 1162.0198,
+    "resolution_last_check": "2026-06-08T10:17:58.914092+00:00"
   },
   {
     "type": "TOP_TRADER",
@@ -31149,6 +31200,7 @@
     },
     "market": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
     "market_slug": "peru-presidential-election-winner",
-    "amount": 1621.6200000000001
+    "amount": 1621.6200000000001,
+    "resolution_last_check": "2026-06-08T10:17:58.914121+00:00"
   }
 ]
