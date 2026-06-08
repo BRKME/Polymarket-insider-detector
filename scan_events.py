@@ -27,7 +27,7 @@ from ai_context import estimate_probability
 
 JOURNAL = Path("event_journal.jsonl")   # one JSON line per alerted candidate
 SEEN = Path("event_seen.json")          # condition_ids already alerted
-MARKET_FETCH_LIMIT = 500                 # wide slice — event NO-markets are mid-liquidity
+MARKET_FETCH_LIMIT = 1000                # deeper slice — more mid-liquidity events
 MAX_AI_CALLS = 40                        # cap Grok calls per run (cost control)
 
 
@@ -144,7 +144,7 @@ def run() -> None:
     print(f"  --- gate funnel ---")
     for k, v in funnel.items():
         print(f"    {k}: {v}")
-    print(f"  {len(gated)} passed structural gate (event + NO 0.1-0.5 + liquid)")
+    print(f"  {len(gated)} passed structural gate (event + NO {es.NO_ODDS_MIN}-{es.NO_ODDS_MAX} + liquid)")
 
     gated = gated[:MAX_AI_CALLS]  # cost cap
 
