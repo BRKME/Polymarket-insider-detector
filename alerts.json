@@ -1,118 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x40b9ce5b1bf7cd3fd4962b424f77ad988e4ebf48534ccdd937c5a99ba165adf4",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 16,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-      "side": "BUY",
-      "asset": "78701775620178553180471269810733093797908221696367375902847334236432735815765",
-      "conditionId": "0x9607e72bf22938184680e0ba7a3f1b0c588cb43c7955bc80f019693b84c10e75",
-      "size": 2330.45,
-      "price": 0.67,
-      "timestamp": 1777711844,
-      "title": "Will Arsenal FC win on 2026-05-02?",
-      "slug": "epl-ars-ful-2026-05-02-ars",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-ars-ful-2026-05-02",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "mooseborzoi",
-      "pseudonym": "Agitated-Bricklaying",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x40b9ce5b1bf7cd3fd4962b424f77ad988e4ebf48534ccdd937c5a99ba165adf4",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-05-02?",
-    "market_slug": "epl-ars-ful-2026-05-02",
-    "amount": 1561.4015,
-    "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and home advantage support a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) They are set to host Fulham at Emirates Stadium on May 2, 2026. (arsenal.com) The weather forecast for London on match day predicts mostly cloudy conditions with temperatures ranging from 58\u00b0F to 73\u00b0F, which should be favorable for play.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-05-31T13:09:48.207192+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 769.05,
-      "pnl_flat": 0.49,
-      "roi": 49.3,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
-    "trade_hash": "0x4c69f35b23d7a723481178ebce4a595ba3e2e3501d10b4fd7b4d6a9226a309fa",
-    "wallet": "0xd0c042c08f755ff940249f62745e82d356345565",
-    "trader": {
-      "rank": 16,
-      "address": "0xd0c042c08f755ff940249f62745e82d356345565",
-      "username": "alexmulti",
-      "profit": 4804855.613376001,
-      "volume": 9949068.653841998,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0x84cfffc3f16dcc353094de30d4a45226eccd2f63",
-      "side": "BUY",
-      "asset": "78701775620178553180471269810733093797908221696367375902847334236432735815765",
-      "conditionId": "0x9607e72bf22938184680e0ba7a3f1b0c588cb43c7955bc80f019693b84c10e75",
-      "size": 2870.03,
-      "price": 0.67,
-      "timestamp": 1777711844,
-      "title": "Will Arsenal FC win on 2026-05-02?",
-      "slug": "epl-ars-ful-2026-05-02-ars",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/premier+league.jpg",
-      "eventSlug": "epl-ars-ful-2026-05-02",
-      "outcome": "Yes",
-      "outcomeIndex": 0,
-      "name": "mooseborzoi",
-      "pseudonym": "Agitated-Bricklaying",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x4c69f35b23d7a723481178ebce4a595ba3e2e3501d10b4fd7b4d6a9226a309fa",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Arsenal FC win on 2026-05-02?",
-    "market_slug": "epl-ars-ful-2026-05-02",
-    "amount": 1922.9201000000003,
-    "ai_context": "\u2705 COPY \u2014 Arsenal's recent form and head-to-head record favor a win against Fulham.\nArsenal secured a 1-0 victory over Newcastle United on April 25, 2026. (espn.com) In their last three encounters with Fulham, Arsenal won twice and drew once, with Fulham failing to secure a victory. (forebet.com) Additionally, Arsenal is playing at home, where they have a strong record. Given these factors, betting on Arsenal to win at 67% odds is supported by recent performance and historical matchups.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-05-31T13:09:48.207249+00:00",
-      "insider_win": true,
-      "model_correct": null,
-      "pnl": 947.11,
-      "pnl_flat": 0.49,
-      "roi": 49.3,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x72554aa0c5f730f16647eff8ff538bfebb97dfaf0aabe8f616b3de9a84522894",
     "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
     "trader": {
@@ -31174,5 +31062,93 @@
     "market": "Jordan vs. Colombia: O/U 3.5",
     "market_slug": "fif-jor-col-2026-06-07-more-markets",
     "amount": 2822.764
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x697fdb2195f67b84b3c107f07270cebb6be535707caa62a7fab58fcb5a3b4bb7",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 4,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 9537354.139043478,
+      "volume": 861349001.8412658,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xd2744a6b04488ff589497307922923d56d7936a9",
+      "side": "SELL",
+      "asset": "40073700561695212653451049120779209383948898865772011302940523990213422296817",
+      "conditionId": "0x2cd24d17f5680dc6e7b7d67c712a223ae85550745597e81bd2d2b8d073443951",
+      "size": 2526.13,
+      "price": 0.46,
+      "timestamp": 1780884121,
+      "title": "Will Roberto S\u00e1nchez Palomino win the 2026 Peruvian presidential election?",
+      "slug": "will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-roberto-snchez-palomino-win-the-2026-peruvian-presidential-election-mF4hJyaSxWsY.jpg",
+      "eventSlug": "peru-presidential-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "edducci",
+      "pseudonym": "Zesty-Consumer-Petticoat",
+      "bio": "",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-8466479-71fb6d85-69a6-44a5-afee-8deea521c7cb.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x697fdb2195f67b84b3c107f07270cebb6be535707caa62a7fab58fcb5a3b4bb7",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Roberto S\u00e1nchez Palomino win the 2026 Peruvian presidential election?",
+    "market_slug": "peru-presidential-election-winner",
+    "amount": 1162.0198
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0x396398a4f7d704ea3293ea795fb106e639576233031e1fe3d409142cb30b4fb9",
+    "wallet": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+    "trader": {
+      "rank": 4,
+      "address": "0x204f72f35326db932158cba6adff0b9a1da95e14",
+      "username": "swisstony",
+      "profit": 9537354.139043478,
+      "volume": 861349001.8412658,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0xa43da0aab839cf651a70e0e310462bb53a3b00f4",
+      "side": "SELL",
+      "asset": "64703998724474008677827057135436893758254552168142785204605792475717308499827",
+      "conditionId": "0xc4c3dbcc37a957a817599b0bf9fb5bd6b62b19210b0f527fec57cb75c7ed150a",
+      "size": 3003,
+      "price": 0.54,
+      "timestamp": 1780884118,
+      "title": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+      "slug": "will-keiko-fujimori-win-the-2026-peruvian-presidential-election",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/will-keiko-fujimori-win-the-2026-peruvian-presidential-election-U834gpRSgT_T.jpg",
+      "eventSlug": "peru-presidential-election-winner",
+      "outcome": "Yes",
+      "outcomeIndex": 0,
+      "name": "muchlov",
+      "pseudonym": "Carefree-Ale",
+      "bio": "p",
+      "profileImage": "https://polymarket-upload.s3.us-east-2.amazonaws.com/profile-image-6930842-4a28dfff-d6b0-4d54-bb47-1b49c0c00e08.webp",
+      "profileImageOptimized": "",
+      "transactionHash": "0x396398a4f7d704ea3293ea795fb106e639576233031e1fe3d409142cb30b4fb9",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "Will Keiko Fujimori win the 2026 Peruvian presidential election?",
+    "market_slug": "peru-presidential-election-winner",
+    "amount": 1621.6200000000001
   }
 ]
