@@ -32,11 +32,13 @@ from config import (
 )
 
 # ── Strategy constants (frozen; see changelog) ─────────────────────────────
-NO_ODDS_MIN = 0.10          # skip NO cheaper than this (resolution-risk longshots)
-NO_ODDS_MAX = 0.50          # only underpriced NO; >0.5 means market already favors NO
+NO_ODDS_MIN = 0.07          # skip NO cheaper than this (resolution-risk longshots)
+NO_ODDS_MAX = 0.60          # widened from 0.50 to capture more event mispricing
+CORE_NO_MIN = 0.10          # validated "core" band (for journal tagging)
+CORE_NO_MAX = 0.50
 MIN_LIQUIDITY = 5_000       # $ — thin markets have unreliable prices & bad fills
-MIN_HOURS_TO_RESOLVE = 12   # avoid HFT/last-minute markets
-MAX_DAYS_TO_RESOLVE = 120   # avoid capital locked for months
+MIN_HOURS_TO_RESOLVE = 12   # avoid HFT/last-minute markets (lower bound only)
+MAX_DAYS_TO_RESOLVE = None  # no upper cap — event markets resolve months out
 EDGE_MIN = 0.15             # required gap: market P(YES) - AI P(YES) >= 15pp
 MIN_CONFIDENCE = "medium"   # ignore low-confidence AI estimates (too noisy to trade)
 _CONF_RANK = {"low": 0, "medium": 1, "high": 2}
@@ -62,6 +64,7 @@ class Candidate:
     end_date: str
     reasoning: str
     slug: str = ""
+    band: str = "core"          # "core" (0.10-0.50, validated) or "extended"
 
     def to_alert(self) -> Dict:
         return asdict(self)
@@ -132,7 +135,9 @@ def passes_gate(market: Dict) -> Optional[tuple]:
         return None
 
     hrs = _hours_to_resolve(market)
-    if hrs is None or not (MIN_HOURS_TO_RESOLVE <= hrs <= MAX_DAYS_TO_RESOLVE * 24):
+    if hrs is None or hrs < MIN_HOURS_TO_RESOLVE:
+        return None
+    if MAX_DAYS_TO_RESOLVE is not None and hrs > MAX_DAYS_TO_RESOLVE * 24:
         return None
 
     return yes_price, no_price, liq, hrs
@@ -186,6 +191,7 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
         end_date=str(market.get("endDate", "")),
         reasoning=reasoning,
         slug=market.get("slug", ""),
+        band=("core" if CORE_NO_MIN <= no_price < CORE_NO_MAX else "extended"),
     )
 
 
