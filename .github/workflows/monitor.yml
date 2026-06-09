@@ -1,13 +1,15 @@
 name: Polymarket Insider Detector (GitHub Actions Optimized)
 
 on:
-  schedule:
-    # Run every 5 minutes - GitHub Actions minimum reliable interval
-    # */2 and */3 are ignored by GitHub and cause unpredictable scheduling
-    # Official docs: "shortest interval is once every 5 minutes"
-    - cron: '*/5 * * * *'
-  
-  # Allow manual triggering for testing
+  # DISABLED 2026-06-09: migrated to event_scanner.yml (v5).
+  # The whale-copy strategy was validated as unprofitable (463 resolved:
+  # 44% WR, -9% ROI, sport-heavy noise). Kept here for manual runs only.
+  # To re-enable, uncomment the schedule block below.
+  #
+  # schedule:
+  #   - cron: '*/5 * * * *'
+
+  # Manual triggering only
   workflow_dispatch:
 
 # Concurrency control: prevent race conditions
