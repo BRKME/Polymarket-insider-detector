@@ -40,6 +40,14 @@ MIN_LIQUIDITY = 5_000       # $ — thin markets have unreliable prices & bad fi
 MIN_HOURS_TO_RESOLVE = 12   # avoid HFT/last-minute markets (lower bound only)
 MAX_DAYS_TO_RESOLVE = None  # no upper cap — event markets resolve months out
 EDGE_MIN = 0.15             # required gap: market P(YES) - AI P(YES) >= 15pp
+# Suspicious-edge guard: in an honest single market, NO price ≈ P(NO). If the
+# AI claims a huge mispricing (edge >= SUSPICIOUS_EDGE) yet the market still
+# prices NO near 50/50, the market disagrees with us hard — usually because it's
+# a LINKED/grouped market ("what happens first") where our single-event logic
+# doesn't apply. Flag, don't trust.
+SUSPICIOUS_EDGE = 0.35
+SUSPICIOUS_NO_LOW = 0.40    # NO price band where a huge edge is implausible
+SUSPICIOUS_NO_HIGH = 0.60
 MIN_CONFIDENCE = "medium"   # ignore low-confidence AI estimates (too noisy to trade)
 _CONF_RANK = {"low": 0, "medium": 1, "high": 2}
 
@@ -66,6 +74,7 @@ class Candidate:
     slug: str = ""               # market slug (fallback)
     event_slug: str = ""         # event slug — this is what /event/<slug> needs
     band: str = "core"          # "core" (0.10-0.50, validated) or "extended"
+    suspicious: bool = False    # likely a linked/grouped market — treat with care
 
     def to_alert(self) -> Dict:
         return asdict(self)
@@ -172,6 +181,9 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     if edge < EDGE_MIN:
         return None                    # not enough mispricing — skip
 
+    suspicious = (edge >= SUSPICIOUS_EDGE
+                  and SUSPICIOUS_NO_LOW <= no_price <= SUSPICIOUS_NO_HIGH)
+
     why = est.get("why", "")
     reasoning = (
         f"Рынок оценивает YES в {yes_price*100:.0f}%, "
@@ -179,6 +191,13 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
         f"YES переоценён на {edge*100:.0f} п.п. → NO недооценён. "
         f"Вход в NO по {no_price*100:.0f}%."
     )
+    if suspicious:
+        reasoning = (
+            f"⚠️ ПОДОЗРИТЕЛЬНО: разрыв {edge*100:.0f} п.п., но NO стоит "
+            f"{no_price*100:.0f}% (≈50/50). Вероятно связанный/групповой рынок — "
+            f"наша логика одиночного события может не работать. Проверь вручную.\n"
+            + reasoning
+        )
     if why:
         reasoning += f"\n{why}"
     # The site opens markets at /event/<eventSlug>. Market.slug often carries a
@@ -203,11 +222,29 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
         slug=market.get("slug", ""),
         event_slug=ev_slug,
         band=("core" if CORE_NO_MIN <= no_price < CORE_NO_MAX else "extended"),
+        suspicious=suspicious,
     )
 
 
+def _thesis_key(question: str) -> str:
+    """Collapse near-identical questions (same event, different date) to one key.
+
+    'US x Iran peace deal by August 31' and '...by October 31' share a thesis;
+    betting both isn't diversification, it's one doubled position. We strip
+    dates/months/years and keep the stable head of the question.
+    """
+    import re as _re
+    q = question.lower()
+    q = _re.sub(r'\b(by|before|on|until)\b.*$', '', q)          # drop "by <date>" tail
+    q = _re.sub(r'\b\d{4}\b', '', q)                            # years
+    q = _re.sub(r'\b(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\b', '', q)
+    q = _re.sub(r'[^a-z0-9 ]', ' ', q)
+    q = _re.sub(r'\s+', ' ', q).strip()
+    return ' '.join(q.split()[:6])      # stable head
+
+
 def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
-    """Run the full pipeline over a list of markets, return ranked candidates."""
+    """Run the full pipeline, dedup theses, return ranked candidates."""
     out = []
     for m in markets:
         try:
@@ -216,6 +253,16 @@ def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -
                 out.append(c)
         except Exception:
             continue
-    # Strongest mispricing first.
-    out.sort(key=lambda c: c.edge, reverse=True)
-    return out
+
+    # Dedup by thesis: keep the single best-edge candidate per thesis so two
+    # date-variants of the same bet don't masquerade as two positions.
+    best: Dict[str, Candidate] = {}
+    for c in out:
+        k = _thesis_key(c.question)
+        if k not in best or c.edge > best[k].edge:
+            best[k] = c
+    deduped = list(best.values())
+
+    # Clean (non-suspicious) candidates first, then by edge.
+    deduped.sort(key=lambda c: (c.suspicious, -c.edge))
+    return deduped
