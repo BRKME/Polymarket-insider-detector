@@ -67,7 +67,12 @@ def _market_url(c: es.Candidate) -> str:
 def _format_alert(c: es.Candidate) -> str:
     end = c.end_date[:10] if c.end_date else "?"
     edge_pct = c.edge * 100
-    fire = "🔥" if c.edge >= 0.25 else "✅"
+    if c.suspicious:
+        fire = "⚠️"
+    elif c.edge >= 0.25:
+        fire = "🔥"
+    else:
+        fire = "✅"
     url = _market_url(c)
     msg = (
         f"{fire} СОБЫТИЕ · ставка NO (мисприсинг)\n"
