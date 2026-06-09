@@ -1,62 +1,6 @@
 [
   {
     "type": "TOP_TRADER",
-    "trade_hash": "0x72554aa0c5f730f16647eff8ff538bfebb97dfaf0aabe8f616b3de9a84522894",
-    "wallet": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-    "trader": {
-      "rank": 2,
-      "address": "0x1f2dd6d473f3e824cd2f8a89d9c69fb96f6ad0cf",
-      "username": "Fredi9999",
-      "profit": 16619506.631730152,
-      "volume": 76611316.905154,
-      "positions": 0,
-      "positions_won": 0,
-      "positions_lost": 0,
-      "win_rate": 0.6
-    },
-    "trade": {
-      "proxyWallet": "0xbee54d90051720e27921dc6874f02d646ffca636",
-      "side": "BUY",
-      "asset": "9463627635536208397470489927812275699915946075677438228693537080675485509410",
-      "conditionId": "0x909db0ea79c78afd02cc8a5635e2012fdaa5f57ce8361ffe231ee2f7eb1398f4",
-      "size": 3000,
-      "price": 0.45,
-      "timestamp": 1777721158,
-      "title": "Will Villarreal CF win on 2026-05-02?",
-      "slug": "lal-vil-lev-2026-05-02-vil",
-      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/league-lal.png",
-      "eventSlug": "lal-vil-lev-2026-05-02",
-      "outcome": "No",
-      "outcomeIndex": 1,
-      "name": "downtownfee",
-      "pseudonym": "Limp-Psychoanalyst",
-      "bio": "",
-      "profileImage": "",
-      "profileImageOptimized": "",
-      "transactionHash": "0x72554aa0c5f730f16647eff8ff538bfebb97dfaf0aabe8f616b3de9a84522894",
-      "market": {
-        "question": "Unknown market",
-        "slug": ""
-      }
-    },
-    "market": "Will Villarreal CF win on 2026-05-02?",
-    "market_slug": "lal-vil-lev-2026-05-02",
-    "amount": 1350.0,
-    "ai_context": "\u2705 COPY \u2014 Villarreal CF is in strong form, having won their last five home matches, including a 2-1 victory over Celta on April 26, 2026. (elpais.com) They are set to play against Levante UD, who have only one away win in their last eleven matches. (cadenaser.com)\nGiven Villarreal's impressive home performance and Levante's struggles on the road, the facts support the trader's bet on Villarreal winning.",
-    "ai_verdict": "COPY",
-    "resolution": {
-      "outcome": "Yes",
-      "checked_at": "2026-05-31T13:09:50.203733+00:00",
-      "insider_win": false,
-      "model_correct": null,
-      "pnl": -1650.0,
-      "pnl_flat": -1.0,
-      "roi": -100.0,
-      "source": "gamma"
-    }
-  },
-  {
-    "type": "TOP_TRADER",
     "trade_hash": "0x85e9a616c8943dc184984172673d7a7253243b0329d0ce3511b07387a7b5182d",
     "wallet": "0x56687bf447db6ffa42ffe2204a05edaa20f55839",
     "trader": {
@@ -31202,5 +31146,53 @@
     "market_slug": "peru-presidential-election-winner",
     "amount": 1621.6200000000001,
     "resolution_last_check": "2026-06-08T10:17:58.914121+00:00"
+  },
+  {
+    "type": "TOP_TRADER",
+    "trade_hash": "0xb9929bfb1754bbb3c94631c7970b8533b550e703b989dc3c0888d10b57832216",
+    "wallet": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+    "trader": {
+      "rank": 10,
+      "address": "0xe9ad918c7678cd38b12603a762e638a5d1ee7091",
+      "username": "walletmobile",
+      "profit": 5942685.45339684,
+      "volume": 32196692.075936034,
+      "positions": 0,
+      "positions_won": 0,
+      "positions_lost": 0,
+      "win_rate": 0.6
+    },
+    "trade": {
+      "proxyWallet": "0x0e64bde21d716711fbe59095eb0c88fae55e336d",
+      "side": "BUY",
+      "asset": "31143127808727949746960299429637294890846663029102260794770660497029088628147",
+      "conditionId": "0xeb9f322e9981a30a22b336aa9cb8148e7d497ed5d3152f61e815faff32de4821",
+      "size": 5356,
+      "price": 0.52,
+      "timestamp": 1781023332,
+      "title": "New York Yankees vs. Cleveland Guardians",
+      "slug": "mlb-nyy-cle-2026-06-09",
+      "icon": "https://polymarket-upload.s3.us-east-2.amazonaws.com/Repetitive-markets/MLB.jpg",
+      "eventSlug": "mlb-nyy-cle-2026-06-09",
+      "outcome": "New York Yankees",
+      "outcomeIndex": 0,
+      "name": "KioskJammer",
+      "pseudonym": "Happy-Wife",
+      "bio": "",
+      "profileImage": "",
+      "profileImageOptimized": "",
+      "transactionHash": "0xb9929bfb1754bbb3c94631c7970b8533b550e703b989dc3c0888d10b57832216",
+      "market": {
+        "question": "Unknown market",
+        "slug": ""
+      }
+    },
+    "market": "New York Yankees vs. Cleveland Guardians",
+    "market_slug": "mlb-nyy-cle-2026-06-09",
+    "amount": 2785.12,
+    "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Yankees 39-26, Guardians 37-31\n\u2022 Yankees \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7-5 (10 \u0438\u043d\u043d.) 8 \u0438\u044e\u043d\u044f \u0438 2-1 4 \u0438\u044e\u043d\u044f \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 Guardians",
+    "ai_verdict": "COPY",
+    "ai_model": "Grok",
+    "ai_consensus": "COPY"
   }
 ]
