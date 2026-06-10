@@ -16023,7 +16023,17 @@
     "ai_verdict": "COPY",
     "ai_model": "Dual",
     "ai_consensus": "COPY",
-    "resolution_last_check": "2026-05-28T09:46:47.892144+00:00"
+    "resolution_last_check": "2026-05-28T09:46:47.892144+00:00",
+    "resolution": {
+      "outcome": "No",
+      "checked_at": "2026-06-10T09:40:38.637141+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 8242.14,
+      "pnl_flat": 21.68,
+      "roi": 2168.1,
+      "source": "gamma"
+    }
   },
   {
     "type": "TOP_TRADER",
@@ -31193,6 +31203,16 @@
     "ai_context": "[CONSENSUS:COPY] [Grok] \u2022 \u2705 COPY\n\u2022 Yankees 39-26, Guardians 37-31\n\u2022 Yankees \u0432\u044b\u0438\u0433\u0440\u0430\u043b\u0438 7-5 (10 \u0438\u043d\u043d.) 8 \u0438\u044e\u043d\u044f \u0438 2-1 4 \u0438\u044e\u043d\u044f \u0432 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0438\u0445 \u0432\u0441\u0442\u0440\u0435\u0447\u0430\u0445 \u0441 Guardians",
     "ai_verdict": "COPY",
     "ai_model": "Grok",
-    "ai_consensus": "COPY"
+    "ai_consensus": "COPY",
+    "resolution": {
+      "outcome": "New York Yankees",
+      "checked_at": "2026-06-10T09:40:50.891050+00:00",
+      "insider_win": true,
+      "model_correct": null,
+      "pnl": 2570.88,
+      "pnl_flat": 0.92,
+      "roi": 92.3,
+      "source": "gamma"
+    }
   }
 ]
