@@ -1,0 +1,39 @@
+name: Fill Matcher (auto entry/stake)
+
+on:
+  schedule:
+    # A few hours after each 6h scan, and again later — gives time to place the
+    # manual bet, then captures the real on-chain fill into the journal.
+    - cron: '0 3,9,15,21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write           # commits the updated journal
+
+jobs:
+  fill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Auto-fill actual entry/stake from on-chain trades
+        env:
+          POLYMARKET_PROXY_WALLET: ${{ secrets.POLYMARKET_PROXY_WALLET }}
+        run: |
+          echo "Fill-match — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          python fill_matcher.py
+
+      - name: Commit journal
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add event_journal.jsonl 2>/dev/null || true
+          git diff --staged --quiet || git commit -m "fills: auto-fill actual entry/stake [skip ci]"
+          git push || echo "nothing to push"

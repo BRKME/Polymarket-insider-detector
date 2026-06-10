@@ -1,0 +1,166 @@
+"""
+fill_matcher.py — auto-fill ACTUAL entry price & stake into the journal from
+Polymarket's Data API. No manual entry: we read our own on-chain trades and
+match them to open journal positions.
+
+Why this is honest (not the alert-price proxy we're trying to escape):
+the /activity endpoint returns OUR settled trades by proxy wallet, each with
+the real fill `price` and `usdcSize` (dollars actually spent). We match on
+`conditionId` (identical to the journal's condition_id — verified live), NO
+side, BUY. Several partial entries on one market are aggregated into a
+size-weighted average price and a summed stake.
+
+If no matching trade exists (didn't bet, or bet differently), the position is
+left UNCONFIRMED — never back-filled with a made-up price. verify_journal
+already prefers entry_price_actual/stake_actual when present, so confirmed
+positions score on real fills and the rest stay out of the count.
+
+Read-only against the API. Address is public. No keys.
+
+Run:  python fill_matcher.py
+"""
+from __future__ import annotations
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Optional, Callable, List, Dict
+
+JOURNAL = Path("event_journal.jsonl")
+DATA_API = "https://data-api.polymarket.com"
+# Public proxy wallet whose trades we read. Override via env if it ever changes.
+import os
+PROXY_WALLET = os.getenv("POLYMARKET_PROXY_WALLET",
+                         "0xbd8338C6D4e1E25B28D1A95Db926D2CeF689632f")
+
+
+# ── pure matching logic (no network) ────────────────────────────────────────
+
+def match_position(condition_id: str, trades: List[Dict]) -> Optional[Dict]:
+    """Aggregate our NO/BUY trades on `condition_id` into one fill, or None.
+
+    Returns {entry_price_actual, stake_actual, shares_actual, fill_txs,
+             fill_source, filled_at} where entry_price is size-weighted.
+    """
+    mine = []
+    for t in trades:
+        if t.get("conditionId") != condition_id:
+            continue
+        if str(t.get("side", "")).upper() != "BUY":
+            continue
+        if str(t.get("outcome", "")).strip().lower() != "no":
+            continue
+        try:
+            size = float(t.get("size") or 0)
+            price = float(t.get("price") or 0)
+        except (TypeError, ValueError):
+            continue
+        if size <= 0 or not (0 < price < 1):
+            continue
+        # usdcSize is the dollars actually spent; fall back to size*price.
+        try:
+            usdc = float(t.get("usdcSize"))
+            if usdc <= 0:
+                usdc = size * price
+        except (TypeError, ValueError):
+            usdc = size * price
+        mine.append((size, price, usdc, t.get("transactionHash", "")))
+
+    if not mine:
+        return None
+
+    total_size = sum(s for s, _, _, _ in mine)
+    total_usdc = sum(u for _, _, u, _ in mine)
+    if total_size <= 0:
+        return None
+    vwap = sum(s * p for s, p, _, _ in mine) / total_size
+    return {
+        "entry_price_actual": round(vwap, 6),
+        "stake_actual": round(total_usdc, 6),
+        "shares_actual": round(total_size, 6),
+        "fill_txs": len(mine),
+        "fill_source": "onchain",
+        "filled_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def apply_fills(rows: List[Dict],
+                fetch_trades_fn: Callable[[str], List[Dict]]) -> tuple:
+    """Fill open, not-yet-filled positions. Returns (rows, n_filled).
+
+    Skips closed positions and ones already carrying an onchain fill (so we
+    never overwrite a confirmed entry). Unmatched positions are left untouched
+    (unconfirmed) — no made-up price.
+    """
+    n = 0
+    for r in rows:
+        if str(r.get("status", "open")).lower() != "open":
+            continue
+        if r.get("fill_source") == "onchain" and r.get("entry_price_actual"):
+            continue                      # already confirmed
+        cid = r.get("condition_id", "")
+        if not cid:
+            continue
+        try:
+            trades = fetch_trades_fn(cid) or []
+        except Exception:
+            continue
+        fill = match_position(cid, trades)
+        if fill:
+            r.update(fill)
+            n += 1
+    return rows, n
+
+
+# ── network ──────────────────────────────────────────────────────────────────
+
+def _fetch_trades(condition_id: str) -> List[Dict]:
+    """Our settled trades for one market from the Data API /activity endpoint."""
+    import requests
+    params = {"user": PROXY_WALLET, "market": condition_id,
+              "type": "TRADE", "limit": 100}
+    r = requests.get(f"{DATA_API}/activity", params=params, timeout=20)
+    if r.status_code != 200:
+        print(f"  ⚠️ Data API HTTP {r.status_code} for {condition_id[:12]}…")
+        return []
+    data = r.json()
+    return data if isinstance(data, list) else []
+
+
+def _load_journal() -> List[Dict]:
+    if not JOURNAL.exists():
+        return []
+    rows = []
+    for line in JOURNAL.read_text().splitlines():
+        line = line.strip()
+        if line:
+            try:
+                rows.append(json.loads(line))
+            except Exception:
+                continue
+    return rows
+
+
+def _save_journal(rows: List[Dict]) -> None:
+    with JOURNAL.open("w") as f:
+        for r in rows:
+            f.write(json.dumps(r, ensure_ascii=False) + "\n")
+
+
+def run() -> None:
+    rows = _load_journal()
+    if not rows:
+        print("No journal — nothing to fill.")
+        return
+    open_n = sum(1 for r in rows if str(r.get("status", "open")).lower() == "open")
+    print(f"[{datetime.now(timezone.utc).isoformat()}] fill-match: "
+          f"{open_n} open positions")
+    rows, n = apply_fills(rows, fetch_trades_fn=_fetch_trades)
+    if n:
+        _save_journal(rows)
+        print(f"  ✅ auto-filled {n} position(s) from on-chain trades.")
+    else:
+        print("  no new fills matched (positions stay unconfirmed).")
+
+
+if __name__ == "__main__":
+    run()
