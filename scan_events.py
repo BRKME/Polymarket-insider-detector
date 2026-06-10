@@ -268,8 +268,12 @@ def _market_url(c: es.Candidate) -> str:
 
 
 def _format_alert(c: es.Candidate) -> str:
-    end = c.end_date[:10] if c.end_date else "?"
-    edge_pct = c.edge * 100
+    """Compact alert: the decision in line 1, one line of context, one of action.
+
+    The old format restated the same numbers three times across four divider
+    rules. Contract now: NO price · edge · deadline up top; Grok-vs-market in
+    one line; Grok's why in one line; suspicious is a single warning line.
+    """
     if c.suspicious:
         fire = "⚠️"
     elif c.edge >= 0.25:
@@ -277,50 +281,64 @@ def _format_alert(c: es.Candidate) -> str:
     else:
         fire = "✅"
     url = _market_url(c)
-    # Suggest a stake within the manual range, scaled by edge & liquidity:
-    # bigger only when the mispricing is clean AND the book is deep enough.
+
+    # deadline + days to go
+    end = c.end_date[:10] if c.end_date else "?"
+    days = ""
+    try:
+        _end = datetime.fromisoformat(str(c.end_date).replace("Z", "+00:00"))
+        d = int((_end - datetime.now(timezone.utc)).total_seconds() // 86400)
+        if d >= 0:
+            days = f" ({d}д)"
+    except Exception:
+        pass
+
+    # suggested stake — scaled by edge & book depth, rounded to $5
+    size_part = ""
     try:
         from config import STAKE_MIN, STAKE_MAX
         edge_factor = max(0.0, min(1.0, (c.edge - es.EDGE_MIN) / 0.25))
         liq_ok = c.liquidity >= 3 * es.MIN_LIQUIDITY
         size = STAKE_MIN + (STAKE_MAX - STAKE_MIN) * edge_factor * (1.0 if liq_ok else 0.5)
-        size = round(size / 5) * 5            # round to $5
-        stake_line = f"Размер: ~${size:.0f} (диапазон ${STAKE_MIN:.0f}-{STAKE_MAX:.0f})\n"
+        size = round(size / 5) * 5
+        size_part = f"Размер ~${size:.0f}"
     except Exception:
-        stake_line = ""
-    # Category + current open exposure in that category — so the operator sees
-    # the cluster load at the moment of sizing, not after.
-    cat_line = ""
+        pass
+
+    # category + current cluster load at sizing time
+    cat_part = ""
     try:
         import category_exposure as cx
         from config import BANKROLL, CATEGORY_EXPOSURE_CAP
         cat = cx.classify(c.question)
-        exp = cx.exposure_by_category(_load_journal_rows())
-        cur = exp.get(cat, 0.0)
+        cur = cx.exposure_by_category(_load_journal_rows()).get(cat, 0.0)
         pct = cur / BANKROLL * 100 if BANKROLL > 0 else 0
-        warn = " ⚠️ ЛИМИТ" if BANKROLL > 0 and \
+        warn = " ⚠️ЛИМИТ" if BANKROLL > 0 and \
             (cur / BANKROLL) > CATEGORY_EXPOSURE_CAP else ""
-        cat_line = f"Категория: {cat} · уже открыто ${cur:.0f} ({pct:.0f}% банка){warn}\n"
+        cat_part = f"{cat}: открыто ${cur:.0f} ({pct:.0f}% банка){warn}"
     except Exception:
         pass
-    msg = (
-        f"{fire} СОБЫТИЕ · ставка NO (мисприсинг)\n"
-        f"{c.question}\n"
-        f"—————————————————————\n"
-        f"Вход NO по {c.no_price*100:.0f}% · разрыв {edge_pct:.0f} п.п. · до {end}\n"
-        f"Ликвидность ${c.liquidity:,.0f}\n"
-        f"{stake_line}"
-        f"{cat_line}"
-        f"—————————————————————\n"
-        f"{c.reasoning}\n"
-        f"—————————————————————\n"
-        f"⚠️ Перед входом: 1) обнови цену (refresh_prices) "
-        f"2) прочти правила резолва — одиночное событие? дата? источник истины? "
-        f"3) проверь лимит по категории/тезису"
-    )
+    size_line = " · ".join(p for p in (size_part, cat_part) if p)
+
+    liq_k = f"${c.liquidity/1000:.0f}k" if c.liquidity >= 1000 else f"${c.liquidity:.0f}"
+    lines = [
+        f"{fire} NO {c.no_price*100:.0f}% · edge {c.edge*100:.0f}пп · до {end}{days}",
+        f"{c.question}",
+        "",
+        f"Grok: YES {c.ai_yes_estimate*100:.0f}% ({c.ai_conf}) · "
+        f"рынок: {c.market_yes_price*100:.0f}% · ликв. {liq_k}",
+    ]
+    if c.reasoning:
+        lines.append(f"→ {c.reasoning}")
+    if c.suspicious:
+        lines.append("⚠️ Похоже на связанный/групповой рынок — читай правила резолва")
+    lines.append("")
+    if size_line:
+        lines.append(size_line)
+    lines.append("Перед входом: цена → правила резолва → лимит")
     if url:
-        msg += f"\n🔗 {url}"
-    return msg
+        lines.append(f"🔗 {url}")
+    return "\n".join(lines)
 
 
 def _send(msg: str) -> bool:

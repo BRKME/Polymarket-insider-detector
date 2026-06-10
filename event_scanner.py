@@ -97,6 +97,7 @@ class Candidate:
     event_slug: str = ""         # event slug — this is what /event/<slug> needs
     band: str = "core"          # "core" (0.10-0.50, validated) or "extended"
     suspicious: bool = False    # likely a linked/grouped market — treat with care
+    ai_conf: str = "low"        # Grok's stated confidence (low/medium/high)
 
     def to_alert(self) -> Dict:
         return asdict(self)
@@ -219,22 +220,10 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     suspicious = (edge >= SUSPICIOUS_EDGE
                   and SUSPICIOUS_NO_LOW <= no_price <= SUSPICIOUS_NO_HIGH)
 
-    why = est.get("why", "")
-    reasoning = (
-        f"Рынок оценивает YES в {yes_price*100:.0f}%, "
-        f"независимая оценка — {ai_yes*100:.0f}% (увер.: {est.get('conf')}). "
-        f"YES переоценён на {edge*100:.0f} п.п. → NO недооценён. "
-        f"Вход в NO по {no_price*100:.0f}%."
-    )
-    if suspicious:
-        reasoning = (
-            f"⚠️ ПОДОЗРИТЕЛЬНО: разрыв {edge*100:.0f} п.п., но NO стоит "
-            f"{no_price*100:.0f}% (≈50/50). Вероятно связанный/групповой рынок — "
-            f"наша логика одиночного события может не работать. Проверь вручную.\n"
-            + reasoning
-        )
-    if why:
-        reasoning += f"\n{why}"
+    # reasoning carries ONLY Grok's why — presentation (numbers, warnings) is
+    # the alert formatter's job. Keeping data and format separate stops the
+    # alert from restating the same numbers three times.
+    reasoning = est.get("why", "") or ""
     # The site opens markets at /event/<eventSlug>. Market.slug often carries a
     # numeric conditionId tail that 404s. Prefer the parent event's slug.
     ev_slug = ""
@@ -258,6 +247,7 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
         event_slug=ev_slug,
         band=("core" if CORE_NO_MIN <= no_price < CORE_NO_MAX else "extended"),
         suspicious=suspicious,
+        ai_conf=str(est.get("conf", "low")),
     )
 
 
