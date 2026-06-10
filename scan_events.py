@@ -98,13 +98,19 @@ def _should_skip_pre_ai(cid: str, seen: dict) -> bool:
 
 
 def _should_alert(cid: str, current_edge: float, seen: dict) -> bool:
-    """Post-AI: alert if new, or if edge grew materially since last alert."""
+    """Post-AI: alert if new, or if edge grew materially since last alert.
+
+    Legacy entries (last_edge None) were already alerted under the old flat-set
+    format — re-alerting them would spam duplicates of known positions. They're
+    suppressed here; run() records their current edge silently so future growth
+    is measured against it.
+    """
     entry = seen.get(cid)
     if not entry:
         return True                      # never seen — alert
     last = entry.get("last_edge")
     if last is None:
-        return True                      # migrated/legacy — alert once to record
+        return False                     # migrated/legacy — record silently
     return (current_edge - last) >= REALERT_EDGE_GROWTH
 
 
@@ -128,12 +134,15 @@ def _load_journal_rows() -> list:
     return rows
 
 
-def _append_journal(candidate: es.Candidate) -> None:
+def _journal_row(candidate: es.Candidate, re_alert: bool = False) -> dict:
+    """Build a journal row. Re-alerts (edge grew on a known market) are the
+    SAME position seen again — their rows carry status='re_alert' so exposure,
+    fill-matching and mark-to-market never double-count them."""
     row = candidate.to_alert()
     row["alerted_at"] = datetime.now(timezone.utc).isoformat()
     row["bet_side"] = "NO"
     row["stake_plan"] = "manual $15-70 flat"
-    row["status"] = "open"          # mark-to-market scans only open positions
+    row["status"] = "re_alert" if re_alert else "open"
     # Thesis category — powers the exposure-by-category visibility. The limit
     # itself is an operator rule; we just make the number visible.
     try:
@@ -153,8 +162,13 @@ def _append_journal(candidate: es.Candidate) -> None:
     # alert-time price/stake so it scores what was actually traded, not theory.
     row["entry_price_actual"] = None
     row["stake_actual"] = None
+    return row
+
+
+def _append_journal(candidate: es.Candidate, re_alert: bool = False) -> None:
     with JOURNAL.open("a") as f:
-        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+        f.write(json.dumps(_journal_row(candidate, re_alert),
+                           ensure_ascii=False) + "\n")
 
 
 def _append_calibration(row: dict) -> None:
@@ -459,15 +473,18 @@ def run() -> None:
     for c in candidates:
         cid = c.condition_id
         if not _should_alert(cid, c.edge, seen):
-            # already alerted and edge hasn't grown enough — record latest edge
-            # for future comparison, but don't re-fire or duplicate the journal.
-            if cid in seen:
+            # Migrated legacy entries (last_edge None) get their baseline edge
+            # recorded SILENTLY here. Ordinary suppressions must NOT update
+            # last_edge — otherwise a slow per-run creep ratchets the baseline
+            # up and the 10pp re-alert threshold can never accumulate.
+            if cid in seen and seen[cid].get("last_edge") is None:
                 seen[cid]["last_edge"] = c.edge
             suppressed += 1
             continue
+        is_re_alert = cid in seen   # known market whose edge grew — same position
         if _send(_format_alert(c)):
             sent += 1
-        _append_journal(c)
+        _append_journal(c, re_alert=is_re_alert)
         seen[cid] = {"last_edge": c.edge, "alerted_at": now, "resolved": False}
 
     _save_seen(seen)

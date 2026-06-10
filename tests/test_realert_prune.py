@@ -61,10 +61,12 @@ class TestShouldReAlert:
         seen = {"0xAAA": {"last_edge": 0.12}}
         assert se._should_alert("0xAAA", current_edge=0.17, seen=seen) is False
 
-    def test_migrated_entry_with_no_edge_alerts_once(self):
-        # legacy entry (last_edge None) should alert once so we capture its edge
+    def test_migrated_entry_with_no_edge_does_not_alert(self):
+        # legacy entry (last_edge None) was ALREADY alerted under the old set
+        # format — re-alerting it spams duplicates of known positions. The
+        # current edge must be recorded silently instead (see run()).
         seen = {"0xAAA": {"last_edge": None}}
-        assert se._should_alert("0xAAA", current_edge=0.20, seen=seen) is True
+        assert se._should_alert("0xAAA", current_edge=0.20, seen=seen) is False
 
 
 class TestPruneResolved:
@@ -82,3 +84,30 @@ class TestPruneResolved:
         seen = {"0xAAA": {"last_edge": 0.2, "resolved": False}}
         pruned = se._prune_seen(seen, resolved_cids={"0xAAA"})
         assert "0xAAA" not in pruned
+
+
+class TestAntiRatchet:
+    def test_suppression_must_not_update_last_edge(self):
+        # If suppressed runs pulled last_edge up to the current edge, a slow
+        # 5pp-per-run creep would never accumulate to the 10pp re-alert
+        # threshold. last_edge must stay at the value of the last ALERT.
+        seen = {"0xAAA": {"last_edge": 0.12}}
+        # creep: 0.17 (suppressed), then 0.23 — vs ORIGINAL 0.12 that's +11pp
+        assert se._should_alert("0xAAA", 0.17, seen) is False
+        # ... seen must still hold 0.12, so 0.23 re-alerts:
+        assert se._should_alert("0xAAA", 0.23, seen) is True
+
+
+class TestReAlertJournalStatus:
+    def test_realert_rows_marked_not_open(self):
+        # a true edge-growth re-alert is the SAME position — its journal row
+        # must not double-count in exposure / fills / mark-to-market
+        import event_scanner as es
+        c = es.Candidate(
+            question="Q", condition_id="0xAAA", market_yes_price=0.7,
+            no_price=0.3, ai_yes_estimate=0.4, edge=0.3, liquidity=50000,
+            end_date="2026-12-31", reasoning="r")
+        row = se._journal_row(c, re_alert=True)
+        assert row["status"] == "re_alert"
+        row2 = se._journal_row(c, re_alert=False)
+        assert row2["status"] == "open"
