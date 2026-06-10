@@ -353,9 +353,38 @@ WHY: <1-2 коротких факта — главное обоснование>
 """
 
 
-def estimate_probability(question: str) -> Optional[dict]:
+def _build_estimator_prompt(question: str, description: str = None,
+                            end_date: str = None) -> str:
+    """Assemble the estimator user-prompt, injecting resolution context.
+
+    The question title alone hides the traps: grouped/linked markets, exact
+    resolution criteria, and the source of truth all live in the description.
+    Feeding them in lets Grok judge "P(YES) BY the resolution date UNDER these
+    rules" instead of guessing from a headline.
+    """
+    parts = [f"Вопрос рынка: «{question}»"]
+    if description and str(description).strip():
+        desc = str(description).strip()
+        if len(desc) > 1500:        # keep the prompt bounded
+            desc = desc[:1500] + "…"
+        parts.append(f"\nПРАВИЛА РЕЗОЛВА (читай внимательно — тут ловушки "
+                     f"связанных/групповых рынков и точные критерии):\n{desc}")
+    if end_date and str(end_date).strip():
+        parts.append(f"\nДата резолва: {str(end_date)[:10]}. Оцени вероятность "
+                     f"YES именно К ЭТОЙ ДАТЕ и по правилам выше.")
+    parts.append("\nСначала найди свежие факты, потом дай число. "
+                 "Ответ строго в требуемом формате.")
+    return "\n".join(parts)
+
+
+def estimate_probability(question: str, description: str = None,
+                         end_date: str = None) -> Optional[dict]:
     """
     Estimate independent P(YES) for a binary event-market question.
+
+    `description` and `end_date` are optional resolution context — when present
+    they're injected into the prompt so Grok sees the resolution rules (grouped
+    markets, exact criteria) rather than inferring from the title.
 
     Returns {"prob": float 0..1, "conf": str, "why": str} or None on failure.
     Confidence is surfaced so the scanner can require 'medium'+ before trading.
@@ -363,11 +392,7 @@ def estimate_probability(question: str) -> Optional[dict]:
     if not question or not XAI_API_KEY:
         return None
 
-    prompt = (
-        f"Вопрос рынка: «{question}»\n\n"
-        f"Оцени истинную вероятность исхода YES. Сначала найди свежие факты, "
-        f"потом дай число. Ответ строго в требуемом формате."
-    )
+    prompt = _build_estimator_prompt(question, description, end_date)
 
     try:
         import requests as req

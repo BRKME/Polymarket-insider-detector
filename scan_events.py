@@ -95,8 +95,11 @@ def _make_logging_estimator(markets: list):
             by_q[q] = m
     run_ts = datetime.now(timezone.utc).isoformat()
 
-    def _estimator(question: str):
-        est = estimate_probability(question)
+    def _estimator(question: str, description: str = None, end_date: str = None):
+        try:
+            est = estimate_probability(question, description, end_date)
+        except TypeError:
+            est = estimate_probability(question)
         m = by_q.get(question, {})
         parsed = es._parse_prices(m) if m else None
         yes_price = round(parsed[0], 4) if parsed else None

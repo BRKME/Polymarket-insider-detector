@@ -14,7 +14,7 @@ import json
 import logging
 from typing import Dict, Optional, Tuple
 from datetime import datetime, timezone
-from openai import OpenAI
+# openai imported lazily inside the function that needs it — legacy whale layer.
 from config import OPENAI_API_KEY
 
 logger = logging.getLogger(__name__)
@@ -262,6 +262,7 @@ def get_claude_factors(market_question: str, yes_price: float, end_date: str = N
     - Confidence in analysis
     """
     try:
+        from openai import OpenAI
         client = OpenAI(api_key=OPENAI_API_KEY)
         
         end_date_str = end_date if end_date else "Unknown"

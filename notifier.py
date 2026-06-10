@@ -6,8 +6,9 @@ DEBUG_CALCULATIONS = False
 
 import requests
 import re
-from openai import OpenAI
-import openai
+# openai is only used by the legacy whale-pipeline AI summary below. It's
+# imported lazily inside that function so this module loads (and the v5 code +
+# tests that import it) without the package present. v5 uses Grok via ai_context.
 import trade_economics
 from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID, OPENAI_API_KEY
 from typing import Dict, Optional
@@ -364,6 +365,11 @@ def generate_ai_summary_cached(cache_key: str, market: str, position: str, amoun
     FIX ISSUE #14: Rate limiting with caching.
     FIX ISSUE #12: Improved error handling.
     """
+    try:
+        from openai import OpenAI
+        import openai
+    except ImportError:
+        return "High-probability insider signal detected (AI summary unavailable)"
     try:
         client = OpenAI(api_key=OPENAI_API_KEY)
         

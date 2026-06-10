@@ -193,7 +193,14 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     yes_price, no_price, liq, _ = gated
 
     q = market.get("question", "") or market.get("title", "")
-    est = ai_estimate_fn(q)
+    description = market.get("description", "") or ""
+    end_date = market.get("endDate", "") or market.get("end_date", "") or ""
+    # Pass resolution context when the estimator accepts it; fall back to the
+    # legacy single-arg signature so injected test stubs keep working.
+    try:
+        est = ai_estimate_fn(q, description, end_date)
+    except TypeError:
+        est = ai_estimate_fn(q)
     if not est or est.get("prob") is None:
         return None
 

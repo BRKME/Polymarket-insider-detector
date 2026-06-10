@@ -1,0 +1,53 @@
+# Resolution-context в промпт оценщика + чистка легаси — 2026-06-10 (2)
+
+Сессия: оценщик Grok теперь видит правила резолва и дату (лечит причину
+ловушек связанных/групповых рынков, а не симптом). Плюс убран мёртвый
+top-level импорт openai — сьют впервые полностью зелёный (90/90).
+
+---
+
+## 1. Resolution context в промпт (главное)
+
+**Проблема.** `estimate_probability(question)` получал только ЗАГОЛОВОК рынка.
+Все ловушки Polymarket живут в `description`: критерии резолва, источник
+истины, групповые/связанные рынки. Пример из журнала — «BTC $1m before GTA VI»
+(edge 47пп): это часть группы «what will happen before GTA VI», где исход
+зависит от правил группы и переноса игры. Suspicious-guard ловил это постфактум;
+правильнее — дать оценщику прочитать правила СРАЗУ.
+
+**Решение.**
+- `ai_context._build_estimator_prompt(question, description, end_date)` —
+  вынесена сборка промпта. Инжектит правила резолва (обрезка до 1500 симв.) и
+  явную дату: «оцени P(YES) именно К ЭТОЙ ДАТЕ и по этим правилам».
+- `estimate_probability` расширен до `(question, description=None,
+  end_date=None)` — обратно совместим.
+- `event_scanner.evaluate` прокидывает `description` + `endDate` из рынка, с
+  graceful fallback на legacy single-arg fn (try/except TypeError).
+- Обёртка логирования в `scan_events` обновлена под новую сигнатуру, тоже с
+  fallback.
+
+## 2. Чистка легаси openai (сьют зелёный)
+
+`notifier.py` и `irrationality.py` имели top-level `from openai import OpenAI`
+от закрытого whale-пайплайна (v6 ai_context: «GPT removed»). Из-за этого
+4 теста падали с ModuleNotFoundError, хотя к v5 отношения не имели.
+
+Импорт сделан ленивым (внутри функций, где реально используется) + понятный
+fallback при отсутствии пакета. Поведение легаси-кода там, где он развёрнут с
+openai, не изменилось; v5 не зависит от openai вовсе (использует Grok).
+
+Результат: **90/90 тестов зелёные** (было 86/90).
+
+## 3. Тесты (`tests/test_estimator_context.py`, 5 шт.)
+
+evaluate прокидывает description+date; legacy single-arg fn не ломается;
+промпт содержит правила резолва и дату; промпт без контекста валиден (нет
+«None» в тексте).
+
+---
+
+## Следующее (бэклог)
+
+- кэш AI-оценок per condition_id (экономия вызовов Grok);
+- ре-алерт при росте edge (`event_seen` → dict с last_edge);
+- учёт экспозиции по категориям (правило оператора, не код).
