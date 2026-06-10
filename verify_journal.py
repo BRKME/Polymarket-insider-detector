@@ -162,6 +162,12 @@ def verify() -> None:
     wins = losses = unresolved = 0
     pnl = 0.0
     total_staked = 0.0
+    # Onchain-confirmed subset: bets whose fill came from a real trade, not the
+    # alert-price fallback. This is the trustworthy ROI — the rest leans on a
+    # theoretical entry. Tracked separately so we can see both.
+    oc_wins = oc_losses = 0
+    oc_pnl = 0.0
+    oc_staked = 0.0
     calib = []   # (ai_yes, no_won) for calibration check
 
     import mark_to_market as mtm
@@ -180,14 +186,23 @@ def verify() -> None:
         if no_won is None:
             unresolved += 1
             continue
+        is_onchain = r.get("fill_source") == "onchain"
         calib.append((ai_yes, no_won))
         total_staked += stake
+        if is_onchain:
+            oc_staked += stake
         if no_won:
             wins += 1
             pnl += stake * (1.0 / entry - 1.0)   # payout at actual NO entry odds
+            if is_onchain:
+                oc_wins += 1
+                oc_pnl += stake * (1.0 / entry - 1.0)
         else:
             losses += 1
             pnl -= stake
+            if is_onchain:
+                oc_losses += 1
+                oc_pnl -= stake
 
     decided = wins + losses
     print("\n=== STRATEGY SCORECARD (NO on events) ===")
@@ -199,6 +214,14 @@ def verify() -> None:
         print(f"  Win rate      : {wins}W/{losses}L = {wr:.0f}%")
         print(f"  Total staked  : ${total_staked:,.0f}  (avg ${avg_stake:.0f}/bet)")
         print(f"  P&L           : ${pnl:+,.2f}  ·  ROI {roi:+.1f}%")
+        oc_decided = oc_wins + oc_losses
+        if oc_decided:
+            oc_roi = oc_pnl / oc_staked * 100 if oc_staked else 0.0
+            oc_wr = oc_wins / oc_decided * 100
+            print(f"  — of which on-chain confirmed (trustworthy): "
+                  f"{oc_decided} bets, {oc_wr:.0f}% WR, ROI {oc_roi:+.1f}%")
+        else:
+            print(f"  — on-chain confirmed: 0 yet (fills auto-fill after you bet)")
     else:
         print(f"  No resolved bets yet ({unresolved} pending). Come back later.")
 

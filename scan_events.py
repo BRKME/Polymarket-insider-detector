@@ -23,26 +23,109 @@ import requests
 from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
 import collector
 import event_scanner as es
+import ai_cache
 from ai_context import estimate_probability
 
 JOURNAL = Path("event_journal.jsonl")   # one JSON line per alerted candidate
 CALIB = Path("calibration_journal.jsonl")  # one line per AI estimate (paid-for data)
 SEEN = Path("event_seen.json")          # condition_ids already alerted
+AI_CACHE = Path("ai_cache.json")        # cached Grok estimates per condition_id
 MARKET_FETCH_LIMIT = 1000                # deeper slice — more mid-liquidity events
 MAX_AI_CALLS = 40                        # cap Grok calls per run (cost control)
 
 
-def _load_seen() -> set:
+def _load_ai_cache() -> dict:
+    if AI_CACHE.exists():
+        try:
+            d = json.loads(AI_CACHE.read_text())
+            return d if isinstance(d, dict) else {}
+        except Exception:
+            return {}
+    return {}
+
+
+def _save_ai_cache(store: dict) -> None:
+    try:
+        AI_CACHE.write_text(json.dumps(store, ensure_ascii=False, sort_keys=True))
+    except Exception as e:
+        print(f"  ⚠️ ai_cache save failed: {e}")
+
+
+# Re-alert when a previously-seen market's edge has grown by at least this much.
+# A market we passed on at 12pp but that's now 25pp is a genuinely better setup,
+# not a duplicate — suppressing it forever loses real signal.
+REALERT_EDGE_GROWTH = 0.10
+
+
+def _normalize_seen(raw) -> dict:
+    """Accept either the legacy flat list of cids or the new dict form.
+
+    Legacy entries get last_edge=None so the next scan alerts once (capturing
+    their edge), instead of being silently suppressed forever.
+    """
+    if isinstance(raw, dict):
+        return raw
+    if isinstance(raw, list):
+        return {cid: {"last_edge": None, "alerted_at": None, "resolved": False}
+                for cid in raw}
+    return {}
+
+
+def _load_seen() -> dict:
     if SEEN.exists():
         try:
-            return set(json.loads(SEEN.read_text()))
+            return _normalize_seen(json.loads(SEEN.read_text()))
         except Exception:
-            return set()
-    return set()
+            return {}
+    return {}
 
 
-def _save_seen(seen: set) -> None:
-    SEEN.write_text(json.dumps(sorted(seen)))
+def _save_seen(seen: dict) -> None:
+    SEEN.write_text(json.dumps(seen, ensure_ascii=False, sort_keys=True, indent=0))
+
+
+def _should_skip_pre_ai(cid: str, seen: dict) -> bool:
+    """Skip BEFORE spending an AI call only if the market is resolved.
+
+    We deliberately do NOT skip merely-seen markets here: their edge may have
+    grown, and we can't know without a fresh estimate. Cost is bounded by
+    MAX_AI_CALLS anyway. Resolved markets are dead — always skip.
+    """
+    entry = seen.get(cid)
+    if not entry:
+        return False
+    return bool(entry.get("resolved"))
+
+
+def _should_alert(cid: str, current_edge: float, seen: dict) -> bool:
+    """Post-AI: alert if new, or if edge grew materially since last alert."""
+    entry = seen.get(cid)
+    if not entry:
+        return True                      # never seen — alert
+    last = entry.get("last_edge")
+    if last is None:
+        return True                      # migrated/legacy — alert once to record
+    return (current_edge - last) >= REALERT_EDGE_GROWTH
+
+
+def _prune_seen(seen: dict, resolved_cids: set) -> dict:
+    """Drop resolved markets from state so the file doesn't grow without bound."""
+    return {cid: v for cid, v in seen.items() if cid not in resolved_cids}
+
+
+def _load_journal_rows() -> list:
+    """Read journal rows (for prune-by-resolved). Empty if no journal yet."""
+    if not JOURNAL.exists():
+        return []
+    rows = []
+    for line in JOURNAL.read_text().splitlines():
+        line = line.strip()
+        if line:
+            try:
+                rows.append(json.loads(line))
+            except Exception:
+                continue
+    return rows
 
 
 def _append_journal(candidate: es.Candidate) -> None:
@@ -95,11 +178,27 @@ def _make_logging_estimator(markets: list):
             by_q[q] = m
     run_ts = datetime.now(timezone.utc).isoformat()
 
+    # Per-condition_id cache so a 6h re-scan of the same slow market doesn't pay
+    # for a fresh Grok call. Invalidated by age or a >5pp YES-price move.
+    cache_store = _load_ai_cache()
+
+    def _yes_for(question: str):
+        m = by_q.get(question, {})
+        parsed = es._parse_prices(m) if m else None
+        return parsed[0] if parsed else None
+
+    def _cid_for(question: str):
+        return by_q.get(question, {}).get("conditionId", "")
+
+    cached_real = ai_cache.make_cached_estimator(
+        estimate_probability, cache_store, cid_for=_cid_for, yes_for=_yes_for)
+
     def _estimator(question: str, description: str = None, end_date: str = None):
-        try:
-            est = estimate_probability(question, description, end_date)
-        except TypeError:
-            est = estimate_probability(question)
+        cid = _cid_for(question)
+        was_cached = cid in cache_store and ai_cache.is_valid(
+            cache_store.get(cid, {}), __import__("time").time(),
+            _yes_for(question) or -1)
+        est = cached_real(question, description, end_date)
         m = by_q.get(question, {})
         parsed = es._parse_prices(m) if m else None
         yes_price = round(parsed[0], 4) if parsed else None
@@ -117,7 +216,10 @@ def _make_logging_estimator(markets: list):
                 (_end - _dt.now(timezone.utc)).total_seconds() / 86400, 1)
         except Exception:
             pass
-        try:
+        # Only log calibration on a REAL Grok call — a cache hit is the same
+        # estimate and would double-count in the Brier sample.
+        if not was_cached:
+          try:
             _append_calibration({
                 "estimated_at": run_ts,
                 "condition_id": m.get("conditionId", ""),
@@ -138,10 +240,12 @@ def _make_logging_estimator(markets: list):
                         >= es._CONF_RANK[es.MIN_CONFIDENCE]
                 ),
             })
-        except Exception as e:
+          except Exception as e:
             print(f"  ⚠️ calibration log failed: {e}")
         return est
 
+    # expose the cache store so run() can persist it after the scan
+    _estimator._cache_store = cache_store
     return _estimator
 
 
@@ -217,6 +321,18 @@ def _send(msg: str) -> bool:
 def run() -> None:
     print(f"[{datetime.now()}] event scan start")
     seen = _load_seen()
+    # Prune resolved markets from seen state so the file doesn't grow forever.
+    # A position closed in the journal is resolved/exited — its cid is dead.
+    try:
+        resolved = {r.get("condition_id", "") for r in _load_journal_rows()
+                    if str(r.get("status", "open")).lower() == "closed"}
+        if resolved:
+            before = len(seen)
+            seen = _prune_seen(seen, resolved)
+            if len(seen) < before:
+                print(f"  pruned {before - len(seen)} resolved cids from seen")
+    except Exception:
+        pass
 
     markets = collector.get_active_markets(limit=MARKET_FETCH_LIMIT)
     print(f"  fetched {len(markets)} active markets")
@@ -238,7 +354,7 @@ def run() -> None:
     gated = []
     for m in markets:
         cid = m.get("conditionId", "")
-        if cid in seen:
+        if _should_skip_pre_ai(cid, seen):
             funnel["already_seen"] += 1
             continue
         q = m.get("question", "") or m.get("title", "")
@@ -297,14 +413,28 @@ def run() -> None:
     print(f"  {len(candidates)} candidates after AI mispricing check")
 
     sent = 0
+    suppressed = 0
+    now = datetime.now(timezone.utc).isoformat()
     for c in candidates:
+        cid = c.condition_id
+        if not _should_alert(cid, c.edge, seen):
+            # already alerted and edge hasn't grown enough — record latest edge
+            # for future comparison, but don't re-fire or duplicate the journal.
+            if cid in seen:
+                seen[cid]["last_edge"] = c.edge
+            suppressed += 1
+            continue
         if _send(_format_alert(c)):
             sent += 1
         _append_journal(c)
-        seen.add(c.condition_id)
+        seen[cid] = {"last_edge": c.edge, "alerted_at": now, "resolved": False}
 
     _save_seen(seen)
-    print(f"[{datetime.now()}] done — {sent} alerts sent, journal updated")
+    # Persist the AI estimate cache for the next run.
+    if hasattr(logging_estimator, "_cache_store"):
+        _save_ai_cache(logging_estimator._cache_store)
+    print(f"[{datetime.now()}] done — {sent} alerts sent, "
+          f"{suppressed} suppressed (seen), journal updated")
 
 
 if __name__ == "__main__":
