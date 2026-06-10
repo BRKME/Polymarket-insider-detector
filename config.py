@@ -45,6 +45,14 @@ EXIT_PARTIAL_PRICE = 0.80   # NO price at which to take partial profit
 EXIT_FULL_PRICE = 0.90      # NO price at which to close the remainder
 EXIT_STOP_EDGE = -0.05      # if our edge has flipped this far negative, flag to cut
 
+# Bankroll & category exposure visibility. All our NO bets are short "drama
+# happens" — a correlated cluster (one crisis) is the real ruin risk at size.
+# The cap is NOT enforced in code (manual mode): we only WARN when a category's
+# open exposure exceeds cap*bankroll, the operator decides. Adjust BANKROLL to
+# the actual figure.
+BANKROLL = 3_000.0
+CATEGORY_EXPOSURE_CAP = 0.30   # warn when one category holds >30% of bankroll
+
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (median insider bet = $1,447, $1500 cuts 57%)
 ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)

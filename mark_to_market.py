@@ -207,8 +207,27 @@ def run() -> None:
     open_n = sum(1 for r in rows if _is_open(r))
     print(f"[{datetime.now(timezone.utc).isoformat()}] mark-to-market: "
           f"{open_n} open positions")
+
+    # Category exposure visibility (the limit is the operator's rule; we count).
+    exposure_msg = None
+    try:
+        import category_exposure as cx
+        from config import BANKROLL
+        exp = cx.exposure_by_category(rows)
+        line = cx.format_exposure(exp, bankroll=BANKROLL)
+        print("  " + line)
+        warns = cx.over_cap(exp)
+        if warns:
+            warn_txt = ", ".join(f"{cat} {frac*100:.0f}%" for cat, frac in warns.items())
+            exposure_msg = (f"⚠️ Экспозиция выше капа по категориям: {warn_txt} "
+                            f"(кап 30% банка). Новые ставки в этих категориях — "
+                            f"только сознательно.\n{line}")
+            print("  ⚠️ over cap: " + warn_txt)
+    except Exception as e:
+        print(f"  exposure calc failed: {e}")
+
     signals = scan_open_positions(rows)
-    if not signals:
+    if not signals and not exposure_msg:
         print("  no exit signals — all open positions still maturing.")
         return
 
@@ -219,8 +238,7 @@ def run() -> None:
     except Exception:
         creds = False
 
-    for s in signals:
-        msg = _format_signal(s)
+    def _tg(msg: str) -> None:
         if creds:
             try:
                 requests.post(
@@ -232,6 +250,13 @@ def run() -> None:
                 print(f"  ❌ send failed: {e}")
         else:
             print("  (no telegram creds) " + msg.replace("\n", " | "))
+
+    # Over-cap exposure warning is rate-limited to the 2h cadence by design.
+    if exposure_msg:
+        _tg(exposure_msg)
+
+    for s in signals:
+        _tg(_format_signal(s))
     print(f"  {len(signals)} exit signal(s) emitted.")
 
 

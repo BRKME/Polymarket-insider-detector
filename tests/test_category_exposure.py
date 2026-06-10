@@ -1,0 +1,86 @@
+"""
+Tests for category_exposure.py — tag positions by thesis category and report
+how much of the bankroll sits in each. The LIMIT itself stays an operator rule
+(manual mode); this module only provides the visibility so the operator doesn't
+have to keep a spreadsheet by hand.
+
+Run: python -m pytest tests/test_category_exposure.py -v
+"""
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+import category_exposure as ce
+import config
+
+
+class TestClassify:
+    def test_geopolitics(self):
+        assert ce.classify("US x Iran permanent peace deal by October 31, 2026?") \
+            == "geopolitics"
+        assert ce.classify("Will Russia and Ukraine sign a ceasefire?") \
+            == "geopolitics"
+
+    def test_crypto(self):
+        assert ce.classify("Will Bitcoin dip to $50,000 by December 31, 2026?") \
+            == "crypto"
+        assert ce.classify("Will Ethereum hit $10k?") == "crypto"
+
+    def test_elections(self):
+        assert ce.classify(
+            "Will Abelardo de la Espriella win the 2026 Colombian presidential election?"
+        ) == "elections"
+
+    def test_companies_markets(self):
+        assert ce.classify("SpaceX IPO closing market cap above $2.2T?") \
+            == "companies"
+
+    def test_fallback_other(self):
+        assert ce.classify("Will Jesus Christ return before GTA VI?") == "other"
+
+    def test_empty_is_other(self):
+        assert ce.classify("") == "other"
+
+
+class TestExposure:
+    def _rows(self):
+        return [
+            # open, onchain stake 40
+            {"status": "open", "question": "US x Iran peace deal?",
+             "stake_actual": 40.0, "category": "geopolitics"},
+            # open, no actual stake -> midpoint fallback
+            {"status": "open", "question": "Will Bitcoin dip to $50k?",
+             "stake_actual": None, "category": "crypto"},
+            # closed — must not count
+            {"status": "closed", "question": "Old bet",
+             "stake_actual": 70.0, "category": "geopolitics"},
+            # open, no category tag -> classified on the fly from question
+            {"status": "open", "question": "Will Ethereum hit $10k?",
+             "stake_actual": 30.0},
+        ]
+
+    def test_open_only_and_fallback_stake(self):
+        exp = ce.exposure_by_category(self._rows())
+        mid = (config.STAKE_MIN + config.STAKE_MAX) / 2.0
+        assert exp["geopolitics"] == 40.0           # closed 70 not counted
+        assert exp["crypto"] == mid + 30.0          # fallback + tagged-on-fly
+
+    def test_warnings_over_cap(self):
+        # bankroll 100, cap 30% -> geopolitics 40 (40%) must warn
+        exp = {"geopolitics": 40.0, "crypto": 10.0}
+        warns = ce.over_cap(exp, bankroll=100.0, cap=0.30)
+        assert "geopolitics" in warns
+        assert "crypto" not in warns
+
+    def test_no_warnings_under_cap(self):
+        exp = {"geopolitics": 20.0}
+        assert ce.over_cap(exp, bankroll=100.0, cap=0.30) == {}
+
+
+class TestFormatLine:
+    def test_summary_line_mentions_each_category(self):
+        exp = {"geopolitics": 40.0, "crypto": 25.0}
+        line = ce.format_exposure(exp, bankroll=1000.0)
+        assert "geopolitics" in line and "crypto" in line
+        assert "$40" in line and "$25" in line

@@ -134,6 +134,13 @@ def _append_journal(candidate: es.Candidate) -> None:
     row["bet_side"] = "NO"
     row["stake_plan"] = "manual $15-70 flat"
     row["status"] = "open"          # mark-to-market scans only open positions
+    # Thesis category — powers the exposure-by-category visibility. The limit
+    # itself is an operator rule; we just make the number visible.
+    try:
+        import category_exposure as cx
+        row["category"] = cx.classify(candidate.question)
+    except Exception:
+        row["category"] = "other"
     # horizon in days from alert to resolution — lets verify_journal split the
     # Brier by horizon so the verdict on short bets doesn't wait for 2027.
     try:
@@ -281,6 +288,21 @@ def _format_alert(c: es.Candidate) -> str:
         stake_line = f"Размер: ~${size:.0f} (диапазон ${STAKE_MIN:.0f}-{STAKE_MAX:.0f})\n"
     except Exception:
         stake_line = ""
+    # Category + current open exposure in that category — so the operator sees
+    # the cluster load at the moment of sizing, not after.
+    cat_line = ""
+    try:
+        import category_exposure as cx
+        from config import BANKROLL, CATEGORY_EXPOSURE_CAP
+        cat = cx.classify(c.question)
+        exp = cx.exposure_by_category(_load_journal_rows())
+        cur = exp.get(cat, 0.0)
+        pct = cur / BANKROLL * 100 if BANKROLL > 0 else 0
+        warn = " ⚠️ ЛИМИТ" if BANKROLL > 0 and \
+            (cur / BANKROLL) > CATEGORY_EXPOSURE_CAP else ""
+        cat_line = f"Категория: {cat} · уже открыто ${cur:.0f} ({pct:.0f}% банка){warn}\n"
+    except Exception:
+        pass
     msg = (
         f"{fire} СОБЫТИЕ · ставка NO (мисприсинг)\n"
         f"{c.question}\n"
@@ -288,6 +310,7 @@ def _format_alert(c: es.Candidate) -> str:
         f"Вход NO по {c.no_price*100:.0f}% · разрыв {edge_pct:.0f} п.п. · до {end}\n"
         f"Ликвидность ${c.liquidity:,.0f}\n"
         f"{stake_line}"
+        f"{cat_line}"
         f"—————————————————————\n"
         f"{c.reasoning}\n"
         f"—————————————————————\n"
