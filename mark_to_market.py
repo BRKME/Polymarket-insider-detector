@@ -1,0 +1,239 @@
+"""
+mark_to_market.py — monitor OPEN NO positions and emit manual exit signals.
+
+Manual betting mode: we never place or close trades automatically. This module
+re-reads current prices for positions still marked open in event_journal.jsonl,
+computes unrealised P&L at the actual recorded stake, and tells the operator (via
+Telegram) when a position has matured enough to bank — so capital recycles
+instead of sitting frozen until a far-off resolution.
+
+Exit tiers (config):
+  • NO >= EXIT_PARTIAL_PRICE  → take partial profit
+  • NO >= EXIT_FULL_PRICE     → close the remainder
+  • current edge <= EXIT_STOP_EDGE → our thesis has inverted; flag to cut
+
+Pure decision logic is split out (decide_exit, position_pnl, current_no_price)
+so it can be unit-tested offline. Network reads reuse resolution_tracker.
+
+Run:  python mark_to_market.py
+"""
+from __future__ import annotations
+import json
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Optional, Callable, Dict, List
+
+from config import (
+    EXIT_PARTIAL_PRICE, EXIT_FULL_PRICE, EXIT_STOP_EDGE,
+    STAKE_MIN, STAKE_MAX,
+)
+
+JOURNAL = Path("event_journal.jsonl")
+
+
+# ── pure logic (no network) ─────────────────────────────────────────────────
+
+def position_stake(row: dict) -> float:
+    """The stake to score a position by.
+
+    Prefer the actual hand-entered stake; fall back to the midpoint of the
+    allowed range when a position predates actual-fill logging.
+    """
+    s = row.get("stake_actual")
+    try:
+        s = float(s)
+        if s > 0:
+            return s
+    except (TypeError, ValueError):
+        pass
+    return (STAKE_MIN + STAKE_MAX) / 2.0
+
+
+def entry_no_price(row: dict) -> Optional[float]:
+    """The NO price we actually entered at (preferred) or the alert price."""
+    for key in ("entry_price_actual", "no_price"):
+        v = row.get(key)
+        try:
+            v = float(v)
+            if 0 < v < 1:
+                return v
+        except (TypeError, ValueError):
+            continue
+    return None
+
+
+def position_pnl(entry: float, current: float, stake: float) -> dict:
+    """Unrealised P&L for a NO position, normalised to shares bought with `stake`.
+
+    On Polymarket a NO share costs `entry` and pays $1 if NO wins. With `stake`
+    dollars we hold stake/entry shares; current mark value is shares*current.
+    """
+    if entry <= 0:
+        return {"shares": 0.0, "value": 0.0, "unrealised": 0.0, "ret_pct": 0.0}
+    shares = stake / entry
+    value = shares * current
+    unrealised = value - stake
+    ret_pct = (current / entry - 1.0) * 100.0
+    return {
+        "shares": round(shares, 2),
+        "value": round(value, 2),
+        "unrealised": round(unrealised, 2),
+        "ret_pct": round(ret_pct, 1),
+    }
+
+
+def decide_exit(current_no: float, current_edge: Optional[float]) -> Optional[str]:
+    """Return an exit action label, or None to hold.
+
+    current_edge = (1 - current_no) - ai_yes  — our mispricing, re-marked to the
+    live price. Order of checks matters:
+
+      1. Profit tiers first. If NO has run up to the exit bands, we exit to BANK
+         the gain — that the re-marked edge looks small/negative there is
+         expected (the market has converged toward our thesis, which is the win).
+      2. Only BELOW the profit tiers does an inverted edge mean trouble: the
+         price moved AGAINST us past our estimate, so the thesis is gone — cut.
+    """
+    if current_no >= EXIT_FULL_PRICE:
+        return "CLOSE_FULL"   # banked almost all the edge
+    if current_no >= EXIT_PARTIAL_PRICE:
+        return "TAKE_PARTIAL"
+    if current_edge is not None and current_edge <= EXIT_STOP_EDGE:
+        return "CUT"          # edge inverted while price is against us — exit
+    return None
+
+
+# ── network-backed helpers (injectable) ─────────────────────────────────────
+
+def current_no_price(condition_id: str, fetch_fn: Callable[[str], Optional[Dict]]) -> Optional[float]:
+    """Current NO price from a fresh market read. fetch_fn injected for tests."""
+    market = fetch_fn(condition_id)
+    if not market:
+        return None
+    import event_scanner as es
+    parsed = es._parse_prices(market)
+    if not parsed:
+        return None
+    _, no_price = parsed
+    return no_price
+
+
+def _default_fetch(condition_id: str) -> Optional[Dict]:
+    import resolution_tracker as rt
+    m = rt.fetch_market_by_condition_id(condition_id)
+    if not m:
+        m = rt.fetch_market_by_clob(condition_id)
+    return m
+
+
+def _load_journal() -> List[dict]:
+    if not JOURNAL.exists():
+        return []
+    rows = []
+    for line in JOURNAL.read_text().splitlines():
+        line = line.strip()
+        if line:
+            try:
+                rows.append(json.loads(line))
+            except Exception:
+                continue
+    return rows
+
+
+def _is_open(row: dict) -> bool:
+    """A position is open unless explicitly closed."""
+    return str(row.get("status", "open")).lower() == "open"
+
+
+def scan_open_positions(
+    rows: List[dict],
+    fetch_fn: Callable[[str], Optional[Dict]] = _default_fetch,
+) -> List[dict]:
+    """Re-mark every open position; return those that warrant an exit signal."""
+    signals = []
+    for row in rows:
+        if not _is_open(row):
+            continue
+        cid = row.get("condition_id", "")
+        if not cid:
+            continue
+        cur = current_no_price(cid, fetch_fn)
+        if cur is None:
+            continue
+        entry = entry_no_price(row)
+        if entry is None:
+            continue
+        stake = position_stake(row)
+        ai_yes = row.get("ai_yes_estimate")
+        # Re-marked edge: market now prices YES at (1 - current_no); compare to AI.
+        current_edge = None
+        try:
+            current_edge = round((1.0 - cur) - float(ai_yes), 4)
+        except (TypeError, ValueError):
+            pass
+        action = decide_exit(cur, current_edge)
+        if action:
+            pnl = position_pnl(entry, cur, stake)
+            signals.append({
+                "question": row.get("question", ""),
+                "condition_id": cid,
+                "entry_no": entry,
+                "current_no": round(cur, 4),
+                "stake": stake,
+                "action": action,
+                "current_edge": current_edge,
+                **pnl,
+            })
+    return signals
+
+
+def _format_signal(s: dict) -> str:
+    label = {
+        "CLOSE_FULL": "🟢 ЗАКРЫВАЙ ПОЛНОСТЬЮ",
+        "TAKE_PARTIAL": "🟡 ЗАБЕРИ ЧАСТЬ",
+        "CUT": "🔴 РЕЖЬ (edge развернулся)",
+    }.get(s["action"], s["action"])
+    return (
+        f"{label}\n{s['question']}\n"
+        f"—————————————————————\n"
+        f"Вход NO {s['entry_no']*100:.0f}% → сейчас {s['current_no']*100:.0f}% "
+        f"({s['ret_pct']:+.0f}%)\n"
+        f"Ставка ${s['stake']:.0f} · нереализ. P&L ${s['unrealised']:+.2f}"
+    )
+
+
+def run() -> None:
+    rows = _load_journal()
+    open_n = sum(1 for r in rows if _is_open(r))
+    print(f"[{datetime.now(timezone.utc).isoformat()}] mark-to-market: "
+          f"{open_n} open positions")
+    signals = scan_open_positions(rows)
+    if not signals:
+        print("  no exit signals — all open positions still maturing.")
+        return
+
+    try:
+        from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+        import requests
+        creds = bool(TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID)
+    except Exception:
+        creds = False
+
+    for s in signals:
+        msg = _format_signal(s)
+        if creds:
+            try:
+                requests.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                    json={"chat_id": TELEGRAM_CHAT_ID, "text": msg},
+                    timeout=10,
+                ).raise_for_status()
+            except Exception as e:
+                print(f"  ❌ send failed: {e}")
+        else:
+            print("  (no telegram creds) " + msg.replace("\n", " | "))
+    print(f"  {len(signals)} exit signal(s) emitted.")
+
+
+if __name__ == "__main__":
+    run()

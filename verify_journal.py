@@ -98,7 +98,7 @@ def brier_report() -> None:
         print("  No calibration journal yet — run scan_events to start logging.")
         return
 
-    pairs = []   # (market_yes, ai_yes, actual_yes)  actual_yes in {0,1}
+    pairs = []   # (market_yes, ai_yes, actual_yes, horizon_days)
     for r in rows:
         cid = r.get("condition_id", "")
         mkt = r.get("market_yes_price")
@@ -109,7 +109,7 @@ def brier_report() -> None:
         if no_won is None:
             continue
         actual_yes = 0.0 if no_won else 1.0   # NO won => YES did not happen
-        pairs.append((float(mkt), float(ai), actual_yes))
+        pairs.append((float(mkt), float(ai), actual_yes, r.get("horizon_days")))
 
     print("\n=== GROK vs MARKET (Brier — the core test) ===")
     if len(pairs) < 5:
@@ -118,8 +118,8 @@ def brier_report() -> None:
         return
 
     n = len(pairs)
-    brier_mkt = sum((m - a) ** 2 for m, _, a in pairs) / n
-    brier_ai = sum((g - a) ** 2 for _, g, a in pairs) / n
+    brier_mkt = sum((m - a) ** 2 for m, _, a, _ in pairs) / n
+    brier_ai = sum((g - a) ** 2 for _, g, a, _ in pairs) / n
     print(f"  Resolved estimates : {n}")
     print(f"  Market Brier       : {brier_mkt:.4f}  (the crowd)")
     print(f"  Grok   Brier       : {brier_ai:.4f}  (our model)")
@@ -135,10 +135,22 @@ def brier_report() -> None:
     # Calibration of Grok across probability buckets on the full sample.
     print("\n  Grok calibration (predicted P(YES) vs actual YES rate):")
     for lo, hi in [(0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.01)]:
-        b = [a for _, g, a in pairs if lo <= g < hi]
+        b = [a for _, g, a, _ in pairs if lo <= g < hi]
         if b:
             actual = sum(b) / len(b) * 100
             print(f"    Grok said {lo:.1f}-{hi:.1f}: actual YES {actual:.0f}% (n={len(b)})")
+
+    # Horizon split — short bets resolve fast and give an EARLY verdict; we
+    # shouldn't have to wait on year-out markets to learn if Grok beats the
+    # crowd. Recompute the Brier delta on just the short-horizon resolved set.
+    short = [(m, g, a) for m, g, a, hd in pairs if hd is not None and hd <= 45]
+    if len(short) >= 5:
+        ns = len(short)
+        bm = sum((m - a) ** 2 for m, _, a in short) / ns
+        bg = sum((g - a) ** 2 for _, g, a in short) / ns
+        ds = bm - bg
+        print(f"\n  Short-horizon (≤45d) early read — n={ns}: "
+              f"market {bm:.4f} vs Grok {bg:.4f} (Δ={ds:+.4f})")
 
 
 def verify() -> None:
@@ -149,35 +161,44 @@ def verify() -> None:
 
     wins = losses = unresolved = 0
     pnl = 0.0
+    total_staked = 0.0
     calib = []   # (ai_yes, no_won) for calibration check
+
+    import mark_to_market as mtm
 
     for r in rows:
         cid = r.get("condition_id", "")
-        no_price = float(r.get("no_price", 0) or 0)
         ai_yes = float(r.get("ai_yes_estimate", 0) or 0)
-        if not cid or no_price <= 0:
+        # Prefer the actually-filled entry price & stake (manual mode) so the
+        # scorecard measures what was really traded, not the alert-time theory.
+        entry = mtm.entry_no_price(r)
+        if not cid or entry is None or entry <= 0:
             unresolved += 1
             continue
+        stake = mtm.position_stake(r)
         no_won = _resolve_no_outcome(cid)
         if no_won is None:
             unresolved += 1
             continue
         calib.append((ai_yes, no_won))
+        total_staked += stake
         if no_won:
             wins += 1
-            pnl += FLAT_STAKE * (1.0 / no_price - 1.0)   # payout at NO entry odds
+            pnl += stake * (1.0 / entry - 1.0)   # payout at actual NO entry odds
         else:
             losses += 1
-            pnl -= FLAT_STAKE
+            pnl -= stake
 
     decided = wins + losses
     print("\n=== STRATEGY SCORECARD (NO on events) ===")
     if decided:
         wr = wins / decided * 100
-        roi = pnl / (decided * FLAT_STAKE) * 100
+        roi = pnl / total_staked * 100 if total_staked else 0.0
+        avg_stake = total_staked / decided if decided else 0.0
         print(f"  Resolved bets : {decided}  ({unresolved} still open/unresolved)")
         print(f"  Win rate      : {wins}W/{losses}L = {wr:.0f}%")
-        print(f"  P&L (${FLAT_STAKE:.0f}/bet): ${pnl:+,.2f}  ·  ROI {roi:+.1f}%")
+        print(f"  Total staked  : ${total_staked:,.0f}  (avg ${avg_stake:.0f}/bet)")
+        print(f"  P&L           : ${pnl:+,.2f}  ·  ROI {roi:+.1f}%")
     else:
         print(f"  No resolved bets yet ({unresolved} pending). Come back later.")
 

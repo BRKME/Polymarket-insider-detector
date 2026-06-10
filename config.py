@@ -25,6 +25,26 @@ ODDS_FILTER_MAX = 0.70      # skip entries more expensive than this (favorite tr
 # but are de-emphasised in Telegram. NO-side + AI COPY is the strongest tier.
 PRIORITY_NO_SIDE = True     # highlight NO-side signals as priority in Telegram
 
+# ── Position sizing & manual-mode liquidity (2026-06, larger bankroll) ──────
+# Manual betting: the stake is chosen by hand per trade within this range,
+# sized up for cleaner theses / stronger edge / deeper books. We never assume
+# a single flat number — verification uses the ACTUAL stake recorded per trade.
+STAKE_MIN = 15.0            # $ — smallest hand-placed bet
+STAKE_MAX = 70.0            # $ — largest; liquidity floor is derived from THIS
+# Our bet must be a small slice of the book or we move the price against
+# ourselves on entry AND on exit. Cap any single bet at ~1.5% of liquidity;
+# the gate's liquidity floor is the level at which STAKE_MAX is still ≤1.5%.
+MAX_BET_FRACTION_OF_BOOK = 0.015          # 1.5% of resting liquidity
+MIN_LIQUIDITY_EVENT = STAKE_MAX / MAX_BET_FRACTION_OF_BOOK   # ≈ $4,667 at $70
+
+# Mark-to-market early exit (manual): a NO bought cheap that has run up has
+# already captured most of its edge — closing frees capital to recycle instead
+# of sitting frozen until a far-off resolution. Two-tier so we bank some early
+# and let the rest ride toward certainty.
+EXIT_PARTIAL_PRICE = 0.80   # NO price at which to take partial profit
+EXIT_FULL_PRICE = 0.90      # NO price at which to close the remainder
+EXIT_STOP_EDGE = -0.05      # if our edge has flipped this far negative, flag to cut
+
 # Trading Thresholds
 MIN_BET_SIZE = 1000  # $1,000 minimum (median insider bet = $1,447, $1500 cuts 57%)
 ALERT_THRESHOLD = 70        # Score threshold for alerts (lowered from 80)

@@ -36,7 +36,13 @@ NO_ODDS_MIN = 0.07          # skip NO cheaper than this (resolution-risk longsho
 NO_ODDS_MAX = 0.60          # widened from 0.50 to capture more event mispricing
 CORE_NO_MIN = 0.10          # validated "core" band (for journal tagging)
 CORE_NO_MAX = 0.50
-MIN_LIQUIDITY = 5_000       # $ — thin markets have unreliable prices & bad fills
+# Liquidity floor is derived from the largest manual stake (config), so our bet
+# stays a small slice of the book and we don't move the price on entry/exit.
+# Falls back to a safe constant if config isn't importable in a test context.
+try:
+    from config import MIN_LIQUIDITY_EVENT as MIN_LIQUIDITY
+except Exception:
+    MIN_LIQUIDITY = 5_000   # $ — thin markets have unreliable prices & bad fills
 MIN_HOURS_TO_RESOLVE = 12   # avoid HFT/last-minute markets (lower bound only)
 MAX_DAYS_TO_RESOLVE = None  # no upper cap — event markets resolve months out
 EDGE_MIN = 0.15             # required gap: market P(YES) - AI P(YES) >= 15pp

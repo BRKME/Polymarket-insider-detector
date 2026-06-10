@@ -49,7 +49,20 @@ def _append_journal(candidate: es.Candidate) -> None:
     row = candidate.to_alert()
     row["alerted_at"] = datetime.now(timezone.utc).isoformat()
     row["bet_side"] = "NO"
-    row["stake_plan"] = "manual $5-20 flat"
+    row["stake_plan"] = "manual $15-70 flat"
+    row["status"] = "open"          # mark-to-market scans only open positions
+    # horizon in days from alert to resolution — lets verify_journal split the
+    # Brier by horizon so the verdict on short bets doesn't wait for 2027.
+    try:
+        end = datetime.fromisoformat(str(candidate.end_date).replace("Z", "+00:00"))
+        row["horizon_days"] = round(
+            (end - datetime.now(timezone.utc)).total_seconds() / 86400, 1)
+    except Exception:
+        row["horizon_days"] = None
+    # Filled by hand after placing the bet — verification prefers these over the
+    # alert-time price/stake so it scores what was actually traded, not theory.
+    row["entry_price_actual"] = None
+    row["stake_actual"] = None
     with JOURNAL.open("a") as f:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
 
@@ -91,6 +104,16 @@ def _make_logging_estimator(markets: list):
         ai_yes = est.get("prob") if est else None
         edge = (round(yes_price - ai_yes, 4)
                 if (yes_price is not None and ai_yes is not None) else None)
+        # horizon to resolution — lets the Brier verdict split short vs long so
+        # short-horizon bets give an early read without waiting on 2027 resolves.
+        horizon_days = None
+        try:
+            from datetime import datetime as _dt
+            _end = _dt.fromisoformat(str(m.get("endDate", "")).replace("Z", "+00:00"))
+            horizon_days = round(
+                (_end - _dt.now(timezone.utc)).total_seconds() / 86400, 1)
+        except Exception:
+            pass
         try:
             _append_calibration({
                 "estimated_at": run_ts,
@@ -103,6 +126,7 @@ def _make_logging_estimator(markets: list):
                 "edge": edge,
                 "liquidity": round(float(m.get("liquidity", 0) or 0), 2),
                 "end_date": str(m.get("endDate", "")),
+                "horizon_days": horizon_days,
                 # Will this market produce a NO bet? (mirrors scanner thresholds)
                 "would_bet": bool(
                     est and ai_yes is not None and edge is not None
@@ -139,14 +163,30 @@ def _format_alert(c: es.Candidate) -> str:
     else:
         fire = "✅"
     url = _market_url(c)
+    # Suggest a stake within the manual range, scaled by edge & liquidity:
+    # bigger only when the mispricing is clean AND the book is deep enough.
+    try:
+        from config import STAKE_MIN, STAKE_MAX
+        edge_factor = max(0.0, min(1.0, (c.edge - es.EDGE_MIN) / 0.25))
+        liq_ok = c.liquidity >= 3 * es.MIN_LIQUIDITY
+        size = STAKE_MIN + (STAKE_MAX - STAKE_MIN) * edge_factor * (1.0 if liq_ok else 0.5)
+        size = round(size / 5) * 5            # round to $5
+        stake_line = f"Размер: ~${size:.0f} (диапазон ${STAKE_MIN:.0f}-{STAKE_MAX:.0f})\n"
+    except Exception:
+        stake_line = ""
     msg = (
         f"{fire} СОБЫТИЕ · ставка NO (мисприсинг)\n"
         f"{c.question}\n"
         f"—————————————————————\n"
         f"Вход NO по {c.no_price*100:.0f}% · разрыв {edge_pct:.0f} п.п. · до {end}\n"
         f"Ликвидность ${c.liquidity:,.0f}\n"
+        f"{stake_line}"
         f"—————————————————————\n"
-        f"{c.reasoning}"
+        f"{c.reasoning}\n"
+        f"—————————————————————\n"
+        f"⚠️ Перед входом: 1) обнови цену (refresh_prices) "
+        f"2) прочти правила резолва — одиночное событие? дата? источник истины? "
+        f"3) проверь лимит по категории/тезису"
     )
     if url:
         msg += f"\n🔗 {url}"

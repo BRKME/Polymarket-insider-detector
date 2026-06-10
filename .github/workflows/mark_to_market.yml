@@ -1,0 +1,30 @@
+name: Mark-to-Market (open positions)
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'   # every 2h — manual exits need timely re-marking
+  workflow_dispatch:
+
+permissions:
+  contents: read            # read-only; emits Telegram signals, no journal write
+
+jobs:
+  remark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install requests
+
+      - name: Re-mark open positions
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          echo "Mark-to-market — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          python mark_to_market.py
