@@ -52,12 +52,28 @@ MIN_CONFIDENCE = "medium"   # ignore low-confidence AI estimates (too noisy to t
 _CONF_RANK = {"low": 0, "medium": 1, "high": 2}
 
 # Sport / HFT exclusion — these are the streams where we have NO edge.
-SPORT_MARKERS = [
-    " vs ", " vs. ", "win on", "beat ", "handicap", "-1.5", "+1.5", "-2.5", "+2.5",
-    "moneyline", "nba", "nfl", "nhl", "mlb", "wta", "atp", "fifa", "ucl", "epl",
-    "la liga", "serie a", "bundesliga", "friendly", "match", "vs the",
+#
+# Split into two classes because a naive substring match misfires:
+#   "match" matched "rematch"; "atp"/"epl" can hide inside ordinary words.
+#   ("beat" was dropped entirely — too ambiguous: "earnings beat", "heat beat".) Whole-word markers are matched
+#   with \b boundaries; markers carrying punctuation/spaces (which \w boundaries
+#   don't handle) stay as substring checks.
+SPORT_WORD_MARKERS = [
+    "handicap", "moneyline", "match", "friendly",
+    "nba", "nfl", "nhl", "mlb", "wta", "atp", "fifa", "ucl", "epl",
+    "bundesliga",
 ]
-HFT_MARKERS = ["15m", "15 min", "updown", "up or down", "this hour", "next hour"]
+SPORT_SUBSTR_MARKERS = [
+    " vs ", " vs. ", "vs the", "win on", "la liga", "serie a",
+    "-1.5", "+1.5", "-2.5", "+2.5",
+]
+HFT_WORD_MARKERS = ["updown"]
+HFT_SUBSTR_MARKERS = ["15m", "15 min", "up or down", "this hour", "next hour"]
+
+_SPORT_WORD_RE = re.compile(
+    r"\b(" + "|".join(re.escape(w) for w in SPORT_WORD_MARKERS) + r")\b")
+_HFT_WORD_RE = re.compile(
+    r"\b(" + "|".join(re.escape(w) for w in HFT_WORD_MARKERS) + r")\b")
 
 
 @dataclass
@@ -82,7 +98,13 @@ class Candidate:
 
 def _is_sport_or_hft(question: str) -> bool:
     q = f" {question.lower()} "
-    return any(m in q for m in SPORT_MARKERS) or any(m in q for m in HFT_MARKERS)
+    if _SPORT_WORD_RE.search(q) or _HFT_WORD_RE.search(q):
+        return True
+    if any(m in q for m in SPORT_SUBSTR_MARKERS):
+        return True
+    if any(m in q for m in HFT_SUBSTR_MARKERS):
+        return True
+    return False
 
 
 def _parse_prices(market: Dict) -> Optional[tuple]:

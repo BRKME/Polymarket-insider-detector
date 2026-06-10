@@ -26,6 +26,7 @@ import event_scanner as es
 from ai_context import estimate_probability
 
 JOURNAL = Path("event_journal.jsonl")   # one JSON line per alerted candidate
+CALIB = Path("calibration_journal.jsonl")  # one line per AI estimate (paid-for data)
 SEEN = Path("event_seen.json")          # condition_ids already alerted
 MARKET_FETCH_LIMIT = 1000                # deeper slice — more mid-liquidity events
 MAX_AI_CALLS = 40                        # cap Grok calls per run (cost control)
@@ -51,6 +52,70 @@ def _append_journal(candidate: es.Candidate) -> None:
     row["stake_plan"] = "manual $5-20 flat"
     with JOURNAL.open("a") as f:
         f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def _append_calibration(row: dict) -> None:
+    """One line per AI estimate — including rejected markets.
+
+    We pay for every Grok call regardless of whether the market clears EDGE_MIN.
+    Logging *all* of them turns the rejects into free calibration data: later we
+    can score Grok's P(YES) against real outcomes (Brier) and, crucially, compare
+    it to the market price's own Brier on the same markets. That comparison is
+    the single question this whole strategy rests on — does Grok beat the crowd?
+    The bet journal alone can't answer it (it's the selected, biased tail).
+    """
+    with CALIB.open("a") as f:
+        f.write(json.dumps(row, ensure_ascii=False) + "\n")
+
+
+def _make_logging_estimator(markets: list):
+    """Wrap estimate_probability so every call is journalled for calibration.
+
+    `markets` is the gated slice we're about to evaluate. We index it by question
+    text so the wrapper can attach the market's price/liquidity/condition_id to
+    each logged estimate, even for markets that later get rejected on edge.
+    """
+    by_q = {}
+    for m in markets:
+        q = m.get("question", "") or m.get("title", "")
+        if q:
+            by_q[q] = m
+    run_ts = datetime.now(timezone.utc).isoformat()
+
+    def _estimator(question: str):
+        est = estimate_probability(question)
+        m = by_q.get(question, {})
+        parsed = es._parse_prices(m) if m else None
+        yes_price = round(parsed[0], 4) if parsed else None
+        no_price = round(parsed[1], 4) if parsed else None
+        ai_yes = est.get("prob") if est else None
+        edge = (round(yes_price - ai_yes, 4)
+                if (yes_price is not None and ai_yes is not None) else None)
+        try:
+            _append_calibration({
+                "estimated_at": run_ts,
+                "condition_id": m.get("conditionId", ""),
+                "question": question,
+                "market_yes_price": yes_price,   # the crowd's P(YES) — baseline
+                "no_price": no_price,
+                "ai_yes_estimate": ai_yes,       # Grok's P(YES) — what we score
+                "ai_conf": est.get("conf") if est else None,
+                "edge": edge,
+                "liquidity": round(float(m.get("liquidity", 0) or 0), 2),
+                "end_date": str(m.get("endDate", "")),
+                # Will this market produce a NO bet? (mirrors scanner thresholds)
+                "would_bet": bool(
+                    est and ai_yes is not None and edge is not None
+                    and edge >= es.EDGE_MIN
+                    and es._CONF_RANK.get(est.get("conf", "low"), 0)
+                        >= es._CONF_RANK[es.MIN_CONFIDENCE]
+                ),
+            })
+        except Exception as e:
+            print(f"  ⚠️ calibration log failed: {e}")
+        return est
+
+    return _estimator
 
 
 def _market_url(c: es.Candidate) -> str:
@@ -164,9 +229,28 @@ def run() -> None:
         print(f"    {k}: {v}")
     print(f"  {len(gated)} passed structural gate (event + NO {es.NO_ODDS_MIN}-{es.NO_ODDS_MAX} + liquid)")
 
-    gated = gated[:MAX_AI_CALLS]  # cost cap
+    # The AI-call cap slices the FRONT of this list, so order matters: with raw
+    # Gamma order the best candidates can fall past the cap and never get an AI
+    # estimate. Prioritise (1) NO inside the validated core band 0.10-0.50, then
+    # (2) NO nearest the centre of that band (where the event-bias edge is
+    # cleanest), then (3) deeper liquidity (better fills, more reliable price).
+    def _priority(m):
+        parsed = es._parse_prices(m) or (0.0, 0.0)
+        no_price = parsed[1]
+        in_core = es.CORE_NO_MIN <= no_price < es.CORE_NO_MAX
+        core_centre = (es.CORE_NO_MIN + es.CORE_NO_MAX) / 2
+        liq = float(m.get("liquidity", 0) or m.get("volume", 0) or 0)
+        # sort key: core first (False<True so negate), then closeness to centre,
+        # then more liquidity first (negate).
+        return (not in_core, abs(no_price - core_centre), -liq)
 
-    candidates = es.scan(gated, estimate_probability)
+    gated.sort(key=_priority)
+    gated = gated[:MAX_AI_CALLS]  # cost cap (now applied to the best slice)
+
+    # Wrap the estimator so every Grok call (rejects included) lands in the
+    # calibration journal — see _append_calibration for why this matters.
+    logging_estimator = _make_logging_estimator(gated)
+    candidates = es.scan(gated, logging_estimator)
     print(f"  {len(candidates)} candidates after AI mispricing check")
 
     sent = 0

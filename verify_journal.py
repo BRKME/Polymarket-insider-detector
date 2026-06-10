@@ -23,6 +23,7 @@ from typing import Optional
 import resolution_tracker as rt
 
 JOURNAL = Path("event_journal.jsonl")
+CALIB = Path("calibration_journal.jsonl")
 FLAT_STAKE = 10.0          # $ we assume per NO bet, for scoring
 TARGET_CONCURRENT = 20     # diversification target from the math in the article
 
@@ -62,6 +63,82 @@ def _resolve_no_outcome(condition_id: str) -> Optional[bool]:
     if r in ("yes", "true", "1"):
         return False      # YES won → our NO bet lost
     return None
+
+
+def _load_calibration() -> list:
+    if not CALIB.exists():
+        return []
+    rows = []
+    for line in CALIB.read_text().splitlines():
+        line = line.strip()
+        if line:
+            try:
+                rows.append(json.loads(line))
+            except Exception:
+                continue
+    return rows
+
+
+def brier_report() -> None:
+    """Head-to-head: does Grok's P(YES) predict outcomes better than the market?
+
+    This is the load-bearing question for the whole v5 strategy. The bet journal
+    can't answer it — it only contains the markets where Grok and the market
+    disagreed most (a biased, selected tail). The calibration journal logs EVERY
+    estimate, so we can score both predictors on the same neutral sample:
+
+        Brier = mean( (P(YES) - actual_YES)^2 )   — lower is better.
+
+    If Grok's Brier is NOT clearly below the market's, the edge is an illusion:
+    we'd just be betting against a crowd that's better-calibrated than our model.
+    """
+    rows = _load_calibration()
+    if not rows:
+        print("\n=== GROK vs MARKET (Brier) ===")
+        print("  No calibration journal yet — run scan_events to start logging.")
+        return
+
+    pairs = []   # (market_yes, ai_yes, actual_yes)  actual_yes in {0,1}
+    for r in rows:
+        cid = r.get("condition_id", "")
+        mkt = r.get("market_yes_price")
+        ai = r.get("ai_yes_estimate")
+        if not cid or mkt is None or ai is None:
+            continue
+        no_won = _resolve_no_outcome(cid)
+        if no_won is None:
+            continue
+        actual_yes = 0.0 if no_won else 1.0   # NO won => YES did not happen
+        pairs.append((float(mkt), float(ai), actual_yes))
+
+    print("\n=== GROK vs MARKET (Brier — the core test) ===")
+    if len(pairs) < 5:
+        print(f"  Only {len(pairs)} resolved estimates — too few to judge.")
+        print(f"  Need ~30+ for a meaningful read. Keep the scanner running.")
+        return
+
+    n = len(pairs)
+    brier_mkt = sum((m - a) ** 2 for m, _, a in pairs) / n
+    brier_ai = sum((g - a) ** 2 for _, g, a in pairs) / n
+    print(f"  Resolved estimates : {n}")
+    print(f"  Market Brier       : {brier_mkt:.4f}  (the crowd)")
+    print(f"  Grok   Brier       : {brier_ai:.4f}  (our model)")
+    delta = brier_mkt - brier_ai
+    if delta > 0.01:
+        print(f"  ✅ Grok beats the market by {delta:.4f} — edge is plausible.")
+    elif delta < -0.01:
+        print(f"  ❌ Market beats Grok by {-delta:.4f} — NO real edge; betting")
+        print(f"     against a better-calibrated crowd. Reconsider the strategy.")
+    else:
+        print(f"  ⚖️ Essentially tied (Δ={delta:+.4f}) — no demonstrated edge yet.")
+
+    # Calibration of Grok across probability buckets on the full sample.
+    print("\n  Grok calibration (predicted P(YES) vs actual YES rate):")
+    for lo, hi in [(0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.01)]:
+        b = [a for _, g, a in pairs if lo <= g < hi]
+        if b:
+            actual = sum(b) / len(b) * 100
+            print(f"    Grok said {lo:.1f}-{hi:.1f}: actual YES {actual:.0f}% (n={len(b)})")
 
 
 def verify() -> None:
@@ -143,6 +220,9 @@ def verify() -> None:
     if max_concurrent < TARGET_CONCURRENT:
         print(f"  ⚠️ Below target — too few concurrent bets means variance can sink")
         print(f"     even a real edge. Widen the funnel or wait for more candidates.")
+
+    # The load-bearing test: is Grok actually better-calibrated than the crowd?
+    brier_report()
 
 
 if __name__ == "__main__":
