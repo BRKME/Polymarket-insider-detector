@@ -14,6 +14,16 @@
 "last_edge": 0.475,
 "resolved": false
 },
+"0x6619036865c2d27f1b1c00cd565ce74f6aa72ef93be29c315be36941d3559c59": {
+"alerted_at": "2026-06-10T20:16:54.524891+00:00",
+"last_edge": 0.445,
+"resolved": false
+},
+"0x724a93f3e0ed0a6c83d2b4f2bc60839b39a92cc2c7cbac0169447f48d72537ab": {
+"alerted_at": "2026-06-10T20:16:54.524891+00:00",
+"last_edge": 0.31,
+"resolved": false
+},
 "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805": {
 "alerted_at": null,
 "last_edge": null,
