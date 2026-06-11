@@ -1,12 +1,12 @@
 {
 "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee": {
 "alerted_at": null,
-"last_edge": null,
+"last_edge": 0.275,
 "resolved": false
 },
 "0x087713ab2905e789c42c3fafdf747512f8d7883b7fab1ac554b703310c09d869": {
 "alerted_at": null,
-"last_edge": null,
+"last_edge": 0.395,
 "resolved": false
 },
 "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
