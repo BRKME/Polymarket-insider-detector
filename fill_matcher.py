@@ -135,17 +135,46 @@ def apply_fills(rows: List[Dict],
 
 # ── network ──────────────────────────────────────────────────────────────────
 
-def _fetch_trades(condition_id: str) -> List[Dict]:
-    """Our settled trades for one market from the Data API /activity endpoint."""
+_ACTIVITY_CACHE: Optional[List[Dict]] = None
+
+
+def _fetch_all_activity() -> List[Dict]:
+    """Вся активность кошелька одним запросом (кэш на прогон).
+
+    Продакшн-вариант с параметрами market+type возвращал HTTP 400 на каждый
+    cid (диагностика 11.06, fills_debug) — Data API отвергает такую комбинацию.
+    Рабочая диагностика 10.06 брала /activity только с user+limit и матчила
+    conditionId на клиенте; делаем так же. Бонус: 1 запрос вместо N.
+    """
+    global _ACTIVITY_CACHE
+    if _ACTIVITY_CACHE is not None:
+        return _ACTIVITY_CACHE
     import requests
-    params = {"user": PROXY_WALLET, "market": condition_id,
-              "type": "TRADE", "limit": 100}
-    r = requests.get(f"{DATA_API}/activity", params=params, timeout=20)
-    if r.status_code != 200:
-        print(f"  ⚠️ Data API HTTP {r.status_code} for {condition_id[:12]}…")
-        return []
-    data = r.json()
-    return data if isinstance(data, list) else []
+    out: List[Dict] = []
+    offset = 0
+    while True:
+        params = {"user": PROXY_WALLET, "limit": 500, "offset": offset}
+        r = requests.get(f"{DATA_API}/activity", params=params, timeout=20)
+        if r.status_code != 200:
+            print(f"  ⚠️ Data API HTTP {r.status_code} on /activity")
+            break
+        batch = r.json()
+        if not isinstance(batch, list) or not batch:
+            break
+        out.extend(batch)
+        if len(batch) < 500 or offset >= 2000:
+            break
+        offset += 500
+    _ACTIVITY_CACHE = out
+    print(f"  activity rows fetched: {len(out)}")
+    return out
+
+
+def _fetch_trades(condition_id: str) -> List[Dict]:
+    """Наши TRADE-строки по одному рынку — клиентский фильтр общей активности."""
+    return [t for t in _fetch_all_activity()
+            if t.get("conditionId") == condition_id
+            and str(t.get("type", "")).upper() == "TRADE"]
 
 
 def _load_journal() -> List[Dict]:
