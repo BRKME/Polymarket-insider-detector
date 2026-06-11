@@ -6,8 +6,8 @@
 "thesis_key": "will bitcoin dip to 45 000"
 },
 "0x0549eb8269570dea333fe47ffff241827d93a22caed18f64f9a1eb4c3239c7f8": {
-"alerted_at": "2026-06-11T10:05:33.989300+00:00",
-"last_edge": 0.355,
+"alerted_at": "2026-06-11T20:12:07.994636+00:00",
+"last_edge": 0.57,
 "resolved": false,
 "thesis_key": "will donald trump announce that the"
 },
@@ -16,6 +16,12 @@
 "last_edge": 0.395,
 "resolved": false,
 "thesis_key": "us x iran permanent peace deal"
+},
+"0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126": {
+"alerted_at": "2026-06-11T20:12:07.994636+00:00",
+"last_edge": 0.22,
+"resolved": false,
+"thesis_key": "starmer out"
 },
 "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
 "alerted_at": "2026-06-10T14:57:47.835284+00:00",
@@ -58,6 +64,12 @@
 "last_edge": 0.4925,
 "resolved": false,
 "thesis_key": "will bitcoin hit 1m"
+},
+"0xbdb44ce1624dbf80fe70a96e7cb027b854aa44c52cf87a6bd0bc9ea2c332c3dc": {
+"alerted_at": "2026-06-11T20:12:07.994636+00:00",
+"last_edge": 0.305,
+"resolved": false,
+"thesis_key": "us iran nuclear deal"
 },
 "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56": {
 "alerted_at": null,
