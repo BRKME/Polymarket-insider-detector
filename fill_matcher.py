@@ -29,8 +29,7 @@ JOURNAL = Path("event_journal.jsonl")
 DATA_API = "https://data-api.polymarket.com"
 # Public proxy wallet whose trades we read. Override via env if it ever changes.
 import os
-PROXY_WALLET = os.getenv("POLYMARKET_PROXY_WALLET",
-                         "0xbd8338C6D4e1E25B28D1A95Db926D2CeF689632f")
+PROXY_WALLET = os.getenv("POLYMARKET_PROXY_WALLET") or "0xbd8338C6D4e1E25B28D1A95Db926D2CeF689632f"  # пустой секрет в Actions = отсутствующий
 
 
 # ── pure matching logic (no network) ────────────────────────────────────────
