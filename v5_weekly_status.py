@@ -90,9 +90,119 @@ def build_status(journal: List[dict], calib: List[dict],
     return "\n".join(lines)
 
 
+def build_kpi_block(journal: List[dict], calib: List[dict],
+                    resolve_fn=None) -> str:
+    """KPI успешности. Контракт честности: каждая цифра — с размером выборки
+    рядом; ниже порогов мощности — явное «рано судить», не проценты.
+
+    resolve_fn(cid) -> True (NO выиграл) / False / None. None-резолвер =
+    сеть недоступна -> KPI пропускается, статус деградирует в активность.
+    """
+    if resolve_fn is None:
+        return ""
+
+    # ── Scorecard по реальным ставкам журнала ──
+    wins = losses = 0
+    pnl = staked = 0.0
+    oc_wins = oc_losses = 0
+    oc_pnl = oc_staked = 0.0
+    for r in journal:
+        if str(r.get("status", "open")).lower() != "open":
+            continue
+        cid = r.get("condition_id", "")
+        try:
+            entry = float(r.get("entry_price_actual") or r.get("no_price") or 0)
+        except (TypeError, ValueError):
+            entry = 0.0
+        if not cid or entry <= 0:
+            continue
+        won = resolve_fn(cid)
+        if won is None:
+            continue
+        try:
+            stake = float(r.get("stake_actual") or 0) or 40.0
+        except (TypeError, ValueError):
+            stake = 40.0
+        onchain = r.get("fill_source") == "onchain"
+        staked += stake
+        delta = stake * (1.0 / entry - 1.0) if won else -stake
+        pnl += delta
+        if won:
+            wins += 1
+        else:
+            losses += 1
+        if onchain:
+            oc_staked += stake
+            oc_pnl += delta
+            if won:
+                oc_wins += 1
+            else:
+                oc_losses += 1
+
+    lines = []
+    decided = wins + losses
+    if decided:
+        wr = wins / decided * 100
+        roi = pnl / staked * 100 if staked else 0.0
+        line = f"KPI сигналов: резолвов: {decided} · WR {wr:.0f}% · ROI {roi:+.0f}%"
+        oc_n = oc_wins + oc_losses
+        if oc_n:
+            oc_wr = oc_wins / oc_n * 100
+            oc_roi = oc_pnl / oc_staked * 100 if oc_staked else 0.0
+            line += f"\n     реальные ставки · ончейн (n={oc_n}): WR {oc_wr:.0f}%, ROI {oc_roi:+.0f}%"
+        lines.append(line)
+    else:
+        lines.append("KPI: резолвов пока 0 — ставки зреют")
+
+    # ── Brier-прогресс (главный вопрос проекта) ──
+    short = [r for r in calib
+             if r.get("horizon_days") is not None
+             and float(r["horizon_days"]) <= SHORT_HORIZON_DAYS
+             and r.get("market_yes_price") is not None
+             and r.get("ai_yes_estimate") is not None]
+    resolved = []
+    for r in short:
+        won = resolve_fn(r.get("condition_id", ""))
+        if won is not None:
+            # won=True значит NO выиграл -> исход YES = 0
+            resolved.append((float(r["market_yes_price"]),
+                             float(r["ai_yes_estimate"]),
+                             0.0 if won else 1.0))
+    n = len(resolved)
+    if n < 10:
+        lines.append(f"Brier (короткие): {n}/{SHORT_TARGET} резолвов — рано судить")
+    else:
+        b_mkt = sum((m - y) ** 2 for m, _, y in resolved) / n
+        b_ai = sum((a - y) ** 2 for _, a, y in resolved) / n
+        delta = b_mkt - b_ai      # >0 = Grok точнее рынка
+        leader = "Grok точнее" if delta > 0 else "рынок точнее"
+        tag = "ВЕРДИКТ" if n >= SHORT_TARGET else "предварительно"
+        lines.append(f"Brier (короткие, n={n}/{SHORT_TARGET}, {tag}): "
+                     f"{leader}, Δ={delta:+.3f} "
+                     f"(рынок {b_mkt:.3f} vs Grok {b_ai:.3f})")
+    return "\n".join(lines)
+
+
 def main() -> None:
     now = datetime.now(timezone.utc)
-    msg = build_status(_load_jsonl(JOURNAL), _load_jsonl(CALIB), now)
+    journal = _load_jsonl(JOURNAL)
+    calib = _load_jsonl(CALIB)
+    msg = build_status(journal, calib, now)
+    # KPI успешности — с сетевым резолвером; при сбое деградируем молча
+    try:
+        from verify_journal import _resolve_no_outcome
+        _cache: dict = {}
+
+        def _resolve(cid: str):
+            if cid not in _cache:
+                _cache[cid] = _resolve_no_outcome(cid)
+            return _cache[cid]
+
+        kpi = build_kpi_block(journal, calib, resolve_fn=_resolve)
+        if kpi:
+            msg += "\n\n" + kpi
+    except Exception as e:  # noqa: BLE001
+        print(f"KPI block skipped: {e}")
     print(msg)
     try:
         import requests

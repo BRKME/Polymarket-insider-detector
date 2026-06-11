@@ -63,3 +63,58 @@ class TestStatus:
     def test_empty_journal_safe(self):
         msg = build_status([], [], now=NOW)
         assert "Открыто: 0" in msg
+
+
+class TestKpiBlock:
+    """KPI успешности в недельном статусе. Контракт честности: на малой
+    выборке (n ниже порогов) — «рано судить», цифры всегда с n рядом."""
+
+    def _resolve(self, outcomes):
+        return lambda cid: outcomes.get(cid)
+
+    def _journal_kpi(self):
+        # 2 резолвнутых (1W/1L), один из них ончейн; 1 нерезолвнутый
+        return [
+            {"condition_id": "0xW", "status": "open", "fill_source": "onchain",
+             "entry_price_actual": 0.40, "stake_actual": 40.0,
+             "no_price": 0.40},
+            {"condition_id": "0xL", "status": "open",
+             "no_price": 0.50},
+            {"condition_id": "0xU", "status": "open",
+             "no_price": 0.30},
+        ]
+
+    def test_kpi_counts_and_roi(self):
+        from v5_weekly_status import build_kpi_block
+        resolve = self._resolve({"0xW": True, "0xL": False, "0xU": None})
+        kpi = build_kpi_block(self._journal_kpi(), [], resolve_fn=resolve)
+        # 2 резолва: WR 50%; ончейн-срез: 1 ставка, WR 100%
+        assert "резолвов: 2" in kpi
+        assert "WR 50%" in kpi
+        assert "ончейн" in kpi and "n=1" in kpi
+
+    def test_brier_progress_too_early(self):
+        from v5_weekly_status import build_kpi_block
+        calib = [{"condition_id": f"0xc{i}", "horizon_days": 20.0,
+                  "market_yes_price": 0.7, "ai_yes_estimate": 0.4}
+                 for i in range(4)]
+        resolve = self._resolve({f"0xc{i}": (i % 2 == 0) for i in range(4)})
+        kpi = build_kpi_block([], calib, resolve_fn=resolve)
+        assert "4/30" in kpi
+        assert "рано судить" in kpi
+
+    def test_brier_preliminary_shown_at_10(self):
+        from v5_weekly_status import build_kpi_block
+        # 12 коротких резолвов; Grok систематически точнее рынка
+        calib = [{"condition_id": f"0xc{i}", "horizon_days": 20.0,
+                  "market_yes_price": 0.8, "ai_yes_estimate": 0.1}
+                 for i in range(12)]
+        resolve = self._resolve({f"0xc{i}": True for i in range(12)})  # NO win = YES не случился
+        kpi = build_kpi_block([], calib, resolve_fn=resolve)
+        assert "предварительно" in kpi
+        assert "Grok" in kpi
+
+    def test_no_resolver_degrades_gracefully(self):
+        from v5_weekly_status import build_kpi_block
+        kpi = build_kpi_block(self._journal_kpi(), [], resolve_fn=None)
+        assert kpi == "" or "недоступ" in kpi
