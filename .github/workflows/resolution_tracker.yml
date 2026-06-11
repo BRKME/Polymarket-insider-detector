@@ -1,9 +1,11 @@
 name: Resolution Tracker (Daily)
 
 on:
-  schedule:
-    # Run once daily at 06:00 UTC
-    - cron: '0 6 * * *'
+  # ЛЕГАСИ (v1-v4 whale-copy, закрыта 31.05: WR 44% / ROI -4% на 852 ставках).
+  # Ежедневный STATS-пост отключён 11.06 по решению оператора — канал не должен
+  # отчитываться о похороненной стратегии. Ручной запуск оставлен для истории.
+  # schedule:
+  #   - cron: '0 6 * * *'
   
   # Allow manual trigger
   workflow_dispatch:
