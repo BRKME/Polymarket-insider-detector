@@ -373,6 +373,7 @@ def _build_estimator_prompt(question: str, description: str = None,
         parts.append(f"\nДата резолва: {str(end_date)[:10]}. Оцени вероятность "
                      f"YES именно К ЭТОЙ ДАТЕ и по правилам выше.")
     parts.append("\nСначала найди свежие факты, потом дай число. "
+                 "WHY пиши по-русски, одной фразой, без маркеров списка. "
                  "Ответ строго в требуемом формате.")
     return "\n".join(parts)
 

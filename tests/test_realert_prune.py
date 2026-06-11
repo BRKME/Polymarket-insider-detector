@@ -111,3 +111,39 @@ class TestReAlertJournalStatus:
         assert row["status"] == "re_alert"
         row2 = se._journal_row(c, re_alert=False)
         assert row2["status"] == "open"
+
+
+class TestCrossRunThesisMemory:
+    """SpaceX-кейс 10.06: «above \$2.2T» заалертили вчера, «above \$2T» — тот же
+    тезис с другим cid — пришёл сегодня отдельным прогоном и продублировал по
+    смыслу. Память тезисов в seen закрывает дыру: новый cid известного тезиса
+    подавляется, пока edge не вырос на REALERT_EDGE_GROWTH."""
+
+    def _seen_with_thesis(self, edge=0.44):
+        return {"0xOLD": {"last_edge": edge, "alerted_at": "t",
+                          "resolved": False,
+                          "thesis_key": "spacex ipo closing market cap above"}}
+
+    def test_same_thesis_new_cid_suppressed(self):
+        seen = self._seen_with_thesis(edge=0.44)
+        assert se._should_alert_thesis(
+            "0xNEW", "spacex ipo closing market cap above",
+            current_edge=0.44, seen=seen) is False
+
+    def test_same_thesis_edge_grew_alerts(self):
+        seen = self._seen_with_thesis(edge=0.30)
+        assert se._should_alert_thesis(
+            "0xNEW", "spacex ipo closing market cap above",
+            current_edge=0.41, seen=seen) is True
+
+    def test_unrelated_thesis_alerts(self):
+        seen = self._seen_with_thesis()
+        assert se._should_alert_thesis(
+            "0xNEW", "us iran ceasefire extension",
+            current_edge=0.30, seen=seen) is True
+
+    def test_own_cid_not_compared_to_itself(self):
+        seen = self._seen_with_thesis(edge=0.44)
+        assert se._should_alert_thesis(
+            "0xOLD", "spacex ipo closing market cap above",
+            current_edge=0.44, seen=seen) is True

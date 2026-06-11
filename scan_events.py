@@ -114,6 +114,31 @@ def _should_alert(cid: str, current_edge: float, seen: dict) -> bool:
     return (current_edge - last) >= REALERT_EDGE_GROWTH
 
 
+def _should_alert_thesis(cid: str, thesis_key: str,
+                         current_edge: float, seen: dict) -> bool:
+    """Межпрогонная память тезисов (SpaceX-кейс 10.06).
+
+    Внутрипрогонный дедуп не ловит вариант того же тезиса («above $2T» после
+    вчерашнего «above $2.2T»), пришедший другим прогоном с другим cid. Правило
+    то же, что для ре-алертов: новый cid ИЗВЕСТНОГО тезиса алертится только
+    если edge вырос на REALERT_EDGE_GROWTH относительно лучшего из seen.
+    """
+    if not thesis_key:
+        return True
+    best = None
+    for other_cid, entry in seen.items():
+        if other_cid == cid:
+            continue
+        if entry.get("thesis_key") != thesis_key:
+            continue
+        le = entry.get("last_edge")
+        if le is not None and (best is None or le > best):
+            best = le
+    if best is None:
+        return True
+    return (current_edge - best) >= REALERT_EDGE_GROWTH
+
+
 def _prune_seen(seen: dict, resolved_cids: set) -> dict:
     """Drop resolved markets from state so the file doesn't grow without bound."""
     return {cid: v for cid, v in seen.items() if cid not in resolved_cids}
@@ -281,12 +306,17 @@ def _market_url(c: es.Candidate) -> str:
     return f"https://polymarket.com/markets?_q={quote_plus(c.question)}"
 
 
-def _format_alert(c: es.Candidate) -> str:
-    """Compact alert: the decision in line 1, one line of context, one of action.
+LONG_LOCK_DAYS = 120   # дольше — флаг «длинная заморозка капитала»
 
-    The old format restated the same numbers three times across four divider
-    rules. Contract now: NO price · edge · deadline up top; Grok-vs-market in
-    one line; Grok's why in one line; suspicious is a single warning line.
+
+def _format_alert(c: es.Candidate) -> str:
+    """v2 (UX-фидбек оператора): за 10 секунд должно быть ясно ЧТО делать.
+
+    Строка 1: вопрос. Строка 2: действие глаголом — «Купить NO ~38¢», размер,
+    дата резолва, флаг длинной заморозки. Дальше одна рамка вероятностей
+    (рынок vs Grok → переоценка), довод по-русски без двойных маркеров,
+    ликвидность и экспозиция категории («уже открыто» — не путать с размером).
+    Стрелка «→» используется ровно один раз — у вывода переоценки.
     """
     if c.suspicious:
         fire = "⚠️"
@@ -296,31 +326,34 @@ def _format_alert(c: es.Candidate) -> str:
         fire = "✅"
     url = _market_url(c)
 
-    # deadline + days to go
-    end = c.end_date[:10] if c.end_date else "?"
-    days = ""
+    # дата + заморозка
+    end_h = "?"
+    lock = ""
     try:
         _end = datetime.fromisoformat(str(c.end_date).replace("Z", "+00:00"))
+        end_h = _end.strftime("%d.%m.%Y")
         d = int((_end - datetime.now(timezone.utc)).total_seconds() // 86400)
-        if d >= 0:
-            days = f" ({d}д)"
+        if d > LONG_LOCK_DAYS:
+            lock = f" · ⏳{d}д заморозки"
+        elif d >= 0:
+            end_h += f" ({d}д)"
     except Exception:
         pass
 
-    # suggested stake — scaled by edge & book depth, rounded to $5
-    size_part = ""
+    # размер
+    size_txt = ""
     try:
         from config import STAKE_MIN, STAKE_MAX
         edge_factor = max(0.0, min(1.0, (c.edge - es.EDGE_MIN) / 0.25))
         liq_ok = c.liquidity >= 3 * es.MIN_LIQUIDITY
         size = STAKE_MIN + (STAKE_MAX - STAKE_MIN) * edge_factor * (1.0 if liq_ok else 0.5)
         size = round(size / 5) * 5
-        size_part = f"Размер ~${size:.0f}"
+        size_txt = f" · размер ~${size:.0f}"
     except Exception:
         pass
 
-    # category + current cluster load at sizing time
-    cat_part = ""
+    # экспозиция категории
+    cat_line = ""
     try:
         import category_exposure as cx
         from config import BANKROLL, CATEGORY_EXPOSURE_CAP
@@ -329,27 +362,30 @@ def _format_alert(c: es.Candidate) -> str:
         pct = cur / BANKROLL * 100 if BANKROLL > 0 else 0
         warn = " ⚠️ЛИМИТ" if BANKROLL > 0 and \
             (cur / BANKROLL) > CATEGORY_EXPOSURE_CAP else ""
-        cat_part = f"{cat}: открыто ${cur:.0f} ({pct:.0f}% банка){warn}"
+        cat_line = f" · в {cat} уже открыто ${cur:.0f} ({pct:.0f}% банка){warn}"
     except Exception:
         pass
-    size_line = " · ".join(p for p in (size_part, cat_part) if p)
+
+    # довод: без ведущих маркеров Grok ("• ", "- ")
+    why = (c.reasoning or "").strip().lstrip("•-– ").strip()
 
     liq_k = f"${c.liquidity/1000:.0f}k" if c.liquidity >= 1000 else f"${c.liquidity:.0f}"
+    cents = f"{c.no_price*100:.0f}¢"
     lines = [
-        f"{fire} NO {c.no_price*100:.0f}% · edge {c.edge*100:.0f}пп · до {end}{days}",
-        f"{c.question}",
+        f"{fire} {c.question}",
+        f"Купить NO ~{cents}{size_txt} · резолв {end_h}{lock}",
         "",
-        f"Grok: YES {c.ai_yes_estimate*100:.0f}% ({c.ai_conf}) · "
-        f"рынок: {c.market_yes_price*100:.0f}% · ликв. {liq_k}",
+        f"Рынок верит в YES: {c.market_yes_price*100:.0f}% · "
+        f"Grok: {c.ai_yes_estimate*100:.0f}% ({c.ai_conf}) → "
+        f"переоценка {c.edge*100:.0f}пп",
     ]
-    if c.reasoning:
-        lines.append(f"→ {c.reasoning}")
+    if why:
+        lines.append(f"Почему: {why}")
     if c.suspicious:
         lines.append("⚠️ Похоже на связанный/групповой рынок — читай правила резолва")
+    lines.append(f"Ликв. {liq_k}{cat_line}")
     lines.append("")
-    if size_line:
-        lines.append(size_line)
-    lines.append("Перед входом: цена → правила резолва → лимит")
+    lines.append("Чек: свежая цена · правила резолва · лимит категории")
     if url:
         lines.append(f"🔗 {url}")
     return "\n".join(lines)
@@ -376,6 +412,17 @@ def _send(msg: str) -> bool:
 def run() -> None:
     print(f"[{datetime.now()}] event scan start")
     seen = _load_seen()
+    # Backfill: записи seen до введения тезис-памяти не несут thesis_key —
+    # восстанавливаем из вопросов журнала по cid, иначе память не покрывает
+    # уже открытые позиции (а SpaceX-кейс именно про них).
+    try:
+        q_by_cid = {r.get("condition_id"): r.get("question", "")
+                    for r in _load_journal_rows()}
+        for cid, entry in seen.items():
+            if not entry.get("thesis_key") and q_by_cid.get(cid):
+                entry["thesis_key"] = es._thesis_key(q_by_cid[cid])
+    except Exception:
+        pass
     # Prune resolved markets from seen state so the file doesn't grow forever.
     # A position closed in the journal is resolved/exited — its cid is dead.
     try:
@@ -472,6 +519,7 @@ def run() -> None:
     now = datetime.now(timezone.utc).isoformat()
     for c in candidates:
         cid = c.condition_id
+        thesis = es._thesis_key(c.question)
         if not _should_alert(cid, c.edge, seen):
             # Migrated legacy entries (last_edge None) get their baseline edge
             # recorded SILENTLY here. Ordinary suppressions must NOT update
@@ -479,13 +527,22 @@ def run() -> None:
             # up and the 10pp re-alert threshold can never accumulate.
             if cid in seen and seen[cid].get("last_edge") is None:
                 seen[cid]["last_edge"] = c.edge
+                seen[cid]["thesis_key"] = thesis
+            suppressed += 1
+            continue
+        if not _should_alert_thesis(cid, thesis, c.edge, seen):
+            # вариант уже известного тезиса (другой порог/дата того же события)
+            # — фиксируем молча, не дублируем по смыслу
+            seen[cid] = {"last_edge": c.edge, "alerted_at": None,
+                         "resolved": False, "thesis_key": thesis}
             suppressed += 1
             continue
         is_re_alert = cid in seen   # known market whose edge grew — same position
         if _send(_format_alert(c)):
             sent += 1
         _append_journal(c, re_alert=is_re_alert)
-        seen[cid] = {"last_edge": c.edge, "alerted_at": now, "resolved": False}
+        seen[cid] = {"last_edge": c.edge, "alerted_at": now, "resolved": False,
+                     "thesis_key": thesis}
 
     _save_seen(seen)
     # Persist the AI estimate cache for the next run.

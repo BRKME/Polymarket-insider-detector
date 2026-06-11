@@ -53,34 +53,48 @@ class TestReasoningIsJustWhy:
         assert c.ai_conf == "high"
 
 
-class TestCompactAlert:
-    def test_first_line_carries_the_decision(self):
-        msg = se._format_alert(_candidate())
-        first = msg.splitlines()[0]
-        assert "NO 36%" in first
-        assert "36пп" in first or "36 пп" in first
-        assert "2026" in first
+class TestCompactAlertV2:
+    """v2 (UX-фидбек оператора 10.06): действие глаголом, одна рамка
+    вероятностей, цена входа в центах, длинная заморозка флагом, без
+    смешения стрелок, довод без двойного маркера."""
 
-    def test_one_line_estimate_comparison(self):
+    def test_action_line_with_verb_and_cents(self):
         msg = se._format_alert(_candidate())
-        assert "Grok: YES 28% (medium)" in msg
-        assert "рынок: 64%" in msg
+        assert "Купить NO ~36¢" in msg
+        assert "размер ~$" in msg
 
-    def test_no_dividers_and_no_duplicated_prose(self):
+    def test_single_probability_frame(self):
         msg = se._format_alert(_candidate())
-        assert "—————" not in msg
-        assert "переоценён" not in msg
-        # the why is present exactly once
-        assert msg.count("Persistent core disagreements") == 1
+        # одна рамка: вероятность YES у рынка и у Grok + вывод
+        assert "Рынок верит в YES: 64%" in msg
+        assert "Grok: 28% (medium)" in msg
+        assert "переоценка 36пп" in msg
+        # цена NO не дублируется второй рамкой "NO 36%"
+        assert "NO 36%" not in msg
 
-    def test_suspicious_is_one_line(self):
-        msg = se._format_alert(_candidate(suspicious=True, no_price=0.56,
-                                          market_yes_price=0.44, edge=0.36))
-        assert "связанный" in msg or "групповой" in msg
-        # a single warning line, not the old paragraph
-        warn_lines = [l for l in msg.splitlines() if "⚠️" in l and "связан" in l]
-        assert len(warn_lines) == 1
+    def test_long_lock_flagged(self):
+        c = _candidate(end_date="2027-12-31T12:00:00Z")
+        msg = se._format_alert(c)
+        assert "⏳" in msg and "заморозк" in msg
 
-    def test_link_present(self):
+    def test_short_horizon_not_flagged(self):
+        msg = se._format_alert(_candidate())   # ~200 дней... подберём короче
+        c = _candidate(end_date="2026-07-01T12:00:00Z")
+        msg = se._format_alert(c)
+        assert "⏳" not in msg
+
+    def test_rationale_without_double_marker(self):
+        c = _candidate(reasoning="• Fixed target makes it unlikely")
+        msg = se._format_alert(c)
+        assert "→ •" not in msg and "Почему: •" not in msg
+        assert "Fixed target" in msg
+
+    def test_exposure_line_disambiguated(self):
         msg = se._format_alert(_candidate())
-        assert "polymarket.com/event/us-iran-nuclear-deal-before-2027" in msg
+        assert "уже открыто" in msg     # $ экспозиции не путается с размером
+
+    def test_checklist_without_arrows(self):
+        msg = se._format_alert(_candidate())
+        assert "Чек:" in msg
+        # стрелка остаётся только у вывода переоценки
+        assert msg.count("→") <= 1
