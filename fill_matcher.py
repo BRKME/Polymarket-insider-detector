@@ -35,6 +35,26 @@ PROXY_WALLET = os.getenv("POLYMARKET_PROXY_WALLET",
 
 # ── pure matching logic (no network) ────────────────────────────────────────
 
+
+DEBUG = os.getenv("DEBUG_FILLS") == "1"
+
+
+def _debug_trades(cid: str, trades: list) -> None:
+    """Печать причин отказа по каждому трейду — для разовой диагностики."""
+    print(f"  [debug] {cid[:14]}…: {len(trades)} activity rows")
+    for t in trades[:8]:
+        why = []
+        if t.get("conditionId") != cid:
+            why.append("cid≠")
+        if str(t.get("side", "")).upper() != "BUY":
+            why.append(f"side={t.get('side')}")
+        if str(t.get("outcome", "")).strip().lower() != "no":
+            why.append(f"outcome={t.get('outcome')!r}")
+        print(f"    type={t.get('type')} side={t.get('side')} "
+              f"outcome={t.get('outcome')!r} px={t.get('price')} "
+              f"usdc={t.get('usdcSize')} -> {'OK' if not why else ' '.join(why)}")
+
+
 def match_position(condition_id: str, trades: List[Dict]) -> Optional[Dict]:
     """Aggregate our NO/BUY trades on `condition_id` into one fill, or None.
 
@@ -104,6 +124,8 @@ def apply_fills(rows: List[Dict],
             trades = fetch_trades_fn(cid) or []
         except Exception:
             continue
+        if DEBUG:
+            _debug_trades(cid, trades)
         fill = match_position(cid, trades)
         if fill:
             r.update(fill)

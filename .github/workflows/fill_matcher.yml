@@ -26,6 +26,7 @@ jobs:
       - name: Auto-fill actual entry/stake from on-chain trades
         env:
           POLYMARKET_PROXY_WALLET: ${{ secrets.POLYMARKET_PROXY_WALLET }}
+          DEBUG_FILLS: "1"
         run: |
           echo "Fill-match — $(date -u +'%Y-%m-%d %H:%M UTC')"
           python fill_matcher.py
