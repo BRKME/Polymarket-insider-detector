@@ -2,51 +2,79 @@
 "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee": {
 "alerted_at": null,
 "last_edge": 0.275,
-"resolved": false
+"resolved": false,
+"thesis_key": "will bitcoin dip to 45 000"
+},
+"0x0549eb8269570dea333fe47ffff241827d93a22caed18f64f9a1eb4c3239c7f8": {
+"alerted_at": "2026-06-11T10:05:33.989300+00:00",
+"last_edge": 0.355,
+"resolved": false,
+"thesis_key": "will donald trump announce that the"
 },
 "0x087713ab2905e789c42c3fafdf747512f8d7883b7fab1ac554b703310c09d869": {
 "alerted_at": null,
 "last_edge": 0.395,
-"resolved": false
+"resolved": false,
+"thesis_key": "us x iran permanent peace deal"
 },
 "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
 "alerted_at": "2026-06-10T14:57:47.835284+00:00",
 "last_edge": 0.475,
-"resolved": false
+"resolved": false,
+"thesis_key": "will jesus christ return"
+},
+"0x5c79dfde05559b79a9cb9f7c4187e4d49632dd042572ae676952f812732591cc": {
+"alerted_at": "2026-06-11T10:05:33.989300+00:00",
+"last_edge": 0.485,
+"resolved": false,
+"thesis_key": "strait of hormuz traffic returns to"
 },
 "0x6619036865c2d27f1b1c00cd565ce74f6aa72ef93be29c315be36941d3559c59": {
 "alerted_at": "2026-06-10T20:16:54.524891+00:00",
 "last_edge": 0.445,
-"resolved": false
+"resolved": false,
+"thesis_key": "spacex ipo closing cap above 2t"
 },
 "0x724a93f3e0ed0a6c83d2b4f2bc60839b39a92cc2c7cbac0169447f48d72537ab": {
 "alerted_at": "2026-06-10T20:16:54.524891+00:00",
 "last_edge": 0.31,
-"resolved": false
+"resolved": false,
+"thesis_key": "us announces new iran agreement ceasefire"
 },
 "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805": {
 "alerted_at": null,
 "last_edge": null,
-"resolved": false
+"resolved": false,
+"thesis_key": "spacex ipo closing cap above 2"
+},
+"0x9769f78cbc95a5ed11895e6064bac471d8fd8f930b260cf581b68d3f58630d27": {
+"alerted_at": null,
+"last_edge": 0.465,
+"resolved": false,
+"thesis_key": "us x iran permanent peace deal"
 },
 "0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2": {
 "alerted_at": null,
-"last_edge": null,
-"resolved": false
+"last_edge": 0.4925,
+"resolved": false,
+"thesis_key": "will bitcoin hit 1m"
 },
 "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56": {
 "alerted_at": null,
 "last_edge": null,
-"resolved": false
+"resolved": false,
+"thesis_key": "will bitcoin dip to 50 000"
 },
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
 "last_edge": null,
-"resolved": false
+"resolved": false,
+"thesis_key": "us x iran permanent peace deal"
 },
 "0xfbe85201ab2b4acff01cd5a3639039fc813d3448c64db081f70926bd9b9e74e9": {
 "alerted_at": null,
 "last_edge": null,
-"resolved": false
+"resolved": false,
+"thesis_key": "will abelardo de la espriella win"
 }
 }
