@@ -17,6 +17,12 @@
 "resolved": false,
 "thesis_key": "us x iran permanent peace deal"
 },
+"0x182390641d3b1b47cc64274b9da290efd04221c586651ba190880713da6347d9": {
+"alerted_at": "2026-06-12T02:32:20.754376+00:00",
+"last_edge": 0.44,
+"resolved": false,
+"thesis_key": "us iran nuclear deal"
+},
 "0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126": {
 "alerted_at": "2026-06-11T20:12:07.994636+00:00",
 "last_edge": 0.22,
@@ -41,6 +47,12 @@
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2t"
 },
+"0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f": {
+"alerted_at": "2026-06-12T02:32:20.754376+00:00",
+"last_edge": 0.656,
+"resolved": false,
+"thesis_key": "will nicol s maduro be the"
+},
 "0x724a93f3e0ed0a6c83d2b4f2bc60839b39a92cc2c7cbac0169447f48d72537ab": {
 "alerted_at": "2026-06-10T20:16:54.524891+00:00",
 "last_edge": 0.31,
@@ -49,7 +61,7 @@
 },
 "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805": {
 "alerted_at": null,
-"last_edge": null,
+"last_edge": 0.44,
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2"
 },
@@ -88,5 +100,11 @@
 "last_edge": null,
 "resolved": false,
 "thesis_key": "will abelardo de la espriella win"
+},
+"0xff68b32e6543ae8b44ccb520604b6ea224a1bac071a186fb65f6f40949a758df": {
+"alerted_at": "2026-06-12T02:32:20.754376+00:00",
+"last_edge": 0.365,
+"resolved": false,
+"thesis_key": "iran agrees to end enrichment of"
 }
 }
