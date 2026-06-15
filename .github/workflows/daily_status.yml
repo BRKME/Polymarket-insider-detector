@@ -1,0 +1,27 @@
+name: Polymarket Daily Status
+
+# Дневной информационный статус: открытые позиции, нереал. P&L, подсказки
+# фиксации/докупа (позиции небинарны — торгуются до резолва). Раз в день.
+on:
+  schedule:
+    - cron: '0 6 * * *'   # ~09:00 MSK с учётом задержки Actions
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  status:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install requests
+      - name: Daily status
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          POLYMARKET_PROXY_WALLET: ${{ secrets.POLYMARKET_PROXY_WALLET }}
+        run: python daily_status.py

@@ -1,0 +1,97 @@
+"""Тесты daily_status.py — дневной информационный статус Polymarket.
+
+Ключевая идея (оператор): позиции НЕ бинарны — NO/YES торгуются непрерывно,
+их можно продать (зафиксировать) или докупить при движении цены, не дожидаясь
+резолва. Статус показывает живую P&L-картину с мягкими подсказками действий.
+
+Формат: короткая шапка (позиций / суммарный нереал. P&L / в плюсе-минусе) +
+детали ТОЛЬКО по двигавшимся заметно или близким к резолву. Подсказки —
+наблюдения к решению оператора, не приказы.
+"""
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+from daily_status import (
+    position_action_hint, build_daily_status, MOVE_THRESHOLD_PCT,
+)
+
+
+class TestActionHint:
+    def test_strong_profit_suggests_take(self):
+        # NO вырос с 0.38 до 0.62 = +63% — можно фиксировать
+        hint = position_action_hint(entry=0.38, current=0.62, ai_yes=0.18,
+                                    horizon_days=200)
+        assert hint is not None
+        assert "фикс" in hint.lower() or "продать" in hint.lower()
+
+    def test_drawdown_thesis_intact_suggests_add(self):
+        # NO упал 0.50→0.30, но AI всё ещё считает YES маловероятным (тезис цел)
+        hint = position_action_hint(entry=0.50, current=0.30, ai_yes=0.15,
+                                    horizon_days=200)
+        assert hint is not None
+        assert "докуп" in hint.lower() or "усред" in hint.lower()
+
+    def test_thesis_inverted_suggests_cut(self):
+        # цена против нас И AI пересмотрел в сторону YES — тезис сломан
+        hint = position_action_hint(entry=0.50, current=0.30, ai_yes=0.75,
+                                    horizon_days=200)
+        assert hint is not None
+        assert "режь" in hint.lower() or "выход" in hint.lower() or "cut" in hint.lower()
+
+    def test_near_resolution_flagged(self):
+        hint = position_action_hint(entry=0.50, current=0.55, ai_yes=0.30,
+                                    horizon_days=3)
+        assert hint is not None
+        assert "резолв" in hint.lower() or "скоро" in hint.lower()
+
+    def test_quiet_position_no_hint(self):
+        # почти не двигалась, далеко до резолва — подсказки нет
+        hint = position_action_hint(entry=0.50, current=0.51, ai_yes=0.30,
+                                    horizon_days=200)
+        assert hint is None
+
+
+class TestBuildStatus:
+    def _rows(self):
+        return [
+            {"condition_id": "0x1", "question": "SpaceX $2T?", "status": "open",
+             "entry_price_actual": 0.38, "no_price": 0.38, "stake_actual": 70,
+             "ai_yes_estimate": 0.18, "horizon_days": 200},
+            {"condition_id": "0x2", "question": "Iran deal?", "status": "open",
+             "no_price": 0.44, "stake_actual": 50,
+             "ai_yes_estimate": 0.25, "horizon_days": 49},
+            {"condition_id": "0x3", "question": "Closed one", "status": "closed"},
+        ]
+
+    def _prices(self):
+        return {"0x1": 0.62, "0x2": 0.46}    # 0x1 сильно вырос, 0x2 почти стоит
+
+    def test_header_counts_open_only(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        assert "2" in msg                      # 2 открытых (closed не считается)
+
+    def test_header_has_total_pnl(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        assert "P&L" in msg or "P/L" in msg or "итог" in msg.lower()
+
+    def test_only_moved_positions_detailed(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        # 0x1 двигался сильно — показан; 0x2 почти стоит — не в деталях
+        assert "SpaceX" in msg
+        assert "Iran" not in msg
+
+    def test_non_binary_note_present(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        # напоминание, что позиции можно продать/докупить
+        assert "продать" in msg.lower() or "докуп" in msg.lower() or "не бинар" in msg.lower()
+
+    def test_no_open_positions_graceful(self):
+        msg = build_daily_status([{"condition_id": "0x3", "status": "closed"}],
+                                 price_fn=lambda c: None)
+        assert "0" in msg
+
+    def test_price_fetch_fail_skips_position(self):
+        # цена недоступна — позиция не роняет статус
+        msg = build_daily_status(self._rows(), price_fn=lambda c: None)
+        assert msg  # не падает
