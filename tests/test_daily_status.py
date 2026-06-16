@@ -128,3 +128,47 @@ class TestOnlyRealPositions:
         assert is_plausible_price(entry=0.43, current=0.01) is False
         assert is_plausible_price(entry=0.40, current=0.50) is True
         assert is_plausible_price(entry=0.40, current=0.05) is False
+
+
+class TestUIFormatting:
+    """UI-доработки: умная обрезка по словам, 🟢/🔴 индикаторы, шапка с P&L
+    впереди и базой. Формат, не логика P&L."""
+
+    def test_smart_truncate_word_boundary(self):
+        from daily_status import smart_truncate
+        s = "US x Iran permanent peace deal by August 31, 2026"
+        out = smart_truncate(s, 30)
+        assert len(out) <= 31           # +символ многоточия
+        assert "…" in out
+        assert not out.replace("…", "").endswith(" ")  # не висит пробел
+        # не рвёт посреди слова — последнее слово целое
+        assert out.replace("…", "").strip().split()[-1] in s.split()
+
+    def test_short_string_not_truncated(self):
+        from daily_status import smart_truncate
+        assert smart_truncate("Maduro", 30) == "Maduro"
+
+    def test_profit_loss_markers(self):
+        rows = [
+            {"condition_id": "0xW", "question": "Winner", "status": "open",
+             "fill_source": "onchain", "entry_price_actual": 0.40,
+             "stake_actual": 40, "ai_yes_estimate": 0.18, "horizon_days": 100},
+            {"condition_id": "0xL", "question": "Loser", "status": "open",
+             "fill_source": "onchain", "entry_price_actual": 0.50,
+             "stake_actual": 40, "ai_yes_estimate": 0.30, "horizon_days": 100},
+        ]
+        msg = build_daily_status(rows,
+                                 price_fn=lambda c: {"0xW": 0.52, "0xL": 0.40}.get(c))
+        assert "🟢" in msg              # прибыльная
+        assert "🔴" in msg              # убыточная
+
+    def test_header_pnl_first_with_base(self):
+        rows = [{"condition_id": "0xW", "question": "W", "status": "open",
+                 "fill_source": "onchain", "entry_price_actual": 0.40,
+                 "stake_actual": 100, "ai_yes_estimate": 0.18, "horizon_days": 100}]
+        msg = build_daily_status(rows, price_fn=lambda c: 0.50)
+        # P&L с базой и процентом: +$X от $Y (+Z%)
+        assert "от $" in msg
+        assert "%" in msg
+        # P&L раньше счётчика позиций в тексте
+        assert msg.index("P&L") < msg.index("озиц")

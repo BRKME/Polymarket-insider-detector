@@ -26,6 +26,18 @@ GARBAGE_DROP_PCT = -85.0     # падение глубже -> подозрени
                              # ордербук отдаёт ~1¢), не реальная котировка
 
 
+def smart_truncate(text: str, max_len: int) -> str:
+    """Обрезка по границе слова с многоточием — не рвёт слова посередине."""
+    text = (text or "").strip()
+    if len(text) <= max_len:
+        return text
+    cut = text[:max_len].rstrip()
+    # откатываемся до последнего пробела, чтобы не резать слово
+    if " " in cut:
+        cut = cut[:cut.rfind(" ")].rstrip()
+    return cut + "…"
+
+
 def is_plausible_price(entry: float, current: float) -> bool:
     """Отбраковка мусорных цен Data API.
 
@@ -107,6 +119,7 @@ def build_daily_status(journal: List[dict],
                 "не зафиксировано — показывать P&L не по чему.</i>")
 
     total_unreal = 0.0
+    total_stake = 0.0
     in_profit = in_loss = 0
     detail_lines: List[str] = []
     priced = 0
@@ -127,6 +140,7 @@ def build_daily_status(journal: List[dict],
         priced += 1
         pnl = mtm.position_pnl(entry, current, stake)
         total_unreal += pnl["unrealised"]
+        total_stake += stake
         if pnl["unrealised"] >= 0:
             in_profit += 1
         else:
@@ -136,29 +150,39 @@ def build_daily_status(journal: List[dict],
         hd = r.get("horizon_days")
         near = hd is not None and 0 <= hd <= NEAR_RESOLUTION_DAYS
         if moved or near:
-            q = (r.get("question") or "")[:48]
+            q = smart_truncate(r.get("question") or "", 44)
             hint = position_action_hint(entry, current,
                                         r.get("ai_yes_estimate"), hd)
-            line = f"• {q}\n  {pnl['ret_pct']:+.0f}% (${pnl['unrealised']:+.0f})"
+            marker = "🟢" if pnl["unrealised"] >= 0 else "🔴"
+            line = (f"{marker} {q}\n"
+                    f"  {pnl['ret_pct']:+.0f}% (${pnl['unrealised']:+.0f})")
             if hint:
                 line += f"\n  → {hint}"
-            detail_lines.append(line)
+            detail_lines.append((abs(pnl["ret_pct"]), line))
 
+    pnl_pct = (total_unreal / total_stake * 100.0) if total_stake > 0 else 0.0
+    pnl_emoji = "🟢" if total_unreal >= 0 else "🔴"
+    coverage = "" if priced == n else f" ({priced}/{n} оценено)"
     header = (f"📊 Polymarket — дневной статус\n"
-              f"Реальных позиций (ончейн): {n} · оценено {priced} · "
-              f"нереал. P&L ${total_unreal:+.0f} · "
-              f"в плюсе {in_profit}/в минусе {in_loss}")
+              f"{pnl_emoji} P&L ${total_unreal:+.0f} от ${total_stake:.0f} "
+              f"({pnl_pct:+.0f}%)\n"
+              f"Позиций: {n}{coverage} · в плюсе {in_profit} / в минусе {in_loss}")
     if skipped_garbage:
         header += f"\n⚠️ {skipped_garbage} с подозрительной ценой API — пропущены"
 
     parts = [header]
+    has_hint = any("→" in line for _, line in detail_lines)
     if detail_lines:
         parts.append("\nДвигались / близко к резолву:")
-        parts.extend(detail_lines)
+        # сортировка по величине движения — важное выше
+        for _, line in sorted(detail_lines, key=lambda x: x[0], reverse=True):
+            parts.append(line)
     else:
         parts.append("\nЗаметных движений нет — позиции зреют.")
-    parts.append("\n<i>Позиции не бинарны: NO можно продать (зафиксировать) "
-                 "или докупить при движении цены, не дожидаясь резолва.</i>")
+    # дисклеймер про небинарность — только когда есть подсказка действия
+    if has_hint:
+        parts.append("\n<i>Позиции не бинарны: NO можно продать (зафиксировать) "
+                     "или докупить при движении цены, не дожидаясь резолва.</i>")
     return "\n".join(parts)
 
 
