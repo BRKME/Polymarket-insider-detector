@@ -22,6 +22,22 @@ ADD_DRAWDOWN_PCT = -15.0     # просадка глубже — кандида�
 THESIS_INTACT_AI_YES = 0.40  # AI всё ещё считает YES маловероятным -> тезис цел
 TAKE_PROFIT_RET_PCT = 40.0   # рост NO на столько -> подсказка зафиксировать
                              # (информационно, мягче порога авто-выхода 0.80¢)
+GARBAGE_DROP_PCT = -85.0     # падение глубже -> подозрение на мусор API (пустой
+                             # ордербук отдаёт ~1¢), не реальная котировка
+
+
+def is_plausible_price(entry: float, current: float) -> bool:
+    """Отбраковка мусорных цен Data API.
+
+    Пустой/неликвидный ордербук часто отдаёт ~1¢, что парсер принимает за
+    реальную котировку и рисует −98%. Если цена обвалилась глубже
+    GARBAGE_DROP_PCT от входа — это подозрение на мусор, не котировка.
+    Резолв (легитимный 0/1) обрабатывается отдельно по статусу, не здесь.
+    """
+    if entry <= 0 or current <= 0:
+        return False
+    ret_pct = (current / entry - 1.0) * 100.0
+    return ret_pct > GARBAGE_DROP_PCT
 
 
 def position_action_hint(entry: float, current: float, ai_yes: Optional[float],
@@ -69,18 +85,32 @@ def _open_rows(journal: List[dict]) -> List[dict]:
 
 
 def build_daily_status(journal: List[dict],
-                       price_fn: Callable[[str], Optional[float]]) -> str:
-    """Дневной статус: шапка + детали по двигавшимся/близким к резолву."""
+                       price_fn: Callable[[str], Optional[float]],
+                       confirmed_only: bool = True) -> str:
+    """Дневной статус: шапка + детали по двигавшимся/близким к резолву.
+
+    confirmed_only=True (по умолчанию): P&L считается ТОЛЬКО по реально
+    подтверждённым ончейном позициям (fill_source=onchain + entry_price_actual).
+    Журнал — это лог АЛЕРТОВ, не портфель; считать P&L по непокупленным алертам
+    = фантомный убыток (баг 15.06: −$114 при банке $120 по 11 алертам).
+    """
     rows = _open_rows(journal)
+    if confirmed_only:
+        rows = [r for r in rows
+                if r.get("fill_source") == "onchain"
+                and r.get("entry_price_actual")]
     n = len(rows)
     if n == 0:
-        return ("📊 Polymarket — дневной статус\nОткрытых позиций: 0 "
-                "(всё зарезолвлено или закрыто).")
+        return ("📊 Polymarket — дневной статус\n"
+                "Подтверждённых ончейном позиций: 0.\n"
+                "<i>Журнал содержит алерты, но реальных (ончейн) входов "
+                "не зафиксировано — показывать P&L не по чему.</i>")
 
     total_unreal = 0.0
     in_profit = in_loss = 0
     detail_lines: List[str] = []
     priced = 0
+    skipped_garbage = 0
 
     for r in rows:
         cid = r.get("condition_id", "")
@@ -91,6 +121,9 @@ def build_daily_status(journal: List[dict],
         current = price_fn(cid)
         if current is None or current <= 0:
             continue                       # цена недоступна — пропускаем тихо
+        if not is_plausible_price(entry, current):
+            skipped_garbage += 1           # мусорная цена API — не считаем
+            continue
         priced += 1
         pnl = mtm.position_pnl(entry, current, stake)
         total_unreal += pnl["unrealised"]
@@ -112,8 +145,11 @@ def build_daily_status(journal: List[dict],
             detail_lines.append(line)
 
     header = (f"📊 Polymarket — дневной статус\n"
-              f"Открыто: {n} · оценено {priced} · нереал. P&L "
-              f"${total_unreal:+.0f} · в плюсе {in_profit}/в минусе {in_loss}")
+              f"Реальных позиций (ончейн): {n} · оценено {priced} · "
+              f"нереал. P&L ${total_unreal:+.0f} · "
+              f"в плюсе {in_profit}/в минусе {in_loss}")
+    if skipped_garbage:
+        header += f"\n⚠️ {skipped_garbage} с подозрительной ценой API — пропущены"
 
     parts = [header]
     if detail_lines:

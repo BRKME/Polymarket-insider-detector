@@ -68,21 +68,21 @@ class TestBuildStatus:
         return {"0x1": 0.62, "0x2": 0.46}    # 0x1 сильно вырос, 0x2 почти стоит
 
     def test_header_counts_open_only(self):
-        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c), confirmed_only=False)
         assert "2" in msg                      # 2 открытых (closed не считается)
 
     def test_header_has_total_pnl(self):
-        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c), confirmed_only=False)
         assert "P&L" in msg or "P/L" in msg or "итог" in msg.lower()
 
     def test_only_moved_positions_detailed(self):
-        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c), confirmed_only=False)
         # 0x1 двигался сильно — показан; 0x2 почти стоит — не в деталях
         assert "SpaceX" in msg
         assert "Iran" not in msg
 
     def test_non_binary_note_present(self):
-        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c))
+        msg = build_daily_status(self._rows(), price_fn=lambda c: self._prices().get(c), confirmed_only=False)
         # напоминание, что позиции можно продать/докупить
         assert "продать" in msg.lower() or "докуп" in msg.lower() or "не бинар" in msg.lower()
 
@@ -93,5 +93,38 @@ class TestBuildStatus:
 
     def test_price_fetch_fail_skips_position(self):
         # цена недоступна — позиция не роняет статус
-        msg = build_daily_status(self._rows(), price_fn=lambda c: None)
+        msg = build_daily_status(self._rows(), price_fn=lambda c: None, confirmed_only=False)
         assert msg  # не падает
+
+
+class TestOnlyRealPositions:
+    """Баг 15.06: статус показал −$114 при банке $120, считая P&L по 11 алертам,
+    включая НЕ купленные. Журнал = лог алертов, не портфель. Считать P&L можно
+    ТОЛЬКО по ончейн-подтверждённым позициям (fill_source=onchain + entry)."""
+
+    def _mixed(self):
+        return [
+            # реальная позиция — ончейн-филл
+            {"condition_id": "0xA", "question": "Real one", "status": "open",
+             "fill_source": "onchain", "entry_price_actual": 0.40,
+             "stake_actual": 40, "ai_yes_estimate": 0.18, "horizon_days": 100},
+            # алерт без входа — НЕ должен считаться в P&L
+            {"condition_id": "0xB", "question": "Just an alert", "status": "open",
+             "no_price": 0.43, "ai_yes_estimate": 0.12, "horizon_days": 100},
+        ]
+
+    def test_pnl_only_from_onchain(self):
+        msg = build_daily_status(self._mixed(),
+                                 price_fn=lambda c: {"0xA": 0.50, "0xB": 0.01}.get(c),
+                                 confirmed_only=True)
+        # в портфеле 1 реальная позиция, не 2
+        assert "Открыто: 1" in msg or "позиц" in msg.lower()
+        # алерт 0xB (−98%) не попал в детали
+        assert "Just an alert" not in msg
+
+    def test_garbage_price_rejected(self):
+        # цена 1¢ против входа 40¢ — мусор API, не котировка
+        from daily_status import is_plausible_price
+        assert is_plausible_price(entry=0.43, current=0.01) is False
+        assert is_plausible_price(entry=0.40, current=0.50) is True
+        assert is_plausible_price(entry=0.40, current=0.05) is False
