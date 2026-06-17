@@ -172,3 +172,27 @@ class TestUIFormatting:
         assert "%" in msg
         # P&L раньше счётчика позиций в тексте
         assert msg.index("P&L") < msg.index("озиц")
+
+
+class TestWalletBalance:
+    """Шапка показывает полную картину кошелька, а не только сумму ставок.
+    Оператор: 'баланс меньше реального' — потому что свободный USDC не
+    учитывался, видна была только стоимость 6 позиций ($124)."""
+
+    def test_header_includes_wallet_when_available(self):
+        rows = [{"condition_id": "0xA", "question": "W", "status": "open",
+                 "fill_source": "onchain", "entry_price_actual": 0.40,
+                 "stake_actual": 100, "ai_yes_estimate": 0.18, "horizon_days": 100}]
+        msg = build_daily_status(rows, price_fn=lambda c: 0.50,
+                                 wallet_value=350.0)
+        assert "350" in msg            # полный баланс кошелька показан
+        assert "кошел" in msg.lower() or "баланс" in msg.lower()
+
+    def test_no_wallet_value_graceful(self):
+        # баланс недоступен — статус не ломается, просто без строки кошелька
+        rows = [{"condition_id": "0xA", "question": "W", "status": "open",
+                 "fill_source": "onchain", "entry_price_actual": 0.40,
+                 "stake_actual": 100, "ai_yes_estimate": 0.18, "horizon_days": 100}]
+        msg = build_daily_status(rows, price_fn=lambda c: 0.50, wallet_value=None)
+        assert msg  # не падает
+        assert "P&L" in msg

@@ -98,7 +98,8 @@ def _open_rows(journal: List[dict]) -> List[dict]:
 
 def build_daily_status(journal: List[dict],
                        price_fn: Callable[[str], Optional[float]],
-                       confirmed_only: bool = True) -> str:
+                       confirmed_only: bool = True,
+                       wallet_value: Optional[float] = None) -> str:
     """Дневной статус: шапка + детали по двигавшимся/близким к резолву.
 
     confirmed_only=True (по умолчанию): P&L считается ТОЛЬКО по реально
@@ -169,6 +170,11 @@ def build_daily_status(journal: List[dict],
               f"Позиций: {n}{coverage} · в плюсе {in_profit} / в минусе {in_loss}")
     if skipped_garbage:
         header += f"\n⚠️ {skipped_garbage} с подозрительной ценой API — пропущены"
+    if wallet_value is not None:
+        # полная картина: весь кошелёк = свободный USDC + стоимость позиций.
+        # Шапка выше показывает только P&L по ставкам — это разные числа.
+        header += (f"\n💰 Кошелёк целиком: ${wallet_value:.0f} "
+                   f"(позиции + свободный USDC)")
 
     parts = [header]
     has_hint = any("→" in line for _, line in detail_lines)
@@ -184,6 +190,30 @@ def build_daily_status(journal: List[dict],
         parts.append("\n<i>Позиции не бинарны: NO можно продать (зафиксировать) "
                      "или докупить при движении цены, не дожидаясь резолва.</i>")
     return "\n".join(parts)
+
+
+def _fetch_wallet_value() -> Optional[float]:
+    """Полная стоимость кошелька через Polymarket Data API /value (fail-safe).
+
+    Это весь кошелёк (позиции + свободный USDC), в отличие от суммы stake в
+    шапке. None при недоступности — строка кошелька просто не покажется.
+    """
+    try:
+        import requests
+        from fill_matcher import DATA_API, PROXY_WALLET
+        r = requests.get(f"{DATA_API}/value",
+                         params={"user": PROXY_WALLET}, timeout=15)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        # API отдаёт список {user, value} либо объект — берём суммарный value
+        if isinstance(data, list):
+            return sum(float(x.get("value", 0)) for x in data) or None
+        if isinstance(data, dict):
+            return float(data.get("value", 0)) or None
+    except Exception:
+        return None
+    return None
 
 
 def main() -> None:
@@ -206,7 +236,8 @@ def main() -> None:
         except Exception:
             return None
 
-    msg = build_daily_status(journal, price_fn)
+    wallet_value = _fetch_wallet_value()
+    msg = build_daily_status(journal, price_fn, wallet_value=wallet_value)
     print(msg)
     try:
         import requests
