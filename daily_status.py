@@ -99,7 +99,8 @@ def _open_rows(journal: List[dict]) -> List[dict]:
 def build_daily_status(journal: List[dict],
                        price_fn: Callable[[str], Optional[float]],
                        confirmed_only: bool = True,
-                       wallet_value: Optional[float] = None) -> str:
+                       portfolio_value: Optional[float] = None,
+                       cash_value: Optional[float] = None) -> str:
     """Дневной статус: шапка + детали по двигавшимся/близким к резолву.
 
     confirmed_only=True (по умолчанию): P&L считается ТОЛЬКО по реально
@@ -170,11 +171,17 @@ def build_daily_status(journal: List[dict],
               f"Позиций: {n}{coverage} · в плюсе {in_profit} / в минусе {in_loss}")
     if skipped_garbage:
         header += f"\n⚠️ {skipped_garbage} с подозрительной ценой API — пропущены"
-    if wallet_value is not None:
-        # полная картина: весь кошелёк = свободный USDC + стоимость позиций.
-        # Шапка выше показывает только P&L по ставкам — это разные числа.
-        header += (f"\n💰 Кошелёк целиком: ${wallet_value:.0f} "
-                   f"(позиции + свободный USDC)")
+    if portfolio_value is not None:
+        # Polymarket разделяет Portfolio (стоимость позиций) и Cash (свободный
+        # USDC). Раньше бот показывал только позиции и звал их «кошелёк целиком»
+        # — неверно. Теперь честно: позиции отдельно, наличные отдельно.
+        if cash_value is not None:
+            total = portfolio_value + cash_value
+            header += (f"\n💼 Баланс: ${total:.0f} "
+                       f"(позиции ${portfolio_value:.0f} + наличные ${cash_value:.0f})")
+        else:
+            header += (f"\n💼 Позиции: ${portfolio_value:.0f} "
+                       f"(наличные USDC не учтены — нет источника)")
 
     parts = [header]
     has_hint = any("→" in line for _, line in detail_lines)
@@ -192,11 +199,11 @@ def build_daily_status(journal: List[dict],
     return "\n".join(parts)
 
 
-def _fetch_wallet_value() -> Optional[float]:
-    """Полная стоимость кошелька через Polymarket Data API /value (fail-safe).
+def _fetch_portfolio_value() -> Optional[float]:
+    """Стоимость позиций через Polymarket Data API /value (fail-safe).
 
-    Это весь кошелёк (позиции + свободный USDC), в отличие от суммы stake в
-    шапке. None при недоступности — строка кошелька просто не покажется.
+    Это Portfolio (только позиции), НЕ весь кошелёк — наличные USDC отдельно
+    (см. _fetch_cash_value). None при недоступности.
     """
     try:
         import requests
@@ -206,7 +213,6 @@ def _fetch_wallet_value() -> Optional[float]:
         if r.status_code != 200:
             return None
         data = r.json()
-        # API отдаёт список {user, value} либо объект — берём суммарный value
         if isinstance(data, list):
             return sum(float(x.get("value", 0)) for x in data) or None
         if isinstance(data, dict):
@@ -214,6 +220,38 @@ def _fetch_wallet_value() -> Optional[float]:
     except Exception:
         return None
     return None
+
+
+# USDC.e на Polygon — токен, которым Polymarket держит наличные
+_USDC_POLYGON = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
+_POLYGON_RPC = "https://polygon-rpc.com"
+
+
+def _fetch_cash_value() -> Optional[float]:
+    """Свободный USDC (Cash) — ERC-20 баланс на адресе через Polygon RPC.
+
+    Data API /value не включает наличные (подтверждено: бот показывал \$117 при
+    реальных Portfolio 155 + Cash 37 USD). Читаем balanceOf напрямую с блокчейна.
+    None при недоступности — строка деградирует в 'наличные не учтены'.
+    """
+    try:
+        import requests
+        from fill_matcher import PROXY_WALLET
+        # balanceOf(address) selector 0x70a08231 + padded address
+        addr = PROXY_WALLET.lower().replace("0x", "").rjust(64, "0")
+        payload = {"jsonrpc": "2.0", "id": 1, "method": "eth_call",
+                   "params": [{"to": _USDC_POLYGON,
+                               "data": "0x70a08231" + addr}, "latest"]}
+        r = requests.post(_POLYGON_RPC, json=payload, timeout=15)
+        if r.status_code != 200:
+            return None
+        result = r.json().get("result")
+        if not result or result == "0x":
+            return None
+        raw = int(result, 16)
+        return raw / 1e6 or None      # USDC = 6 знаков
+    except Exception:
+        return None
 
 
 def main() -> None:
@@ -236,8 +274,11 @@ def main() -> None:
         except Exception:
             return None
 
-    wallet_value = _fetch_wallet_value()
-    msg = build_daily_status(journal, price_fn, wallet_value=wallet_value)
+    portfolio_value = _fetch_portfolio_value()
+    cash_value = _fetch_cash_value()
+    msg = build_daily_status(journal, price_fn,
+                             portfolio_value=portfolio_value,
+                             cash_value=cash_value)
     print(msg)
     try:
         import requests

@@ -184,8 +184,8 @@ class TestWalletBalance:
                  "fill_source": "onchain", "entry_price_actual": 0.40,
                  "stake_actual": 100, "ai_yes_estimate": 0.18, "horizon_days": 100}]
         msg = build_daily_status(rows, price_fn=lambda c: 0.50,
-                                 wallet_value=350.0)
-        assert "350" in msg            # полный баланс кошелька показан
+                                 portfolio_value=313.0, cash_value=37.0)
+        assert "350" in msg            # 313+37            # полный баланс кошелька показан
         assert "кошел" in msg.lower() or "баланс" in msg.lower()
 
     def test_no_wallet_value_graceful(self):
@@ -193,6 +193,38 @@ class TestWalletBalance:
         rows = [{"condition_id": "0xA", "question": "W", "status": "open",
                  "fill_source": "onchain", "entry_price_actual": 0.40,
                  "stake_actual": 100, "ai_yes_estimate": 0.18, "horizon_days": 100}]
-        msg = build_daily_status(rows, price_fn=lambda c: 0.50, wallet_value=None)
+        msg = build_daily_status(rows, price_fn=lambda c: 0.50, portfolio_value=120.0, cash_value=None)
         assert msg  # не падает
         assert "P&L" in msg
+
+
+class TestPortfolioVsCash:
+    """Скриншот Polymarket: Portfolio $154.99 (позиции) + Cash $37.18 (свободный
+    USDC) = $192. Бот видел только позиции и называл их 'кошелёк целиком' —
+    неверная подпись. Теперь Portfolio и Cash разделены, Cash опционален."""
+
+    def _rows(self):
+        return [{"condition_id": "0xA", "question": "W", "status": "open",
+                 "fill_source": "onchain", "entry_price_actual": 0.40,
+                 "stake_actual": 100, "ai_yes_estimate": 0.18, "horizon_days": 100}]
+
+    def test_portfolio_labeled_as_positions_not_whole_wallet(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: 0.50,
+                                 portfolio_value=120.0, cash_value=37.0)
+        # подпись не вводит в заблуждение
+        assert "целиком" not in msg.lower() or "позиции + свободн" not in msg
+        assert "озиции" in msg or "Portfolio" in msg
+        assert "37" in msg            # cash показан
+        assert "157" in msg           # сумма 120+37 = полный баланс
+
+    def test_cash_unavailable_shows_positions_only(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: 0.50,
+                                 portfolio_value=120.0, cash_value=None)
+        assert "120" in msg
+        # без cash не врём про 'целиком'
+        assert "+ свободный USDC" not in msg
+
+    def test_full_balance_when_both_present(self):
+        msg = build_daily_status(self._rows(), price_fn=lambda c: 0.50,
+                                 portfolio_value=154.99, cash_value=37.18)
+        assert "192" in msg           # полный баланс 154.99+37.18
