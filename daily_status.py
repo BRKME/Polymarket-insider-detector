@@ -230,7 +230,7 @@ _POLYGON_RPC = "https://polygon-rpc.com"
 def _fetch_cash_value() -> Optional[float]:
     """Свободный USDC (Cash) — ERC-20 баланс на адресе через Polygon RPC.
 
-    Data API /value не включает наличные (подтверждено: бот показывал \$117 при
+    Data API /value не включает наличные (подтверждено: бот показывал 117 USD при
     реальных Portfolio 155 + Cash 37 USD). Читаем balanceOf напрямую с блокчейна.
     None при недоступности — строка деградирует в 'наличные не учтены'.
     """
