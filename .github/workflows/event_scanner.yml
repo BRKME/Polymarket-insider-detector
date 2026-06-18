@@ -2,7 +2,8 @@ name: Event Scanner (v5)
 
 on:
   schedule:
-    - cron: '0 */6 * * *'   # every 6 hours — events aren't time-critical
+    - cron: '0 */12 * * *'   # каждые 12ч — ставки на год-полгода, за 6ч ничего
+                             # не меняется; вдвое реже = вдвое меньше расход
   workflow_dispatch:
 
 permissions:
