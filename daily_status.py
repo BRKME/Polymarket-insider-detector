@@ -52,6 +52,28 @@ def is_plausible_price(entry: float, current: float) -> bool:
     return ret_pct > GARBAGE_DROP_PCT
 
 
+def filter_open_positions(positions: List[dict]) -> List[dict]:
+    """Только РЕАЛЬНО открытые позиции. /positions отдаёт всю историю кошелька,
+    включая зарезолвленные (currentValue≈0 → фантомные −100%) и пыль. Открытая
+    позиция: ненулевой размер, не redeemable (не завершённая), есть стоимость.
+    """
+    out = []
+    for p in positions:
+        try:
+            size = float(p.get("size") or 0)
+            cur_val = float(p.get("currentValue") or 0)
+        except (TypeError, ValueError):
+            continue
+        if size <= 0:
+            continue                      # пыль/закрытая
+        if p.get("redeemable") is True:
+            continue                      # зарезолвлена — к выплате, не открыта
+        if cur_val <= 0:
+            continue                      # нулевая стоимость = фактически мёртвая
+        out.append(p)
+    return out
+
+
 def build_status_from_wallet(positions: List[dict], journal: List[dict],
                              cash_value: Optional[float] = None) -> str:
     """Статус от РЕАЛЬНЫХ позиций кошелька (/positions API) — источник истины.
@@ -65,6 +87,7 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     """
     jmap = {r.get("condition_id"): r for r in journal}
 
+    positions = filter_open_positions(positions)
     n = len(positions)
     total_invested = total_current = total_pnl = 0.0
     in_profit = in_loss = 0
@@ -121,8 +144,11 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     has_hint = any("→" in line for _, line in detail_lines)
     if detail_lines:
         parts.append("\nДвигались / близко к резолву:")
-        for _, line in sorted(detail_lines, key=lambda x: x[0], reverse=True):
+        ranked = sorted(detail_lines, key=lambda x: x[0], reverse=True)
+        for _, line in ranked[:12]:       # топ-12, чтобы сообщение не раздувалось
             parts.append(line)
+        if len(ranked) > 12:
+            parts.append(f"…и ещё {len(ranked) - 12} (показаны крупнейшие движения)")
     else:
         parts.append("\nЗаметных движений нет — позиции зреют.")
     if has_hint:

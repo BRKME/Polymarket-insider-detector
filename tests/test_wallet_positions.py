@@ -55,3 +55,39 @@ class TestWalletStatus:
         # 2 позиции в кошельке, 1 в журнале -> показываем 2 (кошелёк = истина)
         msg = build_status_from_wallet(_positions(), _journal(), cash_value=0.0)
         assert "Позиций: 2" in msg
+
+
+class TestClosedPositionFilter:
+    """Баг: /positions вернул всю ИСТОРИЮ кошелька (59 позиций), включая
+    зарезолвленные с currentValue≈0 → фантомные -100% и -$491. Считать только
+    реально открытые: ненулевой size, не redeemable, есть текущая стоимость."""
+
+    def _mixed(self):
+        return [
+            # открытая
+            {"conditionId": "0xOpen", "title": "Open", "outcome": "No",
+             "size": 100, "avgPrice": 0.40, "curPrice": 0.50,
+             "initialValue": 40.0, "currentValue": 50.0, "cashPnl": 10.0,
+             "redeemable": False},
+            # зарезолвленная (проиграна) — currentValue 0, redeemable
+            {"conditionId": "0xDead", "title": "Resolved loss", "outcome": "No",
+             "size": 20, "avgPrice": 0.50, "curPrice": 0.0,
+             "initialValue": 20.0, "currentValue": 0.0, "cashPnl": -20.0,
+             "redeemable": True},
+            # пыль/закрытая — нулевой размер
+            {"conditionId": "0xZero", "title": "Zero size", "outcome": "No",
+             "size": 0, "avgPrice": 0.5, "curPrice": 0.5,
+             "initialValue": 0.0, "currentValue": 0.0, "cashPnl": 0.0},
+        ]
+
+    def test_only_open_counted(self):
+        from daily_status import filter_open_positions
+        out = filter_open_positions(self._mixed())
+        assert len(out) == 1
+        assert out[0]["conditionId"] == "0xOpen"
+
+    def test_status_ignores_resolved(self):
+        msg = build_status_from_wallet(self._mixed(), [], cash_value=37.0)
+        assert "Позиций: 1" in msg          # не 3
+        assert "-100%" not in msg            # нет фантомных -100%
+        assert "Resolved loss" not in msg
