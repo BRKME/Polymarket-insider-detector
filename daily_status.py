@@ -52,6 +52,85 @@ def is_plausible_price(entry: float, current: float) -> bool:
     return ret_pct > GARBAGE_DROP_PCT
 
 
+def build_status_from_wallet(positions: List[dict], journal: List[dict],
+                             cash_value: Optional[float] = None) -> str:
+    """Статус от РЕАЛЬНЫХ позиций кошелька (/positions API) — источник истины.
+
+    positions: формат Polymarket /positions (conditionId, title, size,
+    avgPrice, curPrice, currentValue, cashPnl). journal: алерты бота, нужны
+    только чтобы обогатить AI-тезисом (ai_yes_estimate/horizon) по condition_id.
+
+    Решает три дефекта журнал-подхода разом: наличные, устаревшая база P&L,
+    недосчёт позиций — потому что считаем по факту кошелька, а не по алертам.
+    """
+    jmap = {r.get("condition_id"): r for r in journal}
+
+    n = len(positions)
+    total_invested = total_current = total_pnl = 0.0
+    in_profit = in_loss = 0
+    detail_lines: List[tuple] = []
+
+    for p in positions:
+        invested = float(p.get("initialValue") or 0)
+        current = float(p.get("currentValue") or 0)
+        pnl = float(p.get("cashPnl") if p.get("cashPnl") is not None
+                    else current - invested)
+        total_invested += invested
+        total_current += current
+        total_pnl += pnl
+        if pnl >= 0:
+            in_profit += 1
+        else:
+            in_loss += 1
+
+        ret_pct = (pnl / invested * 100.0) if invested > 0 else 0.0
+        moved = abs(ret_pct) >= MOVE_THRESHOLD_PCT
+        jr = jmap.get(p.get("conditionId"), {})
+        hd = jr.get("horizon_days")
+        near = hd is not None and 0 <= hd <= NEAR_RESOLUTION_DAYS
+        if moved or near:
+            q = smart_truncate(p.get("title") or "", 44)
+            marker = "🟢" if pnl >= 0 else "🔴"
+            avg = float(p.get("avgPrice") or 0)
+            cur = float(p.get("curPrice") or 0)
+            hint = None
+            if avg > 0 and cur > 0:
+                hint = position_action_hint(avg, cur, jr.get("ai_yes_estimate"), hd)
+            line = f"{marker} {q}\n  {ret_pct:+.0f}% (${pnl:+.0f})"
+            if hint:
+                line += f"\n  → {hint}"
+            detail_lines.append((abs(ret_pct), line))
+
+    pnl_pct = (total_pnl / total_invested * 100.0) if total_invested > 0 else 0.0
+    pnl_emoji = "🟢" if total_pnl >= 0 else "🔴"
+    cash_txt = total_txt = ""
+    if cash_value is not None:
+        total_bal = total_current + cash_value
+        total_txt = (f"\n💼 Баланс: ${total_bal:.0f} "
+                     f"(позиции ${total_current:.0f} + наличные ${cash_value:.0f})")
+    else:
+        total_txt = f"\n💼 Позиции: ${total_current:.0f} (наличные не учтены)"
+
+    header = (f"📊 Polymarket — дневной статус\n"
+              f"{pnl_emoji} P&L ${total_pnl:+.0f} от ${total_invested:.0f} "
+              f"({pnl_pct:+.0f}%)\n"
+              f"Позиций: {n} · в плюсе {in_profit} / в минусе {in_loss}"
+              f"{total_txt}")
+
+    parts = [header]
+    has_hint = any("→" in line for _, line in detail_lines)
+    if detail_lines:
+        parts.append("\nДвигались / близко к резолву:")
+        for _, line in sorted(detail_lines, key=lambda x: x[0], reverse=True):
+            parts.append(line)
+    else:
+        parts.append("\nЗаметных движений нет — позиции зреют.")
+    if has_hint:
+        parts.append("\n<i>Позиции не бинарны: NO можно продать (зафиксировать) "
+                     "или докупить при движении цены, не дожидаясь резолва.</i>")
+    return "\n".join(parts)
+
+
 def position_action_hint(entry: float, current: float, ai_yes: Optional[float],
                          horizon_days: Optional[float]) -> Optional[str]:
     """Мягкая подсказка действия по небинарной позиции (или None).
@@ -277,6 +356,26 @@ def _fetch_cash_value() -> Optional[float]:
         return None
 
 
+def _fetch_positions() -> Optional[List[dict]]:
+    """Все реальные позиции кошелька через Polymarket Data API /positions.
+
+    Источник истины — кошелёк, не журнал алертов. None при недоступности
+    (тогда main деградирует на старый журнал-путь).
+    """
+    try:
+        import requests
+        from fill_matcher import DATA_API, PROXY_WALLET
+        r = requests.get(f"{DATA_API}/positions",
+                         params={"user": PROXY_WALLET, "sizeThreshold": 1},
+                         timeout=20)
+        if r.status_code != 200:
+            return None
+        data = r.json()
+        return data if isinstance(data, list) else None
+    except Exception:
+        return None
+
+
 def main() -> None:
     import json
     from pathlib import Path
@@ -291,19 +390,24 @@ def main() -> None:
                 except Exception:
                     continue
 
-    def price_fn(cid: str) -> Optional[float]:
-        try:
-            return mtm.current_no_price(cid, mtm._default_fetch)
-        except Exception:
-            return None
-
-    portfolio_value = _fetch_portfolio_value()
     cash_value = _fetch_cash_value()
-    print(f"[diag] portfolio={portfolio_value} cash={cash_value} "
-          f"wallet={__import__('fill_matcher').PROXY_WALLET[:10]}…")
-    msg = build_daily_status(journal, price_fn,
-                             portfolio_value=portfolio_value,
-                             cash_value=cash_value)
+    positions = _fetch_positions()
+    print(f"[diag] positions={len(positions) if positions is not None else None} "
+          f"cash={cash_value} wallet={__import__('fill_matcher').PROXY_WALLET[:10]}…")
+
+    if positions is not None:
+        # источник истины — реальный кошелёк
+        msg = build_status_from_wallet(positions, journal, cash_value=cash_value)
+    else:
+        # фолбэк: /positions недоступен — старый журнал-путь (только ончейн)
+        def price_fn(cid: str) -> Optional[float]:
+            try:
+                return mtm.current_no_price(cid, mtm._default_fetch)
+            except Exception:
+                return None
+        msg = build_daily_status(journal, price_fn,
+                                 portfolio_value=_fetch_portfolio_value(),
+                                 cash_value=cash_value)
     print(msg)
     try:
         import requests
