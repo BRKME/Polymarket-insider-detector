@@ -84,17 +84,31 @@ def _save_seen(seen: dict) -> None:
     SEEN.write_text(json.dumps(seen, ensure_ascii=False, sort_keys=True, indent=0))
 
 
-def _should_skip_pre_ai(cid: str, seen: dict) -> bool:
-    """Skip BEFORE spending an AI call only if the market is resolved.
+HELD_LONG_SKIP_DAYS = 30    # уже открытую позицию с резолвом дальше этого не
+                            # гоняем через дорогой поиск — edge на длинном тезисе
+                            # за сутки не меняется, докуп решается движением цены
 
-    We deliberately do NOT skip merely-seen markets here: their edge may have
-    grown, and we can't know without a fresh estimate. Cost is bounded by
-    MAX_AI_CALLS anyway. Resolved markets are dead — always skip.
+
+def _should_skip_pre_ai(cid: str, seen: dict, held_cids: set = None,
+                        hours_to_resolve: float = None) -> bool:
+    """Skip BEFORE spending an AI call.
+
+    Always skip resolved markets (dead). Also skip a market we ALREADY HOLD
+    whose resolution is far away (> HELD_LONG_SKIP_DAYS): re-estimating a
+    long-horizon open position via expensive search is near-useless — the edge
+    barely moves day-to-day, and the add/exit decision comes from price moves
+    (daily status, no AI). Near-resolution held positions are NOT skipped (the
+    endgame matters), and brand-new candidates are NOT skipped (we must decide
+    whether to enter).
     """
     entry = seen.get(cid)
-    if not entry:
-        return False
-    return bool(entry.get("resolved"))
+    if entry and entry.get("resolved"):
+        return True
+    if (held_cids is not None and cid in held_cids
+            and hours_to_resolve is not None
+            and hours_to_resolve > HELD_LONG_SKIP_DAYS * 24):
+        return True
+    return False
 
 
 def _should_alert(cid: str, current_edge: float, seen: dict) -> bool:
@@ -458,11 +472,18 @@ def run() -> None:
     # zero-candidate run is debuggable from the log alone.
     funnel = {"sport_or_hft": 0, "not_binary_yesno": 0, "no_out_of_band": 0,
               "low_liquidity": 0, "bad_time": 0, "already_seen": 0, "PASS": 0}
+    # Уже открытые позиции (в журнале, не закрытые) — для пропуска дорогой
+    # переоценки длинных held-ставок.
+    held_cids = {r.get("condition_id", "") for r in _load_journal_rows()
+                 if str(r.get("status", "open")).lower() != "closed"}
+
     no_band_count = 0
     gated = []
     for m in markets:
         cid = m.get("conditionId", "")
-        if _should_skip_pre_ai(cid, seen):
+        _hrs = es._hours_to_resolve(m)
+        if _should_skip_pre_ai(cid, seen, held_cids=held_cids,
+                               hours_to_resolve=_hrs):
             funnel["already_seen"] += 1
             continue
         q = m.get("question", "") or m.get("title", "")
