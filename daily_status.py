@@ -222,34 +222,57 @@ def _fetch_portfolio_value() -> Optional[float]:
     return None
 
 
-# USDC.e на Polygon — токен, которым Polymarket держит наличные
-_USDC_POLYGON = "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174"
-_POLYGON_RPC = "https://polygon-rpc.com"
+# На Polygon ДВА USDC: нативный (Polymarket использует его) и bridged USDC.e.
+# Раньше брал только USDC.e -> наличные читались как 0. Проверяем оба.
+_USDC_TOKENS = {
+    "native": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359",
+    "bridged": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+}
+_POLYGON_RPCS = [
+    "https://polygon-rpc.com",
+    "https://polygon.llamarpc.com",
+    "https://rpc.ankr.com/polygon",
+]
+
+
+def _erc20_balance(rpc: str, token: str, holder_padded: str) -> Optional[float]:
+    import requests
+    payload = {"jsonrpc": "2.0", "id": 1, "method": "eth_call",
+               "params": [{"to": token, "data": "0x70a08231" + holder_padded},
+                          "latest"]}
+    r = requests.post(rpc, json=payload, timeout=12)
+    if r.status_code != 200:
+        return None
+    result = r.json().get("result")
+    if not result or result == "0x":
+        return None
+    return int(result, 16) / 1e6      # USDC = 6 знаков
 
 
 def _fetch_cash_value() -> Optional[float]:
-    """Свободный USDC (Cash) — ERC-20 баланс на адресе через Polygon RPC.
+    """Свободный USDC (Cash) — баланс на адресе через Polygon RPC.
 
-    Data API /value не включает наличные (подтверждено: бот показывал 117 USD при
-    реальных Portfolio 155 + Cash 37 USD). Читаем balanceOf напрямую с блокчейна.
-    None при недоступности — строка деградирует в 'наличные не учтены'.
+    Проверяет оба USDC-контракта (нативный + bridged) и несколько RPC с
+    фолбэком: наличные могут лежать в любом из токенов, а отдельные RPC
+    бывают недоступны. None только если ВСЕ комбинации не дали ответа.
     """
     try:
-        import requests
         from fill_matcher import PROXY_WALLET
-        # balanceOf(address) selector 0x70a08231 + padded address
-        addr = PROXY_WALLET.lower().replace("0x", "").rjust(64, "0")
-        payload = {"jsonrpc": "2.0", "id": 1, "method": "eth_call",
-                   "params": [{"to": _USDC_POLYGON,
-                               "data": "0x70a08231" + addr}, "latest"]}
-        r = requests.post(_POLYGON_RPC, json=payload, timeout=15)
-        if r.status_code != 200:
-            return None
-        result = r.json().get("result")
-        if not result or result == "0x":
-            return None
-        raw = int(result, 16)
-        return raw / 1e6 or None      # USDC = 6 знаков
+        holder = PROXY_WALLET.lower().replace("0x", "").rjust(64, "0")
+        for rpc in _POLYGON_RPCS:
+            total = 0.0
+            got_any = False
+            for token in _USDC_TOKENS.values():
+                try:
+                    bal = _erc20_balance(rpc, token, holder)
+                except Exception:
+                    bal = None
+                if bal is not None:
+                    total += bal
+                    got_any = True
+            if got_any:
+                return total            # этот RPC ответил — берём сумму обоих токенов
+        return None                     # ни один RPC не ответил
     except Exception:
         return None
 
@@ -276,6 +299,8 @@ def main() -> None:
 
     portfolio_value = _fetch_portfolio_value()
     cash_value = _fetch_cash_value()
+    print(f"[diag] portfolio={portfolio_value} cash={cash_value} "
+          f"wallet={__import__('fill_matcher').PROXY_WALLET[:10]}…")
     msg = build_daily_status(journal, price_fn,
                              portfolio_value=portfolio_value,
                              cash_value=cash_value)
