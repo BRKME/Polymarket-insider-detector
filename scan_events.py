@@ -236,8 +236,14 @@ def _make_logging_estimator(markets: list):
     def _cid_for(question: str):
         return by_q.get(question, {}).get("conditionId", "")
 
+    # Двухэтапная оценка: дешёвый скрин без поиска -> дорогой поиск ($5/1000)
+    # только на рынки с сильным скрин-edge. Кэш стоит ПЕРЕД этим, так что
+    # повторный скан слоумувинг-рынка не платит ни за один этап.
+    two_stage = es.make_two_stage_estimator(
+        estimate_probability, yes_price_for=_yes_for, screen_edge_min=es.EDGE_MIN)
+
     cached_real = ai_cache.make_cached_estimator(
-        estimate_probability, cache_store, cid_for=_cid_for, yes_for=_yes_for)
+        two_stage, cache_store, cid_for=_cid_for, yes_for=_yes_for)
 
     def _estimator(question: str, description: str = None, end_date: str = None):
         cid = _cid_for(question)
@@ -511,8 +517,37 @@ def run() -> None:
     # Wrap the estimator so every Grok call (rejects included) lands in the
     # calibration journal — see _append_calibration for why this matters.
     logging_estimator = _make_logging_estimator(gated)
+    # Счётчик отказов: если ВСЕ оценки провалились (типично при балансе xAI $0),
+    # сканер не должен молчать — иначе «нет кандидатов» неотличимо от «API мёртв».
+    _est_stats = {"calls": 0, "fails": 0}
+    _inner = logging_estimator
+    def logging_estimator(q, description=None, end_date=None):  # noqa: F811
+        _est_stats["calls"] += 1
+        r = _inner(q, description, end_date)
+        if not r or r.get("prob") is None:
+            _est_stats["fails"] += 1
+        return r
     candidates = es.scan(gated, logging_estimator)
     print(f"  {len(candidates)} candidates after AI mispricing check")
+
+    # Алерт при полном отказе AI (нет кредитов / API down): честно сообщить,
+    # а не выдать тишину за «нет интересных рынков».
+    if _est_stats["calls"] >= 3 and _est_stats["fails"] == _est_stats["calls"]:
+        try:
+            import requests as _req
+            from config import TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID
+            if TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID:
+                _req.post(
+                    f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage",
+                    json={"chat_id": TELEGRAM_CHAT_ID,
+                          "text": ("⚠️ Polymarket-сканер: Grok недоступен — все "
+                                   f"{_est_stats['calls']} оценок не прошли. Вероятно, "
+                                   "кончились кредиты xAI (баланс $0). Оценка рынков не "
+                                   "работает, пока не пополнишь. Это не «нет сигналов» — "
+                                   "это отказ API.")},
+                    timeout=10)
+        except Exception as e:
+            print(f"  no-credit alert failed: {e}")
 
     sent = 0
     suppressed = 0

@@ -268,10 +268,66 @@ def _thesis_key(question: str) -> str:
     return ' '.join(q.split()[:6])      # stable head
 
 
+def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10):
+    """Двухэтапная оценка для экономии на дорогом поиске Grok ($5/1000 вызовов).
+
+    Этап 1: дешёвый вызов БЕЗ поиска (use_search=False) — только токены.
+    Если структурный edge (market_yes - cheap_est_yes) ниже screen_edge_min,
+    рынок неинтересен — дорогой поиск НЕ запускаем.
+    Этап 2: только на прошедших скрин — повторный вызов С поиском, его
+    результат и идёт в ставку (поиск даёт актуальные факты).
+
+    underlying(question, desc, end, use_search=bool) -> est|None
+    yes_price_for(question) -> текущая YES-цена рынка (для скрин-edge)
+    """
+    def _estimator(question: str, description: str = None, end_date: str = None):
+        def _call(use_search):
+            try:
+                return underlying(question, description, end_date, use_search=use_search)
+            except TypeError:
+                try:
+                    return underlying(question, description, end_date)
+                except TypeError:
+                    return underlying(question)
+        cheap = _call(False)
+        if not cheap or cheap.get("prob") is None:
+            return None
+        yes = yes_price_for(question)
+        if yes is None:
+            return None
+        screen_edge = float(yes) - float(cheap["prob"])
+        if screen_edge < screen_edge_min:
+            return cheap            # слабый edge — отдаём дешёвую оценку, поиск пропущен
+        confirmed = _call(True)
+        return confirmed or cheap
+    return _estimator
+
+
 def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
-    """Run the full pipeline, dedup theses, return ranked candidates."""
-    out = []
+    """Run the full pipeline, dedup theses BEFORE AI, return ranked candidates.
+
+    Экономия: схлопываем date-варианты одного тезиса ДО вызова AI (поиск-режим
+    Grok дорог — $5/1000 вызовов). Из каждого тезиса берём одного представителя
+    с лучшей структурной привлекательностью (NO ближе к центру полосы — выше
+    шанс реального edge), остальные в LLM не идут.
+    """
+    # 1. Структурный гейт (без AI) + группировка по тезису
+    gated: Dict[str, tuple] = {}        # thesis_key -> (market, no_price)
     for m in markets:
+        g = passes_gate(m)
+        if not g:
+            continue
+        _, no_price, _, _ = g
+        q = m.get("question", "") or m.get("title", "")
+        k = _thesis_key(q)
+        # представитель тезиса — NO ближе к центру привлекательной полосы
+        center = (NO_ODDS_MIN + NO_ODDS_MAX) / 2
+        if k not in gated or abs(no_price - center) < abs(gated[k][1] - center):
+            gated[k] = (m, no_price)
+
+    # 2. AI-оценка ТОЛЬКО по одному представителю на тезис
+    out = []
+    for m, _ in gated.values():
         try:
             c = evaluate(m, ai_estimate_fn)
             if c:
@@ -279,15 +335,6 @@ def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -
         except Exception:
             continue
 
-    # Dedup by thesis: keep the single best-edge candidate per thesis so two
-    # date-variants of the same bet don't masquerade as two positions.
-    best: Dict[str, Candidate] = {}
-    for c in out:
-        k = _thesis_key(c.question)
-        if k not in best or c.edge > best[k].edge:
-            best[k] = c
-    deduped = list(best.values())
-
     # Clean (non-suspicious) candidates first, then by edge.
-    deduped.sort(key=lambda c: (c.suspicious, -c.edge))
-    return deduped
+    out.sort(key=lambda c: (c.suspicious, -c.edge))
+    return out

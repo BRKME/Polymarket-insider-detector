@@ -379,13 +379,18 @@ def _build_estimator_prompt(question: str, description: str = None,
 
 
 def estimate_probability(question: str, description: str = None,
-                         end_date: str = None) -> Optional[dict]:
+                         end_date: str = None,
+                         use_search: bool = True) -> Optional[dict]:
     """
     Estimate independent P(YES) for a binary event-market question.
 
     `description` and `end_date` are optional resolution context — when present
     they're injected into the prompt so Grok sees the resolution rules (grouped
     markets, exact criteria) rather than inferring from the title.
+
+    use_search: при False — БЕЗ x_search/web_search (только токены, дёшево) для
+    первичного скрина; при True — с поиском (дорого, $5/1000 вызовов) для
+    финального подтверждения. Двухэтапная схема режет дорогие поиск-вызовы.
 
     Returns {"prob": float 0..1, "conf": str, "why": str} or None on failure.
     Confidence is surfaced so the scanner can require 'medium'+ before trading.
@@ -403,8 +408,9 @@ def estimate_probability(question: str, description: str = None,
                 {"role": "system", "content": ESTIMATOR_SYSTEM},
                 {"role": "user", "content": prompt},
             ],
-            "tools": [{"type": "x_search"}, {"type": "web_search"}],
         }
+        if use_search:
+            payload["tools"] = [{"type": "x_search"}, {"type": "web_search"}]
         resp = req.post(
             "https://api.x.ai/v1/responses",
             headers={
