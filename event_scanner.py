@@ -303,6 +303,26 @@ def make_two_stage_estimator(underlying, yes_price_for, screen_edge_min=0.10):
     return _estimator
 
 
+def _horizon_score(edge: float, hours_to_resolve: Optional[float]) -> float:
+    """Качество ступени тезиса = edge × краткосрочность.
+
+    Один тезис на разных сроках ('Starmer by June' / 'by December') — это не
+    дубли, а лестница с разным риском. Короткое окно надёжнее для NO на
+    маловероятном-в-моменте событии (за 9 дней мало что случится), длинное —
+    рискованнее (окно может поймать само событие). Балансируем: предпочитаем
+    срок, где и переоценка хорошая, и окно узкое. Чистая краткосрочность взяла
+    бы срок с нулевым edge; чистый edge — самый длинный (рискованный) срок.
+    """
+    if edge is None or edge <= 0:
+        return 0.0
+    if not hours_to_resolve or hours_to_resolve <= 0:
+        return 0.0
+    days = hours_to_resolve / 24.0
+    # краткосрочность: 1/(1+days/30) — мягко падает с горизонтом, не обнуляя
+    recency = 1.0 / (1.0 + days / 30.0)
+    return edge * recency
+
+
 def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
     """Run the full pipeline, dedup theses BEFORE AI, return ranked candidates.
 
@@ -311,8 +331,8 @@ def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -
     с лучшей структурной привлекательностью (NO ближе к центру полосы — выше
     шанс реального edge), остальные в LLM не идут.
     """
-    # 1. Структурный гейт (без AI) + группировка по тезису
-    gated: Dict[str, tuple] = {}        # thesis_key -> (market, no_price)
+    # 1. Структурный гейт (без AI) + группировка по тезису-лестнице
+    gated: Dict[str, tuple] = {}        # thesis_key -> (market, no_price, score)
     for m in markets:
         g = passes_gate(m)
         if not g:
@@ -320,14 +340,18 @@ def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -
         _, no_price, _, _ = g
         q = m.get("question", "") or m.get("title", "")
         k = _thesis_key(q)
-        # представитель тезиса — NO ближе к центру привлекательной полосы
-        center = (NO_ODDS_MIN + NO_ODDS_MAX) / 2
-        if k not in gated or abs(no_price - center) < abs(gated[k][1] - center):
-            gated[k] = (m, no_price)
+        # Представитель ступени-лестницы: edge × краткосрочность. До AI реального
+        # edge нет, поэтому structural-прокси: чем дешевле NO (ниже в полосе),
+        # тем больше потенциал переоценки. × краткосрочность (узкое окно надёжнее
+        # для NO). Это формализует ручной выбор оператора «короткий срок лучше».
+        struct_edge = max(0.0, NO_ODDS_MAX - no_price)   # дешевле NO -> больше прокси-edge
+        score = _horizon_score(struct_edge, _hours_to_resolve(m))
+        if k not in gated or score > gated[k][2]:
+            gated[k] = (m, no_price, score)
 
     # 2. AI-оценка ТОЛЬКО по одному представителю на тезис
     out = []
-    for m, _ in gated.values():
+    for m, _, _ in gated.values():
         try:
             c = evaluate(m, ai_estimate_fn)
             if c:

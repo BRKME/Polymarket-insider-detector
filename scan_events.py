@@ -327,6 +327,7 @@ def _market_url(c: es.Candidate) -> str:
 
 
 LONG_LOCK_DAYS = 120   # дольше — флаг «длинная заморозка капитала»
+LONG_WINDOW_WARN_DAYS = 90   # дольше — предупреждение о риске окна для NO-ставки
 
 
 def _format_alert(c: es.Candidate) -> str:
@@ -401,6 +402,18 @@ def _format_alert(c: es.Candidate) -> str:
     ]
     if why:
         lines.append(f"Почему: {why}")
+    # Риск длинного окна: NO выигрывает, только если событие НЕ случится за срок.
+    # Чем длиннее окно, тем выше шанс, что оно поймает само событие — оператор
+    # отметил, что для «он точно уйдёт, вопрос когда» короткий срок безопаснее.
+    try:
+        _end2 = datetime.fromisoformat(str(c.end_date).replace("Z", "+00:00"))
+        _d2 = int((_end2 - datetime.now(timezone.utc)).total_seconds() // 86400)
+        if _d2 > LONG_WINDOW_WARN_DAYS:
+            lines.append(
+                f"⚠️ Длинное окно ({_d2}д): NO проигрывает, если событие случится "
+                f"в срок. На том же тезисе ищи более короткий срок — NO надёжнее.")
+    except Exception:
+        pass
     if c.suspicious:
         lines.append("⚠️ Похоже на связанный/групповой рынок — читай правила резолва")
     lines.append(f"Ликв. {liq_k}{cat_line}")
