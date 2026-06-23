@@ -182,6 +182,51 @@ def passes_gate(market: Dict) -> Optional[tuple]:
     return yes_price, no_price, liq, hrs
 
 
+def ensure_description(market: Dict, fetch_fn=None) -> str:
+    """Гарантирует непустое описание (правила резолва).
+
+    Баг 21.06: Gamma /markets в списочном режиме отдаёт description пустым, и
+    Grok оценивал Starmer без правил — не видел, что ОБЪЯВЛЕНИЕ об уходе даёт
+    YES. Если описание пусто, дотягиваем по conditionId (fetch_fn), мягкий
+    fail-safe: при отказе возвращаем пустую строку, не роняя скан.
+    """
+    desc = (market.get("description") or "").strip()
+    if desc:
+        return desc
+    if fetch_fn is None:
+        return ""
+    try:
+        cid = market.get("conditionId") or market.get("condition_id") or ""
+        return (fetch_fn(cid) or "").strip()
+    except Exception:
+        return ""
+
+
+def _fetch_market_description(condition_id: str) -> str:
+    """Полные правила резолва по conditionId из Gamma API (мягкий fail-safe).
+
+    /markets в списочном режиме отдаёт description пустым; запрос по
+    condition_id возвращает полный текст. None/'' при недоступности.
+    """
+    if not condition_id:
+        return ""
+    try:
+        import requests
+        from config import GAMMA_API_URL
+        r = requests.get(f"{GAMMA_API_URL}/markets",
+                         params={"condition_ids": condition_id}, timeout=15)
+        if r.status_code != 200:
+            return ""
+        data = r.json()
+        if isinstance(data, list) and data:
+            return (data[0].get("description") or "").strip()
+        if isinstance(data, dict):
+            return (data.get("description") or "").strip()
+    except Exception:
+        return ""
+    return ""
+
+
 def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> Optional[Candidate]:
     """
     Full evaluation: structural gate + AI mispricing check.
@@ -194,7 +239,7 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     yes_price, no_price, liq, _ = gated
 
     q = market.get("question", "") or market.get("title", "")
-    description = market.get("description", "") or ""
+    description = ensure_description(market, fetch_fn=_fetch_market_description)
     end_date = market.get("endDate", "") or market.get("end_date", "") or ""
     # Pass resolution context when the estimator accepts it; fall back to the
     # legacy single-arg signature so injected test stubs keep working.
