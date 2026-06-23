@@ -83,6 +83,12 @@
 "resolved": false,
 "thesis_key": "us iran nuclear deal"
 },
+"0xb106a3c9d1c59ed8117493dae6459a3ff79369a8f7cddaf62f4a05828b89195e": {
+"alerted_at": "2026-06-23T14:20:48.821504+00:00",
+"last_edge": 0.165,
+"resolved": false,
+"thesis_key": "will the democrats win the us"
+},
 "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21": {
 "alerted_at": null,
 "last_edge": 0.375,
