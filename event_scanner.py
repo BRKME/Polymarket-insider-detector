@@ -100,6 +100,8 @@ class Candidate:
     ai_conf: str = "low"        # Grok's stated confidence (low/medium/high)
     had_rules: bool = False     # дошли ли правила резолва до Grok (диагностика
                                 # Starmer-бага: судил ли он по правилам или вслепую)
+    rules_excerpt: str = ""     # первые ~200 симв реальных правил — чтобы разбор
+                                # постфактум был фактическим, а не по флагу
 
     def to_alert(self) -> Dict:
         return asdict(self)
@@ -244,6 +246,35 @@ def _fetch_market_description(condition_id: str) -> str:
     return ""
 
 
+import re as _re_grp
+
+# Паттерны рынков-лестниц/групповых: исход — одна из НЕСКОЛЬКИХ взаимоисключающих
+# стадий/вариантов, а не бинарное да/нет. NO на таком рынке выигрывает по многим
+# путям — это меняет смысл ставки, оператор должен читать правила.
+_GROUPED_PATTERNS = [
+    r"\bround of \d+\b",            # Round of 32/16 — конкретная стадия вылета
+    r"\bstage of elimination\b",
+    r"\b(quarter|semi)\s*-?\s*final",
+    r"\breach the \w+final",
+    r"\bmake the (quarter|semi|final)",
+    r"\bwinner of\b",
+    r"\bwho will win\b",
+    r"\beliminated in the\b",
+    r"\bgroup stage\b",
+    r"\bwhich (team|player|party|candidate) (will )?win",
+]
+_GROUPED_RE = _re_grp.compile("|".join(_GROUPED_PATTERNS), _re_grp.IGNORECASE)
+
+
+def looks_grouped(question: str) -> bool:
+    """True, если вопрос похож на групповой/лестничный рынок (исход = одна из
+    нескольких стадий/вариантов), а не бинарное да/нет. Такие помечаем
+    suspicious: NO выигрывает по многим путям, смысл ставки меняется."""
+    if not question:
+        return False
+    return bool(_GROUPED_RE.search(question))
+
+
 def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> Optional[Candidate]:
     """
     Full evaluation: structural gate + AI mispricing check.
@@ -279,8 +310,11 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     if edge < EDGE_MIN:
         return None                    # not enough mispricing — skip
 
-    suspicious = (edge >= SUSPICIOUS_EDGE
-                  and SUSPICIOUS_NO_LOW <= no_price <= SUSPICIOUS_NO_HIGH)
+    suspicious = (
+        (edge >= SUSPICIOUS_EDGE
+         and SUSPICIOUS_NO_LOW <= no_price <= SUSPICIOUS_NO_HIGH)
+        or looks_grouped(q)        # групповой/лестничный рынок по тексту вопроса
+    )
 
     # reasoning carries ONLY Grok's why — presentation (numbers, warnings) is
     # the alert formatter's job. Keeping data and format separate stops the
@@ -311,6 +345,7 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
         suspicious=suspicious,
         ai_conf=str(est.get("conf", "low")),
         had_rules=bool(description and description.strip()),
+        rules_excerpt=(description or "").strip()[:200],
     )
 
 
