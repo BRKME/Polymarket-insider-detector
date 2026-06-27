@@ -275,6 +275,26 @@ def looks_grouped(question: str) -> bool:
     return bool(_GROUPED_RE.search(question))
 
 
+_SPLIT_RES_RE = _re_grp.compile(
+    r"(50\s*[-/]\s*50)|(resolve[sd]?\s+(to\s+)?a?\s*tie)|(split\s+the\s+pot)",
+    _re_grp.IGNORECASE,
+)
+
+
+def has_split_resolution(rules: Optional[str]) -> bool:
+    """True, если правила содержат пункт «резолв 50-50 / ничья при недостижении»
+    (напр. 'if neither occurs by [date], resolve 50-50').
+
+    Такой рынок структурно мёртв для edge: если сравниваемое событие за
+    горизонтом резолва, исход предопределён в ничью, и цена 50¢ корректна —
+    NO/YES не дают преимущества. Биткоин-кейс ('$1M before GTA VI', GTA в ноябре,
+    резолв 31 июля) — ровно это. Гейтим ДО Grok, не тратим оценку и не выдаём
+    как edge."""
+    if not rules:
+        return False
+    return bool(_SPLIT_RES_RE.search(rules))
+
+
 def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> Optional[Candidate]:
     """
     Full evaluation: structural gate + AI mispricing check.
@@ -289,6 +309,14 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     q = market.get("question", "") or market.get("title", "")
     description = ensure_description(market, fetch_fn=_fetch_market_description)
     end_date = market.get("endDate", "") or market.get("end_date", "") or ""
+
+    # Гейт ДО Grok: рынок с пунктом «50-50 при недостижении» структурно мёртв
+    # для edge (если событие за горизонтом резолва — гарантированная ничья, цена
+    # 50¢ корректна). Биткоин-$1M-before-GTA — ровно этот случай. Не тратим
+    # оценку и не выдаём как edge.
+    if has_split_resolution(description):
+        return None
+
     # Pass resolution context when the estimator accepts it; fall back to the
     # legacy single-arg signature so injected test stubs keep working.
     try:
