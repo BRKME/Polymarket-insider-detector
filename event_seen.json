@@ -35,6 +35,12 @@
 "resolved": false,
 "thesis_key": "us iran nuclear deal"
 },
+"0x25fb28382075f418a944a781a9f8840e2f541152eea0d9798d1cabfa1466adbb": {
+"alerted_at": "2026-06-30T02:07:50.241494+00:00",
+"last_edge": 0.1625,
+"resolved": false,
+"thesis_key": "will mojtaba khamenei be head of"
+},
 "0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126": {
 "alerted_at": "2026-06-11T20:12:07.994636+00:00",
 "last_edge": 0.22,
