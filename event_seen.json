@@ -53,6 +53,12 @@
 "resolved": false,
 "thesis_key": "will jesus christ return"
 },
+"0x3de0f3d7d7efb40cde68e814d40a0b232832083653c8e78260eb999baa967de0": {
+"alerted_at": "2026-06-30T13:55:36.040227+00:00",
+"last_edge": 0.23,
+"resolved": false,
+"thesis_key": "us strike"
+},
 "0x4d0c4865bdecc5f7971dbab47bb6c069d93909dec75bdff52fb766ae6094a6d6": {
 "alerted_at": null,
 "last_edge": 0.485,
