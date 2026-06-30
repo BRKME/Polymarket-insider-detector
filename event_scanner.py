@@ -330,9 +330,18 @@ def evaluate(market: Dict, ai_estimate_fn: Callable[[str], Optional[dict]]) -> O
     if _CONF_RANK.get(est.get("conf", "low"), 0) < _CONF_RANK[MIN_CONFIDENCE]:
         return None
 
-    ai_yes = float(est["prob"])
-    if not (0 <= ai_yes <= 1):
+    ai_yes_raw = float(est["prob"])
+    if not (0 <= ai_yes_raw <= 1):
         return None
+
+    # Посткалибровка: пересчитываем сырую оценку Grok по фактической таблице
+    # корзин (вердикт показал систематический промах Grok). Таблица копится на
+    # резолвах; где данных мало — поправка слабая (усадка к сырой оценке).
+    try:
+        import calibration_map as cm
+        ai_yes = cm.calibrate(ai_yes_raw, cm.load_table())
+    except Exception:
+        ai_yes = ai_yes_raw
 
     edge = yes_price - ai_yes          # market overprices YES by this much
     if edge < EDGE_MIN:

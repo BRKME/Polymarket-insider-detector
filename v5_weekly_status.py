@@ -209,6 +209,16 @@ def build_kpi_block(journal: List[dict], calib: List[dict],
         # калибровка по корзинам — проверка гипотезы про недооценку фаворитов
         for cl in calibration_buckets(resolved):
             lines.append(cl)
+        # Пересчитываем и СОХРАНЯЕМ таблицу калибровки — сканер применит её как
+        # посткалибровку. Таблица копится: чем больше резолвов, тем крепче поправка.
+        try:
+            import calibration_map as cm
+            table = cm.build_calibration_table(resolved)
+            cm.save_table(table)
+            lines.append(f"  (таблица калибровки обновлена: {len(table)} корзин, "
+                         f"n={n})")
+        except Exception as e:
+            lines.append(f"  (таблица калибровки не обновлена: {e})")
     return "\n".join(lines)
 
 

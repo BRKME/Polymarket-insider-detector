@@ -1,11 +1,14 @@
 name: v5 Weekly Status
 
-# Воскресный статус живой v5-стратегии (вместо ежедневной эпитафии легаси):
-# позиции/филлы, экспозиция, накопление калибровки, дни до чекпойнтов.
+# Воскресный статус живой v5-стратегии: позиции/филлы, экспозиция,
+# накопление калибровки, обновление таблицы посткалибровки, дни до чекпойнтов.
 on:
   schedule:
     - cron: '0 8 * * 0'
   workflow_dispatch:
+
+permissions:
+  contents: write          # для коммита calibration_table.json обратно
 
 jobs:
   status:
@@ -21,3 +24,14 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python v5_weekly_status.py
+      - name: Commit calibration table
+        run: |
+          git config user.name "Aleksander Brk"
+          git config user.email "106615154+BRKME@users.noreply.github.com"
+          if [ -n "$(git status --porcelain calibration_table.json)" ]; then
+            git add calibration_table.json
+            git commit -m "weekly: update calibration table [skip ci]"
+            git push
+          else
+            echo "no calibration change"
+          fi
