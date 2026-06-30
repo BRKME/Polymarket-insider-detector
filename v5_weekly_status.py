@@ -45,6 +45,32 @@ def _load_jsonl(path: Path) -> List[dict]:
     return rows
 
 
+def calibration_buckets(resolved: list) -> list:
+    """Калибровка Grok: для каждой корзины его оценки P(YES) — какова РЕАЛЬНАЯ
+    частота YES. resolved: список (market_yes, ai_yes, actual_yes).
+
+    Отвечает на гипотезу оператора: если в корзине '0.6-0.8' реальный YES
+    заметно выше (напр. 90%), Grok систематически недооценивает фаворитов —
+    значит механический NO против них структурно убыточен, ставить надо на YES.
+    """
+    if not resolved:
+        return []
+    out = ["📊 Калибровка Grok (его оценка YES → реальный YES):"]
+    for lo, hi in [(0.0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.01)]:
+        bucket = [y for _, a, y in resolved if lo <= a < hi]
+        if bucket:
+            actual = sum(bucket) / len(bucket) * 100
+            mid = (lo + min(hi, 1.0)) / 2 * 100
+            flag = ""
+            if actual - mid >= 20:
+                flag = " ⚠️ недооценка фаворита"
+            elif mid - actual >= 20:
+                flag = " ⚠️ переоценка"
+            out.append(f"  Grok {lo:.1f}-{hi:.1f}: реально YES {actual:.0f}% "
+                       f"(n={len(bucket)}){flag}")
+    return out
+
+
 def build_status(journal: List[dict], calib: List[dict],
                  now: datetime) -> str:
     open_rows = [r for r in journal
@@ -180,6 +206,9 @@ def build_kpi_block(journal: List[dict], calib: List[dict],
         lines.append(f"Brier (короткие, n={n}/{SHORT_TARGET}, {tag}): "
                      f"{leader}, Δ={delta:+.3f} "
                      f"(рынок {b_mkt:.3f} vs Grok {b_ai:.3f})")
+        # калибровка по корзинам — проверка гипотезы про недооценку фаворитов
+        for cl in calibration_buckets(resolved):
+            lines.append(cl)
     return "\n".join(lines)
 
 
