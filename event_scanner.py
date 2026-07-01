@@ -102,6 +102,8 @@ class Candidate:
                                 # Starmer-бага: судил ли он по правилам или вслепую)
     rules_excerpt: str = ""     # первые ~200 симв реальных правил — чтобы разбор
                                 # постфактум был фактическим, а не по флагу
+    side: str = "NO"            # сторона ставки: "NO" (осн.) или "YES" (новая
+                                # стратегия средней зоны, валидируется отдельно)
 
     def to_alert(self) -> Dict:
         return asdict(self)
@@ -456,6 +458,77 @@ def _horizon_score(edge: float, hours_to_resolve: Optional[float]) -> float:
     # краткосрочность: 1/(1+days/30) — мягко падает с горизонтом, не обнуляя
     recency = 1.0 / (1.0 + days / 30.0)
     return edge * recency
+
+
+def scan_yes(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:
+    """YES-стратегия средней зоны (разворот после провала NO).
+
+    Ставим YES там, где рыночная цена YES в 50-70% И Grok согласен по
+    направлению (склонён к YES). Плывём ПО рынку, не против. Отдельная выборка,
+    не наследует метрики NO. Использует ту же посткалибровку оценки Grok.
+    """
+    import yes_strategy as ys
+    out: List[Candidate] = []
+    seen_thesis: Dict[str, bool] = {}
+    for m in markets:
+        q = m.get("question", "") or m.get("title", "")
+        if not q or _is_sport_or_hft(q):
+            continue
+        parsed = _parse_prices(m)
+        if not parsed:
+            continue
+        yes_price, no_price = parsed
+        if not ys.yes_gate(yes_price):
+            continue
+        liq = float(m.get("liquidity", 0) or m.get("volume", 0) or 0)
+        if liq < MIN_LIQUIDITY:
+            continue
+        hrs = _hours_to_resolve(m)
+        if hrs is None or hrs < MIN_HOURS_TO_RESOLVE:
+            continue
+        k = _thesis_key(q)
+        if k in seen_thesis:
+            continue
+        # AI-оценка (с посткалибровкой, как в NO-ветке)
+        description = ensure_description(m, fetch_fn=_fetch_market_description)
+        end_date = m.get("endDate", "") or m.get("end_date", "") or ""
+        if has_split_resolution(description):
+            continue
+        try:
+            est = ai_estimate_fn(q, description, end_date)
+        except TypeError:
+            est = ai_estimate_fn(q)
+        if not est or est.get("prob") is None:
+            continue
+        grok_yes_raw = float(est["prob"])
+        try:
+            import calibration_map as cm
+            grok_yes = cm.calibrate(grok_yes_raw, cm.load_table())
+        except Exception:
+            grok_yes = grok_yes_raw
+        edge = ys.yes_edge(yes_price, grok_yes)
+        if edge is None:
+            continue
+        seen_thesis[k] = True
+        out.append(Candidate(
+            question=q,
+            condition_id=m.get("conditionId", ""),
+            market_yes_price=yes_price,
+            no_price=no_price,
+            ai_yes_estimate=round(grok_yes, 4),
+            edge=round(edge, 4),
+            liquidity=liq,
+            end_date=end_date,
+            reasoning=str(est.get("why", "")),
+            event_slug=(m.get("events", [{}]) or [{}])[0].get("slug", "") if m.get("events") else "",
+            suspicious=looks_grouped(q),
+            ai_conf=str(est.get("conf", "low")),
+            had_rules=bool(description and description.strip()),
+            rules_excerpt=(description or "").strip()[:200],
+            side="YES",
+        ))
+    out.sort(key=lambda c: (c.suspicious, -c.edge))
+    return out
 
 
 def scan(markets: List[Dict], ai_estimate_fn: Callable[[str], Optional[dict]]) -> List[Candidate]:

@@ -391,6 +391,30 @@ def _format_alert(c: es.Candidate) -> str:
     why = (c.reasoning or "").strip().lstrip("•-– ").strip()
 
     liq_k = f"${c.liquidity/1000:.0f}k" if c.liquidity >= 1000 else f"${c.liquidity:.0f}"
+
+    # YES-ветка: новая стратегия средней зоны — своё действие и пометки
+    if getattr(c, "side", "NO") == "YES":
+        yes_cents = f"{c.market_yes_price*100:.0f}¢"
+        lines = [
+            f"{fire} {c.question}",
+            f"Купить YES ~{yes_cents}{size_txt} · резолв {end_h}{lock}",
+            "",
+            f"Рынок YES: {c.market_yes_price*100:.0f}% · "
+            f"Grok: {c.ai_yes_estimate*100:.0f}% ({c.ai_conf}) — согласие по YES",
+            "🧪 Новая стратегия средней зоны (50-70%) — ещё НЕ валидирована, "
+            "решай сам, копим выборку",
+        ]
+        if why:
+            lines.append(f"Почему: {why}")
+        if c.suspicious:
+            lines.append("⚠️ Похоже на связанный/групповой рынок — читай правила")
+        lines.append(f"Ликв. {liq_k}{cat_line}")
+        lines.append("")
+        lines.append("Чек: свежая цена · правила резолва · лимит категории")
+        if c.event_slug:
+            lines.append(f"🔗 https://polymarket.com/event/{c.event_slug}")
+        return "\n".join(lines)
+
     cents = f"{c.no_price*100:.0f}¢"
     lines = [
         f"{fire} {c.question}",
@@ -563,6 +587,15 @@ def run() -> None:
         return r
     candidates = es.scan(gated, logging_estimator)
     print(f"  {len(candidates)} candidates after AI mispricing check")
+
+    # YES-стратегия средней зоны (параллельно, боевой режим). Использует те же
+    # прогатенные рынки и тот же логирующий эстиматор (калибровка внутри).
+    try:
+        yes_candidates = es.scan_yes(gated, logging_estimator)
+        print(f"  {len(yes_candidates)} YES-candidates (mid-zone strategy)")
+        candidates = list(candidates) + list(yes_candidates)
+    except Exception as e:
+        print(f"  scan_yes failed: {e}")
 
     # Алерт при полном отказе AI (нет кредитов / API down): честно сообщить,
     # а не выдать тишину за «нет интересных рынков».
