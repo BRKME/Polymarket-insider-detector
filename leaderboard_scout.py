@@ -103,6 +103,16 @@ def scout() -> None:
     print(f"\nИТОГ: качественных спорт-китов {len(qualified)}. "
           f"{'Есть основа для копи-трейда.' if qualified else 'Основы нет — никто не проходит оба фильтра.'}")
 
+    # Сохраняем ЖИВОЙ список — пересобирается каждый прогон. Копи-монитор читает
+    # актуальный набор: выпавшие киты уходят, новые прошедшие фильтр добавляются.
+    try:
+        import trusted_whales as tw
+        trusted = tw.build_trusted(week, month)
+        tw.save_trusted(trusted)
+        print(f"  живой список обновлён: {len(trusted)} китов в trusted_whales.json")
+    except Exception as e:
+        print(f"  список не сохранён: {e}")
+
 
 if __name__ == "__main__":
     scout()

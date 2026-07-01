@@ -1,11 +1,14 @@
-name: leaderboard scout (diagnostic)
+name: leaderboard scout (trusted whales)
 
-# Диагностика: спортивные киты через официальный лидерборд Polymarket.
+# Живой список спорт-китов: пересобирается еженедельно из лидерборда Polymarket
+# + по требованию. Сохраняет trusted_whales.json (копи-монитор его читает).
 on:
+  schedule:
+    - cron: '0 9 * * 0'      # воскресенье, вслед за weekly_status
   workflow_dispatch: {}
 
 permissions:
-  contents: read
+  contents: write            # для коммита trusted_whales.json
 
 jobs:
   scout:
@@ -18,3 +21,14 @@ jobs:
       - run: pip install requests
       - name: Run leaderboard scout
         run: python3 leaderboard_scout.py
+      - name: Commit trusted whales
+        run: |
+          git config user.name "Aleksander Brk"
+          git config user.email "106615154+BRKME@users.noreply.github.com"
+          if [ -n "$(git status --porcelain trusted_whales.json)" ]; then
+            git add trusted_whales.json
+            git commit -m "leaderboard: refresh trusted sports whales [skip ci]"
+            git push
+          else
+            echo "no whale-list change"
+          fi
