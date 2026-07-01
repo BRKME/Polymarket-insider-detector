@@ -27,19 +27,27 @@ PAGES = 40
 LIMIT = 500
 MIN_TRADE_USD = 100          # ниже порог — не упустить китов ЧМ
 
-# Спорт определяем по НАЗВАНИЮ рынка (категория в Gamma часто пустая).
-# ТОЛЬКО однозначные маркеры — общие глаголы ('to win') ловят политику.
+import re as _re_sport
+
+# Спорт по НАЗВАНИЮ рынка (категория в Gamma пустая). Форматы Polymarket
+# разнообразны — ловим по реальным паттернам из диагностики ЧМ.
 _SPORT_TITLE_KW = [
     " vs ", " vs. ", "nba", "nfl", "mlb", "nhl", "ncaa",
     "premier league", "la liga", "serie a", "bundesliga", "ligue 1",
-    "champions league", "world cup", "super bowl", "playoff",
-    "ufc", "mma", "boxing match", "atp", "wta", "grand slam",
-    "grand prix", " pga ", "wimbledon", "us open tennis",
-    "nba finals", "nfl ", "stanley cup", "premier league",
+    "champions league", "world cup", "fifa", "super bowl", "playoff",
+    "ufc", "mma", "boxing match", "atp", "wta", "grand slam", "wimbledon",
+    "grand prix", " pga ", "stanley cup", "exact score:",
+    "both teams to score", "to win the match",
 ]
-# эспорт исключаем — по прежней логике collector (нет доказанного edge)
+_TEAM_WORDS = ["england", "spain", "france", "portugal", "argentina", "brazil",
+               "germany", "netherlands", "belgium", "senegal", "croatia",
+               "italy", "uruguay", "morocco", "japan", "mexico", "poland"]
+_WIN_ON_DATE = _re_sport.compile(r"win on \d{4}-\d{2}-\d{2}", _re_sport.I)
+
+# эспорт исключаем — нет доказанного edge
 _ESPORTS_KW = ["counter-strike", "cs2", "valorant", "dota", "league of legends",
-               "lol:", "overwatch", "map winner", "esports"]
+               "lol:", "overwatch", "map winner", "map 1", "map 2", "esports",
+               "(bo1)", "(bo3)", "(bo5)"]
 
 
 def _title_is_sport(title: str) -> bool:
@@ -47,8 +55,12 @@ def _title_is_sport(title: str) -> bool:
     if not t:
         return False
     if any(k in t for k in _ESPORTS_KW):
-        return False
-    return any(k in t for k in _SPORT_TITLE_KW)
+        return False                      # эспорт исключаем намеренно
+    if any(k in t for k in _SPORT_TITLE_KW):
+        return True
+    if _WIN_ON_DATE.search(t) and any(w in t for w in _TEAM_WORDS):
+        return True                       # «England win on 2026-07-01» — матч
+    return False
 
 
 def _fetch_recent_trades() -> list:
