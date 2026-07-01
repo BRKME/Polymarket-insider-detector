@@ -154,6 +154,11 @@ def scan_open_positions(
     for row in rows:
         if not _is_open(row):
             continue
+        # YES-позиции (новая стратегия средней зоны) НЕ мониторим этой логикой —
+        # она целиком NO-центрична (entry_no, current_no, edge=(1-cur)-ai_yes).
+        # Иначе YES-ставки трактуются как NO и шлётся бессмысленное «РЕЖЬ NO».
+        if str(row.get("side", "NO")).upper() == "YES":
+            continue
         cid = row.get("condition_id", "")
         if not cid:
             continue

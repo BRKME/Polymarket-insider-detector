@@ -179,7 +179,9 @@ def _journal_row(candidate: es.Candidate, re_alert: bool = False) -> dict:
     fill-matching and mark-to-market never double-count them."""
     row = candidate.to_alert()
     row["alerted_at"] = datetime.now(timezone.utc).isoformat()
-    row["bet_side"] = "NO"
+    _side = str(getattr(candidate, "side", "NO")).upper()
+    row["side"] = _side
+    row["bet_side"] = _side          # реальная сторона (NO осн., YES средняя зона)
     row["stake_plan"] = "manual $15-70 flat"
     row["status"] = "re_alert" if re_alert else "open"
     # Thesis category — powers the exposure-by-category visibility. The limit
