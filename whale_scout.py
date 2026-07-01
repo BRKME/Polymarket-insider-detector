@@ -27,6 +27,29 @@ PAGES = 20
 LIMIT = 500
 MIN_TRADE_USD = 500          # мелкие сделки не формируют «кита»
 
+# Спорт определяем по НАЗВАНИЮ рынка (категория в Gamma часто пустая).
+# ТОЛЬКО однозначные маркеры — общие глаголы ('to win') ловят политику.
+_SPORT_TITLE_KW = [
+    " vs ", " vs. ", "nba", "nfl", "mlb", "nhl", "ncaa",
+    "premier league", "la liga", "serie a", "bundesliga", "ligue 1",
+    "champions league", "world cup", "super bowl", "playoff",
+    "ufc", "mma", "boxing match", "atp", "wta", "grand slam",
+    "grand prix", " pga ", "wimbledon", "us open tennis",
+    "nba finals", "nfl ", "stanley cup", "premier league",
+]
+# эспорт исключаем — по прежней логике collector (нет доказанного edge)
+_ESPORTS_KW = ["counter-strike", "cs2", "valorant", "dota", "league of legends",
+               "lol:", "overwatch", "map winner", "esports"]
+
+
+def _title_is_sport(title: str) -> bool:
+    t = (title or "").lower()
+    if not t:
+        return False
+    if any(k in t for k in _ESPORTS_KW):
+        return False
+    return any(k in t for k in _SPORT_TITLE_KW)
+
 
 def _fetch_recent_trades() -> list:
     """Недавние сделки из data-api (постранично)."""
@@ -88,10 +111,11 @@ def scout() -> None:
         return
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=WHALE_WINDOW_DAYS)
-    cat_cache: dict = {}
     # кошелёк -> список {category, won, ts}
     by_wallet: dict = defaultdict(list)
     last_ts: dict = {}
+    sport_trade_count = 0
+    sample_titles = []
 
     for t in trades:
         wallet = t.get("proxyWallet")
@@ -107,21 +131,27 @@ def scout() -> None:
             continue
         if ts < cutoff:
             continue
-        cid = t.get("conditionId", "")
-        cat = _market_category(cid, cat_cache)
-        if not _is_sport(cat):
+        title = t.get("title", "") or ""
+        if not _title_is_sport(title):
             continue
-        # исход: resolved-поле сделки, если есть (won/outcome)
+        sport_trade_count += 1
+        if len(sample_titles) < 8:
+            sample_titles.append(title[:60])
+        # исход: resolved-поле сделки, если есть
         won = t.get("won")
         if won is None:
-            # иногда исход в 'outcome'/'payout'
             payout = t.get("payout")
             if payout is not None:
                 won = float(payout) > 0
-        by_wallet[wallet].append({"category": cat, "won": won})
+        by_wallet[wallet].append({"category": "sports", "won": won})
         last_ts[wallet] = max(last_ts.get(wallet, ts), ts)
 
-    print(f"  спортивных кошельков (сделка ≥${MIN_TRADE_USD}): {len(by_wallet)}")
+    print(f"  спортивных сделок (по названию, ≥${MIN_TRADE_USD}): {sport_trade_count}")
+    print(f"  спортивных кошельков: {len(by_wallet)}")
+    if sample_titles:
+        print("  примеры спортивных названий:")
+        for s in sample_titles:
+            print(f"    • {s}")
 
     # скоринг
     trusted, near = [], []
