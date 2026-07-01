@@ -23,9 +23,9 @@ from whale_scoring import (sport_win_rate, is_trusted_whale, WhaleStats,
                            WHALE_WINDOW_DAYS)
 
 GAMMA_API = "https://gamma-api.polymarket.com"
-PAGES = 20
+PAGES = 40
 LIMIT = 500
-MIN_TRADE_USD = 500          # мелкие сделки не формируют «кита»
+MIN_TRADE_USD = 100          # ниже порог — не упустить китов ЧМ
 
 # Спорт определяем по НАЗВАНИЮ рынка (категория в Gamma часто пустая).
 # ТОЛЬКО однозначные маркеры — общие глаголы ('to win') ловят политику.
@@ -152,6 +152,23 @@ def scout() -> None:
         print("  примеры спортивных названий:")
         for s in sample_titles:
             print(f"    • {s}")
+
+    # ДИАГНОСТИКА: какие футбольные/ЧМ названия НЕ попали в спорт (детектор
+    # мог их пропустить). Показываем уникальные названия с футбольными словами.
+    football_words = ["world cup", "fifa", "vs", "brazil", "argentina", "france",
+                      "spain", "germany", "england", "portugal", "netherlands",
+                      "group ", "quarterfinal", "semifinal", "knockout"]
+    missed = {}
+    for t in trades:
+        title = (t.get("title", "") or "")
+        tl = title.lower()
+        if any(w in tl for w in football_words) and not _title_is_sport(title):
+            missed[title[:70]] = missed.get(title[:70], 0) + 1
+    if missed:
+        print(f"\n  ⚠️ НЕ распознаны как спорт, но похожи на футбол/ЧМ "
+              f"({len(missed)} уникальных):")
+        for title, cnt in sorted(missed.items(), key=lambda x: -x[1])[:15]:
+            print(f"    ✗ [{cnt}x] {title}")
 
     # скоринг
     trusted, near = [], []
