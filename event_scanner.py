@@ -222,8 +222,10 @@ def _fetch_market_description(condition_id: str) -> str:
     """
     if not condition_id:
         return ""
-    import os
-    if os.getenv("CI"):
+    # Только в тестах (pytest) не ходим в сеть. НЕ по CI — GitHub ставит CI=true
+    # и в боевом скане, что отключило бы дотягивание правил и split-детектор.
+    import sys, os
+    if "pytest" in sys.modules or os.getenv("PYTEST_CURRENT_TEST"):
         return ""
     try:
         import requests

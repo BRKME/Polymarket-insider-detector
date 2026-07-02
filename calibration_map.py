@@ -63,14 +63,21 @@ def calibrate(raw_prob: float, table: Optional[dict]) -> float:
     return max(0.0, min(1.0, calibrated))
 
 
+def _in_pytest() -> bool:
+    """True только во время прогона тестов (pytest), но НЕ в боевых воркфлоу.
+    ВАЖНО: нельзя использовать os.getenv('CI') — GitHub Actions ставит CI=true
+    во ВСЕХ воркфлоу, включая боевой скан, что отключило бы калибровку в проде."""
+    import sys, os
+    return "pytest" in sys.modules or os.getenv("PYTEST_CURRENT_TEST") is not None
+
+
 def load_table() -> dict:
     """Читает сохранённую таблицу калибровки (мягкий fail-safe).
 
-    В CI (тестах) файл НЕ читаем — иначе внешний артефакт на диске делает тесты
-    evaluate/scan недетерминированными (калибровка меняет edge и рушит моки,
-    которые её не ожидают). Тесты самой калибровки передают таблицу явно."""
-    import os
-    if os.getenv("CI"):
+    В тестах (pytest) файл НЕ читаем — иначе внешний артефакт на диске делает
+    тесты evaluate/scan недетерминированными. Тесты калибровки передают таблицу
+    явно. В БОЮ (в т.ч. в Actions) читаем нормально."""
+    if _in_pytest():
         return {}
     try:
         if CALIB_TABLE.exists():
