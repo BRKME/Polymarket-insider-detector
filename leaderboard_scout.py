@@ -21,7 +21,9 @@ except Exception:
 
 LEADERBOARD_URL = "https://data-api.polymarket.com/v1/leaderboard"
 
-MIN_PNL_EFFICIENCY = 0.10     # pnl/vol ≥ 10% — прокси-ROI, отсекает объёмщиков
+# Единый источник правды порога — trusted_whales.MIN_EFF (иначе диагностика
+# скаута и живой список разъезжаются и печатают разных «качественных» китов).
+from trusted_whales import MIN_EFF as MIN_PNL_EFFICIENCY
 TOP_N = 50                    # смотрим топ-50 каждого окна
 
 

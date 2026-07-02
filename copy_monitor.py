@@ -78,7 +78,7 @@ def copy_signal(whale_name: str, whale_eff: float, act: dict,
         f"🐋 Копи-сигнал (спорт)",
         f"{title}",
         "",
-        f"Кит {whale_name} (эфф {whale_eff:.0%}) купил YES по {entry*100:.0f}¢",
+        f"Кит {whale_name} (ROI {whale_eff:.0%}/мес) купил YES по {entry*100:.0f}¢",
         f"Сейчас {current_price*100:.0f}¢ (сдвиг {drift:+.0f}¢, ещё в пределах "
         f"{COPY_MAX_SLIPPAGE*100:.0f}¢)",
         "🧪 Копи-трейд по лидерборду — новая стратегия, решай сам",

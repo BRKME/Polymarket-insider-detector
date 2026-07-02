@@ -45,3 +45,32 @@ def test_list_refreshes_new_whales():
     month = [_row("0xNEW", "rising", 100000, 200000)]
     trusted = build_trusted(week, month)
     assert "0xNEW" in {w["wallet"] for w in trusted}
+
+
+# ── ужесточение 02.07: MIN_EFF 0.10 -> 0.25 (решение оператора после того, как
+# кит с ROI 19%/мес попал в копи-алерты; отменяет прежнее «держим все ~20») ──
+
+def test_min_eff_is_tightened():
+    assert MIN_EFF >= 0.25
+
+
+def test_mid_efficiency_whale_rejected():
+    """palegrit-кейс: eff 19% консистентен, но копировать его нельзя."""
+    week = [_row("0xPALE", "palegrit", 24000, 125000)]     # eff 19.2%
+    month = [_row("0xPALE", "palegrit", 240864, 1254500)]  # eff 19.2%
+    trusted = build_trusted(week, month)
+    assert "0xPALE" not in {w["wallet"] for w in trusted}
+
+
+def test_high_efficiency_whale_kept():
+    week = [_row("0xTOP", "muchobliged", 500000, 1162790)]   # eff 43%
+    month = [_row("0xTOP", "muchobliged", 3141057, 7304783)]
+    trusted = build_trusted(week, month)
+    assert "0xTOP" in {w["wallet"] for w in trusted}
+
+
+def test_scout_threshold_single_source_of_truth():
+    """Порог в скауте не должен разъезжаться с порогом живого списка."""
+    import leaderboard_scout as ls
+    import trusted_whales as tw
+    assert ls.MIN_PNL_EFFICIENCY == tw.MIN_EFF
