@@ -40,3 +40,14 @@ def test_calibrated_in_range():
     table = {"0.0-0.2": {"actual": 1.0, "n": 10}}
     out = calibrate(0.1, table)
     assert 0.0 <= out <= 1.0
+
+
+def test_save_table_noop_under_pytest(tmp_path, monkeypatch):
+    """save_table в pytest НЕ пишет на диск: тест v5_weekly_status однажды
+    перезаписал БОЕВУЮ таблицу мусорным артефактом (та же дыра, что и
+    load_table до фикса 91959cf, только на записи)."""
+    import calibration_map as cm
+    fake = tmp_path / "calibration_table.json"
+    monkeypatch.setattr(cm, "CALIB_TABLE", fake)
+    cm.save_table({"0.0-0.2": {"actual": 0.5, "n": 99}})
+    assert not fake.exists(), "save_table записал файл во время pytest"

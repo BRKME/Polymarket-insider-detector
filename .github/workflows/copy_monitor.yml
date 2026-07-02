@@ -31,7 +31,12 @@ jobs:
           if [ -n "$(git status --porcelain copy_seen.json)" ]; then
             git add copy_seen.json
             git commit -m "copy monitor: update seen state [skip ci]"
-            git push
+            # Race-safe: голый push при коллизии с соседним воркфлоу терял
+            # seen-state -> дубли алертов на следующем прогоне
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push attempt $i failed, retrying..."; sleep 5
+            done
           else
             echo "no new copy signals"
           fi

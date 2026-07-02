@@ -88,6 +88,13 @@ def load_table() -> dict:
 
 
 def save_table(table: dict) -> None:
+    """Сохраняет таблицу калибровки.
+
+    В тестах (pytest) НЕ пишем: тест v5_weekly_status с фейковыми резолвами
+    однажды перезаписал БОЕВУЮ таблицу (5 корзин, n=38) мусорным артефактом —
+    та же дыра, что была в load_table, только на записи. Защита симметричная."""
+    if _in_pytest():
+        return
     try:
         CALIB_TABLE.write_text(json.dumps(table, ensure_ascii=False, indent=0))
     except Exception:

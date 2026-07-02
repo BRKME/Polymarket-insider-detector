@@ -31,7 +31,10 @@ jobs:
           if [ -n "$(git status --porcelain calibration_table.json)" ]; then
             git add calibration_table.json
             git commit -m "weekly: update calibration table [skip ci]"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push attempt $i failed, retrying..."; sleep 5
+            done
           else
             echo "no calibration change"
           fi

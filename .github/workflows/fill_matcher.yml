@@ -36,4 +36,12 @@ jobs:
           git config user.email "actions@github.com"
           git add event_journal.jsonl 2>/dev/null || true
           git diff --staged --quiet || git commit -m "fills: auto-fill actual entry/stake [skip ci]"
-          git push || echo "nothing to push"
+          # Race-safe: прежний `git push || echo` ГЛУШИЛ non-fast-forward и
+          # молча терял заполненные fills. Rebase + retry, отказ = красный ран.
+          if ! git diff --quiet HEAD origin/main 2>/dev/null; then
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push attempt $i failed, retrying..."; sleep 5
+              [ "$i" = "3" ] && exit 1
+            done
+          fi

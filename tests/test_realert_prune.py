@@ -114,7 +114,7 @@ class TestReAlertJournalStatus:
 
 
 class TestCrossRunThesisMemory:
-    """SpaceX-кейс 10.06: «above \$2.2T» заалертили вчера, «above \$2T» — тот же
+    r"""SpaceX-кейс 10.06: «above \$2.2T» заалертили вчера, «above \$2T» — тот же
     тезис с другим cid — пришёл сегодня отдельным прогоном и продублировал по
     смыслу. Память тезисов в seen закрывает дыру: новый cid известного тезиса
     подавляется, пока edge не вырос на REALERT_EDGE_GROWTH."""

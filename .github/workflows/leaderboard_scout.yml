@@ -28,7 +28,10 @@ jobs:
           if [ -n "$(git status --porcelain trusted_whales.json)" ]; then
             git add trusted_whales.json
             git commit -m "leaderboard: refresh trusted sports whales [skip ci]"
-            git push
+            for i in 1 2 3; do
+              git pull --rebase origin main && git push && break
+              echo "push attempt $i failed, retrying..."; sleep 5
+            done
           else
             echo "no whale-list change"
           fi
