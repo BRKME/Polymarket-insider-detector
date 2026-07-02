@@ -214,8 +214,16 @@ def _fetch_market_description(condition_id: str) -> str:
     /markets в списочном режиме отдаёт description пустым; пробуем несколько
     известных способов запроса по одному рынку — Gamma принимает разные
     параметры в разных версиях. Берём первый непустой description.
+
+    В CI (тестах) НЕ ходим в сеть — иначе живой Gamma делает тесты
+    недетерминированными (для биткоин-рынка вернёт правила с '50-50', split-гейт
+    сработает, evaluate вернёт None и мок-тесты падают). Тесты, которым нужно
+    описание, передают его в самом market-дикте.
     """
     if not condition_id:
+        return ""
+    import os
+    if os.getenv("CI"):
         return ""
     try:
         import requests
