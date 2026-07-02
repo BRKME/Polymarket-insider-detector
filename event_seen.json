@@ -107,6 +107,12 @@
 "resolved": false,
 "thesis_key": "will nicol s maduro be the"
 },
+"0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696": {
+"alerted_at": "2026-07-02T02:07:03.662846+00:00",
+"last_edge": 0.125,
+"resolved": false,
+"thesis_key": "will nvidia be the largest company"
+},
 "0x6b965a02301510c05a7d843f6bb22888b4cd5c09553becf3be78a97c974484d3": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
 "last_edge": 0.1414,
@@ -124,6 +130,18 @@
 "last_edge": 0.2882,
 "resolved": false,
 "thesis_key": "argentina leading at halftime"
+},
+"0x7e50b661a2bedc670bcf32fc9ece12616f6fc4fba5dbe8526292bf3447374009": {
+"alerted_at": "2026-07-02T02:07:03.662846+00:00",
+"last_edge": 0.454,
+"resolved": false,
+"thesis_key": "will russia capture kostyantynivka"
+},
+"0x80b3af88cb991980e8da1ce86b9794a0957f96ec98c29319dd7ba65e9744d82b": {
+"alerted_at": "2026-07-02T02:07:03.662846+00:00",
+"last_edge": 0.1514,
+"resolved": false,
+"thesis_key": "fed rate hike in"
 },
 "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
@@ -143,6 +161,12 @@
 "resolved": false,
 "thesis_key": "us x iran permanent peace deal"
 },
+"0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a": {
+"alerted_at": "2026-07-02T02:07:03.662846+00:00",
+"last_edge": 0.1046,
+"resolved": false,
+"thesis_key": "will there be no change in"
+},
 "0xa70fc3695a65833b91b45df6db6015096f3e1471b70352ca411b4209010e7633": {
 "alerted_at": null,
 "last_edge": 0.265,
@@ -154,6 +178,12 @@
 "last_edge": 0.165,
 "resolved": false,
 "thesis_key": "will the democrats win the us"
+},
+"0xb838caec0354e09985f2c228c54ba190cb284f390beda5ffd58d163ba00648ec": {
+"alerted_at": "2026-07-02T02:07:03.662846+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "us x iran diplomatic meeting"
 },
 "0xb8e6d129a06d0ccb21d7b32eb529ea455eddba3cf29bfa097112202cbdf5bf21": {
 "alerted_at": null,
