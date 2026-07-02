@@ -23,6 +23,12 @@
 "resolved": false,
 "thesis_key": "us x iran permanent peace deal"
 },
+"0x0ae44160bf4839246ff5b6fe6d07b4eacd2464789dc4db02211cf95d5754e3d5": {
+"alerted_at": "2026-07-02T13:28:36.982928+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "france leading at halftime"
+},
 "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d": {
 "alerted_at": "2026-06-28T13:12:34.413012+00:00",
 "last_edge": 0.225,
@@ -40,6 +46,12 @@
 "last_edge": 0.72,
 "resolved": false,
 "thesis_key": "will paraguay be eliminated in the"
+},
+"0x210b43715f5132313293f66b4d164850a13946e6ced9def3047c0ec47cb0cc29": {
+"alerted_at": "2026-07-02T13:28:36.982928+00:00",
+"last_edge": 0.1946,
+"resolved": false,
+"thesis_key": "will mexico be eliminated in the"
 },
 "0x25fb28382075f418a944a781a9f8840e2f541152eea0d9798d1cabfa1466adbb": {
 "alerted_at": "2026-06-30T02:07:50.241494+00:00",
