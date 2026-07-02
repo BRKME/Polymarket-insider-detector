@@ -64,7 +64,14 @@ def calibrate(raw_prob: float, table: Optional[dict]) -> float:
 
 
 def load_table() -> dict:
-    """Читает сохранённую таблицу калибровки (мягкий fail-safe)."""
+    """Читает сохранённую таблицу калибровки (мягкий fail-safe).
+
+    В CI (тестах) файл НЕ читаем — иначе внешний артефакт на диске делает тесты
+    evaluate/scan недетерминированными (калибровка меняет edge и рушит моки,
+    которые её не ожидают). Тесты самой калибровки передают таблицу явно."""
+    import os
+    if os.getenv("CI"):
+        return {}
     try:
         if CALIB_TABLE.exists():
             return json.loads(CALIB_TABLE.read_text())
