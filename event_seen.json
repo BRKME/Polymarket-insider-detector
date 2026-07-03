@@ -24,8 +24,8 @@
 "thesis_key": "us x iran permanent peace deal"
 },
 "0x0ae44160bf4839246ff5b6fe6d07b4eacd2464789dc4db02211cf95d5754e3d5": {
-"alerted_at": "2026-07-02T13:28:36.982928+00:00",
-"last_edge": 0.0,
+"alerted_at": "2026-07-03T13:35:52.972686+00:00",
+"last_edge": 0.1406,
 "resolved": false,
 "thesis_key": "france leading at halftime"
 },
@@ -64,6 +64,12 @@
 "last_edge": 0.22,
 "resolved": false,
 "thesis_key": "starmer out"
+},
+"0x2c6d1aa280e932f204b980818bc743239ebdeebcc5b4dd93893d41e460b4938f": {
+"alerted_at": "2026-07-03T13:35:52.972686+00:00",
+"last_edge": 0.199,
+"resolved": false,
+"thesis_key": "will portugal be eliminated in the"
 },
 "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
 "alerted_at": "2026-06-10T14:57:47.835284+00:00",
@@ -172,6 +178,12 @@
 "last_edge": 0.465,
 "resolved": false,
 "thesis_key": "us x iran permanent peace deal"
+},
+"0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc": {
+"alerted_at": null,
+"last_edge": 0.3282,
+"resolved": false,
+"thesis_key": "strait of hormuz traffic returns to"
 },
 "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a": {
 "alerted_at": "2026-07-02T02:07:03.662846+00:00",
