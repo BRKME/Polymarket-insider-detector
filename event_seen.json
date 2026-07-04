@@ -239,6 +239,12 @@
 "resolved": false,
 "thesis_key": "will bitcoin dip to 50 000"
 },
+"0xd17e44ec063959238b3e4587475977a584618f7e18892d7b13b47051dbaa9a35": {
+"alerted_at": "2026-07-04T01:48:35.506863+00:00",
+"last_edge": 0.2198,
+"resolved": false,
+"thesis_key": "will the fed pause pause pause"
+},
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
 "last_edge": null,
