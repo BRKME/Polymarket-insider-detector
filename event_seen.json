@@ -77,11 +77,23 @@
 "resolved": false,
 "thesis_key": "will jesus christ return"
 },
+"0x372ab700cf01a9411d79dbfe13bf952c29f3be870d498313510f6c2aec360b13": {
+"alerted_at": "2026-07-05T01:53:54.039473+00:00",
+"last_edge": 0.4046,
+"resolved": false,
+"thesis_key": "will the fed pause pause pause"
+},
 "0x3de0f3d7d7efb40cde68e814d40a0b232832083653c8e78260eb999baa967de0": {
 "alerted_at": "2026-06-30T13:55:36.040227+00:00",
 "last_edge": 0.23,
 "resolved": false,
 "thesis_key": "us strike"
+},
+"0x4890e36c536eef20111bd617f6479b6b7384ad2ebf16e18a108d989dc0aa9f9e": {
+"alerted_at": "2026-07-05T01:53:54.039473+00:00",
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "will a team from lck south"
 },
 "0x4d0c4865bdecc5f7971dbab47bb6c069d93909dec75bdff52fb766ae6094a6d6": {
 "alerted_at": null,
