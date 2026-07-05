@@ -41,8 +41,8 @@ class TestStatus:
     def test_positions_counted_correctly(self):
         msg = build_status(_journal(), _calib(), now=NOW)
         # open=2 (re_alert и closed не считаются), onchain из открытых=1
-        assert "Открыто: 2" in msg
-        assert "ончейн: 1" in msg
+        assert "Открыто (ончейн):" in msg  # счётчик теперь ончейн-only (бумага убрана)
+        assert "Открыто (ончейн): 1" in msg
 
     def test_calibration_progress(self):
         msg = build_status(_journal(), _calib(n=36, short=10), now=NOW)
@@ -62,7 +62,7 @@ class TestStatus:
 
     def test_empty_journal_safe(self):
         msg = build_status([], [], now=NOW)
-        assert "Открыто: 0" in msg
+        assert "Открыто (ончейн): 0" in msg
 
 
 class TestKpiBlock:
@@ -89,7 +89,7 @@ class TestKpiBlock:
         resolve = self._resolve({"0xW": True, "0xL": False, "0xU": None})
         kpi = build_kpi_block(self._journal_kpi(), [], resolve_fn=resolve)
         # 2 резолва: WR 50%; ончейн-срез: 1 ставка, WR 100%
-        assert "резолвов: 2" in kpi
+        assert "резолвов 2" in kpi  # метка сменена на «Точность сигналов»
         assert "WR 50%" in kpi
         assert "ончейн" in kpi and "n=1" in kpi
 
