@@ -1,38 +1,32 @@
 [
 {
-"wallet": "0x28059b3fb7af7ed76d83dc9121bbb72ec7cf76ed",
-"name": "RISK-IS-NEVER-OK",
-"eff": 0.43,
-"pnl": 187130
+"wallet": "0x2e25b222e2080c377fc1fb2b9f926315f0f4d49e",
+"name": "Sparkling8899",
+"eff": 0.593,
+"pnl": 1359770
 },
 {
 "wallet": "0x095fbca2e0eaf0c9841005135427e1e0117190b2",
 "name": "muchobliged",
-"eff": 0.43,
-"pnl": 3141057
+"eff": 0.386,
+"pnl": 3921911
 },
 {
-"wallet": "0x85f031d069de300055900c4055c1baeb6bde3f67",
-"name": "RJW1",
-"eff": 0.408,
-"pnl": 108617
+"wallet": "0x9468bb7e53c8a5f13cc283f2aed950ebf9865d4b",
+"name": "myzbsq",
+"eff": 0.377,
+"pnl": 1223224
 },
 {
-"wallet": "0xfaa2b54347bd9a9f62d6e4bfb2d3180da53de80a",
-"name": "easymoney9",
-"eff": 0.34,
-"pnl": 120805
+"wallet": "0x28059b3fb7af7ed76d83dc9121bbb72ec7cf76ed",
+"name": "RISK-IS-NEVER-OK",
+"eff": 0.27,
+"pnl": 324308
 },
 {
-"wallet": "0x7d787c72c8317046fda90814a93c87fc192529a5",
-"name": "MD14",
-"eff": 0.324,
-"pnl": 162148
-},
-{
-"wallet": "0xa49becb692927d455924583b5e3e5788246f4c40",
-"name": "sleepy-panda",
-"eff": 0.251,
-"pnl": 277515
+"wallet": "0x7c1ee865a785de4c00ee90ed86a38489fb8bbab3",
+"name": "CandleHammerDrums",
+"eff": 0.263,
+"pnl": 1599615
 }
 ]
