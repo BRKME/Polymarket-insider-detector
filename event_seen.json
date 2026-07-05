@@ -89,6 +89,12 @@
 "resolved": false,
 "thesis_key": "us strike"
 },
+"0x47de811c2765bcadb16b37bb7dbeac5824906109500b281f89ff8e6168ec4b50": {
+"alerted_at": null,
+"last_edge": 0.1164,
+"resolved": false,
+"thesis_key": "argentina leading at halftime"
+},
 "0x4890e36c536eef20111bd617f6479b6b7384ad2ebf16e18a108d989dc0aa9f9e": {
 "alerted_at": "2026-07-05T01:53:54.039473+00:00",
 "last_edge": 0.0,
