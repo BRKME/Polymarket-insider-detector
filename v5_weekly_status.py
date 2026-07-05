@@ -75,14 +75,16 @@ def build_status(journal: List[dict], calib: List[dict],
                  now: datetime) -> str:
     open_rows = [r for r in journal
                  if str(r.get("status", "open")).lower() == "open"]
-    onchain = sum(1 for r in open_rows if r.get("fill_source") == "onchain")
+    onchain_rows = [r for r in open_rows if r.get("fill_source") == "onchain"]
+    onchain = len(onchain_rows)
 
-    # экспозиция по категориям открытых позиций
+    # экспозиция по категориям — ТОЛЬКО реальные ончейн-позиции (04.07: бумага
+    # надувала цифру до $562 через midpoint-заглушку и читалась как деньги).
     exp_line = ""
     try:
         import category_exposure as cx
         from config import BANKROLL
-        exp = cx.exposure_by_category(journal)
+        exp = cx.exposure_by_category(onchain_rows)
         if exp:
             exp_line = cx.format_exposure(exp, bankroll=BANKROLL)
     except Exception:
@@ -102,7 +104,7 @@ def build_status(journal: List[dict], calib: List[dict],
 
     lines = [
         "📋 Polymarket v5 · недельный статус",
-        f"Открыто: {len(open_rows)} позиций (ончейн: {onchain})",
+        f"Открыто (ончейн): {onchain} позиций",
     ]
     if exp_line:
         lines.append(exp_line)
@@ -170,15 +172,21 @@ def build_kpi_block(journal: List[dict], calib: List[dict],
     if decided:
         wr = wins / decided * 100
         roi = pnl / staked * 100 if staked else 0.0
-        line = f"KPI сигналов: резолвов: {decided} · WR {wr:.0f}% · ROI {roi:+.0f}%"
+        # Это метрика КАЧЕСТВА ПРЕДСКАЗАНИЙ (бумага+ончейн) — валидационная
+        # выборка стратегии, не деньги. Реальный денежный результат — отдельной
+        # строкой ниже (только ончейн). Смешивать нельзя: 04.07 $562 «экспозиции»
+        # уже приняли за реальный риск.
+        line = (f"Точность сигналов (модельная выборка): резолвов {decided} · "
+                f"WR {wr:.0f}% · ROI {roi:+.0f}%")
         oc_n = oc_wins + oc_losses
         if oc_n:
             oc_wr = oc_wins / oc_n * 100
             oc_roi = oc_pnl / oc_staked * 100 if oc_staked else 0.0
-            line += f"\n     реальные ставки · ончейн (n={oc_n}): WR {oc_wr:.0f}%, ROI {oc_roi:+.0f}%"
+            line += (f"\n     💰 реальные деньги (ончейн, n={oc_n}): "
+                     f"WR {oc_wr:.0f}%, ROI {oc_roi:+.0f}%")
         lines.append(line)
     else:
-        lines.append("KPI: резолвов пока 0 — ставки зреют")
+        lines.append("Точность сигналов: резолвов пока 0 — ставки зреют")
 
     # ── Brier-прогресс (главный вопрос проекта) ──
     short = [r for r in calib
