@@ -59,6 +59,12 @@
 "resolved": false,
 "thesis_key": "will mojtaba khamenei be head of"
 },
+"0x271e1d96693db79b42a277dc5f64b61a72bc1a0fad85586fd28c7d89b9b96231": {
+"alerted_at": null,
+"last_edge": 0.2666,
+"resolved": false,
+"thesis_key": "will russia capture kostyantynivka"
+},
 "0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126": {
 "alerted_at": "2026-06-11T20:12:07.994636+00:00",
 "last_edge": 0.22,
