@@ -29,6 +29,12 @@
 "resolved": false,
 "thesis_key": "france leading at halftime"
 },
+"0x15d2e66dcf1d63c5695d6d0e9e2f8e06dd246d00fd5dfc254f2b22baa33bfa1b": {
+"alerted_at": "2026-07-09T01:49:18.573897+00:00",
+"last_edge": 0.3638,
+"resolved": false,
+"thesis_key": "will mitch mcconnell step down from"
+},
 "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d": {
 "alerted_at": "2026-06-28T13:12:34.413012+00:00",
 "last_edge": 0.225,
@@ -106,6 +112,12 @@
 "last_edge": 0.0,
 "resolved": false,
 "thesis_key": "will a team from lck south"
+},
+"0x4bca04ae1e93ff18d4065f59e8ceae1e6cbd12da87464dd1e91c711be8267b8b": {
+"alerted_at": null,
+"last_edge": 0.071,
+"resolved": false,
+"thesis_key": "will norway be eliminated in the"
 },
 "0x4d0c4865bdecc5f7971dbab47bb6c069d93909dec75bdff52fb766ae6094a6d6": {
 "alerted_at": null,
@@ -256,6 +268,12 @@
 "last_edge": 0.595,
 "resolved": false,
 "thesis_key": "starmer out"
+},
+"0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6": {
+"alerted_at": "2026-07-09T01:49:18.573897+00:00",
+"last_edge": 0.1343,
+"resolved": false,
+"thesis_key": "will kimi antonelli be the f1"
 },
 "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56": {
 "alerted_at": null,
