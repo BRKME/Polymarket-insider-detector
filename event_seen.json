@@ -35,6 +35,12 @@
 "resolved": false,
 "thesis_key": "will mitch mcconnell step down from"
 },
+"0x16b3e96fc29f37ff8a5309e82e1ebd11b6658b171dd788104d9a88c12cceebb6": {
+"alerted_at": "2026-07-10T01:34:31.631267+00:00",
+"last_edge": 0.0828,
+"resolved": false,
+"thesis_key": "will sinner be the men s"
+},
 "0x16c63b7cc37f012b9f59ee164ec03877914c701d06d48291ae8d6fc08a088b0d": {
 "alerted_at": "2026-06-28T13:12:34.413012+00:00",
 "last_edge": 0.225,
@@ -178,6 +184,12 @@
 "last_edge": 0.31,
 "resolved": false,
 "thesis_key": "us announces new iran agreement ceasefire"
+},
+"0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c": {
+"alerted_at": "2026-07-10T01:34:31.631267+00:00",
+"last_edge": 0.0918,
+"resolved": false,
+"thesis_key": "will bitcoin dip to 55 000"
 },
 "0x7cbaf5b35048142abf76d7537b96272f1d40b71fcc3d7bb40ebdfe6382d269fc": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
