@@ -299,6 +299,12 @@
 "resolved": false,
 "thesis_key": "will bitcoin dip to 50 000"
 },
+"0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780": {
+"alerted_at": "2026-07-12T01:29:01.593633+00:00",
+"last_edge": 0.1382,
+"resolved": false,
+"thesis_key": "will ethereum dip to 1 500"
+},
 "0xd17e44ec063959238b3e4587475977a584618f7e18892d7b13b47051dbaa9a35": {
 "alerted_at": "2026-07-04T01:48:35.506863+00:00",
 "last_edge": 0.2198,
