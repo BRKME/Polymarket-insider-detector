@@ -73,7 +73,7 @@
 },
 "0x271e1d96693db79b42a277dc5f64b61a72bc1a0fad85586fd28c7d89b9b96231": {
 "alerted_at": null,
-"last_edge": 0.2666,
+"last_edge": 0.5,
 "resolved": false,
 "thesis_key": "will russia capture kostyantynivka"
 },
@@ -310,6 +310,12 @@
 "last_edge": 0.2198,
 "resolved": false,
 "thesis_key": "will the fed pause pause pause"
+},
+"0xd32ac3b2db228eb03d6385b5f0747b7013e0ff717a20e63c75fc74824b91d6b2": {
+"alerted_at": "2026-07-12T12:53:06.221460+00:00",
+"last_edge": 0.3479,
+"resolved": false,
+"thesis_key": "will the fed differently in the"
 },
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
