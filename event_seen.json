@@ -215,6 +215,18 @@
 "resolved": false,
 "thesis_key": "will the republican party control the"
 },
+"0x876506d8b2bd7a0d3fa4fe18c024eee6e1dd81ee24c26795dadd6cfe4a7b5d0d": {
+"alerted_at": "2026-07-14T01:19:32.197169+00:00",
+"last_edge": 0.3229,
+"resolved": false,
+"thesis_key": "will the fed increase interest rates"
+},
+"0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86": {
+"alerted_at": "2026-07-14T01:19:32.197169+00:00",
+"last_edge": 0.2079,
+"resolved": false,
+"thesis_key": "will there be no change in"
+},
 "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805": {
 "alerted_at": null,
 "last_edge": 0.44,
@@ -232,6 +244,12 @@
 "last_edge": 0.3282,
 "resolved": false,
 "thesis_key": "strait of hormuz traffic returns to"
+},
+"0xa295309d3894d3d05d9058ef78290ffd760fabb4c4d0d47a2a99a44759a4a2bd": {
+"alerted_at": "2026-07-14T01:19:32.197169+00:00",
+"last_edge": 0.1515,
+"resolved": false,
+"thesis_key": "will argentina be eliminated in the"
 },
 "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a": {
 "alerted_at": "2026-07-02T02:07:03.662846+00:00",
