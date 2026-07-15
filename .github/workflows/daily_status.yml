@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write   # journal_resolver коммитит event_journal/resolutions/калибровку
 
 jobs:
   status:
@@ -19,6 +19,25 @@ jobs:
         with:
           python-version: '3.11'
       - run: pip install requests
+      - name: Resolve journal (event_journal -> resolutions.json -> калибровка)
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python journal_resolver.py
+      - name: Commit resolver state
+        run: |
+          git config user.name "Journal Resolver Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet event_journal.jsonl resolutions.json calibration_table.json 2>/dev/null; then
+            echo "No resolver changes"
+          else
+            git add event_journal.jsonl resolutions.json calibration_table.json
+            git commit -m "chore(resolver): journal resolutions + calibration [skip ci]"
+            for i in 1 2 3; do
+              git push && break
+              echo "retry $i"; sleep 5; git pull --rebase origin main || true
+            done
+          fi
       - name: Daily status
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}

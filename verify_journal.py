@@ -46,8 +46,37 @@ def _load() -> list:
 def _resolve_no_outcome(condition_id: str) -> Optional[bool]:
     """
     Did the NO side win? Returns True (NO won), False (NO lost), None (unresolved).
-    Uses the same multi-source lookup we fixed in resolution_tracker.
+    Uses the same multi-source lookup we fixed in resolution_tracker,
+    через дисковый кэш journal_resolver: резолюция необратима, один
+    сетевой запрос на condition_id навсегда (до 15.07 еженедельный отчёт
+    перевыкачивал ВСЕ строки заново каждый раз).
     """
+    import journal_resolver as jr
+    global _RES_CACHE
+    if _RES_CACHE is None:
+        _RES_CACHE = jr.ResolutionCache()
+    outcome = _RES_CACHE.get_outcome(condition_id, jr._default_fetch)
+    if outcome == "No":
+        return True       # NO side won → our bet won
+    if outcome == "Yes":
+        return False      # YES won → our NO bet lost
+    return None
+
+
+_RES_CACHE = None
+
+
+def _flush_resolution_cache() -> None:
+    """Сохранить кэш на диск после пачки резолвов (вызывается в конце main)."""
+    if _RES_CACHE is not None:
+        try:
+            _RES_CACHE.save()
+        except Exception:
+            pass
+
+
+def _legacy_resolve_no_outcome(condition_id: str) -> Optional[bool]:
+    """Старый прямой путь без кэша — оставлен для сверки/отладки."""
     market = rt.fetch_market_by_condition_id(condition_id)
     if not market:
         market = rt.fetch_market_by_clob(condition_id)
@@ -271,3 +300,4 @@ def verify() -> None:
 
 if __name__ == "__main__":
     verify()
+    _flush_resolution_cache()

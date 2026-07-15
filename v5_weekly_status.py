@@ -248,6 +248,8 @@ def main() -> None:
         kpi = build_kpi_block(journal, calib, resolve_fn=_resolve)
         if kpi:
             msg += "\n\n" + kpi
+        from verify_journal import _flush_resolution_cache
+        _flush_resolution_cache()   # недельный прогон наполняет resolutions.json
     except Exception as e:  # noqa: BLE001
         print(f"KPI block skipped: {e}")
     print(msg)
