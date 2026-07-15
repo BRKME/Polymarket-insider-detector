@@ -77,6 +77,12 @@
 "resolved": false,
 "thesis_key": "will russia capture kostyantynivka"
 },
+"0x29969b8b233f707f5eb7a771ad6c1c7c19bb8f36890883f11c441450a762019f": {
+"alerted_at": "2026-07-15T01:15:31.256413+00:00",
+"last_edge": 0.2729,
+"resolved": false,
+"thesis_key": "will spain win the world cup"
+},
 "0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126": {
 "alerted_at": "2026-06-11T20:12:07.994636+00:00",
 "last_edge": 0.22,
