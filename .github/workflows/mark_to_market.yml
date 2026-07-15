@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read            # read-only; emits Telegram signals, no journal write
+  contents: write           # exit_seen.json (дедуп сигналов) должен переживать прогон
 
 jobs:
   remark:
@@ -28,3 +28,17 @@ jobs:
         run: |
           echo "Mark-to-market — $(date -u +'%Y-%m-%d %H:%M UTC')"
           python mark_to_market.py
+
+      - name: Persist dedup state
+        run: |
+          git config user.name "MtM Bot"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add exit_seen.json 2>/dev/null || true
+          if git commit -m "chore(mtm): dedup state [skip ci]"; then
+            for i in 1 2 3; do
+              git push && break
+              echo "retry $i"; sleep 5; git pull --rebase origin main || true
+            done
+          else
+            echo "No dedup changes"
+          fi
