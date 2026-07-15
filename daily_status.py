@@ -74,8 +74,80 @@ def filter_open_positions(positions: List[dict]) -> List[dict]:
     return out
 
 
+def resolved_positions(positions: List[dict], now=None) -> List[dict]:
+    """Завершившиеся позиции: реализованный результат, а не открытый риск.
+
+    Выигрыш: redeemable=True (токены к выплате). Проигрыш: size>0,
+    currentValue≈0 И endDate в прошлом — прошедший endDate отличает
+    реальный резолв в ноль от мусорной котировки неликвидного ордербука
+    (кейс 14.07: −$45 по трём футбольным ставкам молча выпали из учёта).
+    """
+    from datetime import datetime, timezone
+    now = now or datetime.now(timezone.utc)
+    out = []
+    for p in positions:
+        try:
+            size = float(p.get("size") or 0)
+            cur_val = float(p.get("currentValue") or 0)
+        except (TypeError, ValueError):
+            continue
+        if size <= 0:
+            continue
+        if p.get("redeemable") is True:
+            out.append(p)                 # выигрыш к выплате
+            continue
+        if cur_val > 0:
+            continue                      # открыта — не сюда
+        end_raw = p.get("endDate")
+        if not end_raw:
+            continue                      # без даты нулевая цена = мусор API
+        try:
+            end = datetime.fromisoformat(str(end_raw).replace("Z", "+00:00"))
+        except ValueError:
+            continue
+        if end <= now:
+            out.append(p)                 # рынок завершён, токены обнулились
+    return out
+
+
+def realized_block(resolved: List[dict], now=None,
+                   window_days: int = 7) -> Optional[str]:
+    """Блок «Реализовано»: итог завершившихся за окно + строки по позициям.
+
+    None, если за окно ничего не завершилось (блок не раздувает статус).
+    """
+    from datetime import datetime, timedelta, timezone
+    now = now or datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=window_days)
+    recent = []
+    for p in resolved:
+        try:
+            end = datetime.fromisoformat(
+                str(p.get("endDate")).replace("Z", "+00:00"))
+        except (ValueError, TypeError):
+            continue
+        if end >= cutoff:
+            recent.append((end, p))
+    if not recent:
+        return None
+    total = 0.0
+    lines = []
+    for end, p in sorted(recent, key=lambda x: x[0], reverse=True):
+        invested = float(p.get("initialValue") or 0)
+        pnl = float(p.get("cashPnl") if p.get("cashPnl") is not None
+                    else -invested)
+        total += pnl
+        marker = "🟢" if pnl >= 0 else "🔴"
+        q = smart_truncate(p.get("title") or "", 44)
+        lines.append(f"{marker} {q}  ${pnl:+.0f}")
+    head = (f"\n🏁 Реализовано за {window_days}д: ${total:+.0f} "
+            f"({len(recent)} позиц.)")
+    return "\n".join([head] + lines)
+
+
 def build_status_from_wallet(positions: List[dict], journal: List[dict],
-                             cash_value: Optional[float] = None) -> str:
+                             cash_value: Optional[float] = None,
+                             now=None) -> str:
     """Статус от РЕАЛЬНЫХ позиций кошелька (/positions API) — источник истины.
 
     positions: формат Polymarket /positions (conditionId, title, size,
@@ -87,6 +159,7 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     """
     jmap = {r.get("condition_id"): r for r in journal}
 
+    realized = realized_block(resolved_positions(positions, now=now), now=now)
     positions = filter_open_positions(positions)
     n = len(positions)
     total_invested = total_current = total_pnl = 0.0
@@ -141,6 +214,8 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
               f"{total_txt}")
 
     parts = [header]
+    if realized:
+        parts.append(realized)
     has_hint = any("→" in line for _, line in detail_lines)
     if detail_lines:
         parts.append("\nДвигались / близко к резолву:")

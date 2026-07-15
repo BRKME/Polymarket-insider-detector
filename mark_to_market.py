@@ -198,6 +198,12 @@ def _format_signal(s: dict) -> str:
         "TAKE_PARTIAL": "🟡 ЗАБЕРИ ЧАСТЬ",
         "CUT": "🔴 РЕЖЬ (edge развернулся)",
     }.get(s["action"], s["action"])
+    # CUT в плюсе — не «цена против нас», а конвергенция: рынок сошёлся к
+    # AI-оценке, остаток edge исчерпан. Действие то же (выход по правилу),
+    # но паническая маркировка на прибыльной позиции дезориентирует (кейс
+    # 15.07: NO 42→68¢, +61%, а сигнал кричал «РЕЖЬ»).
+    if s["action"] == "CUT" and s.get("ret_pct", 0) > 0:
+        label = "🟡 EDGE ИСЧЕРПАН (рынок сошёлся — фиксируй по правилу)"
     return (
         f"{label}\n{s['question']}\n"
         f"—————————————————————\n"
@@ -260,9 +266,23 @@ def run() -> None:
     if exposure_msg:
         _tg(exposure_msg)
 
+    # Дедуп: тот же сигнал по той же позиции — не чаще раза в сутки,
+    # эскалация действия шлётся сразу (баг 15.07: дубли каждый 2ч-крон).
+    from datetime import datetime as _dt, timezone as _tz
+    import exit_dedup
+    seen = exit_dedup.load_seen()
+    now_dt = _dt.now(_tz.utc)
+    emitted = 0
     for s in signals:
+        if not exit_dedup.should_notify(seen, s["condition_id"],
+                                        s["action"], now_dt):
+            print(f"  (dedup) {s['question'][:40]} — {s['action']} уже слали")
+            continue
         _tg(_format_signal(s))
-    print(f"  {len(signals)} exit signal(s) emitted.")
+        emitted += 1
+    exit_dedup.save_seen(seen)
+    print(f"  {emitted} exit signal(s) emitted, "
+          f"{len(signals) - emitted} deduped.")
 
 
 if __name__ == "__main__":
