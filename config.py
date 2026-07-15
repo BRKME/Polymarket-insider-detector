@@ -50,7 +50,7 @@ EXIT_STOP_EDGE = -0.05      # if our edge has flipped this far negative, flag to
 # The cap is NOT enforced in code (manual mode): we only WARN when a category's
 # open exposure exceeds cap*bankroll, the operator decides. Adjust BANKROLL to
 # the actual figure.
-BANKROLL = 3_000.0
+BANKROLL = 200.0             # реальный банк оператора (был 3000 — кап 30% никогда не срабатывал)
 CATEGORY_EXPOSURE_CAP = 0.30   # warn when one category holds >30% of bankroll
 
 # Trading Thresholds

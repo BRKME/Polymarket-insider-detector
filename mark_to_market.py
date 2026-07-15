@@ -221,6 +221,7 @@ def run() -> None:
 
     # Category exposure visibility (the limit is the operator's rule; we count).
     exposure_msg = None
+    exposure_warn_cats: list = []
     try:
         import category_exposure as cx
         from config import BANKROLL
@@ -229,6 +230,7 @@ def run() -> None:
         print("  " + line)
         warns = cx.over_cap(exp)
         if warns:
+            exposure_warn_cats = sorted(warns)
             warn_txt = ", ".join(f"{cat} {frac*100:.0f}%" for cat, frac in warns.items())
             exposure_msg = (f"⚠️ Экспозиция выше капа по категориям: {warn_txt} "
                             f"(кап 30% банка). Новые ставки в этих категориях — "
@@ -262,16 +264,23 @@ def run() -> None:
         else:
             print("  (no telegram creds) " + msg.replace("\n", " | "))
 
-    # Over-cap exposure warning is rate-limited to the 2h cadence by design.
-    if exposure_msg:
-        _tg(exposure_msg)
-
-    # Дедуп: тот же сигнал по той же позиции — не чаще раза в сутки,
-    # эскалация действия шлётся сразу (баг 15.07: дубли каждый 2ч-крон).
     from datetime import datetime as _dt, timezone as _tz
     import exit_dedup
     seen = exit_dedup.load_seen()
     now_dt = _dt.now(_tz.utc)
+
+    # Over-cap warning: раз в сутки или при ИЗМЕНЕНИИ набора категорий над
+    # капом (с реальным банком $200 кап срабатывает подолгу — каждые 2ч
+    # повторять одно и то же предупреждение стало бы шумом).
+    if exposure_msg:
+        sig = ",".join(sorted(exposure_warn_cats)) or "over_cap"
+        if exit_dedup.should_notify(seen, "__exposure__", sig, now_dt):
+            _tg(exposure_msg)
+        else:
+            print("  (dedup) exposure warning уже слали")
+
+    # Дедуп: тот же сигнал по той же позиции — не чаще раза в сутки,
+    # эскалация действия шлётся сразу (баг 15.07: дубли каждый 2ч-крон).
     emitted = 0
     for s in signals:
         if not exit_dedup.should_notify(seen, s["condition_id"],

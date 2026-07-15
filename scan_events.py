@@ -188,7 +188,8 @@ def _journal_row(candidate: es.Candidate, re_alert: bool = False) -> dict:
     # itself is an operator rule; we just make the number visible.
     try:
         import category_exposure as cx
-        row["category"] = cx.classify(candidate.question)
+        row["category"] = cx.classify(candidate.question,
+                                      slug=getattr(candidate, "event_slug", None))
     except Exception:
         row["category"] = "other"
     # horizon in days from alert to resolution — lets verify_journal split the
@@ -380,7 +381,7 @@ def _format_alert(c: es.Candidate) -> str:
     try:
         import category_exposure as cx
         from config import BANKROLL, CATEGORY_EXPOSURE_CAP
-        cat = cx.classify(c.question)
+        cat = cx.classify(c.question, slug=getattr(c, "event_slug", None))
         cur = cx.exposure_by_category(_load_journal_rows()).get(cat, 0.0)
         pct = cur / BANKROLL * 100 if BANKROLL > 0 else 0
         warn = " ⚠️ЛИМИТ" if BANKROLL > 0 and \

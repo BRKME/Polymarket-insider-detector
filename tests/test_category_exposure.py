@@ -60,11 +60,14 @@ class TestExposure:
              "stake_actual": 30.0},
         ]
 
-    def test_open_only_and_fallback_stake(self):
+    def test_open_only_and_confirmed_stakes_only(self):
+        """15.07: фолбэк на середину диапазона убран — журнал состоит в
+        основном из кандидатов сканера без филла, и при банке $200 фолбэк
+        ($42.5/строку) ставил все категории над капом. Деньги в риске =
+        только ончейн-подтверждённый stake_actual."""
         exp = ce.exposure_by_category(self._rows())
-        mid = (config.STAKE_MIN + config.STAKE_MAX) / 2.0
         assert exp["geopolitics"] == 40.0           # closed 70 not counted
-        assert exp["crypto"] == mid + 30.0          # fallback + tagged-on-fly
+        assert exp["crypto"] == 30.0                # без филла — не в риске
 
     def test_warnings_over_cap(self):
         # bankroll 100, cap 30% -> geopolitics 40 (40%) must warn
