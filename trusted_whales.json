@@ -1,26 +1,8 @@
 [
 {
-"wallet": "0x476e1322d1a412fa0325527b8c3bc5e707b1396d",
-"name": "asparagus2012",
-"eff": 0.947,
-"pnl": 2293029
-},
-{
-"wallet": "0x3fd9a838ded6eb832baab3ccbcb5e934e3871ef0",
-"name": "therighteousdog",
-"eff": 0.534,
-"pnl": 566303
-},
-{
 "wallet": "0xbb5fbe810633ab08d106b82db84418a0e2ca2e21",
 "name": "highnetworth",
-"eff": 0.45,
-"pnl": 1404612
-},
-{
-"wallet": "0xc31d0a0d63d760d72a1236d16beaa6a71c854ebe",
-"name": "FootballFan98",
-"eff": 0.407,
-"pnl": 1426330
+"eff": 0.383,
+"pnl": 1468597
 }
 ]
