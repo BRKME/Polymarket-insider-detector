@@ -62,5 +62,9 @@
 "0x1d659678cf359d8ae3d8fae2bd0c889d3bcffdac6b4620aef61342ea8a4a5f66": {
 "outcome": "Yes",
 "resolved_at": "2026-07-20T08:44:12.894351+00:00"
+},
+"0x8bf1c1536ecb1c08fe13c6b71e8ab1f58bf3461c4cb79f5f1679f869a06aef86": {
+"outcome": "Yes",
+"resolved_at": "2026-07-30T08:10:06.385074+00:00"
 }
 }
