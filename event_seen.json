@@ -17,6 +17,12 @@
 "resolved": false,
 "thesis_key": "will donald trump announce that the"
 },
+"0x059db22dae2d735516017d47d1def0ea43e5d7221259c3aaa60c090d32566d4e": {
+"alerted_at": "2026-08-02T01:29:39.608734+00:00",
+"last_edge": 0.1979,
+"resolved": false,
+"thesis_key": "fed rate hike"
+},
 "0x087713ab2905e789c42c3fafdf747512f8d7883b7fab1ac554b703310c09d869": {
 "alerted_at": null,
 "last_edge": 0.395,
@@ -28,6 +34,12 @@
 "last_edge": 0.1406,
 "resolved": false,
 "thesis_key": "france leading at halftime"
+},
+"0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a": {
+"alerted_at": "2026-08-02T01:29:39.608734+00:00",
+"last_edge": 0.3174,
+"resolved": false,
+"thesis_key": "will harry kane win the ballon"
 },
 "0x15d2e66dcf1d63c5695d6d0e9e2f8e06dd246d00fd5dfc254f2b22baa33bfa1b": {
 "alerted_at": "2026-07-09T01:49:18.573897+00:00",
@@ -101,6 +113,12 @@
 "resolved": false,
 "thesis_key": "will portugal be eliminated in the"
 },
+"0x2cfbd8aabc3519021dc16ab0c7e0f42b0fdac191e64bcc3c42c2319c4c0117f3": {
+"alerted_at": "2026-08-02T01:29:39.608734+00:00",
+"last_edge": 0.465,
+"resolved": false,
+"thesis_key": "will donavan mckinney be the democratic"
+},
 "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
 "alerted_at": "2026-06-10T14:57:47.835284+00:00",
 "last_edge": 0.475,
@@ -118,6 +136,12 @@
 "last_edge": 0.23,
 "resolved": false,
 "thesis_key": "us strike"
+},
+"0x46ca741da4abd7ffa993f59ac65bfe83de43ae027accac71d263a493e44064e7": {
+"alerted_at": "2026-08-02T01:29:39.608734+00:00",
+"last_edge": 0.3075,
+"resolved": false,
+"thesis_key": "us announces end of iranian blockade"
 },
 "0x47de811c2765bcadb16b37bb7dbeac5824906109500b281f89ff8e6168ec4b50": {
 "alerted_at": null,
@@ -166,6 +190,12 @@
 "last_edge": 0.485,
 "resolved": false,
 "thesis_key": "strait of hormuz traffic returns to"
+},
+"0x61c2b9e70f7fdf3441fd1cfa2c8fa93308fefe3f5ecc2db87c393efab3a207a3": {
+"alerted_at": "2026-08-02T01:29:39.608734+00:00",
+"last_edge": 0.3508,
+"resolved": false,
+"thesis_key": "us x iran effective ceasefire"
 },
 "0x6619036865c2d27f1b1c00cd565ce74f6aa72ef93be29c315be36941d3559c59": {
 "alerted_at": "2026-06-10T20:16:54.524891+00:00",
@@ -370,6 +400,18 @@
 "last_edge": 0.043,
 "resolved": false,
 "thesis_key": "will norway be eliminated in the"
+},
+"0xed5a9e7831ee363d92cb102f2c21e2465b09196ef5beb7c8e23671851a1c3ca4": {
+"alerted_at": null,
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "us x iran diplomatic meeting"
+},
+"0xf35f7e818e58b63a996f909956b0ea1ad5c6517653cb4e67ce735e3666443920": {
+"alerted_at": "2026-08-02T01:29:39.608734+00:00",
+"last_edge": 0.1529,
+"resolved": false,
+"thesis_key": "will javokhir sindarov win the world"
 },
 "0xfbe85201ab2b4acff01cd5a3639039fc813d3448c64db081f70926bd9b9e74e9": {
 "alerted_at": null,
