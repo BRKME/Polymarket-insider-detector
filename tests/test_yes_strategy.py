@@ -9,8 +9,8 @@ from yes_strategy import yes_gate, yes_edge, YES_MIN, YES_MAX
 
 def test_gate_accepts_mid_zone():
     assert yes_gate(0.60) is True      # 60% — в зоне
-    assert yes_gate(0.50) is True      # граница включительно
-    assert yes_gate(0.70) is True
+    assert yes_gate(0.50) is True      # нижняя граница включительно
+    assert yes_gate(0.65) is True      # верхняя граница (сужена 02.08 с 0.70)
 
 
 def test_gate_rejects_outside():
@@ -39,3 +39,22 @@ def test_agreement_by_direction_enough():
 def test_grok_must_be_yes_leaning():
     # Grok ровно 0.5 — не склонён ни туда ни сюда -> нет согласия
     assert yes_edge(market_yes=0.60, grok_yes=0.50) is None
+
+
+# ── Сужение зоны 02.08.2026 ──────────────────────────────────────────────────
+# На n=13 средняя цена входа 60.3c, WR 62% → безубыточный WR при 60c = 60%,
+# запас всего 2пп. Арифметика: при WR 62% всё дороже 62c имеет отрицательный EV
+# (вход 70c → ROI -12%). Верх зоны срезан до 65% (узкий буфер на рост WR).
+def test_zone_upper_bound_tightened():
+    assert YES_MAX == 0.65
+
+
+def test_expensive_favourite_rejected():
+    assert yes_gate(0.66) is False      # дороже безубытка — отрицательный EV
+    assert yes_gate(0.70) is False      # прежняя граница больше не проходит
+
+
+def test_profitable_range_still_accepted():
+    assert yes_gate(0.50) is True
+    assert yes_gate(0.60) is True
+    assert yes_gate(0.65) is True       # новая граница включительно
