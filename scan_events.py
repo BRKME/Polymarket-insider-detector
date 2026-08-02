@@ -451,6 +451,28 @@ def _format_alert(c: es.Candidate) -> str:
     return "\n".join(lines)
 
 
+# ── ВЕРДИКТ 02.08.2026 ────────────────────────────────────────────────────────
+# Предзарегистрированные ворота сработали на n=278 (в 9× больше требуемых 30):
+# Brier рынка 0.141 vs Grok 0.214, Δ=-0.073 — рынок точнее. Калибровка честно
+# помогла (Grok 0.293→0.214, разрыв сократился вдвое), но НЕ обогнала рынок.
+# Деньги подтверждают: сигналы WR 14%/ROI -71%, реальные ончейн ROI -100%.
+# Экономика добивает: банк ~$200 против $20-50/мес за xAI — окупаемость требует
+# 10-25% в месяц, чего нет даже у топ-китов лидерборда.
+# Решение: NO-алерты ВЫКЛЮЧЕНЫ. Журналирование остаётся — данные копятся даром.
+# YES средней зоны пока живёт: у неё своё основание (в корзине 0.6-0.8 реальный
+# YES 86% — Grok недооценивает фаворитов именно там), но всего 13 резолвов;
+# ждём раздельного вердикта.
+NO_STRATEGY_ALERTS = False
+
+
+def should_alert_side(side) -> bool:
+    """Слать ли алерт по этой стороне. NO выключен вердиктом, YES — жив."""
+    s = str(side or "NO").upper()
+    if s == "YES":
+        return True
+    return NO_STRATEGY_ALERTS
+
+
 def _send(msg: str) -> bool:
     if not TELEGRAM_BOT_TOKEN or not TELEGRAM_CHAT_ID:
         print("  ⚠️ Telegram creds missing — printing instead:\n", msg)
@@ -643,8 +665,14 @@ def run() -> None:
             suppressed += 1
             continue
         is_re_alert = cid in seen   # known market whose edge grew — same position
-        if _send(_format_alert(c)):
-            sent += 1
+        # Вердикт 02.08: NO-алерты выключены (ворота сработали). Кандидата
+        # по-прежнему журналируем — выборка копится бесплатно, но не зовём
+        # оператора в ставку, которая измеренно не имеет edge.
+        if should_alert_side(getattr(c, "side", "NO")):
+            if _send(_format_alert(c)):
+                sent += 1
+        else:
+            suppressed += 1
         _append_journal(c, re_alert=is_re_alert)
         seen[cid] = {"last_edge": c.edge, "alerted_at": now, "resolved": False,
                      "thesis_key": thesis}
