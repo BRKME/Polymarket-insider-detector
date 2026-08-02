@@ -1,0 +1,21 @@
+name: side split verdict (YES vs NO)
+
+# Раздельный вердикт по сторонам: набирает ли YES средней зоны свой edge,
+# или повторяет судьбу NO. Исходы тянутся живьём (CLOB), поэтому только Actions.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  verdict:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Side split verdict
+        run: python3 side_split.py
