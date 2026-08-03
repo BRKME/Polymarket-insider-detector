@@ -89,6 +89,12 @@
 "resolved": false,
 "thesis_key": "will mojtaba khamenei be head of"
 },
+"0x26a6c7e4a905dfc13f23c44a8e41d0b96ad60569ef49869c46c237dfd8f3c003": {
+"alerted_at": "2026-08-03T01:31:06.603552+00:00",
+"last_edge": 0.352,
+"resolved": false,
+"thesis_key": "will darline graham nordone be the"
+},
 "0x271e1d96693db79b42a277dc5f64b61a72bc1a0fad85586fd28c7d89b9b96231": {
 "alerted_at": null,
 "last_edge": 0.5,
@@ -227,6 +233,12 @@
 "resolved": false,
 "thesis_key": "us announces new iran agreement ceasefire"
 },
+"0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c": {
+"alerted_at": null,
+"last_edge": 0.165,
+"resolved": false,
+"thesis_key": "fed rate hike"
+},
 "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c": {
 "alerted_at": "2026-07-10T01:34:31.631267+00:00",
 "last_edge": 0.0918,
@@ -250,6 +262,12 @@
 "last_edge": 0.1514,
 "resolved": false,
 "thesis_key": "fed rate hike in"
+},
+"0x833f0bac240ad7d5c947d58a8acac0f77a74cf03dccd8f9b72a28811836a920f": {
+"alerted_at": null,
+"last_edge": 0.3372,
+"resolved": false,
+"thesis_key": "us x iran effective ceasefire"
 },
 "0x86bfb53af7250a40928975c551d12c185b762fa4ce0b40c6a64a50c946d72587": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
@@ -377,6 +395,12 @@
 "resolved": false,
 "thesis_key": "will the fed differently in the"
 },
+"0xd5d9fc47718bd553592d126b1fa5e87183d27f3936975b0c04cc0f2dec1f1bb4": {
+"alerted_at": "2026-08-03T01:31:06.603552+00:00",
+"last_edge": 0.2925,
+"resolved": false,
+"thesis_key": "will the democratic party control the"
+},
 "0xda519921a7090298cbdc56ee838a403a5193c2b3f637aef3e154e52de7b5e79c": {
 "alerted_at": null,
 "last_edge": null,
@@ -402,8 +426,8 @@
 "thesis_key": "will norway be eliminated in the"
 },
 "0xed5a9e7831ee363d92cb102f2c21e2465b09196ef5beb7c8e23671851a1c3ca4": {
-"alerted_at": null,
-"last_edge": 0.0,
+"alerted_at": "2026-08-03T01:31:06.603552+00:00",
+"last_edge": 0.1525,
 "resolved": false,
 "thesis_key": "us x iran diplomatic meeting"
 },
