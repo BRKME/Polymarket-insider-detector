@@ -35,6 +35,12 @@
 "resolved": false,
 "thesis_key": "france leading at halftime"
 },
+"0x0c9ada12c527451fbdd43c0397a8a006b8aaf2a01567ae069d37220b51937595": {
+"alerted_at": "2026-08-03T14:13:29.715249+00:00",
+"last_edge": 0.2279,
+"resolved": false,
+"thesis_key": "will karen bass win the los"
+},
 "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3174,
@@ -286,6 +292,12 @@
 "last_edge": 0.2079,
 "resolved": false,
 "thesis_key": "will there be no change in"
+},
+"0x8e1e5c26dec73aee98230dc0ef93a294142587ca24190c4728d4b7ff831a22e0": {
+"alerted_at": "2026-08-03T14:13:29.715249+00:00",
+"last_edge": 0.2379,
+"resolved": false,
+"thesis_key": "russia ukraine peace talks"
 },
 "0x93f2e17cfd239c4667eb3d41ff04e2cd1ae6f3f663210cbc42ec1296ff880805": {
 "alerted_at": null,
