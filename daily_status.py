@@ -105,6 +105,8 @@ def resolved_positions(positions: List[dict], now=None) -> List[dict]:
             end = datetime.fromisoformat(str(end_raw).replace("Z", "+00:00"))
         except ValueError:
             continue
+        if end.tzinfo is None:            # см. коммент в realized_block: смесь
+            end = end.replace(tzinfo=timezone.utc)   # naive/aware роняет сравнение
         if end <= now:
             out.append(p)                 # рынок завершён, токены обнулились
     return out
@@ -126,6 +128,11 @@ def realized_block(resolved: List[dict], now=None,
                 str(p.get("endDate")).replace("Z", "+00:00"))
         except (ValueError, TypeError):
             continue
+        # Polymarket отдаёт endDate и с 'Z' (aware), и без (naive). Смесь роняла
+        # sorted()/сравнение с cutoff: TypeError offset-naive vs offset-aware
+        # (полевой баг 03-05.08.2026, статус падал 3 дня). Приводим всё к UTC.
+        if end.tzinfo is None:
+            end = end.replace(tzinfo=timezone.utc)
         if end >= cutoff:
             recent.append((end, p))
     if not recent:
