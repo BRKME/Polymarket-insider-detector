@@ -83,6 +83,12 @@
 "resolved": false,
 "thesis_key": "will argentina be eliminated in the"
 },
+"0x1e5204036bd51e6ca0e0da6221319c5839bd9940782adc6d0f6fa703aa8a3bf4": {
+"alerted_at": "2026-08-05T13:33:27.814132+00:00",
+"last_edge": 0.3522,
+"resolved": false,
+"thesis_key": "will hamas agree to disarm"
+},
 "0x210b43715f5132313293f66b4d164850a13946e6ced9def3047c0ec47cb0cc29": {
 "alerted_at": "2026-07-02T13:28:36.982928+00:00",
 "last_edge": 0.1946,
@@ -388,6 +394,12 @@
 "last_edge": null,
 "resolved": false,
 "thesis_key": "will bitcoin dip to 50 000"
+},
+"0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271": {
+"alerted_at": "2026-08-05T13:33:27.814132+00:00",
+"last_edge": 0.52,
+"resolved": false,
+"thesis_key": "us announces end of iranian blockade"
 },
 "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780": {
 "alerted_at": "2026-07-12T01:29:01.593633+00:00",
