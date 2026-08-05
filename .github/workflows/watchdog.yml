@@ -1,0 +1,29 @@
+name: workflow watchdog
+
+# Сторож: следит за самими прогонами Actions и кричит при красных.
+# Закрывает дефект 05.08.2026 — daily_status падал 5 прогонов подряд, а тишина
+# в боте выглядела как «нет сигналов». Молчит, когда всё зелено.
+on:
+  schedule:
+    - cron: '0 7 * * *'      # через час после daily_status (06:00 UTC)
+  workflow_dispatch: {}
+
+permissions:
+  actions: read              # читать статусы прогонов
+  contents: read
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install requests
+      - name: Check workflow health
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python3 workflow_watchdog.py
