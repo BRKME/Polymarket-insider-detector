@@ -78,5 +78,9 @@
 "0xb838caec0354e09985f2c228c54ba190cb284f390beda5ffd58d163ba00648ec": {
 "outcome": "No",
 "resolved_at": "2026-08-01T08:06:33.615550+00:00"
+},
+"0x2cfbd8aabc3519021dc16ab0c7e0f42b0fdac191e64bcc3c42c2319c4c0117f3": {
+"outcome": "Yes",
+"resolved_at": "2026-08-06T08:18:55.235148+00:00"
 }
 }
