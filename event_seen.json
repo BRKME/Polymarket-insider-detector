@@ -143,6 +143,12 @@
 "resolved": false,
 "thesis_key": "will donavan mckinney be the democratic"
 },
+"0x325e6ab1dd315e6f435183fbf7dff8a7c4be37f9bbf7abcd4459e75110aa9f1d": {
+"alerted_at": "2026-08-07T02:04:35.244848+00:00",
+"last_edge": 0.3025,
+"resolved": false,
+"thesis_key": "will nvidia be the largest company"
+},
 "0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
 "alerted_at": "2026-06-10T14:57:47.835284+00:00",
 "last_edge": 0.475,
@@ -172,6 +178,12 @@
 "last_edge": 0.1164,
 "resolved": false,
 "thesis_key": "argentina leading at halftime"
+},
+"0x47ec761ae98d7c28b20c0222f1507e3af0f198a904f86b4a264b2e987f0b80c7": {
+"alerted_at": null,
+"last_edge": 0.4006,
+"resolved": false,
+"thesis_key": "us announces end of iranian blockade"
 },
 "0x4890e36c536eef20111bd617f6479b6b7384ad2ebf16e18a108d989dc0aa9f9e": {
 "alerted_at": "2026-07-05T01:53:54.039473+00:00",
@@ -328,6 +340,12 @@
 "last_edge": 0.465,
 "resolved": false,
 "thesis_key": "us x iran permanent peace deal"
+},
+"0xa055e1cf533c2fcb1f1c89c20c41c8aa25526dcf27c3ff6be69c230fd8898282": {
+"alerted_at": null,
+"last_edge": 0.0,
+"resolved": false,
+"thesis_key": "us announces end of iranian blockade"
 },
 "0xa08a5ce99e14ce0b22767af6f16c08a2ab012249444c20887193a9a3e98e11fc": {
 "alerted_at": null,
