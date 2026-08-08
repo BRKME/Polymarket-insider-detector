@@ -54,19 +54,26 @@ def _debug_trades(cid: str, trades: list) -> None:
               f"usdc={t.get('usdcSize')} -> {'OK' if not why else ' '.join(why)}")
 
 
-def match_position(condition_id: str, trades: List[Dict]) -> Optional[Dict]:
-    """Aggregate our NO/BUY trades on `condition_id` into one fill, or None.
+def match_position(condition_id: str, trades: List[Dict],
+                   side: str = "NO") -> Optional[Dict]:
+    """Aggregate our BUY trades on `condition_id` for `side` into one fill.
+
+    side: "NO" (осн. стратегия) или "YES" (средняя зона). Полевой баг 08.08.2026:
+    функция жёстко искала outcome='no', поэтому реальные YES-покупки оператора
+    не сопоставлялись — stake_actual не проставлялся, позиции считались
+    фантомами и не мониторились вовсе.
 
     Returns {entry_price_actual, stake_actual, shares_actual, fill_txs,
              fill_source, filled_at} where entry_price is size-weighted.
     """
+    want = "yes" if str(side).upper() == "YES" else "no"
     mine = []
     for t in trades:
         if t.get("conditionId") != condition_id:
             continue
         if str(t.get("side", "")).upper() != "BUY":
             continue
-        if str(t.get("outcome", "")).strip().lower() != "no":
+        if str(t.get("outcome", "")).strip().lower() != want:
             continue
         try:
             size = float(t.get("size") or 0)
@@ -125,7 +132,7 @@ def apply_fills(rows: List[Dict],
             continue
         if DEBUG:
             _debug_trades(cid, trades)
-        fill = match_position(cid, trades)
+        fill = match_position(cid, trades, side=str(r.get("side", "NO")))
         if fill:
             r.update(fill)
             n += 1
