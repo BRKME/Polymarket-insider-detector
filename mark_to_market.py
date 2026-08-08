@@ -140,6 +140,81 @@ def _load_journal() -> List[dict]:
     return rows
 
 
+# ── YES-позиции (средняя зона): зеркало NO-логики ───────────────────────────
+# Пробел найден 08.08.2026: реальные позиции оператора — все YES, а мониторинг
+# их пропускал, т.к. NO-правила при применении к YES дают обратный смысл.
+# Для YES прибыль растёт, когда цена ИДЁТ ВВЕРХ (вход 57.8c → сейчас 73.7c).
+YES_CUT_DRAWDOWN = 0.30       # просадка от входа, при которой тезис считаем сломанным
+
+
+def decide_exit_yes(entry: float, current: float) -> Optional[str]:
+    """Сигнал выхода для YES-позиции, или None (держим).
+
+    Порядок как в NO-версии: сначала тиры прибыли (банкуем, когда рынок сошёлся
+    к нашему тезису), и только потом — стоп по просадке.
+    """
+    if current is None or entry is None:
+        return None
+    if current >= EXIT_FULL_PRICE:
+        return "CLOSE_FULL"
+    if current >= EXIT_PARTIAL_PRICE:
+        return "TAKE_PARTIAL"
+    try:
+        if entry > 0 and (current - entry) / entry <= -YES_CUT_DRAWDOWN:
+            return "CUT"          # цена ушла против нас далеко — тезис сломан
+    except (TypeError, ZeroDivisionError):
+        pass
+    return None
+
+
+def position_pnl_yes(entry: float, current: float, stake: float) -> dict:
+    """P&L YES-позиции: прибыль при РОСТЕ цены (обратно NO)."""
+    try:
+        entry = float(entry); current = float(current); stake = float(stake)
+    except (TypeError, ValueError):
+        return {"pnl": 0.0, "pct": 0.0}
+    if entry <= 0:
+        return {"pnl": 0.0, "pct": 0.0}
+    shares = stake / entry
+    pnl = shares * (current - entry)
+    return {"pnl": round(pnl, 2), "pct": round((current - entry) / entry * 100, 1)}
+
+
+def _parse_yes_price(market: Optional[Dict]) -> Optional[float]:
+    """Текущая цена YES из свежего чтения рынка."""
+    if not market:
+        return None
+    try:
+        outcomes = market.get("outcomes") or []
+        prices = market.get("outcomePrices") or []
+        if isinstance(outcomes, str):
+            import json as _j
+            outcomes = _j.loads(outcomes)
+        if isinstance(prices, str):
+            import json as _j
+            prices = _j.loads(prices)
+        for name, px in zip(outcomes, prices):
+            if str(name).strip().lower() == "yes":
+                return float(px)
+    except Exception:
+        return None
+    return None
+
+
+def _entry_yes_price(row: dict) -> Optional[float]:
+    """Цена входа YES-позиции: подтверждённая ончейн, иначе цена из алерта."""
+    for key in ("entry_price_actual", "market_yes_price"):
+        v = row.get(key)
+        if v is not None:
+            try:
+                p = float(v)
+                if 0 < p < 1:
+                    return p
+            except (TypeError, ValueError):
+                continue
+    return None
+
+
 def _has_real_fill(row: dict) -> bool:
     """Был ли РЕАЛЬНЫЙ вход: fill_matcher проставляет stake_actual, найдя сделку
     ончейн. В журнал пишутся все алерты, т.е. кандидаты — без этой проверки
@@ -170,10 +245,35 @@ def scan_open_positions(
         # это алерт-кандидат, а не сделка. См. _has_real_fill.
         if not _has_real_fill(row):
             continue
-        # YES-позиции (новая стратегия средней зоны) НЕ мониторим этой логикой —
-        # она целиком NO-центрична (entry_no, current_no, edge=(1-cur)-ai_yes).
-        # Иначе YES-ставки трактуются как NO и шлётся бессмысленное «РЕЖЬ NO».
+        # YES-позиции (средняя зона) идут по ЗЕРКАЛЬНОЙ логике: прибыль растёт
+        # при росте цены. Раньше они просто пропускались — реальные позиции
+        # оператора оставались без сигналов выхода (баг 08.08.2026).
         if str(row.get("side", "NO")).upper() == "YES":
+            cid = row.get("condition_id", "")
+            if not cid:
+                continue
+            mkt = fetch_fn(cid)
+            parsed = _parse_yes_price(mkt)
+            if parsed is None:
+                continue
+            entry = _entry_yes_price(row)
+            if entry is None:
+                continue
+            action = decide_exit_yes(entry, parsed)
+            if action:
+                stake = position_stake(row)
+                pnl = position_pnl_yes(entry, parsed, stake)
+                signals.append({
+                    "question": row.get("question", ""),
+                    "condition_id": cid,
+                    "side": "YES",
+                    "entry_no": entry,          # для форматтера: цена входа
+                    "current_no": round(parsed, 4),
+                    "stake": stake,
+                    "action": action,
+                    "current_edge": None,
+                    **pnl,
+                })
             continue
         cid = row.get("condition_id", "")
         if not cid:
