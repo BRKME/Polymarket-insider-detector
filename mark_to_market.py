@@ -140,6 +140,18 @@ def _load_journal() -> List[dict]:
     return rows
 
 
+def _has_real_fill(row: dict) -> bool:
+    """Был ли РЕАЛЬНЫЙ вход: fill_matcher проставляет stake_actual, найдя сделку
+    ончейн. В журнал пишутся все алерты, т.е. кандидаты — без этой проверки
+    mark-to-market рисует P&L по позициям, которых у оператора нет.
+    Полевой баг 08.08.2026: 44 из 50 «открытых» строк были фантомами, бот звал
+    «фиксируй прибыль $59.92» по несуществующей позиции."""
+    try:
+        return float(row.get("stake_actual") or 0) > 0
+    except (TypeError, ValueError):
+        return False
+
+
 def _is_open(row: dict) -> bool:
     """A position is open unless explicitly closed."""
     return str(row.get("status", "open")).lower() == "open"
@@ -153,6 +165,10 @@ def scan_open_positions(
     signals = []
     for row in rows:
         if not _is_open(row):
+            continue
+        # Только РЕАЛЬНЫЕ позиции: строка журнала без подтверждённого входа —
+        # это алерт-кандидат, а не сделка. См. _has_real_fill.
+        if not _has_real_fill(row):
             continue
         # YES-позиции (новая стратегия средней зоны) НЕ мониторим этой логикой —
         # она целиком NO-центрична (entry_no, current_no, edge=(1-cur)-ai_yes).
