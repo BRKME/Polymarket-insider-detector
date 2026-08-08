@@ -143,6 +143,12 @@
 "resolved": false,
 "thesis_key": "will donavan mckinney be the democratic"
 },
+"0x30174f3f46398e37c96a07b45916e01eab9a8a854ecb624ac73a91a8490fd074": {
+"alerted_at": null,
+"last_edge": 0.3075,
+"resolved": false,
+"thesis_key": "us announces end of iranian blockade"
+},
 "0x325e6ab1dd315e6f435183fbf7dff8a7c4be37f9bbf7abcd4459e75110aa9f1d": {
 "alerted_at": "2026-08-07T02:04:35.244848+00:00",
 "last_edge": 0.3025,
