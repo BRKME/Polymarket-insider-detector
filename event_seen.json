@@ -125,12 +125,6 @@
 "resolved": false,
 "thesis_key": "will spain win the world cup"
 },
-"0x2bde6486e7067f48ee21344d8b5c1af458732536eb4d080932c88c3a7c2d2126": {
-"alerted_at": "2026-06-11T20:12:07.994636+00:00",
-"last_edge": 0.22,
-"resolved": false,
-"thesis_key": "starmer out"
-},
 "0x2c6d1aa280e932f204b980818bc743239ebdeebcc5b4dd93893d41e460b4938f": {
 "alerted_at": "2026-07-03T13:35:52.972686+00:00",
 "last_edge": 0.199,
@@ -154,12 +148,6 @@
 "last_edge": 0.3025,
 "resolved": false,
 "thesis_key": "will nvidia be the largest company"
-},
-"0x32b09f6390252b37d674501527e709016d55581b2c1e544bd4b8167f5f732f4c": {
-"alerted_at": "2026-06-10T14:57:47.835284+00:00",
-"last_edge": 0.475,
-"resolved": false,
-"thesis_key": "will jesus christ return"
 },
 "0x372ab700cf01a9411d79dbfe13bf952c29f3be870d498313510f6c2aec360b13": {
 "alerted_at": "2026-07-05T01:53:54.039473+00:00",
@@ -216,8 +204,8 @@
 "thesis_key": "will united russia er gain the"
 },
 "0x518df6d694ad4658fe6c284850c029c6f00c9b3609cf05f7757d1fecba1641f8": {
-"alerted_at": "2026-07-01T14:08:06.904727+00:00",
-"last_edge": 0.1866,
+"alerted_at": "2026-08-08T12:23:49.112709+00:00",
+"last_edge": 0.3226,
 "resolved": false,
 "thesis_key": "us iran 60 day negotiation period"
 },
@@ -244,12 +232,6 @@
 "last_edge": 0.445,
 "resolved": false,
 "thesis_key": "spacex ipo closing cap above 2t"
-},
-"0x67f3f8d0a0ecdfc008c99650284a4674388a8c3029b0eb7ca0abd65dde8d996f": {
-"alerted_at": "2026-06-12T02:32:20.754376+00:00",
-"last_edge": 0.656,
-"resolved": false,
-"thesis_key": "will nicol s maduro be the"
 },
 "0x684e5b72d4e407695397a79ed75ef37273c2655ca2548791a4153233d3744696": {
 "alerted_at": "2026-07-02T02:07:03.662846+00:00",
@@ -401,12 +383,6 @@
 "resolved": false,
 "thesis_key": "strait of hormuz traffic returns to"
 },
-"0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2": {
-"alerted_at": null,
-"last_edge": 0.4925,
-"resolved": false,
-"thesis_key": "will bitcoin hit 1m"
-},
 "0xbdb44ce1624dbf80fe70a96e7cb027b854aa44c52cf87a6bd0bc9ea2c332c3dc": {
 "alerted_at": "2026-06-11T20:12:07.994636+00:00",
 "last_edge": 0.305,
@@ -424,12 +400,6 @@
 "last_edge": 0.1343,
 "resolved": false,
 "thesis_key": "will kimi antonelli be the f1"
-},
-"0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56": {
-"alerted_at": null,
-"last_edge": null,
-"resolved": false,
-"thesis_key": "will bitcoin dip to 50 000"
 },
 "0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271": {
 "alerted_at": "2026-08-05T13:33:27.814132+00:00",
@@ -502,11 +472,5 @@
 "last_edge": null,
 "resolved": false,
 "thesis_key": "will abelardo de la espriella win"
-},
-"0xff68b32e6543ae8b44ccb520604b6ea224a1bac071a186fb65f6f40949a758df": {
-"alerted_at": "2026-06-12T02:32:20.754376+00:00",
-"last_edge": 0.365,
-"resolved": false,
-"thesis_key": "iran agrees to end enrichment of"
 }
 }
