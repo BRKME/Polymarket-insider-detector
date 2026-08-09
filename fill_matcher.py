@@ -212,9 +212,28 @@ def run() -> None:
     print(f"[{datetime.now(timezone.utc).isoformat()}] fill-match: "
           f"{open_n} open positions")
     rows, n = apply_fills(rows, fetch_trades_fn=_fetch_trades)
-    if n:
+
+    # Сверка с реальным портфелем: позиции, которых там больше нет, оператор
+    # продал сам. Без этого журнал расходится с реальностью при каждом ручном
+    # выходе (09.08.2026: журнал числил $109.61 при портфеле $84.89).
+    sold_n = 0
+    try:
+        import position_sync as ps
+        from daily_status import _fetch_positions
+        positions = _fetch_positions() or []
+        if positions:
+            rows, sold_n = ps.apply_sold(rows, positions)
+            if sold_n:
+                print(f"  🔻 обнаружено продаж: {sold_n} — помечены закрытыми")
+        else:
+            print("  портфель недоступен — сверка продаж пропущена (защита)")
+    except Exception as e:
+        print(f"  сверка продаж не выполнена: {e}")
+
+    if n or sold_n:
         _save_journal(rows)
-        print(f"  ✅ auto-filled {n} position(s) from on-chain trades.")
+        if n:
+            print(f"  ✅ auto-filled {n} position(s) from on-chain trades.")
     else:
         print("  no new fills matched (positions stay unconfirmed).")
 
