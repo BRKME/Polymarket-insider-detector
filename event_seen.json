@@ -89,12 +89,6 @@
 "resolved": false,
 "thesis_key": "will argentina be eliminated in the"
 },
-"0x1e5204036bd51e6ca0e0da6221319c5839bd9940782adc6d0f6fa703aa8a3bf4": {
-"alerted_at": "2026-08-05T13:33:27.814132+00:00",
-"last_edge": 0.3522,
-"resolved": false,
-"thesis_key": "will hamas agree to disarm"
-},
 "0x210b43715f5132313293f66b4d164850a13946e6ced9def3047c0ec47cb0cc29": {
 "alerted_at": "2026-07-02T13:28:36.982928+00:00",
 "last_edge": 0.1946,
@@ -106,12 +100,6 @@
 "last_edge": 0.1625,
 "resolved": false,
 "thesis_key": "will mojtaba khamenei be head of"
-},
-"0x26a6c7e4a905dfc13f23c44a8e41d0b96ad60569ef49869c46c237dfd8f3c003": {
-"alerted_at": "2026-08-03T01:31:06.603552+00:00",
-"last_edge": 0.352,
-"resolved": false,
-"thesis_key": "will darline graham nordone be the"
 },
 "0x271e1d96693db79b42a277dc5f64b61a72bc1a0fad85586fd28c7d89b9b96231": {
 "alerted_at": null,
@@ -226,6 +214,12 @@
 "last_edge": 0.3508,
 "resolved": false,
 "thesis_key": "us x iran effective ceasefire"
+},
+"0x65bbe9ee978b2e7f99596407bd92599db3600cbd19e0ef6cba303553c5cd3b84": {
+"alerted_at": "2026-08-10T00:51:44.548330+00:00",
+"last_edge": 0.3479,
+"resolved": false,
+"thesis_key": "will sinner win the men s"
 },
 "0x6619036865c2d27f1b1c00cd565ce74f6aa72ef93be29c315be36941d3559c59": {
 "alerted_at": "2026-06-10T20:16:54.524891+00:00",
@@ -413,12 +407,6 @@
 "resolved": false,
 "thesis_key": "will ethereum dip to 1 500"
 },
-"0xd17e44ec063959238b3e4587475977a584618f7e18892d7b13b47051dbaa9a35": {
-"alerted_at": "2026-07-04T01:48:35.506863+00:00",
-"last_edge": 0.2198,
-"resolved": false,
-"thesis_key": "will the fed pause pause pause"
-},
 "0xd32ac3b2db228eb03d6385b5f0747b7013e0ff717a20e63c75fc74824b91d6b2": {
 "alerted_at": "2026-07-12T12:53:06.221460+00:00",
 "last_edge": 0.3479,
@@ -448,6 +436,12 @@
 "last_edge": 0.1546,
 "resolved": false,
 "thesis_key": "will luiz in cio lula da"
+},
+"0xdf9bf27ee5757c55b44b8b9826ddc9ec3a8809aa3278634c45edbb7fc8f1a3e3": {
+"alerted_at": null,
+"last_edge": 0.275,
+"resolved": false,
+"thesis_key": "will there be no change in"
 },
 "0xe5ee21163ff506e5b1db1c3173595e5809a71857d95a0189c20fd9a4ef02aa70": {
 "alerted_at": "2026-07-04T12:59:38.565022+00:00",
