@@ -137,6 +137,12 @@
 "resolved": false,
 "thesis_key": "us announces end of iranian blockade"
 },
+"0x307a1ed89d60b61002dd5bbf00e1408c5ed2ab3fcdb056191ca7ef9bc34d38f3": {
+"alerted_at": null,
+"last_edge": 0.0475,
+"resolved": false,
+"thesis_key": "will the democratic party control the"
+},
 "0x325e6ab1dd315e6f435183fbf7dff8a7c4be37f9bbf7abcd4459e75110aa9f1d": {
 "alerted_at": "2026-08-07T02:04:35.244848+00:00",
 "last_edge": 0.3025,
