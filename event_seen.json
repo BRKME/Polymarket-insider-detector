@@ -83,6 +83,12 @@
 "resolved": false,
 "thesis_key": "will paraguay be eliminated in the"
 },
+"0x1c4c6a698f0591ddf0c96e1beb56f8c75112ef849331bf3b0388f14830a7421d": {
+"alerted_at": "2026-08-12T00:57:45.750884+00:00",
+"last_edge": 0.0025,
+"resolved": false,
+"thesis_key": "israel x iran ceasefire continues through"
+},
 "0x1d659678cf359d8ae3d8fae2bd0c889d3bcffdac6b4620aef61342ea8a4a5f66": {
 "alerted_at": "2026-07-16T01:24:17.002925+00:00",
 "last_edge": 0.2754,
@@ -394,6 +400,12 @@
 "last_edge": 0.595,
 "resolved": false,
 "thesis_key": "starmer out"
+},
+"0xc4ebab9f2830f6df67ab1b98615d5a9be8eebd106fd0f37e9a25e4a4edcc427c": {
+"alerted_at": "2026-08-12T00:57:45.750884+00:00",
+"last_edge": 0.2874,
+"resolved": false,
+"thesis_key": "will no qualifying diplomatic us iran"
 },
 "0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6": {
 "alerted_at": "2026-07-09T01:49:18.573897+00:00",
