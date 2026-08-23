@@ -1,44 +1,14 @@
 [
 {
-"wallet": "0x9319a045cdd0c2180e5eb7ad44374383db9a6410",
-"name": "sainttroplay",
-"eff": 0.623,
-"pnl": 998508
-},
-{
-"wallet": "0x983eedfbd75803602e4a6e6ea9aab6dc6b9c6748",
-"name": "3edmond.dantes",
-"eff": 0.594,
-"pnl": 527634
-},
-{
-"wallet": "0x3eb095d871501a1d7a3cb086a22d174b52356a68",
-"name": "predictionlegend",
-"eff": 0.375,
-"pnl": 218421
-},
-{
-"wallet": "0x86dab59a8a6e7f9947282d2117aab3429b706428",
-"name": "bigspending",
-"eff": 0.352,
-"pnl": 215739
-},
-{
-"wallet": "0x1ab3580b6d258e31ca0a3efdb93173d081dd64af",
-"name": "Satisfied",
-"eff": 0.295,
-"pnl": 154421
+"wallet": "0x34dd4a4b70eaf79a17878f7938263c801d4dfd83",
+"name": "vito3corleone",
+"eff": 0.537,
+"pnl": 1284093
 },
 {
 "wallet": "0xc3acf5878a03523d09a3ac859943445d7baeb964",
 "name": "mentionmarket",
-"eff": 0.283,
-"pnl": 196475
-},
-{
-"wallet": "0xc72d7dcdb23597d143a83536fb97b1d7db7efc21",
-"name": "HongYunX",
-"eff": 0.265,
-"pnl": 167895
+"eff": 0.314,
+"pnl": 254930
 }
 ]
