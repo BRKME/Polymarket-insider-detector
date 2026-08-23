@@ -47,6 +47,12 @@
 "resolved": false,
 "thesis_key": "will karen bass win the los"
 },
+"0x1239389645c8a73b170b78ef3a83d69b6cf1d2711d412829ea8836660b08fc93": {
+"alerted_at": "2026-08-23T00:35:46.339966+00:00",
+"last_edge": 0.3508,
+"resolved": false,
+"thesis_key": "will bitcoin reach 85 000"
+},
 "0x12dc2b61723b2a54fc1947a307389b5f32038e7a29a0e936ad1fe410b969d06a": {
 "alerted_at": "2026-08-02T01:29:39.608734+00:00",
 "last_edge": 0.3174,
@@ -256,6 +262,12 @@
 "last_edge": 0.1414,
 "resolved": false,
 "thesis_key": "spain leading at halftime"
+},
+"0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0": {
+"alerted_at": null,
+"last_edge": 0.2279,
+"resolved": false,
+"thesis_key": "will there be no change in"
 },
 "0x724a93f3e0ed0a6c83d2b4f2bc60839b39a92cc2c7cbac0169447f48d72537ab": {
 "alerted_at": "2026-06-10T20:16:54.524891+00:00",
