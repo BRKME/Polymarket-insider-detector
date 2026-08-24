@@ -485,11 +485,23 @@
 "resolved": false,
 "thesis_key": "will there be no change in"
 },
+"0xe51b0cdb413eb9a18243e70c1f33705cdab18f4149b867f32f05650e758d8070": {
+"alerted_at": "2026-08-24T00:35:35.256978+00:00",
+"last_edge": 0.3175,
+"resolved": false,
+"thesis_key": "will russia enter dobropillia"
+},
 "0xe5ee21163ff506e5b1db1c3173595e5809a71857d95a0189c20fd9a4ef02aa70": {
 "alerted_at": "2026-07-04T12:59:38.565022+00:00",
 "last_edge": 0.043,
 "resolved": false,
 "thesis_key": "will norway be eliminated in the"
+},
+"0xe7a464eaf3aa5f378aeb08cef1d23ddb58f75b46aba414e8b66a2a451f168a7d": {
+"alerted_at": null,
+"last_edge": 0.2179,
+"resolved": false,
+"thesis_key": "us x iran diplomatic meeting"
 },
 "0xed5a9e7831ee363d92cb102f2c21e2465b09196ef5beb7c8e23671851a1c3ca4": {
 "alerted_at": "2026-08-03T01:31:06.603552+00:00",
