@@ -176,8 +176,7 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     for p in positions:
         invested = float(p.get("initialValue") or 0)
         current = float(p.get("currentValue") or 0)
-        pnl = float(p.get("cashPnl") if p.get("cashPnl") is not None
-                    else current - invested)
+        pnl = position_pnl_value(p)   # см. функцию: cashPnl для открытой врёт
         total_invested += invested
         total_current += current
         total_pnl += pnl
@@ -198,7 +197,8 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
             cur = float(p.get("curPrice") or 0)
             hint = None
             if avg > 0 and cur > 0:
-                hint = position_action_hint(avg, cur, jr.get("ai_yes_estimate"), hd)
+                hint = position_action_hint(avg, cur, jr.get("ai_yes_estimate"), hd,
+                                            side=str(jr.get("side", "NO")))
             line = f"{marker} {q}\n  {ret_pct:+.0f}% (${pnl:+.0f})"
             if hint:
                 line += f"\n  → {hint}"
@@ -239,8 +239,22 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     return "\n".join(parts)
 
 
+def position_pnl_value(p: dict) -> float:
+    """Нереализованный P&L открытой позиции = стоимость − вложено.
+
+    НЕ берём cashPnl: в Polymarket это РЕАЛИЗОВАННЫЙ денежный поток, а для
+    открытой позиции он не отражает прибыль. Полевой баг 15.08.2026 — статус
+    сам себе противоречил: «P&L −$25 от $86» рядом с «Позиции: $91».
+    """
+    try:
+        return float(p.get("currentValue") or 0) - float(p.get("initialValue") or 0)
+    except (TypeError, ValueError):
+        return 0.0
+
+
 def position_action_hint(entry: float, current: float, ai_yes: Optional[float],
-                         horizon_days: Optional[float]) -> Optional[str]:
+                         horizon_days: Optional[float],
+                         side: str = "NO") -> Optional[str]:
     """Мягкая подсказка действия по небинарной позиции (или None).
 
     Порядок: фиксация прибыли → слом тезиса (режь) → докуп на просадке при
@@ -249,30 +263,31 @@ def position_action_hint(entry: float, current: float, ai_yes: Optional[float],
     if entry <= 0 or current <= 0:
         return None
     ret_pct = (current / entry - 1.0) * 100.0
+    lbl = "YES" if str(side).upper() == "YES" else "NO"
 
     # 1. Прибыль доросла до зоны фиксации (по цене ИЛИ по доходности)
     if current >= EXIT_PARTIAL_PRICE or ret_pct >= TAKE_PROFIT_RET_PCT:
-        return (f"NO {entry*100:.0f}¢→{current*100:.0f}¢ (+{ret_pct:.0f}%) — "
+        return (f"{lbl} {entry*100:.0f}¢→{current*100:.0f}¢ (+{ret_pct:.0f}%) — "
                 f"можно зафиксировать (продать часть/всё), не ждать резолва")
 
     # текущий edge = (1 - current_no) - ai_yes — насколько NO ещё недооценён
     cur_edge = None
     if ai_yes is not None:
-        cur_edge = (1 - current) - ai_yes
+        cur_edge = ((1 - current) - ai_yes) if lbl == "NO" else (ai_yes - current)
 
     # 2. Тезис сломан: цена против нас И edge инвертировался
     if ret_pct < ADD_DRAWDOWN_PCT and cur_edge is not None and cur_edge <= EXIT_STOP_EDGE:
-        return (f"NO {entry*100:.0f}¢→{current*100:.0f}¢ ({ret_pct:.0f}%) — "
+        return (f"{lbl} {entry*100:.0f}¢→{current*100:.0f}¢ ({ret_pct:.0f}%) — "
                 f"AI пересмотрел YES вверх, тезис под вопросом → рассмотри выход (режь)")
 
     # 3. Просадка, но тезис цел -> кандидат на докуп
     if ret_pct < ADD_DRAWDOWN_PCT and ai_yes is not None and ai_yes <= THESIS_INTACT_AI_YES:
-        return (f"NO {entry*100:.0f}¢→{current*100:.0f}¢ ({ret_pct:.0f}%) — "
+        return (f"{lbl} {entry*100:.0f}¢→{current*100:.0f}¢ ({ret_pct:.0f}%) — "
                 f"просадка, но тезис цел (AI YES {ai_yes*100:.0f}%) → можно докупить дешевле")
 
     # 4. Близко к резолву
     if horizon_days is not None and 0 <= horizon_days <= NEAR_RESOLUTION_DAYS:
-        return (f"NO {current*100:.0f}¢ — резолв через {horizon_days:.0f}д, "
+        return (f"{lbl} {current*100:.0f}¢ — резолв через {horizon_days:.0f}д, "
                 f"реши: держать до конца или зафиксировать сейчас")
 
     return None
