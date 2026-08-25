@@ -228,7 +228,7 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
         parts.append(realized)
     has_hint = any("→" in line for _, line in detail_lines)
     if detail_lines:
-        parts.append("\nДвигались / близко к резолву:")
+        parts.append("\nТребуют решения:")
         ranked = sorted(detail_lines, key=lambda x: x[0], reverse=True)
         for _, line in ranked[:12]:       # топ-12, чтобы сообщение не раздувалось
             parts.append(line)
@@ -393,7 +393,7 @@ def build_daily_status(journal: List[dict],
     parts = [header]
     has_hint = any("→" in line for _, line in detail_lines)
     if detail_lines:
-        parts.append("\nДвигались / близко к резолву:")
+        parts.append("\nТребуют решения:")
         # сортировка по величине движения — важное выше
         for _, line in sorted(detail_lines, key=lambda x: x[0], reverse=True):
             parts.append(line)
