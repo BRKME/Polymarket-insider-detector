@@ -199,9 +199,12 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
             if avg > 0 and cur > 0:
                 hint = position_action_hint(avg, cur, jr.get("ai_yes_estimate"), hd,
                                             side=str(jr.get("side", "NO")))
+            # Только то, что требует решения: строка без подсказки повторяет
+            # числа из шапки и не говорит, что делать (правка 15.08.2026).
+            if not hint:
+                continue
             line = f"{marker} {q}\n  {ret_pct:+.0f}% (${pnl:+.0f})"
-            if hint:
-                line += f"\n  → {hint}"
+            line += f"\n  → {hint}"
             detail_lines.append((abs(ret_pct), line))
 
     pnl_pct = (total_pnl / total_invested * 100.0) if total_invested > 0 else 0.0
@@ -234,7 +237,7 @@ def build_status_from_wallet(positions: List[dict], journal: List[dict],
     else:
         parts.append("\nЗаметных движений нет — позиции зреют.")
     if has_hint:
-        parts.append("\n<i>Позиции не бинарны: NO можно продать (зафиксировать) "
+        parts.append("\n<i>Позиции не бинарны: их можно продать (зафиксировать) "
                      "или докупить при движении цены, не дожидаясь резолва.</i>")
     return "\n".join(parts)
 
@@ -356,12 +359,14 @@ def build_daily_status(journal: List[dict],
         if moved or near:
             q = smart_truncate(r.get("question") or "", 44)
             hint = position_action_hint(entry, current,
-                                        r.get("ai_yes_estimate"), hd)
+                                        r.get("ai_yes_estimate"), hd,
+                                        side=str(r.get("side", "NO")))
+            if not hint:
+                continue          # только то, что требует решения — см. выше
             marker = "🟢" if pnl["unrealised"] >= 0 else "🔴"
             line = (f"{marker} {q}\n"
                     f"  {pnl['ret_pct']:+.0f}% (${pnl['unrealised']:+.0f})")
-            if hint:
-                line += f"\n  → {hint}"
+            line += f"\n  → {hint}"
             detail_lines.append((abs(pnl["ret_pct"]), line))
 
     pnl_pct = (total_unreal / total_stake * 100.0) if total_stake > 0 else 0.0
@@ -396,7 +401,7 @@ def build_daily_status(journal: List[dict],
         parts.append("\nЗаметных движений нет — позиции зреют.")
     # дисклеймер про небинарность — только когда есть подсказка действия
     if has_hint:
-        parts.append("\n<i>Позиции не бинарны: NO можно продать (зафиксировать) "
+        parts.append("\n<i>Позиции не бинарны: их можно продать (зафиксировать) "
                      "или докупить при движении цены, не дожидаясь резолва.</i>")
     return "\n".join(parts)
 
