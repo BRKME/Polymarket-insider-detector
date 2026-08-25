@@ -384,8 +384,8 @@
 "thesis_key": "will argentina be eliminated in the"
 },
 "0xa3b36b2d6104d34af4e6c6215fc818e43352e78a748fbfb0b85e3a35f71dec9a": {
-"alerted_at": "2026-07-02T02:07:03.662846+00:00",
-"last_edge": 0.1046,
+"alerted_at": null,
+"last_edge": 0.2079,
 "resolved": false,
 "thesis_key": "will there be no change in"
 },
@@ -418,6 +418,12 @@
 "last_edge": 0.375,
 "resolved": false,
 "thesis_key": "strait of hormuz traffic returns to"
+},
+"0xbb379a14cd03f68c35c279ddbd928a6326f4fd2e21827f8cdaaf59715d6df50e": {
+"alerted_at": "2026-08-25T00:34:13.812863+00:00",
+"last_edge": 0.4358,
+"resolved": false,
+"thesis_key": "will bitcoin reach 90 000"
 },
 "0xbdb44ce1624dbf80fe70a96e7cb027b854aa44c52cf87a6bd0bc9ea2c332c3dc": {
 "alerted_at": "2026-06-11T20:12:07.994636+00:00",
