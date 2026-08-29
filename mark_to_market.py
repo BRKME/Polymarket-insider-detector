@@ -168,16 +168,28 @@ def decide_exit_yes(entry: float, current: float) -> Optional[str]:
 
 
 def position_pnl_yes(entry: float, current: float, stake: float) -> dict:
-    """P&L YES-позиции: прибыль при РОСТЕ цены (обратно NO)."""
+    """P&L YES-позиции: прибыль при РОСТЕ цены (обратно NO).
+
+    Контракт ключей ОБЯЗАН совпадать с position_pnl: _format_signal написан под
+    NO и ждёт shares/value/unrealised/ret_pct. Расхождение ({pnl, pct}) уронило
+    mark_to_market тремя прогонами подряд 29.08.2026 — KeyError 'ret_pct' на
+    первом же YES-сигнале, который дошёл до форматтера.
+    """
+    empty = {"shares": 0.0, "value": 0.0, "unrealised": 0.0, "ret_pct": 0.0}
     try:
         entry = float(entry); current = float(current); stake = float(stake)
     except (TypeError, ValueError):
-        return {"pnl": 0.0, "pct": 0.0}
+        return empty
     if entry <= 0:
-        return {"pnl": 0.0, "pct": 0.0}
+        return empty
     shares = stake / entry
-    pnl = shares * (current - entry)
-    return {"pnl": round(pnl, 2), "pct": round((current - entry) / entry * 100, 1)}
+    value = shares * current
+    return {
+        "shares": round(shares, 2),
+        "value": round(value, 2),
+        "unrealised": round(value - stake, 2),
+        "ret_pct": round((current / entry - 1.0) * 100.0, 1),
+    }
 
 
 def _parse_yes_price(market: Optional[Dict]) -> Optional[float]:
@@ -323,7 +335,8 @@ def _format_signal(s: dict) -> str:
     return (
         f"{label}\n{s['question']}\n"
         f"—————————————————————\n"
-        f"Вход NO {s['entry_no']*100:.0f}% → сейчас {s['current_no']*100:.0f}% "
+        f"Вход {'YES' if str(s.get('side','NO')).upper()=='YES' else 'NO'} "
+        f"{s['entry_no']*100:.0f}% → сейчас {s['current_no']*100:.0f}% "
         f"({s['ret_pct']:+.0f}%)\n"
         f"Ставка ${s['stake']:.0f} · нереализ. P&L ${s['unrealised']:+.2f}"
     )

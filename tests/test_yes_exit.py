@@ -37,15 +37,15 @@ def test_small_dip_is_not_a_cut():
 def test_pnl_yes_profit_direction():
     # YES: цена вверх = прибыль (в отличие от NO)
     p = position_pnl_yes(entry=0.578, current=0.737, stake=15.0)
-    assert p["pnl"] > 0
-    assert p["pct"] > 0
+    assert p["unrealised"] > 0
+    assert p["ret_pct"] > 0
 
 
 def test_pnl_yes_loss_direction():
     p = position_pnl_yes(entry=0.403, current=0.225, stake=5.0)
-    assert p["pnl"] < 0
+    assert p["unrealised"] < 0
 
 
 def test_pnl_zero_entry_safe():
     p = position_pnl_yes(entry=0, current=0.5, stake=10)
-    assert p["pnl"] == 0
+    assert p["unrealised"] == 0
