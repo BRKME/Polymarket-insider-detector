@@ -18,5 +18,9 @@
  "0x15d2e66dcf1d63c5695d6d0e9e2f8e06dd246d00fd5dfc254f2b22baa33bfa1b": {
   "action": "CUT",
   "ts": "2026-08-08T01:46:40.225001+00:00"
+ },
+ "0xc4ebab9f2830f6df67ab1b98615d5a9be8eebd106fd0f37e9a25e4a4edcc427c": {
+  "action": "TAKE_PARTIAL",
+  "ts": "2026-08-29T16:22:44.566242+00:00"
  }
 }
