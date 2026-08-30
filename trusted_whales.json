@@ -1,14 +1,14 @@
 [
 {
-"wallet": "0x34dd4a4b70eaf79a17878f7938263c801d4dfd83",
-"name": "vito3corleone",
-"eff": 0.537,
-"pnl": 1284093
-},
-{
 "wallet": "0xc3acf5878a03523d09a3ac859943445d7baeb964",
 "name": "mentionmarket",
-"eff": 0.314,
-"pnl": 254930
+"eff": 0.363,
+"pnl": 782585
+},
+{
+"wallet": "0xd3a0b4e941b557d33a8efd5a51c581e7c79cf136",
+"name": "0xd3A0b4E941B557D33A",
+"eff": 0.261,
+"pnl": 448968
 }
 ]
