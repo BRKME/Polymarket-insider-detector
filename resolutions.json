@@ -86,5 +86,13 @@
 "0x518df6d694ad4658fe6c284850c029c6f00c9b3609cf05f7757d1fecba1641f8": {
 "outcome": "No",
 "resolved_at": "2026-08-21T06:31:39.847651+00:00"
+},
+"0x61c2b9e70f7fdf3441fd1cfa2c8fa93308fefe3f5ecc2db87c393efab3a207a3": {
+"outcome": "Yes",
+"resolved_at": "2026-09-01T10:51:33.660456+00:00"
+},
+"0x325e6ab1dd315e6f435183fbf7dff8a7c4be37f9bbf7abcd4459e75110aa9f1d": {
+"outcome": "Yes",
+"resolved_at": "2026-09-01T10:51:35.266543+00:00"
 }
 }
