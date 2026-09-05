@@ -83,6 +83,12 @@
 "resolved": false,
 "thesis_key": "us iran nuclear deal"
 },
+"0x18b1c135d0a40c5894da9412e77311827d9caf16cf4cd6591b247a34730af919": {
+"alerted_at": "2026-09-05T01:44:53.274770+00:00",
+"last_edge": 0.3811,
+"resolved": false,
+"thesis_key": "will j d vance win the"
+},
 "0x19b50e58b8352eb7ba6a8face1e29214d1cbca29bf49d325189e089d0ac52072": {
 "alerted_at": "2026-07-01T02:14:53.770332+00:00",
 "last_edge": 0.72,
@@ -100,6 +106,12 @@
 "last_edge": 0.2754,
 "resolved": false,
 "thesis_key": "will argentina be eliminated in the"
+},
+"0x1e4ad3d340dbb9149ec6d2873bf6f519bddc1eb0f89665605fd90d226dd06b78": {
+"alerted_at": null,
+"last_edge": 0.2396,
+"resolved": false,
+"thesis_key": "russia x ukraine ceasefire agreement"
 },
 "0x210b43715f5132313293f66b4d164850a13946e6ced9def3047c0ec47cb0cc29": {
 "alerted_at": "2026-07-02T13:28:36.982928+00:00",
@@ -460,6 +472,12 @@
 "last_edge": 0.1382,
 "resolved": false,
 "thesis_key": "will ethereum dip to 1 500"
+},
+"0xcfbc2e5fbabb9e8a03bf234367244d4c97eaaf3ac33e2ba001541ee3e0e62416": {
+"alerted_at": "2026-09-05T01:44:53.274770+00:00",
+"last_edge": 0.4392,
+"resolved": false,
+"thesis_key": "israel closes its airspace"
 },
 "0xd32ac3b2db228eb03d6385b5f0747b7013e0ff717a20e63c75fc74824b91d6b2": {
 "alerted_at": "2026-07-12T12:53:06.221460+00:00",
