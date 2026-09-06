@@ -1,14 +1,50 @@
 [
 {
-"wallet": "0xc3acf5878a03523d09a3ac859943445d7baeb964",
-"name": "mentionmarket",
-"eff": 0.363,
-"pnl": 782585
+"wallet": "0x995fa77aefb11f22298c61ba93926000d50bbe04",
+"name": "BerlinerBoy",
+"eff": 0.534,
+"pnl": 57005
 },
 {
-"wallet": "0xd3a0b4e941b557d33a8efd5a51c581e7c79cf136",
-"name": "0xd3A0b4E941B557D33A",
-"eff": 0.261,
-"pnl": 448968
+"wallet": "0xad2b18343919cf24b56b6f822360937ab322f091",
+"name": "b324u",
+"eff": 0.519,
+"pnl": 105186
+},
+{
+"wallet": "0x42477970683d4d0a52ec7082fee5d760cc5591c4",
+"name": "",
+"eff": 0.384,
+"pnl": 79741
+},
+{
+"wallet": "0x7ad71d79a3bb90d0a87a06500fa0fe11663842aa",
+"name": "theowalcott",
+"eff": 0.375,
+"pnl": 236534
+},
+{
+"wallet": "0xe76f0a36d05d215a69f1f84466c8922702a1d40c",
+"name": "Kulilun",
+"eff": 0.328,
+"pnl": 86252
+},
+{
+"wallet": "0x9319a045cdd0c2180e5eb7ad44374383db9a6410",
+"name": "sainttroplay",
+"eff": 0.322,
+"pnl": 941198
+},
+{
+"wallet": "0x0f6f76ced62a911bccef92f50faaff143854d977",
+"name": "totoro3miyazaki",
+"eff": 0.321,
+"pnl": 107920
+},
+{
+"wallet": "0x15a681d447124c90dbd85be526af18ca1611bf5d",
+"name": "SharkbettingCom",
+"eff": 0.276,
+"pnl": 67457
 }
 ]
