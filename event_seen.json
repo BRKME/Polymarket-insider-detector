@@ -294,8 +294,8 @@
 "thesis_key": "us announces new iran agreement ceasefire"
 },
 "0x73d8a8208d23a74937d114a713d6a56cd4161a1068056c52ac74c8419c99da7c": {
-"alerted_at": null,
-"last_edge": 0.165,
+"alerted_at": "2026-09-07T16:48:31.622609+00:00",
+"last_edge": 0.3696,
 "resolved": false,
 "thesis_key": "fed rate hike"
 },
