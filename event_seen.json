@@ -221,6 +221,12 @@
 "resolved": false,
 "thesis_key": "will donald trump announce that the"
 },
+"0x4d9ca2742a07651e2abee20648f041e73c97ef7c2bf048a2c2a202d2a856ced5": {
+"alerted_at": "2026-09-08T01:48:58.938001+00:00",
+"last_edge": 0.1604,
+"resolved": false,
+"thesis_key": "will bitcoin dip to 75 000"
+},
 "0x502a94e5c525766d5ee7f16c6568131ba1b2cbadb69c703af05a6ef00336ed64": {
 "alerted_at": "2026-07-01T14:08:06.904727+00:00",
 "last_edge": 0.3838,
@@ -280,6 +286,12 @@
 "last_edge": 0.1414,
 "resolved": false,
 "thesis_key": "spain leading at halftime"
+},
+"0x6d7203b2161a636a6ad554a986400e29411aecfdb51f91416a0ef9f7b6685e3b": {
+"alerted_at": "2026-09-08T01:48:58.938001+00:00",
+"last_edge": 0.3646,
+"resolved": false,
+"thesis_key": "will bitcoin dip to 70 000"
 },
 "0x723822eb2b143cee54c0bd7c1efba322b21f0051984c266df8879c394f1011c0": {
 "alerted_at": null,
@@ -461,12 +473,6 @@
 "resolved": false,
 "thesis_key": "will anthropic s valuation hit high"
 },
-"0xcd2640464754b9a894ffec98ac11554fdd507ea89ca01237eabb3a6de4a606e6": {
-"alerted_at": "2026-07-09T01:49:18.573897+00:00",
-"last_edge": 0.1343,
-"resolved": false,
-"thesis_key": "will kimi antonelli be the f1"
-},
 "0xcee04ba47d02f6c64642369b34193c355f64de1b9ae425c71ea4efef1989d271": {
 "alerted_at": "2026-08-05T13:33:27.814132+00:00",
 "last_edge": 0.52,
@@ -490,6 +496,12 @@
 "last_edge": 0.601,
 "resolved": false,
 "thesis_key": "israel closes its airspace"
+},
+"0xd1796c09d0d6f876f8580086ae9808ec991784e3a74b25a1830a25de71a78c96": {
+"alerted_at": "2026-09-08T01:48:58.938001+00:00",
+"last_edge": 0.3796,
+"resolved": false,
+"thesis_key": "netanyahu out"
 },
 "0xd32ac3b2db228eb03d6385b5f0747b7013e0ff717a20e63c75fc74824b91d6b2": {
 "alerted_at": "2026-07-12T12:53:06.221460+00:00",
